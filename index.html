@@ -209,6 +209,168 @@
       animation: scrollPulse 2s ease-in-out infinite;
     }
 
+    /* ─── BANNER POP-UP ESTILO CASAS BAHIA ─── */
+    .torres-banner {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 420px;
+      background: rgba(13,23,20,0.95);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 0 1px rgba(168,197,192,0.2);
+      z-index: 10000;
+      transform: translateX(150%);
+      transition: transform 0.5s cubic-bezier(0.34, 1.2, 0.64, 1);
+      overflow: hidden;
+    }
+
+    .torres-banner.show {
+      transform: translateX(0);
+    }
+
+    .banner-header {
+      background: linear-gradient(135deg, var(--pine), var(--obsidian));
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(168,197,192,0.2);
+    }
+
+    .banner-title {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      color: var(--glacier);
+      text-transform: uppercase;
+    }
+
+    .banner-title strong {
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    .close-banner {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: var(--cream);
+      font-size: 1.2rem;
+      cursor: pointer;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      font-family: monospace;
+    }
+
+    .close-banner:hover {
+      background: rgba(255,68,68,0.8);
+      transform: scale(1.05);
+    }
+
+    .video-wrapper {
+      position: relative;
+      background: #000;
+    }
+
+    .video-wrapper iframe {
+      width: 100%;
+      height: 240px;
+      border: none;
+      display: block;
+    }
+
+    .banner-footer {
+      padding: 12px 16px;
+      background: rgba(0,0,0,0.4);
+    }
+
+    .banner-locations {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .location-tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      letter-spacing: 0.1em;
+      color: var(--glacier);
+      background: rgba(168,197,192,0.15);
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .location-tag::before {
+      content: "📍 ";
+      color: var(--gold);
+    }
+
+    .banner-credit {
+      text-align: center;
+      font-size: 0.55rem;
+      color: var(--stone);
+      margin-top: 8px;
+      font-family: 'Space Mono', monospace;
+    }
+
+    .banner-credit a {
+      color: var(--glacier);
+      text-decoration: none;
+    }
+
+    /* Responsivo */
+    @media (max-width: 680px) {
+      .torres-banner {
+        width: calc(100% - 40px);
+        right: 20px;
+        bottom: 20px;
+      }
+      .video-wrapper iframe {
+        height: 200px;
+      }
+    }
+
+    /* Animação de pulso no botão de abrir */
+    @keyframes bannerPulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 4px 15px rgba(168,197,192,0.3); }
+      50% { transform: scale(1.05); box-shadow: 0 6px 25px rgba(168,197,192,0.6); }
+    }
+
+    .banner-toggle-btn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: linear-gradient(135deg, var(--pine), var(--bark));
+      border: 1px solid rgba(168,197,192,0.4);
+      color: var(--cream);
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      padding: 12px 20px;
+      border-radius: 40px;
+      cursor: pointer;
+      z-index: 9999;
+      backdrop-filter: blur(12px);
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      animation: bannerPulse 2s ease-in-out infinite;
+    }
+
+    .banner-toggle-btn:hover {
+      background: var(--gold);
+      color: var(--obsidian);
+      border-color: var(--gold);
+      animation: none;
+    }
+
     /* ─── STATS BAR ─── */
     .stats-bar {
       display: flex;
@@ -635,11 +797,11 @@
 
       <!-- CARD 3 -->
       <a class="project-card" href="https://santa-rita-river-observatory.streamlit.app/" target="_blank">
-        <div class="card-num">003 · ARIZONA · USA</div>
-        <div class="card-region" data-pt="RIO SANTA RITA · ARIZONA, EUA" data-en="SANTA RITA RIVER · ARIZONA, USA" data-es="RÍO SANTA RITA · ARIZONA, EE.UU.">RIO SANTA RITA · ARIZONA, EUA</div>
+        <div class="card-num">003 · FERNANDOPOLIS · SP</div>
+        <div class="card-region" data-pt="RIO SANTA RITA · FERNANDOPOLIS, SP" data-en="SANTA RITA RIVER · FERNANDOPOLIS, SP" data-es="RÍO SANTA RITA · FERNANDÓPOLIS, SP.">RIO SANTA RITA · FERNANDOPOLIS, SP</div>
         <div class="card-title" data-pt="Observatório do Rio Santa Rita" data-en="Santa Rita River Observatory" data-es="Observatorio del Río Santa Rita">Observatório do Rio Santa Rita</div>
-        <p class="card-desc" data-pt="Monitoramento hidrológico e ecológico do Rio Santa Rita no Arizona. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários do sudoeste americano." data-en="Hydrological and ecological monitoring of the Santa Rita River in Arizona. Flow analysis, water quality and climate impacts on riparian ecosystems in the American Southwest." data-es="Monitoreo hidrológico y ecológico del Río Santa Rita en Arizona. Análisis de caudal, calidad del agua e impactos climáticos en ecosistemas ribereños del suroeste americano.">
-          Monitoramento hidrológico e ecológico do Rio Santa Rita no Arizona. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários do sudoeste americano.
+        <p class="card-desc" data-pt="Monitoramento hidrológico e ecológico do Rio Santa Rita em Fernandópolis. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários do sudoeste americano." data-en="Hydrological and ecological monitoring of the Santa Rita River in Fernandópolis. Flow analysis, water quality and climate impacts on riparian ecosystems in the São Paulo." data-es="Monitoreo hidrológico y ecológico del Río Santa Rita en Fernandópolis. Análisis de caudal, calidad del agua e impactos climáticos en ecosistemas ribereños en São Paulo.">
+          Monitoramento hidrológico e ecológico do Rio Santa Rita em Fernandopolis. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários do sudoeste americano.
         </p>
         <div class="card-tags">
           <span class="tag">Python</span>
@@ -733,6 +895,40 @@
 
 </div><!-- end .page -->
 
+<!-- ═══════════════════════════════════════════════
+     BANNER TORRES DEL PAINE (POP-UP ESTILO CASAS BAHIA)
+═══════════════════════════════════════════════════ -->
+
+<!-- Botão flutuante para abrir/fechar o banner -->
+<button class="banner-toggle-btn" id="bannerToggleBtn">
+  <span>🏔️</span> TORRES DEL PAINE
+</button>
+
+<!-- Banner pop-up com vídeo -->
+<div class="torres-banner" id="torresBanner">
+  <div class="banner-header">
+    <span class="banner-title">🌿 <strong>GUIA DE VIAGEM</strong> · TORRES DEL PAINE</span>
+    <button class="close-banner" id="closeBannerBtn">✕</button>
+  </div>
+  <div class="video-wrapper">
+    <iframe 
+      src="https://player.vimeo.com/video/909973083?autoplay=0&loop=1&autopause=0&portrait=0&byline=0&title=0&badge=0&color=a8c5c0" 
+      frameborder="0" 
+      allow="autoplay; fullscreen; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <div class="banner-footer">
+    <div class="banner-locations">
+      <span class="location-tag">Lago Pehoe</span>
+      <span class="location-tag">Mirador Cuernos</span>
+      <span class="location-tag">Base Torres</span>
+    </div>
+    <div class="banner-credit">
+      📹 Vídeo: Monica Civitenga · Torres del Paine NP
+    </div>
+  </div>
+</div>
 
 <!-- ════════════════════════════════
      PATAGONIA CANVAS ANIMATION
@@ -1001,7 +1197,7 @@
     // ── Projects
     { id: "Patagônia\nÁgua",    group: "project",    desc: "Qualidade da água em 18 estações dos principais rios patagônicos (2019–2024).", url: "https://patagonia-water-quality.streamlit.app" },
     { id: "Abelhas\nBrasil",    group: "project",    desc: "Síndrome do colapso das abelhas — 338 colmeias em 5 regiões (2016–2022).", url: "https://bee-colony-collapse-brazil.streamlit.app/" },
-    { id: "Rio\nSanta Rita",    group: "project",    desc: "Observatório hidrológico do Rio Santa Rita, Arizona, EUA.", url: "https://santa-rita-river-observatory.streamlit.app/" },
+    { id: "Rio\nSanta Rita",    group: "project",    desc: "Observatório hidrológico do Rio Santa Rita, Fernandopolis, SP.", url: "https://santa-rita-river-observatory.streamlit.app/" },
 
     // ── Themes
     { id: "Recursos\nHídricos",  group: "theme",     desc: "Monitoramento e gestão de rios, lagos e bacias hidrográficas." },
@@ -1127,7 +1323,8 @@
       let lx = event.clientX - rect.left + 14;
       let ly = event.clientY - rect.top  - 10;
       if (lx + 230 > W) lx = lx - 260;
-      tooltip.style.left = lx + 'px';
+      tooltip.style
+            tooltip.style.left = lx + 'px';
       tooltip.style.top  = ly + 'px';
     })
     .on('mouseleave', function() {
@@ -1184,6 +1381,53 @@
 })();
 </script>
 
+<!-- ════════════════════════════════
+     CONTROLE DO BANNER POP-UP
+════════════════════════════════ -->
+<script>
+// Controle do banner estilo Casas Bahia
+const banner = document.getElementById('torresBanner');
+const toggleBtn = document.getElementById('bannerToggleBtn');
+const closeBtn = document.getElementById('closeBannerBtn');
+
+// Função para abrir o banner
+function openBanner() {
+  banner.classList.add('show');
+}
+
+// Função para fechar o banner
+function closeBanner() {
+  banner.classList.remove('show');
+}
+
+// Abrir banner automaticamente após 2 segundos (como publicidade)
+setTimeout(() => {
+  openBanner();
+}, 2000);
+
+// Fechar ao clicar no X
+closeBtn.addEventListener('click', closeBanner);
+
+// Abrir/fechar ao clicar no botão flutuante
+toggleBtn.addEventListener('click', () => {
+  if (banner.classList.contains('show')) {
+    closeBanner();
+  } else {
+    openBanner();
+  }
+});
+
+// Fechar ao clicar fora do banner (opcional, comportamento estilo modal)
+document.addEventListener('click', (event) => {
+  if (banner.classList.contains('show')) {
+    const isClickInsideBanner = banner.contains(event.target);
+    const isClickOnToggle = toggleBtn.contains(event.target);
+    if (!isClickInsideBanner && !isClickOnToggle) {
+      closeBanner();
+    }
+  }
+});
+</script>
 
 <!-- ════════════════════════════════
      LANGUAGE SWITCHER
@@ -1198,6 +1442,14 @@ function setLang(lang) {
   });
 }
 </script>
+
+<style>
+  /* Animação extra para o anel pulsante do gráfico */
+  @keyframes ringPulse {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.08); }
+  }
+</style>
 
 </body>
 </html>
