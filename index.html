@@ -13,31 +13,41 @@
     
     <style>
         :root {
-            --header-bg: #1a2a3a;
+            /* Paleta de Cores Unificada */
+            --header-bg: #1a2a3a; /* Azul Petróleo Profundo - Do exemplo */
             --header-text: #ffffff;
-            --body-bg: #f8f9fa;
+            --body-bg: #f8f9fa; /* Branco Gelo - Do exemplo */
             --text-primary: #333333;
             --text-secondary: #666666;
-            --accent: #7ab3d4;
+            --accent: #7ab3d4; /* Azul Claro para destaques */
             --card-bg: #ffffff;
             --border-color: rgba(0,0,0,0.1);
+
+            /* Cores originais mantidas para o gráfico */
+            --glacier: #a8c5c0;
+            --gold: #c9a84c;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
+
         html { scroll-behavior: smooth; }
+
         body {
             font-family: 'DM Sans', sans-serif;
             background-color: var(--body-bg);
             color: var(--text-primary);
+            overflow-x: hidden;
         }
 
-        /* ─── HEADER FIXO ─── */
+        /* ─── TOPO (HEADER) COM NAVEGAÇÃO COMPLETA ─── */
         header {
             background-color: var(--header-bg);
             color: var(--header-text);
-            padding: 15px 30px;
-            position: fixed;
-            top: 0; width: 100%;
+            padding: 15px 40px;
+            position: fixed; /* Fixa o topo */
+            top: 0;
+            left: 0;
+            width: 100%;
             z-index: 1000;
             display: flex;
             justify-content: space-between;
@@ -45,128 +55,582 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        .header-left { display: flex; align-items: center; gap: 12px; text-decoration: none; color: white; }
-        .mini-logo { width: 35px; height: auto; }
-        .brand-name { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; letter-spacing: 1px; }
-
-        .nav-menu { display: flex; gap: 15px; list-style: none; flex-wrap: wrap; }
-        .nav-link { 
-            font-family: 'Space Mono', monospace; 
-            font-size: 10px; 
-            text-transform: uppercase; 
-            color: rgba(255,255,255,0.8); 
+        .header-logo-group {
+            display: flex;
+            align-items: center;
+            gap: 15px;
             text-decoration: none;
-            transition: 0.3s;
+            color: var(--header-text);
         }
-        .nav-link:hover { color: white; }
 
-        /* ─── MAIN CONTENT ─── */
-        .main-content { margin-top: 80px; }
-        .section { padding: 5rem 2rem; max-width: 1200px; margin: 0 auto; }
-        .section-label { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--accent); letter-spacing: 0.3em; margin-bottom: 10px; }
-        .section-title { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-style: italic; margin-bottom: 2rem; }
-
-        /* ─── CONTACT SECTION ─── */
-        .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 20px; }
-        .wa-link { 
-            display: block; padding: 15px; background: white; border: 1px solid var(--border-color);
-            text-decoration: none; color: var(--text-primary); font-family: 'Space Mono', monospace;
-            font-size: 0.8rem; border-radius: 5px; transition: 0.3s;
+        .mini-logo {
+            width: 40px;
+            height: auto;
         }
-        .wa-link:hover { border-color: var(--accent); background: #f0f7ff; }
 
-        /* ─── BANNER POPUP (ORIGINAL) ─── */
+        .header-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.6rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .nav-link {
+            font-family: 'Space Mono', monospace;
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 1px;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.2s, opacity 0.2s;
+        }
+
+        .nav-link:hover {
+            color: #ffffff;
+            opacity: 1;
+        }
+
+        /* Ajuste para o conteúdo não ficar escondido atrás do header fixo */
+        .main-content {
+            margin-top: 90px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* ─── SECTION GLOBAL ─── */
+        .section {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.35em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.6rem;
+        }
+
+        .section-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 300;
+            font-style: italic;
+            color: var(--text-primary);
+            margin-bottom: 3.5rem;
+        }
+
+        /* ─── PROJECT CARDS GRID (DO ORIGINAL) ─── */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background-color: var(--card-bg);
+            padding: 2.5rem;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            display: block;
+            color: inherit;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .card-num {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.6rem;
+            letter-spacing: 0.3em;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .card-region {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.6rem;
+        }
+
+        .card-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: var(--text-primary);
+            line-height: 1.2;
+            margin-bottom: 0.8rem;
+        }
+
+        .card-desc {
+            font-size: 0.95rem;
+            font-weight: 300;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 1.8rem;
+        }
+
+        .card-tags {
+            display: flex; flex-wrap: wrap; gap: 0.5rem;
+            margin-bottom: 1.8rem;
+        }
+
+        .tag {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.6rem;
+            letter-spacing: 0.1em;
+            padding: 0.3rem 0.8rem;
+            border: 1px solid rgba(0,0,0,0.1);
+            color: var(--text-secondary);
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+
+        .card-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            letter-spacing: 0.15em;
+        }
+
+        .status-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+        }
+
+        .status-dot.online { background-color: #4ade80; }
+        .status-dot.building { background-color: var(--gold); }
+
+        .card-arrow {
+            position: absolute;
+            bottom: 2.5rem; right: 2.5rem;
+            font-size: 1.5rem;
+            color: var(--accent);
+            opacity: 0;
+            transition: all 0.3s;
+        }
+
+        .project-card:hover .card-arrow { opacity: 1; transform: translateX(5px); }
+
+        /* ─── NETWORK GRAPH SECTION (DO ORIGINAL, MANTIDO ESTILO ESCURO) ─── */
+        .graph-section {
+            padding: 6rem 2rem;
+            background-color: #111e1a; /* Fundo escuro original */
+            color: #f0ebe0;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .graph-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .graph-section .section-title {
+            color: #f0ebe0;
+        }
+
+        #network-graph {
+            width: 100%;
+            height: 600px;
+            position: relative;
+        }
+
+        .graph-tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 0.8rem 1.2rem;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.8rem;
+            color: #ffffff;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            max-width: 250px;
+            z-index: 10;
+            border-radius: 4px;
+        }
+
+        /* ─── BIO SECTION (DO ORIGINAL) ─── */
+        .bio-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .bio-text {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.35rem;
+            font-weight: 300;
+            font-style: italic;
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+
+        .edu-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .edu-item {
+            padding-left: 1.5rem;
+            border-left: 2px solid var(--accent);
+        }
+
+        .edu-degree {
+            font-weight: 500;
+            font-size: 1rem;
+            color: var(--text-primary);
+            margin-bottom: 0.3rem;
+        }
+
+        .edu-school {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+        }
+
+        /* ─── FOOTER (RODAPÉ) AZUL ESCURO NO FINAL ─── */
+        footer {
+            padding: 4rem 2rem;
+            text-align: center;
+            background-color: var(--header-bg); /* Mesma cor do topo */
+            color: var(--header-text);
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .footer-contacts-section {
+            margin-bottom: 3rem;
+        }
+
+        .footer-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .contact-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .wa-link {
+            display: block;
+            padding: 1.2rem;
+            background-color: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            text-decoration: none;
+            color: var(--header-text);
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9rem;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+
+        .wa-link:hover {
+            border-color: var(--accent);
+            background-color: rgba(255,255,255,0.06);
+            transform: translateY(-2px);
+        }
+
+        .wa-link::before {
+            content: "💬";
+            margin-right: 10px;
+        }
+
+        .footer-copy-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-copy-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-copy-link:hover { color: #ffffff; }
+
+        .footer-copy {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            opacity: 0.5;
+        }
+
+        /* ─── BANNER POPUP (DO ORIGINAL, INTEGRADO COM VIMEO CORRETO) ─── */
         .floating-banner {
-            position: fixed; bottom: 30px; right: 30px; width: 320px;
-            background: #0d1714; color: #fff; border-radius: 12px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4); z-index: 2000;
-            display: none; flex-direction: column; overflow: hidden;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 320px;
+            background-color: #0d1714;
+            color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            z-index: 2000;
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
             border: 1px solid rgba(168,197,192,0.2);
         }
+
         .floating-banner.show { display: flex; animation: slideUp 0.5s ease-out; }
+
         @keyframes slideUp { from { transform: translateY(100px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
-        .banner-header { padding: 12px 16px; background: rgba(255,255,255,0.05); display: flex; justify-content: space-between; align-items: center; }
+        .banner-header { padding: 12px 16px; background-color: rgba(255,255,255,0.05); display: flex; justify-content: space-between; align-items: center; }
+
         .banner-header span { font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; color: #a8c5c0; }
-        .close-banner { background: none; border: none; color: #fff; cursor: pointer; font-size: 1.2rem; opacity: 0.5; transition: 0.3s; }
+
+        .close-banner { background: none; border: none; color: #ffffff; cursor: pointer; font-size: 1.2rem; opacity: 0.5; transition: 0.3s; }
+
         .close-banner:hover { opacity: 1; }
 
-        .video-container { width: 100%; aspect-ratio: 16/9; background: #000; }
+        .video-container { width: 100%; aspect-ratio: 16/9; background-color: #000; }
+
         .banner-body { padding: 16px; }
+
         .banner-title { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; margin-bottom: 8px; color: #d4e8e4; }
+
         .banner-desc { font-size: 0.75rem; line-height: 1.5; color: #a8c5c0; margin-bottom: 12px; }
 
         .toggle-banner-btn {
-            position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
-            background: #a8c5c0; border: none; border-radius: 50%; color: #0d1714;
-            cursor: pointer; z-index: 1999; box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-            display: flex; align-items: center; justify-content: center; font-size: 1.2rem;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: #a8c5c0;
+            border: none;
+            border-radius: 50%;
+            color: #0d1714;
+            cursor: pointer;
+            z-index: 1999;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
         }
 
-        /* ─── GRID DE PROJETOS ─── */
-        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        .project-card { background: white; padding: 30px; border-radius: 8px; border: 1px solid var(--border-color); text-decoration: none; color: inherit; transition: 0.3s; }
-        .project-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 992px) {
+            header { flex-direction: column; gap: 15px; padding: 20px; text-align: center; }
+            .header-nav { flex-wrap: wrap; justify-content: center; gap: 10px; }
+            .main-content { margin-top: 160px; }
+        }
+
+        @media (max-width: 768px) {
+            .bio-grid { grid-template-columns: 1fr; gap: 3rem; }
+            .projects-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <a href="#" class="header-left">
-            <img src="assets/img/logo.png" alt="Logo" class="mini-logo">
-            <span class="brand-name">Amauri Almeida</span>
+        <a href="#home" class="header-logo-group">
+            <img src="assets/img/logo.png" alt="Logo" class="mini-logo" />
+            <span class="header-name">Amauri Almeida</span>
         </a>
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="https://github.com/amaurialmeida" target="_blank" class="nav-link">Works</a></li>
-                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">CV</a></li>
-                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">Certificates</a></li>
-                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">Linkedin</a></li>
-                <li><a href="https://github.com/amaurialmeida" target="_blank" class="nav-link">Github</a></li>
-                <li><a href="mailto:amauri@tutamail.com" class="nav-link">E-mail</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+        
+        <ul class="header-nav">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="https://github.com/amaurialmeida" target="_blank" class="nav-link">Works</a></li>
+            <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">CV</a></li>
+            <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">Certificates</a></li>
+            <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">Linkedin</a></li>
+            <li><a href="https://github.com/amaurialmeida" target="_blank" class="nav-link">Github</a></li>
+            <li><a href="mailto:amauri@tutamail.com" class="nav-link">E-mail</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
     </header>
 
-    <div class="main-content">
+    <div class="main-content" id="home">
+
         <section class="section" id="about">
-            <div class="section-label">01 — PROFILE</div>
-            <h2 class="section-title">Environmental Researcher</h2>
-            <p>Técnico e tecnólogo em Gestão Ambiental focado em traduzir dados complexos em soluções sustentáveis.</p>
+            <div class="section-label">O QUE FAÇO?</div>
+            <div class="bio-text">Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvimento de projetos que unem dados e ecologia.</div>
         </section>
 
         <section class="section" id="projects">
-            <div class="section-label">02 — RESEARCH PROJECTS</div>
-            <h2 class="section-title">Ecossistemas em Dados</h2>
+            <div class="section-label">01 — PROJETOS DE PESQUISA</div>
+            <h2 class="section-title">Ecossistemas em dados</h2>
+
             <div class="projects-grid">
-                <a href="https://patagonia-water-quality.streamlit.app" target="_blank" class="project-card">
-                    <div class="section-label" style="font-size: 0.6rem;">PATAGÔNIA</div>
-                    <h3>Qualidade da Água</h3>
-                    <p>Monitoramento geoespacial de rios patagônicos (2019-2024).</p>
+
+                <a class="project-card" href="https://patagonia-water-quality.streamlit.app" target="_blank">
+                    <div class="card-num">001 · CHILE & ARGENTINA</div>
+                    <div class="card-region">PATAGÔNIA · SUL DA AMÉRICA DO SUL</div>
+                    <h3 class="card-title">Qualidade da Água — Patagônia</h3>
+                    <p class="card-desc">Monitoramento geoespacial de 18 estações nos principais rios da Patagônia. IQA, pH, turbidez, oxigênio dissolvido e tendências 2019–2024.</p>
+                    <div class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">Folium</span>
+                        <span class="tag">Plotly</span>
+                        <span class="tag">Geoespacial</span>
+                    </div>
+                    <div class="card-status">
+                        <span class="status-dot online"></span>
+                        <span style="color:var(--text-primary)">ONLINE</span>
+                    </div>
+                    <div class="card-arrow">↗</div>
                 </a>
-                <a href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank" class="project-card">
-                    <div class="section-label" style="font-size: 0.6rem;">BRASIL</div>
-                    <h3>Colapso das Abelhas</h3>
-                    <p>Análise da mortalidade por agrotóxicos em colmeias brasileiras.</p>
+
+                <a class="project-card" href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank">
+                    <div class="card-num">002 · BRASIL · 5 REGIÕES · TCC PREMIADO</div>
+                    <div class="card-region">BRASIL · 5 REGIÕES</div>
+                    <h3 class="card-title">Síndrome do Colapso das Abelhas</h3>
+                    <p class="card-desc">Análise da mortalidade de abelhas por pesticidas e herbicidas em 5 regiões brasileiras (2016–2022). Impacto em 338 colmeias e ~20 milhões de abelhas.</p>
+                    <div class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">Agrotóxicos</span>
+                        <span class="tag">Bioindicadores</span>
+                        <span class="tag">CCD</span>
+                    </div>
+                    <div class="card-status">
+                        <span class="status-dot online"></span>
+                        <span style="color:var(--text-primary)">ONLINE</span>
+                    </div>
+                    <div class="card-arrow">↗</div>
                 </a>
+
+                <a class="project-card" href="https://santa-rita-river-observatory.streamlit.app/" target="_blank">
+                    <div class="card-num">003 · FERNANDÓPOLIS · SP</div>
+                    <div class="card-region">RIO SANTA RITA · FERNANDÓPOLIS, SP</div>
+                    <h3 class="card-title">Observatório do Rio Santa Rita</h3>
+                    <p class="card-desc">Monitoramento hidrológico e ecológico do Rio Santa Rita. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários.</p>
+                    <div class="card-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">Hidrologia</span>
+                        <span class="tag">Ripário</span>
+                        <span class="tag">USGS</span>
+                    </div>
+                    <div class="card-status">
+                        <span class="status-dot online"></span>
+                        <span style="color:var(--text-primary)">ONLINE</span>
+                    </div>
+                    <div class="card-arrow">↗</div>
+                </a>
+
+                <div class="project-card" style="cursor:default; opacity:0.6;">
+                    <div class="card-num">004 · EM DESENVOLVIMENTO</div>
+                    <div class="card-region">PRÓXIMO PROJETO</div>
+                    <h3 class="card-title">+ Novo Projeto</h3>
+                    <p class="card-desc">Nova pesquisa ambiental utilizando inteligência artificial para modelagem preditiva em andamento. Brevemente disponível.</p>
+                    <div class="card-tags">
+                        <span class="tag">IA</span>
+                        <span class="tag">Machine Learning</span>
+                    </div>
+                    <div class="card-status">
+                        <span class="status-dot building"></span>
+                        <span style="color:var(--gold)">EM CONSTRUÇÃO</span>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <section class="section" id="contact">
-            <div class="section-label">03 — CONTACT</div>
-            <h2 class="section-title">Get in Touch</h2>
-            <p>Clique abaixo para iniciar uma conversa direta no WhatsApp:</p>
-            <div class="contact-grid">
+        <section class="graph-section" id="works">
+            <div class="graph-inner">
+                <div class="section-label">02 — REDE DE CONHECIMENTO</div>
+                <h2 class="section-title">Conexões temáticas</h2>
+                <div id="network-graph">
+                    <div class="graph-tooltip" id="graph-tooltip"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="cv">
+            <div class="section-label">03 — PESQUISADOR</div>
+            <h2 class="section-title">Perfil académico</h2>
+            <div class="bio-grid">
+                <div class="bio-text">Formação multidisciplinar para traduzir dados ambientais complexos em conhecimento acessível e aplicável para a preservação de ecossistemas.</div>
+                <ul class="edu-list">
+                    <li class="edu-item">
+                        <div class="edu-degree">Técnico em Meio Ambiente</div>
+                        <div class="edu-school">ESCOLA DO FUTURO — GOIÁS</div>
+                    </li>
+                    <li class="edu-item">
+                        <div class="edu-degree">Tecnólogo em Gestão Ambiental · Nota 3 ENADE</div>
+                        <div class="edu-school">FATEC JUNDIAÍ — SP</div>
+                    </li>
+                    <li class="edu-item">
+                        <div class="edu-degree">Análise e Desenvolvimento de Sistemas</div>
+                        <div class="edu-school">FACINT — MARINGÁ, PR</div>
+                    </li>
+                    <li class="edu-item">
+                        <div class="edu-degree">Pós · IA, Machine Learning & Data Science</div>
+                        <div class="edu-school">FACINT</div>
+                    </li>
+                    <li class="edu-item">
+                        <div class="edu-degree">Pós · Ciência de Dados & Big Data Analytics</div>
+                        <div class="edu-school">FACINT</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </div><footer id="contact">
+        <div class="footer-contacts-section">
+            <span class="footer-label">GET IN TOUCH</span>
+            <div class="contact-links">
                 <a href="https://wa.me/5511942762908" target="_blank" class="wa-link">🇧🇷 Brasil: +55 11 94276-2908</a>
                 <a href="https://wa.me/56961485387" target="_blank" class="wa-link">🇨🇱 Chile: +56 9 6148 5387</a>
                 <a href="https://wa.me/5492966578906" target="_blank" class="wa-link">🇦🇷 Argentina: +54 9 2966 578906</a>
             </div>
-        </section>
-    </div>
+        </div>
+        
+        <div class="footer-copy-links">
+            <a href="https://github.com/amaurialmeida" target="_blank" class="footer-copy-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="footer-copy-link">LinkedIn</a>
+        </div>
+        <div class="footer-copy">© 2024 AMAURI ALMEIDA DE SOUZA JUNIOR · PORTFÓLIO AMBIENTAL</div>
+    </footer>
 
     <div class="floating-banner" id="infoBanner">
         <div class="banner-header">
@@ -174,8 +638,10 @@
             <button class="close-banner" id="closeBanner">&times;</button>
         </div>
         <div class="video-container">
-            <iframe src="https://player.vimeo.com/video/1020786358?h=6409893d56&autoplay=1&loop=1&background=1" 
-                    width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe
+                src="https://player.vimeo.com/video/909973083?h=03006437d2&autoplay=1&loop=1&autopause=0&portrait=0&byline=0&title=0&badge=0" 
+                width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+            </iframe>
         </div>
         <div class="banner-body">
             <h3 class="banner-title">Torres del Paine, Chile</h3>
@@ -184,6 +650,60 @@
     </div>
 
     <button class="toggle-banner-btn" id="toggleBanner">🏔️</button>
+
+    <script>
+        (function() {
+            const nodes = [
+                // Hub Central
+                { id: "Pesquisa\nAmbiental", group: "hub", desc: "Núcleo central." },
+                // Projetos
+                { id: "Patagônia\nÁgua", group: "project", desc: "Qualidade da água.", url: "https://patagonia-water-quality.streamlit.app" },
+                { id: "Abelhas\nBrasil", group: "project", desc: "Colapso das abelhas.", url: "https://bee-colony-collapse-brazil.streamlit.app/" },
+                { id: "Rio\nSanta Rita", group: "project", desc: "Observatório hidrológico.", url: "https://santa-rita-river-observatory.streamlit.app/" },
+                // Temas
+                { id: "Recursos\nHídricos", group: "theme", desc: "Monitoramento hídrico." },
+                { id: "Bioindicadores", group: "theme", desc: "Espécies como indicadores." },
+                { id: "Geoespacial", group: "theme", desc: "Análise de dados espaciais." }
+            ];
+
+            const links = [
+                { source: "Pesquisa\nAmbiental", target: "Patagônia\nÁgua", value: 3 },
+                { source: "Pesquisa\nAmbiental", target: "Abelhas\nBrasil", value: 3 },
+                { source: "Pesquisa\nAmbiental", target: "Rio\nSanta Rita", value: 3 },
+                { source: "Patagônia\nÁgua", target: "Recursos\nHídricos", value: 2 },
+                { source: "Patagônia\nÁgua", target: "Geoespacial", value: 2 },
+                { source: "Abelhas\nBrasil", target: "Bioindicadores", value: 2 }
+            ];
+
+            const container = document.getElementById('network-graph'); const tooltip = document.getElementById('graph-tooltip');
+            const W = container.clientWidth; const H = container.clientHeight;
+            const svg = d3.select(container).append('svg').attr('viewBox', `0 0 ${W} ${H}`).style('overflow', 'visible');
+
+            const colors = { hub: '#a8c5c0', project: '#7ab3d4', theme: '#c9a84c' };
+            const radii = { hub: 25, project: 18, theme: 12 };
+
+            const sim = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(links).id(d => d.id).distance(100))
+                .force('charge', d3.forceManyBody().strength(-200))
+                .force('center', d3.forceCenter(W / 2, H / 2))
+                .force('collision', d3.forceCollide().radius(d => radii[d.group] + 10));
+
+            const link = svg.append('g').selectAll('line').data(links).enter().append('line').style('stroke', 'rgba(255,255,255,0.15)');
+            const node = svg.append('g').selectAll('g').data(nodes).enter().append('g').style('cursor', d => d.url ? 'pointer' : 'default')
+                .call(d3.drag().on('start', dragstarted).on('drag', dragged).on('end', dragended));
+
+            node.append('circle').attr('r', d => radii[d.group]).style('fill', d => colors[d.group] + '33').style('stroke', d => colors[d.group]);
+
+            node.on('mouseover', (event, d) => { tooltip.style.opacity = '1'; tooltip.innerHTML = d.desc; }).on('mousemove', (event) => {
+                const rect = container.getBoundingClientRect(); tooltip.style.left = `${event.clientX - rect.left + 15}px`; tooltip.style.top = `${event.clientY - rect.top - 15}px`;
+            }).on('mouseleave', () => tooltip.style.opacity = '0').on('click', (event, d) => { if (d.url) window.open(d.url, '_blank'); });
+
+            sim.on('tick', () => { link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y); node.attr('transform', d => `translate(${d.x},${d.y})`); });
+            function dragstarted(event, d) { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; }
+            function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
+            function dragended(event, d) { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }
+        })();
+    </script>
 
     <script>
         const banner = document.getElementById('infoBanner');
@@ -195,9 +715,7 @@
 
         setTimeout(openBanner, 2000);
         closeBtn.addEventListener('click', closeBanner);
-        toggleBtn.addEventListener('click', () => {
-            banner.classList.contains('show') ? closeBanner() : openBanner();
-        });
+        toggleBtn.addEventListener('click', () => { banner.classList.contains('show') ? closeBanner() : openBanner(); });
     </script>
 </body>
 </html>
