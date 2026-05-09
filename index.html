@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amauri Almeida — Environmental Research Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <style>
+    :root {
+      --glacier: #a8c5c0;
+      --ice: #d4e8e4;
+      --stone: #6b7a72;
+      --obsidian: #0d1714;
+      --deep: #111e1a;
+      --bark: #2a3830;
+      --moss: #3d5248;
+      --gold: #c9a84c;
+      --cream: #f0ebe0;
+      --rust: #b85c38;
+      --sky: #7ab3d4;
+      --pine: #2d4a3e;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--obsidian);
+      color: var(--cream);
+      overflow-x: hidden;
+    }
+
+    /* ─── PATAGONIA CANVAS BACKGROUND ─── */
+    #patagonia-canvas {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
+      opacity: 0.55;
+    }
+
+    .bg-overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: linear-gradient(
+        180deg,
+        rgba(13,23,20,0.65) 0%,
+        rgba(13,23,20,0.40) 30%,
+        rgba(13,23,20,0.50) 60%,
+        rgba(13,23,20,0.85) 100%
+      );
+      z-index: 1;
+    }
+
+    /* ─── CONTENT WRAPPER ─── */
+    .page {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* ─── LANGUAGE SWITCHER ─── */
+    .lang-bar {
+      position: fixed;
+      top: 1.2rem; right: 1.5rem;
+      display: flex; gap: 0.5rem;
+      z-index: 100;
+    }
+    .lang-btn {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      padding: 0.3rem 0.65rem;
+      border: 1px solid rgba(168,197,192,0.35);
+      background: rgba(13,23,20,0.7);
+      color: var(--glacier);
+      cursor: pointer;
+      transition: all 0.25s;
+      backdrop-filter: blur(8px);
+    }
+    .lang-btn:hover, .lang-btn.active {
+      background: var(--glacier);
+      color: var(--obsidian);
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .hero-monogram {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3rem, 8vw, 7rem);
+      font-weight: 300;
+      letter-spacing: 0.25em;
+      color: var(--glacier);
+      opacity: 0;
+      animation: fadeUp 1.2s ease 0.3s forwards;
+      text-shadow: 0 0 60px rgba(168,197,192,0.4);
+    }
+
+    .hero-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.1rem, 3vw, 1.8rem);
+      font-weight: 300;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--cream);
+      margin-top: 0.5rem;
+      opacity: 0;
+      animation: fadeUp 1.2s ease 0.55s forwards;
+    }
+
+    .hero-tagline {
+      font-family: 'Space Mono', monospace;
+      font-size: clamp(0.6rem, 1.5vw, 0.75rem);
+      letter-spacing: 0.2em;
+      color: var(--stone);
+      margin-top: 1.2rem;
+      opacity: 0;
+      animation: fadeUp 1.2s ease 0.8s forwards;
+    }
+
+    .hero-divider {
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--glacier), transparent);
+      margin: 2rem auto;
+      opacity: 0;
+      animation: fadeUp 1.2s ease 1s forwards;
+    }
+
+    .hero-headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 3.8rem);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--cream);
+      line-height: 1.15;
+      max-width: 700px;
+      opacity: 0;
+      animation: fadeUp 1.2s ease 1.1s forwards;
+    }
+
+    .hero-sub {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: var(--stone);
+      max-width: 500px;
+      line-height: 1.7;
+      margin-top: 1rem;
+      opacity: 0;
+      animation: fadeUp 1.2s ease 1.3s forwards;
+    }
+
+    .hero-links {
+      display: flex; gap: 1.2rem;
+      margin-top: 2.5rem;
+      opacity: 0;
+      animation: fadeUp 1.2s ease 1.5s forwards;
+    }
+
+    .hero-link {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      color: var(--glacier);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(168,197,192,0.3);
+      padding-bottom: 2px;
+      transition: all 0.25s;
+    }
+    .hero-link:hover {
+      color: var(--cream);
+      border-color: var(--cream);
+    }
+
+    .scroll-hint {
+      position: absolute;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+      opacity: 0;
+      animation: fadeUp 1.2s ease 2s forwards;
+    }
+    .scroll-hint span {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      letter-spacing: 0.3em;
+      color: var(--stone);
+      text-transform: uppercase;
+    }
+    .scroll-line {
+      width: 1px; height: 40px;
+      background: linear-gradient(180deg, var(--glacier), transparent);
+      animation: scrollPulse 2s ease-in-out infinite;
+    }
+
+    /* ─── STATS BAR ─── */
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      border-top: 1px solid rgba(168,197,192,0.12);
+      border-bottom: 1px solid rgba(168,197,192,0.12);
+      background: rgba(13,23,20,0.6);
+      backdrop-filter: blur(12px);
+    }
+    .stat-item {
+      flex: 1;
+      max-width: 200px;
+      padding: 1.8rem 1rem;
+      text-align: center;
+      border-right: 1px solid rgba(168,197,192,0.12);
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: var(--glacier);
+      line-height: 1;
+    }
+    .stat-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      letter-spacing: 0.2em;
+      color: var(--stone);
+      margin-top: 0.3rem;
+      text-transform: uppercase;
+    }
+
+    /* ─── SECTION ─── */
+    .section {
+      padding: 6rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.35em;
+      color: var(--glacier);
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--cream);
+      margin-bottom: 3.5rem;
+    }
+
+    /* ─── PROJECT CARDS GRID ─── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr));
+      gap: 1.5px;
+      background: rgba(168,197,192,0.08);
+      border: 1px solid rgba(168,197,192,0.08);
+    }
+
+    .project-card {
+      background: rgba(13,23,20,0.75);
+      backdrop-filter: blur(12px);
+      padding: 2.5rem;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.35s;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+    .project-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 2px;
+      background: linear-gradient(90deg, var(--glacier), var(--sky));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.45s ease;
+    }
+    .project-card:hover::before { transform: scaleX(1); }
+    .project-card:hover { background: rgba(42,56,48,0.7); }
+
+    .card-num {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      letter-spacing: 0.3em;
+      color: var(--stone);
+      margin-bottom: 1.5rem;
+    }
+
+    .card-region {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      color: var(--glacier);
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+
+    .card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.65rem;
+      font-weight: 400;
+      color: var(--cream);
+      line-height: 1.2;
+      margin-bottom: 0.8rem;
+    }
+
+    .card-desc {
+      font-size: 0.85rem;
+      font-weight: 300;
+      color: rgba(240,235,224,0.65);
+      line-height: 1.7;
+      margin-bottom: 1.8rem;
+    }
+
+    .card-tags {
+      display: flex; flex-wrap: wrap; gap: 0.4rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .tag {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      letter-spacing: 0.1em;
+      padding: 0.25rem 0.65rem;
+      border: 1px solid rgba(168,197,192,0.25);
+      color: var(--glacier);
+    }
+
+    .card-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
+      letter-spacing: 0.15em;
+    }
+    .status-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+    }
+    .status-dot.online { background: #4ade80; box-shadow: 0 0 8px #4ade80; }
+    .status-dot.building { background: var(--gold); box-shadow: 0 0 8px var(--gold); }
+
+    .card-arrow {
+      position: absolute;
+      bottom: 2.5rem; right: 2.5rem;
+      font-size: 1.2rem;
+      color: var(--glacier);
+      opacity: 0;
+      transform: translate(-6px, 6px);
+      transition: all 0.3s;
+    }
+    .project-card:hover .card-arrow { opacity: 1; transform: translate(0, 0); }
+
+    /* ─── NETWORK GRAPH SECTION ─── */
+    .graph-section {
+      padding: 6rem 2rem;
+      background: rgba(13,23,20,0.5);
+      backdrop-filter: blur(8px);
+      border-top: 1px solid rgba(168,197,192,0.08);
+      border-bottom: 1px solid rgba(168,197,192,0.08);
+    }
+
+    .graph-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    #network-graph {
+      width: 100%;
+      height: 580px;
+      position: relative;
+    }
+
+    #network-graph svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .graph-tooltip {
+      position: absolute;
+      background: rgba(13,23,20,0.95);
+      border: 1px solid rgba(168,197,192,0.3);
+      padding: 0.7rem 1rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.78rem;
+      color: var(--cream);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+      max-width: 220px;
+      z-index: 10;
+      backdrop-filter: blur(8px);
+    }
+    .graph-tooltip strong {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: var(--glacier);
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    /* ─── BIO SECTION ─── */
+    .bio-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    @media (max-width: 720px) { .bio-grid { grid-template-columns: 1fr; gap: 2rem; } }
+
+    .bio-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.8;
+      color: rgba(240,235,224,0.85);
+    }
+
+    .edu-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .edu-item {
+      padding-left: 1.2rem;
+      border-left: 1px solid rgba(168,197,192,0.25);
+    }
+
+    .edu-degree {
+      font-weight: 500;
+      font-size: 0.88rem;
+      color: var(--cream);
+      margin-bottom: 0.2rem;
+    }
+
+    .edu-school {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--stone);
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      padding: 3rem 2rem;
+      text-align: center;
+      border-top: 1px solid rgba(168,197,192,0.08);
+      background: rgba(13,23,20,0.8);
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-link {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--stone);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-link:hover { color: var(--glacier); }
+
+    .footer-copy {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.55rem;
+      letter-spacing: 0.2em;
+      color: rgba(107,122,114,0.5);
+    }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes scrollPulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 600px) {
+      .stats-bar { flex-wrap: wrap; }
+      .stat-item { min-width: 45%; border-right: none; border-bottom: 1px solid rgba(168,197,192,0.12); }
+      .bio-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- PATAGONIA CANVAS -->
+<canvas id="patagonia-canvas"></canvas>
+<div class="bg-overlay"></div>
+
+<!-- LANGUAGE BAR -->
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('pt')">PT</button>
+  <button class="lang-btn" onclick="setLang('en')">EN</button>
+  <button class="lang-btn" onclick="setLang('es')">ES</button>
+</div>
+
+<div class="page">
+
+  <!-- ─── HERO ─── -->
+  <section class="hero">
+    <div class="hero-monogram">AA</div>
+    <div class="hero-name" data-pt="Amauri Almeida" data-en="Amauri Almeida" data-es="Amauri Almeida">Amauri Almeida</div>
+    <div class="hero-tagline" data-pt="PESQUISA AMBIENTAL · CIÊNCIA DE DADOS · INTELIGÊNCIA ARTIFICIAL" data-en="ENVIRONMENTAL RESEARCH · DATA SCIENCE · ARTIFICIAL INTELLIGENCE" data-es="INVESTIGACIÓN AMBIENTAL · CIENCIA DE DATOS · INTELIGENCIA ARTIFICIAL">
+      PESQUISA AMBIENTAL · CIÊNCIA DE DADOS · INTELIGÊNCIA ARTIFICIAL
+    </div>
+    <div class="hero-divider"></div>
+    <h1 class="hero-headline" data-pt="Dados para um planeta mais verde" data-en="Data for a greener planet" data-es="Datos para un planeta más verde">
+      Dados para um planeta mais verde
+    </h1>
+    <p class="hero-sub" data-pt="Projetos que unem ciência de dados, inteligência artificial e gestão ambiental para monitorar, analisar e proteger ecossistemas naturais." data-en="Projects that unite data science, AI and environmental management to monitor, analyze and protect natural ecosystems." data-es="Proyectos que unen ciencia de datos, IA y gestión ambiental para monitorear, analizar y proteger ecosistemas naturales.">
+      Projetos que unem ciência de dados, inteligência artificial e gestão ambiental para monitorar, analisar e proteger ecossistemas naturais.
+    </p>
+    <div class="hero-links">
+      <a href="https://github.com/amaurialmeida" target="_blank" class="hero-link">GitHub</a>
+      <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="hero-link">LinkedIn</a>
+    </div>
+    <div class="scroll-hint">
+      <span data-pt="PROJETOS" data-en="PROJECTS" data-es="PROYECTOS">PROJETOS</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── STATS ─── -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-num">4</div>
+      <div class="stat-label" data-pt="PROJETOS" data-en="PROJECTS" data-es="PROYECTOS">PROJETOS</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">18</div>
+      <div class="stat-label" data-pt="ESTAÇÕES" data-en="STATIONS" data-es="ESTACIONES">ESTAÇÕES</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">20M</div>
+      <div class="stat-label" data-pt="ABELHAS PERDIDAS" data-en="BEES LOST" data-es="ABEJAS PERDIDAS">ABELHAS PERDIDAS</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">4</div>
+      <div class="stat-label" data-pt="PAÍSES" data-en="COUNTRIES" data-es="PAÍSES">PAÍSES</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">7+</div>
+      <div class="stat-label" data-pt="ANOS DE DADOS" data-en="YEARS OF DATA" data-es="AÑOS DE DATOS">ANOS DE DADOS</div>
+    </div>
+  </div>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section">
+    <div class="section-label" data-pt="01 — PROJETOS DE PESQUISA" data-en="01 — RESEARCH PROJECTS" data-es="01 — PROYECTOS DE INVESTIGACIÓN">01 — PROJETOS DE PESQUISA</div>
+    <h2 class="section-title" data-pt="Ecossistemas em dados" data-en="Ecosystems in data" data-es="Ecosistemas en datos">Ecossistemas em dados</h2>
+
+    <div class="projects-grid">
+
+      <!-- CARD 1 -->
+      <a class="project-card" href="https://patagonia-water-quality.streamlit.app" target="_blank">
+        <div class="card-num">001 · CHILE & ARGENTINA</div>
+        <div class="card-region" data-pt="PATAGÔNIA · SUL DA AMÉRICA DO SUL" data-en="PATAGONIA · SOUTHERN SOUTH AMERICA" data-es="PATAGONIA · SUR DE SUDAMÉRICA">PATAGÔNIA · SUL DA AMÉRICA DO SUL</div>
+        <div class="card-title" data-pt="Qualidade da Água — Patagônia" data-en="Water Quality — Patagonia" data-es="Calidad del Agua — Patagonia">Qualidade da Água — Patagônia</div>
+        <p class="card-desc" data-pt="Monitoramento geoespacial de 18 estações nos principais rios da Patagônia. IQA, pH, turbidez, oxigênio dissolvido e tendências 2019–2024." data-en="Geospatial monitoring of 18 stations on the main Patagonian rivers. WQI, pH, turbidity, dissolved oxygen and 2019–2024 trends." data-es="Monitoreo geoespacial de 18 estaciones en los principales ríos de la Patagonia. ICA, pH, turbidez, oxígeno disuelto y tendencias 2019–2024.">
+          Monitoramento geoespacial de 18 estações nos principais rios da Patagônia. IQA, pH, turbidez, oxigênio dissolvido e tendências 2019–2024.
+        </p>
+        <div class="card-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Streamlit</span>
+          <span class="tag">Folium</span>
+          <span class="tag">Plotly</span>
+          <span class="tag">Geoespacial</span>
+        </div>
+        <div class="card-status">
+          <span class="status-dot online"></span>
+          <span style="color:var(--glacier)" data-pt="ONLINE" data-en="ONLINE" data-es="EN LÍNEA">ONLINE</span>
+        </div>
+        <div class="card-arrow">↗</div>
+      </a>
+
+      <!-- CARD 2 -->
+      <a class="project-card" href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank">
+        <div class="card-num">002 · BRASIL · 5 REGIÕES · TCC</div>
+        <div class="card-region" data-pt="BRASIL · 5 REGIÕES" data-en="BRAZIL · 5 REGIONS" data-es="BRASIL · 5 REGIONES">BRASIL · 5 REGIÕES</div>
+        <div class="card-title" data-pt="Síndrome do Colapso das Abelhas" data-en="Bee Colony Collapse Disorder" data-es="Síndrome de Colapso de Colonias">Síndrome do Colapso das Abelhas</div>
+        <p class="card-desc" data-pt="TCC premiado — mortalidade de abelhas por pesticidas e herbicidas em 5 regiões brasileiras (2016–2022). 338 colmeias e ~20 milhões de abelhas perdidas." data-en="Award-winning thesis — bee mortality from pesticides and herbicides in 5 Brazilian regions (2016–2022). 338 hives and ~20 million bees lost." data-es="Tesis premiada — mortalidad de abejas por pesticidas y herbicidas en 5 regiones de Brasil (2016–2022). 338 colmenas y ~20 millones de abejas perdidas.">
+          TCC premiado — mortalidade de abelhas por pesticidas e herbicidas em 5 regiões brasileiras (2016–2022). 338 colmeias e ~20 milhões de abelhas perdidas.
+        </p>
+        <div class="card-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Streamlit</span>
+          <span class="tag">Agrotóxicos</span>
+          <span class="tag">Bioindicadores</span>
+          <span class="tag">CCD</span>
+        </div>
+        <div class="card-status">
+          <span class="status-dot online"></span>
+          <span style="color:var(--glacier)" data-pt="ONLINE" data-en="ONLINE" data-es="EN LÍNEA">ONLINE</span>
+        </div>
+        <div class="card-arrow">↗</div>
+      </a>
+
+      <!-- CARD 3 -->
+      <a class="project-card" href="https://santa-rita-river-observatory.streamlit.app/" target="_blank">
+        <div class="card-num">003 · ARIZONA · USA</div>
+        <div class="card-region" data-pt="RIO SANTA RITA · ARIZONA, EUA" data-en="SANTA RITA RIVER · ARIZONA, USA" data-es="RÍO SANTA RITA · ARIZONA, EE.UU.">RIO SANTA RITA · ARIZONA, EUA</div>
+        <div class="card-title" data-pt="Observatório do Rio Santa Rita" data-en="Santa Rita River Observatory" data-es="Observatorio del Río Santa Rita">Observatório do Rio Santa Rita</div>
+        <p class="card-desc" data-pt="Monitoramento hidrológico e ecológico do Rio Santa Rita no Arizona. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários do sudoeste americano." data-en="Hydrological and ecological monitoring of the Santa Rita River in Arizona. Flow analysis, water quality and climate impacts on riparian ecosystems in the American Southwest." data-es="Monitoreo hidrológico y ecológico del Río Santa Rita en Arizona. Análisis de caudal, calidad del agua e impactos climáticos en ecosistemas ribereños del suroeste americano.">
+          Monitoramento hidrológico e ecológico do Rio Santa Rita no Arizona. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários do sudoeste americano.
+        </p>
+        <div class="card-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Streamlit</span>
+          <span class="tag">Hidrologia</span>
+          <span class="tag">Ripário</span>
+          <span class="tag">USGS</span>
+        </div>
+        <div class="card-status">
+          <span class="status-dot online"></span>
+          <span style="color:var(--glacier)" data-pt="ONLINE" data-en="ONLINE" data-es="EN LÍNEA">ONLINE</span>
+        </div>
+        <div class="card-arrow">↗</div>
+      </a>
+
+      <!-- CARD 4 — PLACEHOLDER -->
+      <div class="project-card" style="cursor:default; opacity:0.55;">
+        <div class="card-num">004 · EM DESENVOLVIMENTO</div>
+        <div class="card-region" data-pt="PRÓXIMO PROJETO" data-en="NEXT PROJECT" data-es="PRÓXIMO PROYECTO">PRÓXIMO PROJETO</div>
+        <div class="card-title" data-pt="+ Novo Projeto" data-en="+ New Project" data-es="+ Nuevo Proyecto">+ Novo Projeto</div>
+        <p class="card-desc" data-pt="Novo projeto de pesquisa ambiental em desenvolvimento. Em breve." data-en="New environmental research project in development. Coming soon." data-es="Nuevo proyecto de investigación ambiental en desarrollo. Próximamente.">
+          Novo projeto de pesquisa ambiental em desenvolvimento. Em breve.
+        </p>
+        <div class="card-tags">
+          <span class="tag">TBD</span>
+        </div>
+        <div class="card-status">
+          <span class="status-dot building"></span>
+          <span style="color:var(--gold)" data-pt="EM CONSTRUÇÃO" data-en="COMING SOON" data-es="EN CONSTRUCCIÓN">EM CONSTRUÇÃO</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── NETWORK GRAPH ─── -->
+  <section class="graph-section">
+    <div class="graph-inner">
+      <div class="section-label" data-pt="02 — REDE DE CONHECIMENTO" data-en="02 — KNOWLEDGE NETWORK" data-es="02 — RED DE CONOCIMIENTO">02 — REDE DE CONHECIMENTO</div>
+      <h2 class="section-title" data-pt="Conexões temáticas" data-en="Thematic connections" data-es="Conexiones temáticas">Conexões temáticas</h2>
+      <div id="network-graph">
+        <div class="graph-tooltip" id="graph-tooltip"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── BIO ─── -->
+  <section class="section">
+    <div class="section-label" data-pt="03 — PESQUISADOR" data-en="03 — RESEARCHER" data-es="03 — INVESTIGADOR">03 — PESQUISADOR</div>
+    <h2 class="section-title" data-pt="Perfil académico" data-en="Academic profile" data-es="Perfil académico">Perfil académico</h2>
+    <div class="bio-grid">
+      <div class="bio-text" data-pt="Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível." data-en="Environmental management technician and technologist, with a background in Systems Analysis and postgraduate degrees in AI, Machine Learning and Data Science. I develop projects that translate complex environmental data into accessible knowledge." data-es="Técnico y tecnólogo en Gestión Ambiental, con formación en Análisis y Desarrollo de Sistemas y posgrados en IA, Machine Learning y Ciencia de Datos. Desarrollo proyectos que traducen datos ambientales complejos en conocimiento accesible.">
+        Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível.
+      </div>
+      <ul class="edu-list">
+        <li class="edu-item">
+          <div class="edu-degree" data-pt="Técnico em Meio Ambiente" data-en="Environmental Technician" data-es="Técnico en Medio Ambiente">Técnico em Meio Ambiente</div>
+          <div class="edu-school">ESCOLA DO FUTURO — GOIÁS</div>
+        </li>
+        <li class="edu-item">
+          <div class="edu-degree" data-pt="Tecnólogo em Gestão Ambiental · 3º ENADE" data-en="Environmental Management Technologist · 3rd ENADE" data-es="Tecnólogo en Gestión Ambiental · 3er ENADE">Tecnólogo em Gestão Ambiental · 3º ENADE</div>
+          <div class="edu-school">FATEC JUNDIAÍ — SP</div>
+        </li>
+        <li class="edu-item">
+          <div class="edu-degree" data-pt="Análise e Desenvolvimento de Sistemas" data-en="Systems Analysis and Development" data-es="Análisis y Desarrollo de Sistemas">Análise e Desenvolvimento de Sistemas</div>
+          <div class="edu-school">FACINT — MARINGÁ, PR</div>
+        </li>
+        <li class="edu-item">
+          <div class="edu-degree" data-pt="Pós · IA, Machine Learning & Data Science" data-en="Post-grad · AI, Machine Learning & Data Science" data-es="Posgrado · IA, Machine Learning y Ciencia de Datos">Pós · IA, Machine Learning & Data Science</div>
+          <div class="edu-school">FACINT</div>
+        </li>
+        <li class="edu-item">
+          <div class="edu-degree" data-pt="Pós · Ciência de Dados & Big Data Analytics" data-en="Post-grad · Data Science & Big Data Analytics" data-es="Posgrado · Ciencia de Datos y Big Data Analytics">Pós · Ciência de Dados & Big Data Analytics</div>
+          <div class="edu-school">FACINT</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="footer-links">
+      <a href="https://github.com/amaurialmeida" target="_blank" class="footer-link">GitHub</a>
+      <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="footer-link">LinkedIn</a>
+      <a href="https://patagonia-water-quality.streamlit.app" target="_blank" class="footer-link" data-pt="Patagônia" data-en="Patagonia" data-es="Patagonia">Patagônia</a>
+      <a href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank" class="footer-link" data-pt="Abelhas" data-en="Bees" data-es="Abejas">Abelhas</a>
+      <a href="https://santa-rita-river-observatory.streamlit.app/" target="_blank" class="footer-link" data-pt="Santa Rita" data-en="Santa Rita" data-es="Santa Rita">Santa Rita</a>
+    </div>
+    <div class="footer-copy">© 2025 AMAURI ALMEIDA DE SOUZA JUNIOR · PORTFÓLIO DE PESQUISA AMBIENTAL</div>
+  </footer>
+
+</div><!-- end .page -->
+
+
+<!-- ════════════════════════════════
+     PATAGONIA CANVAS ANIMATION
+════════════════════════════════ -->
+<script>
+(function() {
+  const canvas = document.getElementById('patagonia-canvas');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  let t = 0;
+
+  function lerp(a, b, x) { return a + (b - a) * x; }
+  function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+
+  // ── Color palette (Patagonia-inspired)
+  const SKY_TOP    = [10, 22, 40];
+  const SKY_MID    = [25, 55, 85];
+  const SKY_HOR    = [120, 165, 185];
+  const GLACIER_C  = [180, 220, 230];
+  const SNOW_C     = [235, 240, 245];
+  const ROCK_DARK  = [35, 45, 42];
+  const ROCK_MID   = [65, 78, 72];
+  const LAKE_DEEP  = [15, 55, 80];
+  const LAKE_LIGHT = [50, 130, 170];
+  const GRASS_C    = [42, 72, 52];
+
+  function rgb(c, a) {
+    if (a !== undefined) return `rgba(${c[0]},${c[1]},${c[2]},${a})`;
+    return `rgb(${c[0]},${c[1]},${c[2]})`;
+  }
+
+  function lerpC(a, b, x) {
+    return [
+      lerp(a[0], b[0], x),
+      lerp(a[1], b[1], x),
+      lerp(a[2], b[2], x)
+    ];
+  }
+
+  function drawFrame() {
+    const W = canvas.width;
+    const H = canvas.height;
+    t += 0.004;
+
+    // ── Sky gradient
+    const sky = ctx.createLinearGradient(0, 0, 0, H * 0.55);
+    sky.addColorStop(0, rgb(SKY_TOP));
+    sky.addColorStop(0.5, rgb(SKY_MID));
+    sky.addColorStop(1, rgb(SKY_HOR));
+    ctx.fillStyle = sky;
+    ctx.fillRect(0, 0, W, H);
+
+    // ── Atmospheric haze near horizon
+    const haze = ctx.createLinearGradient(0, H * 0.35, 0, H * 0.58);
+    haze.addColorStop(0, 'rgba(120,165,185,0)');
+    haze.addColorStop(1, 'rgba(140,185,200,0.35)');
+    ctx.fillStyle = haze;
+    ctx.fillRect(0, H * 0.35, W, H * 0.25);
+
+    // ── Animated aurora-like light bands in sky
+    for (let i = 0; i < 3; i++) {
+      const bx = W * (0.2 + 0.25 * i + 0.04 * Math.sin(t * 0.6 + i * 2.1));
+      const by = H * (0.08 + 0.05 * Math.sin(t * 0.4 + i));
+      const bw = W * (0.35 + 0.1 * Math.sin(t * 0.3 + i));
+      const bh = H * 0.18;
+      const grad = ctx.createRadialGradient(bx, by, 0, bx, by, bw * 0.5);
+      grad.addColorStop(0, `rgba(100,180,210,${0.06 + 0.03 * Math.sin(t + i)})`);
+      grad.addColorStop(1, 'rgba(100,180,210,0)');
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.ellipse(bx, by, bw * 0.5, bh, 0, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // ── Distant mountains (far range) – Torres del Paine silhouette
+    const hLine = H * 0.55;   // horizon
+
+    function drawMountainRange(offsetX, scale, colorTop, colorBase, opacity) {
+      ctx.save();
+      ctx.globalAlpha = opacity;
+      ctx.beginPath();
+
+      const peaks = [
+        // [relX, relY (negative = up), width]
+        { x: 0.05, y: -0.32, w: 0.08 },  // distant peak
+        { x: 0.15, y: -0.25, w: 0.12 },
+        { x: 0.25, y: -0.42, w: 0.07 },  // Torres peak 1 (tall)
+        { x: 0.30, y: -0.55, w: 0.04 },  // Torres peak 2 (tallest)
+        { x: 0.35, y: -0.47, w: 0.05 },  // Torres peak 3
+        { x: 0.40, y: -0.38, w: 0.08 },
+        { x: 0.50, y: -0.28, w: 0.10 },
+        { x: 0.58, y: -0.45, w: 0.07 },  // Cuernos
+        { x: 0.64, y: -0.50, w: 0.06 },  // Cuernos peak
+        { x: 0.70, y: -0.38, w: 0.09 },
+        { x: 0.80, y: -0.30, w: 0.12 },
+        { x: 0.90, y: -0.22, w: 0.14 },
+        { x: 1.00, y: -0.28, w: 0.10 },
+      ];
+
+      ctx.moveTo(0, hLine);
+      peaks.forEach((p, i) => {
+        const px = (p.x + offsetX) * W * scale;
+        const py = hLine + p.y * H * 0.4;
+        const pw = p.w * W * scale;
+        if (i === 0) {
+          ctx.lineTo(px - pw, hLine);
+        }
+        // gentle curve to peak
+        ctx.quadraticCurveTo(px - pw * 0.3, py + 8, px, py);
+        ctx.quadraticCurveTo(px + pw * 0.3, py + 8, px + pw, hLine);
+      });
+      ctx.lineTo(W, hLine);
+      ctx.lineTo(W, H);
+      ctx.lineTo(0, H);
+      ctx.closePath();
+
+      const mGrad = ctx.createLinearGradient(0, hLine - H * 0.22, 0, hLine);
+      mGrad.addColorStop(0, rgb(colorTop));
+      mGrad.addColorStop(1, rgb(colorBase));
+      ctx.fillStyle = mGrad;
+      ctx.fill();
+      ctx.restore();
+    }
+
+    // Far mountains (blue-grey, hazy)
+    drawMountainRange(-0.02 + 0.005 * Math.sin(t * 0.2), 1, [70, 105, 130], [55, 82, 100], 0.65);
+    // Mid mountains (darker)
+    drawMountainRange(0, 1, ROCK_DARK, [28, 38, 35], 0.85);
+
+    // ── Snow caps
+    function drawSnowCap(px, py, size, opa) {
+      const sc = ctx.createRadialGradient(px, py, 0, px, py, size);
+      sc.addColorStop(0, `rgba(235,242,248,${opa})`);
+      sc.addColorStop(0.6, `rgba(210,228,238,${opa * 0.5})`);
+      sc.addColorStop(1, 'rgba(200,225,235,0)');
+      ctx.fillStyle = sc;
+      ctx.beginPath();
+      ctx.ellipse(px, py, size * 1.8, size, -0.2, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    // Snow on Torres peaks
+    const sw = Math.sin(t * 0.15); // subtle shimmer
+    drawSnowCap(W * 0.30, hLine - H * 0.22, W * 0.022, 0.7 + sw * 0.05);
+    drawSnowCap(W * 0.35, hLine - H * 0.19, W * 0.018, 0.65);
+    drawSnowCap(W * 0.58, hLine - H * 0.18, W * 0.020, 0.62);
+    drawSnowCap(W * 0.64, hLine - H * 0.20, W * 0.018, 0.68);
+    // Glacier field
+    const glac = ctx.createLinearGradient(W * 0.22, hLine - H * 0.18, W * 0.45, hLine - H * 0.04);
+    glac.addColorStop(0, 'rgba(195,225,235,0.25)');
+    glac.addColorStop(1, 'rgba(160,200,220,0)');
+    ctx.fillStyle = glac;
+    ctx.fillRect(W * 0.2, hLine - H * 0.18, W * 0.3, H * 0.15);
+
+    // ── Lago Pehoe (reflective lake, lower third)
+    const lakeTop = H * 0.70;
+    const lakeH   = H * 0.20;
+    const lakePath = new Path2D();
+    lakePath.moveTo(0, lakeTop + lakeH * 0.3);
+    lakePath.quadraticCurveTo(W * 0.15, lakeTop, W * 0.4, lakeTop + lakeH * 0.1);
+    lakePath.quadraticCurveTo(W * 0.65, lakeTop + lakeH * 0.05, W, lakeTop + lakeH * 0.2);
+    lakePath.lineTo(W, lakeTop + lakeH);
+    lakePath.lineTo(0, lakeTop + lakeH);
+    lakePath.closePath();
+
+    const lakeGrad = ctx.createLinearGradient(0, lakeTop, 0, lakeTop + lakeH);
+    lakeGrad.addColorStop(0, rgb(LAKE_LIGHT, 0.85));
+    lakeGrad.addColorStop(0.5, rgb(LAKE_DEEP, 0.9));
+    lakeGrad.addColorStop(1, rgb(LAKE_DEEP, 0.95));
+    ctx.fillStyle = lakeGrad;
+    ctx.fill(lakePath);
+
+    // Lake shimmer / reflection of peaks
+    ctx.save();
+    ctx.clip(lakePath);
+    const reflect = ctx.createLinearGradient(0, lakeTop, 0, lakeTop + lakeH * 0.5);
+    reflect.addColorStop(0, 'rgba(180,220,240,0.18)');
+    reflect.addColorStop(1, 'rgba(10,40,65,0)');
+    ctx.fillStyle = reflect;
+    ctx.fillRect(0, lakeTop, W, lakeH * 0.5);
+
+    // Animated ripples
+    for (let r = 0; r < 6; r++) {
+      const rx = W * (0.1 + 0.15 * r + 0.02 * Math.sin(t * 1.2 + r));
+      const ry = lakeTop + lakeH * (0.25 + 0.12 * Math.sin(t * 0.7 + r * 1.4));
+      const rw = W * (0.06 + 0.02 * Math.sin(t * 0.9 + r));
+      const rh = lakeH * 0.025;
+      ctx.strokeStyle = `rgba(150,210,235,${0.15 + 0.08 * Math.sin(t + r)})`;
+      ctx.lineWidth = 0.8;
+      ctx.beginPath();
+      ctx.ellipse(rx, ry, rw, rh, 0, 0, Math.PI * 2);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    // ── Foreground meadow / grass
+    const grassTop = H * 0.78;
+    ctx.beginPath();
+    ctx.moveTo(0, grassTop);
+    // subtle rolling hills
+    for (let xi = 0; xi <= W; xi += W / 30) {
+      ctx.lineTo(xi, grassTop + 15 * Math.sin(xi * 0.012 + t * 0.5));
+    }
+    ctx.lineTo(W, H);
+    ctx.lineTo(0, H);
+    ctx.closePath();
+    const grassGrad = ctx.createLinearGradient(0, grassTop, 0, H);
+    grassGrad.addColorStop(0, rgb(GRASS_C, 0.9));
+    grassGrad.addColorStop(1, rgb([20, 35, 28], 0.95));
+    ctx.fillStyle = grassGrad;
+    ctx.fill();
+
+    // ── Wind-swept grass tufts
+    ctx.save();
+    ctx.strokeStyle = 'rgba(80,115,90,0.55)';
+    ctx.lineWidth = 1;
+    for (let gi = 0; gi < 80; gi++) {
+      const gx = (gi * W / 80) + 5 * Math.sin(t * 0.8 + gi * 0.7);
+      const gy = grassTop + 8 + 30 * (gi % 5) / 5;
+      const bend = 5 * Math.sin(t * 1.5 + gi * 0.5);
+      ctx.beginPath();
+      ctx.moveTo(gx, gy + 8);
+      ctx.quadraticCurveTo(gx + bend, gy + 4, gx + bend * 1.5, gy);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    // ── Moving cloud wisps
+    for (let ci = 0; ci < 4; ci++) {
+      const cx = (((t * 25 * (1 + ci * 0.3)) + ci * W / 4) % (W * 1.4)) - W * 0.2;
+      const cy = H * (0.07 + 0.05 * ci + 0.02 * Math.sin(t * 0.3 + ci));
+      const cw = W * (0.12 + 0.08 * ci);
+      const ch = H * 0.04;
+      const cloudG = ctx.createRadialGradient(cx, cy, 0, cx, cy, cw * 0.5);
+      cloudG.addColorStop(0, 'rgba(240,248,255,0.12)');
+      cloudG.addColorStop(1, 'rgba(240,248,255,0)');
+      ctx.fillStyle = cloudG;
+      ctx.beginPath();
+      ctx.ellipse(cx, cy, cw * 0.5, ch, 0, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    requestAnimationFrame(drawFrame);
+  }
+
+  drawFrame();
+})();
+</script>
+
+
+<!-- ════════════════════════════════
+     NETWORK GRAPH (D3 Force)
+════════════════════════════════ -->
+<script>
+(function() {
+  const nodes = [
+    // ── Central hub
+    { id: "Pesquisa\nAmbiental", group: "hub",       desc: "Núcleo central — todos os projetos convergem para a pesquisa ambiental aplicada." },
+
+    // ── Projects
+    { id: "Patagônia\nÁgua",    group: "project",    desc: "Qualidade da água em 18 estações dos principais rios patagônicos (2019–2024).", url: "https://patagonia-water-quality.streamlit.app" },
+    { id: "Abelhas\nBrasil",    group: "project",    desc: "Síndrome do colapso das abelhas — 338 colmeias em 5 regiões (2016–2022).", url: "https://bee-colony-collapse-brazil.streamlit.app/" },
+    { id: "Rio\nSanta Rita",    group: "project",    desc: "Observatório hidrológico do Rio Santa Rita, Arizona, EUA.", url: "https://santa-rita-river-observatory.streamlit.app/" },
+
+    // ── Themes
+    { id: "Recursos\nHídricos",  group: "theme",     desc: "Monitoramento e gestão de rios, lagos e bacias hidrográficas." },
+    { id: "Bioindicadores",      group: "theme",     desc: "Uso de espécies como indicadores da saúde do ecossistema." },
+    { id: "Agrotóxicos",         group: "theme",     desc: "Impacto de pesticidas e herbicidas na fauna e flora." },
+    { id: "Geoespacial",         group: "theme",     desc: "Análise e visualização de dados com componente espacial." },
+    { id: "Clima &\nHidrologia", group: "theme",     desc: "Interações entre mudanças climáticas e ciclos hídricos." },
+    { id: "Machine\nLearning",   group: "theme",     desc: "Algoritmos preditivos aplicados a séries ambientais." },
+
+    // ── Methods
+    { id: "Python\nStreamlit",   group: "method",    desc: "Stack principal — Python + Streamlit para apps interativos." },
+    { id: "Visualização\nDados", group: "method",    desc: "Plotly, Folium, D3 — representações interativas de dados complexos." },
+    { id: "Séries\nTemporais",   group: "method",    desc: "Análise de tendências e sazonalidade em dados ambientais longitudinais." },
+    { id: "IQA\npH/OD",          group: "method",    desc: "Índice de Qualidade da Água — pH, turbidez, oxigênio dissolvido." },
+  ];
+
+  const links = [
+    // Hub connects everything
+    { source: "Pesquisa\nAmbiental", target: "Patagônia\nÁgua",    value: 3 },
+    { source: "Pesquisa\nAmbiental", target: "Abelhas\nBrasil",     value: 3 },
+    { source: "Pesquisa\nAmbiental", target: "Rio\nSanta Rita",     value: 3 },
+    { source: "Pesquisa\nAmbiental", target: "Machine\nLearning",   value: 2 },
+    { source: "Pesquisa\nAmbiental", target: "Geoespacial",         value: 2 },
+
+    // Patagonia
+    { source: "Patagônia\nÁgua",    target: "Recursos\nHídricos",   value: 2 },
+    { source: "Patagônia\nÁgua",    target: "Geoespacial",          value: 2 },
+    { source: "Patagônia\nÁgua",    target: "IQA\npH/OD",           value: 2 },
+    { source: "Patagônia\nÁgua",    target: "Python\nStreamlit",    value: 2 },
+    { source: "Patagônia\nÁgua",    target: "Séries\nTemporais",    value: 1 },
+    { source: "Patagônia\nÁgua",    target: "Visualização\nDados",  value: 1 },
+
+    // Bees
+    { source: "Abelhas\nBrasil",    target: "Bioindicadores",       value: 2 },
+    { source: "Abelhas\nBrasil",    target: "Agrotóxicos",          value: 2 },
+    { source: "Abelhas\nBrasil",    target: "Python\nStreamlit",    value: 2 },
+    { source: "Abelhas\nBrasil",    target: "Séries\nTemporais",    value: 1 },
+    { source: "Abelhas\nBrasil",    target: "Machine\nLearning",    value: 1 },
+    { source: "Abelhas\nBrasil",    target: "Visualização\nDados",  value: 1 },
+
+    // Santa Rita
+    { source: "Rio\nSanta Rita",    target: "Recursos\nHídricos",   value: 2 },
+    { source: "Rio\nSanta Rita",    target: "Clima &\nHidrologia",  value: 2 },
+    { source: "Rio\nSanta Rita",    target: "Python\nStreamlit",    value: 2 },
+    { source: "Rio\nSanta Rita",    target: "IQA\npH/OD",           value: 1 },
+    { source: "Rio\nSanta Rita",    target: "Visualização\nDados",  value: 1 },
+
+    // Cross-links
+    { source: "Recursos\nHídricos", target: "Clima &\nHidrologia",  value: 1 },
+    { source: "Bioindicadores",     target: "Agrotóxicos",          value: 1 },
+    { source: "Geoespacial",        target: "Visualização\nDados",  value: 1 },
+    { source: "Machine\nLearning",  target: "Séries\nTemporais",    value: 1 },
+  ];
+
+  const container = document.getElementById('network-graph');
+  const tooltip   = document.getElementById('graph-tooltip');
+
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+
+  const svg = d3.select(container).append('svg')
+    .attr('viewBox', `0 0 ${W} ${H}`)
+    .style('overflow', 'visible');
+
+  // ── Defs: glow filter
+  const defs = svg.append('defs');
+  const filter = defs.append('filter').attr('id', 'glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
+  filter.append('feGaussianBlur').attr('stdDeviation', '3').attr('result', 'coloredBlur');
+  const feMerge = filter.append('feMerge');
+  feMerge.append('feMergeNode').attr('in', 'coloredBlur');
+  feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+  const colors = {
+    hub:     '#a8c5c0',
+    project: '#7ab3d4',
+    theme:   '#c9a84c',
+    method:  '#8fb89a'
+  };
+
+  const radii = {
+    hub:     28,
+    project: 20,
+    theme:   14,
+    method:  12
+  };
+
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(d => {
+      if (d.source.group === 'hub' || d.target.group === 'hub') return 130;
+      return 90;
+    }).strength(0.4))
+    .force('charge', d3.forceManyBody().strength(-280))
+    .force('center', d3.forceCenter(W / 2, H / 2))
+    .force('collision', d3.forceCollide().radius(d => radii[d.group] + 18));
+
+  // Links
+  const link = svg.append('g').selectAll('line')
+    .data(links).enter().append('line')
+    .style('stroke', d => {
+      const s = typeof d.source === 'object' ? d.source : nodes.find(n => n.id === d.source);
+      if (!s) return 'rgba(168,197,192,0.2)';
+      const c = colors[s.group] || '#888';
+      return c + '55';
+    })
+    .style('stroke-width', d => d.value * 0.8);
+
+  // Node groups
+  const node = svg.append('g').selectAll('g')
+    .data(nodes).enter().append('g')
+    .style('cursor', d => d.url ? 'pointer' : 'default')
+    .call(d3.drag()
+      .on('start', (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('drag',  (event, d) => { d.fx = event.x; d.fy = event.y; })
+      .on('end',   (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+    )
+    .on('mouseover', function(event, d) {
+      tooltip.style.opacity = '1';
+      tooltip.innerHTML = `<strong>${d.id.replace('\n',' ')}</strong>${d.desc}`;
+      d3.select(this).select('circle').style('filter', 'url(#glow)');
+    })
+    .on('mousemove', function(event) {
+      const rect = container.getBoundingClientRect();
+      let lx = event.clientX - rect.left + 14;
+      let ly = event.clientY - rect.top  - 10;
+      if (lx + 230 > W) lx = lx - 260;
+      tooltip.style.left = lx + 'px';
+      tooltip.style.top  = ly + 'px';
+    })
+    .on('mouseleave', function() {
+      tooltip.style.opacity = '0';
+      d3.select(this).select('circle').style('filter', 'none');
+    })
+    .on('click', (event, d) => { if (d.url) window.open(d.url, '_blank'); });
+
+  // Outer ring for projects
+  node.filter(d => d.group === 'project').append('circle')
+    .attr('r', d => radii[d.group] + 5)
+    .style('fill', 'none')
+    .style('stroke', d => colors[d.group] + '55')
+    .style('stroke-width', 1)
+    .style('animation', 'ringPulse 2.5s ease-in-out infinite');
+
+  // Main circle
+  node.append('circle')
+    .attr('r', d => radii[d.group])
+    .style('fill', d => colors[d.group] + '22')
+    .style('stroke', d => colors[d.group])
+    .style('stroke-width', d => d.group === 'hub' ? 2 : 1.2);
+
+  // Labels
+  node.each(function(d) {
+    const g = d3.select(this);
+    const lines = d.id.split('\n');
+    const fontSize = d.group === 'hub' ? 9 : (d.group === 'project' ? 8 : 7);
+    const yOffset = lines.length > 1 ? -(lines.length - 1) * fontSize * 0.6 : 0;
+    lines.forEach((line, i) => {
+      g.append('text')
+        .text(line)
+        .attr('text-anchor', 'middle')
+        .attr('dy', yOffset + i * fontSize * 1.3)
+        .style('fill', d.group === 'hub' ? '#d4e8e4' : colors[d.group])
+        .style('font-family', "'Space Mono', monospace")
+        .style('font-size', fontSize + 'px')
+        .style('letter-spacing', '0.05em')
+        .style('pointer-events', 'none')
+        .style('user-select', 'none');
+    });
+  });
+
+  sim.on('tick', () => {
+    link
+      .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    node.attr('transform', d => {
+      d.x = Math.max(radii[d.group] + 2, Math.min(W - radii[d.group] - 2, d.x));
+      d.y = Math.max(radii[d.group] + 2, Math.min(H - radii[d.group] - 2, d.y));
+      return `translate(${d.x},${d.y})`;
+    });
+  });
+})();
+</script>
+
+
+<!-- ════════════════════════════════
+     LANGUAGE SWITCHER
+════════════════════════════════ -->
+<script>
+function setLang(lang) {
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector(`.lang-btn[onclick="setLang('${lang}')"]`).classList.add('active');
+
+  document.querySelectorAll('[data-' + lang + ']').forEach(el => {
+    el.textContent = el.getAttribute('data-' + lang);
+  });
+}
+</script>
+
+</body>
+</html>
