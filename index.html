@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amauri Almeida — Environmental Research Portfolio</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-    
+
     <style>
         :root {
+            /* Header azul petróleo do Code Two */
+            --header-bg: #1a2a3a;
+            --header-text: #ffffff;
+            /* Paleta escura do Code Three para o body */
             --glacier: #a8c5c0;
             --ice: #d4e8e4;
             --stone: #6b7a72;
@@ -25,10 +29,10 @@
             --rust: #b85c38;
             --sky: #7ab3d4;
             --pine: #2d4a3e;
+            --accent: #7ab3d4;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
-
         html { scroll-behavior: smooth; }
 
         body {
@@ -67,30 +71,106 @@
             z-index: 2;
         }
 
-        /* ─── LANGUAGE SWITCHER ─── */
-        .lang-bar {
+        /* ─── HEADER FIXO — Azul Petróleo (Code Two) ─── */
+        header {
+            background-color: var(--header-bg);
+            color: var(--header-text);
+            padding: 0 40px;
             position: fixed;
-            top: 1.2rem; right: 1.5rem;
-            display: flex; gap: 0.5rem;
-            z-index: 100;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+            border-bottom: 1px solid rgba(122,179,212,0.2);
         }
 
-        .lang-btn {
+        .header-logo-group {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            text-decoration: none;
+            color: var(--header-text);
+        }
+
+        .header-logo-img {
+            width: 44px;
+            height: 44px;
+            object-fit: contain;
+            filter: brightness(1.1);
+            transition: transform 0.3s;
+        }
+
+        .header-logo-group:hover .header-logo-img {
+            transform: scale(1.05);
+        }
+
+        .header-name {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            color: #fff;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 6px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-link {
             font-family: 'Space Mono', monospace;
-            font-size: 0.65rem;
-            letter-spacing: 0.12em;
-            padding: 0.3rem 0.65rem;
-            border: 1px solid rgba(168,197,192,0.35);
-            background: rgba(13,23,20,0.7);
-            color: var(--glacier);
-            cursor: pointer;
-            transition: all 0.25s;
-            backdrop-filter: blur(8px);
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: 1.2px;
+            color: rgba(255, 255, 255, 0.65);
+            text-decoration: none;
+            padding: 6px 10px;
+            border-radius: 3px;
+            transition: color 0.2s, background 0.2s;
         }
 
-        .lang-btn:hover, .lang-btn.active {
-            background: var(--glacier);
-            color: var(--obsidian);
+        .nav-link:hover {
+            color: #ffffff;
+            background: rgba(122,179,212,0.15);
+        }
+
+        .nav-link.active {
+            color: var(--accent);
+        }
+
+        /* Separador Lang / Nav */
+        .nav-divider {
+            width: 1px;
+            height: 20px;
+            background: rgba(255,255,255,0.15);
+            margin: 0 6px;
+        }
+
+        .lang-btn-header {
+            font-family: 'Space Mono', monospace;
+            font-size: 10px;
+            letter-spacing: 1px;
+            padding: 5px 9px;
+            border: 1px solid rgba(168,197,192,0.35);
+            background: transparent;
+            color: rgba(255,255,255,0.55);
+            cursor: pointer;
+            transition: all 0.2s;
+            border-radius: 3px;
+        }
+
+        .lang-btn-header:hover,
+        .lang-btn-header.active {
+            background: var(--accent);
+            color: var(--header-bg);
+            border-color: var(--accent);
         }
 
         /* ─── HERO ─── */
@@ -102,95 +182,125 @@
             justify-content: center;
             text-align: center;
             padding: 2rem;
+            padding-top: 90px;
             position: relative;
         }
 
-        .hero-monogram {
-            font-family: 'Cormorant Garamond', serif;
-            font-size: clamp(3rem, 8vw, 7rem);
-            font-weight: 300;
-            letter-spacing: 0.25em;
-            color: var(--glacier);
+        /* Logo círculo no hero */
+        .hero-logo-wrap {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            overflow: hidden;
+            background: rgba(26,42,58,0.75);
+            border: 2px solid rgba(122,179,212,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.6rem;
+            box-shadow: 0 0 40px rgba(122,179,212,0.25), 0 0 80px rgba(13,23,20,0.6);
             opacity: 0;
-            animation: fadeUp 1.2s ease 0.3s forwards;
-            text-shadow: 0 0 60px rgba(168,197,192,0.4);
+            animation: fadeUp 1.2s ease 0.2s forwards;
+            transition: box-shadow 0.4s;
+        }
+
+        .hero-logo-wrap:hover {
+            box-shadow: 0 0 60px rgba(122,179,212,0.45), 0 0 100px rgba(13,23,20,0.6);
+        }
+
+        .hero-logo-img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+            filter: brightness(1.05);
         }
 
         .hero-name {
             font-family: 'Cormorant Garamond', serif;
-            font-size: clamp(1.1rem, 3vw, 1.8rem);
+            font-size: clamp(2rem, 5vw, 3.5rem);
             font-weight: 300;
-            letter-spacing: 0.35em;
-            text-transform: uppercase;
+            letter-spacing: 0.18em;
             color: var(--cream);
-            margin-top: 0.5rem;
             opacity: 0;
-            animation: fadeUp 1.2s ease 0.55s forwards;
+            animation: fadeUp 1.2s ease 0.45s forwards;
         }
 
         .hero-tagline {
             font-family: 'Space Mono', monospace;
-            font-size: clamp(0.6rem, 1.5vw, 0.75rem);
-            letter-spacing: 0.2em;
+            font-size: clamp(0.55rem, 1.3vw, 0.72rem);
+            letter-spacing: 0.22em;
             color: var(--stone);
-            margin-top: 1.2rem;
+            margin-top: 0.7rem;
             opacity: 0;
-            animation: fadeUp 1.2s ease 0.8s forwards;
+            animation: fadeUp 1.2s ease 0.65s forwards;
         }
 
         .hero-divider {
             width: 60px;
             height: 1px;
             background: linear-gradient(90deg, transparent, var(--glacier), transparent);
-            margin: 2rem auto;
+            margin: 1.8rem auto;
             opacity: 0;
-            animation: fadeUp 1.2s ease 1s forwards;
+            animation: fadeUp 1.2s ease 0.85s forwards;
         }
 
         .hero-headline {
             font-family: 'Cormorant Garamond', serif;
-            font-size: clamp(2rem, 5vw, 3.8rem);
+            font-size: clamp(1.8rem, 4.5vw, 3.5rem);
             font-weight: 300;
             font-style: italic;
             color: var(--cream);
             line-height: 1.15;
             max-width: 700px;
             opacity: 0;
-            animation: fadeUp 1.2s ease 1.1s forwards;
+            animation: fadeUp 1.2s ease 1s forwards;
         }
 
         .hero-sub {
-            font-size: 0.9rem;
+            font-size: 0.88rem;
             font-weight: 300;
             color: var(--stone);
             max-width: 500px;
-            line-height: 1.7;
+            line-height: 1.75;
             margin-top: 1rem;
             opacity: 0;
-            animation: fadeUp 1.2s ease 1.3s forwards;
+            animation: fadeUp 1.2s ease 1.15s forwards;
         }
 
+        /* Hero links-bar: HOME, CV, LINKEDIN, GITHUB, E-MAIL, WORKS */
         .hero-links {
-            display: flex; gap: 1.2rem;
-            margin-top: 2.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 2.2rem;
             opacity: 0;
-            animation: fadeUp 1.2s ease 1.5s forwards;
+            animation: fadeUp 1.2s ease 1.35s forwards;
         }
 
         .hero-link {
             font-family: 'Space Mono', monospace;
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             letter-spacing: 0.15em;
-            color: var(--glacier);
+            color: rgba(255,255,255,0.6);
             text-decoration: none;
-            border-bottom: 1px solid rgba(168,197,192,0.3);
-            padding-bottom: 2px;
+            padding: 7px 14px;
+            border: 1px solid rgba(122,179,212,0.3);
+            border-radius: 3px;
             transition: all 0.25s;
+            text-transform: uppercase;
         }
 
         .hero-link:hover {
-            color: var(--cream);
-            border-color: var(--cream);
+            color: #fff;
+            background: rgba(122,179,212,0.15);
+            border-color: rgba(122,179,212,0.6);
+        }
+
+        .hero-link.highlight {
+            background: rgba(122,179,212,0.12);
+            border-color: rgba(122,179,212,0.45);
+            color: var(--accent);
         }
 
         .scroll-hint {
@@ -198,21 +308,25 @@
             bottom: 2.5rem;
             left: 50%;
             transform: translateX(-50%);
-            display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
             opacity: 0;
-            animation: fadeUp 1.2s ease 2s forwards;
+            animation: fadeUp 1.2s ease 1.8s forwards;
         }
 
         .scroll-hint span {
             font-family: 'Space Mono', monospace;
-            font-size: 0.55rem;
+            font-size: 0.52rem;
             letter-spacing: 0.3em;
             color: var(--stone);
             text-transform: uppercase;
         }
 
         .scroll-line {
-            width: 1px; height: 40px;
+            width: 1px;
+            height: 40px;
             background: linear-gradient(180deg, var(--glacier), transparent);
             animation: scrollPulse 2s ease-in-out infinite;
         }
@@ -248,7 +362,7 @@
 
         .stat-label {
             font-family: 'Space Mono', monospace;
-            font-size: 0.55rem;
+            font-size: 0.52rem;
             letter-spacing: 0.2em;
             color: var(--stone);
             margin-top: 0.3rem;
@@ -316,6 +430,16 @@
         .project-card:hover::before { transform: scaleX(1); }
         .project-card:hover { background: rgba(42,56,48,0.7); }
 
+        /* Cards "Em Progresso" */
+        .project-card.in-progress {
+            background: rgba(13,23,20,0.6);
+            border-left: 2px solid rgba(201,168,76,0.3);
+        }
+
+        .project-card.in-progress::before {
+            background: linear-gradient(90deg, var(--gold), #e8a84c);
+        }
+
         .card-num {
             font-family: 'Space Mono', monospace;
             font-size: 0.55rem;
@@ -351,17 +475,24 @@
         }
 
         .card-tags {
-            display: flex; flex-wrap: wrap; gap: 0.4rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
             margin-bottom: 1.8rem;
         }
 
         .tag {
             font-family: 'Space Mono', monospace;
-            font-size: 0.55rem;
+            font-size: 0.52rem;
             letter-spacing: 0.1em;
             padding: 0.25rem 0.65rem;
             border: 1px solid rgba(168,197,192,0.25);
             color: var(--glacier);
+        }
+
+        .tag.gold {
+            border-color: rgba(201,168,76,0.35);
+            color: var(--gold);
         }
 
         .card-status {
@@ -369,12 +500,13 @@
             align-items: center;
             gap: 0.5rem;
             font-family: 'Space Mono', monospace;
-            font-size: 0.58rem;
+            font-size: 0.55rem;
             letter-spacing: 0.15em;
         }
 
         .status-dot {
-            width: 6px; height: 6px;
+            width: 6px;
+            height: 6px;
             border-radius: 50%;
         }
 
@@ -383,7 +515,8 @@
 
         .card-arrow {
             position: absolute;
-            bottom: 2.5rem; right: 2.5rem;
+            bottom: 2.5rem;
+            right: 2.5rem;
             font-size: 1.2rem;
             color: var(--glacier);
             opacity: 0;
@@ -402,10 +535,7 @@
             border-bottom: 1px solid rgba(168,197,192,0.08);
         }
 
-        .graph-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
+        .graph-inner { max-width: 1200px; margin: 0 auto; }
 
         #network-graph {
             width: 100%;
@@ -413,10 +543,7 @@
             position: relative;
         }
 
-        #network-graph svg {
-            width: 100%;
-            height: 100%;
-        }
+        #network-graph svg { width: 100%; height: 100%; }
 
         .graph-tooltip {
             position: absolute;
@@ -483,273 +610,256 @@
 
         .edu-school {
             font-family: 'Space Mono', monospace;
-            font-size: 0.6rem;
+            font-size: 0.58rem;
             letter-spacing: 0.1em;
             color: var(--stone);
         }
 
         /* ─── FOOTER ─── */
         footer {
-            padding: 3rem 2rem;
+            padding: 3.5rem 2rem 2.5rem;
             text-align: center;
             border-top: 1px solid rgba(168,197,192,0.08);
-            background: rgba(13,23,20,0.8);
+            background: rgba(26,42,58,0.92);
+            backdrop-filter: blur(20px);
         }
 
+        /* WhatsApp — países ocultos, funcionando via ícone */
         .footer-contacts-section {
             margin-bottom: 2rem;
         }
 
         .footer-label {
             font-family: 'Space Mono', monospace;
-            font-size: 0.65rem;
-            letter-spacing: 0.2em;
+            font-size: 0.62rem;
+            letter-spacing: 0.35em;
             color: var(--glacier);
             text-transform: uppercase;
-            margin-bottom: 1.5rem;
             display: block;
+            margin-bottom: 1.2rem;
         }
 
         .contact-links {
             display: flex;
             justify-content: center;
-            gap: 2rem;
+            gap: 1.5rem;
             flex-wrap: wrap;
-            margin-bottom: 2rem;
         }
 
+        /* Botões WhatsApp — apenas bandeira + ícone, número oculto */
         .contact-item {
             display: flex;
             align-items: center;
-            gap: 0.8rem;
+            gap: 0;
+        }
+
+        .wa-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            padding: 9px 16px;
+            border: 1px solid rgba(168,197,192,0.2);
+            border-radius: 4px;
+            background: rgba(13,23,20,0.4);
+            transition: all 0.25s;
+            color: var(--cream);
             font-family: 'Space Mono', monospace;
-            font-size: 0.7rem;
+            font-size: 0.6rem;
             letter-spacing: 0.1em;
         }
 
-        .contact-item a {
-            color: var(--glacier);
-            text-decoration: none;
-            transition: color 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
+        .wa-btn:hover {
+            background: rgba(37,211,102,0.12);
+            border-color: rgba(37,211,102,0.4);
+            color: #25d366;
         }
 
-        .contact-item a:hover {
-            color: var(--cream);
+        .wa-btn .flag { font-size: 1.1rem; }
+
+        .wa-btn .country-label {
+            /* país visível, número oculto */
+            color: rgba(240,235,224,0.7);
+            font-size: 0.6rem;
         }
 
-        .flag-icon {
-            font-size: 1.2rem;
+        .wa-icon-svg {
+            width: 16px;
+            height: 16px;
+            opacity: 0.7;
+            transition: opacity 0.25s;
         }
 
-        .wa-icon {
-            font-size: 0.9rem;
-        }
+        .wa-btn:hover .wa-icon-svg { opacity: 1; }
 
+        /* Footer links */
         .footer-links {
             display: flex;
             justify-content: center;
-            gap: 2rem;
+            gap: 1.5rem;
             margin-bottom: 1.5rem;
         }
 
         .footer-link {
             font-family: 'Space Mono', monospace;
-            font-size: 0.65rem;
-            letter-spacing: 0.2em;
-            color: var(--stone);
+            font-size: 0.6rem;
+            letter-spacing: 0.15em;
+            color: rgba(240,235,224,0.5);
             text-decoration: none;
-            transition: color 0.2s;
+            text-transform: uppercase;
+            transition: color 0.25s;
         }
 
         .footer-link:hover { color: var(--glacier); }
 
         .footer-copy {
             font-family: 'Space Mono', monospace;
-            font-size: 0.55rem;
-            letter-spacing: 0.2em;
-            color: rgba(107,122,114,0.5);
+            font-size: 0.52rem;
+            letter-spacing: 0.18em;
+            color: rgba(107,122,114,0.6);
+            text-transform: uppercase;
         }
 
-        /* ─── BANNER POP-UP ESTILO CASAS BAHIA ─── */
+        /* ─── TORRES DEL PAINE BANNER ─── */
+        .banner-toggle-btn {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            background: rgba(26,42,58,0.9);
+            border: 1px solid rgba(168,197,192,0.3);
+            color: var(--glacier);
+            font-family: 'Space Mono', monospace;
+            font-size: 0.6rem;
+            letter-spacing: 0.12em;
+            padding: 0.55rem 1rem;
+            cursor: pointer;
+            transition: all 0.25s;
+            z-index: 200;
+            backdrop-filter: blur(8px);
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .banner-toggle-btn:hover {
+            background: rgba(122,179,212,0.15);
+            border-color: var(--glacier);
+        }
+
         .torres-banner {
             position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 420px;
-            background: rgba(13,23,20,0.95);
+            bottom: -100%;
+            left: 0;
+            width: 100%;
+            background: rgba(10,18,16,0.97);
+            border-top: 1px solid rgba(168,197,192,0.15);
+            z-index: 150;
+            transition: bottom 0.5s cubic-bezier(0.4, 0, 0.2, 1);
             backdrop-filter: blur(20px);
-            border-radius: 20px;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 0 1px rgba(168,197,192,0.2);
-            z-index: 10000;
-            transform: translateX(150%);
-            transition: transform 0.5s cubic-bezier(0.34, 1.2, 0.64, 1);
-            overflow: hidden;
         }
 
-        .torres-banner.show {
-            transform: translateX(0);
-        }
+        .torres-banner.show { bottom: 0; }
 
         .banner-header {
-            background: linear-gradient(135deg, var(--pine), var(--obsidian));
-            padding: 12px 16px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid rgba(168,197,192,0.2);
+            padding: 1rem 1.5rem 0.5rem;
         }
 
         .banner-title {
             font-family: 'Space Mono', monospace;
-            font-size: 0.7rem;
+            font-size: 0.62rem;
             letter-spacing: 0.2em;
             color: var(--glacier);
-            text-transform: uppercase;
-        }
-
-        .banner-title strong {
-            color: var(--gold);
-            font-weight: 700;
         }
 
         .close-banner {
-            background: rgba(255,255,255,0.1);
+            background: none;
             border: none;
-            color: var(--cream);
-            font-size: 1.2rem;
+            color: var(--stone);
             cursor: pointer;
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.2s;
-            font-family: monospace;
+            font-size: 1rem;
+            transition: color 0.2s;
         }
 
-        .close-banner:hover {
-            background: rgba(255,68,68,0.8);
-            transform: scale(1.05);
-        }
+        .close-banner:hover { color: var(--cream); }
 
         .video-wrapper {
             position: relative;
-            background: #000;
+            padding-bottom: 30%;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         .video-wrapper iframe {
+            position: absolute;
+            top: 0; left: 0;
             width: 100%;
-            height: 240px;
-            border: none;
-            display: block;
+            height: 100%;
         }
 
         .banner-footer {
-            padding: 12px 16px;
-            background: rgba(0,0,0,0.4);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.6rem 1.5rem 1rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
         }
 
         .banner-locations {
             display: flex;
-            gap: 12px;
-            justify-content: center;
+            gap: 0.5rem;
             flex-wrap: wrap;
         }
 
         .location-tag {
             font-family: 'Space Mono', monospace;
-            font-size: 0.55rem;
+            font-size: 0.52rem;
             letter-spacing: 0.1em;
-            color: var(--glacier);
-            background: rgba(168,197,192,0.15);
-            padding: 4px 10px;
-            border-radius: 20px;
-        }
-
-        .location-tag::before {
-            content: "📍 ";
-            color: var(--gold);
+            padding: 0.2rem 0.5rem;
+            border: 1px solid rgba(168,197,192,0.2);
+            color: var(--stone);
         }
 
         .banner-credit {
-            text-align: center;
-            font-size: 0.55rem;
-            color: var(--stone);
-            margin-top: 8px;
             font-family: 'Space Mono', monospace;
+            font-size: 0.5rem;
+            color: rgba(107,122,114,0.7);
+            letter-spacing: 0.08em;
         }
 
-        .banner-credit a {
-            color: var(--glacier);
-            text-decoration: none;
-        }
-
-        @media (max-width: 680px) {
-            .torres-banner {
-                width: calc(100% - 40px);
-                right: 20px;
-                bottom: 20px;
-            }
-            .video-wrapper iframe {
-                height: 200px;
-            }
-        }
-
-        @keyframes bannerPulse {
-            0%, 100% { transform: scale(1); box-shadow: 0 4px 15px rgba(168,197,192,0.3); }
-            50% { transform: scale(1.05); box-shadow: 0 6px 25px rgba(168,197,192,0.6); }
-        }
-
-        .banner-toggle-btn {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: linear-gradient(135deg, var(--pine), var(--bark));
-            border: 1px solid rgba(168,197,192,0.4);
-            color: var(--cream);
-            font-family: 'Space Mono', monospace;
-            font-size: 0.7rem;
-            letter-spacing: 0.15em;
-            padding: 12px 20px;
-            border-radius: 40px;
-            cursor: pointer;
-            z-index: 9999;
-            backdrop-filter: blur(12px);
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            animation: bannerPulse 2s ease-in-out infinite;
-        }
-
-        .banner-toggle-btn:hover {
-            background: var(--gold);
-            color: var(--obsidian);
-            border-color: var(--gold);
-            animation: none;
-        }
-
-        /* ─── ANIMATIONS ─── */
+        /* ─── ANIMAÇÕES ─── */
         @keyframes fadeUp {
             from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            to   { opacity: 1; transform: translateY(0); }
         }
 
         @keyframes scrollPulse {
             0%, 100% { opacity: 0.4; }
-            50% { opacity: 1; }
+            50%       { opacity: 1; }
         }
 
-        /* ─── RESPONSIVE ─── */
-        @media (max-width: 600px) {
-            .stats-bar { flex-wrap: wrap; }
+        /* ─── MOBILE ─── */
+        @media (max-width: 768px) {
+            header { padding: 0 16px; height: 60px; }
+            .header-name { font-size: 1.1rem; }
+            .header-nav { gap: 2px; }
+            .nav-link { font-size: 9px; padding: 5px 6px; }
+            .hero { padding-top: 75px; }
+            .hero-logo-wrap { width: 100px; height: 100px; }
             .stat-item { min-width: 45%; border-right: none; border-bottom: 1px solid rgba(168,197,192,0.12); }
             .bio-grid { grid-template-columns: 1fr; }
-            .contact-links { flex-direction: column; gap: 1rem; }
+            .contact-links { flex-direction: column; align-items: center; gap: 0.8rem; }
+        }
+
+        @media (max-width: 480px) {
+            .header-nav .nav-link { display: none; }
+            .header-nav .nav-link.show-mobile { display: flex; }
+            .hero-links { gap: 0.4rem; }
+            .hero-link { font-size: 0.58rem; padding: 6px 10px; }
         }
     </style>
 </head>
@@ -758,26 +868,53 @@
     <canvas id="patagonia-canvas"></canvas>
     <div class="bg-overlay"></div>
 
-    <!-- LANGUAGE BAR -->
-    <div class="lang-bar">
-        <button class="lang-btn active" data-lang="pt" onclick="setLang('pt')">PT</button>
-        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
-        <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
-    </div>
+    <!-- ─── HEADER FIXO — Azul Petróleo ─── -->
+    <header>
+        <a href="#" class="header-logo-group">
+            <img src="logo.png" alt="Amauri Almeida Logo" class="header-logo-img" />
+            <span class="header-name">Amauri Almeida</span>
+        </a>
+
+        <nav>
+            <ul class="header-nav">
+                <li><a href="#" class="nav-link active">Home</a></li>
+                <li><a href="#projects" class="nav-link">Works</a></li>
+                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">CV</a></li>
+                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">LinkedIn</a></li>
+                <li><a href="https://github.com/amaurialmeida" target="_blank" class="nav-link">GitHub</a></li>
+                <li><a href="mailto:amauri@tutamail.com" class="nav-link">E-mail</a></li>
+                <li class="nav-divider"></li>
+                <li><button class="lang-btn-header active" data-lang="pt" onclick="setLang('pt')">PT</button></li>
+                <li><button class="lang-btn-header" data-lang="en" onclick="setLang('en')">EN</button></li>
+                <li><button class="lang-btn-header" data-lang="es" onclick="setLang('es')">ES</button></li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="page">
         <!-- ─── HERO ─── -->
         <section class="hero">
-            <div class="hero-monogram">AA</div>
+            <!-- Logo em círculo, estilo das imagens de referência -->
+            <div class="hero-logo-wrap">
+                <img src="logo.png" alt="Amauri Almeida" class="hero-logo-img" />
+            </div>
+
             <div class="hero-name">Amauri Almeida</div>
             <div class="hero-tagline" data-pt="PESQUISA AMBIENTAL · CIÊNCIA DE DADOS · INTELIGÊNCIA ARTIFICIAL" data-en="ENVIRONMENTAL RESEARCH · DATA SCIENCE · ARTIFICIAL INTELLIGENCE" data-es="INVESTIGACIÓN AMBIENTAL · CIENCIA DE DATOS · INTELIGENCIA ARTIFICIAL">PESQUISA AMBIENTAL · CIÊNCIA DE DADOS · INTELIGÊNCIA ARTIFICIAL</div>
             <div class="hero-divider"></div>
             <h1 class="hero-headline" data-pt="Dados para um planeta mais verde" data-en="Data for a greener planet" data-es="Datos para un planeta más verde">Dados para um planeta mais verde</h1>
             <p class="hero-sub" data-pt="Projetos que unem ciência de dados, inteligência artificial e gestão ambiental para monitorar, analisar e proteger ecossistemas naturais." data-en="Projects that unite data science, AI and environmental management to monitor, analyze and protect natural ecosystems." data-es="Proyectos que unen ciencia de datos, IA y gestión ambiental para monitorear, analizar y proteger ecosistemas naturales.">Projetos que unem ciência de dados, inteligência artificial e gestão ambiental para monitorar, analisar e proteger ecossistemas naturais.</p>
+
+            <!-- Links de ação no hero -->
             <div class="hero-links">
-                <a href="https://github.com/amaurialmeida" target="_blank" class="hero-link">GitHub</a>
-                <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="hero-link">LinkedIn</a>
+                <a href="#" class="hero-link highlight" data-pt="HOME" data-en="HOME" data-es="HOME">HOME</a>
+                <a href="#projects" class="hero-link" data-pt="WORKS" data-en="WORKS" data-es="WORKS">WORKS</a>
+                <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="hero-link" data-pt="CV" data-en="CV" data-es="CV">CV</a>
+                <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="hero-link" data-pt="LINKEDIN" data-en="LINKEDIN" data-es="LINKEDIN">LINKEDIN</a>
+                <a href="https://github.com/amaurialmeida" target="_blank" class="hero-link" data-pt="GITHUB" data-en="GITHUB" data-es="GITHUB">GITHUB</a>
+                <a href="mailto:amauri@tutamail.com" class="hero-link" data-pt="E-MAIL" data-en="E-MAIL" data-es="E-MAIL">E-MAIL</a>
             </div>
+
             <div class="scroll-hint">
                 <span data-pt="PROJETOS" data-en="PROJECTS" data-es="PROYECTOS">PROJETOS</span>
                 <div class="scroll-line"></div>
@@ -787,7 +924,7 @@
         <!-- ─── STATS ─── -->
         <div class="stats-bar">
             <div class="stat-item">
-                <div class="stat-num">5</div>
+                <div class="stat-num">8</div>
                 <div class="stat-label" data-pt="PROJETOS" data-en="PROJECTS" data-es="PROYECTOS">PROJETOS</div>
             </div>
             <div class="stat-item">
@@ -905,6 +1042,60 @@
                     </div>
                     <div class="card-arrow">↗</div>
                 </a>
+
+                <!-- CARD 6 — EM PROGRESSO -->
+                <div class="project-card in-progress">
+                    <div class="card-num">006 · BRASIL · EM DESENVOLVIMENTO</div>
+                    <div class="card-region" data-pt="BRASIL · APICULTURA" data-en="BRAZIL · BEEKEEPING" data-es="BRASIL · APICULTURA">BRASIL · APICULTURA</div>
+                    <h3 class="card-title" data-pt="Abelhas sem Ferrão no Brasil" data-en="Stingless Bees in Brazil" data-es="Abejas sin Aguijón en Brasil">Abelhas sem Ferrão no Brasil</h3>
+                    <p class="card-desc" data-pt="Mapeamento e análise da diversidade de abelhas nativas sem ferrão (meliponíneos) no Brasil. Distribuição geográfica, ameaças e estratégias de conservação." data-en="Mapping and analysis of native stingless bee diversity (meliponines) in Brazil. Geographic distribution, threats and conservation strategies." data-es="Mapeo y análisis de la diversidad de abejas nativas sin aguijón (meliponinos) en Brasil. Distribución geográfica, amenazas y estrategias de conservación.">Mapeamento e análise da diversidade de abelhas nativas sem ferrão (meliponíneos) no Brasil. Distribuição geográfica, ameaças e estratégias de conservação.</p>
+                    <div class="card-tags">
+                        <span class="tag gold">Python</span>
+                        <span class="tag gold">Meliponicultura</span>
+                        <span class="tag gold">Bioindicadores</span>
+                        <span class="tag gold">Geoprocessamento</span>
+                    </div>
+                    <div class="card-status">
+                        <span class="status-dot building"></span>
+                        <span data-pt="EM DESENVOLVIMENTO" data-en="IN DEVELOPMENT" data-es="EN DESARROLLO">EM DESENVOLVIMENTO</span>
+                    </div>
+                </div>
+
+                <!-- CARD 7 — EM PROGRESSO -->
+                <div class="project-card in-progress">
+                    <div class="card-num">007 · CHILE · PUERTO WILLIAMS</div>
+                    <div class="card-region" data-pt="CHILE · TIERRA DEL FUEGO" data-en="CHILE · TIERRA DEL FUEGO" data-es="CHILE · TIERRA DEL FUEGO">CHILE · TIERRA DEL FUEGO</div>
+                    <h3 class="card-title" data-pt="Impacto dos Castores — Puerto Williams" data-en="Beaver Impact — Puerto Williams" data-es="Impacto de los Castores — Puerto Williams">Impacto dos Castores — Puerto Williams</h3>
+                    <p class="card-desc" data-pt="Análise de imagem de satélite e estudo dos impactos ecológicos do Castor (Castor canadensis) introduzido em Puerto Williams, Chile. Alterações na paisagem, hidrologia e biodiversidade nativa." data-en="Satellite image analysis and study of ecological impacts of the introduced Beaver (Castor canadensis) in Puerto Williams, Chile. Landscape, hydrology and native biodiversity changes." data-es="Análisis de imagen satelital y estudio de los impactos ecológicos del Castor (Castor canadensis) introducido en Puerto Williams, Chile. Cambios en el paisaje, hidrología y biodiversidad nativa.">Análise de imagem de satélite e estudo dos impactos ecológicos do Castor (Castor canadensis) introduzido em Puerto Williams, Chile. Alterações na paisagem, hidrologia e biodiversidade nativa.</p>
+                    <div class="card-tags">
+                        <span class="tag gold">Sensoriamento Remoto</span>
+                        <span class="tag gold">Espécies Invasoras</span>
+                        <span class="tag gold">GIS</span>
+                        <span class="tag gold">Python</span>
+                    </div>
+                    <div class="card-status">
+                        <span class="status-dot building"></span>
+                        <span data-pt="EM DESENVOLVIMENTO" data-en="IN DEVELOPMENT" data-es="EN DESARROLLO">EM DESENVOLVIMENTO</span>
+                    </div>
+                </div>
+
+                <!-- CARD 8 — EM PROGRESSO -->
+                <div class="project-card in-progress">
+                    <div class="card-num">008 · BRASIL · REGIÕES E CAPACIDADE HÍDRICA</div>
+                    <div class="card-region" data-pt="BRASIL · HIDROLOGIA" data-en="BRAZIL · HYDROLOGY" data-es="BRASIL · HIDROLOGÍA">BRASIL · HIDROLOGIA</div>
+                    <h3 class="card-title" data-pt="Aquífero Guarani — Regiões e Capacidade Hídrica" data-en="Guarani Aquifer — Regions and Water Capacity" data-es="Acuífero Guaraní — Regiones y Capacidad Hídrica">Aquífero Guarani — Regiões e Capacidade Hídrica</h3>
+                    <p class="card-desc" data-pt="Mapeamento das regiões do Aquífero Guarani e análise da capacidade hídrica em território brasileiro. Gestão sustentável, zonas de recarga e vulnerabilidade do maior aquífero transfronteiriço da América do Sul." data-en="Mapping of the Guarani Aquifer regions and analysis of water capacity in Brazilian territory. Sustainable management, recharge zones and vulnerability of South America's largest transboundary aquifer." data-es="Mapeo de las regiones del Acuífero Guaraní y análisis de la capacidad hídrica en territorio brasileño. Gestión sostenible, zonas de recarga y vulnerabilidad del mayor acuífero transfronterizo de América del Sur.">Mapeamento das regiões do Aquífero Guarani e análise da capacidade hídrica em território brasileiro. Gestão sustentável, zonas de recarga e vulnerabilidade do maior aquífero transfronteiriço da América do Sul.</p>
+                    <div class="card-tags">
+                        <span class="tag gold">Hidrogeologia</span>
+                        <span class="tag gold">GIS</span>
+                        <span class="tag gold">Python</span>
+                        <span class="tag gold">Recursos Hídricos</span>
+                    </div>
+                    <div class="card-status">
+                        <span class="status-dot building"></span>
+                        <span data-pt="EM DESENVOLVIMENTO" data-en="IN DEVELOPMENT" data-es="EN DESARROLLO">EM DESENVOLVIMENTO</span>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -955,44 +1146,50 @@
     <!-- ─── FOOTER ─── -->
     <footer id="contact">
         <div class="footer-contacts-section">
-            <span class="footer-label" data-pt="GET IN TOUCH" data-en="GET IN TOUCH" data-es="PONTE EN CONTACTO">GET IN TOUCH</span>
+            <!-- "Get in Touch" com os números ocultos — apenas bandeira + país + ícone WhatsApp -->
+            <span class="footer-label" data-pt="CONTATO · WHATSAPP" data-en="CONTACT · WHATSAPP" data-es="CONTACTO · WHATSAPP">CONTATO · WHATSAPP</span>
             <div class="contact-links">
                 <div class="contact-item">
-                    <span class="flag-icon">🇧🇷</span>
-                    <span data-pt="Brasil" data-en="Brazil" data-es="Brasil">Brasil</span>
-                    <a href="https://wa.me/5511942762908" target="_blank">
-                        <span>+55 11 94276-2908</span>
-                        <span class="wa-icon">💬</span>
+                    <a href="https://wa.me/5511942762908" target="_blank" class="wa-btn" title="+55 11 94276-2908">
+                        <span class="flag">🇧🇷</span>
+                        <span class="country-label" data-pt="Brasil" data-en="Brazil" data-es="Brasil">Brasil</span>
+                        <!-- Ícone WhatsApp SVG -->
+                        <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
                     </a>
                 </div>
                 <div class="contact-item">
-                    <span class="flag-icon">🇨🇱</span>
-                    <span data-pt="Chile" data-en="Chile" data-es="Chile">Chile</span>
-                    <a href="https://wa.me/56961485387" target="_blank">
-                        <span>+56 9 6148 5387</span>
-                        <span class="wa-icon">💬</span>
+                    <a href="https://wa.me/56961485387" target="_blank" class="wa-btn" title="+56 9 6148 5387">
+                        <span class="flag">🇨🇱</span>
+                        <span class="country-label" data-pt="Chile" data-en="Chile" data-es="Chile">Chile</span>
+                        <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
                     </a>
                 </div>
                 <div class="contact-item">
-                    <span class="flag-icon">🇦🇷</span>
-                    <span data-pt="Argentina" data-en="Argentina" data-es="Argentina">Argentina</span>
-                    <a href="https://wa.me/5492966578906" target="_blank">
-                        <span>+54 9 2966 578906</span>
-                        <span class="wa-icon">💬</span>
+                    <a href="https://wa.me/5492966578906" target="_blank" class="wa-btn" title="+54 9 2966 578906">
+                        <span class="flag">🇦🇷</span>
+                        <span class="country-label" data-pt="Argentina" data-en="Argentina" data-es="Argentina">Argentina</span>
+                        <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
                     </a>
                 </div>
             </div>
         </div>
-        
+
         <div class="footer-links">
             <a href="https://github.com/amaurialmeida" target="_blank" class="footer-link">GitHub</a>
             <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="footer-link">LinkedIn</a>
+            <a href="mailto:amauri@tutamail.com" class="footer-link">E-mail</a>
         </div>
-        <div class="footer-copy" data-pt="© 2025 AMAURI ALMEIDA DE SOUZA JUNIOR · PORTFÓLIO DE PESQUISA AMBIENTAL" data-en="© 2025 AMAURI ALMEIDA DE SOUZA JUNIOR · ENVIRONMENTAL RESEARCH PORTFOLIO" data-es="© 2025 AMAURI ALMEIDA DE SOUZA JUNIOR · PORTAFOLIO DE INVESTIGACIÓN AMBIENTAL">© 2025 AMAURI ALMEIDA DE SOUZA JUNIOR · PORTFÓLIO DE PESQUISA AMBIENTAL</div>
+        <div class="footer-copy" data-pt="© 2025 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL" data-en="© 2025 AMAURI ALMEIDA · ENVIRONMENTAL RESEARCH PORTFOLIO" data-es="© 2025 AMAURI ALMEIDA · PORTAFOLIO DE INVESTIGACIÓN AMBIENTAL">© 2025 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL</div>
     </footer>
 
     <!-- ─── TORRES DEL PAINE BANNER ─── -->
-    <button class="banner-toggle-btn" id="bannerToggleBtn" data-pt="🏔️ TORRES DEL PAINE" data-en="🏔️ TORRES DEL PAINE" data-es="🏔️ TORRES DEL PAINE">
+    <button class="banner-toggle-btn" id="bannerToggleBtn">
         <span>🏔️</span> <span class="banner-btn-text">TORRES DEL PAINE</span>
     </button>
 
@@ -1023,44 +1220,30 @@
 
     <!-- ─── SCRIPTS ─── -->
     <script>
-        // Language switcher with localStorage
+        // Language switcher
         let currentLang = localStorage.getItem('lang') || 'pt';
 
         function setLang(lang) {
             currentLang = lang;
             localStorage.setItem('lang', lang);
-            
-            // Update active button
-            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
-            document.querySelector(`[data-lang="${lang}"]`).classList.add('active');
-            
-            // Update all translatable elements
+
+            document.querySelectorAll('.lang-btn-header').forEach(btn => btn.classList.remove('active'));
+            const activeBtn = document.querySelector(`.lang-btn-header[data-lang="${lang}"]`);
+            if (activeBtn) activeBtn.classList.add('active');
+
             document.querySelectorAll('[data-pt]').forEach(el => {
                 const text = el.getAttribute(`data-${lang}`);
                 if (text) el.textContent = text;
             });
 
-            // Update banner button text separately
-            const bannerBtnText = document.querySelector('.banner-btn-text');
-            if (bannerBtnText) {
-                const translations = {
-                    'pt': 'TORRES DEL PAINE',
-                    'en': 'TORRES DEL PAINE',
-                    'es': 'TORRES DEL PAINE'
-                };
-                bannerBtnText.textContent = translations[lang];
-            }
-
-            // Update graph nodes if they exist
             updateGraphLanguage(lang);
         }
 
-        // Initialize language on page load
         window.addEventListener('DOMContentLoaded', () => {
             setLang(currentLang);
         });
 
-        // Network Graph with D3.js
+        // Network Graph D3
         let graphInitialized = false;
 
         function initializeGraph() {
@@ -1077,55 +1260,65 @@
                 .style('overflow', 'visible');
 
             const colors = { hub: '#a8c5c0', project: '#7ab3d4', theme: '#c9a84c' };
-            const radii = { hub: 25, project: 18, theme: 12 };
+            const radii  = { hub: 25, project: 18, theme: 12 };
 
             const getNodes = () => [
                 { id: "pesquisa_ambiental", group: "hub", pt: "Pesquisa\nAmbiental", en: "Environmental\nResearch", es: "Investigación\nAmbiental", desc_pt: "Núcleo central de pesquisa.", desc_en: "Core research hub.", desc_es: "Centro de investigación central." },
-                { id: "colapso_abelhas", group: "project", pt: "Colapso\nAbelhas", en: "Bee\nCollapse", es: "Colapso\nAbejas", desc_pt: "Síndrome do Colapso das Abelhas", desc_en: "Bee Colony Collapse Disorder", desc_es: "Síndrome de Colapso de Colonias", url: "https://bee-colony-collapse-brazil.streamlit.app/" },
-                { id: "rio_santa_rita", group: "project", pt: "Rio\nSanta Rita", en: "Santa Rita\nRiver", es: "Río\nSanta Rita", desc_pt: "Observatório do Rio Santa Rita", desc_en: "Santa Rita River Observatory", desc_es: "Observatorio del Río Santa Rita", url: "https://santa-rita-river-observatory.streamlit.app/" },
-                { id: "qualidade_agua", group: "project", pt: "Qualidade\nÁgua", en: "Water\nQuality", es: "Calidad\nAgua", desc_pt: "Qualidade da Água — Patagônia", desc_en: "Water Quality — Patagonia", desc_es: "Calidad del Agua — Patagonia", url: "https://patagonia-water-quality.streamlit.app/" },
-                { id: "sismos", group: "project", pt: "Sismos\nPatagônia", en: "Seismic\nPatagonia", es: "Sísmico\nPatagonia", desc_pt: "Monitoramento Sísmico", desc_en: "Seismic Monitoring", desc_es: "Monitoreo Sísmico", url: "https://patagonia-seismic.streamlit.app/" },
-                { id: "energia_eolica", group: "project", pt: "Energia\nEólica", en: "Wind\nEnergy", es: "Energía\nEólica", desc_pt: "Potencial Eólico", desc_en: "Wind Potential", desc_es: "Potencial Eólico", url: "https://patagonia-wind-energy.streamlit.app/" },
-                { id: "recursos_hidricos", group: "theme", pt: "Recursos\nHídricos", en: "Water\nResources", es: "Recursos\nHídricos", desc_pt: "Monitoramento hídrico.", desc_en: "Water monitoring.", desc_es: "Monitoreo hídrico." },
-                { id: "bioindicadores", group: "theme", pt: "Bioindicadores", en: "Bioindicators", es: "Bioindicadores", desc_pt: "Espécies como indicadores.", desc_en: "Species as indicators.", desc_es: "Especies como indicadores." },
-                { id: "geoespacial", group: "theme", pt: "Geoespacial", en: "Geospatial", es: "Geoespacial", desc_pt: "Análise de dados espaciais.", desc_en: "Spatial data analysis.", desc_es: "Análisis de datos espaciales." },
-                { id: "sismologia", group: "theme", pt: "Sismologia", en: "Seismology", es: "Sismología", desc_pt: "Análise de eventos sísmicos.", desc_en: "Seismic event analysis.", desc_es: "Análisis de eventos sísmicos." },
-                { id: "meteorologia", group: "theme", pt: "Meteorologia", en: "Meteorology", es: "Meteorología", desc_pt: "Padrões atmosféricos.", desc_en: "Atmospheric patterns.", desc_es: "Patrones atmosféricos." }
+                { id: "colapso_abelhas",    group: "project", pt: "Colapso\nAbelhas",    en: "Bee\nCollapse",      es: "Colapso\nAbejas",     desc_pt: "Síndrome do Colapso das Abelhas",     desc_en: "Bee Colony Collapse Disorder",      desc_es: "Síndrome de Colapso de Colonias",     url: "https://bee-colony-collapse-brazil.streamlit.app/" },
+                { id: "rio_santa_rita",     group: "project", pt: "Rio\nSanta Rita",     en: "Santa Rita\nRiver", es: "Río\nSanta Rita",  desc_pt: "Observatório do Rio Santa Rita",        desc_en: "Santa Rita River Observatory",      desc_es: "Observatorio del Río Santa Rita",    url: "https://santa-rita-river-observatory.streamlit.app/" },
+                { id: "qualidade_agua",     group: "project", pt: "Qualidade\nÁgua",     en: "Water\nQuality",    es: "Calidad\nAgua",    desc_pt: "Qualidade da Água — Patagônia",         desc_en: "Water Quality — Patagonia",         desc_es: "Calidad del Agua — Patagonia",       url: "https://patagonia-water-quality.streamlit.app/" },
+                { id: "sismos",             group: "project", pt: "Sismos\nPatagônia",   en: "Seismic\nPatagonia",es: "Sísmico\nPatagonia",desc_pt: "Monitoramento Sísmico",                 desc_en: "Seismic Monitoring",                desc_es: "Monitoreo Sísmico",                  url: "https://patagonia-seismic.streamlit.app/" },
+                { id: "energia_eolica",     group: "project", pt: "Energia\nEólica",     en: "Wind\nEnergy",      es: "Energía\nEólica",  desc_pt: "Potencial Eólico",                      desc_en: "Wind Potential",                    desc_es: "Potencial Eólico",                   url: "https://patagonia-wind-energy.streamlit.app/" },
+                { id: "abelhas_ferrao",     group: "project", pt: "Abelhas\nsem Ferrão", en: "Stingless\nBees",   es: "Abejas\nsin Aguijón",desc_pt:"Abelhas sem Ferrão no Brasil",          desc_en: "Stingless Bees in Brazil",          desc_es: "Abejas sin Aguijón en Brasil" },
+                { id: "castores",           group: "project", pt: "Castores\nP.Williams", en: "Beavers\nP.Williams",es:"Castores\nP.Williams",desc_pt:"Impacto dos Castores — Puerto Williams",desc_en:"Beaver Impact — Puerto Williams",   desc_es:"Impacto de Castores — Puerto Williams" },
+                { id: "aquifero",           group: "project", pt: "Aquífero\nGuarani",   en: "Guarani\nAquifer",  es: "Acuífero\nGuaraní",desc_pt: "Aquífero Guarani",                      desc_en: "Guarani Aquifer",                   desc_es: "Acuífero Guaraní" },
+                { id: "recursos_hidricos",  group: "theme",   pt: "Recursos\nHídricos",  en: "Water\nResources",  es: "Recursos\nHídricos",desc_pt:"Monitoramento hídrico.",                 desc_en: "Water monitoring.",                 desc_es: "Monitoreo hídrico." },
+                { id: "bioindicadores",     group: "theme",   pt: "Bioindicadores",      en: "Bioindicators",     es: "Bioindicadores",   desc_pt: "Espécies como indicadores.",            desc_en: "Species as indicators.",            desc_es: "Especies como indicadores." },
+                { id: "geoespacial",        group: "theme",   pt: "Geoespacial",         en: "Geospatial",        es: "Geoespacial",      desc_pt: "Análise de dados espaciais.",           desc_en: "Spatial data analysis.",            desc_es: "Análisis de datos espaciales." },
+                { id: "sismologia",         group: "theme",   pt: "Sismologia",          en: "Seismology",        es: "Sismología",       desc_pt: "Análise de eventos sísmicos.",          desc_en: "Seismic event analysis.",           desc_es: "Análisis de eventos sísmicos." },
+                { id: "meteorologia",       group: "theme",   pt: "Meteorologia",        en: "Meteorology",       es: "Meteorología",     desc_pt: "Padrões atmosféricos.",                desc_en: "Atmospheric patterns.",             desc_es: "Patrones atmosféricos." },
+                { id: "apicultura",         group: "theme",   pt: "Apicultura",          en: "Beekeeping",        es: "Apicultura",       desc_pt: "Espécies nativas polinizadoras.",       desc_en: "Native pollinator species.",        desc_es: "Especies nativas polinizadoras." },
+                { id: "especies_invasoras", group: "theme",   pt: "Espécies\nInvasoras", en: "Invasive\nSpecies", es: "Especies\nInvasoras",desc_pt:"Impacto de espécies exóticas.",        desc_en: "Impact of exotic species.",         desc_es: "Impacto de especies exóticas." }
             ];
 
             const links = [
-                { source: "pesquisa_ambiental", target: "colapso_abelhas", value: 3 },
-                { source: "pesquisa_ambiental", target: "rio_santa_rita", value: 3 },
-                { source: "pesquisa_ambiental", target: "qualidade_agua", value: 3 },
-                { source: "pesquisa_ambiental", target: "sismos", value: 3 },
-                { source: "pesquisa_ambiental", target: "energia_eolica", value: 3 },
-                { source: "qualidade_agua", target: "recursos_hidricos", value: 2 },
-                { source: "qualidade_agua", target: "geoespacial", value: 2 },
-                { source: "rio_santa_rita", target: "recursos_hidricos", value: 2 },
-                { source: "colapso_abelhas", target: "bioindicadores", value: 2 },
-                { source: "sismos", target: "sismologia", value: 2 },
-                { source: "energia_eolica", target: "meteorologia", value: 2 }
+                { source: "pesquisa_ambiental", target: "colapso_abelhas",   value: 3 },
+                { source: "pesquisa_ambiental", target: "rio_santa_rita",    value: 3 },
+                { source: "pesquisa_ambiental", target: "qualidade_agua",    value: 3 },
+                { source: "pesquisa_ambiental", target: "sismos",            value: 3 },
+                { source: "pesquisa_ambiental", target: "energia_eolica",    value: 3 },
+                { source: "pesquisa_ambiental", target: "abelhas_ferrao",    value: 3 },
+                { source: "pesquisa_ambiental", target: "castores",          value: 3 },
+                { source: "pesquisa_ambiental", target: "aquifero",          value: 3 },
+                { source: "qualidade_agua",     target: "recursos_hidricos", value: 2 },
+                { source: "qualidade_agua",     target: "geoespacial",       value: 2 },
+                { source: "rio_santa_rita",     target: "recursos_hidricos", value: 2 },
+                { source: "colapso_abelhas",    target: "bioindicadores",    value: 2 },
+                { source: "sismos",             target: "sismologia",        value: 2 },
+                { source: "energia_eolica",     target: "meteorologia",      value: 2 },
+                { source: "abelhas_ferrao",     target: "apicultura",        value: 2 },
+                { source: "abelhas_ferrao",     target: "bioindicadores",    value: 2 },
+                { source: "castores",           target: "especies_invasoras",value: 2 },
+                { source: "castores",           target: "geoespacial",       value: 2 },
+                { source: "aquifero",           target: "recursos_hidricos", value: 2 },
+                { source: "aquifero",           target: "geoespacial",       value: 2 }
             ];
 
             const nodes = getNodes();
 
             const sim = d3.forceSimulation(nodes)
-                .force('link', d3.forceLink(links).id(d => d.id).distance(100))
-                .force('charge', d3.forceManyBody().strength(-200))
+                .force('link', d3.forceLink(links).id(d => d.id).distance(110))
+                .force('charge', d3.forceManyBody().strength(-220))
                 .force('center', d3.forceCenter(W / 2, H / 2))
-                .force('collision', d3.forceCollide().radius(d => radii[d.group] + 10));
+                .force('collision', d3.forceCollide().radius(d => radii[d.group] + 12));
 
             const link = svg.append('g').selectAll('line')
-                .data(links)
-                .enter()
-                .append('line')
-                .style('stroke', 'rgba(255,255,255,0.15)')
+                .data(links).enter().append('line')
+                .style('stroke', 'rgba(255,255,255,0.12)')
                 .style('stroke-width', 1);
 
             const node = svg.append('g').selectAll('g')
-                .data(nodes)
-                .enter()
-                .append('g')
+                .data(nodes).enter().append('g')
                 .attr('class', 'graph-node')
                 .style('cursor', d => d.url ? 'pointer' : 'default')
                 .call(d3.drag()
@@ -1143,13 +1336,13 @@
                 .attr('class', 'node-text')
                 .text(d => d[currentLang] || d.pt)
                 .style('font-family', 'Space Mono, monospace')
-                .style('font-size', '0.65rem')
+                .style('font-size', '0.6rem')
                 .style('fill', d => colors[d.group])
                 .style('text-anchor', 'middle')
                 .style('dominant-baseline', 'middle')
                 .style('pointer-events', 'none')
                 .style('white-space', 'pre')
-                .style('letter-spacing', '0.05em');
+                .style('letter-spacing', '0.04em');
 
             node.on('mouseover', (event, d) => {
                 tooltip.style.opacity = '1';
@@ -1158,7 +1351,7 @@
             }).on('mousemove', (event) => {
                 const rect = container.getBoundingClientRect();
                 tooltip.style.left = `${event.clientX - rect.left + 15}px`;
-                tooltip.style.top = `${event.clientY - rect.top - 15}px`;
+                tooltip.style.top  = `${event.clientY - rect.top  - 15}px`;
             }).on('mouseleave', () => {
                 tooltip.style.opacity = '0';
             }).on('click', (event, d) => {
@@ -1166,65 +1359,50 @@
             });
 
             sim.on('tick', () => {
-                link.attr('x1', d => d.source.x)
-                    .attr('y1', d => d.source.y)
-                    .attr('x2', d => d.target.x)
-                    .attr('y2', d => d.target.y);
+                link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
                 node.attr('transform', d => `translate(${d.x},${d.y})`);
             });
 
             function dragstarted(event, d) {
                 if (!event.active) sim.alphaTarget(0.3).restart();
-                d.fx = d.x;
-                d.fy = d.y;
+                d.fx = d.x; d.fy = d.y;
             }
-
-            function dragged(event, d) {
-                d.fx = event.x;
-                d.fy = event.y;
-            }
-
+            function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
             function dragended(event, d) {
                 if (!event.active) sim.alphaTarget(0);
-                d.fx = null;
-                d.fy = null;
+                d.fx = null; d.fy = null;
             }
 
-            window.graphSvg = svg;
+            window.graphSvg   = svg;
             window.graphNodes = nodes;
         }
 
         function updateGraphLanguage(lang) {
             if (!window.graphSvg) return;
-            
-            window.graphNodes.forEach(node => {
+            window.graphNodes.forEach((node, i) => {
                 const text = node[lang] || node.pt;
-                d3.select(window.graphSvg.selectAll('.node-text').nodes()[window.graphNodes.indexOf(node)])
-                    .text(text);
+                d3.select(window.graphSvg.selectAll('.node-text').nodes()[i]).text(text);
             });
         }
 
-        // Initialize graph when section comes into view
         const graphSection = document.querySelector('.graph-section');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting && !graphInitialized) {
-                    initializeGraph();
-                }
+                if (entry.isIntersecting && !graphInitialized) initializeGraph();
             });
         });
-
         if (graphSection) observer.observe(graphSection);
 
-        // Banner toggle
-        const banner = document.getElementById('torresBanner');
-        const closeBtn = document.getElementById('closeBannerBtn');
+        // Banner Torres del Paine
+        const banner    = document.getElementById('torresBanner');
+        const closeBtn  = document.getElementById('closeBannerBtn');
         const toggleBtn = document.getElementById('bannerToggleBtn');
 
-        function openBanner() { banner.classList.add('show'); }
+        function openBanner()  { banner.classList.add('show'); }
         function closeBanner() { banner.classList.remove('show'); }
 
-        setTimeout(openBanner, 2000);
+        setTimeout(openBanner, 2500);
         closeBtn.addEventListener('click', closeBanner);
         toggleBtn.addEventListener('click', () => {
             banner.classList.contains('show') ? closeBanner() : openBanner();
@@ -1238,34 +1416,28 @@
             const ctx = canvas.getContext('2d');
 
             function resize() {
-                canvas.width = window.innerWidth;
+                canvas.width  = window.innerWidth;
                 canvas.height = window.innerHeight;
             }
-
             resize();
             window.addEventListener('resize', resize);
 
             let t = 0;
-
             function lerp(a, b, x) { return a + (b - a) * x; }
 
-            const SKY_TOP = [10, 22, 40];
-            const SKY_MID = [25, 55, 85];
-            const SKY_HOR = [120, 165, 185];
-            const GLACIER_C = [180, 220, 230];
-            const SNOW_C = [235, 240, 245];
-            const ROCK_DARK = [35, 45, 42];
-            const LAKE_DEEP = [15, 55, 80];
+            const SKY_TOP    = [10, 22, 40];
+            const SKY_MID    = [25, 55, 85];
+            const SKY_HOR    = [120, 165, 185];
+            const ROCK_DARK  = [35, 45, 42];
+            const LAKE_DEEP  = [15, 55, 80];
             const LAKE_LIGHT = [50, 130, 170];
 
             function rgb(c, a) {
-                if (a !== undefined) return `rgba(${c[0]},${c[1]},${c[2]},${a})`;
-                return `rgb(${c[0]},${c[1]},${c[2]})`;
+                return a !== undefined ? `rgba(${c[0]},${c[1]},${c[2]},${a})` : `rgb(${c[0]},${c[1]},${c[2]})`;
             }
 
             function drawFrame() {
-                const W = canvas.width;
-                const H = canvas.height;
+                const W = canvas.width, H = canvas.height;
                 t += 0.004;
 
                 const sky = ctx.createLinearGradient(0, 0, 0, H * 0.55);
@@ -1288,21 +1460,14 @@
                     ctx.globalAlpha = opacity;
                     ctx.beginPath();
                     const peaks = [
-                        { x: 0.05, y: -0.32, w: 0.08 },
-                        { x: 0.15, y: -0.25, w: 0.12 },
-                        { x: 0.25, y: -0.42, w: 0.07 },
-                        { x: 0.30, y: -0.55, w: 0.04 },
-                        { x: 0.35, y: -0.47, w: 0.05 },
-                        { x: 0.40, y: -0.38, w: 0.08 },
-                        { x: 0.50, y: -0.28, w: 0.10 },
-                        { x: 0.58, y: -0.45, w: 0.07 },
-                        { x: 0.64, y: -0.50, w: 0.06 },
-                        { x: 0.70, y: -0.38, w: 0.09 },
-                        { x: 0.80, y: -0.30, w: 0.12 },
-                        { x: 0.90, y: -0.22, w: 0.14 },
+                        { x: 0.05, y: -0.32, w: 0.08 }, { x: 0.15, y: -0.25, w: 0.12 },
+                        { x: 0.25, y: -0.42, w: 0.07 }, { x: 0.30, y: -0.55, w: 0.04 },
+                        { x: 0.35, y: -0.47, w: 0.05 }, { x: 0.40, y: -0.38, w: 0.08 },
+                        { x: 0.50, y: -0.28, w: 0.10 }, { x: 0.58, y: -0.45, w: 0.07 },
+                        { x: 0.64, y: -0.50, w: 0.06 }, { x: 0.70, y: -0.38, w: 0.09 },
+                        { x: 0.80, y: -0.30, w: 0.12 }, { x: 0.90, y: -0.22, w: 0.14 },
                         { x: 1.00, y: -0.28, w: 0.10 }
                     ];
-
                     ctx.moveTo(0, hLine);
                     peaks.forEach((p, i) => {
                         const px = (p.x + offsetX) * W * scale;
@@ -1312,12 +1477,8 @@
                         ctx.quadraticCurveTo(px - pw * 0.3, py + 8, px, py);
                         ctx.quadraticCurveTo(px + pw * 0.3, py + 8, px + pw, hLine);
                     });
-
-                    ctx.lineTo(W, hLine);
-                    ctx.lineTo(W, H);
-                    ctx.lineTo(0, H);
+                    ctx.lineTo(W, hLine); ctx.lineTo(W, H); ctx.lineTo(0, H);
                     ctx.closePath();
-
                     const mGrad = ctx.createLinearGradient(0, hLine - H * 0.22, 0, hLine);
                     mGrad.addColorStop(0, rgb(colorTop));
                     mGrad.addColorStop(1, rgb(colorBase));
@@ -1329,12 +1490,11 @@
                 drawMountainRange(-0.02 + 0.005 * Math.sin(t * 0.2), 1, [70, 105, 130], [55, 82, 100], 0.65);
                 drawMountainRange(0, 1, ROCK_DARK, [28, 38, 35], 0.85);
 
-                const lakeTop = H * 0.70;
-                const lakeH = H * 0.20;
+                const lakeTop = H * 0.70, lakeH = H * 0.20;
                 const lakeGrad = ctx.createLinearGradient(0, lakeTop, 0, lakeTop + lakeH);
-                lakeGrad.addColorStop(0, rgb(LAKE_LIGHT, 0.85));
+                lakeGrad.addColorStop(0,   rgb(LAKE_LIGHT, 0.85));
                 lakeGrad.addColorStop(0.5, rgb(LAKE_DEEP, 0.9));
-                lakeGrad.addColorStop(1, rgb(LAKE_DEEP, 0.95));
+                lakeGrad.addColorStop(1,   rgb(LAKE_DEEP, 0.95));
                 ctx.fillStyle = lakeGrad;
                 ctx.fillRect(0, lakeTop, W, lakeH);
 
