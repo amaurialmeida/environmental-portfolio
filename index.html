@@ -8,15 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 
     <style>
         :root {
-            /* Header azul petróleo do Code Two */
             --header-bg: #1a2a3a;
             --header-text: #ffffff;
-            /* Paleta escura do Code Three para o body */
             --glacier: #a8c5c0;
             --ice: #d4e8e4;
             --stone: #6b7a72;
@@ -55,30 +52,19 @@
             position: fixed;
             top: 0; left: 0;
             width: 100%; height: 100%;
-            background: linear-gradient(
-                180deg,
-                rgba(13,23,20,0.65) 0%,
-                rgba(13,23,20,0.40) 30%,
-                rgba(13,23,20,0.50) 60%,
-                rgba(13,23,20,0.85) 100%
-            );
+            background: linear-gradient(180deg, rgba(13,23,20,0.65) 0%, rgba(13,23,20,0.40) 30%, rgba(13,23,20,0.50) 60%, rgba(13,23,20,0.85) 100%);
             z-index: 1;
         }
 
-        /* ─── CONTENT WRAPPER ─── */
-        .page {
-            position: relative;
-            z-index: 2;
-        }
+        .page { position: relative; z-index: 2; }
 
-        /* ─── HEADER FIXO — Azul Petróleo (Code Two) ─── */
+        /* ─── HEADER ─── */
         header {
             background-color: var(--header-bg);
             color: var(--header-text);
             padding: 0 40px;
             position: fixed;
-            top: 0;
-            left: 0;
+            top: 0; left: 0;
             width: 100%;
             z-index: 1000;
             display: flex;
@@ -97,6 +83,7 @@
             color: var(--header-text);
         }
 
+        /* FIX 1 & 2: caminho correto do logo */
         .header-logo-img {
             width: 44px;
             height: 44px;
@@ -105,9 +92,7 @@
             transition: transform 0.3s;
         }
 
-        .header-logo-group:hover .header-logo-img {
-            transform: scale(1.05);
-        }
+        .header-logo-group:hover .header-logo-img { transform: scale(1.05); }
 
         .header-name {
             font-family: 'Cormorant Garamond', serif;
@@ -129,26 +114,18 @@
             text-transform: uppercase;
             font-size: 10px;
             letter-spacing: 1.2px;
-            color: rgba(255, 255, 255, 0.65);
+            color: rgba(255,255,255,0.65);
             text-decoration: none;
             padding: 6px 10px;
             border-radius: 3px;
             transition: color 0.2s, background 0.2s;
         }
 
-        .nav-link:hover {
-            color: #ffffff;
-            background: rgba(122,179,212,0.15);
-        }
+        .nav-link:hover { color: #ffffff; background: rgba(122,179,212,0.15); }
+        .nav-link.active { color: var(--accent); }
 
-        .nav-link.active {
-            color: var(--accent);
-        }
-
-        /* Separador Lang / Nav */
         .nav-divider {
-            width: 1px;
-            height: 20px;
+            width: 1px; height: 20px;
             background: rgba(255,255,255,0.15);
             margin: 0 6px;
         }
@@ -183,13 +160,13 @@
             text-align: center;
             padding: 2rem;
             padding-top: 90px;
+            /* FIX 6: overflow hidden para o scroll-hint não vazar */
             position: relative;
+            overflow: hidden;
         }
 
-        /* Logo círculo no hero */
         .hero-logo-wrap {
-            width: 130px;
-            height: 130px;
+            width: 130px; height: 130px;
             border-radius: 50%;
             overflow: hidden;
             background: rgba(26,42,58,0.75);
@@ -209,8 +186,7 @@
         }
 
         .hero-logo-img {
-            width: 90%;
-            height: 90%;
+            width: 90%; height: 90%;
             object-fit: contain;
             filter: brightness(1.05);
         }
@@ -236,8 +212,7 @@
         }
 
         .hero-divider {
-            width: 60px;
-            height: 1px;
+            width: 60px; height: 1px;
             background: linear-gradient(90deg, transparent, var(--glacier), transparent);
             margin: 1.8rem auto;
             opacity: 0;
@@ -267,7 +242,6 @@
             animation: fadeUp 1.2s ease 1.15s forwards;
         }
 
-        /* Hero links-bar: HOME, CV, LINKEDIN, GITHUB, E-MAIL, WORKS */
         .hero-links {
             display: flex;
             flex-wrap: wrap;
@@ -291,11 +265,7 @@
             text-transform: uppercase;
         }
 
-        .hero-link:hover {
-            color: #fff;
-            background: rgba(122,179,212,0.15);
-            border-color: rgba(122,179,212,0.6);
-        }
+        .hero-link:hover { color: #fff; background: rgba(122,179,212,0.15); border-color: rgba(122,179,212,0.6); }
 
         .hero-link.highlight {
             background: rgba(122,179,212,0.12);
@@ -303,6 +273,7 @@
             color: var(--accent);
         }
 
+        /* FIX 6: scroll-hint contido dentro do hero, sem vazar */
         .scroll-hint {
             position: absolute;
             bottom: 2.5rem;
@@ -314,6 +285,8 @@
             gap: 0.5rem;
             opacity: 0;
             animation: fadeUp 1.2s ease 1.8s forwards;
+            /* pointer-events none para nao interferir com cliques */
+            pointer-events: none;
         }
 
         .scroll-hint span {
@@ -324,11 +297,14 @@
             text-transform: uppercase;
         }
 
+        /* FIX 6: scroll-line nao pisca fora do hero — animacao so dentro do elemento */
         .scroll-line {
             width: 1px;
             height: 40px;
             background: linear-gradient(180deg, var(--glacier), transparent);
             animation: scrollPulse 2s ease-in-out infinite;
+            /* clip para nao vazar */
+            overflow: hidden;
         }
 
         /* ─── STATS BAR ─── */
@@ -340,6 +316,9 @@
             border-bottom: 1px solid rgba(168,197,192,0.12);
             background: rgba(13,23,20,0.6);
             backdrop-filter: blur(12px);
+            /* FIX 6: isolamento de contexto de empilhamento */
+            position: relative;
+            z-index: 3;
         }
 
         .stat-item {
@@ -430,7 +409,6 @@
         .project-card:hover::before { transform: scaleX(1); }
         .project-card:hover { background: rgba(42,56,48,0.7); }
 
-        /* Cards "Em Progresso" */
         .project-card.in-progress {
             background: rgba(13,23,20,0.6);
             border-left: 2px solid rgba(201,168,76,0.3);
@@ -490,10 +468,7 @@
             color: var(--glacier);
         }
 
-        .tag.gold {
-            border-color: rgba(201,168,76,0.35);
-            color: var(--gold);
-        }
+        .tag.gold { border-color: rgba(201,168,76,0.35); color: var(--gold); }
 
         .card-status {
             display: inline-flex;
@@ -504,19 +479,13 @@
             letter-spacing: 0.15em;
         }
 
-        .status-dot {
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-        }
-
-        .status-dot.online { background: #4ade80; box-shadow: 0 0 8px #4ade80; }
+        .status-dot { width: 6px; height: 6px; border-radius: 50%; }
+        .status-dot.online  { background: #4ade80; box-shadow: 0 0 8px #4ade80; }
         .status-dot.building { background: var(--gold); box-shadow: 0 0 8px var(--gold); }
 
         .card-arrow {
             position: absolute;
-            bottom: 2.5rem;
-            right: 2.5rem;
+            bottom: 2.5rem; right: 2.5rem;
             font-size: 1.2rem;
             color: var(--glacier);
             opacity: 0;
@@ -526,7 +495,7 @@
 
         .project-card:hover .card-arrow { opacity: 1; transform: translate(0, 0); }
 
-        /* ─── NETWORK GRAPH SECTION ─── */
+        /* ─── NETWORK GRAPH ─── */
         .graph-section {
             padding: 6rem 2rem;
             background: rgba(13,23,20,0.5);
@@ -537,12 +506,7 @@
 
         .graph-inner { max-width: 1200px; margin: 0 auto; }
 
-        #network-graph {
-            width: 100%;
-            height: 580px;
-            position: relative;
-        }
-
+        #network-graph { width: 100%; height: 580px; position: relative; }
         #network-graph svg { width: 100%; height: 100%; }
 
         .graph-tooltip {
@@ -570,7 +534,7 @@
             margin-bottom: 0.3rem;
         }
 
-        /* ─── BIO SECTION ─── */
+        /* ─── BIO ─── */
         .bio-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -589,24 +553,11 @@
             color: rgba(240,235,224,0.85);
         }
 
-        .edu-list {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: 1.2rem;
-        }
+        .edu-list { list-style: none; display: flex; flex-direction: column; gap: 1.2rem; }
 
-        .edu-item {
-            padding-left: 1.2rem;
-            border-left: 1px solid rgba(168,197,192,0.25);
-        }
+        .edu-item { padding-left: 1.2rem; border-left: 1px solid rgba(168,197,192,0.25); }
 
-        .edu-degree {
-            font-weight: 500;
-            font-size: 0.88rem;
-            color: var(--cream);
-            margin-bottom: 0.2rem;
-        }
+        .edu-degree { font-weight: 500; font-size: 0.88rem; color: var(--cream); margin-bottom: 0.2rem; }
 
         .edu-school {
             font-family: 'Space Mono', monospace;
@@ -624,10 +575,7 @@
             backdrop-filter: blur(20px);
         }
 
-        /* WhatsApp — países ocultos, funcionando via ícone */
-        .footer-contacts-section {
-            margin-bottom: 2rem;
-        }
+        .footer-contacts-section { margin-bottom: 2rem; }
 
         .footer-label {
             font-family: 'Space Mono', monospace;
@@ -646,15 +594,9 @@
             flex-wrap: wrap;
         }
 
-        /* Botões WhatsApp — apenas bandeira + ícone, número oculto */
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 0;
-        }
-
+        /* FIX 4: wa-btn com cursor pointer e display:flex explícito */
         .wa-btn {
-            display: flex;
+            display: inline-flex;
             align-items: center;
             gap: 8px;
             text-decoration: none;
@@ -667,6 +609,7 @@
             font-family: 'Space Mono', monospace;
             font-size: 0.6rem;
             letter-spacing: 0.1em;
+            cursor: pointer;
         }
 
         .wa-btn:hover {
@@ -678,21 +621,14 @@
         .wa-btn .flag { font-size: 1.1rem; }
 
         .wa-btn .country-label {
-            /* país visível, número oculto */
             color: rgba(240,235,224,0.7);
             font-size: 0.6rem;
         }
 
-        .wa-icon-svg {
-            width: 16px;
-            height: 16px;
-            opacity: 0.7;
-            transition: opacity 0.25s;
-        }
-
+        .wa-icon-svg { width: 16px; height: 16px; opacity: 0.7; transition: opacity 0.25s; }
         .wa-btn:hover .wa-icon-svg { opacity: 1; }
 
-        /* Footer links */
+        /* FIX 5: footer links com cursor pointer garantido */
         .footer-links {
             display: flex;
             justify-content: center;
@@ -708,6 +644,7 @@
             text-decoration: none;
             text-transform: uppercase;
             transition: color 0.25s;
+            cursor: pointer;
         }
 
         .footer-link:hover { color: var(--glacier); }
@@ -720,7 +657,7 @@
             text-transform: uppercase;
         }
 
-        /* ─── TORRES DEL PAINE BANNER ─── */
+        /* ─── FIX 3: TORRES BANNER — card compacto no canto inferior direito ─── */
         .banner-toggle-btn {
             position: fixed;
             bottom: 1.5rem;
@@ -742,36 +679,43 @@
             gap: 0.5rem;
         }
 
-        .banner-toggle-btn:hover {
-            background: rgba(122,179,212,0.15);
-            border-color: var(--glacier);
-        }
+        .banner-toggle-btn:hover { background: rgba(122,179,212,0.15); border-color: var(--glacier); }
 
+        /* Banner como card fixo no canto — NÃO ocupa tela inteira */
         .torres-banner {
             position: fixed;
-            bottom: -100%;
-            left: 0;
-            width: 100%;
+            bottom: 4.8rem;   /* logo acima do botão toggle */
+            right: 1.5rem;
+            width: 340px;
             background: rgba(10,18,16,0.97);
-            border-top: 1px solid rgba(168,197,192,0.15);
+            border: 1px solid rgba(168,197,192,0.2);
+            border-radius: 6px;
             z-index: 150;
-            transition: bottom 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 0;
+            transform: translateY(16px);
+            pointer-events: none;
+            transition: opacity 0.35s ease, transform 0.35s ease;
             backdrop-filter: blur(20px);
+            overflow: hidden;
         }
 
-        .torres-banner.show { bottom: 0; }
+        .torres-banner.show {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
 
         .banner-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1rem 1.5rem 0.5rem;
+            padding: 0.65rem 0.9rem 0.4rem;
         }
 
         .banner-title {
             font-family: 'Space Mono', monospace;
-            font-size: 0.62rem;
-            letter-spacing: 0.2em;
+            font-size: 0.55rem;
+            letter-spacing: 0.18em;
             color: var(--glacier);
         }
 
@@ -780,55 +724,52 @@
             border: none;
             color: var(--stone);
             cursor: pointer;
-            font-size: 1rem;
+            font-size: 0.9rem;
+            line-height: 1;
             transition: color 0.2s;
         }
 
         .close-banner:hover { color: var(--cream); }
 
+        /* Video 16:9 dentro do card de 340px */
         .video-wrapper {
             position: relative;
-            padding-bottom: 30%;
-            max-width: 800px;
-            margin: 0 auto;
+            width: 100%;
+            padding-bottom: 56.25%;
         }
 
         .video-wrapper iframe {
             position: absolute;
             top: 0; left: 0;
-            width: 100%;
-            height: 100%;
+            width: 100%; height: 100%;
+            border: none;
         }
 
         .banner-footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0.6rem 1.5rem 1rem;
+            padding: 0.4rem 0.9rem 0.6rem;
             flex-wrap: wrap;
-            gap: 0.5rem;
+            gap: 0.3rem;
         }
 
-        .banner-locations {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
+        .banner-locations { display: flex; gap: 0.3rem; flex-wrap: wrap; }
 
         .location-tag {
             font-family: 'Space Mono', monospace;
-            font-size: 0.52rem;
-            letter-spacing: 0.1em;
-            padding: 0.2rem 0.5rem;
+            font-size: 0.46rem;
+            letter-spacing: 0.08em;
+            padding: 0.15rem 0.4rem;
             border: 1px solid rgba(168,197,192,0.2);
             color: var(--stone);
         }
 
         .banner-credit {
             font-family: 'Space Mono', monospace;
-            font-size: 0.5rem;
+            font-size: 0.44rem;
             color: rgba(107,122,114,0.7);
-            letter-spacing: 0.08em;
+            letter-spacing: 0.06em;
         }
 
         /* ─── ANIMAÇÕES ─── */
@@ -853,25 +794,26 @@
             .stat-item { min-width: 45%; border-right: none; border-bottom: 1px solid rgba(168,197,192,0.12); }
             .bio-grid { grid-template-columns: 1fr; }
             .contact-links { flex-direction: column; align-items: center; gap: 0.8rem; }
+            /* Banner menor no mobile */
+            .torres-banner { width: calc(100vw - 3rem); right: 1.5rem; }
         }
 
         @media (max-width: 480px) {
             .header-nav .nav-link { display: none; }
-            .header-nav .nav-link.show-mobile { display: flex; }
             .hero-links { gap: 0.4rem; }
             .hero-link { font-size: 0.58rem; padding: 6px 10px; }
         }
     </style>
 </head>
 <body>
-    <!-- PATAGONIA CANVAS -->
     <canvas id="patagonia-canvas"></canvas>
     <div class="bg-overlay"></div>
 
-    <!-- ─── HEADER FIXO — Azul Petróleo ─── -->
+    <!-- ─── HEADER ─── -->
     <header>
+        <!-- FIX 1: caminho correto assets/img/logo.png -->
         <a href="#" class="header-logo-group">
-            <img src="logo.png" alt="Amauri Almeida Logo" class="header-logo-img" />
+            <img src="assets/img/logo.png" alt="Amauri Almeida Logo" class="header-logo-img" />
             <span class="header-name">Amauri Almeida</span>
         </a>
 
@@ -879,9 +821,9 @@
             <ul class="header-nav">
                 <li><a href="#" class="nav-link active">Home</a></li>
                 <li><a href="#projects" class="nav-link">Works</a></li>
-                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">CV</a></li>
-                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="nav-link">LinkedIn</a></li>
-                <li><a href="https://github.com/amaurialmeida" target="_blank" class="nav-link">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="nav-link">CV</a></li>
+                <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="nav-link">LinkedIn</a></li>
+                <li><a href="https://github.com/amaurialmeida" target="_blank" rel="noopener noreferrer" class="nav-link">GitHub</a></li>
                 <li><a href="mailto:amauri@tutamail.com" class="nav-link">E-mail</a></li>
                 <li class="nav-divider"></li>
                 <li><button class="lang-btn-header active" data-lang="pt" onclick="setLang('pt')">PT</button></li>
@@ -894,34 +836,50 @@
     <div class="page">
         <!-- ─── HERO ─── -->
         <section class="hero">
-            <!-- Logo em círculo, estilo das imagens de referência -->
+            <!-- FIX 2: caminho correto assets/img/logo.png -->
             <div class="hero-logo-wrap">
-                <img src="logo.png" alt="Amauri Almeida" class="hero-logo-img" />
+                <img src="assets/img/logo.png" alt="Amauri Almeida" class="hero-logo-img" />
             </div>
 
             <div class="hero-name">Amauri Almeida</div>
-            <div class="hero-tagline" data-pt="PESQUISA AMBIENTAL · CIÊNCIA DE DADOS · INTELIGÊNCIA ARTIFICIAL" data-en="ENVIRONMENTAL RESEARCH · DATA SCIENCE · ARTIFICIAL INTELLIGENCE" data-es="INVESTIGACIÓN AMBIENTAL · CIENCIA DE DATOS · INTELIGENCIA ARTIFICIAL">PESQUISA AMBIENTAL · CIÊNCIA DE DADOS · INTELIGÊNCIA ARTIFICIAL</div>
+            <div class="hero-tagline"
+                 data-pt="PESQUISA AMBIENTAL · CIÊNCIA DE DADOS · INTELIGÊNCIA ARTIFICIAL"
+                 data-en="ENVIRONMENTAL RESEARCH · DATA SCIENCE · ARTIFICIAL INTELLIGENCE"
+                 data-es="INVESTIGACIÓN AMBIENTAL · CIENCIA DE DATOS · INTELIGENCIA ARTIFICIAL">
+                PESQUISA AMBIENTAL · CIÊNCIA DE DADOS · INTELIGÊNCIA ARTIFICIAL
+            </div>
             <div class="hero-divider"></div>
-            <h1 class="hero-headline" data-pt="Dados para um planeta mais verde" data-en="Data for a greener planet" data-es="Datos para un planeta más verde">Dados para um planeta mais verde</h1>
-            <p class="hero-sub" data-pt="Projetos que unem ciência de dados, inteligência artificial e gestão ambiental para monitorar, analisar e proteger ecossistemas naturais." data-en="Projects that unite data science, AI and environmental management to monitor, analyze and protect natural ecosystems." data-es="Proyectos que unen ciencia de datos, IA y gestión ambiental para monitorear, analizar y proteger ecosistemas naturales.">Projetos que unem ciência de dados, inteligência artificial e gestão ambiental para monitorar, analisar e proteger ecossistemas naturais.</p>
+            <h1 class="hero-headline"
+                data-pt="Dados para um planeta mais verde"
+                data-en="Data for a greener planet"
+                data-es="Datos para un planeta más verde">
+                Dados para um planeta mais verde
+            </h1>
+            <p class="hero-sub"
+               data-pt="Projetos que unem ciência de dados, inteligência artificial e gestão ambiental para monitorar, analisar e proteger ecossistemas naturais."
+               data-en="Projects that unite data science, AI and environmental management to monitor, analyze and protect natural ecosystems."
+               data-es="Proyectos que unen ciencia de datos, IA y gestión ambiental para monitorear, analizar y proteger ecosistemas naturales.">
+                Projetos que unem ciência de dados, inteligência artificial e gestão ambiental para monitorar, analisar e proteger ecossistemas naturais.
+            </p>
 
-            <!-- Links de ação no hero -->
             <div class="hero-links">
                 <a href="#" class="hero-link highlight" data-pt="HOME" data-en="HOME" data-es="HOME">HOME</a>
                 <a href="#projects" class="hero-link" data-pt="WORKS" data-en="WORKS" data-es="WORKS">WORKS</a>
-                <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="hero-link" data-pt="CV" data-en="CV" data-es="CV">CV</a>
-                <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="hero-link" data-pt="LINKEDIN" data-en="LINKEDIN" data-es="LINKEDIN">LINKEDIN</a>
-                <a href="https://github.com/amaurialmeida" target="_blank" class="hero-link" data-pt="GITHUB" data-en="GITHUB" data-es="GITHUB">GITHUB</a>
+                <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="hero-link" data-pt="CV" data-en="CV" data-es="CV">CV</a>
+                <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="hero-link" data-pt="LINKEDIN" data-en="LINKEDIN" data-es="LINKEDIN">LINKEDIN</a>
+                <a href="https://github.com/amaurialmeida" target="_blank" rel="noopener noreferrer" class="hero-link" data-pt="GITHUB" data-en="GITHUB" data-es="GITHUB">GITHUB</a>
                 <a href="mailto:amauri@tutamail.com" class="hero-link" data-pt="E-MAIL" data-en="E-MAIL" data-es="E-MAIL">E-MAIL</a>
             </div>
 
+            <!-- FIX 6: scroll-hint contido dentro do hero com overflow:hidden no pai -->
             <div class="scroll-hint">
                 <span data-pt="PROJETOS" data-en="PROJECTS" data-es="PROYECTOS">PROJETOS</span>
                 <div class="scroll-line"></div>
             </div>
         </section>
 
-        <!-- ─── STATS ─── -->
+        <!-- ─── STATS BAR ─── -->
+        <!-- FIX 6: position:relative z-index:3 para isolar do scroll-hint -->
         <div class="stats-bar">
             <div class="stat-item">
                 <div class="stat-num">8</div>
@@ -937,24 +895,20 @@
             </div>
         </div>
 
-        <!-- ─── PROJECTS SECTION ─── -->
+        <!-- ─── PROJECTS ─── -->
         <section class="section" id="projects">
             <div class="section-label" data-pt="01 — PROJETOS DE PESQUISA" data-en="01 — RESEARCH PROJECTS" data-es="01 — PROYECTOS DE INVESTIGACIÓN">01 — PROJETOS DE PESQUISA</div>
             <h2 class="section-title" data-pt="Ecossistemas em dados" data-en="Ecosystems in data" data-es="Ecosistemas en datos">Ecossistemas em dados</h2>
 
             <div class="projects-grid">
                 <!-- CARD 1 -->
-                <a class="project-card" href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank">
+                <a class="project-card" href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank" rel="noopener noreferrer">
                     <div class="card-num">001 · BRASIL · 5 REGIÕES · TCC PREMIADO</div>
                     <div class="card-region" data-pt="BRASIL · 5 REGIÕES" data-en="BRAZIL · 5 REGIONS" data-es="BRASIL · 5 REGIONES">BRASIL · 5 REGIÕES</div>
                     <h3 class="card-title" data-pt="Síndrome do Colapso das Abelhas" data-en="Bee Colony Collapse Disorder" data-es="Síndrome de Colapso de Colonias">Síndrome do Colapso das Abelhas</h3>
                     <p class="card-desc" data-pt="Análise da mortalidade de abelhas por pesticidas e herbicidas em 5 regiões brasileiras (2016–2022). Impacto em 338 colmeias e ~20 milhões de abelhas." data-en="Analysis of bee mortality from pesticides and herbicides in 5 Brazilian regions (2016–2022). Impact on 338 hives and ~20 million bees." data-es="Análisis de la mortalidad de abejas por pesticidas y herbicidas en 5 regiones de Brasil (2016–2022). Impacto en 338 colmenas y ~20 millones de abejas.">Análise da mortalidade de abelhas por pesticidas e herbicidas em 5 regiões brasileiras (2016–2022). Impacto em 338 colmeias e ~20 milhões de abelhas.</p>
                     <div class="card-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">Agrotóxicos</span>
-                        <span class="tag">Bioindicadores</span>
-                        <span class="tag">CCD</span>
+                        <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Agrotóxicos</span><span class="tag">Bioindicadores</span><span class="tag">CCD</span>
                     </div>
                     <div class="card-status">
                         <span class="status-dot online"></span>
@@ -964,17 +918,13 @@
                 </a>
 
                 <!-- CARD 2 -->
-                <a class="project-card" href="https://santa-rita-river-observatory.streamlit.app/" target="_blank">
+                <a class="project-card" href="https://santa-rita-river-observatory.streamlit.app/" target="_blank" rel="noopener noreferrer">
                     <div class="card-num">002 · FERNANDÓPOLIS · SP</div>
                     <div class="card-region" data-pt="RIO SANTA RITA · FERNANDÓPOLIS, SP" data-en="SANTA RITA RIVER · FERNANDÓPOLIS, SP" data-es="RÍO SANTA RITA · FERNANDÓPOLIS, SP">RIO SANTA RITA · FERNANDÓPOLIS, SP</div>
                     <h3 class="card-title" data-pt="Observatório do Rio Santa Rita" data-en="Santa Rita River Observatory" data-es="Observatorio del Río Santa Rita">Observatório do Rio Santa Rita</h3>
                     <p class="card-desc" data-pt="Monitoramento hidrológico e ecológico do Rio Santa Rita. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários." data-en="Hydrological and ecological monitoring of the Santa Rita River. Flow analysis, water quality and climate impacts on riparian ecosystems." data-es="Monitoreo hidrológico y ecológico del Río Santa Rita. Análisis de caudal, calidad del agua e impactos climáticos en ecosistemas ribereños.">Monitoramento hidrológico e ecológico do Rio Santa Rita. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários.</p>
                     <div class="card-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">Hidrologia</span>
-                        <span class="tag">Ripário</span>
-                        <span class="tag">USGS</span>
+                        <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Hidrologia</span><span class="tag">Ripário</span><span class="tag">USGS</span>
                     </div>
                     <div class="card-status">
                         <span class="status-dot online"></span>
@@ -984,17 +934,13 @@
                 </a>
 
                 <!-- CARD 3 -->
-                <a class="project-card" href="https://patagonia-water-quality.streamlit.app/" target="_blank">
+                <a class="project-card" href="https://patagonia-water-quality.streamlit.app/" target="_blank" rel="noopener noreferrer">
                     <div class="card-num">003 · CHILE & ARGENTINA</div>
                     <div class="card-region" data-pt="PATAGÔNIA · SUL DA AMÉRICA DO SUL" data-en="PATAGONIA · SOUTH AMERICA" data-es="PATAGONIA · SUR DE AMÉRICA">PATAGÔNIA · SUL DA AMÉRICA DO SUL</div>
                     <h3 class="card-title" data-pt="Qualidade da Água — Patagônia" data-en="Water Quality — Patagonia" data-es="Calidad del Agua — Patagonia">Qualidade da Água — Patagônia</h3>
                     <p class="card-desc" data-pt="Monitoramento geoespacial de 18 estações nos principais rios da Patagônia. IQA, pH, turbidez, oxigênio dissolvido e tendências 2019–2024." data-en="Geospatial monitoring of 18 stations in major Patagonian rivers. IQA, pH, turbidity, dissolved oxygen and trends 2019–2024." data-es="Monitoreo geoespacial de 18 estaciones en ríos principales de la Patagonia. ICA, pH, turbidez, oxígeno disuelto y tendencias 2019–2024.">Monitoramento geoespacial de 18 estações nos principais rios da Patagônia. IQA, pH, turbidez, oxigênio dissolvido e tendências 2019–2024.</p>
                     <div class="card-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">Folium</span>
-                        <span class="tag">Plotly</span>
-                        <span class="tag">Geoespacial</span>
+                        <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Folium</span><span class="tag">Plotly</span><span class="tag">Geoespacial</span>
                     </div>
                     <div class="card-status">
                         <span class="status-dot online"></span>
@@ -1004,17 +950,13 @@
                 </a>
 
                 <!-- CARD 4 -->
-                <a class="project-card" href="https://patagonia-seismic.streamlit.app/" target="_blank">
+                <a class="project-card" href="https://patagonia-seismic.streamlit.app/" target="_blank" rel="noopener noreferrer">
                     <div class="card-num">004 · CHILE & ARGENTINA</div>
                     <div class="card-region" data-pt="PATAGÔNIA · SISMOS" data-en="PATAGONIA · SEISMIC" data-es="PATAGONIA · SÍSMICO">PATAGÔNIA · SISMOS</div>
                     <h3 class="card-title" data-pt="Monitoramento Sísmico — Patagônia" data-en="Seismic Monitoring — Patagonia" data-es="Monitoreo Sísmico — Patagonia">Monitoramento Sísmico — Patagônia</h3>
                     <p class="card-desc" data-pt="Análise de dados sísmicos e atividade tectônica na região da Patagônia. Modelagem de risco sísmico e impactos em ecossistemas." data-en="Analysis of seismic data and tectonic activity in the Patagonian region. Seismic risk modeling and ecosystem impacts." data-es="Análisis de datos sísmicos y actividad tectónica en la región de la Patagonia. Modelado de riesgo sísmico e impactos en ecosistemas.">Análise de dados sísmicos e atividade tectônica na região da Patagônia. Modelagem de risco sísmico e impactos em ecossistemas.</p>
                     <div class="card-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">Sismologia</span>
-                        <span class="tag">Geofísica</span>
-                        <span class="tag">Plotly</span>
+                        <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Sismologia</span><span class="tag">Geofísica</span><span class="tag">Plotly</span>
                     </div>
                     <div class="card-status">
                         <span class="status-dot online"></span>
@@ -1024,17 +966,13 @@
                 </a>
 
                 <!-- CARD 5 -->
-                <a class="project-card" href="https://patagonia-wind-energy.streamlit.app/" target="_blank">
+                <a class="project-card" href="https://patagonia-wind-energy.streamlit.app/" target="_blank" rel="noopener noreferrer">
                     <div class="card-num">005 · CHILE & ARGENTINA</div>
                     <div class="card-region" data-pt="PATAGÔNIA · ENERGIA EÓLICA" data-en="PATAGONIA · WIND ENERGY" data-es="PATAGONIA · ENERGÍA EÓLICA">PATAGÔNIA · ENERGIA EÓLICA</div>
                     <h3 class="card-title" data-pt="Potencial Eólico — Patagônia" data-en="Wind Potential — Patagonia" data-es="Potencial Eólico — Patagonia">Potencial Eólico — Patagônia</h3>
                     <p class="card-desc" data-pt="Análise de dados de velocidade de vento, padrões de circulação atmosférica e potencial para energia renovável na Patagônia." data-en="Analysis of wind speed data, atmospheric circulation patterns and renewable energy potential in Patagonia." data-es="Análisis de datos de velocidad del viento, patrones de circulación atmosférica y potencial de energía renovable en la Patagonia.">Análise de dados de velocidade de vento, padrões de circulação atmosférica e potencial para energia renovável na Patagônia.</p>
                     <div class="card-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Streamlit</span>
-                        <span class="tag">Meteorologia</span>
-                        <span class="tag">Energia Renovável</span>
-                        <span class="tag">Plotly</span>
+                        <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Meteorologia</span><span class="tag">Energia Renovável</span><span class="tag">Plotly</span>
                     </div>
                     <div class="card-status">
                         <span class="status-dot online"></span>
@@ -1050,10 +988,7 @@
                     <h3 class="card-title" data-pt="Abelhas sem Ferrão no Brasil" data-en="Stingless Bees in Brazil" data-es="Abejas sin Aguijón en Brasil">Abelhas sem Ferrão no Brasil</h3>
                     <p class="card-desc" data-pt="Mapeamento e análise da diversidade de abelhas nativas sem ferrão (meliponíneos) no Brasil. Distribuição geográfica, ameaças e estratégias de conservação." data-en="Mapping and analysis of native stingless bee diversity (meliponines) in Brazil. Geographic distribution, threats and conservation strategies." data-es="Mapeo y análisis de la diversidad de abejas nativas sin aguijón (meliponinos) en Brasil. Distribución geográfica, amenazas y estrategias de conservación.">Mapeamento e análise da diversidade de abelhas nativas sem ferrão (meliponíneos) no Brasil. Distribuição geográfica, ameaças e estratégias de conservação.</p>
                     <div class="card-tags">
-                        <span class="tag gold">Python</span>
-                        <span class="tag gold">Meliponicultura</span>
-                        <span class="tag gold">Bioindicadores</span>
-                        <span class="tag gold">Geoprocessamento</span>
+                        <span class="tag gold">Python</span><span class="tag gold">Meliponicultura</span><span class="tag gold">Bioindicadores</span><span class="tag gold">Geoprocessamento</span>
                     </div>
                     <div class="card-status">
                         <span class="status-dot building"></span>
@@ -1068,10 +1003,7 @@
                     <h3 class="card-title" data-pt="Impacto dos Castores — Puerto Williams" data-en="Beaver Impact — Puerto Williams" data-es="Impacto de los Castores — Puerto Williams">Impacto dos Castores — Puerto Williams</h3>
                     <p class="card-desc" data-pt="Análise de imagem de satélite e estudo dos impactos ecológicos do Castor (Castor canadensis) introduzido em Puerto Williams, Chile. Alterações na paisagem, hidrologia e biodiversidade nativa." data-en="Satellite image analysis and study of ecological impacts of the introduced Beaver (Castor canadensis) in Puerto Williams, Chile. Landscape, hydrology and native biodiversity changes." data-es="Análisis de imagen satelital y estudio de los impactos ecológicos del Castor (Castor canadensis) introducido en Puerto Williams, Chile. Cambios en el paisaje, hidrología y biodiversidad nativa.">Análise de imagem de satélite e estudo dos impactos ecológicos do Castor (Castor canadensis) introduzido em Puerto Williams, Chile. Alterações na paisagem, hidrologia e biodiversidade nativa.</p>
                     <div class="card-tags">
-                        <span class="tag gold">Sensoriamento Remoto</span>
-                        <span class="tag gold">Espécies Invasoras</span>
-                        <span class="tag gold">GIS</span>
-                        <span class="tag gold">Python</span>
+                        <span class="tag gold">Sensoriamento Remoto</span><span class="tag gold">Espécies Invasoras</span><span class="tag gold">GIS</span><span class="tag gold">Python</span>
                     </div>
                     <div class="card-status">
                         <span class="status-dot building"></span>
@@ -1086,10 +1018,7 @@
                     <h3 class="card-title" data-pt="Aquífero Guarani — Regiões e Capacidade Hídrica" data-en="Guarani Aquifer — Regions and Water Capacity" data-es="Acuífero Guaraní — Regiones y Capacidad Hídrica">Aquífero Guarani — Regiões e Capacidade Hídrica</h3>
                     <p class="card-desc" data-pt="Mapeamento das regiões do Aquífero Guarani e análise da capacidade hídrica em território brasileiro. Gestão sustentável, zonas de recarga e vulnerabilidade do maior aquífero transfronteiriço da América do Sul." data-en="Mapping of the Guarani Aquifer regions and analysis of water capacity in Brazilian territory. Sustainable management, recharge zones and vulnerability of South America's largest transboundary aquifer." data-es="Mapeo de las regiones del Acuífero Guaraní y análisis de la capacidad hídrica en territorio brasileño. Gestión sostenible, zonas de recarga y vulnerabilidad del mayor acuífero transfronterizo de América del Sur.">Mapeamento das regiões do Aquífero Guarani e análise da capacidade hídrica em território brasileiro. Gestão sustentável, zonas de recarga e vulnerabilidade do maior aquífero transfronteiriço da América do Sul.</p>
                     <div class="card-tags">
-                        <span class="tag gold">Hidrogeologia</span>
-                        <span class="tag gold">GIS</span>
-                        <span class="tag gold">Python</span>
-                        <span class="tag gold">Recursos Hídricos</span>
+                        <span class="tag gold">Hidrogeologia</span><span class="tag gold">GIS</span><span class="tag gold">Python</span><span class="tag gold">Recursos Hídricos</span>
                     </div>
                     <div class="card-status">
                         <span class="status-dot building"></span>
@@ -1115,7 +1044,12 @@
             <div class="section-label" data-pt="03 — PESQUISADOR" data-en="03 — RESEARCHER" data-es="03 — INVESTIGADOR">03 — PESQUISADOR</div>
             <h2 class="section-title" data-pt="Perfil académico" data-en="Academic profile" data-es="Perfil académico">Perfil académico</h2>
             <div class="bio-grid">
-                <div class="bio-text" data-pt="Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível." data-en="Environmental management technician and technologist, with a background in Systems Analysis and postgraduate degrees in AI, Machine Learning and Data Science. I develop projects that translate complex environmental data into accessible knowledge." data-es="Técnico y tecnólogo en Gestión Ambiental, con formación en Análisis y Desarrollo de Sistemas y posgrados en IA, Machine Learning y Ciencia de Datos. Desarrollo proyectos que traducen datos ambientales complejos en conocimiento accesible.">Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível.</div>
+                <div class="bio-text"
+                     data-pt="Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível."
+                     data-en="Environmental management technician and technologist, with a background in Systems Analysis and postgraduate degrees in AI, Machine Learning and Data Science. I develop projects that translate complex environmental data into accessible knowledge."
+                     data-es="Técnico y tecnólogo en Gestión Ambiental, con formación en Análisis y Desarrollo de Sistemas y posgrados en IA, Machine Learning y Ciencia de Datos. Desarrollo proyectos que traducen datos ambientales complejos en conocimiento accesible.">
+                    Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível.
+                </div>
                 <ul class="edu-list">
                     <li class="edu-item">
                         <div class="edu-degree" data-pt="Técnico em Meio Ambiente" data-en="Environmental Technician" data-es="Técnico en Medio Ambiente">Técnico em Meio Ambiente</div>
@@ -1140,62 +1074,62 @@
                 </ul>
             </div>
         </section>
-
     </div>
 
     <!-- ─── FOOTER ─── -->
     <footer id="contact">
         <div class="footer-contacts-section">
-            <!-- "Get in Touch" com os números ocultos — apenas bandeira + país + ícone WhatsApp -->
             <span class="footer-label" data-pt="CONTATO · WHATSAPP" data-en="CONTACT · WHATSAPP" data-es="CONTACTO · WHATSAPP">CONTATO · WHATSAPP</span>
             <div class="contact-links">
-                <div class="contact-item">
-                    <a href="https://wa.me/5511942762908" target="_blank" class="wa-btn" title="+55 11 94276-2908">
-                        <span class="flag">🇧🇷</span>
-                        <span class="country-label" data-pt="Brasil" data-en="Brazil" data-es="Brasil">Brasil</span>
-                        <!-- Ícone WhatsApp SVG -->
-                        <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="contact-item">
-                    <a href="https://wa.me/56961485387" target="_blank" class="wa-btn" title="+56 9 6148 5387">
-                        <span class="flag">🇨🇱</span>
-                        <span class="country-label" data-pt="Chile" data-en="Chile" data-es="Chile">Chile</span>
-                        <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="contact-item">
-                    <a href="https://wa.me/5492966578906" target="_blank" class="wa-btn" title="+54 9 2966 578906">
-                        <span class="flag">🇦🇷</span>
-                        <span class="country-label" data-pt="Argentina" data-en="Argentina" data-es="Argentina">Argentina</span>
-                        <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                        </svg>
-                    </a>
-                </div>
+                <!-- FIX 4: href correto + target _blank + rel noopener -->
+                <a href="https://wa.me/5511942762908" target="_blank" rel="noopener noreferrer" class="wa-btn" title="+55 11 94276-2908">
+                    <span class="flag">🇧🇷</span>
+                    <span class="country-label" data-pt="Brasil" data-en="Brazil" data-es="Brasil">Brasil</span>
+                    <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                </a>
+
+                <a href="https://wa.me/56961485387" target="_blank" rel="noopener noreferrer" class="wa-btn" title="+56 9 6148 5387">
+                    <span class="flag">🇨🇱</span>
+                    <span class="country-label" data-pt="Chile" data-en="Chile" data-es="Chile">Chile</span>
+                    <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                </a>
+
+                <a href="https://wa.me/5492966578906" target="_blank" rel="noopener noreferrer" class="wa-btn" title="+54 9 2966 578906">
+                    <span class="flag">🇦🇷</span>
+                    <span class="country-label" data-pt="Argentina" data-en="Argentina" data-es="Argentina">Argentina</span>
+                    <svg class="wa-icon-svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                </a>
             </div>
         </div>
 
+        <!-- FIX 5: links do footer com target _blank e rel noopener garantidos -->
         <div class="footer-links">
-            <a href="https://github.com/amaurialmeida" target="_blank" class="footer-link">GitHub</a>
-            <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" class="footer-link">LinkedIn</a>
+            <a href="https://github.com/amaurialmeida" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
             <a href="mailto:amauri@tutamail.com" class="footer-link">E-mail</a>
         </div>
-        <div class="footer-copy" data-pt="© 2025 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL" data-en="© 2025 AMAURI ALMEIDA · ENVIRONMENTAL RESEARCH PORTFOLIO" data-es="© 2025 AMAURI ALMEIDA · PORTAFOLIO DE INVESTIGACIÓN AMBIENTAL">© 2025 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL</div>
+        <div class="footer-copy"
+             data-pt="© 2025 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL"
+             data-en="© 2025 AMAURI ALMEIDA · ENVIRONMENTAL RESEARCH PORTFOLIO"
+             data-es="© 2025 AMAURI ALMEIDA · PORTAFOLIO DE INVESTIGACIÓN AMBIENTAL">
+            © 2025 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL
+        </div>
     </footer>
 
-    <!-- ─── TORRES DEL PAINE BANNER ─── -->
+    <!-- FIX 3: Banner Torres del Paine como card compacto no canto direito -->
     <button class="banner-toggle-btn" id="bannerToggleBtn">
-        <span>🏔️</span> <span class="banner-btn-text">TORRES DEL PAINE</span>
+        <span>🏔️</span> <span>TORRES DEL PAINE</span>
     </button>
 
     <div class="torres-banner" id="torresBanner">
         <div class="banner-header">
-            <span class="banner-title" data-pt="🌿 GUIA DE VIAGEM · TORRES DEL PAINE" data-en="🌿 TRAVEL GUIDE · TORRES DEL PAINE" data-es="🌿 GUÍA DE VIAJE · TORRES DEL PAINE"><strong data-pt="GUIA DE VIAGEM" data-en="TRAVEL GUIDE" data-es="GUÍA DE VIAJE">GUIA DE VIAGEM</strong> · TORRES DEL PAINE</span>
+            <span class="banner-title">🌿 TORRES DEL PAINE</span>
             <button class="close-banner" id="closeBannerBtn">✕</button>
         </div>
         <div class="video-wrapper">
@@ -1212,15 +1146,13 @@
                 <span class="location-tag" data-pt="Mirador Cuernos" data-en="Cuernos Viewpoint" data-es="Mirador Cuernos">Mirador Cuernos</span>
                 <span class="location-tag" data-pt="Base Torres" data-en="Torres Base" data-es="Base Torres">Base Torres</span>
             </div>
-            <div class="banner-credit" data-pt="📹 Vídeo: Monica Civitenga · Torres del Paine NP" data-en="📹 Video: Monica Civitenga · Torres del Paine NP" data-es="📹 Vídeo: Monica Civitenga · Torres del Paine NP">
-                📹 Vídeo: Monica Civitenga · Torres del Paine NP
-            </div>
+            <div class="banner-credit">📹 Monica Civitenga</div>
         </div>
     </div>
 
     <!-- ─── SCRIPTS ─── -->
     <script>
-        // Language switcher
+        // ── Language switcher ──
         let currentLang = localStorage.getItem('lang') || 'pt';
 
         function setLang(lang) {
@@ -1228,22 +1160,22 @@
             localStorage.setItem('lang', lang);
 
             document.querySelectorAll('.lang-btn-header').forEach(btn => btn.classList.remove('active'));
-            const activeBtn = document.querySelector(`.lang-btn-header[data-lang="${lang}"]`);
-            if (activeBtn) activeBtn.classList.add('active');
+            const btn = document.querySelector('.lang-btn-header[data-lang="' + lang + '"]');
+            if (btn) btn.classList.add('active');
 
             document.querySelectorAll('[data-pt]').forEach(el => {
-                const text = el.getAttribute(`data-${lang}`);
+                const text = el.getAttribute('data-' + lang);
                 if (text) el.textContent = text;
             });
 
             updateGraphLanguage(lang);
         }
 
-        window.addEventListener('DOMContentLoaded', () => {
+        window.addEventListener('DOMContentLoaded', function() {
             setLang(currentLang);
         });
 
-        // Network Graph D3
+        // ── Network Graph D3 ──
         let graphInitialized = false;
 
         function initializeGraph() {
@@ -1251,66 +1183,64 @@
             graphInitialized = true;
 
             const container = document.getElementById('network-graph');
-            const tooltip = document.getElementById('graph-tooltip');
+            const tooltip   = document.getElementById('graph-tooltip');
             const W = container.clientWidth;
             const H = container.clientHeight;
 
             const svg = d3.select(container).append('svg')
-                .attr('viewBox', `0 0 ${W} ${H}`)
+                .attr('viewBox', '0 0 ' + W + ' ' + H)
                 .style('overflow', 'visible');
 
             const colors = { hub: '#a8c5c0', project: '#7ab3d4', theme: '#c9a84c' };
             const radii  = { hub: 25, project: 18, theme: 12 };
 
-            const getNodes = () => [
-                { id: "pesquisa_ambiental", group: "hub", pt: "Pesquisa\nAmbiental", en: "Environmental\nResearch", es: "Investigación\nAmbiental", desc_pt: "Núcleo central de pesquisa.", desc_en: "Core research hub.", desc_es: "Centro de investigación central." },
-                { id: "colapso_abelhas",    group: "project", pt: "Colapso\nAbelhas",    en: "Bee\nCollapse",      es: "Colapso\nAbejas",     desc_pt: "Síndrome do Colapso das Abelhas",     desc_en: "Bee Colony Collapse Disorder",      desc_es: "Síndrome de Colapso de Colonias",     url: "https://bee-colony-collapse-brazil.streamlit.app/" },
-                { id: "rio_santa_rita",     group: "project", pt: "Rio\nSanta Rita",     en: "Santa Rita\nRiver", es: "Río\nSanta Rita",  desc_pt: "Observatório do Rio Santa Rita",        desc_en: "Santa Rita River Observatory",      desc_es: "Observatorio del Río Santa Rita",    url: "https://santa-rita-river-observatory.streamlit.app/" },
-                { id: "qualidade_agua",     group: "project", pt: "Qualidade\nÁgua",     en: "Water\nQuality",    es: "Calidad\nAgua",    desc_pt: "Qualidade da Água — Patagônia",         desc_en: "Water Quality — Patagonia",         desc_es: "Calidad del Agua — Patagonia",       url: "https://patagonia-water-quality.streamlit.app/" },
-                { id: "sismos",             group: "project", pt: "Sismos\nPatagônia",   en: "Seismic\nPatagonia",es: "Sísmico\nPatagonia",desc_pt: "Monitoramento Sísmico",                 desc_en: "Seismic Monitoring",                desc_es: "Monitoreo Sísmico",                  url: "https://patagonia-seismic.streamlit.app/" },
-                { id: "energia_eolica",     group: "project", pt: "Energia\nEólica",     en: "Wind\nEnergy",      es: "Energía\nEólica",  desc_pt: "Potencial Eólico",                      desc_en: "Wind Potential",                    desc_es: "Potencial Eólico",                   url: "https://patagonia-wind-energy.streamlit.app/" },
-                { id: "abelhas_ferrao",     group: "project", pt: "Abelhas\nsem Ferrão", en: "Stingless\nBees",   es: "Abejas\nsin Aguijón",desc_pt:"Abelhas sem Ferrão no Brasil",          desc_en: "Stingless Bees in Brazil",          desc_es: "Abejas sin Aguijón en Brasil" },
-                { id: "castores",           group: "project", pt: "Castores\nP.Williams", en: "Beavers\nP.Williams",es:"Castores\nP.Williams",desc_pt:"Impacto dos Castores — Puerto Williams",desc_en:"Beaver Impact — Puerto Williams",   desc_es:"Impacto de Castores — Puerto Williams" },
-                { id: "aquifero",           group: "project", pt: "Aquífero\nGuarani",   en: "Guarani\nAquifer",  es: "Acuífero\nGuaraní",desc_pt: "Aquífero Guarani",                      desc_en: "Guarani Aquifer",                   desc_es: "Acuífero Guaraní" },
-                { id: "recursos_hidricos",  group: "theme",   pt: "Recursos\nHídricos",  en: "Water\nResources",  es: "Recursos\nHídricos",desc_pt:"Monitoramento hídrico.",                 desc_en: "Water monitoring.",                 desc_es: "Monitoreo hídrico." },
-                { id: "bioindicadores",     group: "theme",   pt: "Bioindicadores",      en: "Bioindicators",     es: "Bioindicadores",   desc_pt: "Espécies como indicadores.",            desc_en: "Species as indicators.",            desc_es: "Especies como indicadores." },
-                { id: "geoespacial",        group: "theme",   pt: "Geoespacial",         en: "Geospatial",        es: "Geoespacial",      desc_pt: "Análise de dados espaciais.",           desc_en: "Spatial data analysis.",            desc_es: "Análisis de datos espaciales." },
-                { id: "sismologia",         group: "theme",   pt: "Sismologia",          en: "Seismology",        es: "Sismología",       desc_pt: "Análise de eventos sísmicos.",          desc_en: "Seismic event analysis.",           desc_es: "Análisis de eventos sísmicos." },
-                { id: "meteorologia",       group: "theme",   pt: "Meteorologia",        en: "Meteorology",       es: "Meteorología",     desc_pt: "Padrões atmosféricos.",                desc_en: "Atmospheric patterns.",             desc_es: "Patrones atmosféricos." },
-                { id: "apicultura",         group: "theme",   pt: "Apicultura",          en: "Beekeeping",        es: "Apicultura",       desc_pt: "Espécies nativas polinizadoras.",       desc_en: "Native pollinator species.",        desc_es: "Especies nativas polinizadoras." },
-                { id: "especies_invasoras", group: "theme",   pt: "Espécies\nInvasoras", en: "Invasive\nSpecies", es: "Especies\nInvasoras",desc_pt:"Impacto de espécies exóticas.",        desc_en: "Impact of exotic species.",         desc_es: "Impacto de especies exóticas." }
+            const nodes = [
+                { id: 'pesquisa_ambiental', group: 'hub',     pt: 'Pesquisa\nAmbiental',   en: 'Environmental\nResearch',  es: 'Investigación\nAmbiental',  desc_pt: 'Núcleo central de pesquisa.',              desc_en: 'Core research hub.',              desc_es: 'Centro de investigación central.' },
+                { id: 'colapso_abelhas',    group: 'project', pt: 'Colapso\nAbelhas',       en: 'Bee\nCollapse',            es: 'Colapso\nAbejas',           desc_pt: 'Síndrome do Colapso das Abelhas',          desc_en: 'Bee Colony Collapse Disorder',    desc_es: 'Síndrome de Colapso de Colonias',    url: 'https://bee-colony-collapse-brazil.streamlit.app/' },
+                { id: 'rio_santa_rita',     group: 'project', pt: 'Rio\nSanta Rita',        en: 'Santa Rita\nRiver',        es: 'Río\nSanta Rita',           desc_pt: 'Observatório do Rio Santa Rita',           desc_en: 'Santa Rita River Observatory',    desc_es: 'Observatorio del Río Santa Rita',    url: 'https://santa-rita-river-observatory.streamlit.app/' },
+                { id: 'qualidade_agua',     group: 'project', pt: 'Qualidade\nÁgua',        en: 'Water\nQuality',           es: 'Calidad\nAgua',             desc_pt: 'Qualidade da Água — Patagônia',            desc_en: 'Water Quality — Patagonia',       desc_es: 'Calidad del Agua — Patagonia',       url: 'https://patagonia-water-quality.streamlit.app/' },
+                { id: 'sismos',             group: 'project', pt: 'Sismos\nPatagônia',      en: 'Seismic\nPatagonia',       es: 'Sísmico\nPatagonia',        desc_pt: 'Monitoramento Sísmico',                    desc_en: 'Seismic Monitoring',              desc_es: 'Monitoreo Sísmico',                  url: 'https://patagonia-seismic.streamlit.app/' },
+                { id: 'energia_eolica',     group: 'project', pt: 'Energia\nEólica',        en: 'Wind\nEnergy',             es: 'Energía\nEólica',           desc_pt: 'Potencial Eólico',                         desc_en: 'Wind Potential',                  desc_es: 'Potencial Eólico',                   url: 'https://patagonia-wind-energy.streamlit.app/' },
+                { id: 'abelhas_ferrao',     group: 'project', pt: 'Abelhas\nsem Ferrão',    en: 'Stingless\nBees',          es: 'Abejas\nsin Aguijón',       desc_pt: 'Abelhas sem Ferrão no Brasil',             desc_en: 'Stingless Bees in Brazil',        desc_es: 'Abejas sin Aguijón en Brasil' },
+                { id: 'castores',           group: 'project', pt: 'Castores\nP.Williams',   en: 'Beavers\nP.Williams',      es: 'Castores\nP.Williams',      desc_pt: 'Impacto dos Castores — Puerto Williams',   desc_en: 'Beaver Impact — Puerto Williams', desc_es: 'Impacto de Castores — Puerto Williams' },
+                { id: 'aquifero',           group: 'project', pt: 'Aquífero\nGuarani',      en: 'Guarani\nAquifer',         es: 'Acuífero\nGuaraní',         desc_pt: 'Aquífero Guarani',                         desc_en: 'Guarani Aquifer',                 desc_es: 'Acuífero Guaraní' },
+                { id: 'recursos_hidricos',  group: 'theme',   pt: 'Recursos\nHídricos',     en: 'Water\nResources',         es: 'Recursos\nHídricos',        desc_pt: 'Monitoramento hídrico.',                   desc_en: 'Water monitoring.',               desc_es: 'Monitoreo hídrico.' },
+                { id: 'bioindicadores',     group: 'theme',   pt: 'Bioindicadores',          en: 'Bioindicators',            es: 'Bioindicadores',            desc_pt: 'Espécies como indicadores.',               desc_en: 'Species as indicators.',          desc_es: 'Especies como indicadores.' },
+                { id: 'geoespacial',        group: 'theme',   pt: 'Geoespacial',             en: 'Geospatial',               es: 'Geoespacial',               desc_pt: 'Análise de dados espaciais.',              desc_en: 'Spatial data analysis.',          desc_es: 'Análisis de datos espaciales.' },
+                { id: 'sismologia',         group: 'theme',   pt: 'Sismologia',              en: 'Seismology',               es: 'Sismología',                desc_pt: 'Análise de eventos sísmicos.',             desc_en: 'Seismic event analysis.',         desc_es: 'Análisis de eventos sísmicos.' },
+                { id: 'meteorologia',       group: 'theme',   pt: 'Meteorologia',            en: 'Meteorology',              es: 'Meteorología',              desc_pt: 'Padrões atmosféricos.',                    desc_en: 'Atmospheric patterns.',           desc_es: 'Patrones atmosféricos.' },
+                { id: 'apicultura',         group: 'theme',   pt: 'Apicultura',              en: 'Beekeeping',               es: 'Apicultura',                desc_pt: 'Espécies nativas polinizadoras.',          desc_en: 'Native pollinator species.',      desc_es: 'Especies nativas polinizadoras.' },
+                { id: 'especies_invasoras', group: 'theme',   pt: 'Espécies\nInvasoras',     en: 'Invasive\nSpecies',        es: 'Especies\nInvasoras',       desc_pt: 'Impacto de espécies exóticas.',            desc_en: 'Impact of exotic species.',       desc_es: 'Impacto de especies exóticas.' }
             ];
 
             const links = [
-                { source: "pesquisa_ambiental", target: "colapso_abelhas",   value: 3 },
-                { source: "pesquisa_ambiental", target: "rio_santa_rita",    value: 3 },
-                { source: "pesquisa_ambiental", target: "qualidade_agua",    value: 3 },
-                { source: "pesquisa_ambiental", target: "sismos",            value: 3 },
-                { source: "pesquisa_ambiental", target: "energia_eolica",    value: 3 },
-                { source: "pesquisa_ambiental", target: "abelhas_ferrao",    value: 3 },
-                { source: "pesquisa_ambiental", target: "castores",          value: 3 },
-                { source: "pesquisa_ambiental", target: "aquifero",          value: 3 },
-                { source: "qualidade_agua",     target: "recursos_hidricos", value: 2 },
-                { source: "qualidade_agua",     target: "geoespacial",       value: 2 },
-                { source: "rio_santa_rita",     target: "recursos_hidricos", value: 2 },
-                { source: "colapso_abelhas",    target: "bioindicadores",    value: 2 },
-                { source: "sismos",             target: "sismologia",        value: 2 },
-                { source: "energia_eolica",     target: "meteorologia",      value: 2 },
-                { source: "abelhas_ferrao",     target: "apicultura",        value: 2 },
-                { source: "abelhas_ferrao",     target: "bioindicadores",    value: 2 },
-                { source: "castores",           target: "especies_invasoras",value: 2 },
-                { source: "castores",           target: "geoespacial",       value: 2 },
-                { source: "aquifero",           target: "recursos_hidricos", value: 2 },
-                { source: "aquifero",           target: "geoespacial",       value: 2 }
+                { source: 'pesquisa_ambiental', target: 'colapso_abelhas',    value: 3 },
+                { source: 'pesquisa_ambiental', target: 'rio_santa_rita',     value: 3 },
+                { source: 'pesquisa_ambiental', target: 'qualidade_agua',     value: 3 },
+                { source: 'pesquisa_ambiental', target: 'sismos',             value: 3 },
+                { source: 'pesquisa_ambiental', target: 'energia_eolica',     value: 3 },
+                { source: 'pesquisa_ambiental', target: 'abelhas_ferrao',     value: 3 },
+                { source: 'pesquisa_ambiental', target: 'castores',           value: 3 },
+                { source: 'pesquisa_ambiental', target: 'aquifero',           value: 3 },
+                { source: 'qualidade_agua',     target: 'recursos_hidricos',  value: 2 },
+                { source: 'qualidade_agua',     target: 'geoespacial',        value: 2 },
+                { source: 'rio_santa_rita',     target: 'recursos_hidricos',  value: 2 },
+                { source: 'colapso_abelhas',    target: 'bioindicadores',     value: 2 },
+                { source: 'sismos',             target: 'sismologia',         value: 2 },
+                { source: 'energia_eolica',     target: 'meteorologia',       value: 2 },
+                { source: 'abelhas_ferrao',     target: 'apicultura',         value: 2 },
+                { source: 'abelhas_ferrao',     target: 'bioindicadores',     value: 2 },
+                { source: 'castores',           target: 'especies_invasoras', value: 2 },
+                { source: 'castores',           target: 'geoespacial',        value: 2 },
+                { source: 'aquifero',           target: 'recursos_hidricos',  value: 2 },
+                { source: 'aquifero',           target: 'geoespacial',        value: 2 }
             ];
 
-            const nodes = getNodes();
-
             const sim = d3.forceSimulation(nodes)
-                .force('link', d3.forceLink(links).id(d => d.id).distance(110))
+                .force('link', d3.forceLink(links).id(function(d){ return d.id; }).distance(110))
                 .force('charge', d3.forceManyBody().strength(-220))
                 .force('center', d3.forceCenter(W / 2, H / 2))
-                .force('collision', d3.forceCollide().radius(d => radii[d.group] + 12));
+                .force('collision', d3.forceCollide().radius(function(d){ return radii[d.group] + 12; }));
 
             const link = svg.append('g').selectAll('line')
                 .data(links).enter().append('line')
@@ -1320,59 +1250,55 @@
             const node = svg.append('g').selectAll('g')
                 .data(nodes).enter().append('g')
                 .attr('class', 'graph-node')
-                .style('cursor', d => d.url ? 'pointer' : 'default')
+                .style('cursor', function(d){ return d.url ? 'pointer' : 'default'; })
                 .call(d3.drag()
                     .on('start', dragstarted)
-                    .on('drag', dragged)
-                    .on('end', dragended));
+                    .on('drag',  dragged)
+                    .on('end',   dragended));
 
             node.append('circle')
-                .attr('r', d => radii[d.group])
-                .style('fill', d => colors[d.group] + '33')
-                .style('stroke', d => colors[d.group])
+                .attr('r', function(d){ return radii[d.group]; })
+                .style('fill',         function(d){ return colors[d.group] + '33'; })
+                .style('stroke',       function(d){ return colors[d.group]; })
                 .style('stroke-width', 2);
 
             node.append('text')
                 .attr('class', 'node-text')
-                .text(d => d[currentLang] || d.pt)
-                .style('font-family', 'Space Mono, monospace')
-                .style('font-size', '0.6rem')
-                .style('fill', d => colors[d.group])
-                .style('text-anchor', 'middle')
+                .text(function(d){ return d[currentLang] || d.pt; })
+                .style('font-family',       'Space Mono, monospace')
+                .style('font-size',         '0.6rem')
+                .style('fill',              function(d){ return colors[d.group]; })
+                .style('text-anchor',       'middle')
                 .style('dominant-baseline', 'middle')
-                .style('pointer-events', 'none')
-                .style('white-space', 'pre')
-                .style('letter-spacing', '0.04em');
+                .style('pointer-events',    'none')
+                .style('white-space',       'pre')
+                .style('letter-spacing',    '0.04em');
 
-            node.on('mouseover', (event, d) => {
+            node.on('mouseover', function(event, d) {
                 tooltip.style.opacity = '1';
-                const desc = d[`desc_${currentLang}`] || d.desc_pt;
-                tooltip.innerHTML = `<strong>${d[currentLang].replace(/\n/g, ' ')}</strong>${desc}`;
-            }).on('mousemove', (event) => {
-                const rect = container.getBoundingClientRect();
-                tooltip.style.left = `${event.clientX - rect.left + 15}px`;
-                tooltip.style.top  = `${event.clientY - rect.top  - 15}px`;
-            }).on('mouseleave', () => {
+                var desc = d['desc_' + currentLang] || d.desc_pt;
+                tooltip.innerHTML = '<strong>' + d[currentLang].replace(/\n/g, ' ') + '</strong>' + desc;
+            }).on('mousemove', function(event) {
+                var rect = container.getBoundingClientRect();
+                tooltip.style.left = (event.clientX - rect.left + 15) + 'px';
+                tooltip.style.top  = (event.clientY - rect.top  - 15) + 'px';
+            }).on('mouseleave', function() {
                 tooltip.style.opacity = '0';
-            }).on('click', (event, d) => {
+            }).on('click', function(event, d) {
                 if (d.url) window.open(d.url, '_blank');
             });
 
-            sim.on('tick', () => {
-                link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
-                    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
-                node.attr('transform', d => `translate(${d.x},${d.y})`);
+            sim.on('tick', function() {
+                link.attr('x1', function(d){ return d.source.x; })
+                    .attr('y1', function(d){ return d.source.y; })
+                    .attr('x2', function(d){ return d.target.x; })
+                    .attr('y2', function(d){ return d.target.y; });
+                node.attr('transform', function(d){ return 'translate(' + d.x + ',' + d.y + ')'; });
             });
 
-            function dragstarted(event, d) {
-                if (!event.active) sim.alphaTarget(0.3).restart();
-                d.fx = d.x; d.fy = d.y;
-            }
-            function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
-            function dragended(event, d) {
-                if (!event.active) sim.alphaTarget(0);
-                d.fx = null; d.fy = null;
-            }
+            function dragstarted(event, d) { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; }
+            function dragged(event, d)     { d.fx = event.x; d.fy = event.y; }
+            function dragended(event, d)   { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }
 
             window.graphSvg   = svg;
             window.graphNodes = nodes;
@@ -1380,118 +1306,113 @@
 
         function updateGraphLanguage(lang) {
             if (!window.graphSvg) return;
-            window.graphNodes.forEach((node, i) => {
-                const text = node[lang] || node.pt;
+            window.graphNodes.forEach(function(node, i) {
+                var text = node[lang] || node.pt;
                 d3.select(window.graphSvg.selectAll('.node-text').nodes()[i]).text(text);
             });
         }
 
-        const graphSection = document.querySelector('.graph-section');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
+        var graphSection = document.querySelector('.graph-section');
+        var graphObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
                 if (entry.isIntersecting && !graphInitialized) initializeGraph();
             });
         });
-        if (graphSection) observer.observe(graphSection);
+        if (graphSection) graphObserver.observe(graphSection);
 
-        // Banner Torres del Paine
-        const banner    = document.getElementById('torresBanner');
-        const closeBtn  = document.getElementById('closeBannerBtn');
-        const toggleBtn = document.getElementById('bannerToggleBtn');
+        // ── Banner Torres del Paine ──
+        var banner    = document.getElementById('torresBanner');
+        var closeBtn  = document.getElementById('closeBannerBtn');
+        var toggleBtn = document.getElementById('bannerToggleBtn');
 
         function openBanner()  { banner.classList.add('show'); }
         function closeBanner() { banner.classList.remove('show'); }
 
         setTimeout(openBanner, 2500);
         closeBtn.addEventListener('click', closeBanner);
-        toggleBtn.addEventListener('click', () => {
+        toggleBtn.addEventListener('click', function() {
             banner.classList.contains('show') ? closeBanner() : openBanner();
         });
     </script>
 
-    <!-- Patagonia Canvas Background -->
+    <!-- ─── PATAGONIA CANVAS ─── -->
     <script>
         (function() {
-            const canvas = document.getElementById('patagonia-canvas');
-            const ctx = canvas.getContext('2d');
+            var canvas = document.getElementById('patagonia-canvas');
+            var ctx    = canvas.getContext('2d');
 
-            function resize() {
-                canvas.width  = window.innerWidth;
-                canvas.height = window.innerHeight;
-            }
+            function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
             resize();
             window.addEventListener('resize', resize);
 
-            let t = 0;
-            function lerp(a, b, x) { return a + (b - a) * x; }
-
-            const SKY_TOP    = [10, 22, 40];
-            const SKY_MID    = [25, 55, 85];
-            const SKY_HOR    = [120, 165, 185];
-            const ROCK_DARK  = [35, 45, 42];
-            const LAKE_DEEP  = [15, 55, 80];
-            const LAKE_LIGHT = [50, 130, 170];
+            var t = 0;
+            var SKY_TOP    = [10, 22, 40];
+            var SKY_MID    = [25, 55, 85];
+            var SKY_HOR    = [120, 165, 185];
+            var ROCK_DARK  = [35, 45, 42];
+            var LAKE_DEEP  = [15, 55, 80];
+            var LAKE_LIGHT = [50, 130, 170];
 
             function rgb(c, a) {
-                return a !== undefined ? `rgba(${c[0]},${c[1]},${c[2]},${a})` : `rgb(${c[0]},${c[1]},${c[2]})`;
+                return a !== undefined ? 'rgba(' + c[0] + ',' + c[1] + ',' + c[2] + ',' + a + ')' : 'rgb(' + c[0] + ',' + c[1] + ',' + c[2] + ')';
+            }
+
+            function drawMountainRange(offsetX, scale, colorTop, colorBase, opacity) {
+                var W = canvas.width, H = canvas.height;
+                var hLine = H * 0.55;
+                ctx.save();
+                ctx.globalAlpha = opacity;
+                ctx.beginPath();
+                var peaks = [
+                    { x: 0.05, y: -0.32, w: 0.08 }, { x: 0.15, y: -0.25, w: 0.12 },
+                    { x: 0.25, y: -0.42, w: 0.07 }, { x: 0.30, y: -0.55, w: 0.04 },
+                    { x: 0.35, y: -0.47, w: 0.05 }, { x: 0.40, y: -0.38, w: 0.08 },
+                    { x: 0.50, y: -0.28, w: 0.10 }, { x: 0.58, y: -0.45, w: 0.07 },
+                    { x: 0.64, y: -0.50, w: 0.06 }, { x: 0.70, y: -0.38, w: 0.09 },
+                    { x: 0.80, y: -0.30, w: 0.12 }, { x: 0.90, y: -0.22, w: 0.14 },
+                    { x: 1.00, y: -0.28, w: 0.10 }
+                ];
+                ctx.moveTo(0, hLine);
+                peaks.forEach(function(p, i) {
+                    var px = (p.x + offsetX) * W * scale;
+                    var py = hLine + p.y * H * 0.4;
+                    var pw = p.w * W * scale;
+                    if (i === 0) ctx.lineTo(px - pw, hLine);
+                    ctx.quadraticCurveTo(px - pw * 0.3, py + 8, px, py);
+                    ctx.quadraticCurveTo(px + pw * 0.3, py + 8, px + pw, hLine);
+                });
+                ctx.lineTo(W, hLine); ctx.lineTo(W, H); ctx.lineTo(0, H);
+                ctx.closePath();
+                var mGrad = ctx.createLinearGradient(0, hLine - H * 0.22, 0, hLine);
+                mGrad.addColorStop(0, rgb(colorTop));
+                mGrad.addColorStop(1, rgb(colorBase));
+                ctx.fillStyle = mGrad;
+                ctx.fill();
+                ctx.restore();
             }
 
             function drawFrame() {
-                const W = canvas.width, H = canvas.height;
+                var W = canvas.width, H = canvas.height;
                 t += 0.004;
 
-                const sky = ctx.createLinearGradient(0, 0, 0, H * 0.55);
-                sky.addColorStop(0, rgb(SKY_TOP));
+                var sky = ctx.createLinearGradient(0, 0, 0, H * 0.55);
+                sky.addColorStop(0,   rgb(SKY_TOP));
                 sky.addColorStop(0.5, rgb(SKY_MID));
-                sky.addColorStop(1, rgb(SKY_HOR));
+                sky.addColorStop(1,   rgb(SKY_HOR));
                 ctx.fillStyle = sky;
                 ctx.fillRect(0, 0, W, H);
 
-                const haze = ctx.createLinearGradient(0, H * 0.35, 0, H * 0.58);
+                var haze = ctx.createLinearGradient(0, H * 0.35, 0, H * 0.58);
                 haze.addColorStop(0, 'rgba(120,165,185,0)');
                 haze.addColorStop(1, 'rgba(140,185,200,0.35)');
                 ctx.fillStyle = haze;
                 ctx.fillRect(0, H * 0.35, W, H * 0.25);
 
-                const hLine = H * 0.55;
-
-                function drawMountainRange(offsetX, scale, colorTop, colorBase, opacity) {
-                    ctx.save();
-                    ctx.globalAlpha = opacity;
-                    ctx.beginPath();
-                    const peaks = [
-                        { x: 0.05, y: -0.32, w: 0.08 }, { x: 0.15, y: -0.25, w: 0.12 },
-                        { x: 0.25, y: -0.42, w: 0.07 }, { x: 0.30, y: -0.55, w: 0.04 },
-                        { x: 0.35, y: -0.47, w: 0.05 }, { x: 0.40, y: -0.38, w: 0.08 },
-                        { x: 0.50, y: -0.28, w: 0.10 }, { x: 0.58, y: -0.45, w: 0.07 },
-                        { x: 0.64, y: -0.50, w: 0.06 }, { x: 0.70, y: -0.38, w: 0.09 },
-                        { x: 0.80, y: -0.30, w: 0.12 }, { x: 0.90, y: -0.22, w: 0.14 },
-                        { x: 1.00, y: -0.28, w: 0.10 }
-                    ];
-                    ctx.moveTo(0, hLine);
-                    peaks.forEach((p, i) => {
-                        const px = (p.x + offsetX) * W * scale;
-                        const py = hLine + p.y * H * 0.4;
-                        const pw = p.w * W * scale;
-                        if (i === 0) ctx.lineTo(px - pw, hLine);
-                        ctx.quadraticCurveTo(px - pw * 0.3, py + 8, px, py);
-                        ctx.quadraticCurveTo(px + pw * 0.3, py + 8, px + pw, hLine);
-                    });
-                    ctx.lineTo(W, hLine); ctx.lineTo(W, H); ctx.lineTo(0, H);
-                    ctx.closePath();
-                    const mGrad = ctx.createLinearGradient(0, hLine - H * 0.22, 0, hLine);
-                    mGrad.addColorStop(0, rgb(colorTop));
-                    mGrad.addColorStop(1, rgb(colorBase));
-                    ctx.fillStyle = mGrad;
-                    ctx.fill();
-                    ctx.restore();
-                }
-
                 drawMountainRange(-0.02 + 0.005 * Math.sin(t * 0.2), 1, [70, 105, 130], [55, 82, 100], 0.65);
                 drawMountainRange(0, 1, ROCK_DARK, [28, 38, 35], 0.85);
 
-                const lakeTop = H * 0.70, lakeH = H * 0.20;
-                const lakeGrad = ctx.createLinearGradient(0, lakeTop, 0, lakeTop + lakeH);
+                var lakeTop = H * 0.70, lakeH = H * 0.20;
+                var lakeGrad = ctx.createLinearGradient(0, lakeTop, 0, lakeTop + lakeH);
                 lakeGrad.addColorStop(0,   rgb(LAKE_LIGHT, 0.85));
                 lakeGrad.addColorStop(0.5, rgb(LAKE_DEEP, 0.9));
                 lakeGrad.addColorStop(1,   rgb(LAKE_DEEP, 0.95));
