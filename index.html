@@ -1371,15 +1371,3 @@ function setLang(lang) {
 </script>
 </body>
 </html>"""
-
-# Substituir os placeholders pelos base64 reais
-html = html.replace('QR_BR', BR)
-html = html.replace('QR_CL', CL)
-html = html.replace('QR_AR', AR)
-
-with open('/home/claude/index.html', 'w', encoding='utf-8') as f:
-    f.write(html)
-
-print(f"index.html gerado: {len(html)} bytes, {html.count(chr(10))} linhas")
-PYEOF
-python3 /tmp/build.py
