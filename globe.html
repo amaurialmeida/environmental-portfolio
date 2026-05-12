@@ -1,0 +1,207 @@
+cat > /home/claude/globe.html << 'GLOBEOF'
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:100%; height:100%; overflow:hidden; background:#050a08; }
+  #gv { width:100%; height:100%; }
+
+  #card {
+    display:none;
+    position:fixed; top:8px; left:8px; z-index:99;
+    background:rgba(8,18,16,.93);
+    border:1px solid rgba(168,197,192,.28);
+    border-radius:4px; padding:9px 11px; width:138px;
+    pointer-events:none;
+    font-family:'Segoe UI',Tahoma,sans-serif;
+    backdrop-filter:blur(10px);
+  }
+  #cname { font-size:8px; font-weight:700; letter-spacing:.12em; color:#a8c5c0; text-transform:uppercase; margin-bottom:2px; }
+  #ccity { font-size:7px; color:#6b7a72; margin-bottom:6px; }
+  .row { display:flex; gap:10px; }
+  .col { flex:1; }
+  .lbl { font-size:6px; color:#6b7a72; text-transform:uppercase; letter-spacing:.08em; }
+  .val { font-size:12px; font-weight:700; margin-top:1px; }
+  .mx { color:#7ab3d4; }
+  .mn { color:#a8c5c0; }
+  .dt { font-size:5.5px; color:#3a4a42; margin-top:1px; }
+
+  #legend {
+    position:fixed; bottom:8px; left:50%; transform:translateX(-50%);
+    width:80%; max-width:220px; pointer-events:none;
+    font-family:'Segoe UI',sans-serif;
+  }
+  #lbar {
+    height:4px; border-radius:2px;
+    background:linear-gradient(to right,#3366cc,#44aacc,#66cc88,#cccc44,#ee8822,#cc2200);
+    margin-bottom:3px;
+  }
+  .lticks { display:flex; justify-content:space-between; }
+  .lticks span { font-size:5.5px; color:rgba(168,197,192,.5); letter-spacing:.05em; }
+
+  #wm {
+    position:fixed; top:8px; right:8px;
+    font-family:'Segoe UI',sans-serif;
+    font-size:6px; letter-spacing:.16em; color:rgba(168,197,192,.3);
+    text-transform:uppercase; text-align:right; pointer-events:none; line-height:1.6;
+  }
+  #hint {
+    position:fixed; bottom:24px; width:100%; text-align:center;
+    font-family:'Segoe UI',sans-serif; font-size:5.5px;
+    letter-spacing:.13em; color:rgba(168,197,192,.18);
+    text-transform:uppercase; pointer-events:none;
+  }
+  #loading {
+    position:fixed; inset:0;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    background:#050a08;
+    font-family:'Segoe UI',sans-serif; font-size:9px;
+    letter-spacing:.2em; color:rgba(168,197,192,.4);
+    text-transform:uppercase; gap:12px;
+    z-index:200;
+  }
+  .spinner {
+    width:24px; height:24px; border-radius:50%;
+    border:2px solid rgba(168,197,192,.15);
+    border-top-color:rgba(168,197,192,.5);
+    animation:spin .8s linear infinite;
+  }
+  @keyframes spin { to { transform:rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <span>Carregando globo</span>
+</div>
+
+<div id="card">
+  <div id="cname">—</div>
+  <div id="ccity">—</div>
+  <div class="row">
+    <div class="col">
+      <div class="lbl">Max</div>
+      <div class="val mx" id="vmx">—</div>
+      <div class="dt" id="dmx"></div>
+    </div>
+    <div class="col">
+      <div class="lbl">Min</div>
+      <div class="val mn" id="vmn">—</div>
+      <div class="dt" id="dmn"></div>
+    </div>
+  </div>
+</div>
+
+<div id="legend">
+  <div id="lbar"></div>
+  <div class="lticks">
+    <span>≤0°C</span><span>15°C</span><span>30°C</span><span>≥45°C</span>
+  </div>
+</div>
+
+<div id="wm">CODE EARTH<br>TEMP 2025</div>
+<div id="hint">PASSE O MOUSE NOS PAÍSES · CLIQUE → DADOS</div>
+
+<div id="gv"></div>
+
+<script src="https://unpkg.com/globe.gl@2.31.0/dist/globe.gl.min.js"></script>
+<script>
+function tempColor(t) {
+  var stops = [
+    [-20, [40,  80, 200]],
+    [  0, [60, 160, 210]],
+    [ 15, [80, 200, 130]],
+    [ 30, [210,200,  60]],
+    [ 40, [225,110,  30]],
+    [ 50, [200,  30,  15]]
+  ];
+  t = Math.max(-20, Math.min(50, t));
+  for (var i = 0; i < stops.length - 1; i++) {
+    var a = stops[i], b = stops[i+1];
+    if (t <= b[0]) {
+      var f = (t - a[0]) / (b[0] - a[0]);
+      var r = Math.round(a[1][0] + f*(b[1][0]-a[1][0]));
+      var g = Math.round(a[1][1] + f*(b[1][1]-a[1][1]));
+      var bv= Math.round(a[1][2] + f*(b[1][2]-a[1][2]));
+      return 'rgba('+r+','+g+','+bv+',0.72)';
+    }
+  }
+  return 'rgba(200,30,15,0.75)';
+}
+
+Promise.all([
+  fetch('https://raw.githubusercontent.com/amaurialmeida/earth-max-min-temp-history/main/full_temperature_data.json').then(function(r){return r.json();}),
+  fetch('https://raw.githubusercontent.com/vasturiano/globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson').then(function(r){return r.json();})
+]).then(function(results) {
+  var tData = results[0];
+  var geo   = results[1];
+
+  var globe = Globe({ animateIn: true })
+    (document.getElementById('gv'))
+    .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-dark.jpg')
+    .bumpImageUrl('https://unpkg.com/three-globe/example/img/earth-topology.png')
+    .backgroundImageUrl('https://unpkg.com/three-globe/example/img/night-sky.png')
+    .polygonsData(geo.features.filter(function(f){ return f.properties.ISO_A3 !== 'ATA'; }))
+    .polygonAltitude(0.01)
+    .polygonCapColor(function(f) {
+      var d = f.properties;
+      var c = tData[d.ADMIN];
+      if (!c) return 'rgba(20,50,40,0.2)';
+      return tempColor(c.max);
+    })
+    .polygonSideColor(function(){ return 'rgba(0,0,0,0.04)'; })
+    .polygonStrokeColor(function(){ return 'rgba(168,197,192,0.25)'; })
+    .polygonLabel(function(f) {
+      var d = f.properties;
+      var c = tData[d.ADMIN];
+      if (!c) return '<div style="font-family:Segoe UI,sans-serif;background:rgba(8,18,16,.92);border:1px solid rgba(168,197,192,.3);border-radius:3px;padding:5px 8px;font-size:8px;color:#a8c5c0"><b>'+d.ADMIN+'</b><br><span style="color:#6b7a72">Sem dados</span></div>';
+      return '<div style="font-family:Segoe UI,sans-serif;background:rgba(8,18,16,.92);border:1px solid rgba(168,197,192,.3);border-radius:3px;padding:5px 8px;font-size:8px;color:#a8c5c0">'
+        +'<b style="font-size:9px">'+d.ADMIN+'</b><br>'
+        +'<span style="color:#6b7a72">'+c.city+'</span><br>'
+        +'<span style="color:#7ab3d4">↑ '+c.max+'°C</span> &nbsp; '
+        +'<span style="color:#a8c5c0">↓ '+c.min+'°C</span></div>';
+    })
+    .onPolygonClick(function(f) {
+      var d = f.properties;
+      var c = tData[d.ADMIN];
+      var card = document.getElementById('card');
+      if (c) {
+        document.getElementById('cname').textContent = d.ADMIN;
+        document.getElementById('ccity').textContent = c.city;
+        document.getElementById('vmx').textContent   = c.max + '°C';
+        document.getElementById('dmx').textContent   = c.max_date;
+        document.getElementById('vmn').textContent   = c.min + '°C';
+        document.getElementById('dmn').textContent   = c.min_date;
+        card.style.display = 'block';
+      }
+      globe.controls().autoRotate = false;
+      setTimeout(function(){ globe.controls().autoRotate = true; }, 9000);
+      try { window.parent.postMessage({ action:'openApp' }, '*'); } catch(e){}
+    })
+    .polygonsTransitionDuration(300);
+
+  globe.controls().autoRotate      = true;
+  globe.controls().autoRotateSpeed = 0.45;
+  globe.controls().enableZoom      = false;
+  globe.pointOfView({ lat:15, lng:-20, altitude:2.15 });
+
+  // hide loading screen
+  document.getElementById('loading').style.display = 'none';
+
+  window.addEventListener('resize', function(){
+    globe.width(window.innerWidth);
+    globe.height(window.innerHeight);
+  });
+
+}).catch(function(err){
+  var l = document.getElementById('loading');
+  l.innerHTML = '<span style="color:rgba(168,197,192,.3)">Erro ao carregar dados.<br>Verifique sua conexão.</span>';
+});
+</script>
+</body>
+</html>
+GLOBEOF
+echo "globe.html created: $(wc -l < /home/claude/globe.html) lines"
