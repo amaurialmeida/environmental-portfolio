@@ -43,7 +43,7 @@ Análise de IQA, pH, turbidez, oxigênio dissolvido e tendências **2019–2024*
 [![App](https://img.shields.io/badge/Streamlit-Online-4ade80?style=flat-square&logo=streamlit)](https://bee-colony-collapse-brazil.streamlit.app/)
 ![TCC](https://img.shields.io/badge/TCC-3º%20ENADE-c9a84c?style=flat-square)
 
-TCC premiado — mortalidade de abelhas por pesticidas e herbicidas em **5 regiões brasileiras** (2016–2022).  
+TCC — mortalidade de abelhas por -  em **3 regiões brasileiras** (2016–2022).  
 **338 colmeias** monitoradas · **~20 milhões de abelhas perdidas** documentadas.
 
 `Python` `Streamlit` `Agrotóxicos` `Bioindicadores` `CCD` `Séries Temporais`
@@ -85,7 +85,7 @@ Novo projeto de pesquisa ambiental. Em breve.
 
 O portfólio inclui um **grafo de rede interativo** que conecta projetos por tema ambiental, método e tecnologia — crescendo conforme novos projetos são adicionados.
 
-Nós: `Pesquisa Ambiental` → `Recursos Hídricos` · `Bioindicadores` · `Agrotóxicos` · `Geoespacial` · `Clima & Hidrologia` · `Machine Learning` → `Python/Streamlit` · `Visualização de Dados` · `Séries Temporais` · `IQA pH/OD`
+Nós: `Pesquisa Ambiental` → `Recursos Hídricos` · `Bioindicadores`` · `Geoespacial` · `Clima & Hidrologia` · `Machine Learning` → `Python/Streamlit` · `Visualização de Dados` · `Séries Temporais` · `IQA pH/OD`
 
 ---
 
