@@ -342,10 +342,16 @@ footer { padding:3.5rem 2rem 2.5rem; text-align:center; border-top:1px solid rgb
     <ul class="header-nav">
       <li><a href="#"                                                                         class="nav-link active">Home</a></li>
       <li><a href="#projects"                                                                 class="nav-link">Works</a></li>
-      <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="nav-link">CV</a></li>
+      <li style="position:relative;" id="cv-nav-item">
+        <a href="#" class="nav-link" id="cv-nav-btn" onclick="toggleCvMenu(event)">CV ▾</a>
+        <div id="cv-dropdown" style="display:none;position:absolute;top:100%;left:0;background:#1a2a3a;border:1px solid rgba(122,179,212,.3);border-radius:4px;min-width:160px;z-index:2000;box-shadow:0 8px 24px rgba(0,0,0,.5);">
+          <a href="assets/cv/Curriculo_PT.pdf" target="_blank" rel="noopener noreferrer" style="display:block;padding:9px 16px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;color:rgba(255,255,255,.75);text-decoration:none;text-transform:uppercase;border-bottom:1px solid rgba(122,179,212,.12);transition:background .2s;" onmouseover="this.style.background='rgba(122,179,212,.15)'" onmouseout="this.style.background='transparent'">🇧🇷 Português</a>
+          <a href="assets/cv/Curriculo_ES.pdf"  target="_blank" rel="noopener noreferrer" style="display:block;padding:9px 16px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;color:rgba(255,255,255,.75);text-decoration:none;text-transform:uppercase;transition:background .2s;" onmouseover="this.style.background='rgba(122,179,212,.15)'" onmouseout="this.style.background='transparent'">🇪🇸 Español</a>
+        </div>
+      </li>
       <li><a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="nav-link">LinkedIn</a></li>
       <li><a href="https://github.com/amaurialmeida"              target="_blank" rel="noopener noreferrer" class="nav-link">GitHub</a></li>
-      <li><a href="mailto:amauri@tutamail.com"                                                class="nav-link">E-mail</a></li>
+      <li><a href="mailto:amauri.almeidasjr@gmail.com"                                        class="nav-link">E-mail</a></li>
       <li class="nav-divider"></li>
       <li><button class="lang-btn-header active" data-lang="pt" onclick="setLang('pt')">PT</button></li>
       <li><button class="lang-btn-header"        data-lang="en" onclick="setLang('en')">EN</button></li>
@@ -369,10 +375,16 @@ footer { padding:3.5rem 2rem 2.5rem; text-align:center; border-top:1px solid rgb
   <div class="hero-links">
     <a href="#"                                                                         class="hero-link highlight" id="hl-home">HOME</a>
     <a href="#projects"                                                                 class="hero-link"           id="hl-works">WORKS</a>
-    <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="hero-link" id="hl-cv">CV</a>
+    <span style="position:relative;display:inline-block;">
+      <a href="#" class="hero-link" id="hl-cv" onclick="toggleCvMenuHero(event)">CV ▾</a>
+      <div id="cv-dropdown-hero" style="display:none;position:absolute;top:110%;left:0;background:#1a2a3a;border:1px solid rgba(122,179,212,.3);border-radius:4px;min-width:160px;z-index:2000;box-shadow:0 8px 24px rgba(0,0,0,.5);">
+        <a href="assets/cv/Curriculo_PT.pdf" target="_blank" rel="noopener noreferrer" style="display:block;padding:9px 16px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;color:rgba(255,255,255,.75);text-decoration:none;text-transform:uppercase;border-bottom:1px solid rgba(122,179,212,.12);transition:background .2s;" onmouseover="this.style.background='rgba(122,179,212,.15)'" onmouseout="this.style.background='transparent'">🇧🇷 Português</a>
+        <a href="assets/cv/Curriculo_ES.pdf"  target="_blank" rel="noopener noreferrer" style="display:block;padding:9px 16px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;color:rgba(255,255,255,.75);text-decoration:none;text-transform:uppercase;transition:background .2s;" onmouseover="this.style.background='rgba(122,179,212,.15)'" onmouseout="this.style.background='transparent'">🇪🇸 Español</a>
+      </div>
+    </span>
     <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="hero-link" id="hl-linkedin">LINKEDIN</a>
     <a href="https://github.com/amaurialmeida"              target="_blank" rel="noopener noreferrer" class="hero-link" id="hl-github">GITHUB</a>
-    <a href="mailto:amauri@tutamail.com"                                                class="hero-link"           id="hl-email">E-MAIL</a>
+    <a href="mailto:amauri.almeidasjr@gmail.com"                                             class="hero-link"           id="hl-email">E-MAIL</a>
   </div>
   <div class="scroll-hint" aria-hidden="true" tabindex="-1">
     <span id="scroll-hint-text">.</span>
@@ -525,7 +537,7 @@ window.addEventListener('message', function(e) {
       <h3 class="card-title"  id="ct9">Aquífero Guarani — Regiões e Capacidade Hídrica</h3>
       <p  class="card-desc"   id="cd9">Mapeamento das regiões do Aquífero Guarani e análise da capacidade hídrica em território brasileiro. Gestão sustentável, zonas de recarga e vulnerabilidade do maior aquífero transfronteiriço da América do Sul.</p>
       <div class="card-tags"><span class="tag gold">Hidrogeologia</span><span class="tag gold">GIS</span><span class="tag gold">Python</span><span class="tag gold">Recursos Hídricos</span></div>
-      <div class="card-status"><span class="status-dot building"></span><span id="cs9">EM DESENVOLVIMENTO</span></div>
+      <div class="card-status"><span class="status-dot building"></span><span id="cs9">EM DESENVOLVIMENTO · PREVISÃO JUL/2026</span></div>
     </div>
 
     <div class="project-card in-progress">
@@ -534,7 +546,7 @@ window.addEventListener('message', function(e) {
       <h3 class="card-title"  id="ct10">Consumo de um Carro Elétrico x Carro a Combustão — Brasil até a Patagônia</h3>
       <p  class="card-desc"   id="cd10">Comparativo de consumo energético e emissões entre veículo elétrico e a combustão na rota Brasil–Patagônia. Análise de infraestrutura, autonomia, custos e impacto ambiental.</p>
       <div class="card-tags"><span class="tag gold">Python</span><span class="tag gold">Mobilidade Elétrica</span><span class="tag gold">Emissões</span><span class="tag gold">Energia</span></div>
-      <div class="card-status"><span class="status-dot building"></span><span id="cs10">EM DESENVOLVIMENTO</span></div>
+      <div class="card-status"><span class="status-dot building"></span><span id="cs10">EM DESENVOLVIMENTO · PREVISÃO JUL/2026</span></div>
     </div>
 
   </div>
@@ -556,13 +568,81 @@ window.addEventListener('message', function(e) {
   <div class="section-label" id="sec-label-03">03 — PESQUISADOR</div>
   <h2  class="section-title" id="sec-title-03">Perfil académico</h2>
   <div class="bio-grid">
-    <div class="bio-text" id="bio-text">Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível.</div>
+    <div>
+      <div class="bio-text" id="bio-text">
+        Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível.
+      </div>
+
+      <!-- DISPONIBILIDADE -->
+      <div style="margin-top:1.8rem;padding:1.2rem 1.4rem;border:1px solid rgba(122,179,212,.2);border-radius:4px;background:rgba(122,179,212,.05);">
+        <div style="font-family:'Space Mono',monospace;font-size:.55rem;letter-spacing:.25em;color:var(--glacier);text-transform:uppercase;margin-bottom:.7rem;">DISPONIBILIDADE</div>
+        <p style="font-size:.85rem;font-weight:300;color:rgba(240,235,224,.8);line-height:1.7;">
+          Atualmente baseado em São Paulo · Brasil. Entre novembro de 2024 e maio de 2026 desenvolvi projetos na Patagônia (Argentina e Chile) — experiência que gerou os projetos de Qualidade da Água, Potencial Eólico e Espécies Invasoras deste portfólio.<br><br>
+          <strong style="color:var(--cream);">Aberto a propostas:</strong> presencial · remoto · híbrido &nbsp;|&nbsp; 🇧🇷 🇨🇱 🇦🇷 América do Sul &amp; internacional
+        </p>
+      </div>
+
+      <!-- PUBLICAÇÕES & PESQUISA -->
+      <div style="margin-top:1.4rem;">
+        <div style="font-family:'Space Mono',monospace;font-size:.55rem;letter-spacing:.25em;color:var(--glacier);text-transform:uppercase;margin-bottom:.8rem;">PUBLICAÇÕES & PESQUISA CIENTÍFICA</div>
+        <div style="display:flex;flex-direction:column;gap:.9rem;">
+          <div style="padding-left:1.2rem;border-left:1px solid rgba(201,168,76,.4);">
+            <div style="font-size:.88rem;color:var(--cream);font-weight:500;">Síndrome do Colapso das Colônias de Abelhas</div>
+            <div style="font-family:'Space Mono',monospace;font-size:.55rem;letter-spacing:.1em;color:var(--stone);margin-top:.2rem;">TCC · FATEC JUNDIAÍ · 2022 · Banca avaliadora com Prof. Me. Claudio da Cunha</div>
+            <a href="https://www.escavador.com/sobre/403010308/amauri-almeida-de-souza-junior" target="_blank" rel="noopener noreferrer" style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.08em;color:var(--accent);text-decoration:none;margin-top:.3rem;display:inline-block;">↗ PERFIL ACADÊMICO · ESCAVADOR</a>
+          </div>
+          <div style="padding-left:1.2rem;border-left:1px solid rgba(168,197,192,.3);">
+            <div style="font-size:.88rem;color:var(--cream);font-weight:500;">Vazão e Sedimentos em Bacias Hidrográficas de Diferentes Manejos e Escoamento Superficial</div>
+            <div style="font-family:'Space Mono',monospace;font-size:.55rem;letter-spacing:.1em;color:var(--stone);margin-top:.2rem;">INICIAÇÃO CIENTÍFICA · UNIVERSIDADE BRASIL · XI ENCONTRO CIENTÍFICO · 2017</div>
+            <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.08em;color:var(--stone);margin-top:.2rem;">Orientador: Prof. Dr. Luiz S. Vanzela · Coautor</div>
+            <a href="https://www.escavador.com/sobre/4908550/luiz-sergio-vanzela" target="_blank" rel="noopener noreferrer" style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.08em;color:var(--accent);text-decoration:none;margin-top:.3rem;display:inline-block;">↗ PERFIL DO ORIENTADOR · ESCAVADOR</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORMAÇÃO -->
     <ul class="edu-list">
-      <li class="edu-item"><div class="edu-degree" id="edu1">Técnico em Meio Ambiente</div>             <div class="edu-school">ESCOLA DO FUTURO — GOIÁS</div></li>
-      <li class="edu-item"><div class="edu-degree" id="edu2">Tecnólogo em Gestão Ambiental · 3º ENADE</div><div class="edu-school">FATEC JUNDIAÍ — SP</div></li>
-      <li class="edu-item"><div class="edu-degree" id="edu3">Análise e Desenvolvimento de Sistemas</div>  <div class="edu-school">FACINT — MARINGÁ, PR</div></li>
-      <li class="edu-item"><div class="edu-degree" id="edu4">Pós · IA, Machine Learning & Data Science</div><div class="edu-school">FACINT</div></li>
-      <li class="edu-item"><div class="edu-degree" id="edu5">Pós · Ciência de Dados & Big Data Analytics</div><div class="edu-school">FACINT</div></li>
+      <li class="edu-item">
+        <div class="edu-degree" id="edu1">Técnico em Meio Ambiente</div>
+        <div class="edu-school">INSTITUTO TECNOLÓGICO DO ESTADO DE GOIÁS — CATALÃO, GO · 2022</div>
+      </li>
+      <li class="edu-item">
+        <div class="edu-degree" id="edu2">Tecnólogo em Gestão Ambiental · 3º ENADE</div>
+        <div class="edu-school">FATEC JUNDIAÍ "DEPUTADO ARY FOSSEN" — SP · 2022<br>
+        <span style="font-size:.52rem;color:rgba(168,197,192,.55);">TCC: Síndrome do Colapso das Colônias · Iniciação Científica: Rio Santa Rita</span></div>
+      </li>
+      <li class="edu-item">
+        <div class="edu-degree" id="edu3">Graduação · Análise e Desenvolvimento de Sistemas</div>
+        <div class="edu-school">FACINT (ex-VINCIT) — MARINGÁ, PR · 2023</div>
+      </li>
+      <li class="edu-item">
+        <div class="edu-degree" id="edu4">Pós-Graduação · IA, Machine Learning & Data Science</div>
+        <div class="edu-school">FACINT (ex-VINCIT) — MARINGÁ, PR · 2025 · 360h<br>
+        <span style="font-size:.52rem;color:rgba(168,197,192,.55);">IA · ETL · Hadoop · Business Analytics · ML · NoSQL · Estatística Aplicada · 10,0 em todas as disciplinas</span></div>
+      </li>
+      <li class="edu-item">
+        <div class="edu-degree" id="edu5">Pós-Graduação · Ciência de Dados & Big Data Analytics</div>
+        <div class="edu-school">FACULDADE IMES — GOVERNADOR VALADARES, MG · 2024 · 360h<br>
+        <span style="font-size:.52rem;color:rgba(168,197,192,.55);">Big Data · Python & R · Data Science · Business Intelligence · Frameworks Big Data · 360h</span></div>
+      </li>
+      <li class="edu-item">
+        <div class="edu-degree">Pós-Graduação · Sustentabilidade e Energias Renováveis</div>
+        <div class="edu-school">FACULDADE IMES — 2025</div>
+      </li>
+
+      <!-- EXPERIÊNCIA PROFISSIONAL RESUMIDA -->
+      <li class="edu-item" style="margin-top:.8rem;border-left-color:rgba(201,168,76,.35);">
+        <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.18em;color:var(--gold);text-transform:uppercase;margin-bottom:.5rem;">Experiência Profissional</div>
+        <div class="edu-degree">Analista de Suporte de Sistemas · TI</div>
+        <div class="edu-school">UNIVERSIDADE BRASIL — FERNANDÓPOLIS, SP · 2010–2020<br>
+        <span style="font-size:.52rem;color:rgba(168,197,192,.55);">ERP TOTVS · Supervisão de usina solar 1,07 GWh · Gestão de resíduos · Estudo de descarte de resíduos sólidos e compensação de carbono</span></div>
+      </li>
+      <li class="edu-item" style="border-left-color:rgba(122,179,212,.25);">
+        <div class="edu-degree">Estágio · Gestão Ambiental</div>
+        <div class="edu-school">NEOTECH JUNDIAÍ — SP · 2021–2022<br>
+        <span style="font-size:.52rem;color:rgba(168,197,192,.55);">Estudo de descarte de resíduos sólidos em condomínios e compensação de carbono</span></div>
+      </li>
     </ul>
   </div>
 </section>
@@ -613,9 +693,9 @@ window.addEventListener('message', function(e) {
   <div class="footer-links">
     <a href="https://github.com/amaurialmeida"              target="_blank" rel="noopener noreferrer" class="footer-link" onclick="window.open('https://github.com/amaurialmeida','_blank'); return false;">GitHub</a>
     <a href="https://www.linkedin.com/in/amauri-almeida26/" target="_blank" rel="noopener noreferrer" class="footer-link" onclick="window.open('https://www.linkedin.com/in/amauri-almeida26/','_blank'); return false;">LinkedIn</a>
-    <a href="mailto:amauri@tutamail.com"                                                               class="footer-link" onclick="window.location.href='mailto:amauri@tutamail.com'; return false;">E-mail</a>
+    <a href="mailto:amauri.almeidasjr@gmail.com"                                                          class="footer-link" onclick="window.location.href='mailto:amauri.almeidasjr@gmail.com'; return false;">E-mail</a>
   </div>
-  <div class="footer-copy" id="footer-copy">© 2025 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL</div>
+  <div class="footer-copy" id="footer-copy">© 2026 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL</div>
 </footer>
 
 <!-- Torres del Paine -->
@@ -662,9 +742,9 @@ var T = {
     'sec-label-02':'02 — REDE DE CONHECIMENTO','sec-title-02':'Conexões temáticas',
     'sec-label-03':'03 — PESQUISADOR','sec-title-03':'Perfil académico',
     'bio-text':'Técnico e tecnólogo em Gestão Ambiental, com formação em Análise e Desenvolvimento de Sistemas e pós-graduações em IA, Machine Learning e Ciência de Dados. Desenvolvo projetos que traduzem dados ambientais complexos em conhecimento acessível.',
-    'edu1':'Técnico em Meio Ambiente','edu2':'Tecnólogo em Gestão Ambiental · 3º ENADE','edu3':'Análise e Desenvolvimento de Sistemas','edu4':'Pós · IA, Machine Learning & Data Science','edu5':'Pós · Ciência de Dados & Big Data Analytics',
-    'footer-wa-label':'CONTATO · WHATSAPP','wa-brasil':'Brasil','wa-chile':'Chile','wa-argentina':'Argentina',
-    'footer-copy':'© 2025 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL',
+    'edu1':'Técnico em Meio Ambiente · ITEGO — Goiás · 2022','edu2':'Tecnólogo em Gestão Ambiental · 3º ENADE · FATEC Jundiaí · 2022','edu3':'Graduação · Análise e Desenvolvimento de Sistemas · FACINT · 2023','edu4':'Pós · IA, Machine Learning & Data Science · FACINT · 2025 · 360h','edu5':'Pós · Ciência de Dados & Big Data Analytics · Faculdade IMES · 2024 · 360h',
+    'footer-wa-label':'CONTATO · WHATSAPP · 🇧🇷 São Paulo · 🇨🇱 Chile · 🇦🇷 Argentina (pesquisa de campo 2024–2026)','wa-brasil':'Brasil','wa-chile':'Chile','wa-argentina':'Argentina',
+    'footer-copy':'© 2026 AMAURI ALMEIDA · PORTFÓLIO DE PESQUISA AMBIENTAL',
     'gc-tl':'TEMP. GLOBAL','gc-tr':'2025','gc-bl':'↗ CLIQUE → APP',
     'gc-hint':'↗ ABRIR APP COMPLETO — CODE EARTH · GLOBAL TEMPERATURES 2025'
   },
@@ -688,9 +768,9 @@ var T = {
     'sec-label-02':'02 — KNOWLEDGE NETWORK','sec-title-02':'Thematic connections',
     'sec-label-03':'03 — RESEARCHER','sec-title-03':'Academic profile',
     'bio-text':'Environmental management technician and technologist with postgraduate degrees in AI, Machine Learning and Data Science.',
-    'edu1':'Environmental Technician','edu2':'Environmental Management Technologist · 3rd ENADE','edu3':'Systems Analysis and Development','edu4':'Post-grad · AI, Machine Learning & Data Science','edu5':'Post-grad · Data Science & Big Data Analytics',
-    'footer-wa-label':'CONTACT · WHATSAPP','wa-brasil':'Brazil','wa-chile':'Chile','wa-argentina':'Argentina',
-    'footer-copy':'© 2025 AMAURI ALMEIDA · ENVIRONMENTAL RESEARCH PORTFOLIO',
+    'edu1':'Environmental Technician · ITEGO — Goiás · 2022','edu2':'Environmental Management Technologist · 3rd ENADE · FATEC Jundiaí · 2022','edu3':'Systems Analysis and Development · FACINT · 2023','edu4':'Post-grad · AI, Machine Learning & Data Science · FACINT · 2025 · 360h','edu5':'Post-grad · Data Science & Big Data Analytics · IMES · 2024 · 360h',
+    'footer-wa-label':'CONTACT · WHATSAPP · 🇧🇷 Brazil · 🇨🇱 Chile · 🇦🇷 Argentina (field research 2024–2026)','wa-brasil':'Brazil','wa-chile':'Chile','wa-argentina':'Argentina',
+    'footer-copy':'© 2026 AMAURI ALMEIDA · ENVIRONMENTAL RESEARCH PORTFOLIO',
     'gc-tl':'GLOBAL TEMP.','gc-tr':'2025','gc-bl':'↗ CLICK → APP',
     'gc-hint':'↗ OPEN FULL APP — CODE EARTH · GLOBAL TEMPERATURES 2025'
   },
@@ -714,9 +794,9 @@ var T = {
     'sec-label-02':'02 — RED DE CONOCIMIENTO','sec-title-02':'Conexiones temáticas',
     'sec-label-03':'03 — INVESTIGADOR','sec-title-03':'Perfil académico',
     'bio-text':'Técnico y tecnólogo en Gestión Ambiental con posgrados en IA, Machine Learning y Ciencia de Datos.',
-    'edu1':'Técnico en Medio Ambiente','edu2':'Tecnólogo en Gestión Ambiental · 3° ENADE','edu3':'Análisis y Desarrollo de Sistemas','edu4':'Posgrado · IA, Machine Learning & Data Science','edu5':'Posgrado · Ciencia de Datos & Big Data Analytics',
-    'footer-wa-label':'CONTACTO · WHATSAPP','wa-brasil':'Brasil','wa-chile':'Chile','wa-argentina':'Argentina',
-    'footer-copy':'© 2025 AMAURI ALMEIDA · PORTAFOLIO DE INVESTIGACIÓN AMBIENTAL',
+    'edu1':'Técnico en Medio Ambiente · ITEGO — Goiás · 2022','edu2':'Tecnólogo en Gestión Ambiental · 3° ENADE · FATEC Jundiaí · 2022','edu3':'Análisis y Desarrollo de Sistemas · FACINT · 2023','edu4':'Posgrado · IA, Machine Learning & Data Science · FACINT · 2025 · 360h','edu5':'Posgrado · Ciencia de Datos & Big Data Analytics · IMES · 2024 · 360h',
+    'footer-wa-label':'CONTACTO · WHATSAPP · 🇧🇷 Brasil · 🇨🇱 Chile · 🇦🇷 Argentina (investigación de campo 2024–2026)','wa-brasil':'Brasil','wa-chile':'Chile','wa-argentina':'Argentina',
+    'footer-copy':'© 2026 AMAURI ALMEIDA · PORTAFOLIO DE INVESTIGACIÓN AMBIENTAL',
     'gc-tl':'TEMP. GLOBAL','gc-tr':'2025','gc-bl':'↗ CLIC → APP',
     'gc-hint':'↗ ABRIR APP COMPLETO — CODE EARTH · TEMPERATURAS GLOBALES 2025'
   }
@@ -726,6 +806,14 @@ function setLang(lang) {
   Object.keys(t).forEach(function(id){var el=document.getElementById(id);if(el)el.textContent=t[id];});
   document.querySelectorAll('.lang-btn-header').forEach(function(b){b.classList.toggle('active',b.dataset.lang===lang);});
 }
+
+/* ── CV DROPDOWN ──────────────────────────────────── */
+function toggleCvMenu(e){e.preventDefault();var d=document.getElementById('cv-dropdown');d.style.display=d.style.display==='none'?'block':'none';}
+function toggleCvMenuHero(e){e.preventDefault();var d=document.getElementById('cv-dropdown-hero');d.style.display=d.style.display==='none'?'block':'none';}
+document.addEventListener('click',function(e){
+  if(!document.getElementById('cv-nav-item').contains(e.target)){var d=document.getElementById('cv-dropdown');if(d)d.style.display='none';}
+  var hero=document.getElementById('cv-dropdown-hero');if(hero&&!hero.parentElement.contains(e.target))hero.style.display='none';
+});
 
 /* ── TORRES BANNER ────────────────────────────────── */
 document.getElementById('bannerToggleBtn').addEventListener('click',function(){document.getElementById('torresBanner').classList.toggle('show');});
