@@ -438,11 +438,196 @@ window.addEventListener('message', function(e) {
 });
 </script>
 
-<!-- ── STATS BAR ─────────────────────────────────────── -->
-<div class="stats-bar">
-  <div class="stat-item"><div class="stat-num">8</div> <div class="stat-label" id="stat-projects">PROJETOS</div></div>
-  <div class="stat-item"><div class="stat-num">18</div><div class="stat-label" id="stat-stations">ESTAÇÕES</div></div>
-  <div class="stat-item"><div class="stat-num">+5</div><div class="stat-label" id="stat-years">ANOS</div></div>
+<!-- ── GLOBE CAPTION ──────────────────────────────── -->
+<div style="max-width:340px;margin:0 auto 4px;text-align:center;padding:0 8px;">
+  <p style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.14em;color:rgba(168,197,192,.45);line-height:1.6;">
+    TEMPERATURAS MÍNIMAS E MÁXIMAS REGISTRADAS EM 2025 EM CADA PAÍS DO PLANETA TERRA · ATUALIZADO AUTOMATICAMENTE A CADA NOVO PROJETO ADICIONADO AO PORTFÓLIO
+  </p>
+</div>
+
+<!-- ── LIVE ENVIRONMENTAL DASHBOARD ──────────────── -->
+<div id="env-dashboard" style="
+  background:rgba(13,23,20,.75);backdrop-filter:blur(14px);
+  border-top:1px solid rgba(168,197,192,.12);border-bottom:1px solid rgba(168,197,192,.12);
+  padding:1.6rem 1.2rem 1rem;position:relative;z-index:10;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;flex-wrap:wrap;gap:.5rem;">
+      <div>
+        <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.3em;color:var(--glacier);text-transform:uppercase;">MONITORAMENTO AMBIENTAL EM TEMPO REAL</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.15em;color:var(--stone);margin-top:.2rem;">DADOS AO VIVO · OPEN-METEO API · WAQI · <span id="dash-updated">CARREGANDO...</span></div>
+      </div>
+      <div id="dash-pulse" style="display:flex;align-items:center;gap:.5rem;font-family:'Space Mono',monospace;font-size:.44rem;letter-spacing:.1em;color:var(--stone);">
+        <span style="width:6px;height:6px;border-radius:50%;background:#4ade80;box-shadow:0 0 8px #4ade80;display:inline-block;animation:dashPulse 2s infinite;"></span>AO VIVO
+      </div>
+    </div>
+    <!-- 5 CARDS -->
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(168,197,192,.08);" id="dash-grid">
+
+      <!-- 1: Puerto Williams TEMP -->
+      <div style="background:rgba(13,23,20,.8);padding:1.2rem .9rem;text-align:center;">
+        <div style="font-size:1.6rem;margin-bottom:.2rem;">🌡️</div>
+        <div id="d-pw-temp" style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--glacier);line-height:1;">—</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.15em;color:var(--stone);margin-top:.3rem;text-transform:uppercase;">TEMPERATURA</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.08em;color:rgba(107,122,114,.6);margin-top:.1rem;">PUERTO WILLIAMS · CL</div>
+      </div>
+
+      <!-- 2: Lago Argentino (Perito Moreno) nível -->
+      <div style="background:rgba(13,23,20,.8);padding:1.2rem .9rem;text-align:center;">
+        <div style="font-size:1.6rem;margin-bottom:.2rem;">🏔️</div>
+        <div id="d-lago-prec" style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--sky);line-height:1;">—</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.15em;color:var(--stone);margin-top:.3rem;text-transform:uppercase;">PRECIPITAÇÃO</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.08em;color:rgba(107,122,114,.6);margin-top:.1rem;">CALAFATE (LAGO ARGENTINO) · AR</div>
+      </div>
+
+      <!-- 3: São Paulo AQI -->
+      <div style="background:rgba(13,23,20,.8);padding:1.2rem .9rem;text-align:center;">
+        <div style="font-size:1.6rem;margin-bottom:.2rem;">🌫️</div>
+        <div id="d-sp-aqi" style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--gold);line-height:1;">—</div>
+        <div id="d-sp-label" style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.15em;color:var(--stone);margin-top:.3rem;text-transform:uppercase;">ÍNDICE AQ</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.08em;color:rgba(107,122,114,.6);margin-top:.1rem;">SÃO PAULO · BR</div>
+      </div>
+
+      <!-- 4: Punta Arenas vento -->
+      <div style="background:rgba(13,23,20,.8);padding:1.2rem .9rem;text-align:center;">
+        <div style="font-size:1.6rem;margin-bottom:.2rem;">💨</div>
+        <div id="d-pa-wind" style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--glacier);line-height:1;">—</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.15em;color:var(--stone);margin-top:.3rem;text-transform:uppercase;">VENTO KM/H</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.08em;color:rgba(107,122,114,.6);margin-top:.1rem;">PUNTA ARENAS · CL</div>
+      </div>
+
+      <!-- 5: Torres del Paine previsão -->
+      <div style="background:rgba(13,23,20,.8);padding:1.2rem .9rem;text-align:center;">
+        <div id="d-tp-icon" style="font-size:1.6rem;margin-bottom:.2rem;">🌤️</div>
+        <div id="d-tp-chuva" style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--accent);line-height:1;">—</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.15em;color:var(--stone);margin-top:.3rem;text-transform:uppercase;" id="d-tp-label">CHUVA / NEVE</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.08em;color:rgba(107,122,114,.6);margin-top:.1rem;">TORRES DEL PAINE · CL</div>
+      </div>
+
+    </div><!-- /dash-grid -->
+    <div style="text-align:center;margin-top:.6rem;font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.1em;color:rgba(107,122,114,.45);">
+      FONTES: OPEN-METEO (ECMWF/ERA5) · WAQI WORLD AIR QUALITY INDEX · ATUALIZAÇÃO AUTOMÁTICA A CADA 10 MIN
+    </div>
+  </div>
+</div>
+
+<!-- ── TIMELINE HORIZONTAL ────────────────────────── -->
+<div id="timeline-section" style="background:rgba(13,23,20,.55);border-bottom:1px solid rgba(168,197,192,.08);padding:2.4rem 2rem 2rem;position:relative;z-index:10;overflow:hidden;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.3em;color:var(--glacier);text-transform:uppercase;margin-bottom:.4rem;">TRAJETÓRIA DE PESQUISA</div>
+    <div style="font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:300;font-style:italic;color:var(--cream);margin-bottom:1.6rem;">Uma linha consistente de projetos</div>
+
+    <!-- trilho horizontal scrollável -->
+    <div style="overflow-x:auto;padding-bottom:1rem;cursor:grab;user-select:none;" id="timeline-scroll">
+      <div style="display:flex;align-items:flex-start;gap:0;min-width:max-content;padding:0 1rem;position:relative;" id="timeline-track">
+
+        <!-- linha conectora -->
+        <div style="position:absolute;top:24px;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(168,197,192,.3) 5%,rgba(168,197,192,.3) 95%,transparent);pointer-events:none;"></div>
+
+        <!-- ITEM 2017 -->
+        <div class="tl-item" data-card="tl-c1" style="display:flex;flex-direction:column;align-items:center;min-width:140px;cursor:pointer;position:relative;">
+          <div style="width:12px;height:12px;border-radius:50%;background:var(--glacier);border:2px solid var(--obsidian);box-shadow:0 0 10px rgba(168,197,192,.5);margin-bottom:.7rem;transition:transform .2s;"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.15em;color:var(--glacier);">2017</div>
+          <div style="font-size:.72rem;color:rgba(240,235,224,.7);text-align:center;margin-top:.2rem;max-width:120px;line-height:1.4;">Iniciação Científica</div>
+          <div style="font-family:'Space Mono',monospace;font-size:.4rem;color:var(--stone);text-align:center;max-width:120px;margin-top:.2rem;">Rio Santa Rita · SP</div>
+        </div>
+        <!-- popup -->
+        <div id="tl-c1" class="tl-popup" style="display:none;position:absolute;top:80px;left:0;width:220px;background:rgba(10,18,16,.97);border:1px solid rgba(168,197,192,.2);border-radius:6px;padding:1rem;z-index:50;backdrop-filter:blur(12px);">
+          <div style="font-family:'Space Mono',monospace;font-size:.48rem;letter-spacing:.1em;color:var(--glacier);margin-bottom:.4rem;">2017 · INICIAÇÃO CIENTÍFICA</div>
+          <div style="font-size:.82rem;color:var(--cream);font-weight:500;margin-bottom:.3rem;">Vazão e Sedimentos em Bacias Hidrográficas</div>
+          <div style="font-size:.75rem;color:rgba(240,235,224,.65);line-height:1.5;">Universidade Brasil · XI Encontro Científico. Orientador: Prof. Dr. Luiz S. Vanzela. Análise hidrológica em diferentes manejos do solo.</div>
+          <div style="display:flex;gap:.3rem;margin-top:.6rem;flex-wrap:wrap;"><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(168,197,192,.2);color:var(--glacier);">Hidrologia</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(168,197,192,.2);color:var(--glacier);">Pesquisa</span></div>
+        </div>
+
+        <!-- ITEM 2022a -->
+        <div class="tl-item" data-card="tl-c2" style="display:flex;flex-direction:column;align-items:center;min-width:140px;cursor:pointer;position:relative;">
+          <div style="width:12px;height:12px;border-radius:50%;background:var(--gold);border:2px solid var(--obsidian);box-shadow:0 0 10px rgba(201,168,76,.5);margin-bottom:.7rem;transition:transform .2s;"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.15em;color:var(--gold);">2022</div>
+          <div style="font-size:.72rem;color:rgba(240,235,224,.7);text-align:center;margin-top:.2rem;max-width:120px;line-height:1.4;">TCC · Abelhas</div>
+          <div style="font-family:'Space Mono',monospace;font-size:.4rem;color:var(--stone);text-align:center;max-width:120px;margin-top:.2rem;">FATEC Jundiaí · 3º ENADE</div>
+        </div>
+        <div id="tl-c2" class="tl-popup" style="display:none;position:absolute;top:80px;left:0;width:220px;background:rgba(10,18,16,.97);border:1px solid rgba(201,168,76,.2);border-radius:6px;padding:1rem;z-index:50;backdrop-filter:blur(12px);">
+          <div style="font-family:'Space Mono',monospace;font-size:.48rem;letter-spacing:.1em;color:var(--gold);margin-bottom:.4rem;">2022 · TCC · FATEC JUNDIAÍ</div>
+          <div style="font-size:.82rem;color:var(--cream);font-weight:500;margin-bottom:.3rem;">Síndrome do Colapso das Colônias</div>
+          <div style="font-size:.75rem;color:rgba(240,235,224,.65);line-height:1.5;">338 colmeias · ~20M abelhas · 3 regiões brasileiras. Orientador: Prof. Me. Claudio da Cunha. Python + análise quali-quantitativa.</div>
+          <div style="display:flex;gap:.3rem;margin-top:.6rem;flex-wrap:wrap;"><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(201,168,76,.3);color:var(--gold);">Python</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(201,168,76,.3);color:var(--gold);">Bioindicadores</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(201,168,76,.3);color:var(--gold);">CCD</span></div>
+          <a href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank" rel="noopener noreferrer" style="display:block;margin-top:.6rem;font-family:'Space Mono',monospace;font-size:.44rem;letter-spacing:.08em;color:var(--accent);text-decoration:none;">↗ ABRIR APP</a>
+        </div>
+
+        <!-- ITEM 2022b -->
+        <div class="tl-item" data-card="tl-c3" style="display:flex;flex-direction:column;align-items:center;min-width:140px;cursor:pointer;position:relative;">
+          <div style="width:12px;height:12px;border-radius:50%;background:var(--sky);border:2px solid var(--obsidian);box-shadow:0 0 10px rgba(122,179,212,.5);margin-bottom:.7rem;transition:transform .2s;"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.15em;color:var(--sky);">2022</div>
+          <div style="font-size:.72rem;color:rgba(240,235,224,.7);text-align:center;margin-top:.2rem;max-width:120px;line-height:1.4;">Usina Solar</div>
+          <div style="font-family:'Space Mono',monospace;font-size:.4rem;color:var(--stone);text-align:center;max-width:120px;margin-top:.2rem;">Noroeste Paulista</div>
+        </div>
+        <div id="tl-c3" class="tl-popup" style="display:none;position:absolute;top:80px;left:0;width:220px;background:rgba(10,18,16,.97);border:1px solid rgba(122,179,212,.2);border-radius:6px;padding:1rem;z-index:50;backdrop-filter:blur(12px);">
+          <div style="font-family:'Space Mono',monospace;font-size:.48rem;letter-spacing:.1em;color:var(--sky);margin-bottom:.4rem;">2022 · ENERGIA SOLAR</div>
+          <div style="font-size:.82rem;color:var(--cream);font-weight:500;margin-bottom:.3rem;">Usina Solar do Noroeste Paulista</div>
+          <div style="font-size:.75rem;color:rgba(240,235,224,.65);line-height:1.5;">Monitoramento e análise de desempenho. Baseado na supervisão real da instalação de 1,07 GWh na Universidade Brasil durante atuação profissional 2010–2020.</div>
+          <div style="display:flex;gap:.3rem;margin-top:.6rem;flex-wrap:wrap;"><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(122,179,212,.2);color:var(--sky);">Energia Solar</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(122,179,212,.2);color:var(--sky);">Plotly</span></div>
+          <a href="https://solar-university-nw-sp.streamlit.app/" target="_blank" rel="noopener noreferrer" style="display:block;margin-top:.6rem;font-family:'Space Mono',monospace;font-size:.44rem;letter-spacing:.08em;color:var(--accent);text-decoration:none;">↗ ABRIR APP</a>
+        </div>
+
+        <!-- ITEM 2024a -->
+        <div class="tl-item" data-card="tl-c4" style="display:flex;flex-direction:column;align-items:center;min-width:140px;cursor:pointer;position:relative;">
+          <div style="width:12px;height:12px;border-radius:50%;background:var(--glacier);border:2px solid var(--obsidian);box-shadow:0 0 10px rgba(168,197,192,.5);margin-bottom:.7rem;transition:transform .2s;"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.15em;color:var(--glacier);">2024</div>
+          <div style="font-size:.72rem;color:rgba(240,235,224,.7);text-align:center;margin-top:.2rem;max-width:120px;line-height:1.4;">Patagônia</div>
+          <div style="font-family:'Space Mono',monospace;font-size:.4rem;color:var(--stone);text-align:center;max-width:120px;margin-top:.2rem;">Campo · AR & CL</div>
+        </div>
+        <div id="tl-c4" class="tl-popup" style="display:none;position:absolute;top:80px;left:0;width:240px;background:rgba(10,18,16,.97);border:1px solid rgba(168,197,192,.2);border-radius:6px;padding:1rem;z-index:50;backdrop-filter:blur(12px);">
+          <div style="font-family:'Space Mono',monospace;font-size:.48rem;letter-spacing:.1em;color:var(--glacier);margin-bottom:.4rem;">2024–2025 · PESQUISA DE CAMPO</div>
+          <div style="font-size:.82rem;color:var(--cream);font-weight:500;margin-bottom:.3rem;">Patagônia — Argentina & Chile</div>
+          <div style="font-size:.75rem;color:rgba(240,235,224,.65);line-height:1.5;">Mar/2025 a Out/2025 na Patagônia. Gerou 4 projetos: Qualidade da Água (18 estações), Potencial Eólico, Sismologia e Espécies Invasoras em Puerto Williams.</div>
+          <div style="display:flex;gap:.3rem;margin-top:.6rem;flex-wrap:wrap;"><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(168,197,192,.2);color:var(--glacier);">Campo</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(168,197,192,.2);color:var(--glacier);">GIS</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(168,197,192,.2);color:var(--glacier);">Sensoriamento Remoto</span></div>
+        </div>
+
+        <!-- ITEM 2025a -->
+        <div class="tl-item" data-card="tl-c5" style="display:flex;flex-direction:column;align-items:center;min-width:140px;cursor:pointer;position:relative;">
+          <div style="width:12px;height:12px;border-radius:50%;background:var(--gold);border:2px solid var(--obsidian);box-shadow:0 0 10px rgba(201,168,76,.5);margin-bottom:.7rem;transition:transform .2s;"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.15em;color:var(--gold);">2025</div>
+          <div style="font-size:.72rem;color:rgba(240,235,224,.7);text-align:center;margin-top:.2rem;max-width:120px;line-height:1.4;">El Niño · ML</div>
+          <div style="font-family:'Space Mono',monospace;font-size:.4rem;color:var(--stone);text-align:center;max-width:120px;margin-top:.2rem;">Machine Learning · Global</div>
+        </div>
+        <div id="tl-c5" class="tl-popup" style="display:none;position:absolute;top:80px;left:-60px;width:240px;background:rgba(10,18,16,.97);border:1px solid rgba(201,168,76,.2);border-radius:6px;padding:1rem;z-index:50;backdrop-filter:blur(12px);">
+          <div style="font-family:'Space Mono',monospace;font-size:.48rem;letter-spacing:.1em;color:var(--gold);margin-bottom:.4rem;">2025 · MACHINE LEARNING</div>
+          <div style="font-size:.82rem;color:var(--cream);font-weight:500;margin-bottom:.3rem;">Previsão do Impacto Global do El Niño 2026</div>
+          <div style="font-size:.75rem;color:rgba(240,235,224,.65);line-height:1.5;">Random Forest + scikit-learn aplicado a dados históricos do ENSO. Previsões de temperatura, precipitação e eventos extremos para 2026. Resultado direto das pós-graduações em IA & ML.</div>
+          <div style="display:flex;gap:.3rem;margin-top:.6rem;flex-wrap:wrap;"><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(201,168,76,.3);color:var(--gold);">Random Forest</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(201,168,76,.3);color:var(--gold);">scikit-learn</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(201,168,76,.3);color:var(--gold);">ENSO</span></div>
+          <a href="https://el-nino-2026-ml-forecast.streamlit.app/" target="_blank" rel="noopener noreferrer" style="display:block;margin-top:.6rem;font-family:'Space Mono',monospace;font-size:.44rem;letter-spacing:.08em;color:var(--accent);text-decoration:none;">↗ ABRIR APP</a>
+        </div>
+
+        <!-- ITEM 2025b -->
+        <div class="tl-item" data-card="tl-c6" style="display:flex;flex-direction:column;align-items:center;min-width:140px;cursor:pointer;position:relative;">
+          <div style="width:12px;height:12px;border-radius:50%;background:var(--sky);border:2px solid var(--obsidian);box-shadow:0 0 10px rgba(122,179,212,.5);margin-bottom:.7rem;transition:transform .2s;"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.15em;color:var(--sky);">2025</div>
+          <div style="font-size:.72rem;color:rgba(240,235,224,.7);text-align:center;margin-top:.2rem;max-width:120px;line-height:1.4;">Pós-Grad · IA/ML</div>
+          <div style="font-family:'Space Mono',monospace;font-size:.4rem;color:var(--stone);text-align:center;max-width:120px;margin-top:.2rem;">FACINT · TensorFlow · Spark</div>
+        </div>
+        <div id="tl-c6" class="tl-popup" style="display:none;position:absolute;top:80px;left:-80px;width:240px;background:rgba(10,18,16,.97);border:1px solid rgba(122,179,212,.2);border-radius:6px;padding:1rem;z-index:50;backdrop-filter:blur(12px);">
+          <div style="font-family:'Space Mono',monospace;font-size:.48rem;letter-spacing:.1em;color:var(--sky);margin-bottom:.4rem;">2025 · PÓS-GRADUAÇÃO · FACINT</div>
+          <div style="font-size:.82rem;color:var(--cream);font-weight:500;margin-bottom:.3rem;">IA, Machine Learning & Data Science</div>
+          <div style="font-size:.75rem;color:rgba(240,235,224,.65);line-height:1.5;">360h · 10,0 em todas as disciplinas. Ferramentas: TensorFlow, Apache Spark, Apache Airflow, ETL, Hadoop, MapReduce, scikit-learn, Business Analytics.</div>
+          <div style="display:flex;gap:.3rem;margin-top:.6rem;flex-wrap:wrap;"><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(122,179,212,.2);color:var(--sky);">TensorFlow</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(122,179,212,.2);color:var(--sky);">Spark</span><span style="font-family:'Space Mono',monospace;font-size:.42rem;padding:.2rem .5rem;border:1px solid rgba(122,179,212,.2);color:var(--sky);">Airflow</span></div>
+        </div>
+
+        <!-- ITEM 2026 -->
+        <div class="tl-item" data-card="tl-c7" style="display:flex;flex-direction:column;align-items:center;min-width:140px;cursor:pointer;position:relative;">
+          <div style="width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--glacier));border:2px solid var(--obsidian);box-shadow:0 0 14px rgba(201,168,76,.6);margin-bottom:.7rem;animation:dashPulse 2s infinite;"></div>
+          <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.15em;color:var(--cream);">2026</div>
+          <div style="font-size:.72rem;color:rgba(240,235,224,.7);text-align:center;margin-top:.2rem;max-width:120px;line-height:1.4;">Agora · São Paulo</div>
+          <div style="font-family:'Space Mono',monospace;font-size:.4rem;color:var(--stone);text-align:center;max-width:120px;margin-top:.2rem;">Aberto a propostas</div>
+        </div>
+        <div id="tl-c7" class="tl-popup" style="display:none;position:absolute;top:80px;left:-100px;width:220px;background:rgba(10,18,16,.97);border:1px solid rgba(201,168,76,.3);border-radius:6px;padding:1rem;z-index:50;backdrop-filter:blur(12px);">
+          <div style="font-family:'Space Mono',monospace;font-size:.48rem;letter-spacing:.1em;color:var(--gold);margin-bottom:.4rem;">2026 · AGORA</div>
+          <div style="font-size:.82rem;color:var(--cream);font-weight:500;margin-bottom:.3rem;">São Paulo · Brasil</div>
+          <div style="font-size:.75rem;color:rgba(240,235,224,.65);line-height:1.5;">Baseado em SP. Aberto a propostas: presencial · remoto · híbrido · América do Sul & internacional. Contato via WhatsApp 🇧🇷🇨🇱🇦🇷.</div>
+          <a href="mailto:amauri.almeidasjr@gmail.com" style="display:block;margin-top:.6rem;font-family:'Space Mono',monospace;font-size:.44rem;letter-spacing:.08em;color:var(--accent);text-decoration:none;">↗ ENTRAR EM CONTATO</a>
+        </div>
+
+      </div><!-- /timeline-track -->
+    </div><!-- /timeline-scroll -->
+  </div>
 </div>
 
 <!-- ── PROJECTS ──────────────────────────────────────── -->
@@ -455,8 +640,8 @@ window.addEventListener('message', function(e) {
       <div class="card-num">001 · BRASIL · 3 REGIÕES · TRABALHO DE CONCLUSÃO DE CURSO</div>
       <div class="card-region" id="cr1">BRASIL · 3 REGIÕES</div>
       <h3 class="card-title"  id="ct1">Síndrome do Colapso das Abelhas</h3>
-      <p  class="card-desc"   id="cd1">Análise da mortalidade de abelhas por - e - em 3 regiões brasileiras (2016–2022). Impacto em 338 colmeias e ~20 milhões de abelhas.</p>
-      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Agrotóxicos</span><span class="tag">Bioindicadores</span><span class="tag">CCD</span></div>
+      <p  class="card-desc"   id="cd1">Análise quali-quantitativa da mortalidade de abelhas por compostos químicos agrícolas em MG, SP e PR (2016–2022). Pipeline: entrevistas de campo → tabulação Excel → georreferenciamento Folium → visualização Plotly. 338 colmeias · ~20M abelhas · taxa de subnotificação de 62,5% identificada.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Folium</span><span class="tag">Bioindicadores</span><span class="tag">CCD</span><span class="tag">Geoespacial</span></div>
       <div class="card-status"><span class="status-dot online"></span><span id="cs1">ONLINE</span></div>
       <div class="card-arrow">↗</div>
     </a>
@@ -465,8 +650,8 @@ window.addEventListener('message', function(e) {
       <div class="card-num">002 · FERNANDÓPOLIS · SP · INICIAÇÃO CIENTÍFICA</div>
       <div class="card-region" id="cr2">RIO SANTA RITA · FERNANDÓPOLIS, SP</div>
       <h3 class="card-title"  id="ct2">Observatório do Rio Santa Rita</h3>
-      <p  class="card-desc"   id="cd2">Monitoramento hidrológico e ecológico do Rio Santa Rita. Análise de vazão, qualidade da água e impactos climáticos em ecossistemas ripários.</p>
-      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Hidrologia</span><span class="tag">Ripário</span><span class="tag">USGS</span></div>
+      <p  class="card-desc"   id="cd2">Monitoramento hidrológico multi-variável: vazão, qualidade da água e impactos de uso do solo. Dados USGS processados em séries temporais com detecção de anomalias. Baseado na Iniciação Científica (Universidade Brasil · 2017) com análise comparativa de bacias de diferentes manejos.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">USGS</span><span class="tag">Séries Temporais</span><span class="tag">Hidrologia</span><span class="tag">Anomalias</span></div>
       <div class="card-status"><span class="status-dot online"></span><span id="cs2">ONLINE</span></div>
       <div class="card-arrow">↗</div>
     </a>
@@ -475,8 +660,8 @@ window.addEventListener('message', function(e) {
       <div class="card-num">003 · SÃO PAULO · NOROESTE PAULISTA</div>
       <div class="card-region" id="cr3">SÃO PAULO · ENERGIA SOLAR</div>
       <h3 class="card-title"  id="ct3">Usina Solar do Noroeste Paulista: Acompanhamento e Resultados</h3>
-      <p  class="card-desc"   id="cd3">Monitoramento e análise de desempenho da usina solar do Noroeste Paulista. Acompanhamento de geração, eficiência e resultados ao longo do tempo.</p>
-      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Energia Solar</span><span class="tag">Monitoramento</span><span class="tag">Plotly</span></div>
+      <p  class="card-desc"   id="cd3">Análise de desempenho de usina fotovoltaica com 1,07 GWh de capacidade. Métricas: fator de capacidade, perdas por temperatura, curva de geração vs irradiação. Pipeline: dados de medição real → normalização → visualização Plotly. Baseado em supervisão técnica direta da instalação.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Fotovoltaico</span><span class="tag">KPIs Energia</span><span class="tag">Plotly</span></div>
       <div class="card-status"><span class="status-dot online"></span><span id="cs3">ONLINE</span></div>
       <div class="card-arrow">↗</div>
     </a>
@@ -485,8 +670,8 @@ window.addEventListener('message', function(e) {
       <div class="card-num">004 · CHILE & ARGENTINA</div>
       <div class="card-region" id="cr4">PATAGÔNIA · ENERGIA EÓLICA</div>
       <h3 class="card-title"  id="ct4">Potencial Eólico — Patagônia</h3>
-      <p  class="card-desc"   id="cd4">Análise de dados de velocidade de vento, padrões de circulação atmosférica e potencial para energia renovável na Patagônia.</p>
-      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Meteorologia</span><span class="tag">Energia Renovável</span><span class="tag">Plotly</span></div>
+      <p  class="card-desc"   id="cd4">Análise estatística da distribuição de Weibull aplicada a séries de velocidade de vento. Cálculo de densidade de potência eólica e capacidade instalável por região. Dados: Open-Meteo ERA5 + estações SENAMHI. Pesquisa de campo Mar–Out 2025.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">Weibull</span><span class="tag">ERA5</span><span class="tag">SENAMHI</span><span class="tag">Energia Renovável</span></div>
       <div class="card-status"><span class="status-dot online"></span><span id="cs4">ONLINE</span></div>
       <div class="card-arrow">↗</div>
     </a>
@@ -495,8 +680,8 @@ window.addEventListener('message', function(e) {
       <div class="card-num">005 · CHILE & ARGENTINA</div>
       <div class="card-region" id="cr5">PATAGÔNIA · SUL DA AMÉRICA DO SUL</div>
       <h3 class="card-title"  id="ct5">Qualidade da Água — Patagônia</h3>
-      <p  class="card-desc"   id="cd5">Monitoramento geoespacial de 18 estações nos principais rios da Patagônia. IQA, pH, turbidez, oxigênio dissolvido e tendências 2019–2024.</p>
-      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Folium</span><span class="tag">Plotly</span><span class="tag">Geoespacial</span></div>
+      <p  class="card-desc"   id="cd5">Monitoramento de 18 estações em rios patagônicos 2019–2024. Cálculo do IQA ponderado (pH, turbidez, OD, condutividade, temperatura). Mapa Folium interativo com séries temporais. Identificação de tendências de acidificação em 3 bacias hidrográficas.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">Folium</span><span class="tag">IQA</span><span class="tag">18 Estações</span><span class="tag">Geoespacial</span></div>
       <div class="card-status"><span class="status-dot online"></span><span id="cs5">ONLINE</span></div>
       <div class="card-arrow">↗</div>
     </a>
@@ -505,8 +690,8 @@ window.addEventListener('message', function(e) {
       <div class="card-num">006 · CHILE & ARGENTINA</div>
       <div class="card-region" id="cr6">PATAGÔNIA · SISMOS</div>
       <h3 class="card-title"  id="ct6">Monitoramento Sísmico — Patagônia</h3>
-      <p  class="card-desc"   id="cd6">Análise de dados sísmicos e atividade tectônica na região da Patagônia. Modelagem de risco sísmico e impactos em ecossistemas.</p>
-      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Sismologia</span><span class="tag">Geofísica</span><span class="tag">Plotly</span></div>
+      <p  class="card-desc"   id="cd6">Análise de atividade sísmica na zona de subducção da Placa de Nazca. Catalogação de eventos por magnitude e profundidade, mapeamento de risco e correlação com ecossistemas. Dados: USGS Earthquake Catalog + SHOA. Modelos de distribuição de Gutenberg-Richter.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">USGS</span><span class="tag">Gutenberg-Richter</span><span class="tag">Geofísica</span><span class="tag">Risco</span></div>
       <div class="card-status"><span class="status-dot online"></span><span id="cs6">ONLINE</span></div>
       <div class="card-arrow">↗</div>
     </a>
@@ -515,8 +700,8 @@ window.addEventListener('message', function(e) {
       <div class="card-num">007 · CHILE · PUERTO WILLIAMS</div>
       <div class="card-region" id="cr7">CHILE · TIERRA DEL FUEGO</div>
       <h3 class="card-title"  id="ct7">Impacto das Espécies Exóticas Invasoras — Puerto Williams</h3>
-      <p  class="card-desc"   id="cd7">Análise de imagem de satélite e estudo dos impactos ecológicos de espécies exóticas invasoras introduzidas em Puerto Williams, Chile. Alterações na paisagem, hidrologia e biodiversidade nativa.</p>
-      <div class="card-tags"><span class="tag">Sensoriamento Remoto</span><span class="tag">Espécies Invasoras</span><span class="tag">GIS</span><span class="tag">Python</span></div>
+      <p  class="card-desc"   id="cd7">Classificação de cobertura vegetal via sensoriamento remoto (índice NDVI + análise multitemporal Sentinel-2). Quantificação de área invadida e impacto em biodiversidade nativa. Comparativo 2015 vs 2024 com slider interativo. Trilíngue PT/ES/EN.</p>
+      <div class="card-tags"><span class="tag">NDVI</span><span class="tag">Sentinel-2</span><span class="tag">GIS</span><span class="tag">Espécies Invasoras</span><span class="tag">Python</span></div>
       <div class="card-status"><span class="status-dot online"></span><span id="cs7">ONLINE</span></div>
       <div class="card-arrow">↗</div>
     </a>
@@ -525,20 +710,21 @@ window.addEventListener('message', function(e) {
       <div class="card-num">008 · BRASIL · APICULTURA</div>
       <div class="card-region" id="cr8">BRASIL · APICULTURA</div>
       <h3 class="card-title"  id="ct8">Abelhas sem Ferrão no Brasil</h3>
-      <p  class="card-desc"   id="cd8">Mapeamento e análise da diversidade de abelhas nativas sem ferrão (meliponíneos) no Brasil. Distribuição geográfica, ameaças e estratégias de conservação.</p>
-      <div class="card-tags"><span class="tag">Python</span><span class="tag">Meliponicultura</span><span class="tag">Bioindicadores</span><span class="tag">Geoprocessamento</span></div>
+      <p  class="card-desc"   id="cd8">Mapeamento geoespacial de 238 espécies de meliponíneos no Brasil. Análise de sobreposição com zonas de desmatamento (PRODES/INPE), correlação com biomas e ameaças antrópicas. Índice de vulnerabilidade por espécie calculado via modelo de ponderação multicritério.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">INPE/PRODES</span><span class="tag">Meliponicultura</span><span class="tag">Multicritério</span><span class="tag">Geoprocessamento</span></div>
       <div class="card-status"><span class="status-dot online"></span><span id="cs8">ONLINE</span></div>
       <div class="card-arrow">↗</div>
     </a>
 
-    <div class="project-card in-progress">
-      <div class="card-num">009 · BRASIL · REGIÕES E CAPACIDADE HÍDRICA</div>
-      <div class="card-region" id="cr9">BRASIL · HIDROLOGIA</div>
-      <h3 class="card-title"  id="ct9">Aquífero Guarani — Regiões e Capacidade Hídrica</h3>
-      <p  class="card-desc"   id="cd9">Mapeamento das regiões do Aquífero Guarani e análise da capacidade hídrica em território brasileiro. Gestão sustentável, zonas de recarga e vulnerabilidade do maior aquífero transfronteiriço da América do Sul.</p>
-      <div class="card-tags"><span class="tag gold">Hidrogeologia</span><span class="tag gold">GIS</span><span class="tag gold">Python</span><span class="tag gold">Recursos Hídricos</span></div>
-      <div class="card-status"><span class="status-dot building"></span><span id="cs9">EM DESENVOLVIMENTO · PREVISÃO JUL/2026</span></div>
-    </div>
+    <a class="project-card" href="https://el-nino-2026-ml-forecast.streamlit.app/" target="_blank" rel="noopener noreferrer">
+      <div class="card-num">009 · GLOBAL · MACHINE LEARNING · PÓS-GRADUAÇÃO IA & DATA SCIENCE</div>
+      <div class="card-region" id="cr9">GLOBAL · CLIMA & MACHINE LEARNING</div>
+      <h3 class="card-title"  id="ct9">Previsão do Impacto Global do El Niño em 2026</h3>
+      <p  class="card-desc"   id="cd9">Modelo preditivo de Machine Learning (Random Forest) treinado em dados históricos do ENSO para prever impactos globais do El Niño em 2026: temperatura, precipitação e eventos extremos por região. Projeto resultado direto das pós-graduações em IA & Machine Learning.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">Random Forest</span><span class="tag">ENSO / El Niño</span><span class="tag">Séries Temporais</span><span class="tag">Machine Learning</span></div>
+      <div class="card-status"><span class="status-dot online"></span><span id="cs9">ONLINE</span></div>
+      <div class="card-arrow">↗</div>
+    </a>
 
     <div class="project-card in-progress">
       <div class="card-num">010 · BRASIL · MOBILIDADE</div>
@@ -574,8 +760,9 @@ window.addEventListener('message', function(e) {
       </div>
 
       <!-- DISPONIBILIDADE -->
-      <div style="margin-top:1.8rem;padding:1.2rem 1.4rem;border:1px solid rgba(122,179,212,.2);border-radius:4px;background:rgba(122,179,212,.05);">
-        <div style="font-family:'Space Mono',monospace;font-size:.55rem;letter-spacing:.25em;color:var(--glacier);text-transform:uppercase;margin-bottom:.7rem;">DISPONIBILIDADE</div>
+      <div style="font-family:'Space Mono',monospace;font-size:.52rem;letter-spacing:.12em;color:rgba(168,197,192,.5);margin-bottom:1rem;font-style:italic;">
+        Números mantidos de Mar–Out 2025, período de pesquisa de campo na Patagônia (Argentina e Chile). Contatos profissionais nas três regiões.
+      </div>
         <p style="font-size:.85rem;font-weight:300;color:rgba(240,235,224,.8);line-height:1.7;">
           Atualmente baseado em São Paulo · Brasil. Entre novembro de 2024 e maio de 2026 desenvolvi projetos na Patagônia (Argentina e Chile) — experiência que gerou os projetos de Qualidade da Água, Potencial Eólico e Espécies Invasoras deste portfólio.<br><br>
           <strong style="color:var(--cream);">Aberto a propostas:</strong> presencial · remoto · híbrido &nbsp;|&nbsp; 🇧🇷 🇨🇱 🇦🇷 América do Sul &amp; internacional
