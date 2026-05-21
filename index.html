@@ -321,6 +321,10 @@ footer { padding:3.5rem 2rem 2.5rem; text-align:center; border-top:1px solid rgb
   font-family:'Space Mono',monospace; font-size:.5rem;
   letter-spacing:.08em; color:var(--stone);
 }
+@keyframes dashPulse {
+  0%,100%{ opacity:1; transform:scale(1); }
+  50%{ opacity:.5; transform:scale(1.4); }
+}
 @media(max-width:768px){
   .qr-row { gap:1.4rem; }
   .qr-link { width:88px; height:88px; }
@@ -471,12 +475,12 @@ window.addEventListener('message', function(e) {
         <div style="font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.08em;color:rgba(107,122,114,.6);margin-top:.1rem;">PUERTO WILLIAMS · CL</div>
       </div>
 
-      <!-- 2: Lago Argentino (Perito Moreno) nível -->
+      <!-- 2: Temperatura média do glaciar Perito Moreno (Open-Meteo) -->
       <div style="background:rgba(13,23,20,.8);padding:1.2rem .9rem;text-align:center;">
-        <div style="font-size:1.6rem;margin-bottom:.2rem;">🏔️</div>
-        <div id="d-lago-prec" style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--sky);line-height:1;">—</div>
-        <div style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.15em;color:var(--stone);margin-top:.3rem;text-transform:uppercase;">PRECIPITAÇÃO</div>
-        <div style="font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.08em;color:rgba(107,122,114,.6);margin-top:.1rem;">CALAFATE (LAGO ARGENTINO) · AR</div>
+        <div style="font-size:1.6rem;margin-bottom:.2rem;">🧊</div>
+        <div id="d-glaciar-temp" style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--sky);line-height:1;">—</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.42rem;letter-spacing:.15em;color:var(--stone);margin-top:.3rem;text-transform:uppercase;" id="d-glaciar-label">TEMP. GLACIAR</div>
+        <div style="font-family:'Space Mono',monospace;font-size:.38rem;letter-spacing:.08em;color:rgba(107,122,114,.6);margin-top:.1rem;">PERITO MORENO · AR</div>
       </div>
 
       <!-- 3: São Paulo AQI -->
@@ -636,8 +640,18 @@ window.addEventListener('message', function(e) {
   <h2  class="section-title" id="sec-title-01">Ecossistemas em dados</h2>
   <div class="projects-grid">
 
-    <a class="project-card" href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank" rel="noopener noreferrer">
-      <div class="card-num">001 · BRASIL · 3 REGIÕES · TRABALHO DE CONCLUSÃO DE CURSO</div>
+    <a class="project-card" href="https://solar-university-nw-sp.streamlit.app/" target="_blank" rel="noopener noreferrer" data-theme="energia">
+      <div class="card-num">001 · SÃO PAULO · NOROESTE PAULISTA · 2019</div>
+      <div class="card-region" id="cr3">SÃO PAULO · ENERGIA SOLAR</div>
+      <h3 class="card-title"  id="ct3">Usina Solar do Noroeste Paulista: Acompanhamento e Resultados</h3>
+      <p  class="card-desc"   id="cd3">Análise de desempenho de usina fotovoltaica com 1,07 GWh de capacidade. Métricas: fator de capacidade, perdas por temperatura, curva de geração vs irradiação. Pipeline: dados de medição real → normalização → visualização Plotly. Baseado em supervisão técnica direta da instalação.</p>
+      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Fotovoltaico</span><span class="tag">KPIs Energia</span><span class="tag">Plotly</span></div>
+      <div class="card-status"><span class="status-dot online"></span><span id="cs3">ONLINE</span></div>
+      <div class="card-arrow">↗</div>
+    </a>
+
+    <a class="project-card" href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank" rel="noopener noreferrer" data-theme="abelhas">
+      <div class="card-num">002 · BRASIL · 3 REGIÕES · TRABALHO DE CONCLUSÃO DE CURSO</div>
       <div class="card-region" id="cr1">BRASIL · 3 REGIÕES</div>
       <h3 class="card-title"  id="ct1">Síndrome do Colapso das Abelhas</h3>
       <p  class="card-desc"   id="cd1">Análise quali-quantitativa da mortalidade de abelhas por compostos químicos agrícolas em MG, SP e PR (2016–2022). Pipeline: entrevistas de campo → tabulação Excel → georreferenciamento Folium → visualização Plotly. 338 colmeias · ~20M abelhas · taxa de subnotificação de 62,5% identificada.</p>
@@ -646,8 +660,8 @@ window.addEventListener('message', function(e) {
       <div class="card-arrow">↗</div>
     </a>
 
-    <a class="project-card" href="https://santa-rita-river-observatory.streamlit.app/" target="_blank" rel="noopener noreferrer">
-      <div class="card-num">002 · FERNANDÓPOLIS · SP · INICIAÇÃO CIENTÍFICA</div>
+    <a class="project-card" href="https://santa-rita-river-observatory.streamlit.app/" target="_blank" rel="noopener noreferrer" data-theme="agua">
+      <div class="card-num">003 · FERNANDÓPOLIS · SP · INICIAÇÃO CIENTÍFICA</div>
       <div class="card-region" id="cr2">RIO SANTA RITA · FERNANDÓPOLIS, SP</div>
       <h3 class="card-title"  id="ct2">Observatório do Rio Santa Rita</h3>
       <p  class="card-desc"   id="cd2">Monitoramento hidrológico multi-variável: vazão, qualidade da água e impactos de uso do solo. Dados USGS processados em séries temporais com detecção de anomalias. Baseado na Iniciação Científica (Universidade Brasil · 2017) com análise comparativa de bacias de diferentes manejos.</p>
@@ -656,15 +670,6 @@ window.addEventListener('message', function(e) {
       <div class="card-arrow">↗</div>
     </a>
 
-    <a class="project-card" href="https://solar-university-nw-sp.streamlit.app/" target="_blank" rel="noopener noreferrer">
-      <div class="card-num">003 · SÃO PAULO · NOROESTE PAULISTA</div>
-      <div class="card-region" id="cr3">SÃO PAULO · ENERGIA SOLAR</div>
-      <h3 class="card-title"  id="ct3">Usina Solar do Noroeste Paulista: Acompanhamento e Resultados</h3>
-      <p  class="card-desc"   id="cd3">Análise de desempenho de usina fotovoltaica com 1,07 GWh de capacidade. Métricas: fator de capacidade, perdas por temperatura, curva de geração vs irradiação. Pipeline: dados de medição real → normalização → visualização Plotly. Baseado em supervisão técnica direta da instalação.</p>
-      <div class="card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Fotovoltaico</span><span class="tag">KPIs Energia</span><span class="tag">Plotly</span></div>
-      <div class="card-status"><span class="status-dot online"></span><span id="cs3">ONLINE</span></div>
-      <div class="card-arrow">↗</div>
-    </a>
 
     <a class="project-card" href="https://patagonia-wind-energy.streamlit.app/" target="_blank" rel="noopener noreferrer">
       <div class="card-num">004 · CHILE & ARGENTINA</div>
@@ -1002,7 +1007,68 @@ document.addEventListener('click',function(e){
   var hero=document.getElementById('cv-dropdown-hero');if(hero&&!hero.parentElement.contains(e.target))hero.style.display='none';
 });
 
-/* ── TORRES BANNER ────────────────────────────────── */
+/* ── LIVE DASHBOARD ────────────────────────────────── */
+(function(){
+  function set(id,val){ var el=document.getElementById(id); if(el) el.textContent=val; }
+  function setHtml(id,val){ var el=document.getElementById(id); if(el) el.innerHTML=val; }
+
+  async function fetchDashboard(){
+    try {
+      // 1. Puerto Williams temp — lat:-54.93,lon:-67.61
+      // 2. Perito Moreno glacier temp — lat:-50.50,lon:-73.03
+      // 3. Punta Arenas wind — lat:-53.15,lon:-70.91
+      // 4. Torres del Paine rain — lat:-50.96,lon:-72.97
+      var url = 'https://api.open-meteo.com/v1/forecast' +
+        '?latitude=-54.93,-50.50,-53.15,-50.96' +
+        '&longitude=-67.61,-73.03,-70.91,-72.97' +
+        '&current=temperature_2m,windspeed_10m,precipitation' +
+        '&wind_speed_unit=kmh&timezone=auto';
+
+      var r = await fetch(url);
+      var data = await r.json();
+
+      // data is an array when multiple locations
+      var pw   = Array.isArray(data) ? data[0] : null;
+      var glac = Array.isArray(data) ? data[1] : null;
+      var pa   = Array.isArray(data) ? data[2] : null;
+      var tp   = Array.isArray(data) ? data[3] : null;
+
+      if(pw   && pw.current)   set('d-pw-temp',   pw.current.temperature_2m + '°C');
+      if(glac && glac.current) set('d-glaciar-temp', glac.current.temperature_2m + '°C');
+      if(pa   && pa.current)   set('d-pa-wind',   Math.round(pa.current.windspeed_10m) + ' km/h');
+      if(tp   && tp.current){
+        var prec = tp.current.precipitation;
+        set('d-tp-chuva', prec + ' mm');
+        var icon = prec > 5 ? '🌧️' : prec > 0 ? '🌦️' : '🌤️';
+        set('d-tp-icon', icon);
+      }
+
+      // Now fetch São Paulo AQI from WAQI (no key needed for demo city)
+      try {
+        var aqiR = await fetch('https://api.waqi.info/feed/sao paulo/?token=demo');
+        var aqiD = await aqiR.json();
+        if(aqiD && aqiD.status === 'ok' && aqiD.data){
+          var aqi = aqiD.data.aqi;
+          set('d-sp-aqi', aqi);
+          var aqiLabel = aqi<=50?'BOM':aqi<=100?'MODERADO':aqi<=150?'INSALUBRE SENS.':aqi<=200?'INSALUBRE':'MUITO INSALUBRE';
+          set('d-sp-label', aqiLabel + ' · IQA');
+        }
+      } catch(e){ set('d-sp-aqi','—'); }
+
+      // Update timestamp
+      var now = new Date();
+      set('dash-updated', now.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}) + ' · ATUALIZADO');
+    } catch(err){
+      console.warn('Dashboard fetch error:', err);
+    }
+  }
+
+  // Run immediately on load, then every 10 min
+  fetchDashboard();
+  setInterval(fetchDashboard, 600000);
+})();
+
+
 document.getElementById('bannerToggleBtn').addEventListener('click',function(){document.getElementById('torresBanner').classList.toggle('show');});
 document.getElementById('closeBannerBtn').addEventListener('click',function(){document.getElementById('torresBanner').classList.remove('show');});
 
