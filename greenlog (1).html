@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Greenlog</title>
+<style>
+  *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+
+  html, body {
+    width:100%; height:100%;
+    overflow:hidden;
+    background:#0e1117;
+  }
+
+  /*
+    Técnica scale():
+    O Streamlit renderiza em 1280px de largura (desktop padrão).
+    transform:scale(0.406) encolhe tudo para ~520px de exibição.
+    transform-origin:top left garante que o conteúdo parte do canto correto.
+
+    Sidebar colapsada do Streamlit = 68px → left:-68px corta ela.
+    Barra rodapé do Streamlit = 52px → height extra empurra para fora.
+
+    O body tem overflow:hidden → nada vaza, zero scrollbar, zero barra azul.
+  */
+  #scaler {
+    position:absolute;
+    top:0;
+    left:-68px;             /* corta sidebar colapsada do Streamlit */
+    width:1280px;           /* largura fixa = resolução desktop Streamlit */
+    /* altura = conteúdo útil (820px) + rodapé (52px) */
+    height:872px;
+    transform:scale(0.406);
+    transform-origin:top left;
+  }
+
+  #st-frame {
+    position:absolute;
+    top:0; left:0;
+    width:100%; height:100%;
+    border:none;
+    display:block;
+    background:#0e1117;
+    scrollbar-width:none;
+  }
+  #st-frame::-webkit-scrollbar { display:none; }
+</style>
+</head>
+<body>
+  <div id="scaler">
+    <iframe
+      id="st-frame"
+      src="https://environmental-dashboard-portfolio.streamlit.app/?embed=true&embed_options=hide_toolbar,hide_padding,hide_footer,show_colored_line"
+      scrolling="no"
+      allow="accelerometer; gyroscope; fullscreen"
+      title="Greenlog — Pesquisa Ambiental"
+    ></iframe>
+  </div>
+</body>
+</html>
