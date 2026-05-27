@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Greenlog</title>
+<style>
+  *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+
+  html, body {
+    width:100%; height:100%;
+    overflow:hidden;          /* zero scrollbar, zero barra azul */
+    background:#0e1117;       /* fundo igual ao Streamlit dark */
+  }
+
+  /*
+    O iframe ocupa 100% da largura e MAIS que 100% da altura.
+    O excesso (barra "Built with Streamlit / Fullscreen" no fundo)
+    fica fora da viewport e é cortado pelo overflow:hidden do body.
+    68px = sidebar colapsada do Streamlit (à esquerda)
+    52px = barra de rodapé do Streamlit (embaixo)
+  */
+  #st-frame {
+    position:absolute;
+    top:0;
+    left:-68px;               /* empurra a sidebar para fora da tela */
+    width:calc(100% + 68px);  /* compensa o deslocamento à esquerda  */
+    height:calc(100% + 52px); /* extrapola 52px para baixo → barra some */
+    border:none;
+    display:block;
+    background:#0e1117;
+    scrollbar-width:none;
+  }
+  #st-frame::-webkit-scrollbar { display:none; }
+</style>
+</head>
+<body>
+  <iframe
+    id="st-frame"
+    src="https://environmental-dashboard-portfolio.streamlit.app/?embed=true&embed_options=hide_toolbar,hide_padding,hide_footer,show_colored_line"
+    scrolling="no"
+    allow="accelerometer; gyroscope; fullscreen"
+    title="Greenlog — Pesquisa Ambiental"
+  ></iframe>
+</body>
+</html>
