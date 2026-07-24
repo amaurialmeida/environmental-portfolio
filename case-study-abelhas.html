@@ -326,7 +326,7 @@ footer { padding:2.5rem 0; text-align:center; }
           <div><div class="region-stat-v">3</div><div class="region-stat-l" id="r-lbl-hives-1">colônias</div></div>
           <div><div class="region-stat-v">~8 mil</div><div class="region-stat-l" id="r-lbl-bees-1">abelhas</div></div>
         </div>
-        <div class="region-cause" id="r1-cause">Perdas em 2016, 2020 e 2021. Causa: caminhão de fumacê contra <i>Aedes aegypti</i> (inseticida Malathion), apiário próximo a bairro residencial.</div>
+        <div class="region-cause" id="r1-cause">Perdas em 2016, 2020 e 2021. Causa: caminhão de fumacê contra <i>Aedes aegypti</i> (inseticida organofosforado de uso urbano), apiário próximo a bairro residencial.</div>
       </div>
       <div class="region-card">
         <div class="region-card-head"><span class="region-name" id="r2-name">Produtor B</span><span class="region-tag" id="r2-tag">Metropolitana SP · médio porte</span></div>
@@ -334,7 +334,7 @@ footer { padding:2.5rem 0; text-align:center; }
           <div><div class="region-stat-v">5</div><div class="region-stat-l" id="r-lbl-hives-2">colônias</div></div>
           <div><div class="region-stat-v">~300 mil</div><div class="region-stat-l" id="r-lbl-bees-2">abelhas</div></div>
         </div>
-        <div class="region-cause" id="r2-cause">Perda concentrada em 2022. Causa: herbicida "mata mato" (Glifosato), usado em terrenos baldios vizinhos ao apiário.</div>
+        <div class="region-cause" id="r2-cause">Perda concentrada em 2022. Causa: herbicida sistêmico não seletivo, usado em terrenos baldios vizinhos ao apiário.</div>
       </div>
       <div class="region-card">
         <div class="region-card-head"><span class="region-name" id="r3-name">Produtor C</span><span class="region-tag" id="r3-tag">Central PR · grande porte</span></div>
@@ -352,6 +352,11 @@ footer { padding:2.5rem 0; text-align:center; }
         </div>
         <div class="region-cause" id="r4-cause">Perda em 2019, a maior do estudo. Causa: pulverização de pesticida não identificado, apiário próximo a monocultura — mesmo receio de retaliação do Produtor C.</div>
       </div>
+    </div>
+
+    <div class="source-box" style="margin-top:1.4rem;">
+      <span class="source-icon">📋</span>
+      <span class="source-text" id="protocol-note"><b>Nota de Protocolo Científico:</b> Os nomes comerciais dos compostos químicos identificados nesta pesquisa foram omitidos nesta publicação a pedido dos produtores entrevistados e por cautela legal, substituídos por categorias técnicas genéricas. Os dados completos estão disponíveis no TCC original depositado na FATEC Jundiaí (2022). Para fins acadêmicos, solicite acesso pelo formulário de contato.</span>
     </div>
   </section>
 
@@ -481,9 +486,10 @@ var CS_T = {
     's3-intro': 'Os números variam em ordens de grandeza entre produtores — de 3 colônias perdidas por um apicultor de pequeno porte a 300 colônias de uma vez por um produtor de grande porte no Paraná. O gráfico usa escala logarítmica por isso.',
     'chart-caption': 'Abelhas perdidas por produtor entrevistado (escala logarítmica) · dados brutos das 4 planilhas do TCC',
     'r1-name': 'Produtor A', 'r1-tag': 'Sul de MG · pequeno porte',
-    'r1-cause': 'Perdas em 2016, 2020 e 2021. Causa: caminhão de fumacê contra <i>Aedes aegypti</i> (inseticida Malathion), apiário próximo a bairro residencial.',
+    'r1-cause': 'Perdas em 2016, 2020 e 2021. Causa: caminhão de fumacê contra <i>Aedes aegypti</i> (inseticida organofosforado de uso urbano), apiário próximo a bairro residencial.',
     'r2-name': 'Produtor B', 'r2-tag': 'Metropolitana SP · médio porte',
-    'r2-cause': 'Perda concentrada em 2022. Causa: herbicida "mata mato" (Glifosato), usado em terrenos baldios vizinhos ao apiário.',
+    'r2-cause': 'Perda concentrada em 2022. Causa: herbicida sistêmico não seletivo, usado em terrenos baldios vizinhos ao apiário.',
+    'protocol-note': '<b>Nota de Protocolo Científico:</b> Os nomes comerciais dos compostos químicos identificados nesta pesquisa foram omitidos nesta publicação a pedido dos produtores entrevistados e por cautela legal, substituídos por categorias técnicas genéricas. Os dados completos estão disponíveis no TCC original depositado na FATEC Jundiaí (2022). Para fins acadêmicos, solicite acesso pelo formulário de contato.',
     'r3-name': 'Produtor C', 'r3-tag': 'Central PR · grande porte',
     'r3-cause': 'Perda em 2021. Causa: pulverização de pesticida não identificado, apiário próximo a monocultura — produtor não quis nomear o composto.',
     'r4-name': 'Produtor D', 'r4-tag': 'Central PR · grande porte',
@@ -557,9 +563,10 @@ var CS_T = {
     's3-intro': "Numbers vary by orders of magnitude between producers — from 3 hives lost by a small-scale beekeeper to 300 hives at once from a large-scale producer in Paraná. That's why the chart uses a logarithmic scale.",
     'chart-caption': "Bees lost per interviewed producer (logarithmic scale) · raw data from the thesis's 4 spreadsheets",
     'r1-name': 'Producer A', 'r1-tag': 'Southern MG · small-scale',
-    'r1-cause': 'Losses in 2016, 2020 and 2021. Cause: municipal fogging truck against <i>Aedes aegypti</i> (Malathion insecticide), apiary near a residential neighborhood.',
+    'r1-cause': 'Losses in 2016, 2020 and 2021. Cause: municipal fogging truck against <i>Aedes aegypti</i> (organophosphate insecticide, urban use), apiary near a residential neighborhood.',
     'r2-name': 'Producer B', 'r2-tag': 'Greater São Paulo · mid-scale',
-    'r2-cause': 'Loss concentrated in 2022. Cause: "mata mato" herbicide (Glyphosate), used on vacant lots next to the apiary.',
+    'r2-cause': 'Loss concentrated in 2022. Cause: non-selective systemic herbicide, used on vacant lots next to the apiary.',
+    'protocol-note': '<b>Scientific Protocol Note:</b> The commercial names of the chemical compounds identified in this research were omitted from this publication at the request of the interviewed producers and out of legal caution, replaced with generic technical categories. The complete data is available in the original thesis deposited at FATEC Jundiaí (2022). For academic purposes, please request access through the contact form.',
     'r3-name': 'Producer C', 'r3-tag': 'Central Paraná · large-scale',
     'r3-cause': 'Loss in 2021. Cause: spraying of an unidentified pesticide, apiary near a monoculture farm — the producer declined to name the compound.',
     'r4-name': 'Producer D', 'r4-tag': 'Central Paraná · large-scale',
@@ -633,9 +640,10 @@ var CS_T = {
     's3-intro': 'Los números varían en órdenes de magnitud entre productores — de 3 colmenas perdidas por un apicultor de pequeña escala a 300 colmenas de una vez por un productor de gran escala en Paraná. Por eso el gráfico usa escala logarítmica.',
     'chart-caption': 'Abejas perdidas por productor entrevistado (escala logarítmica) · datos brutos de las 4 hojas de cálculo del TCC',
     'r1-name': 'Productor A', 'r1-tag': 'Sur de MG · pequeña escala',
-    'r1-cause': 'Pérdidas en 2016, 2020 y 2021. Causa: camión de fumigación contra el <i>Aedes aegypti</i> (insecticida Malatión), apiario cerca de un barrio residencial.',
+    'r1-cause': 'Pérdidas en 2016, 2020 y 2021. Causa: camión de fumigación contra el <i>Aedes aegypti</i> (insecticida organofosforado de uso urbano), apiario cerca de un barrio residencial.',
     'r2-name': 'Productor B', 'r2-tag': 'Área Metropolitana SP · mediana escala',
-    'r2-cause': 'Pérdida concentrada en 2022. Causa: herbicida "mata mato" (Glifosato), usado en terrenos baldíos junto al apiario.',
+    'r2-cause': 'Pérdida concentrada en 2022. Causa: herbicida sistémico no selectivo, usado en terrenos baldíos junto al apiario.',
+    'protocol-note': '<b>Nota de Protocolo Científico:</b> Los nombres comerciales de los compuestos químicos identificados en esta investigación fueron omitidos en esta publicación a pedido de los productores entrevistados y por cautela legal, sustituidos por categorías técnicas genéricas. Los datos completos están disponibles en la tesis original depositada en FATEC Jundiaí (2022). Para fines académicos, solicite acceso a través del formulario de contacto.',
     'r3-name': 'Productor C', 'r3-tag': 'Centro de PR · gran escala',
     'r3-cause': 'Pérdida en 2021. Causa: fumigación de un pesticida no identificado, apiario cerca de un monocultivo — el productor no quiso nombrar el compuesto.',
     'r4-name': 'Productor D', 'r4-tag': 'Centro de PR · gran escala',
