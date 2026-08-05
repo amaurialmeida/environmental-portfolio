@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amaurialmeida.github.io/environmental-portfolio/sitemap.xml
