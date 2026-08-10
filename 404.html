@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>404 — Página não encontrada | Amauri Almeida</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" type="image/png" href="assets/img/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --header-bg: #1a2a3a;
+  --glacier:   #a8c5c0;
+  --stone:     #6b7a72;
+  --obsidian:  #0d1714;
+  --gold:      #c9a84c;
+  --cream:     #f0ebe0;
+  --sky:       #7ab3d4;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body {
+  min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  text-align:center; padding:2rem; background:var(--obsidian); color:var(--cream);
+  font-family:'DM Sans',sans-serif; overflow:hidden; position:relative;
+}
+.bg-glow {
+  position:fixed; top:50%; left:50%; width:900px; height:900px; transform:translate(-50%,-50%);
+  background:radial-gradient(circle, rgba(122,179,212,.08) 0%, transparent 70%); pointer-events:none;
+}
+.eyebrow {
+  font-family:'Space Mono',monospace; font-size:.68rem; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--gold); margin-bottom:1.2rem; opacity:0; animation:fadeUp 1s ease .1s forwards;
+}
+.code {
+  font-family:'Cormorant Garamond',serif; font-style:italic; font-weight:300;
+  font-size:clamp(5rem,16vw,9rem); line-height:1; color:var(--cream); letter-spacing:.02em;
+  opacity:0; animation:fadeUp 1s ease .25s forwards;
+}
+.title {
+  font-family:'Cormorant Garamond',serif; font-weight:400; font-size:clamp(1.4rem,3.5vw,2rem);
+  color:var(--cream); margin-top:1rem; opacity:0; animation:fadeUp 1s ease .4s forwards;
+}
+.sub {
+  font-size:.95rem; color:rgba(240,235,224,.65); max-width:480px; margin:1.1rem auto 0; line-height:1.7;
+  opacity:0; animation:fadeUp 1s ease .55s forwards;
+}
+.sub b { color:var(--glacier); font-weight:500; }
+.sub-en {
+  font-family:'Space Mono',monospace; font-size:.62rem; letter-spacing:.06em; color:var(--stone);
+  margin-top:.9rem; text-transform:uppercase; opacity:0; animation:fadeUp 1s ease .65s forwards;
+}
+.cta-row {
+  display:flex; gap:.9rem; flex-wrap:wrap; justify-content:center; margin-top:2.4rem;
+  opacity:0; animation:fadeUp 1s ease .8s forwards;
+}
+.btn-primary, .btn-ghost {
+  font-family:'Space Mono',monospace; font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+  padding:.85rem 1.5rem; border-radius:3px; text-decoration:none; display:inline-flex; align-items:center; gap:.5rem;
+  transition:all .2s ease;
+}
+.btn-primary { background:var(--sky); color:var(--header-bg); font-weight:700; }
+.btn-primary:hover { background:#93c5e0; transform:translateY(-1px); }
+.btn-ghost { border:1px solid rgba(168,197,192,.3); color:var(--glacier); }
+.btn-ghost:hover { border-color:var(--glacier); background:rgba(168,197,192,.06); }
+.footer-note {
+  position:absolute; bottom:1.8rem; font-family:'Space Mono',monospace; font-size:.54rem;
+  letter-spacing:.1em; color:rgba(107,122,114,.5); text-transform:uppercase;
+  opacity:0; animation:fadeUp 1s ease 1s forwards;
+}
+@keyframes fadeUp { from{opacity:0; transform:translateY(14px);} to{opacity:1; transform:translateY(0);} }
+@media(max-width:480px){ .cta-row{ flex-direction:column; width:100%; } .btn-primary,.btn-ghost{ justify-content:center; } }
+</style>
+</head>
+<body>
+<div class="bg-glow"></div>
+
+<div class="eyebrow">Amauri Almeida · Environmental Research Portfolio</div>
+<div class="code">404</div>
+<h1 class="title">Essa trilha não está no mapa</h1>
+<p class="sub">A página que você procurava não existe ou foi movida — <b>mas o resto do portfólio está de pé</b>, com pesquisa de campo no Brasil, na Argentina e no Chile.</p>
+<p class="sub-en">This page doesn't exist or was moved — the rest of the portfolio is right where it should be.</p>
+
+<div class="cta-row">
+  <a class="btn-primary" href="index.html">← Voltar ao portfólio</a>
+  <a class="btn-ghost" href="index.html#projects">Ver projetos</a>
+</div>
+
+<div class="footer-note">© 2026 Amauri Almeida</div>
+
+</body>
+</html>
