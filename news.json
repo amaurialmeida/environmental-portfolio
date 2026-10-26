@@ -1,149 +1,389 @@
 {
- "updated": "2026-10-26T20:28:35.958528+00:00",
+ "updated": "2026-10-26T21:09:45.773071+00:00",
  "items": [
   {
    "source": "BBC",
    "title": "Political battle intensifies within Labour over Rosebank oil field",
    "url": "https://www.bbc.co.uk/news/articles/c6zxj7dvxr5yo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T18:09:49+00:00"
+   "date": "2026-10-26T18:09:49+00:00",
+   "t": {
+    "pt": "A batalha política se intensifica dentro do Partido Trabalhista pelo campo petrolífero de Rosebank",
+    "es": "La batalla política se intensifica dentro del Partido Laborista por el campo petrolero de Rosebank",
+    "it": "Si intensifica la battaglia politica all’interno dei laburisti sul giacimento petrolifero di Rosebank",
+    "zh": "工党内部围绕罗斯班克油田的政治斗争加剧",
+    "fr": "La bataille politique s'intensifie au sein du parti travailliste sur le champ pétrolier de Rosebank",
+    "ar": "اشتداد المعركة السياسية داخل حزب العمال حول حقل روزبانك النفطي",
+    "de": "Der politische Kampf innerhalb der Labour-Partei verschärft sich um das Rosebank-Ölfeld",
+    "el": "Η πολιτική μάχη εντείνεται στο εσωτερικό των Εργατικών για το κοίτασμα πετρελαίου Rosebank"
+   }
   },
   {
    "source": "BBC",
    "title": "'Safety first' as wedding guests stranded on island after Storm Boelo",
    "url": "https://www.bbc.co.uk/news/articles/cqe9lykm93jmo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T18:09:39+00:00"
+   "date": "2026-10-26T18:09:39+00:00",
+   "t": {
+    "pt": "'Segurança em primeiro lugar' enquanto convidados do casamento ficam presos na ilha após a tempestade Boelo",
+    "es": "'La seguridad es lo primero' mientras los invitados a la boda quedan varados en la isla después de la tormenta Boelo",
+    "it": "\"La sicurezza prima di tutto\" per gli invitati al matrimonio bloccati sull'isola dopo la tempesta Boelo",
+    "zh": "博埃洛风暴过后，婚礼嘉宾滞留在岛上，“安全第一”",
+    "fr": "« La sécurité d'abord » alors que les invités du mariage sont bloqués sur l'île après la tempête Boelo",
+    "ar": "\"السلامة أولاً\" حيث تقطعت السبل بضيوف حفل الزفاف في الجزيرة بعد العاصفة بويلو",
+    "de": "„Sicherheit geht vor“, da Hochzeitsgäste nach dem Sturm Boelo auf der Insel gestrandet sind",
+    "el": "«Πρώτα η ασφάλεια» καθώς οι καλεσμένοι του γάμου εγκλωβίστηκαν στο νησί μετά την καταιγίδα Boelo"
+   }
   },
   {
    "source": "AL JAZEERA",
    "title": "How Venezuela’s earthquake amputees adapt to life without limbs",
    "url": "https://www.aljazeera.com/news/longform/2026/10/26/how-venezuelas-earthquake-amputees-adapt-to-life-without-limbs?traffic_source=rss",
-   "date": "2026-10-26T17:55:59+00:00"
+   "date": "2026-10-26T17:55:59+00:00",
+   "t": {
+    "pt": "Como os amputados do terremoto na Venezuela se adaptam à vida sem membros",
+    "es": "Cómo los amputados por el terremoto de Venezuela se adaptan a la vida sin extremidades",
+    "it": "Come gli amputati del terremoto in Venezuela si adattano alla vita senza arti",
+    "zh": "委内瑞拉地震截肢者如何适应没有四肢的生活",
+    "fr": "Comment les amputés dus au tremblement de terre au Venezuela s’adaptent à la vie sans membres",
+    "ar": "كيف يتكيف مبتوري الأطراف في زلزال فنزويلا مع الحياة بدون أطراف؟",
+    "de": "Wie Venezuelas Erdbebenamputierte sich an ein Leben ohne Gliedmaßen gewöhnen",
+    "el": "Πώς προσαρμόζονται οι ακρωτηριασμένοι από το σεισμό της Βενεζουέλας στη ζωή χωρίς άκρα"
+   }
   },
   {
    "source": "BBC",
    "title": "Storm Boelo leaves 22,000 without power as Met Office issues new wind warning",
    "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T17:22:51+00:00"
+   "date": "2026-10-26T17:22:51+00:00",
+   "t": {
+    "pt": "Tempestade Boelo deixa 22.000 pessoas sem energia enquanto Met Office emite novo alerta de vento",
+    "es": "La tormenta Boelo deja a 22.000 personas sin electricidad mientras la Oficina Meteorológica emite una nueva advertencia de viento",
+    "it": "La tempesta Boelo lascia 22.000 persone senza elettricità mentre il Met Office emette un nuovo avviso di vento",
+    "zh": "英国气象局发布新风警告，风暴博埃洛导致 22,000 人断电",
+    "fr": "La tempête Boelo laisse 22 000 personnes sans électricité alors que le Met Office émet un nouvel avertissement de vent",
+    "ar": "تركت العاصفة Boelo 22000 بدون كهرباء حيث أصدر مكتب الأرصاد الجوية تحذيرًا جديدًا من الرياح",
+    "de": "Sturm Boelo lässt 22.000 Menschen ohne Strom zurück, da Met Office eine neue Windwarnung herausgibt",
+    "el": "Η καταιγίδα Boelo αφήνει 22.000 χωρίς ρεύμα καθώς το Met Office εκδίδει νέα προειδοποίηση ανέμου"
+   }
   },
   {
    "source": "BBC",
    "title": "Part of Antarctica named after former BBC science correspondent",
    "url": "https://www.bbc.co.uk/news/articles/ckvg7w919x09o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T14:54:40+00:00"
+   "date": "2026-10-26T14:54:40+00:00",
+   "t": {
+    "pt": "Parte da Antártida leva o nome do ex-correspondente científico da BBC",
+    "es": "Parte de la Antártida lleva el nombre del ex corresponsal científico de la BBC",
+    "it": "Parte dell'Antartide che prende il nome dall'ex corrispondente scientifico della BBC",
+    "zh": "南极洲部分地区以前 BBC 科学记者的名字命名",
+    "fr": "Une partie de l'Antarctique porte le nom d'un ancien correspondant scientifique de la BBC",
+    "ar": "جزء من القارة القطبية الجنوبية سمي على اسم مراسل بي بي سي العلمي السابق",
+    "de": "Ein Teil der Antarktis, benannt nach einem ehemaligen BBC-Wissenschaftskorrespondenten",
+    "el": "Μέρος της Ανταρκτικής πήρε το όνομά του από τον πρώην επιστημονικό ανταποκριτή του BBC"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "Shiny Glass Skyscrapers Are a Hot Thing. Literally.",
    "url": "https://www.nytimes.com/2026/10/26/climate/glass-skyscrapers-heat-climate-change.html",
-   "date": "2026-10-26T13:58:11+00:00"
+   "date": "2026-10-26T13:58:11+00:00",
+   "t": {
+    "pt": "Arranha-céus de vidro brilhante são uma coisa quente. Literalmente.",
+    "es": "Los rascacielos de cristal brillante están de moda. Literalmente.",
+    "it": "I grattacieli di vetro lucido sono una cosa calda. Letteralmente.",
+    "zh": "闪亮的玻璃摩天大楼很热门。字面上地。",
+    "fr": "Les gratte-ciel en verre brillant sont une chose chaude. Littéralement.",
+    "ar": "ناطحات السحاب الزجاجية اللامعة هي شيء ساخن. حرفياً.",
+    "de": "Glänzende Glaswolkenkratzer sind eine heiße Sache. Buchstäblich.",
+    "el": "Οι γυαλιστεροί ουρανοξύστες είναι ένα καυτό πράγμα. Κυριολεκτικά."
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "Sunlight at night: US startup’s demonstration of lighting Earth from space draws criticism",
    "url": "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites",
-   "date": "2026-10-26T12:00:41+00:00"
+   "date": "2026-10-26T12:00:41+00:00",
+   "t": {
+    "pt": "Luz solar à noite: a demonstração da startup dos EUA de iluminar a Terra a partir do espaço atrai críticas",
+    "es": "Luz solar de noche: la demostración de una startup estadounidense de iluminar la Tierra desde el espacio genera críticas",
+    "it": "Luce solare di notte: la dimostrazione di una startup americana di illuminare la Terra dallo spazio attira critiche",
+    "zh": "夜间阳光：美国初创公司演示从太空照亮地球遭批评",
+    "fr": "Lumière du soleil la nuit : la démonstration par une startup américaine de l’éclairage de la Terre depuis l’espace suscite des critiques",
+    "ar": "ضوء الشمس في الليل: عرض شركة ناشئة أمريكية لإضاءة الأرض من الفضاء يثير انتقادات",
+    "de": "Sonnenlicht in der Nacht: Die Demonstration eines US-Startups, die Erde aus dem Weltraum zu beleuchten, stößt auf Kritik",
+    "el": "Ηλιακό φως τη νύχτα: Η επίδειξη της αμερικανικής νεοφυούς επιχείρησης φωτισμού της Γης από το διάστημα προκαλεί κριτική"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "Typhoon Champi declared strongest storm of year so far",
    "url": "https://www.theguardian.com/world/2026/oct/26/typhoon-champi-taiwan-japan-storm-greece-floods",
-   "date": "2026-10-26T09:28:59+00:00"
+   "date": "2026-10-26T09:28:59+00:00",
+   "t": {
+    "pt": "O tufão Champi foi declarado a tempestade mais forte do ano até agora",
+    "es": "El tifón Champi es declarado la tormenta más fuerte del año hasta el momento",
+    "it": "Il tifone Champi è stato dichiarato finora la tempesta più forte dell'anno",
+    "zh": "台风“占比”宣布今年迄今为止最强风暴",
+    "fr": "Le typhon Champi déclaré tempête la plus violente de l'année jusqu'à présent",
+    "ar": "أعلن إعصار شامبي أقوى عاصفة هذا العام حتى الآن",
+    "de": "Taifun Champi erklärte den bislang stärksten Sturm des Jahres",
+    "el": "Ο τυφώνας Champi κήρυξε την ισχυρότερη καταιγίδα του έτους μέχρι στιγμής"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "How Trump Rolled Back Limits on Toxic Air Pollution",
    "url": "https://www.nytimes.com/video/climate/100000011186318/how-trump-rolled-back-limits-on-toxic-air-pollution.html",
-   "date": "2026-10-25T23:44:37+00:00"
+   "date": "2026-10-25T23:44:37+00:00",
+   "t": {
+    "pt": "Como Trump reverteu os limites da poluição atmosférica tóxica",
+    "es": "Cómo Trump redujo los límites a la contaminación tóxica del aire",
+    "it": "Come Trump ha ridotto i limiti sull’inquinamento atmosferico tossico",
+    "zh": "特朗普如何取消对有毒空气污染的限制",
+    "fr": "Comment Trump a abaissé les limites de la pollution atmosphérique toxique",
+    "ar": "كيف تراجع ترامب عن حدود تلوث الهواء السام؟",
+    "de": "Wie Trump die Grenzwerte für giftige Luftverschmutzung zurücknahm",
+    "el": "Πώς ο Τραμπ έριξε πίσω τα όρια για την τοξική ατμοσφαιρική ρύπανση"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "Cabinet split emerges over controversial Rosebank oilfield decision",
    "url": "https://www.theguardian.com/environment/2026/oct/25/cabinet-split-emerges-over-controversial-rosebank-oilfield-decision",
-   "date": "2026-10-25T20:29:25+00:00"
+   "date": "2026-10-25T20:29:25+00:00",
+   "t": {
+    "pt": "A divisão do gabinete surge devido à controversa decisão do campo petrolífero de Rosebank",
+    "es": "Surge división del gabinete por la controvertida decisión sobre el campo petrolífero de Rosebank",
+    "it": "La divisione del governo emerge dalla controversa decisione sul giacimento petrolifero di Rosebank",
+    "zh": "内阁因有争议的罗斯班克油田决定出现分歧",
+    "fr": "Une scission ministérielle apparaît suite à la décision controversée du champ pétrolifère de Rosebank",
+    "ar": "ظهور انقسام في مجلس الوزراء بسبب قرار روزبانك المثير للجدل بشأن حقل النفط",
+    "de": "Es kommt zu einer Spaltung im Kabinett wegen der umstrittenen Entscheidung zum Rosebank-Ölfeld",
+    "el": "Προκύπτει διχασμός του υπουργικού συμβουλίου λόγω της αμφιλεγόμενης απόφασης της Rosebank για το πετρελαϊκό πεδίο"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "US south-west braces for more storms after enduring days of rain and flooding",
    "url": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
-   "date": "2026-10-25T19:02:51+00:00"
+   "date": "2026-10-25T19:02:51+00:00",
+   "t": {
+    "pt": "Sudoeste dos EUA se prepara para mais tempestades após dias de chuva e inundações",
+    "es": "El suroeste de EE. UU. se prepara para más tormentas después de soportar días de lluvias e inundaciones",
+    "it": "Il sud-ovest degli Stati Uniti si prepara ad altre tempeste dopo giorni di pioggia e inondazioni",
+    "zh": "在经历了几天的降雨和洪水之后，美国西南部准备迎接更多风暴",
+    "fr": "Le sud-ouest des États-Unis se prépare à de nouvelles tempêtes après des jours de pluie et d’inondations",
+    "ar": "يستعد جنوب غرب الولايات المتحدة لمزيد من العواصف بعد أيام من الأمطار والفيضانات",
+    "de": "Der Südwesten der USA bereitet sich nach tagelangen Regenfällen und Überschwemmungen auf weitere Stürme vor",
+    "el": "Οι νοτιοδυτικές ΗΠΑ προετοιμάζονται για περισσότερες καταιγίδες μετά από μέρες βροχής και πλημμύρας"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "How Trump Gave the Worst Polluters a Free Pass",
    "url": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-   "date": "2026-10-25T01:12:45+00:00"
+   "date": "2026-10-25T01:12:45+00:00",
+   "t": {
+    "pt": "Como Trump deu passe livre aos piores poluidores",
+    "es": "Cómo Trump dio vía libre a los peores contaminadores",
+    "it": "Come Trump ha dato via libera ai peggiori inquinatori",
+    "zh": "特朗普如何为最严重的污染者提供免费通行证",
+    "fr": "Comment Trump a donné un laissez-passer gratuit aux pires pollueurs",
+    "ar": "كيف أعطى ترامب أسوأ الملوثين تصريحًا مجانيًا",
+    "de": "Wie Trump den schlimmsten Umweltverschmutzern eine Freikarte gab",
+    "el": "Πώς ο Τραμπ έδωσε στους χειρότερους ρυπαίνων ένα δωρεάν πάσο"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "5 Takeaways From Our Investigation of Trump’s Waivers for Polluters",
    "url": "https://www.nytimes.com/2026/10/24/climate/takeaways-trump-waivers-chemical-pollution.html",
-   "date": "2026-10-24T12:50:46+00:00"
+   "date": "2026-10-24T12:50:46+00:00",
+   "t": {
+    "pt": "5 conclusões da nossa investigação sobre as isenções de Trump para poluidores",
+    "es": "Cinco conclusiones de nuestra investigación sobre las exenciones de Trump para los contaminadores",
+    "it": "5 punti salienti della nostra indagine sulle deroghe di Trump per gli inquinatori",
+    "zh": "我们对特朗普污染者豁免调查的 5 个要点",
+    "fr": "5 points à retenir de notre enquête sur les dérogations accordées par Trump aux pollueurs",
+    "ar": "5 نقاط سريعة من تحقيقنا بشأن إعفاءات ترامب للملوثين",
+    "de": "5 Erkenntnisse aus unserer Untersuchung von Trumps Verzichtserklärungen für Umweltverschmutzer",
+    "el": "5 αποσπάσματα από την έρευνά μας για τις παραιτήσεις του Τραμπ για τους ρυπαίνοντες"
+   }
   },
   {
    "source": "NATURE",
    "title": "Can a 'lullaby' save coral reefs from extinction?",
    "url": "https://www.nature.com/articles/d41586-026-03414-3",
-   "date": "2026-10-22T00:00:00+00:00"
+   "date": "2026-10-22T00:00:00+00:00",
+   "t": {
+    "pt": "Uma 'canção de ninar' pode salvar os recifes de coral da extinção?",
+    "es": "¿Puede una 'canción de cuna' salvar a los arrecifes de coral de la extinción?",
+    "it": "Può una “ninna nanna” salvare le barriere coralline dall’estinzione?",
+    "zh": "“摇篮曲”能拯救珊瑚礁免于灭绝吗？",
+    "fr": "Une « berceuse » peut-elle sauver les récifs coralliens de l'extinction ?",
+    "ar": "هل تستطيع \"التهويدة\" إنقاذ الشعاب المرجانية من الانقراض؟",
+    "de": "Kann ein „Schlaflied“ Korallenriffe vor dem Aussterben bewahren?",
+    "el": "Μπορεί ένα «νανούρισμα» να σώσει τους κοραλλιογενείς υφάλους από την εξαφάνιση;"
+   }
   },
   {
    "source": "NPR",
    "title": "Arizona adds U.S.'s newest national park, but National Park Service remains underfunded",
    "url": "https://www.npr.org/2026/10/21/nx-s1-5988049/arizona-adds-u-s-s-newest-national-park-but-national-park-service-remains-underfunded",
-   "date": "2026-10-21T21:51:47+00:00"
+   "date": "2026-10-21T21:51:47+00:00",
+   "t": {
+    "pt": "Arizona adiciona o mais novo parque nacional dos EUA, mas o Serviço Nacional de Parques continua subfinanciado",
+    "es": "Arizona agrega el parque nacional más nuevo de EE. UU., pero el Servicio de Parques Nacionales sigue careciendo de fondos suficientes",
+    "it": "L'Arizona aggiunge il nuovo parco nazionale degli Stati Uniti, ma il National Park Service rimane sottofinanziato",
+    "zh": "亚利桑那州增加了美国最新的国家公园，但国家公园管理局仍然资金不足",
+    "fr": "L'Arizona ajoute le plus récent parc national des États-Unis, mais le National Park Service reste sous-financé",
+    "ar": "أريزونا تضيف أحدث حديقة وطنية في الولايات المتحدة، ولكن خدمة الحدائق الوطنية لا تزال تعاني من نقص التمويل",
+    "de": "Arizona fügt den neuesten Nationalpark der USA hinzu, aber der National Park Service bleibt unterfinanziert",
+    "el": "Η Αριζόνα προσθέτει το νεότερο εθνικό πάρκο των ΗΠΑ, αλλά η Υπηρεσία Εθνικών Πάρκων παραμένει υποχρηματοδοτούμενη"
+   }
   },
   {
    "source": "NPR",
    "title": "United Nations report highlights significant increase in U.S. climate pollution",
    "url": "https://www.npr.org/2026/10/21/nx-s1-6003553/america-oil-gas-coal-climate-change-trump-carbon-emissions",
-   "date": "2026-10-21T05:00:00+00:00"
+   "date": "2026-10-21T05:00:00+00:00",
+   "t": {
+    "pt": "Relatório das Nações Unidas destaca aumento significativo na poluição climática dos EUA",
+    "es": "Informe de las Naciones Unidas destaca un aumento significativo de la contaminación climática en EE. UU.",
+    "it": "Il rapporto delle Nazioni Unite evidenzia un aumento significativo dell’inquinamento climatico negli Stati Uniti",
+    "zh": "联合国报告强调美国气候污染显着增加",
+    "fr": "Un rapport des Nations Unies souligne une augmentation significative de la pollution climatique aux États-Unis",
+    "ar": "تقرير للأمم المتحدة يسلط الضوء على الزيادة الكبيرة في تلوث المناخ في الولايات المتحدة",
+    "de": "Bericht der Vereinten Nationen hebt deutlichen Anstieg der Klimaverschmutzung in den USA hervor",
+    "el": "Η έκθεση των Ηνωμένων Εθνών υπογραμμίζει τη σημαντική αύξηση της κλιματικής ρύπανσης στις ΗΠΑ"
+   }
   },
   {
    "source": "DW",
    "title": "Rising emissions and temperatures: The cost of Trump's climate retreat is now clear",
    "url": "https://www.dw.com/en/rising-emissions-and-temperatures-the-cost-of-trump-s-climate-retreat-is-now-clear/a-79714915?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-21T05:00:00+00:00"
+   "date": "2026-10-21T05:00:00+00:00",
+   "t": {
+    "pt": "Aumento das emissões e temperaturas: o custo da retirada climática de Trump é agora claro",
+    "es": "Aumento de las emisiones y las temperaturas: el coste de la retirada climática de Trump ahora está claro",
+    "it": "Aumento delle emissioni e delle temperature: il costo della ritirata climatica di Trump è ormai chiaro",
+    "zh": "排放量和气温上升：特朗普气候撤退的代价现已显而易见",
+    "fr": "Hausse des émissions et des températures : le coût du retrait climatique de Trump est désormais clair",
+    "ar": "ارتفاع الانبعاثات ودرجات الحرارة: أصبحت تكلفة تراجع ترامب بشأن المناخ واضحة الآن",
+    "de": "Steigende Emissionen und Temperaturen: Die Kosten von Trumps Klima-Rückzug sind jetzt klar",
+    "el": "Αύξηση των εκπομπών και της θερμοκρασίας: Το κόστος της κλιματικής υποχώρησης του Τραμπ είναι πλέον σαφές"
+   }
   },
   {
    "source": "NATURE",
    "title": "Author Correction: Catalyst-free, microdroplet-mediated waste plastic conversion to diacids",
    "url": "https://www.nature.com/articles/s41586-026-11252-6",
-   "date": "2026-10-21T00:00:00+00:00"
+   "date": "2026-10-21T00:00:00+00:00",
+   "t": {
+    "pt": "Correção do autor: Conversão de resíduos de plástico mediada por microgotículas, sem catalisador, em diácidos",
+    "es": "Corrección del autor: Conversión de residuos plásticos en diácidos, mediada por microgotas y sin catalizadores",
+    "it": "Correzione dell'autore: conversione della plastica di scarto in diacidi, senza catalizzatori, mediata da microgocce",
+    "zh": "作者更正：无催化剂、微滴介导的废塑料转化为二酸",
+    "fr": "Correction de l'auteur : Conversion de déchets plastiques sans catalyseur et par microgouttelettes en diacides",
+    "ar": "تصحيح المؤلف: تحويل النفايات البلاستيكية الخالية من المحفزات بوساطة القطرات الدقيقة إلى ثنائيات الأحماض",
+    "de": "Korrektur des Autors: Katalysatorfreie, durch Mikrotröpfchen vermittelte Umwandlung von Kunststoffabfällen in Disäuren",
+    "el": "Διόρθωση συγγραφέα: Μετατροπή πλαστικών απορριμμάτων χωρίς καταλύτες, με μεσολάβηση μικροσταγονιδίων σε διοξέα"
+   }
   },
   {
    "source": "NATURE",
    "title": "Global emissions slow — but world hurtles towards 2 °C of warming",
    "url": "https://www.nature.com/articles/d41586-026-03355-x",
-   "date": "2026-10-21T00:00:00+00:00"
+   "date": "2026-10-21T00:00:00+00:00",
+   "t": {
+    "pt": "As emissões globais diminuem – mas o mundo caminha para 2 °C de aquecimento",
+    "es": "Las emisiones globales se desaceleran, pero el mundo se precipita hacia un calentamiento de 2 °C",
+    "it": "Le emissioni globali rallentano, ma il mondo precipita verso 2°C di riscaldamento",
+    "zh": "全球排放放缓——但全球变暖正朝着 2°C 的方向猛冲",
+    "fr": "Les émissions mondiales ralentissent – mais le monde se dirige vers un réchauffement de 2 °C",
+    "ar": "الانبعاثات العالمية بطيئة - لكن العالم يتجه نحو ارتفاع درجة الحرارة بمقدار درجتين مئويتين",
+    "de": "Die globalen Emissionen verlangsamen sich – aber die Welt rast auf eine Erwärmung um 2 °C zu",
+    "el": "Οι παγκόσμιες εκπομπές είναι αργές — αλλά ο κόσμος πλησιάζει τους 2 °C της θέρμανσης"
+   }
   },
   {
    "source": "NATURE",
    "title": "Plastics embedded with enzymes degrade readily in the sea",
    "url": "https://www.nature.com/articles/d41586-026-03282-x",
-   "date": "2026-10-21T00:00:00+00:00"
+   "date": "2026-10-21T00:00:00+00:00",
+   "t": {
+    "pt": "Plásticos repletos de enzimas degradam-se facilmente no mar",
+    "es": "Los plásticos con enzimas incrustadas se degradan fácilmente en el mar",
+    "it": "La plastica incorporata con enzimi si degrada facilmente in mare",
+    "zh": "嵌入酶的塑料在海洋中很容易降解",
+    "fr": "Les plastiques contenant des enzymes se dégradent facilement dans la mer",
+    "ar": "تتحلل المواد البلاستيكية المحملة بالإنزيمات بسهولة في البحر",
+    "de": "Mit Enzymen eingebettete Kunststoffe werden im Meer leicht abgebaut",
+    "el": "Τα πλαστικά ενσωματωμένα με ένζυμα αποικοδομούνται εύκολα στη θάλασσα"
+   }
   },
   {
    "source": "NPR",
    "title": "Oyster aid efforts in the Chesapeake",
    "url": "https://www.npr.org/2026/10/20/nx-s1-6005286/oyster-aid-efforts-in-the-chesapeake",
-   "date": "2026-10-20T21:24:11+00:00"
+   "date": "2026-10-20T21:24:11+00:00",
+   "t": {
+    "pt": "Esforços de ajuda aos ostras em Chesapeake",
+    "es": "Esfuerzos de ayuda a las ostras en Chesapeake",
+    "it": "Sforzi di aiuto alle ostriche nel Chesapeake",
+    "zh": "切萨皮克地区的牡蛎援助工作",
+    "fr": "Efforts d'aide aux huîtres dans la Chesapeake",
+    "ar": "جهود مساعدة المحار في تشيسابيك",
+    "de": "Austernhilfsbemühungen im Chesapeake",
+    "el": "Προσπάθειες βοήθειας Oyster στο Chesapeake"
+   }
   },
   {
    "source": "NPR",
    "title": "6 million steps, hundreds of recordings: Creating a sound map of the Pacific Crest Trail",
    "url": "https://www.npr.org/2026/10/20/nx-s1-5988051/6-million-steps-hundreds-of-recordings-creating-a-sound-map-of-the-pacific-crest-trail",
-   "date": "2026-10-20T21:15:55+00:00"
+   "date": "2026-10-20T21:15:55+00:00",
+   "t": {
+    "pt": "6 milhões de passos, centenas de gravações: Criando um mapa sonoro da Pacific Crest Trail",
+    "es": "6 millones de pasos, cientos de grabaciones: creación de un mapa sonoro del Pacific Crest Trail",
+    "it": "6 milioni di passi, centinaia di registrazioni: creazione di una mappa sonora del Pacific Crest Trail",
+    "zh": "600 万步，数百条录音：创建 Pacific Crest Trail 的声音地图",
+    "fr": "6 millions de pas, des centaines d'enregistrements : création d'une carte sonore du Pacific Crest Trail",
+    "ar": "6 ملايين خطوة، ومئات التسجيلات: إنشاء خريطة صوتية لمسار كريست المحيط الهادئ",
+    "de": "6 Millionen Schritte, Hunderte von Aufnahmen: Erstellung einer Soundkarte des Pacific Crest Trail",
+    "el": "6 εκατομμύρια βήματα, εκατοντάδες ηχογραφήσεις: Δημιουργία ηχητικού χάρτη του Pacific Crest Trail"
+   }
   },
   {
    "source": "DW",
    "title": "New EU plan for Arctic warily eyes influence of Russia, US",
    "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-20T16:44:00+00:00"
+   "date": "2026-10-20T16:44:00+00:00",
+   "t": {
+    "pt": "Novo plano da UE para o Ártico olha com cautela a influência da Rússia e dos EUA",
+    "es": "El nuevo plan de la UE para el Ártico mira con recelo la influencia de Rusia y EE.UU.",
+    "it": "Il nuovo piano dell’UE per l’Artico guarda con cautela all’influenza di Russia e Stati Uniti",
+    "zh": "欧盟新北极计划警惕俄罗斯和美国的影响",
+    "fr": "Le nouveau plan de l’UE pour l’Arctique surveille avec méfiance l’influence de la Russie et des États-Unis",
+    "ar": "خطة الاتحاد الأوروبي الجديدة للقطب الشمالي تتطلع بحذر إلى تأثير روسيا والولايات المتحدة",
+    "de": "Neuer EU-Plan für die Arktis beäugt den Einfluss Russlands und der USA mit Vorsicht",
+    "el": "Το νέο σχέδιο της ΕΕ για την Αρκτική παρακολουθεί επιφυλακτικά την επιρροή Ρωσίας και ΗΠΑ"
+   }
   },
   {
    "source": "DW",
    "title": "What Earth's sixth mass extinction event means for humans",
    "url": "https://www.dw.com/en/what-earth-s-sixth-mass-extinction-event-means-for-humans/a-79680410?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-19T05:48:00+00:00"
+   "date": "2026-10-19T05:48:00+00:00",
+   "t": {
+    "pt": "O que o sexto evento de extinção em massa da Terra significa para os humanos",
+    "es": "Lo que significa para los humanos la sexta extinción masiva de la Tierra",
+    "it": "Cosa significa per gli esseri umani la sesta estinzione di massa della Terra",
+    "zh": "地球第六次大规模灭绝事件对人类意味着什么",
+    "fr": "Ce que la sixième extinction massive de la Terre signifie pour les humains",
+    "ar": "ماذا يعني حدث الانقراض الجماعي السادس للأرض بالنسبة للبشر؟",
+    "de": "Was das sechste Massensterben auf der Erde für den Menschen bedeutet",
+    "el": "Τι σημαίνει για τους ανθρώπους το έκτο γεγονός μαζικής εξαφάνισης της Γης"
+   }
   }
  ]
 }
