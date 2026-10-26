@@ -1,6 +1,36 @@
 {
- "updated": "2026-10-26T14:37:56.643020+00:00",
+ "updated": "2026-10-26T20:28:35.958528+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Political battle intensifies within Labour over Rosebank oil field",
+   "url": "https://www.bbc.co.uk/news/articles/c6zxj7dvxr5yo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-26T18:09:49+00:00"
+  },
+  {
+   "source": "BBC",
+   "title": "'Safety first' as wedding guests stranded on island after Storm Boelo",
+   "url": "https://www.bbc.co.uk/news/articles/cqe9lykm93jmo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-26T18:09:39+00:00"
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "How Venezuela’s earthquake amputees adapt to life without limbs",
+   "url": "https://www.aljazeera.com/news/longform/2026/10/26/how-venezuelas-earthquake-amputees-adapt-to-life-without-limbs?traffic_source=rss",
+   "date": "2026-10-26T17:55:59+00:00"
+  },
+  {
+   "source": "BBC",
+   "title": "Storm Boelo leaves 22,000 without power as Met Office issues new wind warning",
+   "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-26T17:22:51+00:00"
+  },
+  {
+   "source": "BBC",
+   "title": "Part of Antarctica named after former BBC science correspondent",
+   "url": "https://www.bbc.co.uk/news/articles/ckvg7w919x09o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-26T14:54:40+00:00"
+  },
   {
    "source": "NYTIMES",
    "title": "Shiny Glass Skyscrapers Are a Hot Thing. Literally.",
@@ -9,33 +39,9 @@
   },
   {
    "source": "GUARDIAN",
-   "title": "Sunlight at night: US startup’s demonstration of lighting Earth from space draws critcism",
+   "title": "Sunlight at night: US startup’s demonstration of lighting Earth from space draws criticism",
    "url": "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites",
    "date": "2026-10-26T12:00:41+00:00"
-  },
-  {
-   "source": "BBC",
-   "title": "Storm Boelo leaves 90,000 without power as Met Office issues new wind warning",
-   "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T12:00:20+00:00"
-  },
-  {
-   "source": "BBC",
-   "title": "Stunning photos capture October's Hunter's Moon around the world",
-   "url": "https://www.bbc.co.uk/weather/articles/c6zjxgj83n80o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T11:27:39+00:00"
-  },
-  {
-   "source": "BBC",
-   "title": "Storm Boelo clears but more wind and rain bear down on UK",
-   "url": "https://www.bbc.co.uk/weather/articles/cqwy7w8dryrxo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T11:21:24+00:00"
-  },
-  {
-   "source": "BBC",
-   "title": "What do we still need to know about the Tyne nurdle spill?",
-   "url": "https://www.bbc.co.uk/news/articles/c34g1e81e9jeo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T11:01:59+00:00"
   },
   {
    "source": "GUARDIAN",
@@ -74,6 +80,12 @@
    "date": "2026-10-24T12:50:46+00:00"
   },
   {
+   "source": "NATURE",
+   "title": "Can a 'lullaby' save coral reefs from extinction?",
+   "url": "https://www.nature.com/articles/d41586-026-03414-3",
+   "date": "2026-10-22T00:00:00+00:00"
+  },
+  {
    "source": "NPR",
    "title": "Arizona adds U.S.'s newest national park, but National Park Service remains underfunded",
    "url": "https://www.npr.org/2026/10/21/nx-s1-5988049/arizona-adds-u-s-s-newest-national-park-but-national-park-service-remains-underfunded",
@@ -90,6 +102,24 @@
    "title": "Rising emissions and temperatures: The cost of Trump's climate retreat is now clear",
    "url": "https://www.dw.com/en/rising-emissions-and-temperatures-the-cost-of-trump-s-climate-retreat-is-now-clear/a-79714915?maca=en-rss-en-all-1573-rdf",
    "date": "2026-10-21T05:00:00+00:00"
+  },
+  {
+   "source": "NATURE",
+   "title": "Author Correction: Catalyst-free, microdroplet-mediated waste plastic conversion to diacids",
+   "url": "https://www.nature.com/articles/s41586-026-11252-6",
+   "date": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "source": "NATURE",
+   "title": "Global emissions slow — but world hurtles towards 2 °C of warming",
+   "url": "https://www.nature.com/articles/d41586-026-03355-x",
+   "date": "2026-10-21T00:00:00+00:00"
+  },
+  {
+   "source": "NATURE",
+   "title": "Plastics embedded with enzymes degrade readily in the sea",
+   "url": "https://www.nature.com/articles/d41586-026-03282-x",
+   "date": "2026-10-21T00:00:00+00:00"
   },
   {
    "source": "NPR",
@@ -114,12 +144,6 @@
    "title": "What Earth's sixth mass extinction event means for humans",
    "url": "https://www.dw.com/en/what-earth-s-sixth-mass-extinction-event-means-for-humans/a-79680410?maca=en-rss-en-all-1573-rdf",
    "date": "2026-10-19T05:48:00+00:00"
-  },
-  {
-   "source": "DW",
-   "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
-   "url": "https://www.dw.com/en/emerging-economies-are-embracing-solar-power-and-skipping-fossil-fuels-much-faster-than-europe-or-the-us/a-79474847?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-07T07:48:00+00:00"
   }
  ]
 }
