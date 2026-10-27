@@ -1,6 +1,54 @@
 {
- "updated": "2026-10-26T21:09:45.773071+00:00",
+ "updated": "2026-10-27T00:24:44.787098+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "New weather warnings as third storm set to hit Scotland",
+   "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-26T23:00:14+00:00",
+   "t": {
+    "pt": "Novos alertas meteorológicos com terceira tempestade prestes a atingir a Escócia",
+    "es": "Nuevas advertencias meteorológicas mientras la tercera tormenta azota Escocia",
+    "it": "Nuove allerte meteo con la terza tempesta che colpirà la Scozia",
+    "zh": "第三场风暴即将袭击苏格兰，新的天气警告",
+    "fr": "De nouveaux avertissements météorologiques alors qu'une troisième tempête s'apprête à frapper l'Écosse",
+    "ar": "تحذيرات جديدة من الطقس مع اقتراب العاصفة الثالثة من اسكتلندا",
+    "de": "Neue Wetterwarnungen, da der dritte Sturm Schottland treffen wird",
+    "el": "Νέες προειδοποιήσεις για τον καιρό καθώς η τρίτη καταιγίδα έπληξε τη Σκωτία"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Storm Boelo leaves 22,000 without power as Met Office issues new wind warning",
+   "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-26T22:43:44+00:00",
+   "t": {
+    "pt": "Tempestade Boelo deixa 22.000 pessoas sem energia enquanto Met Office emite novo alerta de vento",
+    "es": "La tormenta Boelo deja a 22.000 personas sin electricidad mientras la Oficina Meteorológica emite una nueva advertencia de viento",
+    "it": "La tempesta Boelo lascia 22.000 persone senza elettricità mentre il Met Office emette un nuovo avviso di vento",
+    "zh": "英国气象局发布新风警告，风暴博埃洛导致 22,000 人断电",
+    "fr": "La tempête Boelo laisse 22 000 personnes sans électricité alors que le Met Office émet un nouvel avertissement de vent",
+    "ar": "تركت العاصفة Boelo 22000 بدون كهرباء حيث أصدر مكتب الأرصاد الجوية تحذيرًا جديدًا من الرياح",
+    "de": "Sturm Boelo lässt 22.000 Menschen ohne Strom zurück, da Met Office eine neue Windwarnung herausgibt",
+    "el": "Η καταιγίδα Boelo αφήνει 22.000 χωρίς ρεύμα καθώς το Met Office εκδίδει νέα προειδοποίηση ανέμου"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Brazil’s Vote Is a Victory for the Amazon, Environmentalists Say",
+   "url": "https://www.nytimes.com/2026/10/26/climate/brazil-lula-bolsonaro-amazon.html",
+   "date": "2026-10-26T22:13:25+00:00",
+   "t": {
+    "pt": "Votação do Brasil é uma vitória para a Amazônia, dizem ambientalistas",
+    "es": "La votación de Brasil es una victoria para la Amazonia, dicen los ambientalistas",
+    "it": "Il voto del Brasile è una vittoria per l’Amazzonia, dicono gli ambientalisti",
+    "zh": "环保人士称巴西的投票是亚马逊的胜利",
+    "fr": "Le vote du Brésil est une victoire pour l’Amazonie, disent les écologistes",
+    "ar": "يقول أنصار البيئة إن تصويت البرازيل هو انتصار لمنطقة الأمازون",
+    "de": "Brasiliens Abstimmung ist ein Sieg für den Amazonas, sagen Umweltschützer",
+    "el": "Η ψήφος της Βραζιλίας είναι μια νίκη για τον Αμαζόνιο, λένε οι περιβαλλοντολόγοι"
+   }
+  },
   {
    "source": "BBC",
    "title": "Political battle intensifies within Labour over Rosebank oil field",
@@ -47,38 +95,6 @@
     "ar": "كيف يتكيف مبتوري الأطراف في زلزال فنزويلا مع الحياة بدون أطراف؟",
     "de": "Wie Venezuelas Erdbebenamputierte sich an ein Leben ohne Gliedmaßen gewöhnen",
     "el": "Πώς προσαρμόζονται οι ακρωτηριασμένοι από το σεισμό της Βενεζουέλας στη ζωή χωρίς άκρα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Storm Boelo leaves 22,000 without power as Met Office issues new wind warning",
-   "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T17:22:51+00:00",
-   "t": {
-    "pt": "Tempestade Boelo deixa 22.000 pessoas sem energia enquanto Met Office emite novo alerta de vento",
-    "es": "La tormenta Boelo deja a 22.000 personas sin electricidad mientras la Oficina Meteorológica emite una nueva advertencia de viento",
-    "it": "La tempesta Boelo lascia 22.000 persone senza elettricità mentre il Met Office emette un nuovo avviso di vento",
-    "zh": "英国气象局发布新风警告，风暴博埃洛导致 22,000 人断电",
-    "fr": "La tempête Boelo laisse 22 000 personnes sans électricité alors que le Met Office émet un nouvel avertissement de vent",
-    "ar": "تركت العاصفة Boelo 22000 بدون كهرباء حيث أصدر مكتب الأرصاد الجوية تحذيرًا جديدًا من الرياح",
-    "de": "Sturm Boelo lässt 22.000 Menschen ohne Strom zurück, da Met Office eine neue Windwarnung herausgibt",
-    "el": "Η καταιγίδα Boelo αφήνει 22.000 χωρίς ρεύμα καθώς το Met Office εκδίδει νέα προειδοποίηση ανέμου"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Part of Antarctica named after former BBC science correspondent",
-   "url": "https://www.bbc.co.uk/news/articles/ckvg7w919x09o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T14:54:40+00:00",
-   "t": {
-    "pt": "Parte da Antártida leva o nome do ex-correspondente científico da BBC",
-    "es": "Parte de la Antártida lleva el nombre del ex corresponsal científico de la BBC",
-    "it": "Parte dell'Antartide che prende il nome dall'ex corrispondente scientifico della BBC",
-    "zh": "南极洲部分地区以前 BBC 科学记者的名字命名",
-    "fr": "Une partie de l'Antarctique porte le nom d'un ancien correspondant scientifique de la BBC",
-    "ar": "جزء من القارة القطبية الجنوبية سمي على اسم مراسل بي بي سي العلمي السابق",
-    "de": "Ein Teil der Antarktis, benannt nach einem ehemaligen BBC-Wissenschaftskorrespondenten",
-    "el": "Μέρος της Ανταρκτικής πήρε το όνομά του από τον πρώην επιστημονικό ανταποκριτή του BBC"
    }
   },
   {
@@ -191,22 +207,6 @@
     "ar": "كيف أعطى ترامب أسوأ الملوثين تصريحًا مجانيًا",
     "de": "Wie Trump den schlimmsten Umweltverschmutzern eine Freikarte gab",
     "el": "Πώς ο Τραμπ έδωσε στους χειρότερους ρυπαίνων ένα δωρεάν πάσο"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "5 Takeaways From Our Investigation of Trump’s Waivers for Polluters",
-   "url": "https://www.nytimes.com/2026/10/24/climate/takeaways-trump-waivers-chemical-pollution.html",
-   "date": "2026-10-24T12:50:46+00:00",
-   "t": {
-    "pt": "5 conclusões da nossa investigação sobre as isenções de Trump para poluidores",
-    "es": "Cinco conclusiones de nuestra investigación sobre las exenciones de Trump para los contaminadores",
-    "it": "5 punti salienti della nostra indagine sulle deroghe di Trump per gli inquinatori",
-    "zh": "我们对特朗普污染者豁免调查的 5 个要点",
-    "fr": "5 points à retenir de notre enquête sur les dérogations accordées par Trump aux pollueurs",
-    "ar": "5 نقاط سريعة من تحقيقنا بشأن إعفاءات ترامب للملوثين",
-    "de": "5 Erkenntnisse aus unserer Untersuchung von Trumps Verzichtserklärungen für Umweltverschmutzer",
-    "el": "5 αποσπάσματα από την έρευνά μας για τις παραιτήσεις του Τραμπ για τους ρυπαίνοντες"
    }
   },
   {
