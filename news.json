@@ -1,43 +1,139 @@
 {
- "updated": "2026-10-27T12:13:56.456904+00:00",
+ "updated": "2026-10-27T18:01:00.790981+00:00",
  "items": [
   {
-   "source": "GUARDIAN",
-   "title": "‘No one saves the planet if it hits their pocket’: UK heat pump installers fear planned subsidy cuts",
-   "url": "https://www.theguardian.com/environment/2026/oct/27/heat-pump-installers-fear-planned-subsidy-cuts-uk-budget",
-   "date": "2026-10-27T11:59:42+00:00",
+   "source": "BBC",
+   "title": "Will a new strategy help protect Northern Ireland's nature?",
+   "url": "https://www.bbc.co.uk/news/articles/cq0megg87n3po?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-27T17:51:13+00:00",
    "t": {
-    "pt": "‘Ninguém salva o planeta se ele atingir seu bolso’: instaladores de bombas de calor no Reino Unido temem cortes planejados de subsídios",
-    "es": "“Nadie salva el planeta si le llega al bolsillo”: los instaladores de bombas de calor del Reino Unido temen los recortes de subsidios planificados",
-    "it": "“Nessuno salva il pianeta se ciò va a finire nelle sue tasche”: gli installatori di pompe di calore del Regno Unito temono i tagli previsti ai sussidi",
-    "zh": "“如果有人掏腰包，就没有人能拯救地球”：英国热泵安装商担心计划中的补贴削减",
-    "fr": "« Personne ne sauve la planète si cela touche ses poches » : les installateurs britanniques de pompes à chaleur craignent les réductions de subventions prévues",
-    "ar": "\"لا أحد ينقذ الكوكب إذا ضرب جيوبه\": يخشى القائمون على تركيب المضخات الحرارية في المملكة المتحدة من تخفيضات الدعم المخطط لها",
-    "de": "„Niemand rettet den Planeten, wenn es ihm in die Tasche greift“: Britische Wärmepumpeninstallateure befürchten geplante Subventionskürzungen",
-    "el": "«Κανείς δεν σώζει τον πλανήτη αν χτυπήσει την τσέπη του»: Οι εγκαταστάτες αντλιών θερμότητας στο Ηνωμένο Βασίλειο φοβούνται προγραμματισμένες περικοπές επιδοτήσεων"
+    "pt": "Será que uma nova estratégia ajudará a proteger a natureza da Irlanda do Norte?",
+    "es": "¿Ayudará una nueva estrategia a proteger la naturaleza de Irlanda del Norte?",
+    "it": "Una nuova strategia aiuterà a proteggere la natura dell’Irlanda del Nord?",
+    "zh": "新战略是否有助于保护北爱尔兰的自然风光？",
+    "fr": "Une nouvelle stratégie contribuera-t-elle à protéger la nature de l'Irlande du Nord ?",
+    "ar": "هل ستساعد الإستراتيجية الجديدة في حماية طبيعة أيرلندا الشمالية؟",
+    "de": "Wird eine neue Strategie zum Schutz der Natur Nordirlands beitragen?",
+    "el": "Μια νέα στρατηγική θα βοηθήσει στην προστασία της φύσης της Βόρειας Ιρλανδίας;"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Protesters storm Serbian pro-Vucic TV station after his loss at polls",
+   "url": "https://www.aljazeera.com/news/2026/10/27/protesters-storm-serbian-pro-vucic-tv-station-after-his-loss-at-polls?traffic_source=rss",
+   "date": "2026-10-27T17:37:51+00:00",
+   "t": {
+    "pt": "Manifestantes invadem estação de TV sérvia pró-Vucic após sua derrota nas urnas",
+    "es": "Manifestantes irrumpen en la emisora de televisión serbia pro-Vucic tras su derrota en las urnas",
+    "it": "I manifestanti prendono d'assalto la stazione televisiva serba pro-Vucic dopo la sua sconfitta alle urne",
+    "zh": "塞尔维亚亲武契奇在民意调查中失利后，抗议者冲进了塞尔维亚亲武契奇电视台",
+    "fr": "Des manifestants prennent d'assaut la chaîne de télévision serbe pro-Vucic après sa défaite aux élections",
+    "ar": "متظاهرون يقتحمون محطة التلفزيون الصربية المؤيدة لفوتشيتش بعد خسارته في الانتخابات",
+    "de": "Nach seiner Wahlniederlage stürmen Demonstranten den pro-Vucic-freundlichen serbischen Fernsehsender",
+    "el": "Διαδηλωτές εισβάλλουν στον σερβικό τηλεοπτικό σταθμό υπέρ του Βούτσιτς μετά την ήττα του στις κάλπες"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Canada’s Climate Policies Go on Trial",
+   "url": "https://www.nytimes.com/2026/10/27/climate/canada-youth-climate-lawsuit.html",
+   "date": "2026-10-27T17:29:53+00:00",
+   "t": {
+    "pt": "As políticas climáticas do Canadá vão a julgamento",
+    "es": "Las políticas climáticas de Canadá van a juicio",
+    "it": "Le politiche climatiche del Canada sono sotto processo",
+    "zh": "加拿大气候政策正在进行试验",
+    "fr": "Les politiques climatiques du Canada sont mises à l’essai",
+    "ar": "سياسات كندا المناخية تخضع للمحاكمة",
+    "de": "Kanadas Klimapolitik steht vor Gericht",
+    "el": "Δοκιμάζονται οι Πολιτικές του Καναδά για το κλίμα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Homes across UK to get low- or no-interest loans to fund solar panels and heat pumps",
+   "url": "https://www.theguardian.com/environment/2026/oct/27/homes-across-uk-to-get-low--or-no-interest-loans-to-fund-solar-panels-and-heat-pumps",
+   "date": "2026-10-27T17:28:33+00:00",
+   "t": {
+    "pt": "Casas em todo o Reino Unido receberão empréstimos com juros baixos ou sem juros para financiar painéis solares e bombas de calor",
+    "es": "Viviendas en todo el Reino Unido obtendrán préstamos con intereses bajos o sin intereses para financiar paneles solares y bombas de calor",
+    "it": "Case in tutto il Regno Unito ottengono prestiti a tasso basso o nullo per finanziare pannelli solari e pompe di calore",
+    "zh": "英国各地的房屋将获得低息或无息贷款来资助太阳能电池板和热泵",
+    "fr": "Les foyers du Royaume-Uni bénéficieront de prêts à taux faible ou nul pour financer des panneaux solaires et des pompes à chaleur",
+    "ar": "المنازل في جميع أنحاء المملكة المتحدة تحصل على قروض منخفضة أو بدون فوائد لتمويل الألواح الشمسية والمضخات الحرارية",
+    "de": "Häuser in ganz Großbritannien erhalten zinsgünstige oder zinslose Kredite zur Finanzierung von Solaranlagen und Wärmepumpen",
+    "el": "Σπίτια σε ολόκληρο το Ηνωμένο Βασίλειο για να λάβουν δάνεια χαμηλού ή άτοκου για τη χρηματοδότηση ηλιακών συλλεκτών και αντλιών θερμότητας"
    }
   },
   {
    "source": "BBC",
-   "title": "Scotland's recycling rates fall to lowest level in five years",
-   "url": "https://www.bbc.co.uk/news/articles/c62ke84qwl1vo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-27T11:33:23+00:00",
+   "title": "Nanotyrannus skeleton sells for $47.3m in New York auction",
+   "url": "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-27T17:10:15+00:00",
    "t": {
-    "pt": "As taxas de reciclagem da Escócia caem para o nível mais baixo em cinco anos",
-    "es": "Las tasas de reciclaje de Escocia caen al nivel más bajo en cinco años",
-    "it": "I tassi di riciclaggio della Scozia scendono al livello più basso degli ultimi cinque anni",
-    "zh": "苏格兰的回收率降至五年来的最低水平",
-    "fr": "Les taux de recyclage en Écosse tombent à leur plus bas niveau en cinq ans",
-    "ar": "تنخفض معدلات إعادة التدوير في اسكتلندا إلى أدنى مستوى لها منذ خمس سنوات",
-    "de": "Schottlands Recyclingquoten fallen auf den niedrigsten Stand seit fünf Jahren",
-    "el": "Τα ποσοστά ανακύκλωσης στη Σκωτία πέφτουν στο χαμηλότερο επίπεδο των τελευταίων πέντε ετών"
+    "pt": "Esqueleto de Nanotyrannus é vendido por US$ 47,3 milhões em leilão em Nova York",
+    "es": "El esqueleto de Nanotyrannus se vende por 47,3 millones de dólares en una subasta de Nueva York",
+    "it": "Lo scheletro di Nanotyrannus venduto all'asta di New York per 47,3 milioni di dollari",
+    "zh": "矮暴龙骨架在纽约拍卖以 4730 万美元成交",
+    "fr": "Le squelette de Nanotyrannus vendu 47,3 millions de dollars aux enchères à New York",
+    "ar": "بيع الهيكل العظمي لـ Nanotyrannus مقابل 47.3 مليون دولار في مزاد في نيويورك",
+    "de": "Nanotyrannus-Skelett wird bei New Yorker Auktion für 47,3 Millionen US-Dollar versteigert",
+    "el": "Σκελετός Nanotyrannus πωλείται έναντι 47,3 εκατομμυρίων δολαρίων σε δημοπρασία της Νέας Υόρκης"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Slovenia mourns loss of glacier on its highest peak after scorching summer",
+   "url": "https://www.theguardian.com/environment/2026/oct/27/slovenia-mourns-loss-glacier-highest-peak-scorching-summer",
+   "date": "2026-10-27T17:08:47+00:00",
+   "t": {
+    "pt": "Eslovênia lamenta perda de geleira em seu pico mais alto após verão escaldante",
+    "es": "Eslovenia lamenta la pérdida del glaciar en su pico más alto tras un verano abrasador",
+    "it": "La Slovenia piange la perdita del ghiacciaio sulla sua vetta più alta dopo un'estate torrida",
+    "zh": "斯洛文尼亚哀悼炎热夏季后最高峰冰川的消失",
+    "fr": "La Slovénie pleure la perte du glacier de son plus haut sommet après un été caniculaire",
+    "ar": "سلوفينيا تنعي خسارة نهر جليدي في أعلى قمة لها بعد الصيف الحارق",
+    "de": "Slowenien trauert nach einem sengenden Sommer um den Verlust des Gletschers auf seinem höchsten Gipfel",
+    "el": "Η Σλοβενία θρηνεί την απώλεια του παγετώνα στην υψηλότερη κορυφή του μετά το καυτό καλοκαίρι"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "E.P.A. to Loosen Methane Rules for Oil Firms",
+   "url": "https://www.nytimes.com/2026/10/27/climate/trump-methane-rules-epa-greenhouse-gas.html",
+   "date": "2026-10-27T17:08:26+00:00",
+   "t": {
+    "pt": "E.P.A. para afrouxar as regras sobre metano para empresas petrolíferas",
+    "es": "E.P.A. flexibilizar las normas sobre metano para las empresas petroleras",
+    "it": "E.P.A. allentare le regole sul metano per le compagnie petrolifere",
+    "zh": "环保署放宽对石油公司的甲烷规则",
+    "fr": "E.P.A. assouplir les règles sur le méthane pour les sociétés pétrolières",
+    "ar": "وكالة حماية البيئة (EPA) لتخفيف قواعد غاز الميثان لشركات النفط",
+    "de": "E.P.A. Lockerung der Methanvorschriften für Ölfirmen",
+    "el": "Η Ε.Π.Α. να χαλαρώσουν οι κανόνες μεθανίου για τις πετρελαϊκές εταιρείες"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Tiny zebra-striped bee sighting a 'huge surprise'",
+   "url": "https://www.bbc.co.uk/news/articles/c3dxwjx7xpj0o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-27T16:50:13+00:00",
+   "t": {
+    "pt": "Pequena abelha com listras de zebra avista uma ‘grande surpresa’",
+    "es": "Una pequeña abeja con rayas de cebra recibe una \"gran sorpresa\"",
+    "it": "Una piccola ape zebrata avvista una “grande sorpresa”",
+    "zh": "斑马条纹小蜜蜂看到“巨大的惊喜”",
+    "fr": "Une petite abeille zébrée aperçoit une « énorme surprise »",
+    "ar": "نحلة صغيرة مخططة بالحمار الوحشي ترى \"مفاجأة كبيرة\"",
+    "de": "Kleine Biene mit Zebrastreifen entdeckt eine „riesige Überraschung“",
+    "el": "Μικροσκοπική μέλισσα με ρίγες ζέβρας που βλέπει μια «τεράστια έκπληξη»"
    }
   },
   {
    "source": "BBC",
    "title": "New weather warning as third storm hits Scotland",
    "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-27T11:12:27+00:00",
+   "date": "2026-10-27T16:49:10+00:00",
    "t": {
     "pt": "Novo alerta meteorológico enquanto terceira tempestade atinge a Escócia",
     "es": "Nueva advertencia meteorológica cuando la tercera tormenta azota Escocia",
@@ -50,131 +146,67 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Trump’s cuts have exposed US to ‘cascade’ of El Niño dangers, experts warn",
-   "url": "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa",
-   "date": "2026-10-27T11:00:38+00:00",
-   "t": {
-    "pt": "Os cortes de Trump expuseram os EUA à ‘cascata’ de perigos do El Niño, alertam especialistas",
-    "es": "Los recortes de Trump han expuesto a Estados Unidos a una “cascada” de peligros de El Niño, advierten expertos",
-    "it": "I tagli di Trump hanno esposto gli Stati Uniti a una “cascata” di pericoli dovuti a El Niño, avvertono gli esperti",
-    "zh": "专家警告称，特朗普的削减使美国面临“一系列”厄尔尼诺现象的危险",
-    "fr": "Les coupes budgétaires de Trump ont exposé les États-Unis à une « cascade » de dangers liés à El Niño, préviennent les experts",
-    "ar": "يحذر الخبراء من أن تخفيضات ترامب عرّضت الولايات المتحدة لـ \"سلسلة\" من مخاطر ظاهرة النينيو",
-    "de": "Trumps Kürzungen haben die USA einer „Kaskade“ von El-Niño-Gefahren ausgesetzt, warnen Experten",
-    "el": "Οι περικοπές του Τραμπ έχουν εκθέσει τις ΗΠΑ σε «καταρράκτη» κινδύνους του Ελ Νίνιο, προειδοποιούν ειδικοί"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "I struggled to come to terms with my mum’s death. Then I swam in the sea and suddenly felt connected to her",
-   "url": "https://www.theguardian.com/environment/2026/oct/27/i-struggled-to-come-to-terms-with-my-mums-death-then-i-swam-in-the-sea-and-suddenly-felt-connected-to-her",
-   "date": "2026-10-27T11:00:37+00:00",
-   "t": {
-    "pt": "Lutei para aceitar a morte da minha mãe. Então nadei no mar e de repente me senti conectado a ela",
-    "es": "Luché por aceptar la muerte de mi madre. Luego nadé en el mar y de repente me sentí conectado con ella.",
-    "it": "Ho lottato per venire a patti con la morte di mia madre. Poi ho nuotato nel mare e all'improvviso mi sono sentito connesso a lei",
-    "zh": "我很难接受母亲的去世。然后我在海里游泳，突然感觉和她有联系",
-    "fr": "J’ai eu du mal à accepter la mort de ma mère. Puis j'ai nagé dans la mer et je me suis soudain senti connecté à elle",
-    "ar": "لقد كافحت للتأقلم مع وفاة أمي. ثم سبحت في البحر وشعرت فجأة بالارتباط بها",
-    "de": "Es fiel mir schwer, den Tod meiner Mutter zu verarbeiten. Dann schwamm ich im Meer und fühlte mich plötzlich mit ihr verbunden",
-    "el": "Αγωνίστηκα να συμφιλιωθώ με τον θάνατο της μαμάς μου. Μετά κολύμπησα στη θάλασσα και ξαφνικά ένιωσα να συνδέομαι μαζί της"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "What is Nasa's Artemis III mission? And what comes next?",
-   "url": "https://www.bbc.co.uk/news/articles/cr5j40ezgz4o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-27T10:33:26+00:00",
-   "t": {
-    "pt": "Qual é a missão Artemis III da NASA? E o que vem a seguir?",
-    "es": "¿Qué es la misión Artemis III de la NASA? ¿Y qué viene después?",
-    "it": "Qual è la missione Artemis III della Nasa? E cosa verrà dopo?",
-    "zh": "美国宇航局的阿耳忒弥斯三号任务是什么？接下来会发生什么？",
-    "fr": "Qu'est-ce que la mission Artemis III de la Nasa ? Et que se passe-t-il ensuite ?",
-    "ar": "ما هي مهمة أرتميس 3 التابعة لناسا؟ وماذا يأتي بعد ذلك؟",
-    "de": "Was ist die Artemis-III-Mission der NASA? Und was kommt als nächstes?",
-    "el": "Ποια είναι η αποστολή Artemis III της Nasa; Και τι ακολουθεί;"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "More high winds hit parts of UK as Storm Boelo clean-up continues",
-   "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-27T10:30:40+00:00",
-   "t": {
-    "pt": "Mais ventos fortes atingiram partes do Reino Unido enquanto a limpeza da tempestade Boelo continua",
-    "es": "Más vientos fuertes azotan partes del Reino Unido mientras continúa la limpieza de la tormenta Boelo",
-    "it": "Venti più forti colpiscono parti del Regno Unito mentre continua la pulizia della tempesta Boelo",
-    "zh": "随着风暴博埃洛清理工作的继续，更多的强风袭击了英国部分地区",
-    "fr": "Des vents plus violents frappent certaines parties du Royaume-Uni alors que le nettoyage de la tempête Boelo se poursuit",
-    "ar": "ضربت المزيد من الرياح العاتية أجزاء من المملكة المتحدة مع استمرار عملية تنظيف العاصفة بويلو",
-    "de": "Weitere starke Winde treffen Teile des Vereinigten Königreichs, während die Aufräumarbeiten wegen Sturm Boelo fortgesetzt werden",
-    "el": "Περισσότεροι ισχυροί άνεμοι έπληξαν περιοχές του Ηνωμένου Βασιλείου καθώς ο καθαρισμός της καταιγίδας Boelo συνεχίζεται"
-   }
-  },
-  {
    "source": "AL JAZEERA",
-   "title": "Heavy rains trigger massive flooding in Ecuador’s largest city",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/heavy-rains-trigger-massive-flooding-in-ecuadors-largest-city?traffic_source=rss",
-   "date": "2026-10-27T09:38:59+00:00",
+   "title": "Cyclone Arnab batters India’s east coast",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss",
+   "date": "2026-10-27T15:11:12+00:00",
    "t": {
-    "pt": "Fortes chuvas provocam inundações massivas na maior cidade do Equador",
-    "es": "Fuertes lluvias provocan inundaciones masivas en la ciudad más grande de Ecuador",
-    "it": "Le forti piogge provocano massicce inondazioni nella più grande città dell’Ecuador",
-    "zh": "厄瓜多尔最大城市暴雨引发大洪水",
-    "fr": "De fortes pluies provoquent des inondations massives dans la plus grande ville d’Équateur",
-    "ar": "تسببت الأمطار الغزيرة في حدوث فيضانات هائلة في أكبر مدينة في الإكوادور",
-    "de": "Heftige Regenfälle lösen in Ecuadors größter Stadt massive Überschwemmungen aus",
-    "el": "Οι έντονες βροχοπτώσεις προκαλούν τεράστιες πλημμύρες στη μεγαλύτερη πόλη του Ισημερινού"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Cruise ship crashes into two container ships during storm",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cruise-ship-crashes-into-two-container-ships-during-storm?traffic_source=rss",
-   "date": "2026-10-27T08:46:19+00:00",
-   "t": {
-    "pt": "Navio de cruzeiro bate em dois navios porta-contêineres durante tempestade",
-    "es": "Un crucero se estrella contra dos portacontenedores durante una tormenta",
-    "it": "Una nave da crociera si schianta contro due navi portacontainer durante una tempesta",
-    "zh": "游轮在暴风雨中撞上两艘集装箱船",
-    "fr": "Un bateau de croisière s'écrase sur deux porte-conteneurs pendant une tempête",
-    "ar": "سفينة سياحية تصطدم بسفينتي حاويات أثناء العاصفة",
-    "de": "Kreuzfahrtschiff stößt bei Sturm gegen zwei Containerschiffe",
-    "el": "Κρουαζιερόπλοιο συντρίβεται σε δύο πλοία μεταφοράς εμπορευματοκιβωτίων κατά τη διάρκεια καταιγίδας"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
-   "url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
-   "date": "2026-10-27T08:02:37+00:00",
-   "t": {
-    "pt": "Índia evacua dezenas de milhares à medida que o ciclone “muito severo” Arnab se aproxima",
-    "es": "India evacua a decenas de miles de personas a medida que se acerca el ciclón Arnab “muy severo”",
-    "it": "L’India evacua decine di migliaia di persone mentre il ciclone Arnab “molto grave” si avvicina",
-    "zh": "随着“非常严重”的飓风“阿纳布”临近，印度疏散了数万人",
-    "fr": "L’Inde évacue des dizaines de milliers de personnes à l’approche du cyclone « très grave » Arnab",
-    "ar": "الهند تقوم بإجلاء عشرات الآلاف مع اقتراب إعصار أرناب \"الشديد للغاية\".",
-    "de": "Indien evakuiert Zehntausende, als sich der „sehr schwere“ Zyklon Arnab nähert",
-    "el": "Η Ινδία εκκενώνει δεκάδες χιλιάδες καθώς πλησιάζει ο «πολύ σοβαρός» κυκλώνας Arnab"
+    "pt": "Ciclone Arnab atinge costa leste da Índia",
+    "es": "El ciclón Arnab azota la costa este de la India",
+    "it": "Il ciclone Arnab si abbatte sulla costa orientale dell’India",
+    "zh": "飓风“阿纳布”袭击印度东海岸",
+    "fr": "Le cyclone Arnab frappe la côte est de l’Inde",
+    "ar": "إعصار أرناب يضرب الساحل الشرقي للهند",
+    "de": "Zyklon Arnab verwüstet Indiens Ostküste",
+    "el": "Ο κυκλώνας Arnab χτυπά την ανατολική ακτή της Ινδίας"
    }
   },
   {
    "source": "GUARDIAN",
-   "title": "Burnham in danger of sleepwalking into climate disaster, say campaigners",
-   "url": "https://www.theguardian.com/environment/2026/oct/27/burnham-sleepwalking-climate-disaster-campaigners",
-   "date": "2026-10-27T07:00:06+00:00",
+   "title": "Are seed oils unhealthy? Why are so many influencers speaking out against them? | Gideon Meyerowitz-Katz",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/28/are-seed-oils-unhealthy-scientific-evidence",
+   "date": "2026-10-27T14:00:37+00:00",
    "t": {
-    "pt": "Burnham corre o risco de caminhar sonâmbulo para o desastre climático, dizem ativistas",
-    "es": "Burnham corre peligro de caminar sonámbulo hacia el desastre climático, dicen activistas",
-    "it": "Burnham rischia il sonnambulismo verso il disastro climatico, dicono gli attivisti",
-    "zh": "活动人士称，伯纳姆有梦游般陷入气候灾难的危险",
-    "fr": "Burnham risque de sombrer dans le désastre climatique, selon les militants",
-    "ar": "يقول الناشطون إن برنهام معرض لخطر السير أثناء النوم نحو كارثة مناخية",
-    "de": "Burnham läuft Gefahr, schlafwandelnd in die Klimakatastrophe hineinzusinken, sagen Aktivisten",
-    "el": "Ο Μπέρνχαμ κινδυνεύει να υπνοβάσει στην κλιματική καταστροφή, λένε οι ακτιβιστές"
+    "pt": "Os óleos de sementes são prejudiciais à saúde? Por que tantos influenciadores estão falando contra eles? | Gideon Meyerowitz-Katz",
+    "es": "¿Los aceites de semillas no son saludables? ¿Por qué tantos influencers hablan en contra de ellos? | Gideon Meyerowitz-Katz",
+    "it": "Gli oli di semi sono dannosi? Perché così tanti influencer si esprimono contro di loro? | Gideon Meyerowitz-Katz",
+    "zh": "种子油不健康吗？为什么这么多有影响力的人公开反对他们？ |吉迪恩·迈耶罗维茨-卡茨",
+    "fr": "Les huiles de graines sont-elles malsaines ? Pourquoi tant d’influenceurs s’expriment contre eux ? | Gédéon Meyerowitz-Katz",
+    "ar": "هل زيوت البذور غير صحية؟ لماذا يتحدث الكثير من المؤثرين ضدهم؟ | جدعون ميرويتز كاتز",
+    "de": "Sind Samenöle ungesund? Warum sprechen sich so viele Influencer gegen sie aus? | Gideon Meyerowitz-Katz",
+    "el": "Είναι τα σπορέλαια ανθυγιεινά; Γιατί τόσοι πολλοί influencers μιλούν εναντίον τους; | Γκίντεον Μάγιροβιτς-Κατς"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "UK spending on ‘fairytale’ carbon capture tech is a national embarrassment, chancellor told",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/27/chris-packham-chancellor-scrap-spending-fairytale-carbon-capture-budget",
+   "date": "2026-10-27T13:28:00+00:00",
+   "t": {
+    "pt": "Os gastos do Reino Unido com tecnologia de captura de carbono de “conto de fadas” são uma vergonha nacional, disse o chanceler",
+    "es": "El gasto del Reino Unido en tecnología de captura de carbono de “cuento de hadas” es una vergüenza nacional, dijo el canciller",
+    "it": "La spesa del Regno Unito per una tecnologia “da favola” per la cattura del carbonio è motivo di imbarazzo nazionale, ha detto il Cancelliere",
+    "zh": "英国财政大臣表示，英国在“童话”碳捕集技术上的支出是全国性的耻辱",
+    "fr": "Les dépenses britanniques en technologie de captage du carbone « de conte de fées » sont un embarras national, a déclaré la chancelière",
+    "ar": "قال المستشار إن إنفاق المملكة المتحدة على تكنولوجيا احتجاز الكربون \"الخيالية\" يمثل إحراجًا وطنيًا",
+    "de": "Die britischen Ausgaben für „märchenhafte“ Technologien zur CO2-Abscheidung seien eine nationale Peinlichkeit, sagte die Kanzlerin",
+    "el": "Οι δαπάνες του Ηνωμένου Βασιλείου για «παραμυθένια» τεχνολογία δέσμευσης άνθρακα είναι μια εθνική ντροπή, είπε η καγκελάριος"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Global climate body fights for survival: why the IPCC must be saved",
+   "url": "https://www.nature.com/articles/d41586-026-03403-6",
+   "date": "2026-10-27T00:00:00+00:00",
+   "t": {
+    "pt": "Organismo climático global luta pela sobrevivência: por que o IPCC deve ser salvo",
+    "es": "El organismo climático mundial lucha por la supervivencia: por qué hay que salvar al IPCC",
+    "it": "L’organismo globale per il clima lotta per la sopravvivenza: perché l’IPCC deve essere salvato",
+    "zh": "全球气候机构为生存而战：为什么必须拯救IPCC",
+    "fr": "L’organisme climatique mondial lutte pour sa survie : pourquoi le GIEC doit être sauvé",
+    "ar": "هيئة المناخ العالمية تناضل من أجل البقاء: لماذا يجب إنقاذ الهيئة الحكومية الدولية المعنية بتغير المناخ",
+    "de": "Globales Klimagremium kämpft ums Überleben: Warum das IPCC gerettet werden muss",
+    "el": "Το παγκόσμιο σώμα για το κλίμα παλεύει για την επιβίωση: γιατί πρέπει να σωθεί η IPCC"
    }
   },
   {
@@ -223,38 +255,6 @@
     "ar": "ناطحات السحاب الزجاجية اللامعة هي شيء ساخن. حرفياً.",
     "de": "Glänzende Glaswolkenkratzer sind eine heiße Sache. Buchstäblich.",
     "el": "Οι γυαλιστεροί ουρανοξύστες είναι ένα καυτό πράγμα. Κυριολεκτικά."
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "How Trump Rolled Back Limits on Toxic Air Pollution",
-   "url": "https://www.nytimes.com/video/climate/100000011186318/how-trump-rolled-back-limits-on-toxic-air-pollution.html",
-   "date": "2026-10-25T23:44:37+00:00",
-   "t": {
-    "pt": "Como Trump reverteu os limites da poluição atmosférica tóxica",
-    "es": "Cómo Trump redujo los límites a la contaminación tóxica del aire",
-    "it": "Come Trump ha ridotto i limiti sull’inquinamento atmosferico tossico",
-    "zh": "特朗普如何取消对有毒空气污染的限制",
-    "fr": "Comment Trump a abaissé les limites de la pollution atmosphérique toxique",
-    "ar": "كيف تراجع ترامب عن حدود تلوث الهواء السام؟",
-    "de": "Wie Trump die Grenzwerte für giftige Luftverschmutzung zurücknahm",
-    "el": "Πώς ο Τραμπ έριξε πίσω τα όρια για την τοξική ατμοσφαιρική ρύπανση"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "How Trump Gave the Worst Polluters a Free Pass",
-   "url": "https://www.nytimes.com/2026/10/24/climate/trump-epa-chemical-air-pollution.html",
-   "date": "2026-10-25T01:12:45+00:00",
-   "t": {
-    "pt": "Como Trump deu passe livre aos piores poluidores",
-    "es": "Cómo Trump dio vía libre a los peores contaminadores",
-    "it": "Come Trump ha dato via libera ai peggiori inquinatori",
-    "zh": "特朗普如何为最严重的污染者提供免费通行证",
-    "fr": "Comment Trump a donné un laissez-passer gratuit aux pires pollueurs",
-    "ar": "كيف أعطى ترامب أسوأ الملوثين تصريحًا مجانيًا",
-    "de": "Wie Trump den schlimmsten Umweltverschmutzern eine Freikarte gab",
-    "el": "Πώς ο Τραμπ έδωσε στους χειρότερους ρυπαίνων ένα δωρεάν πάσο"
    }
   },
   {
@@ -354,22 +354,6 @@
    }
   },
   {
-   "source": "NATURE",
-   "title": "Plastics embedded with enzymes degrade readily in the sea",
-   "url": "https://www.nature.com/articles/d41586-026-03282-x",
-   "date": "2026-10-21T00:00:00+00:00",
-   "t": {
-    "pt": "Plásticos repletos de enzimas degradam-se facilmente no mar",
-    "es": "Los plásticos con enzimas incrustadas se degradan fácilmente en el mar",
-    "it": "La plastica incorporata con enzimi si degrada facilmente in mare",
-    "zh": "嵌入酶的塑料在海洋中很容易降解",
-    "fr": "Les plastiques contenant des enzymes se dégradent facilement dans la mer",
-    "ar": "تتحلل المواد البلاستيكية المحملة بالإنزيمات بسهولة في البحر",
-    "de": "Mit Enzymen eingebettete Kunststoffe werden im Meer leicht abgebaut",
-    "el": "Τα πλαστικά ενσωματωμένα με ένζυμα αποικοδομούνται εύκολα στη θάλασσα"
-   }
-  },
-  {
    "source": "NPR",
    "title": "Oyster aid efforts in the Chesapeake",
    "url": "https://www.npr.org/2026/10/20/nx-s1-6005286/oyster-aid-efforts-in-the-chesapeake",
@@ -383,6 +367,22 @@
     "ar": "جهود مساعدة المحار في تشيسابيك",
     "de": "Austernhilfsbemühungen im Chesapeake",
     "el": "Προσπάθειες βοήθειας Oyster στο Chesapeake"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "New EU plan for Arctic warily eyes influence of Russia, US",
+   "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-10-20T16:44:00+00:00",
+   "t": {
+    "pt": "Novo plano da UE para o Ártico olha com cautela a influência da Rússia e dos EUA",
+    "es": "El nuevo plan de la UE para el Ártico mira con cautela la influencia de Rusia y EE.UU.",
+    "it": "Il nuovo piano dell’UE per l’Artico guarda con cautela all’influenza di Russia e Stati Uniti",
+    "zh": "欧盟新北极计划警惕俄罗斯和美国的影响",
+    "fr": "Le nouveau plan de l’UE pour l’Arctique surveille avec méfiance l’influence de la Russie et des États-Unis",
+    "ar": "خطة الاتحاد الأوروبي الجديدة للقطب الشمالي تتطلع بحذر إلى تأثير روسيا والولايات المتحدة",
+    "de": "Neuer EU-Plan für die Arktis beäugt den Einfluss Russlands und der USA mit Vorsicht",
+    "el": "Το νέο σχέδιο της ΕΕ για την Αρκτική παρακολουθεί επιφυλακτικά την επιρροή Ρωσίας και ΗΠΑ"
    }
   }
  ]
