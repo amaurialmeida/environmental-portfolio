@@ -1,68 +1,180 @@
 {
- "updated": "2026-10-27T06:15:12.171980+00:00",
+ "updated": "2026-10-27T12:13:56.456904+00:00",
  "items": [
   {
    "source": "GUARDIAN",
-   "title": "Super-rich get ‘double dividend’ from causes and costs of climate crisis, report finds",
-   "url": "https://www.theguardian.com/environment/2026/oct/27/super-rich-double-dividend-climate-crisis-oxfam",
-   "date": "2026-10-27T05:00:02+00:00",
+   "title": "‘No one saves the planet if it hits their pocket’: UK heat pump installers fear planned subsidy cuts",
+   "url": "https://www.theguardian.com/environment/2026/oct/27/heat-pump-installers-fear-planned-subsidy-cuts-uk-budget",
+   "date": "2026-10-27T11:59:42+00:00",
    "t": {
-    "pt": "Super-ricos obtêm ‘dividendo duplo’ das causas e custos da crise climática, conclui relatório",
-    "es": "Los superricos obtienen un \"doble dividendo\" de las causas y los costos de la crisis climática, según un informe",
-    "it": "I super-ricchi ottengono un “doppio dividendo” dalle cause e dai costi della crisi climatica, rileva il rapporto",
-    "zh": "报告发现，超级富豪从气候危机的原因和成本中获得“双重红利”",
-    "fr": "Les très riches reçoivent un « double dividende » grâce aux causes et aux coûts de la crise climatique, selon un rapport",
-    "ar": "يجد التقرير أن الأثرياء يحصلون على \"عائد مضاعف\" من أسباب وتكاليف أزمة المناخ",
-    "de": "Laut Bericht erhalten Superreiche eine „doppelte Dividende“ aus den Ursachen und Kosten der Klimakrise",
-    "el": "Οι υπερπλούσιοι παίρνουν «διπλό μέρισμα» από τις αιτίες και το κόστος της κλιματικής κρίσης, διαπιστώνει η έκθεση"
+    "pt": "‘Ninguém salva o planeta se ele atingir seu bolso’: instaladores de bombas de calor no Reino Unido temem cortes planejados de subsídios",
+    "es": "“Nadie salva el planeta si le llega al bolsillo”: los instaladores de bombas de calor del Reino Unido temen los recortes de subsidios planificados",
+    "it": "“Nessuno salva il pianeta se ciò va a finire nelle sue tasche”: gli installatori di pompe di calore del Regno Unito temono i tagli previsti ai sussidi",
+    "zh": "“如果有人掏腰包，就没有人能拯救地球”：英国热泵安装商担心计划中的补贴削减",
+    "fr": "« Personne ne sauve la planète si cela touche ses poches » : les installateurs britanniques de pompes à chaleur craignent les réductions de subventions prévues",
+    "ar": "\"لا أحد ينقذ الكوكب إذا ضرب جيوبه\": يخشى القائمون على تركيب المضخات الحرارية في المملكة المتحدة من تخفيضات الدعم المخطط لها",
+    "de": "„Niemand rettet den Planeten, wenn es ihm in die Tasche greift“: Britische Wärmepumpeninstallateure befürchten geplante Subventionskürzungen",
+    "el": "«Κανείς δεν σώζει τον πλανήτη αν χτυπήσει την τσέπη του»: Οι εγκαταστάτες αντλιών θερμότητας στο Ηνωμένο Βασίλειο φοβούνται προγραμματισμένες περικοπές επιδοτήσεων"
    }
   },
   {
    "source": "BBC",
-   "title": "Storm Boelo leaves thousands without power as Met Office issues new wind warning",
-   "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-27T04:13:56+00:00",
+   "title": "Scotland's recycling rates fall to lowest level in five years",
+   "url": "https://www.bbc.co.uk/news/articles/c62ke84qwl1vo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-27T11:33:23+00:00",
    "t": {
-    "pt": "Tempestade Boelo deixa milhares de pessoas sem energia enquanto Met Office emite novo alerta de vento",
-    "es": "La tormenta Boelo deja a miles de personas sin electricidad mientras la Oficina Meteorológica emite una nueva advertencia de viento",
-    "it": "La tempesta Boelo lascia migliaia di persone senza elettricità mentre il Met Office emette un nuovo avviso di vento",
-    "zh": "英国气象局发布新风警告，风暴博埃洛导致数千人断电",
-    "fr": "La tempête Boelo laisse des milliers de personnes sans électricité alors que le Met Office émet un nouvel avertissement de vent",
-    "ar": "تركت العاصفة Boelo الآلاف بدون كهرباء حيث أصدر مكتب الأرصاد الجوية تحذيرًا جديدًا من الرياح",
-    "de": "Sturm Boelo lässt Tausende ohne Strom zurück, da Met Office eine neue Windwarnung herausgibt",
-    "el": "Η καταιγίδα Boelo αφήνει χιλιάδες χωρίς ρεύμα καθώς το Met Office εκδίδει νέα προειδοποίηση ανέμου"
+    "pt": "As taxas de reciclagem da Escócia caem para o nível mais baixo em cinco anos",
+    "es": "Las tasas de reciclaje de Escocia caen al nivel más bajo en cinco años",
+    "it": "I tassi di riciclaggio della Scozia scendono al livello più basso degli ultimi cinque anni",
+    "zh": "苏格兰的回收率降至五年来的最低水平",
+    "fr": "Les taux de recyclage en Écosse tombent à leur plus bas niveau en cinq ans",
+    "ar": "تنخفض معدلات إعادة التدوير في اسكتلندا إلى أدنى مستوى لها منذ خمس سنوات",
+    "de": "Schottlands Recyclingquoten fallen auf den niedrigsten Stand seit fünf Jahren",
+    "el": "Τα ποσοστά ανακύκλωσης στη Σκωτία πέφτουν στο χαμηλότερο επίπεδο των τελευταίων πέντε ετών"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "New weather warning as third storm hits Scotland",
+   "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-27T11:12:27+00:00",
+   "t": {
+    "pt": "Novo alerta meteorológico enquanto terceira tempestade atinge a Escócia",
+    "es": "Nueva advertencia meteorológica cuando la tercera tormenta azota Escocia",
+    "it": "Nuova allerta meteo con la terza tempesta che colpisce la Scozia",
+    "zh": "第三次风暴袭击苏格兰新天气警告",
+    "fr": "Nouvel avertissement météorologique alors qu'une troisième tempête frappe l'Écosse",
+    "ar": "تحذير جديد من الطقس مع اقتراب العاصفة الثالثة من اسكتلندا",
+    "de": "Neue Wetterwarnung, da dritter Sturm Schottland heimsucht",
+    "el": "Νέα προειδοποίηση για τον καιρό καθώς τρίτη καταιγίδα πλήττει τη Σκωτία"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Trump’s cuts have exposed US to ‘cascade’ of El Niño dangers, experts warn",
+   "url": "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa",
+   "date": "2026-10-27T11:00:38+00:00",
+   "t": {
+    "pt": "Os cortes de Trump expuseram os EUA à ‘cascata’ de perigos do El Niño, alertam especialistas",
+    "es": "Los recortes de Trump han expuesto a Estados Unidos a una “cascada” de peligros de El Niño, advierten expertos",
+    "it": "I tagli di Trump hanno esposto gli Stati Uniti a una “cascata” di pericoli dovuti a El Niño, avvertono gli esperti",
+    "zh": "专家警告称，特朗普的削减使美国面临“一系列”厄尔尼诺现象的危险",
+    "fr": "Les coupes budgétaires de Trump ont exposé les États-Unis à une « cascade » de dangers liés à El Niño, préviennent les experts",
+    "ar": "يحذر الخبراء من أن تخفيضات ترامب عرّضت الولايات المتحدة لـ \"سلسلة\" من مخاطر ظاهرة النينيو",
+    "de": "Trumps Kürzungen haben die USA einer „Kaskade“ von El-Niño-Gefahren ausgesetzt, warnen Experten",
+    "el": "Οι περικοπές του Τραμπ έχουν εκθέσει τις ΗΠΑ σε «καταρράκτη» κινδύνους του Ελ Νίνιο, προειδοποιούν ειδικοί"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "I struggled to come to terms with my mum’s death. Then I swam in the sea and suddenly felt connected to her",
+   "url": "https://www.theguardian.com/environment/2026/oct/27/i-struggled-to-come-to-terms-with-my-mums-death-then-i-swam-in-the-sea-and-suddenly-felt-connected-to-her",
+   "date": "2026-10-27T11:00:37+00:00",
+   "t": {
+    "pt": "Lutei para aceitar a morte da minha mãe. Então nadei no mar e de repente me senti conectado a ela",
+    "es": "Luché por aceptar la muerte de mi madre. Luego nadé en el mar y de repente me sentí conectado con ella.",
+    "it": "Ho lottato per venire a patti con la morte di mia madre. Poi ho nuotato nel mare e all'improvviso mi sono sentito connesso a lei",
+    "zh": "我很难接受母亲的去世。然后我在海里游泳，突然感觉和她有联系",
+    "fr": "J’ai eu du mal à accepter la mort de ma mère. Puis j'ai nagé dans la mer et je me suis soudain senti connecté à elle",
+    "ar": "لقد كافحت للتأقلم مع وفاة أمي. ثم سبحت في البحر وشعرت فجأة بالارتباط بها",
+    "de": "Es fiel mir schwer, den Tod meiner Mutter zu verarbeiten. Dann schwamm ich im Meer und fühlte mich plötzlich mit ihr verbunden",
+    "el": "Αγωνίστηκα να συμφιλιωθώ με τον θάνατο της μαμάς μου. Μετά κολύμπησα στη θάλασσα και ξαφνικά ένιωσα να συνδέομαι μαζί της"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "What is Nasa's Artemis III mission? And what comes next?",
+   "url": "https://www.bbc.co.uk/news/articles/cr5j40ezgz4o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-27T10:33:26+00:00",
+   "t": {
+    "pt": "Qual é a missão Artemis III da NASA? E o que vem a seguir?",
+    "es": "¿Qué es la misión Artemis III de la NASA? ¿Y qué viene después?",
+    "it": "Qual è la missione Artemis III della Nasa? E cosa verrà dopo?",
+    "zh": "美国宇航局的阿耳忒弥斯三号任务是什么？接下来会发生什么？",
+    "fr": "Qu'est-ce que la mission Artemis III de la Nasa ? Et que se passe-t-il ensuite ?",
+    "ar": "ما هي مهمة أرتميس 3 التابعة لناسا؟ وماذا يأتي بعد ذلك؟",
+    "de": "Was ist die Artemis-III-Mission der NASA? Und was kommt als nächstes?",
+    "el": "Ποια είναι η αποστολή Artemis III της Nasa; Και τι ακολουθεί;"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "More high winds hit parts of UK as Storm Boelo clean-up continues",
+   "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-27T10:30:40+00:00",
+   "t": {
+    "pt": "Mais ventos fortes atingiram partes do Reino Unido enquanto a limpeza da tempestade Boelo continua",
+    "es": "Más vientos fuertes azotan partes del Reino Unido mientras continúa la limpieza de la tormenta Boelo",
+    "it": "Venti più forti colpiscono parti del Regno Unito mentre continua la pulizia della tempesta Boelo",
+    "zh": "随着风暴博埃洛清理工作的继续，更多的强风袭击了英国部分地区",
+    "fr": "Des vents plus violents frappent certaines parties du Royaume-Uni alors que le nettoyage de la tempête Boelo se poursuit",
+    "ar": "ضربت المزيد من الرياح العاتية أجزاء من المملكة المتحدة مع استمرار عملية تنظيف العاصفة بويلو",
+    "de": "Weitere starke Winde treffen Teile des Vereinigten Königreichs, während die Aufräumarbeiten wegen Sturm Boelo fortgesetzt werden",
+    "el": "Περισσότεροι ισχυροί άνεμοι έπληξαν περιοχές του Ηνωμένου Βασιλείου καθώς ο καθαρισμός της καταιγίδας Boelo συνεχίζεται"
    }
   },
   {
    "source": "AL JAZEERA",
-   "title": "Trump suggests renaming the Atlantic Ocean the ‘American Ocean’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/trump-suggests-renaming-the-atlantic-ocean-the-american?traffic_source=rss",
-   "date": "2026-10-27T02:17:06+00:00",
+   "title": "Heavy rains trigger massive flooding in Ecuador’s largest city",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/heavy-rains-trigger-massive-flooding-in-ecuadors-largest-city?traffic_source=rss",
+   "date": "2026-10-27T09:38:59+00:00",
    "t": {
-    "pt": "Trump sugere renomear o Oceano Atlântico como ‘Oceano Americano’",
-    "es": "Trump sugiere cambiar el nombre del Océano Atlántico a \"Océano Americano\"",
-    "it": "Trump suggerisce di rinominare l’Oceano Atlantico “Oceano Americano”",
-    "zh": "特朗普建议将大西洋更名为“美洲洋”",
-    "fr": "Trump suggère de renommer l’océan Atlantique « océan américain »",
-    "ar": "ترامب يقترح إعادة تسمية المحيط الأطلسي إلى \"المحيط الأمريكي\"",
-    "de": "Trump schlägt vor, den Atlantischen Ozean in „Amerikanischen Ozean“ umzubenennen",
-    "el": "Ο Τραμπ προτείνει να μετονομαστεί ο Ατλαντικός Ωκεανός σε «Αμερικανικό Ωκεανό»"
+    "pt": "Fortes chuvas provocam inundações massivas na maior cidade do Equador",
+    "es": "Fuertes lluvias provocan inundaciones masivas en la ciudad más grande de Ecuador",
+    "it": "Le forti piogge provocano massicce inondazioni nella più grande città dell’Ecuador",
+    "zh": "厄瓜多尔最大城市暴雨引发大洪水",
+    "fr": "De fortes pluies provoquent des inondations massives dans la plus grande ville d’Équateur",
+    "ar": "تسببت الأمطار الغزيرة في حدوث فيضانات هائلة في أكبر مدينة في الإكوادور",
+    "de": "Heftige Regenfälle lösen in Ecuadors größter Stadt massive Überschwemmungen aus",
+    "el": "Οι έντονες βροχοπτώσεις προκαλούν τεράστιες πλημμύρες στη μεγαλύτερη πόλη του Ισημερινού"
    }
   },
   {
-   "source": "BBC",
-   "title": "New weather warnings as third storm set to hit Scotland",
-   "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T23:00:14+00:00",
+   "source": "AL JAZEERA",
+   "title": "Cruise ship crashes into two container ships during storm",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cruise-ship-crashes-into-two-container-ships-during-storm?traffic_source=rss",
+   "date": "2026-10-27T08:46:19+00:00",
    "t": {
-    "pt": "Novos alertas meteorológicos com terceira tempestade prestes a atingir a Escócia",
-    "es": "Nuevas advertencias meteorológicas mientras la tercera tormenta azota Escocia",
-    "it": "Nuove allerte meteo con la terza tempesta che colpirà la Scozia",
-    "zh": "第三场风暴即将袭击苏格兰，新的天气警告",
-    "fr": "De nouveaux avertissements météorologiques alors qu'une troisième tempête s'apprête à frapper l'Écosse",
-    "ar": "تحذيرات جديدة من الطقس مع اقتراب العاصفة الثالثة من اسكتلندا",
-    "de": "Neue Wetterwarnungen, da der dritte Sturm Schottland treffen wird",
-    "el": "Νέες προειδοποιήσεις για τον καιρό καθώς η τρίτη καταιγίδα έπληξε τη Σκωτία"
+    "pt": "Navio de cruzeiro bate em dois navios porta-contêineres durante tempestade",
+    "es": "Un crucero se estrella contra dos portacontenedores durante una tormenta",
+    "it": "Una nave da crociera si schianta contro due navi portacontainer durante una tempesta",
+    "zh": "游轮在暴风雨中撞上两艘集装箱船",
+    "fr": "Un bateau de croisière s'écrase sur deux porte-conteneurs pendant une tempête",
+    "ar": "سفينة سياحية تصطدم بسفينتي حاويات أثناء العاصفة",
+    "de": "Kreuzfahrtschiff stößt bei Sturm gegen zwei Containerschiffe",
+    "el": "Κρουαζιερόπλοιο συντρίβεται σε δύο πλοία μεταφοράς εμπορευματοκιβωτίων κατά τη διάρκεια καταιγίδας"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "India evacuates tens of thousands as ‘very severe’ Cyclone Arnab nears",
+   "url": "https://www.aljazeera.com/news/2026/10/27/india-evacuates-tens-of-thousands-as-very-severe-cyclone-arnab-nears?traffic_source=rss",
+   "date": "2026-10-27T08:02:37+00:00",
+   "t": {
+    "pt": "Índia evacua dezenas de milhares à medida que o ciclone “muito severo” Arnab se aproxima",
+    "es": "India evacua a decenas de miles de personas a medida que se acerca el ciclón Arnab “muy severo”",
+    "it": "L’India evacua decine di migliaia di persone mentre il ciclone Arnab “molto grave” si avvicina",
+    "zh": "随着“非常严重”的飓风“阿纳布”临近，印度疏散了数万人",
+    "fr": "L’Inde évacue des dizaines de milliers de personnes à l’approche du cyclone « très grave » Arnab",
+    "ar": "الهند تقوم بإجلاء عشرات الآلاف مع اقتراب إعصار أرناب \"الشديد للغاية\".",
+    "de": "Indien evakuiert Zehntausende, als sich der „sehr schwere“ Zyklon Arnab nähert",
+    "el": "Η Ινδία εκκενώνει δεκάδες χιλιάδες καθώς πλησιάζει ο «πολύ σοβαρός» κυκλώνας Arnab"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Burnham in danger of sleepwalking into climate disaster, say campaigners",
+   "url": "https://www.theguardian.com/environment/2026/oct/27/burnham-sleepwalking-climate-disaster-campaigners",
+   "date": "2026-10-27T07:00:06+00:00",
+   "t": {
+    "pt": "Burnham corre o risco de caminhar sonâmbulo para o desastre climático, dizem ativistas",
+    "es": "Burnham corre peligro de caminar sonámbulo hacia el desastre climático, dicen activistas",
+    "it": "Burnham rischia il sonnambulismo verso il disastro climatico, dicono gli attivisti",
+    "zh": "活动人士称，伯纳姆有梦游般陷入气候灾难的危险",
+    "fr": "Burnham risque de sombrer dans le désastre climatique, selon les militants",
+    "ar": "يقول الناشطون إن برنهام معرض لخطر السير أثناء النوم نحو كارثة مناخية",
+    "de": "Burnham läuft Gefahr, schlafwandelnd in die Klimakatastrophe hineinzusinken, sagen Aktivisten",
+    "el": "Ο Μπέρνχαμ κινδυνεύει να υπνοβάσει στην κλιματική καταστροφή, λένε οι ακτιβιστές"
    }
   },
   {
@@ -82,35 +194,19 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Political battle intensifies within Labour over Rosebank oil field",
-   "url": "https://www.bbc.co.uk/news/articles/c6zxj7dvxr5yo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T18:09:49+00:00",
+   "source": "NPR",
+   "title": "When an invasive fish is also tasty, Maryland schoolkids can help 'eat the problem'",
+   "url": "https://www.npr.org/2026/10/26/nx-s1-5954211/invasive-blue-catfish-solution-schools-chesapeake-bay",
+   "date": "2026-10-26T20:09:15+00:00",
    "t": {
-    "pt": "A batalha política se intensifica dentro do Partido Trabalhista pelo campo petrolífero de Rosebank",
-    "es": "La batalla política se intensifica dentro del Partido Laborista por el campo petrolero de Rosebank",
-    "it": "Si intensifica la battaglia politica all’interno dei laburisti sul giacimento petrolifero di Rosebank",
-    "zh": "工党内部围绕罗斯班克油田的政治斗争加剧",
-    "fr": "La bataille politique s'intensifie au sein du parti travailliste sur le champ pétrolier de Rosebank",
-    "ar": "اشتداد المعركة السياسية داخل حزب العمال حول حقل روزبانك النفطي",
-    "de": "Der politische Kampf innerhalb der Labour-Partei verschärft sich um das Rosebank-Ölfeld",
-    "el": "Η πολιτική μάχη εντείνεται στο εσωτερικό των Εργατικών για το κοίτασμα πετρελαίου Rosebank"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "'Safety first' as wedding guests stranded on island after Storm Boelo",
-   "url": "https://www.bbc.co.uk/news/articles/cqe9lykm93jmo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-26T18:09:39+00:00",
-   "t": {
-    "pt": "'Segurança em primeiro lugar' enquanto convidados do casamento ficam presos na ilha após a tempestade Boelo",
-    "es": "'La seguridad es lo primero' mientras los invitados a la boda quedan varados en la isla después de la tormenta Boelo",
-    "it": "\"La sicurezza prima di tutto\" per gli invitati al matrimonio bloccati sull'isola dopo la tempesta Boelo",
-    "zh": "博埃洛风暴过后，婚礼嘉宾滞留在岛上，“安全第一”",
-    "fr": "« La sécurité d'abord » alors que les invités du mariage sont bloqués sur l'île après la tempête Boelo",
-    "ar": "\"السلامة أولاً\" حيث تقطعت السبل بضيوف حفل الزفاف في الجزيرة بعد العاصفة بويلو",
-    "de": "„Sicherheit geht vor“, da Hochzeitsgäste nach dem Sturm Boelo auf der Insel gestrandet sind",
-    "el": "«Πρώτα η ασφάλεια» καθώς οι καλεσμένοι του γάμου εγκλωβίστηκαν στο νησί μετά την καταιγίδα Boelo"
+    "pt": "Quando um peixe invasor também é saboroso, os alunos de Maryland podem ajudar a 'comer o problema'",
+    "es": "Cuando un pez invasor también es sabroso, los escolares de Maryland pueden ayudar a 'comerse el problema'",
+    "it": "Quando un pesce invasivo è anche gustoso, gli scolari del Maryland possono aiutare a \"mangiare il problema\"",
+    "zh": "当入侵鱼也很美味时，马里兰州的学生可以帮助“解决这个问题”",
+    "fr": "Lorsqu'un poisson envahissant est également savoureux, les écoliers du Maryland peuvent aider à « manger le problème »",
+    "ar": "عندما تكون الأسماك الغازية لذيذة أيضًا، يمكن لأطفال المدارس في ماريلاند المساعدة في \"تناول المشكلة\"",
+    "de": "Wenn ein invasiver Fisch auch lecker ist, können Schulkinder aus Maryland dabei helfen, „das Problem zu lösen“",
+    "el": "Όταν ένα χωροκατακτητικό ψάρι είναι επίσης νόστιμο, οι μαθητές του Μέριλαντ μπορούν να βοηθήσουν «να φάνε το πρόβλημα»"
    }
   },
   {
@@ -130,38 +226,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Sunlight at night: US startup’s demonstration of lighting Earth from space draws criticism",
-   "url": "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites",
-   "date": "2026-10-26T12:00:41+00:00",
-   "t": {
-    "pt": "Luz solar à noite: a demonstração da startup dos EUA de iluminar a Terra a partir do espaço atrai críticas",
-    "es": "Luz solar de noche: la demostración de una startup estadounidense de iluminar la Tierra desde el espacio genera críticas",
-    "it": "Luce solare di notte: la dimostrazione di una startup americana di illuminare la Terra dallo spazio attira critiche",
-    "zh": "夜间阳光：美国初创公司演示从太空照亮地球遭批评",
-    "fr": "Lumière du soleil la nuit : la démonstration par une startup américaine de l’éclairage de la Terre depuis l’espace suscite des critiques",
-    "ar": "ضوء الشمس في الليل: عرض شركة ناشئة أمريكية لإضاءة الأرض من الفضاء يثير انتقادات",
-    "de": "Sonnenlicht in der Nacht: Die Demonstration eines US-Startups, die Erde aus dem Weltraum zu beleuchten, stößt auf Kritik",
-    "el": "Ηλιακό φως τη νύχτα: Η επίδειξη της αμερικανικής νεοφυούς επιχείρησης φωτισμού της Γης από το διάστημα προκαλεί κριτική"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Typhoon Champi declared strongest storm of year so far",
-   "url": "https://www.theguardian.com/world/2026/oct/26/typhoon-champi-taiwan-japan-storm-greece-floods",
-   "date": "2026-10-26T09:28:59+00:00",
-   "t": {
-    "pt": "O tufão Champi foi declarado a tempestade mais forte do ano até agora",
-    "es": "El tifón Champi es declarado la tormenta más fuerte del año hasta el momento",
-    "it": "Il tifone Champi è stato dichiarato finora la tempesta più forte dell'anno",
-    "zh": "台风“占比”宣布今年迄今为止最强风暴",
-    "fr": "Le typhon Champi déclaré tempête la plus violente de l'année jusqu'à présent",
-    "ar": "أعلن إعصار شامبي أقوى عاصفة هذا العام حتى الآن",
-    "de": "Taifun Champi erklärte den bislang stärksten Sturm des Jahres",
-    "el": "Ο τυφώνας Champi κήρυξε την ισχυρότερη καταιγίδα του έτους μέχρι στιγμής"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "How Trump Rolled Back Limits on Toxic Air Pollution",
    "url": "https://www.nytimes.com/video/climate/100000011186318/how-trump-rolled-back-limits-on-toxic-air-pollution.html",
@@ -175,22 +239,6 @@
     "ar": "كيف تراجع ترامب عن حدود تلوث الهواء السام؟",
     "de": "Wie Trump die Grenzwerte für giftige Luftverschmutzung zurücknahm",
     "el": "Πώς ο Τραμπ έριξε πίσω τα όρια για την τοξική ατμοσφαιρική ρύπανση"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Cabinet split emerges over controversial Rosebank oilfield decision",
-   "url": "https://www.theguardian.com/environment/2026/oct/25/cabinet-split-emerges-over-controversial-rosebank-oilfield-decision",
-   "date": "2026-10-25T20:29:25+00:00",
-   "t": {
-    "pt": "A divisão do gabinete surge devido à controversa decisão do campo petrolífero de Rosebank",
-    "es": "Surge división del gabinete por la controvertida decisión sobre el campo petrolífero de Rosebank",
-    "it": "La divisione del governo emerge dalla controversa decisione sul giacimento petrolifero di Rosebank",
-    "zh": "内阁因有争议的罗斯班克油田决定出现分歧",
-    "fr": "Une scission ministérielle apparaît suite à la décision controversée du champ pétrolifère de Rosebank",
-    "ar": "ظهور انقسام في مجلس الوزراء بسبب قرار روزبانك المثير للجدل بشأن حقل النفط",
-    "de": "Es kommt zu einer Spaltung im Kabinett wegen der umstrittenen Entscheidung zum Rosebank-Ölfeld",
-    "el": "Προκύπτει διχασμός του υπουργικού συμβουλίου λόγω της αμφιλεγόμενης απόφασης της Rosebank για το πετρελαϊκό πεδίο"
    }
   },
   {
@@ -335,54 +383,6 @@
     "ar": "جهود مساعدة المحار في تشيسابيك",
     "de": "Austernhilfsbemühungen im Chesapeake",
     "el": "Προσπάθειες βοήθειας Oyster στο Chesapeake"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "6 million steps, hundreds of recordings: Creating a sound map of the Pacific Crest Trail",
-   "url": "https://www.npr.org/2026/10/20/nx-s1-5988051/6-million-steps-hundreds-of-recordings-creating-a-sound-map-of-the-pacific-crest-trail",
-   "date": "2026-10-20T21:15:55+00:00",
-   "t": {
-    "pt": "6 milhões de passos, centenas de gravações: Criando um mapa sonoro da Pacific Crest Trail",
-    "es": "6 millones de pasos, cientos de grabaciones: creación de un mapa sonoro del Pacific Crest Trail",
-    "it": "6 milioni di passi, centinaia di registrazioni: creazione di una mappa sonora del Pacific Crest Trail",
-    "zh": "600 万步，数百条录音：创建 Pacific Crest Trail 的声音地图",
-    "fr": "6 millions de pas, des centaines d'enregistrements : création d'une carte sonore du Pacific Crest Trail",
-    "ar": "6 ملايين خطوة، ومئات التسجيلات: إنشاء خريطة صوتية لمسار كريست المحيط الهادئ",
-    "de": "6 Millionen Schritte, Hunderte von Aufnahmen: Erstellung einer Soundkarte des Pacific Crest Trail",
-    "el": "6 εκατομμύρια βήματα, εκατοντάδες ηχογραφήσεις: Δημιουργία ηχητικού χάρτη του Pacific Crest Trail"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "New EU plan for Arctic warily eyes influence of Russia, US",
-   "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-20T16:44:00+00:00",
-   "t": {
-    "pt": "Novo plano da UE para o Ártico olha com cautela a influência da Rússia e dos EUA",
-    "es": "El nuevo plan de la UE para el Ártico mira con recelo la influencia de Rusia y EE.UU.",
-    "it": "Il nuovo piano dell’UE per l’Artico guarda con cautela all’influenza di Russia e Stati Uniti",
-    "zh": "欧盟新北极计划警惕俄罗斯和美国的影响",
-    "fr": "Le nouveau plan de l’UE pour l’Arctique surveille avec méfiance l’influence de la Russie et des États-Unis",
-    "ar": "خطة الاتحاد الأوروبي الجديدة للقطب الشمالي تتطلع بحذر إلى تأثير روسيا والولايات المتحدة",
-    "de": "Neuer EU-Plan für die Arktis beäugt den Einfluss Russlands und der USA mit Vorsicht",
-    "el": "Το νέο σχέδιο της ΕΕ για την Αρκτική παρακολουθεί επιφυλακτικά την επιρροή Ρωσίας και ΗΠΑ"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "What Earth's sixth mass extinction event means for humans",
-   "url": "https://www.dw.com/en/what-earth-s-sixth-mass-extinction-event-means-for-humans/a-79680410?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-19T05:48:00+00:00",
-   "t": {
-    "pt": "O que o sexto evento de extinção em massa da Terra significa para os humanos",
-    "es": "Lo que significa para los humanos la sexta extinción masiva de la Tierra",
-    "it": "Cosa significa per gli esseri umani la sesta estinzione di massa della Terra",
-    "zh": "地球第六次大规模灭绝事件对人类意味着什么",
-    "fr": "Ce que la sixième extinction massive de la Terre signifie pour les humains",
-    "ar": "ماذا يعني حدث الانقراض الجماعي السادس للأرض بالنسبة للبشر؟",
-    "de": "Was das sechste Massensterben auf der Erde für den Menschen bedeutet",
-    "el": "Τι σημαίνει για τους ανθρώπους το έκτο γεγονός μαζικής εξαφάνισης της Γης"
    }
   }
  ]
