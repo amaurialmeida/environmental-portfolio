@@ -1,36 +1,100 @@
 {
- "updated": "2026-10-28T08:26:29.128759+00:00",
+ "updated": "2026-10-28T15:59:37.929919+00:00",
  "items": [
   {
-   "source": "AL JAZEERA",
-   "title": "Cyclone Arnab makes landfall in India’s Andhra Pradesh",
-   "url": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh?traffic_source=rss",
-   "date": "2026-10-28T08:07:26+00:00",
+   "source": "GUARDIAN",
+   "title": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
+   "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
+   "date": "2026-10-28T14:30:29+00:00",
    "t": {
-    "pt": "Ciclone Arnab atinge Andhra Pradesh, na Índia",
-    "es": "El ciclón Arnab toca tierra en Andhra Pradesh, India",
-    "it": "Il ciclone Arnab si abbatte sull’Andhra Pradesh in India",
-    "zh": "气旋“阿纳布”登陆印度安得拉邦",
-    "fr": "Le cyclone Arnab touche terre dans l’Andhra Pradesh en Inde",
-    "ar": "إعصار أرناب يصل إلى اليابسة في ولاية أندرا براديش في الهند",
-    "de": "Zyklon Arnab trifft im indischen Andhra Pradesh auf Land",
-    "el": "Ο κυκλώνας Arnab φτάνει στην στεριά στην Andhra Pradesh της Ινδίας"
+    "pt": "Trump diz que o governo ‘acabará’ com as regras de emissões de metano da era Biden",
+    "es": "Trump dice que el gobierno \"pondrá fin\" a las normas sobre emisiones de metano de la era Biden",
+    "it": "Trump dice che il governo “abolirà” le regole sulle emissioni di metano dell’era Biden",
+    "zh": "特朗普表示政府将“终止”拜登时代的甲烷排放规则",
+    "fr": "Trump dit que le gouvernement « mettra fin » aux règles sur les émissions de méthane de l’ère Biden",
+    "ar": "يقول ترامب إن الحكومة \"ستنهي\" قواعد انبعاثات غاز الميثان في عهد بايدن",
+    "de": "Trump sagt, die Regierung werde die Methanemissionsvorschriften der Biden-Ära „kündigen“.",
+    "el": "Ο Τραμπ λέει ότι η κυβέρνηση θα «τερματίσει» τους κανόνες για τις εκπομπές μεθανίου της εποχής Μπάιντεν"
    }
   },
   {
    "source": "GUARDIAN",
-   "title": "The climate crisis will destroy our economies – we learned this 20 years ago. When will we act? | Fiona Harvey",
-   "url": "https://www.theguardian.com/commentisfree/2026/oct/28/nicholas-stern-report-climate-consensus-lessons-capitalism",
-   "date": "2026-10-28T08:00:01+00:00",
+   "title": "Menindee Lakes water levels drop to lowest in five years as experts warn of mass fish deaths",
+   "url": "https://www.theguardian.com/australia-news/2026/oct/28/menindee-lakes-water-levels-drop-mass-fish-death-fears",
+   "date": "2026-10-28T14:00:07+00:00",
    "t": {
-    "pt": "A crise climática destruirá as nossas economias – aprendemos isto há 20 anos. Quando iremos agir? | Fiona Harvey",
-    "es": "La crisis climática destruirá nuestras economías; lo aprendimos hace 20 años. ¿Cuándo actuaremos? | Fiona Harvey",
-    "it": "La crisi climatica distruggerà le nostre economie – lo abbiamo imparato 20 anni fa. Quando agiremo? | Fiona Harvey",
-    "zh": "气候危机将摧毁我们的经济——我们 20 年前就知道了这一点。我们什么时候行动？ |菲奥娜·哈维",
-    "fr": "La crise climatique détruira nos économies – nous l’avons appris il y a 20 ans. Quand allons-nous agir ? | Fiona Harvey",
-    "ar": "سوف تدمر أزمة المناخ اقتصاداتنا ــ لقد تعلمنا هذا قبل عشرين عاما. متى سنتصرف؟ | فيونا هارفي",
-    "de": "Die Klimakrise wird unsere Volkswirtschaften zerstören – das haben wir vor 20 Jahren gelernt. Wann werden wir handeln? | Fiona Harvey",
-    "el": "Η κλιματική κρίση θα καταστρέψει τις οικονομίες μας – το μάθαμε πριν από 20 χρόνια. Πότε θα δράσουμε; | Φιόνα Χάρβεϊ"
+    "pt": "Os níveis de água dos lagos Menindee caem para o nível mais baixo em cinco anos, enquanto especialistas alertam sobre mortes em massa de peixes",
+    "es": "Los niveles de agua de los lagos Menindee caen al nivel más bajo en cinco años mientras los expertos advierten sobre muertes masivas de peces",
+    "it": "I livelli delle acque dei laghi Menindee scendono al minimo degli ultimi cinque anni mentre gli esperti avvertono di morie di pesci di massa",
+    "zh": "专家警告称，梅宁迪湖水位降至五年来最低水平，鱼类大量死亡",
+    "fr": "Les niveaux d'eau des lacs Menindee chutent à leur plus bas niveau en cinq ans alors que les experts mettent en garde contre la mort massive de poissons",
+    "ar": "تنخفض مستويات المياه في بحيرات مينيندي إلى أدنى مستوياتها منذ خمس سنوات، حيث يحذر الخبراء من نفوق الأسماك على نطاق واسع",
+    "de": "Der Wasserstand der Menindee Lakes ist auf den niedrigsten Stand seit fünf Jahren gesunken, da Experten vor einem Massensterben von Fischen warnen",
+    "el": "Τα επίπεδα των υδάτων των λιμνών Menindee πέφτουν στο χαμηλότερο επίπεδο των τελευταίων πέντε ετών, καθώς οι ειδικοί προειδοποιούν για μαζικούς θανάτους ψαριών"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Mark Carney is celebrated abroad – while consolidating power at home | Shiri Pasternak",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/28/mark-carney-trump-davos",
+   "date": "2026-10-28T13:00:04+00:00",
+   "t": {
+    "pt": "Mark Carney é celebrado no exterior – enquanto consolida o poder em casa | Shiri Pasternak",
+    "es": "Mark Carney es celebrado en el extranjero, mientras consolida su poder en casa | Shiri Pasternak",
+    "it": "Mark Carney viene celebrato all'estero – mentre si consolida il potere in patria | Shiri Pasternak",
+    "zh": "马克·卡尼在国外享有盛誉，同时在国内巩固权力|希里·帕斯捷尔纳克",
+    "fr": "Mark Carney est célébré à l’étranger – tout en consolidant le pouvoir chez lui | Shiri Pasternak",
+    "ar": "يتم الاحتفال بمارك كارني في الخارج – بينما يعزز سلطته في الداخل | شيري باسترناك",
+    "de": "Mark Carney wird im Ausland gefeiert – während er im Inland seine Macht festigt | Shiri Pasternak",
+    "el": "Ο Mark Carney γιορτάζεται στο εξωτερικό – ενώ εδραιώνει την εξουσία στο εσωτερικό | Σίρι Παστερνάκ"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Will it be AI or the climate crisis that ends humanity? We can make it neither | Adam McKay and Philip Eubanks",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/28/ai-climate-crisis-humanity",
+   "date": "2026-10-28T12:00:04+00:00",
+   "t": {
+    "pt": "Será a IA ou a crise climática que acabará com a humanidade? Nós não podemos fazer isso também | Adam McKay e Philip Eubanks",
+    "es": "¿Será la IA o la crisis climática lo que acabe con la humanidad? No podemos hacerlo tampoco | Adam McKay y Philip Eubanks",
+    "it": "Sarà l’intelligenza artificiale o la crisi climatica a porre fine all’umanità? Nemmeno noi possiamo farcela | Adam McKay e Philip Eubanks",
+    "zh": "终结人类的会是人工智能还是气候危机？我们都做不到 |亚当·麦凯和菲利普·尤班克斯",
+    "fr": "Sera-ce l’IA ou la crise climatique qui mettra fin à l’humanité ? Nous n’y parvenons pas non plus | Adam McKay et Philip Eubanks",
+    "ar": "هل الذكاء الاصطناعي أم أزمة المناخ هي التي ستقضي على البشرية؟ لا نستطيع أن نفعل ذلك ولا | آدم مكاي وفيليب يوبانكس",
+    "de": "Wird es die KI oder die Klimakrise sein, die der Menschheit das Ende bereitet? Wir können es auch nicht schaffen | Adam McKay und Philip Eubanks",
+    "el": "Θα είναι η τεχνητή νοημοσύνη ή η κλιματική κρίση που θα τερματίσει την ανθρωπότητα; Δεν μπορούμε να το κάνουμε ούτε | Adam McKay και Philip Eubanks"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Cyclone leaves trail of destruction in India as thousands evacuated",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
+   "date": "2026-10-28T11:41:04+00:00",
+   "t": {
+    "pt": "Ciclone deixa rastro de destruição na Índia enquanto milhares de pessoas evacuam",
+    "es": "Ciclón deja un rastro de destrucción en India mientras miles de personas son evacuadas",
+    "it": "Il ciclone lascia tracce di distruzione in India mentre migliaia di persone vengono evacuate",
+    "zh": "飓风在印度留下破坏痕迹，数千人撤离",
+    "fr": "Le cyclone laisse des traces de destruction en Inde et des milliers de personnes sont évacuées",
+    "ar": "الإعصار يترك آثار الدمار في الهند مع إجلاء الآلاف",
+    "de": "Zyklon hinterlässt in Indien eine Spur der Zerstörung, Tausende wurden evakuiert",
+    "el": "Κυκλώνας αφήνει ίχνη καταστροφής στην Ινδία καθώς χιλιάδες εκκενώθηκαν"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Families brace for a fourth winter of wind, rain and floods in Gaza’s camps",
+   "url": "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
+   "date": "2026-10-28T11:36:04+00:00",
+   "t": {
+    "pt": "Famílias se preparam para um quarto inverno de ventos, chuvas e inundações nos campos de Gaza",
+    "es": "Las familias se preparan para un cuarto invierno de viento, lluvia e inundaciones en los campamentos de Gaza",
+    "it": "Le famiglie si preparano ad un quarto inverno di vento, pioggia e inondazioni nei campi di Gaza",
+    "zh": "加沙难民营中的家庭正准备迎接第四个充满风雨和洪水的冬天",
+    "fr": "Les familles se préparent à un quatrième hiver de vent, de pluie et d’inondations dans les camps de Gaza",
+    "ar": "تستعد العائلات لفصل الشتاء الرابع من الرياح والأمطار والفيضانات في مخيمات غزة",
+    "de": "Familien bereiten sich auf einen vierten Winter mit Wind, Regen und Überschwemmungen in den Lagern im Gazastreifen vor",
+    "el": "Οικογένειες προετοιμάζονται για έναν τέταρτο χειμώνα με αέρα, βροχή και πλημμύρες στους καταυλισμούς της Γάζας"
    }
   },
   {
@@ -50,51 +114,19 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Sea of crimson: vivid ‘red beach’ transforms China’s wetlands and marshes – in pictures",
-   "url": "https://www.theguardian.com/world/gallery/2026/oct/28/vivid-red-beach-transforms-chinas-wetlands-qinqdao-in-pictures",
-   "date": "2026-10-28T06:00:04+00:00",
-   "t": {
-    "pt": "Mar carmesim: a vívida ‘praia vermelha’ transforma as zonas úmidas e pântanos da China – em fotos",
-    "es": "Mar carmesí: la vivaz “playa roja” transforma los humedales y marismas de China – en imágenes",
-    "it": "Mare cremisi: la vivida “spiaggia rossa” trasforma le zone umide e le paludi della Cina – in immagini",
-    "zh": "深红色的海洋：生动的“红海滩”改变了中国的湿地和沼泽——图片",
-    "fr": "Mer pourpre : une « plage rouge vif » transforme les zones humides et les marais de Chine – en images",
-    "ar": "البحر القرمزي: \"الشاطئ الأحمر\" النابض بالحياة يُحدث تحولاً في الأراضي الرطبة والمستنقعات في الصين - بالصور",
-    "de": "Purpurrotes Meer: Leuchtender „roter Strand“ verwandelt Chinas Feuchtgebiete und Sümpfe – in Bildern",
-    "el": "Sea of Crimson: η ζωντανή «κόκκινη παραλία» μεταμορφώνει τους υγροτόπους και τα έλη της Κίνας – σε εικόνες"
-   }
-  },
-  {
    "source": "DW",
-   "title": "India news: Cyclone Arnab brings heavy rain, disruption",
-   "url": "https://www.dw.com/en/india-news-cyclone-arnab-brings-heavy-rain-disruption/live-79782323?maca=en-rss-en-all-1573-rdf",
+   "title": "India news: Cyclone Arnab turns deadly after landfall",
+   "url": "https://www.dw.com/en/india-news-cyclone-arnab-turns-deadly-after-landfall/live-79782323?maca=en-rss-en-all-1573-rdf",
    "date": "2026-10-28T04:30:00+00:00",
    "t": {
-    "pt": "Notícias da Índia: Ciclone Arnab traz fortes chuvas e perturbações",
-    "es": "Noticias de India: el ciclón Arnab provoca fuertes lluvias y perturbaciones",
-    "it": "Notizie dall'India: il ciclone Arnab porta forti piogge e disagi",
-    "zh": "印度新闻：飓风“阿纳布”带来大雨和破坏",
-    "fr": "Inde : le cyclone Arnab apporte de fortes pluies et des perturbations",
-    "ar": "أخبار الهند: إعصار أرناب يجلب أمطارًا غزيرة واضطرابًا",
-    "de": "Nachrichten aus Indien: Zyklon Arnab bringt starken Regen und Störungen",
-    "el": "Ειδήσεις από την Ινδία: Ο κυκλώνας Arnab φέρνει δυνατή βροχή, αναστάτωση"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
-   "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
-   "date": "2026-10-28T01:45:27+00:00",
-   "t": {
-    "pt": "Trump diz que o governo ‘acabará’ com as regras de emissões de metano da era Biden",
-    "es": "Trump dice que el gobierno \"pondrá fin\" a las normas sobre emisiones de metano de la era Biden",
-    "it": "Trump dice che il governo “abolirà” le regole sulle emissioni di metano dell’era Biden",
-    "zh": "特朗普表示政府将“终止”拜登时代的甲烷排放规则",
-    "fr": "Trump dit que le gouvernement « mettra fin » aux règles sur les émissions de méthane de l’ère Biden",
-    "ar": "يقول ترامب إن الحكومة \"ستنهي\" قواعد انبعاثات غاز الميثان في عهد بايدن",
-    "de": "Trump sagt, die Regierung werde die Methanemissionsvorschriften der Biden-Ära „kündigen“.",
-    "el": "Ο Τραμπ λέει ότι η κυβέρνηση θα «τερματίσει» τους κανόνες για τις εκπομπές μεθανίου της εποχής Μπάιντεν"
+    "pt": "Notícias da Índia: Ciclone Arnab se torna mortal após atingir o continente",
+    "es": "Noticias de India: el ciclón Arnab se vuelve mortal después de tocar tierra",
+    "it": "Notizie dall'India: il ciclone Arnab diventa mortale dopo l'atterraggio",
+    "zh": "印度新闻：飓风“阿纳布”登陆后致人死亡",
+    "fr": "Inde : le cyclone Arnab devient mortel après avoir touché terre",
+    "ar": "أخبار الهند: إعصار أرناب يتحول إلى مميت بعد وصوله إلى اليابسة",
+    "de": "Nachrichten aus Indien: Zyklon Arnab wird nach Landung tödlich",
+    "el": "Ειδήσεις από την Ινδία: Ο κυκλώνας Arnab γίνεται θανατηφόρος μετά την πτώση"
    }
   },
   {
@@ -127,22 +159,6 @@
     "ar": "يؤدي الخلاف بين علماء الرياضيات إلى تأجيج المخاوف من أن الذكاء الاصطناعي قد يقوض العلم",
     "de": "Ein Streit zwischen Mathematikern schürt Ängste, dass KI die Wissenschaft untergraben könnte",
     "el": "Μια σύγκρουση μεταξύ μαθηματικών τροφοδοτεί φόβους ότι η τεχνητή νοημοσύνη θα μπορούσε να υπονομεύσει την επιστήμη"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘I use disposable cups’: Chris Minns backflips on takeaway coffee cups after media and business backlash",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/28/chris-minns-backflips-disposable-coffee-cups-nsw-politics",
-   "date": "2026-10-28T00:38:27+00:00",
-   "t": {
-    "pt": "‘Eu uso copos descartáveis’: Chris Minns dá cambalhotas em xícaras de café para viagem após reação da mídia e dos negócios",
-    "es": "“Yo uso vasos desechables”: Chris Minns da volteretas hacia atrás sobre los vasos de café para llevar después de la reacción de los medios y las empresas",
-    "it": "\"Uso tazze usa e getta\": Chris Minns fa un salto indietro sulle tazze di caffè da asporto dopo la reazione negativa dei media e degli affari",
-    "zh": "“我使用一次性杯子”：在媒体和商业强烈反对后，克里斯明斯在外卖咖啡杯上后空翻",
-    "fr": "« J'utilise des gobelets jetables » : Chris Minns fait marche arrière sur les tasses à café à emporter après la réaction des médias et des entreprises",
-    "ar": "\"أنا أستخدم الأكواب التي تستخدم لمرة واحدة\": يقلب كريس مينز على فناجين القهوة الجاهزة بعد رد فعل عنيف من وسائل الإعلام والشركات",
-    "de": "„Ich benutze Einwegbecher“: Chris Minns macht nach Medien- und Geschäftsreaktionen einen Rückzieher bei Kaffeebechern zum Mitnehmen",
-    "el": "«Χρησιμοποιώ φλιτζάνια μιας χρήσης»: Ο Κρις Μινς γυρίζει πίσω τα φλιτζάνια του καφέ μετά από αντιδράσεις μέσων και επιχειρήσεων"
    }
   },
   {
@@ -242,38 +258,6 @@
    }
   },
   {
-   "source": "NATURE",
-   "title": "Methane emissions remain flat even as biggest US oil region opens the tap",
-   "url": "https://www.nature.com/articles/d41586-026-03388-2",
-   "date": "2026-10-27T00:00:00+00:00",
-   "t": {
-    "pt": "As emissões de metano permanecem estáveis, mesmo com a maior região petrolífera dos EUA abrindo a torneira",
-    "es": "Las emisiones de metano se mantienen estables incluso cuando la mayor región petrolera de EE. UU. abre el grifo",
-    "it": "Le emissioni di metano rimangono stabili anche se la più grande regione petrolifera degli Stati Uniti apre il rubinetto",
-    "zh": "即使美国最大的石油地区打开水龙头，甲烷排放量仍保持平稳",
-    "fr": "Les émissions de méthane restent stables alors même que la plus grande région pétrolière des États-Unis ouvre le robinet",
-    "ar": "تظل انبعاثات غاز الميثان ثابتة حتى مع قيام أكبر منطقة نفطية في الولايات المتحدة بفتح الصنبور",
-    "de": "Die Methanemissionen bleiben unverändert, auch wenn die größte Ölregion der USA den Hahn öffnet",
-    "el": "Οι εκπομπές μεθανίου παραμένουν σταθερές ακόμη και όταν η μεγαλύτερη πετρελαϊκή περιοχή των ΗΠΑ ανοίγει τη βρύση"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Global climate body fights for survival: why the IPCC must be saved",
-   "url": "https://www.nature.com/articles/d41586-026-03403-6",
-   "date": "2026-10-27T00:00:00+00:00",
-   "t": {
-    "pt": "Organismo climático global luta pela sobrevivência: por que o IPCC deve ser salvo",
-    "es": "El organismo climático mundial lucha por la supervivencia: por qué hay que salvar al IPCC",
-    "it": "L’organismo globale per il clima lotta per la sopravvivenza: perché l’IPCC deve essere salvato",
-    "zh": "全球气候机构为生存而战：为什么必须拯救IPCC",
-    "fr": "L’organisme climatique mondial lutte pour sa survie : pourquoi le GIEC doit être sauvé",
-    "ar": "هيئة المناخ العالمية تناضل من أجل البقاء: لماذا يجب إنقاذ الهيئة الحكومية الدولية المعنية بتغير المناخ",
-    "de": "Globales Klimagremium kämpft ums Überleben: Warum das IPCC gerettet werden muss",
-    "el": "Το παγκόσμιο σώμα για το κλίμα παλεύει για την επιβίωση: γιατί πρέπει να σωθεί η IPCC"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Brazil’s Vote Is a Victory for the Amazon, Environmentalists Say",
    "url": "https://www.nytimes.com/2026/10/26/climate/brazil-lula-bolsonaro-amazon.html",
@@ -303,22 +287,6 @@
     "ar": "عندما تكون الأسماك الغازية لذيذة أيضًا، يمكن لأطفال المدارس في ماريلاند المساعدة في \"تناول المشكلة\"",
     "de": "Wenn ein invasiver Fisch auch lecker ist, können Schulkinder aus Maryland dabei helfen, „das Problem zu lösen“",
     "el": "Όταν ένα χωροκατακτητικό ψάρι είναι επίσης νόστιμο, οι μαθητές του Μέριλαντ μπορούν να βοηθήσουν «να φάνε το πρόβλημα»"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Can a 'lullaby' save coral reefs from extinction?",
-   "url": "https://www.nature.com/articles/d41586-026-03414-3",
-   "date": "2026-10-22T00:00:00+00:00",
-   "t": {
-    "pt": "Uma 'canção de ninar' pode salvar os recifes de coral da extinção?",
-    "es": "¿Puede una 'canción de cuna' salvar a los arrecifes de coral de la extinción?",
-    "it": "Può una “ninna nanna” salvare le barriere coralline dall’estinzione?",
-    "zh": "“摇篮曲”能拯救珊瑚礁免于灭绝吗？",
-    "fr": "Une « berceuse » peut-elle sauver les récifs coralliens de l'extinction ?",
-    "ar": "هل تستطيع \"التهويدة\" إنقاذ الشعاب المرجانية من الانقراض؟",
-    "de": "Kann ein „Schlaflied“ Korallenriffe vor dem Aussterben bewahren?",
-    "el": "Μπορεί ένα «νανούρισμα» να σώσει τους κοραλλιογενείς υφάλους από την εξαφάνιση;"
    }
   },
   {
@@ -370,19 +338,19 @@
    }
   },
   {
-   "source": "NATURE",
-   "title": "Author Correction: Catalyst-free, microdroplet-mediated waste plastic conversion to diacids",
-   "url": "https://www.nature.com/articles/s41586-026-11252-6",
-   "date": "2026-10-21T00:00:00+00:00",
+   "source": "DW",
+   "title": "New EU plan for Arctic warily eyes influence of Russia, US",
+   "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-10-20T16:44:00+00:00",
    "t": {
-    "pt": "Correção do autor: Conversão de resíduos de plástico mediada por microgotículas, sem catalisador, em diácidos",
-    "es": "Corrección del autor: Conversión de residuos de plástico en diácidos, mediada por microgotas y sin catalizadores",
-    "it": "Correzione dell'autore: conversione della plastica di scarto in diacidi, senza catalizzatori, mediata da microgocce",
-    "zh": "作者更正：无催化剂、微滴介导的废塑料转化为二酸",
-    "fr": "Correction de l'auteur : Conversion de déchets plastiques sans catalyseur et par microgouttelettes en diacides",
-    "ar": "تصحيح المؤلف: تحويل النفايات البلاستيكية الخالية من المحفزات بوساطة القطرات الدقيقة إلى ثنائيات الأحماض",
-    "de": "Korrektur des Autors: Katalysatorfreie, durch Mikrotröpfchen vermittelte Umwandlung von Kunststoffabfällen in Disäuren",
-    "el": "Διόρθωση συγγραφέα: Μετατροπή πλαστικών απορριμμάτων χωρίς καταλύτες, με μεσολάβηση μικροσταγονιδίων σε διοξέα"
+    "pt": "Novo plano da UE para o Ártico olha com cautela a influência da Rússia e dos EUA",
+    "es": "El nuevo plan de la UE para el Ártico mira con recelo la influencia de Rusia y EE.UU.",
+    "it": "Il nuovo piano dell’UE per l’Artico guarda con cautela all’influenza di Russia e Stati Uniti",
+    "zh": "欧盟新北极计划警惕俄罗斯和美国的影响",
+    "fr": "Le nouveau plan de l’UE pour l’Arctique surveille avec méfiance l’influence de la Russie et des États-Unis",
+    "ar": "خطة الاتحاد الأوروبي الجديدة للقطب الشمالي تتطلع بحذر إلى نفوذ روسيا والولايات المتحدة",
+    "de": "Neuer EU-Plan für die Arktis misstrauisch gegenüber Einfluss Russlands und der USA",
+    "el": "Το νέο σχέδιο της ΕΕ για την Αρκτική παρακολουθεί επιφυλακτικά την επιρροή Ρωσίας και ΗΠΑ"
    }
   }
  ]
