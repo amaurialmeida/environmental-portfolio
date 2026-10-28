@@ -1,6 +1,38 @@
 {
- "updated": "2026-10-28T15:59:37.929919+00:00",
+ "updated": "2026-10-28T21:02:05.119175+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+   "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-28T19:15:58+00:00",
+   "t": {
+    "pt": "Elon Musk é um ‘verdadeiro gênio’, diz Putin após negociações de satélite com o chefe da SpaceX",
+    "es": "Elon Musk es un \"verdadero genio\", dice Putin después de las conversaciones sobre satélites con el jefe de SpaceX",
+    "it": "Elon Musk è un \"vero genio\", dice Putin dopo i colloqui sul satellite con il capo di SpaceX",
+    "zh": "普京在与 SpaceX 老板进行卫星会谈后表示，埃隆·马斯克是“真正的天才”",
+    "fr": "Elon Musk est un « vrai génie », déclare Poutine après des discussions sur le satellite avec le patron de SpaceX",
+    "ar": "إيلون موسك هو \"عبقري حقيقي\"، هكذا قال بوتين بعد محادثات عبر الأقمار الصناعية مع رئيس شركة سبيس إكس",
+    "de": "Elon Musk sei ein „echtes Genie“, sagt Putin nach Satellitengesprächen mit SpaceX-Chef",
+    "el": "Ο Έλον Μασκ είναι μια «πραγματική ιδιοφυΐα», λέει ο Πούτιν μετά από δορυφορικές συνομιλίες με το αφεντικό της SpaceX"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "California’s High Tides Set Records This Week. They’re Going to Get Higher.",
+   "url": "https://www.nytimes.com/2026/10/27/weather/king-tides-california-la-sf.html",
+   "date": "2026-10-28T16:19:56+00:00",
+   "t": {
+    "pt": "As marés altas da Califórnia bateram recordes esta semana. Eles vão ficar mais altos.",
+    "es": "Las mareas altas de California establecen récords esta semana. Van a llegar más alto.",
+    "it": "Le alte maree della California stabiliscono record questa settimana. Diventeranno più alti.",
+    "zh": "加州本周涨潮创下纪录。他们会变得更高。",
+    "fr": "Les marées hautes de Californie ont établi des records cette semaine. Ils vont monter plus haut.",
+    "ar": "ارتفاع المد والجزر في كاليفورنيا يسجل أرقامًا قياسية هذا الأسبوع. سوف يرتفعون.",
+    "de": "Kaliforniens Hochwasser stellt diese Woche Rekorde auf. Sie werden höher werden.",
+    "el": "Οι υψηλές παλίρροιες της Καλιφόρνια έκαναν ρεκόρ αυτή την εβδομάδα. Θα Ανεβούν Ανώτεροι."
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
@@ -63,38 +95,6 @@
     "ar": "هل الذكاء الاصطناعي أم أزمة المناخ هي التي ستقضي على البشرية؟ لا نستطيع أن نفعل ذلك ولا | آدم مكاي وفيليب يوبانكس",
     "de": "Wird es die KI oder die Klimakrise sein, die der Menschheit das Ende bereitet? Wir können es auch nicht schaffen | Adam McKay und Philip Eubanks",
     "el": "Θα είναι η τεχνητή νοημοσύνη ή η κλιματική κρίση που θα τερματίσει την ανθρωπότητα; Δεν μπορούμε να το κάνουμε ούτε | Adam McKay και Philip Eubanks"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Cyclone leaves trail of destruction in India as thousands evacuated",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
-   "date": "2026-10-28T11:41:04+00:00",
-   "t": {
-    "pt": "Ciclone deixa rastro de destruição na Índia enquanto milhares de pessoas evacuam",
-    "es": "Ciclón deja un rastro de destrucción en India mientras miles de personas son evacuadas",
-    "it": "Il ciclone lascia tracce di distruzione in India mentre migliaia di persone vengono evacuate",
-    "zh": "飓风在印度留下破坏痕迹，数千人撤离",
-    "fr": "Le cyclone laisse des traces de destruction en Inde et des milliers de personnes sont évacuées",
-    "ar": "الإعصار يترك آثار الدمار في الهند مع إجلاء الآلاف",
-    "de": "Zyklon hinterlässt in Indien eine Spur der Zerstörung, Tausende wurden evakuiert",
-    "el": "Κυκλώνας αφήνει ίχνη καταστροφής στην Ινδία καθώς χιλιάδες εκκενώθηκαν"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Families brace for a fourth winter of wind, rain and floods in Gaza’s camps",
-   "url": "https://www.aljazeera.com/features/2026/10/28/gaza-families-brace-for-a-fourth-winter-of-wind-rain-and-floods-in-camps?traffic_source=rss",
-   "date": "2026-10-28T11:36:04+00:00",
-   "t": {
-    "pt": "Famílias se preparam para um quarto inverno de ventos, chuvas e inundações nos campos de Gaza",
-    "es": "Las familias se preparan para un cuarto invierno de viento, lluvia e inundaciones en los campamentos de Gaza",
-    "it": "Le famiglie si preparano ad un quarto inverno di vento, pioggia e inondazioni nei campi di Gaza",
-    "zh": "加沙难民营中的家庭正准备迎接第四个充满风雨和洪水的冬天",
-    "fr": "Les familles se préparent à un quatrième hiver de vent, de pluie et d’inondations dans les camps de Gaza",
-    "ar": "تستعد العائلات لفصل الشتاء الرابع من الرياح والأمطار والفيضانات في مخيمات غزة",
-    "de": "Familien bereiten sich auf einen vierten Winter mit Wind, Regen und Überschwemmungen in den Lagern im Gazastreifen vor",
-    "el": "Οικογένειες προετοιμάζονται για έναν τέταρτο χειμώνα με αέρα, βροχή και πλημμύρες στους καταυλισμούς της Γάζας"
    }
   },
   {
@@ -178,22 +178,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "California’s High Tides Set Records This Week. They’re Going to Get Higher.",
-   "url": "https://www.nytimes.com/2026/10/27/weather/king-tides-california-la-sf.html",
-   "date": "2026-10-27T22:33:06+00:00",
-   "t": {
-    "pt": "As marés altas da Califórnia bateram recordes esta semana. Eles vão ficar mais altos.",
-    "es": "Las mareas altas de California establecen récords esta semana. Van a llegar más alto.",
-    "it": "Le alte maree della California stabiliscono record questa settimana. Diventeranno più alti.",
-    "zh": "加州本周涨潮创下纪录。他们会变得更高。",
-    "fr": "Les marées hautes de Californie ont établi des records cette semaine. Ils vont monter plus haut.",
-    "ar": "ارتفاع المد والجزر في كاليفورنيا يسجل أرقامًا قياسية هذا الأسبوع. سوف يرتفعون.",
-    "de": "Kaliforniens Hochwasser stellt diese Woche Rekorde auf. Sie werden höher werden.",
-    "el": "Οι υψηλές παλίρροιες της Καλιφόρνια έκαναν ρεκόρ αυτή την εβδομάδα. Θα Ανεβούν Ανώτεροι."
-   }
-  },
-  {
    "source": "BBC",
    "title": "Weather warning lifted as third storm to hit Scotland eases off",
    "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
@@ -239,22 +223,6 @@
     "ar": "سياسات كندا المناخية تخضع للمحاكمة",
     "de": "Kanadas Klimapolitik steht vor Gericht",
     "el": "Δοκιμάζονται οι Πολιτικές του Καναδά για το κλίμα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Nanotyrannus skeleton sells for $47.3m in New York auction",
-   "url": "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-27T17:10:15+00:00",
-   "t": {
-    "pt": "Esqueleto de Nanotyrannus é vendido por US$ 47,3 milhões em leilão em Nova York",
-    "es": "El esqueleto de Nanotyrannus se vende por 47,3 millones de dólares en una subasta de Nueva York",
-    "it": "Lo scheletro di Nanotyrannus venduto all'asta di New York per 47,3 milioni di dollari",
-    "zh": "矮暴龙骨架在纽约拍卖以 4730 万美元成交",
-    "fr": "Le squelette de Nanotyrannus vendu 47,3 millions de dollars aux enchères à New York",
-    "ar": "بيع الهيكل العظمي لـ Nanotyrannus مقابل 47.3 مليون دولار في مزاد في نيويورك",
-    "de": "Nanotyrannus-Skelett wird bei New Yorker Auktion für 47,3 Millionen US-Dollar versteigert",
-    "el": "Σκελετός Nanotyrannus πωλείται έναντι 47,3 εκατομμυρίων δολαρίων σε δημοπρασία της Νέας Υόρκης"
    }
   },
   {
