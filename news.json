@@ -1,6 +1,54 @@
 {
- "updated": "2026-10-29T19:39:50.033336+00:00",
+ "updated": "2026-10-29T23:55:44.276013+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "What makes this golden eagle chick so important?",
+   "url": "https://www.bbc.co.uk/news/articles/cq4g1jyj9dv7o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-29T23:00:41+00:00",
+   "t": {
+    "pt": "O que torna esse filhote de águia dourada tão importante?",
+    "es": "¿Qué hace que este polluelo de águila real sea tan importante?",
+    "it": "Cosa rende questo pulcino dell'aquila reale così importante?",
+    "zh": "是什么让这只金雕小鸡如此重要？",
+    "fr": "Qu’est-ce qui rend ce poussin aigle royal si important ?",
+    "ar": "ما الذي يجعل فرخ النسر الذهبي في غاية الأهمية؟",
+    "de": "Was macht dieses Steinadlerküken so wichtig?",
+    "el": "Τι κάνει αυτό το γκόμενο του χρυσαετού τόσο σημαντικό;"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "BBC Inside Science",
+   "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-29T21:00:00+00:00",
+   "t": {
+    "pt": "BBC por dentro da ciência",
+    "es": "BBC dentro de la ciencia",
+    "it": "BBC Dentro la scienza",
+    "zh": "BBC 科学内幕",
+    "fr": "BBC à l'intérieur de la science",
+    "ar": "بي بي سي داخل العلوم",
+    "de": "BBC Inside Science",
+    "el": "BBC Inside Science"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "The Perils of Glittering Skylines",
+   "url": "https://www.nytimes.com/2026/10/29/world/glass-skyscrapers-climate-patrick-stewart.html",
+   "date": "2026-10-29T20:31:15+00:00",
+   "t": {
+    "pt": "Os perigos dos horizontes brilhantes",
+    "es": "Los peligros de los horizontes resplandecientes",
+    "it": "I pericoli degli skyline scintillanti",
+    "zh": "闪闪发光的天际线的危险",
+    "fr": "Les périls des horizons scintillants",
+    "ar": "مخاطر الآفاق المتلألئة",
+    "de": "Die Gefahren glitzernder Skylines",
+    "el": "The Rils of Glittering Skylines"
+   }
+  },
   {
    "source": "BBC",
    "title": "Firefighters celebrate rain during Indonesia wildfires",
@@ -79,22 +127,6 @@
     "ar": "تظهر الدراسة أنه حتى الطيور تصاب باضطراب الرحلات الجوية الطويلة",
     "de": "Sogar Vögel leiden unter Jetlag, wie eine Studie zeigt",
     "el": "Ακόμη και τα πουλιά παθαίνουν jet lagg, σύμφωνα με μελέτη"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "BBC Inside Science",
-   "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-29T17:00:00+00:00",
-   "t": {
-    "pt": "BBC por dentro da ciência",
-    "es": "BBC dentro de la ciencia",
-    "it": "BBC Dentro la scienza",
-    "zh": "BBC 科学内幕",
-    "fr": "BBC à l'intérieur de la science",
-    "ar": "بي بي سي داخل العلوم",
-    "de": "BBC Inside Science",
-    "el": "BBC Inside Science"
    }
   },
   {
@@ -178,22 +210,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Serious pollution by water industry remains high despite £5bn investment",
-   "url": "https://www.bbc.co.uk/news/articles/cw5ynxepy4gno?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-29T12:08:01+00:00",
-   "t": {
-    "pt": "A poluição grave pela indústria da água continua elevada, apesar do investimento de £ 5 bilhões",
-    "es": "La grave contaminación causada por la industria del agua sigue siendo elevada a pesar de una inversión de 5.000 millones de libras esterlinas",
-    "it": "Il grave inquinamento causato dall’industria idrica rimane elevato nonostante gli investimenti di 5 miliardi di sterline",
-    "zh": "尽管投资 50 亿英镑，水工业的严重污染仍然严重",
-    "fr": "La grave pollution causée par l’industrie de l’eau reste élevée malgré un investissement de 5 milliards de livres sterling",
-    "ar": "لا يزال التلوث الخطير الناجم عن صناعة المياه مرتفعا على الرغم من الاستثمار بقيمة 5 مليارات جنيه إسترليني",
-    "de": "Die schwere Umweltverschmutzung durch die Wasserindustrie ist trotz Investitionen in Höhe von 5 Milliarden Pfund weiterhin hoch",
-    "el": "Η σοβαρή ρύπανση από τη βιομηχανία νερού παραμένει υψηλή παρά τις επενδύσεις £5 δις"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "A new wave of electric ferries is here in the US. Some even fly",
    "url": "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
@@ -258,22 +274,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "California’s High Tides Set Records This Week. They’re Going to Get Higher.",
-   "url": "https://www.nytimes.com/2026/10/27/weather/king-tides-california-la-sf.html",
-   "date": "2026-10-28T16:19:56+00:00",
-   "t": {
-    "pt": "As marés altas da Califórnia bateram recordes esta semana. Eles vão ficar mais altos.",
-    "es": "Las mareas altas de California establecen récords esta semana. Van a llegar más alto.",
-    "it": "Le alte maree della California stabiliscono record questa settimana. Diventeranno più alti.",
-    "zh": "加州本周涨潮创下纪录。他们会变得更高。",
-    "fr": "Les marées hautes de Californie ont établi des records cette semaine. Ils vont monter plus haut.",
-    "ar": "ارتفاع المد والجزر في كاليفورنيا يسجل أرقامًا قياسية هذا الأسبوع. سوف يرتفعون.",
-    "de": "Kaliforniens Hochwasser stellt diese Woche Rekorde auf. Sie werden höher werden.",
-    "el": "Οι υψηλές παλίρροιες της Καλιφόρνια έκαναν ρεκόρ αυτή την εβδομάδα. Θα Ανεβούν Ανώτεροι."
-   }
-  },
-  {
    "source": "NPR",
    "title": "Trump says he's ending restrictions on climate-warming methane from oil drilling",
    "url": "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions",
@@ -287,6 +287,70 @@
     "ar": "يقول ترامب إنه سينهي القيود المفروضة على غاز الميثان المسبب للاحتباس الحراري الناتج عن التنقيب عن النفط",
     "de": "Trump sagt, er werde die Beschränkungen für klimaerwärmendes Methan aus Ölbohrungen aufheben",
     "el": "Ο Τραμπ λέει ότι τερματίζει τους περιορισμούς στο μεθάνιο που θερμαίνει το κλίμα από τις γεωτρήσεις πετρελαίου"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Could a giant sunshade in space ‘solve global warming’? Scientists are taking the idea seriously",
+   "url": "https://www.nature.com/articles/d41586-026-03415-2",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Poderia um guarda-sol gigante no espaço ‘resolver o aquecimento global’? Os cientistas estão levando a ideia a sério",
+    "es": "¿Podría una sombrilla gigante en el espacio “resolver el calentamiento global”? Los científicos se están tomando la idea en serio.",
+    "it": "Un gigantesco parasole nello spazio potrebbe “risolvere il riscaldamento globale”? Gli scienziati stanno prendendo sul serio l’idea",
+    "zh": "太空中的巨型遮阳伞能否“解决全球变暖”？科学家们正在认真对待这个想法",
+    "fr": "Un parasol géant dans l’espace pourrait-il « résoudre le réchauffement climatique » ? Les scientifiques prennent l'idée au sérieux",
+    "ar": "هل يمكن لمظلة شمسية عملاقة في الفضاء أن تحل ظاهرة الاحتباس الحراري؟ يأخذ العلماء هذه الفكرة على محمل الجد",
+    "de": "Könnte ein riesiger Sonnenschirm im Weltraum „die globale Erwärmung lösen“? Wissenschaftler nehmen die Idee ernst",
+    "el": "Θα μπορούσε ένα γιγάντιο σκίαστρο στο διάστημα να «λύσει την υπερθέρμανση του πλανήτη»; Οι επιστήμονες παίρνουν την ιδέα στα σοβαρά"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Ribbon made of carbon pentagons and heptagons has metallic properties",
+   "url": "https://www.nature.com/articles/d41586-026-03298-3",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Fita feita de pentágonos e heptágonos de carbono tem propriedades metálicas",
+    "es": "La cinta hecha de pentágonos y heptágonos de carbono tiene propiedades metálicas",
+    "it": "Il nastro composto da pentagoni ed ettagoni di carbonio ha proprietà metalliche",
+    "zh": "由碳五边形和七边形制成的带具有金属特性",
+    "fr": "Le ruban composé de pentagones et d'heptagones de carbone possède des propriétés métalliques",
+    "ar": "الشريط المصنوع من خماسيات وسباعيات الكربون له خصائص معدنية",
+    "de": "Ein Band aus Kohlenstofffünfecken und -siebenecken hat metallische Eigenschaften",
+    "el": "Η κορδέλα από πεντάγωνα και επτάγωνα άνθρακα έχει μεταλλικές ιδιότητες"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Narrow carbon pentaheptite nanoribbon as a covalent metal",
+   "url": "https://www.nature.com/articles/s41586-026-11202-2",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Nanofita estreita de pentaheptita de carbono como metal covalente",
+    "es": "Nanocinta de pentaheptita de carbono estrecha como metal covalente",
+    "it": "Nanonastro di pentaeptite di carbonio stretto come metallo covalente",
+    "zh": "作为共价金属的窄碳五庚矿纳米带",
+    "fr": "Nanoruban de pentaheptite de carbone étroit comme métal covalent",
+    "ar": "شريط نانوريبون خماسي الببتيت الكربوني الضيق كمعدن تساهمي",
+    "de": "Schmales Kohlenstoffpentaheptit-Nanoband als kovalentes Metall",
+    "el": "Στενή νανοκορδέλα πενταεπτίτη άνθρακα ως ομοιοπολικό μέταλλο"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Methane emissions remain flat even as biggest US oil region opens the tap",
+   "url": "https://www.nature.com/articles/d41586-026-03388-2",
+   "date": "2026-10-27T00:00:00+00:00",
+   "t": {
+    "pt": "As emissões de metano permanecem estáveis, mesmo com a maior região petrolífera dos EUA abrindo a torneira",
+    "es": "Las emisiones de metano se mantienen estables incluso cuando la mayor región petrolera de EE. UU. abre el grifo",
+    "it": "Le emissioni di metano rimangono stabili anche se la più grande regione petrolifera degli Stati Uniti apre il rubinetto",
+    "zh": "即使美国最大的石油地区打开水龙头，甲烷排放量仍保持平稳",
+    "fr": "Les émissions de méthane restent stables alors même que la plus grande région pétrolière des États-Unis ouvre le robinet",
+    "ar": "تظل انبعاثات غاز الميثان ثابتة حتى مع قيام أكبر منطقة نفطية في الولايات المتحدة بفتح الصنبور",
+    "de": "Die Methanemissionen bleiben unverändert, auch wenn die größte Ölregion der USA den Hahn öffnet",
+    "el": "Οι εκπομπές μεθανίου παραμένουν σταθερές ακόμη και όταν η μεγαλύτερη πετρελαϊκή περιοχή των ΗΠΑ ανοίγει τη βρύση"
    }
   },
   {
@@ -319,38 +383,6 @@
     "ar": "تتبنى الاقتصادات الناشئة الطاقة الشمسية وتتخلى عن الوقود الأحفوري بسرعة أكبر بكثير من أوروبا أو الولايات المتحدة",
     "de": "Schwellenländer setzen viel schneller auf Solarenergie und verzichten auf fossile Brennstoffe als Europa oder die USA",
     "el": "Οι αναδυόμενες οικονομίες αγκαλιάζουν την ηλιακή ενέργεια και παρακάμπτουν τα ορυκτά καύσιμα πολύ πιο γρήγορα από την Ευρώπη ή τις ΗΠΑ"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Climate leaders called for solar energy for 'everyone, everywhere' by 2030, but with three years to go, is that goal attainable?",
-   "url": "https://www.dw.com/en/climate-leaders-called-for-solar-energy-for-everyone-everywhere-by-2030-but-with-three-years-to-go-is-that-goal-attainable/a-79517056?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-02T13:48:00+00:00",
-   "t": {
-    "pt": "Os líderes climáticos apelaram à energia solar para “todos, em todo o lado” até 2030, mas, faltando três anos, será esse objectivo alcançável?",
-    "es": "Los líderes climáticos pidieron energía solar para \"todos, en todas partes\" para 2030, pero cuando faltan tres años, ¿es alcanzable ese objetivo?",
-    "it": "I leader climatici chiedono l’energia solare per “tutti e ovunque” entro il 2030, ma a tre anni dalla fine, questo obiettivo è raggiungibile?",
-    "zh": "气候领导人呼吁到 2030 年为“每个人、每个地方”提供太阳能，但在剩下三年的时间里，这个目标可以实现吗？",
-    "fr": "Les leaders du climat ont appelé à l’énergie solaire pour « tout le monde, partout » d’ici 2030, mais à trois ans de l’échéance, cet objectif est-il réalisable ?",
-    "ar": "دعا قادة المناخ إلى توفير الطاقة الشمسية \"للجميع، في كل مكان\" بحلول عام 2030، ولكن مع بقاء ثلاث سنوات، هل يمكن تحقيق هذا الهدف؟",
-    "de": "Klimaschützer forderten Solarenergie für „jeden und überall“ bis 2030, aber ist dieses Ziel in drei Jahren erreichbar?",
-    "el": "Οι ηγέτες του κλίματος ζήτησαν ηλιακή ενέργεια για «όλους, παντού» έως το 2030, αλλά με τρία χρόνια πριν, είναι εφικτός αυτός ο στόχος;"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Weakened US fuel-efficiency rules and promises of cheaper cars could see drivers pay higher running costs while also increasing carbon emissions.",
-   "url": "https://www.dw.com/en/weakened-us-fuel-efficiency-rules-and-promises-of-cheaper-cars-could-see-drivers-pay-higher-running-costs-while-also-increasing-carbon-emissions/a-79496554?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-01T11:05:00+00:00",
-   "t": {
-    "pt": "As regras enfraquecidas em matéria de eficiência de combustível nos EUA e as promessas de automóveis mais baratos poderão fazer com que os condutores paguem custos de funcionamento mais elevados, ao mesmo tempo que aumentam as emissões de carbono.",
-    "es": "El debilitamiento de las normas estadounidenses sobre eficiencia de combustible y las promesas de automóviles más baratos podrían hacer que los conductores paguen mayores costos de funcionamiento y al mismo tiempo aumenten las emisiones de carbono.",
-    "it": "L’indebolimento delle regole statunitensi sull’efficienza del carburante e la promessa di auto più economiche potrebbero portare gli automobilisti a pagare costi di gestione più elevati, aumentando allo stesso tempo le emissioni di carbonio.",
-    "zh": "美国燃油效率规则的削弱和廉价汽车的承诺可能会导致司机支付更高的运营成本，同时也会增加碳排放。",
-    "fr": "L’affaiblissement des règles américaines en matière d’efficacité énergétique et les promesses de voitures moins chères pourraient amener les conducteurs à payer des coûts de fonctionnement plus élevés tout en augmentant également les émissions de carbone.",
-    "ar": "إن ضعف قواعد كفاءة استهلاك الوقود في الولايات المتحدة والوعود بالسيارات الرخيصة يمكن أن يدفع السائقين إلى دفع تكاليف تشغيل أعلى مع زيادة انبعاثات الكربون أيضًا.",
-    "de": "Geschwächte US-Vorschriften zur Kraftstoffeffizienz und Versprechen billigerer Autos könnten dazu führen, dass Autofahrer höhere Betriebskosten zahlen und gleichzeitig den CO2-Ausstoß erhöhen.",
-    "el": "Οι εξασθενημένοι κανόνες απόδοσης καυσίμου στις ΗΠΑ και οι υποσχέσεις για φθηνότερα αυτοκίνητα θα μπορούσαν να κάνουν τους οδηγούς να πληρώνουν υψηλότερα έξοδα λειτουργίας, ενώ παράλληλα θα αυξάνουν τις εκπομπές άνθρακα."
    }
   }
  ]
