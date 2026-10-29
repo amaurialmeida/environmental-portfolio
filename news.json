@@ -1,6 +1,102 @@
 {
- "updated": "2026-10-29T07:02:18.811981+00:00",
+ "updated": "2026-10-29T14:15:30.220624+00:00",
  "items": [
+  {
+   "source": "AL JAZEERA",
+   "title": "Men pulled from vehicle stranded by floods in Syria",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/men-pulled-from-vehicle-stranded-by-floods-in-syria?traffic_source=rss",
+   "date": "2026-10-29T13:15:14+00:00",
+   "t": {
+    "pt": "Homens são retirados de veículo presos por inundações na Síria",
+    "es": "Rescatan a hombres de un vehículo varados por las inundaciones en Siria",
+    "it": "Uomini estratti da un veicolo bloccato dalle inondazioni in Siria",
+    "zh": "叙利亚洪水中被困车辆中的男子被救出",
+    "fr": "Des hommes extraits d'un véhicule bloqués par les inondations en Syrie",
+    "ar": "رجال يُسحبون من سيارة تقطعت بهم السبل بسبب الفيضانات في سوريا",
+    "de": "Männer wurden in Syrien aus einem durch Überschwemmungen gestrandeten Fahrzeug gezogen",
+    "el": "Άνδρες ανασύρθηκαν από όχημα που είχε εγκλωβιστεί από τις πλημμύρες στη Συρία"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "South West Water given lowest environmental rating",
+   "url": "https://www.bbc.co.uk/news/articles/c574p7r0xnvpo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-29T12:56:58+00:00",
+   "t": {
+    "pt": "South West Water recebeu a classificação ambiental mais baixa",
+    "es": "South West Water recibe la calificación medioambiental más baja",
+    "it": "South West Water ha ottenuto il punteggio ambientale più basso",
+    "zh": "西南水务公司获得最低环境评级",
+    "fr": "South West Water reçoit la note environnementale la plus basse",
+    "ar": "حصلت مياه الجنوب الغربي على أدنى تصنيف بيئي",
+    "de": "South West Water erhält die niedrigste Umweltbewertung",
+    "el": "Το South West Water έχει τη χαμηλότερη περιβαλλοντική βαθμολογία"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Serious pollution by water industry remains high despite £5bn investment",
+   "url": "https://www.bbc.co.uk/news/articles/cw5ynxepy4gno?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-29T12:08:01+00:00",
+   "t": {
+    "pt": "A poluição grave pela indústria da água continua elevada, apesar do investimento de £ 5 bilhões",
+    "es": "La grave contaminación causada por la industria del agua sigue siendo elevada a pesar de una inversión de 5.000 millones de libras esterlinas",
+    "it": "Il grave inquinamento causato dall’industria idrica rimane elevato nonostante gli investimenti di 5 miliardi di sterline",
+    "zh": "尽管投资 50 亿英镑，水工业的严重污染仍然严重",
+    "fr": "La grave pollution causée par l’industrie de l’eau reste élevée malgré un investissement de 5 milliards de livres sterling",
+    "ar": "لا يزال التلوث الخطير الناجم عن صناعة المياه مرتفعا على الرغم من الاستثمار بقيمة 5 مليارات جنيه إسترليني",
+    "de": "Die schwere Umweltverschmutzung durch die Wasserindustrie ist trotz Investitionen in Höhe von 5 Milliarden Pfund weiterhin hoch",
+    "el": "Η σοβαρή ρύπανση από τη βιομηχανία νερού παραμένει υψηλή παρά τις επενδύσεις £5 δις"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Mini-gardens for bees on bus stop roofs approved",
+   "url": "https://www.bbc.co.uk/news/articles/c62e9vynyvdpo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-29T11:58:00+00:00",
+   "t": {
+    "pt": "Aprovados minijardins para abelhas em telhados de pontos de ônibus",
+    "es": "Aprobados minihuertos para abejas en los tejados de las paradas de autobús",
+    "it": "Mini-giardini per api sui tetti delle fermate degli autobus omologati",
+    "zh": "公交车站屋顶迷你蜜蜂花园获得批准",
+    "fr": "Mini-jardins pour abeilles sur les toits des arrêts de bus autorisés",
+    "ar": "الموافقة على إنشاء حدائق صغيرة للنحل على أسطح محطات الحافلات",
+    "de": "Minigärten für Bienen auf Bushaltestellendächern genehmigt",
+    "el": "Εγκρίθηκαν μίνι κήποι για μέλισσες σε στέγες στάσεων λεωφορείων"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "A new wave of electric ferries is here in the US. Some even fly",
+   "url": "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
+   "date": "2026-10-29T10:00:31+00:00",
+   "t": {
+    "pt": "Uma nova onda de balsas elétricas está aqui nos EUA. Alguns até voam",
+    "es": "Una nueva ola de ferries eléctricos está aquí en Estados Unidos. Algunos incluso vuelan",
+    "it": "Una nuova ondata di traghetti elettrici è qui negli Stati Uniti. Alcuni addirittura volano",
+    "zh": "美国掀起了新一波电动渡轮浪潮。有的甚至会飞",
+    "fr": "Une nouvelle vague de ferries électriques arrive aux États-Unis. Certains volent même",
+    "ar": "موجة جديدة من العبارات الكهربائية موجودة هنا في الولايات المتحدة. حتى أن البعض يطير",
+    "de": "In den USA gibt es eine neue Welle elektrischer Fähren. Manche fliegen sogar",
+    "el": "Ένα νέο κύμα ηλεκτρικών πορθμείων είναι εδώ στις ΗΠΑ. Κάποιοι μάλιστα πετούν"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "New Batteries That Store Blistering Heat Are Taking Off",
+   "url": "https://www.nytimes.com/2026/10/29/climate/heat-battery-thermal-energy-storage.html",
+   "date": "2026-10-29T09:00:29+00:00",
+   "t": {
+    "pt": "Novas baterias que armazenam um calor escaldante estão decolando",
+    "es": "Nuevas baterías que almacenan un calor abrasador están despegando",
+    "it": "Le nuove batterie che immagazzinano calore bollente stanno decollando",
+    "zh": "储存酷热的新型电池正在蓬勃发展",
+    "fr": "De nouvelles batteries qui stockent une chaleur torride décollent",
+    "ar": "البطاريات الجديدة التي تخزن الحرارة الشديدة بدأت في الظهور",
+    "de": "Neue Batterien, die glühende Hitze speichern, sind auf dem Vormarsch",
+    "el": "Νέες μπαταρίες που αποθηκεύουν τη θερμότητα με φουσκάλες απογειώνονται"
+   }
+  },
   {
    "source": "BBC",
    "title": "RAF base chemical contamination worst in UK, report says",
@@ -50,22 +146,6 @@
    }
   },
   {
-   "source": "AL JAZEERA",
-   "title": "Serbians storm TV studio as pro-Vucic media faces reckoning",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/serbians-storm-tv-studio-as-pro-vucic-media-faces-reckoning?traffic_source=rss",
-   "date": "2026-10-29T02:02:02+00:00",
-   "t": {
-    "pt": "Sérvios invadem estúdio de TV enquanto a mídia pró-Vucic enfrenta um acerto de contas",
-    "es": "Los serbios asaltan un estudio de televisión mientras los medios pro-Vucic se enfrentan a un ajuste de cuentas",
-    "it": "I serbi prendono d'assalto lo studio televisivo mentre i media pro-Vucic affrontano la resa dei conti",
-    "zh": "塞尔维亚人冲进电视演播室，支持武契奇的媒体面临清算",
-    "fr": "Les Serbes prennent d'assaut un studio de télévision alors que les médias pro-Vucic doivent rendre des comptes",
-    "ar": "الصرب يقتحمون استوديو التلفزيون بينما تواجه وسائل الإعلام المؤيدة لفوتشيتش الحساب",
-    "de": "Serben stürmen Fernsehstudio, während pro-Vucic-Medien mit einer Abrechnung rechnen müssen",
-    "el": "Οι Σέρβοι εισβάλλουν στο τηλεοπτικό στούντιο καθώς τα μέσα που υποστηρίζουν τον Βούτσιτς αντιμετωπίζουν τον απολογισμό"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Overlapping Plagues Are Killing American Forests",
    "url": "https://www.nytimes.com/2026/10/20/climate/tree-plagues.html",
@@ -98,22 +178,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Building boom puts 300,000 people in the path of potential Himalayan disasters",
-   "url": "https://www.bbc.co.uk/news/articles/c574pj3zljvjo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-28T23:11:59+00:00",
-   "t": {
-    "pt": "O boom da construção coloca 300.000 pessoas no caminho de potenciais desastres no Himalaia",
-    "es": "El auge de la construcción pone a 300.000 personas en el camino de posibles desastres en el Himalaya",
-    "it": "Il boom edilizio mette 300.000 persone sulla strada di potenziali disastri in Himalaya",
-    "zh": "建筑热潮导致 30 万人陷入喜马拉雅山潜在灾难",
-    "fr": "Le boom de la construction met 300 000 personnes sur le chemin d’éventuelles catastrophes himalayennes",
-    "ar": "طفرة البناء تضع 300 ألف شخص في طريق الكوارث المحتملة في جبال الهيمالايا",
-    "de": "Der Bauboom bringt 300.000 Menschen in die Gefahr einer möglichen Katastrophe im Himalaya",
-    "el": "Η οικοδομική έκρηξη βάζει 300.000 ανθρώπους στο μονοπάτι πιθανών καταστροφών στα Ιμαλάια"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "Record-breaking high tides spark chaos – and kayak commutes – across California",
    "url": "https://www.theguardian.com/us-news/2026/oct/28/california-extreme-weather-high-tides",
@@ -130,22 +194,6 @@
    }
   },
   {
-   "source": "AL JAZEERA",
-   "title": "Indonesian students demand action on wildfires and rising costs",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_indonesian-students-demand-action-on-wildfires-281026?traffic_source=rss",
-   "date": "2026-10-28T21:23:17+00:00",
-   "t": {
-    "pt": "Estudantes indonésios exigem ação contra incêndios florestais e aumento de custos",
-    "es": "Estudiantes indonesios exigen medidas contra los incendios forestales y el aumento de los costes",
-    "it": "Gli studenti indonesiani chiedono interventi contro gli incendi e l’aumento dei costi",
-    "zh": "印度尼西亚学生要求对野火和成本上升采取行动",
-    "fr": "Les étudiants indonésiens exigent des mesures contre les incendies de forêt et la hausse des coûts",
-    "ar": "الطلاب الإندونيسيون يطالبون باتخاذ إجراءات بشأن حرائق الغابات وارتفاع التكاليف",
-    "de": "Indonesische Studenten fordern Maßnahmen gegen Waldbrände und steigende Kosten",
-    "el": "Οι μαθητές της Ινδονησίας απαιτούν δράση για τις πυρκαγιές και το αυξανόμενο κόστος"
-   }
-  },
-  {
    "source": "NPR",
    "title": "Trump administration wants to remove regulations on a super planet-heating gas",
    "url": "https://www.npr.org/2026/10/28/nx-s1-5995910/trump-wants-remove-regulations-planet-heating-methane",
@@ -159,38 +207,6 @@
     "ar": "تريد إدارة ترامب إزالة اللوائح المتعلقة بغاز تسخين الكوكب الفائق",
     "de": "Die Trump-Administration will die Vorschriften für ein Superplaneten-Heizgas aufheben",
     "el": "Η κυβέρνηση Τραμπ θέλει να καταργήσει τους κανονισμούς για ένα αέριο υπερθέρμανσης του πλανήτη"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘Worldwide legacy’: almost $20m raised to protect majestic tract of land in far north Queensland",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/29/worldwide-legacy-almost-20m-raised-to-protect-majestic-tract-of-land-in-far-north-queensland",
-   "date": "2026-10-28T21:06:14+00:00",
-   "t": {
-    "pt": "‘Legado mundial’: quase US$ 20 milhões arrecadados para proteger a majestosa extensão de terra no extremo norte de Queensland",
-    "es": "“Legado mundial”: casi 20 millones de dólares recaudados para proteger una majestuosa extensión de tierra en el extremo norte de Queensland",
-    "it": "“Lascito mondiale”: quasi 20 milioni di dollari raccolti per proteggere il maestoso tratto di terra nell’estremo nord del Queensland",
-    "zh": "“全球遗产”：筹集近 2000 万美元用于保护昆士兰州远北地区的壮丽土地",
-    "fr": "« Héritage mondial » : près de 20 millions de dollars collectés pour protéger une majestueuse étendue de terre dans l'extrême nord du Queensland",
-    "ar": "\"الإرث العالمي\": تم جمع ما يقرب من 20 مليون دولار لحماية قطعة أرض مهيبة في أقصى شمال كوينزلاند",
-    "de": "„Weltweites Erbe“: Fast 20 Millionen US-Dollar wurden gesammelt, um ein majestätisches Landstrich im hohen Norden von Queensland zu schützen",
-    "el": "«Παγκόσμια κληρονομιά»: συγκεντρώθηκαν σχεδόν 20 εκατομμύρια δολάρια για την προστασία της μαγευτικής έκτασης στο βόρειο Κουίνσλαντ"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
-   "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-28T19:15:58+00:00",
-   "t": {
-    "pt": "Elon Musk é um ‘verdadeiro gênio’, diz Putin após negociações de satélite com o chefe da SpaceX",
-    "es": "Elon Musk es un \"verdadero genio\", dice Putin después de las conversaciones sobre satélites con el jefe de SpaceX",
-    "it": "Elon Musk è un \"vero genio\", dice Putin dopo i colloqui sul satellite con il capo di SpaceX",
-    "zh": "普京在与 SpaceX 老板进行卫星会谈后表示，埃隆·马斯克是“真正的天才”",
-    "fr": "Elon Musk est un « vrai génie », déclare Poutine après des discussions sur le satellite avec le patron de SpaceX",
-    "ar": "إيلون موسك هو \"عبقري حقيقي\"، هكذا قال بوتين بعد محادثات عبر الأقمار الصناعية مع رئيس شركة سبيس إكس",
-    "de": "Elon Musk sei ein „echtes Genie“, sagt Putin nach Satellitengesprächen mit SpaceX-Chef",
-    "el": "Ο Έλον Μασκ είναι μια «πραγματική ιδιοφυΐα», λέει ο Πούτιν μετά από δορυφορικές συνομιλίες με το αφεντικό της SpaceX"
    }
   },
   {
@@ -242,22 +258,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
-   "url": "https://www.bbc.co.uk/news/articles/c6gelgxjwzdzo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-28T01:01:02+00:00",
-   "t": {
-    "pt": "Uma briga entre matemáticos está alimentando temores de que a IA possa prejudicar a ciência",
-    "es": "Una pelea entre matemáticos está alimentando los temores de que la IA pueda socavar la ciencia",
-    "it": "Uno scontro tra matematici sta alimentando il timore che l’intelligenza artificiale possa minare la scienza",
-    "zh": "数学家之间的争吵加剧了人们对人工智能可能破坏科学的担忧",
-    "fr": "Une dispute entre mathématiciens alimente les craintes que l’IA puisse nuire à la science",
-    "ar": "يؤدي الخلاف بين علماء الرياضيات إلى تأجيج المخاوف من أن الذكاء الاصطناعي قد يقوض العلم",
-    "de": "Ein Streit zwischen Mathematikern schürt Ängste, dass KI die Wissenschaft untergraben könnte",
-    "el": "Μια σύγκρουση μεταξύ μαθηματικών τροφοδοτεί φόβους ότι η τεχνητή νοημοσύνη θα μπορούσε να υπονομεύσει την επιστήμη"
-   }
-  },
-  {
    "source": "NATURE",
    "title": "Could a giant sunshade in space ‘solve global warming’? Scientists are taking the idea seriously",
    "url": "https://www.nature.com/articles/d41586-026-03415-2",
@@ -303,22 +303,6 @@
     "ar": "شريط نانوريبون خماسي الببتيت الكربوني الضيق كمعدن تساهمي",
     "de": "Schmales Kohlenstoffpentaheptit-Nanoband als kovalentes Metall",
     "el": "Στενή νανοκορδέλα πενταεπτίτη άνθρακα ως ομοιοπολικό μέταλλο"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Canada’s Climate Policies Go on Trial",
-   "url": "https://www.nytimes.com/2026/10/27/climate/canada-youth-climate-lawsuit.html",
-   "date": "2026-10-27T17:29:53+00:00",
-   "t": {
-    "pt": "As políticas climáticas do Canadá vão a julgamento",
-    "es": "Las políticas climáticas de Canadá van a juicio",
-    "it": "Le politiche climatiche del Canada sono sotto processo",
-    "zh": "加拿大气候政策正在进行试验",
-    "fr": "Les politiques climatiques du Canada sont mises à l’essai",
-    "ar": "سياسات كندا المناخية تخضع للمحاكمة",
-    "de": "Kanadas Klimapolitik steht vor Gericht",
-    "el": "Δοκιμάζονται οι Πολιτικές του Καναδά για το κλίμα"
    }
   },
   {
@@ -383,6 +367,22 @@
     "ar": "خطة الاتحاد الأوروبي الجديدة للقطب الشمالي تتطلع بحذر إلى نفوذ روسيا والولايات المتحدة",
     "de": "Neuer EU-Plan für die Arktis misstrauisch gegenüber Einfluss Russlands und der USA",
     "el": "Το νέο σχέδιο της ΕΕ για την Αρκτική παρακολουθεί επιφυλακτικά την επιρροή Ρωσίας και ΗΠΑ"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
+   "url": "https://www.dw.com/en/emerging-economies-are-embracing-solar-power-and-skipping-fossil-fuels-much-faster-than-europe-or-the-us/a-79474847?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-10-07T07:48:00+00:00",
+   "t": {
+    "pt": "As economias emergentes estão a adotar a energia solar e a abandonar os combustíveis fósseis muito mais rapidamente do que a Europa ou os EUA",
+    "es": "Las economías emergentes están adoptando la energía solar y evitando los combustibles fósiles mucho más rápido que Europa o Estados Unidos.",
+    "it": "Le economie emergenti stanno abbracciando l’energia solare e abbandonando i combustibili fossili molto più velocemente di Europa o Stati Uniti",
+    "zh": "新兴经济体拥抱太阳能并跳过化石燃料的速度比欧洲或美国快得多",
+    "fr": "Les économies émergentes adoptent l’énergie solaire et abandonnent les combustibles fossiles beaucoup plus rapidement que l’Europe ou les États-Unis.",
+    "ar": "تتبنى الاقتصادات الناشئة الطاقة الشمسية وتتخلى عن الوقود الأحفوري بسرعة أكبر بكثير من أوروبا أو الولايات المتحدة",
+    "de": "Schwellenländer setzen viel schneller auf Solarenergie und verzichten auf fossile Brennstoffe als Europa oder die USA",
+    "el": "Οι αναδυόμενες οικονομίες αγκαλιάζουν την ηλιακή ενέργεια και παρακάμπτουν τα ορυκτά καύσιμα πολύ πιο γρήγορα από την Ευρώπη ή τις ΗΠΑ"
    }
   }
  ]
