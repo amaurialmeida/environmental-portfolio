@@ -1,6 +1,86 @@
 {
- "updated": "2026-10-29T00:53:36.800303+00:00",
+ "updated": "2026-10-29T07:02:18.811981+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "RAF base chemical contamination worst in UK, report says",
+   "url": "https://www.bbc.co.uk/news/articles/c64g1je3034ko?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-29T06:13:24+00:00",
+   "t": {
+    "pt": "Contaminação química da base da RAF é pior no Reino Unido, diz relatório",
+    "es": "La contaminación química con base de la RAF es la peor en el Reino Unido, según un informe",
+    "it": "La contaminazione chimica di base della RAF è peggiore nel Regno Unito, afferma il rapporto",
+    "zh": "报告称英国皇家空军基地化学污染最严重",
+    "fr": "La contamination chimique de la base de la RAF est la pire au Royaume-Uni, selon un rapport",
+    "ar": "يقول التقرير إن التلوث الكيميائي لقاعدة سلاح الجو الملكي البريطاني هو الأسوأ في المملكة المتحدة",
+    "de": "In einem Bericht heißt es, dass die chemische Kontamination von RAF-Basis in Großbritannien am schlimmsten sei",
+    "el": "Η χημική μόλυνση βάσης RAF είναι η χειρότερη στο Ηνωμένο Βασίλειο, λέει η έκθεση"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank",
+   "url": "https://www.theguardian.com/environment/2026/oct/29/labour-mps-rosebank-oilfield-decision-miatta-fahnbulleh-john-healey",
+   "date": "2026-10-29T06:00:26+00:00",
+   "t": {
+    "pt": "Deputados trabalhistas furiosos pedem à liderança que não anule o secretário de energia em Rosebank",
+    "es": "Parlamentarios laboristas enojados instan a los líderes a no anular al secretario de energía en Rosebank",
+    "it": "I parlamentari laburisti arrabbiati sollecitano la leadership a non prevalere sul ministro dell’Energia su Rosebank",
+    "zh": "愤怒的工党议员敦促领导层不要推翻能源部长关于罗斯班克的决定",
+    "fr": "Des députés travaillistes en colère exhortent les dirigeants à ne pas outrepasser le secrétaire à l'énergie sur Rosebank",
+    "ar": "نواب حزب العمال الغاضبون يحثون القيادة على عدم نقض قرار وزير الطاقة بشأن روزبانك",
+    "de": "Verärgerte Labour-Abgeordnete fordern die Führung auf, den Energieminister in Rosebank nicht zu überstimmen",
+    "el": "Θυμωμένοι βουλευτές του Εργατικού Κόμματος προτρέπουν την ηγεσία να μην παρακάμψει τον γραμματέα ενέργειας στη Rosebank"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Forecasters are predicting a warmer and wetter winter. Here's how El Niño will affect your region",
+   "url": "https://www.npr.org/2026/10/28/nx-s1-6009547/el-nino-forecast-us-winter",
+   "date": "2026-10-29T02:20:45+00:00",
+   "t": {
+    "pt": "Os meteorologistas preveem um inverno mais quente e chuvoso. Veja como o El Niño afetará sua região",
+    "es": "Los meteorólogos predicen un invierno más cálido y húmedo. Así afectará El Niño a tu región",
+    "it": "I meteorologi prevedono un inverno più caldo e umido. Ecco come El Niño influenzerà la tua regione",
+    "zh": "预报员预测冬季将更加温暖和湿润。以下是厄尔尼诺现象将如何影响您所在的地区",
+    "fr": "Les prévisionnistes prévoient un hiver plus chaud et plus humide. Here's how El Niño will affect your region",
+    "ar": "ويتوقع خبراء الأرصاد أن يكون الشتاء أكثر دفئا ورطوبة. وإليك كيفية تأثير ظاهرة النينيو على منطقتك",
+    "de": "Meteorologen sagen einen wärmeren und nasseren Winter voraus. So wird sich El Niño auf Ihre Region auswirken",
+    "el": "Οι μετεωρολόγοι προβλέπουν θερμότερο και υγρότερο χειμώνα. Δείτε πώς το Ελ Νίνιο θα επηρεάσει την περιοχή σας"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Serbians storm TV studio as pro-Vucic media faces reckoning",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/serbians-storm-tv-studio-as-pro-vucic-media-faces-reckoning?traffic_source=rss",
+   "date": "2026-10-29T02:02:02+00:00",
+   "t": {
+    "pt": "Sérvios invadem estúdio de TV enquanto a mídia pró-Vucic enfrenta um acerto de contas",
+    "es": "Los serbios asaltan un estudio de televisión mientras los medios pro-Vucic se enfrentan a un ajuste de cuentas",
+    "it": "I serbi prendono d'assalto lo studio televisivo mentre i media pro-Vucic affrontano la resa dei conti",
+    "zh": "塞尔维亚人冲进电视演播室，支持武契奇的媒体面临清算",
+    "fr": "Les Serbes prennent d'assaut un studio de télévision alors que les médias pro-Vucic doivent rendre des comptes",
+    "ar": "الصرب يقتحمون استوديو التلفزيون بينما تواجه وسائل الإعلام المؤيدة لفوتشيتش الحساب",
+    "de": "Serben stürmen Fernsehstudio, während pro-Vucic-Medien mit einer Abrechnung rechnen müssen",
+    "el": "Οι Σέρβοι εισβάλλουν στο τηλεοπτικό στούντιο καθώς τα μέσα που υποστηρίζουν τον Βούτσιτς αντιμετωπίζουν τον απολογισμό"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Overlapping Plagues Are Killing American Forests",
+   "url": "https://www.nytimes.com/2026/10/20/climate/tree-plagues.html",
+   "date": "2026-10-29T01:33:44+00:00",
+   "t": {
+    "pt": "Pragas sobrepostas estão matando as florestas americanas",
+    "es": "Plagas superpuestas están acabando con los bosques estadounidenses",
+    "it": "Pestilenze sovrapposte stanno uccidendo le foreste americane",
+    "zh": "重叠的瘟疫正在杀死美国森林",
+    "fr": "Overlapping Plagues Are Killing American Forests",
+    "ar": "الأوبئة المتداخلة تقتل الغابات الأمريكية",
+    "de": "Überlappende Seuchen töten amerikanische Wälder",
+    "el": "Οι επικαλυπτόμενες πληγές σκοτώνουν τα αμερικανικά δάση"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Menindee Lakes water levels drop to lowest in five years as experts warn of mass fish deaths",
@@ -130,22 +210,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
-   "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
-   "date": "2026-10-28T14:30:29+00:00",
-   "t": {
-    "pt": "Trump diz que o governo ‘acabará’ com as regras de emissões de metano da era Biden",
-    "es": "Trump dice que el gobierno \"pondrá fin\" a las normas sobre emisiones de metano de la era Biden",
-    "it": "Trump dice che il governo “abolirà” le regole sulle emissioni di metano dell’era Biden",
-    "zh": "特朗普表示政府将“终止”拜登时代的甲烷排放规则",
-    "fr": "Trump dit que le gouvernement « mettra fin » aux règles sur les émissions de méthane de l’ère Biden",
-    "ar": "يقول ترامب إن الحكومة \"ستنهي\" قواعد انبعاثات غاز الميثان في عهد بايدن",
-    "de": "Trump sagt, die Regierung werde die Methanemissionsvorschriften der Biden-Ära „kündigen“.",
-    "el": "Ο Τραμπ λέει ότι η κυβέρνηση θα «τερματίσει» τους κανόνες για τις εκπομπές μεθανίου της εποχής Μπάιντεν"
-   }
-  },
-  {
    "source": "NPR",
    "title": "Trump says he's ending restrictions on climate-warming methane from oil drilling",
    "url": "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions",
@@ -159,22 +223,6 @@
     "ar": "يقول ترامب إنه سينهي القيود المفروضة على غاز الميثان المسبب للاحتباس الحراري الناتج عن التنقيب عن النفط",
     "de": "Trump sagt, er werde die Beschränkungen für klimaerwärmendes Methan aus Ölbohrungen aufheben",
     "el": "Ο Τραμπ λέει ότι τερματίζει τους περιορισμούς στο μεθάνιο που θερμαίνει το κλίμα από τις γεωτρήσεις πετρελαίου"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "India news: Cyclone Arnab turns deadly after landfall",
-   "url": "https://www.dw.com/en/india-news-cyclone-arnab-turns-deadly-after-landfall/live-79782323?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-28T04:30:00+00:00",
-   "t": {
-    "pt": "Notícias da Índia: Ciclone Arnab se torna mortal após atingir o continente",
-    "es": "Noticias de India: el ciclón Arnab se vuelve mortal después de tocar tierra",
-    "it": "Notizie dall'India: il ciclone Arnab diventa mortale dopo l'atterraggio",
-    "zh": "印度新闻：飓风“阿纳布”登陆后致人死亡",
-    "fr": "Inde : le cyclone Arnab devient mortel après avoir touché terre",
-    "ar": "أخبار الهند: إعصار أرناب يتحول إلى مميت بعد وصوله إلى اليابسة",
-    "de": "Nachrichten aus Indien: Zyklon Arnab wird nach Landung tödlich",
-    "el": "Ειδήσεις από την Ινδία: Ο κυκλώνας Arnab γίνεται θανατηφόρος μετά την πτώση"
    }
   },
   {
@@ -207,22 +255,6 @@
     "ar": "يؤدي الخلاف بين علماء الرياضيات إلى تأجيج المخاوف من أن الذكاء الاصطناعي قد يقوض العلم",
     "de": "Ein Streit zwischen Mathematikern schürt Ängste, dass KI die Wissenschaft untergraben könnte",
     "el": "Μια σύγκρουση μεταξύ μαθηματικών τροφοδοτεί φόβους ότι η τεχνητή νοημοσύνη θα μπορούσε να υπονομεύσει την επιστήμη"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Experts urge 'global health emergency' as climate harms accelerate",
-   "url": "https://www.dw.com/en/experts-urge-global-health-emergency-as-climate-harms-accelerate/a-79773232?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-28T00:05:00+00:00",
-   "t": {
-    "pt": "Especialistas pedem 'emergência de saúde global' à medida que os danos climáticos aceleram",
-    "es": "Los expertos instan a una \"emergencia sanitaria mundial\" a medida que se aceleran los daños climáticos",
-    "it": "Gli esperti invocano “un’emergenza sanitaria globale” mentre i danni climatici accelerano",
-    "zh": "随着气候危害加剧，专家敦促“全球卫生紧急状态”",
-    "fr": "Les experts appellent à une « urgence sanitaire mondiale » alors que les dommages climatiques s’accélèrent",
-    "ar": "الخبراء يحثون على \"حالة طوارئ صحية عالمية\" مع تسارع الأضرار المناخية",
-    "de": "Experten fordern einen „globalen Gesundheitsnotstand“, da sich die Klimaschäden verstärken",
-    "el": "Οι ειδικοί προτρέπουν την «παγκόσμια έκτακτη ανάγκη για την υγεία» καθώς οι κλιματικές βλάβες επιταχύνονται"
    }
   },
   {
@@ -274,22 +306,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Weather warning lifted as third storm to hit Scotland eases off",
-   "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-27T21:20:52+00:00",
-   "t": {
-    "pt": "Alerta meteorológico suspenso à medida que terceira tempestade a atingir a Escócia diminui",
-    "es": "Se levanta la advertencia meteorológica a medida que disminuye la tercera tormenta que azota Escocia",
-    "it": "L’allerta meteo è revocata mentre la terza tempesta che ha colpito la Scozia si attenua",
-    "zh": "随着袭击苏格兰的第三场风暴减弱，天气警报解除",
-    "fr": "L'avertissement météorologique est levé alors que la troisième tempête qui frappe l'Écosse s'atténue",
-    "ar": "تم رفع تحذير الطقس مع تراجع العاصفة الثالثة التي تضرب اسكتلندا",
-    "de": "Die Wetterwarnung wurde aufgehoben, da der dritte Sturm, der Schottland heimgesucht hat, nachlässt",
-    "el": "Η προειδοποίηση για τον καιρό καταργήθηκε καθώς η τρίτη καταιγίδα που πλήττει τη Σκωτία χαλαρώνει"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Canada’s Climate Policies Go on Trial",
    "url": "https://www.nytimes.com/2026/10/27/climate/canada-youth-climate-lawsuit.html",
@@ -322,22 +338,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "Brazil’s Vote Is a Victory for the Amazon, Environmentalists Say",
-   "url": "https://www.nytimes.com/2026/10/26/climate/brazil-lula-bolsonaro-amazon.html",
-   "date": "2026-10-26T22:13:25+00:00",
-   "t": {
-    "pt": "Votação do Brasil é uma vitória para a Amazônia, dizem ambientalistas",
-    "es": "La votación de Brasil es una victoria para la Amazonia, dicen los ambientalistas",
-    "it": "Il voto del Brasile è una vittoria per l’Amazzonia, dicono gli ambientalisti",
-    "zh": "环保人士称巴西的投票是亚马逊的胜利",
-    "fr": "Le vote du Brésil est une victoire pour l’Amazonie, disent les écologistes",
-    "ar": "يقول أنصار البيئة إن تصويت البرازيل هو انتصار لمنطقة الأمازون",
-    "de": "Brasiliens Abstimmung ist ein Sieg für den Amazonas, sagen Umweltschützer",
-    "el": "Η ψήφος της Βραζιλίας είναι μια νίκη για τον Αμαζόνιο, λένε οι περιβαλλοντολόγοι"
-   }
-  },
-  {
    "source": "NPR",
    "title": "When an invasive fish is also tasty, Maryland schoolkids can help 'eat the problem'",
    "url": "https://www.npr.org/2026/10/26/nx-s1-5954211/invasive-blue-catfish-solution-schools-chesapeake-bay",
@@ -354,22 +354,6 @@
    }
   },
   {
-   "source": "NPR",
-   "title": "Arizona adds U.S.'s newest national park, but National Park Service remains underfunded",
-   "url": "https://www.npr.org/2026/10/21/nx-s1-5988049/arizona-adds-u-s-s-newest-national-park-but-national-park-service-remains-underfunded",
-   "date": "2026-10-21T21:51:47+00:00",
-   "t": {
-    "pt": "Arizona adiciona o mais novo parque nacional dos EUA, mas o Serviço Nacional de Parques continua subfinanciado",
-    "es": "Arizona agrega el parque nacional más nuevo de EE. UU., pero el Servicio de Parques Nacionales sigue careciendo de fondos suficientes",
-    "it": "L'Arizona aggiunge il nuovo parco nazionale degli Stati Uniti, ma il National Park Service rimane sottofinanziato",
-    "zh": "亚利桑那州增加了美国最新的国家公园，但国家公园管理局仍然资金不足",
-    "fr": "L'Arizona ajoute le plus récent parc national des États-Unis, mais le National Park Service reste sous-financé",
-    "ar": "أريزونا تضيف أحدث حديقة وطنية في الولايات المتحدة، ولكن خدمة الحدائق الوطنية لا تزال تعاني من نقص التمويل",
-    "de": "Arizona fügt den neuesten Nationalpark der USA hinzu, aber der National Park Service bleibt unterfinanziert",
-    "el": "Η Αριζόνα προσθέτει το νεότερο εθνικό πάρκο των ΗΠΑ, αλλά η Υπηρεσία Εθνικών Πάρκων παραμένει υποχρηματοδοτούμενη"
-   }
-  },
-  {
    "source": "DW",
    "title": "Rising emissions and temperatures: The cost of Trump's climate retreat is now clear",
    "url": "https://www.dw.com/en/rising-emissions-and-temperatures-the-cost-of-trump-s-climate-retreat-is-now-clear/a-79714915?maca=en-rss-en-all-1573-rdf",
@@ -383,6 +367,22 @@
     "ar": "ارتفاع الانبعاثات ودرجات الحرارة: أصبحت تكلفة تراجع ترامب بشأن المناخ واضحة الآن",
     "de": "Steigende Emissionen und Temperaturen: Die Kosten von Trumps Klima-Rückzug sind jetzt klar",
     "el": "Αύξηση των εκπομπών και της θερμοκρασίας: Το κόστος της κλιματικής υποχώρησης του Τραμπ είναι πλέον σαφές"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "New EU plan for Arctic warily eyes influence of Russia, US",
+   "url": "https://www.dw.com/en/new-eu-plan-for-arctic-warily-eyes-influence-of-russia-us/a-79715219?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-10-20T16:44:00+00:00",
+   "t": {
+    "pt": "Novo plano da UE para o Ártico olha com cautela a influência da Rússia e dos EUA",
+    "es": "El nuevo plan de la UE para el Ártico mira con recelo la influencia de Rusia y EE.UU.",
+    "it": "Il nuovo piano dell’UE per l’Artico guarda con cautela all’influenza di Russia e Stati Uniti",
+    "zh": "欧盟新北极计划警惕俄罗斯和美国的影响",
+    "fr": "Le nouveau plan de l’UE pour l’Arctique surveille avec méfiance l’influence de la Russie et des États-Unis",
+    "ar": "خطة الاتحاد الأوروبي الجديدة للقطب الشمالي تتطلع بحذر إلى نفوذ روسيا والولايات المتحدة",
+    "de": "Neuer EU-Plan für die Arktis misstrauisch gegenüber Einfluss Russlands und der USA",
+    "el": "Το νέο σχέδιο της ΕΕ για την Αρκτική παρακολουθεί επιφυλακτικά την επιρροή Ρωσίας και ΗΠΑ"
    }
   }
  ]
