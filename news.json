@@ -1,6 +1,57 @@
 {
- "updated": "2026-10-29T23:55:44.276013+00:00",
+ "updated": "2026-10-30T05:44:05.764430+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "The Perils of Glittering Skylines",
+   "url": "https://www.nytimes.com/2026/10/29/world/glass-skyscrapers-climate-patrick-stewart.html",
+   "date": "2026-10-30T05:36:36+00:00",
+   "t": {
+    "pt": "Os perigos dos horizontes brilhantes",
+    "es": "Los peligros de los horizontes resplandecientes",
+    "it": "I pericoli degli skyline scintillanti",
+    "zh": "闪闪发光的天际线的危险",
+    "fr": "Les périls des horizons scintillants",
+    "ar": "مخاطر الآفاق المتلألئة",
+    "de": "Die Gefahren glitzernder Skylines",
+    "el": "The Rils of Glittering Skylines"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
+   "url": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
+   "date": "2026-10-30T05:00:45+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Feral deer will become Australia’s next feral pig problem without prompt action, report warns",
+   "url": "https://www.theguardian.com/environment/2026/oct/30/australia-feral-deer-problem-report-national-action-plan",
+   "date": "2026-10-30T03:30:42+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Flash floods kill five in Syria",
+   "url": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
+   "date": "2026-10-30T03:11:55+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "El Niño-driven drought in Papua New Guinea a ‘national crisis’ as rivers dry up and local farms fail",
+   "url": "https://www.theguardian.com/world/2026/oct/30/png-el-nino-drought-papua-new-guinea",
+   "date": "2026-10-30T01:45:56+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "From workshops to the catwalk - why mended clothes are going mainstream",
+   "url": "https://www.bbc.co.uk/news/articles/cmwy9qe5r1z3o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-30T00:00:35+00:00",
+   "t": {}
+  },
   {
    "source": "BBC",
    "title": "What makes this golden eagle chick so important?",
@@ -20,34 +71,9 @@
   {
    "source": "BBC",
    "title": "BBC Inside Science",
-   "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_south_asia?at_medium=RSS&at_campaign=rss",
    "date": "2026-10-29T21:00:00+00:00",
-   "t": {
-    "pt": "BBC por dentro da ciência",
-    "es": "BBC dentro de la ciencia",
-    "it": "BBC Dentro la scienza",
-    "zh": "BBC 科学内幕",
-    "fr": "BBC à l'intérieur de la science",
-    "ar": "بي بي سي داخل العلوم",
-    "de": "BBC Inside Science",
-    "el": "BBC Inside Science"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "The Perils of Glittering Skylines",
-   "url": "https://www.nytimes.com/2026/10/29/world/glass-skyscrapers-climate-patrick-stewart.html",
-   "date": "2026-10-29T20:31:15+00:00",
-   "t": {
-    "pt": "Os perigos dos horizontes brilhantes",
-    "es": "Los peligros de los horizontes resplandecientes",
-    "it": "I pericoli degli skyline scintillanti",
-    "zh": "闪闪发光的天际线的危险",
-    "fr": "Les périls des horizons scintillants",
-    "ar": "مخاطر الآفاق المتلألئة",
-    "de": "Die Gefahren glitzernder Skylines",
-    "el": "The Rils of Glittering Skylines"
-   }
+   "t": {}
   },
   {
    "source": "BBC",
@@ -63,38 +89,6 @@
     "ar": "رجال الإطفاء يحتفلون بهطول الأمطار خلال حرائق الغابات في إندونيسيا",
     "de": "Feuerwehrleute feiern den Regen während der Waldbrände in Indonesien",
     "el": "Οι πυροσβέστες γιορτάζουν τη βροχή κατά τη διάρκεια των πυρκαγιών στην Ινδονησία"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Finland launches criminal probe of suspected environmental damage by Google",
-   "url": "https://www.aljazeera.com/economy/2026/10/29/finland-launches-criminal-probe-of-suspected-environmental-damage-by-google?traffic_source=rss",
-   "date": "2026-10-29T18:24:13+00:00",
-   "t": {
-    "pt": "Finlândia lança investigação criminal sobre suspeita de danos ambientais pelo Google",
-    "es": "Finlandia inicia una investigación penal por presuntos daños medioambientales cometidos por Google",
-    "it": "La Finlandia avvia un'indagine penale su presunti danni ambientali da parte di Google",
-    "zh": "芬兰对谷歌涉嫌破坏环境展开刑事调查",
-    "fr": "La Finlande ouvre une enquête pénale sur des dommages environnementaux présumés causés par Google",
-    "ar": "فنلندا تطلق تحقيقًا جنائيًا في الأضرار البيئية المشتبه بها من قبل Google",
-    "de": "Finnland leitet strafrechtliche Ermittlungen wegen mutmaßlicher Umweltschäden durch Google ein",
-    "el": "Η Φινλανδία ξεκινά ποινική έρευνα για ύποπτη περιβαλλοντική ζημιά από την Google"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Albanian opposition storms parliament, sets off flares and smoke bombs",
-   "url": "https://www.aljazeera.com/news/2026/10/29/albanian-opposition-storms-parliament-sets-off-flares-and-smoke-bombs?traffic_source=rss",
-   "date": "2026-10-29T18:11:46+00:00",
-   "t": {
-    "pt": "Oposição albanesa invade parlamento, dispara sinalizadores e bombas de fumaça",
-    "es": "La oposición albanesa irrumpe en el Parlamento y lanza bengalas y bombas de humo",
-    "it": "L'opposizione albanese prende d'assalto il parlamento, lancia razzi e fumogeni",
-    "zh": "阿尔巴尼亚反对派冲击议会，引爆照明弹和烟雾弹",
-    "fr": "L'opposition albanaise prend d'assaut le Parlement, déclenche des fusées éclairantes et des fumigènes",
-    "ar": "المعارضة الألبانية تقتحم البرلمان وتشعل قنابل مضيئة وقنابل دخان",
-    "de": "Albanische Opposition stürmt Parlament, zündet Leuchtraketen und Rauchbomben",
-    "el": "Η αλβανική αντιπολίτευση εισβάλλει στο κοινοβούλιο, πυροδοτεί φωτοβολίδες και καπνογόνα"
    }
   },
   {
@@ -146,22 +140,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Eight of England’s nine water companies still failing on environment, report finds",
-   "url": "https://www.theguardian.com/business/2026/oct/29/ministers-water-bosses-report-performance-worse",
-   "date": "2026-10-29T16:39:48+00:00",
-   "t": {
-    "pt": "Oito das nove empresas de água da Inglaterra ainda falham no meio ambiente, conclui o relatório",
-    "es": "Ocho de las nueve empresas de agua de Inglaterra siguen fracasando en materia medioambiental, según un informe",
-    "it": "Secondo il rapporto, otto delle nove società idriche inglesi continuano a fallire in termini ambientali",
-    "zh": "报告发现，英格兰九家水务公司中有八家在环境方面仍然失败",
-    "fr": "Huit des neuf compagnies des eaux d’Angleterre échouent toujours en matière d’environnement, selon un rapport",
-    "ar": "توصل التقرير إلى أن ثماني من شركات المياه التسع في إنجلترا لا تزال فاشلة في مجال البيئة",
-    "de": "Bericht stellt fest, dass acht der neun Wasserversorgungsunternehmen Englands immer noch beim Umweltschutz scheitern",
-    "el": "Οκτώ από τις εννέα εταιρείες ύδρευσης της Αγγλίας εξακολουθούν να αποτυγχάνουν σε θέματα περιβάλλοντος, σύμφωνα με έκθεση"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "New Batteries That Store Blistering Heat Are Taking Off",
    "url": "https://www.nytimes.com/2026/10/29/climate/heat-battery-thermal-energy-storage.html",
@@ -175,54 +153,6 @@
     "ar": "البطاريات الجديدة التي تخزن الحرارة الشديدة بدأت في الظهور",
     "de": "Neue Batterien, die glühende Hitze speichern, sind auf dem Vormarsch",
     "el": "Νέες μπαταρίες που αποθηκεύουν τη θερμότητα με φουσκάλες απογειώνονται"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Finland launches criminal investigation into Google’s clearing of forest for datacentre site",
-   "url": "https://www.theguardian.com/world/2026/oct/29/finland-criminal-investigation-google-clearing-forest-datacentre",
-   "date": "2026-10-29T14:51:45+00:00",
-   "t": {
-    "pt": "Finlândia inicia investigação criminal sobre o desmatamento de floresta pelo Google para instalação de datacenter",
-    "es": "Finlandia inicia una investigación criminal sobre la tala de bosques por parte de Google para un centro de datos",
-    "it": "La Finlandia avvia un'indagine penale sul disboscamento da parte di Google per il sito del data center",
-    "zh": "芬兰对谷歌砍伐森林建数据中心一事展开刑事调查",
-    "fr": "La Finlande ouvre une enquête pénale sur le défrichement d’une forêt par Google pour un site de centre de données",
-    "ar": "تطلق فنلندا تحقيقًا جنائيًا في قيام Google بإزالة الغابات من أجل موقع مركز البيانات",
-    "de": "Finnland leitet strafrechtliche Ermittlungen zu Googles Waldrodung für den Standort eines Rechenzentrums ein",
-    "el": "Η Φινλανδία ξεκινά ποινική έρευνα για την εκκαθάριση του δάσους της Google για τον ιστότοπο του κέντρου δεδομένων"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "South West Water given lowest environmental rating",
-   "url": "https://www.bbc.co.uk/news/articles/c574p7r0xnvpo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-29T12:56:58+00:00",
-   "t": {
-    "pt": "South West Water recebeu a classificação ambiental mais baixa",
-    "es": "South West Water recibe la calificación medioambiental más baja",
-    "it": "South West Water ha ottenuto il punteggio ambientale più basso",
-    "zh": "西南水务公司获得最低环境评级",
-    "fr": "South West Water reçoit la note environnementale la plus basse",
-    "ar": "حصلت مياه الجنوب الغربي على أدنى تصنيف بيئي",
-    "de": "South West Water erhält die niedrigste Umweltbewertung",
-    "el": "Το South West Water έχει τη χαμηλότερη περιβαλλοντική βαθμολογία"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "A new wave of electric ferries is here in the US. Some even fly",
-   "url": "https://www.theguardian.com/environment/2026/oct/29/us-electric-ferries",
-   "date": "2026-10-29T10:00:31+00:00",
-   "t": {
-    "pt": "Uma nova onda de balsas elétricas está aqui nos EUA. Alguns até voam",
-    "es": "Una nueva ola de ferries eléctricos está aquí en Estados Unidos. Algunos incluso vuelan",
-    "it": "Una nuova ondata di traghetti elettrici è qui negli Stati Uniti. Alcuni addirittura volano",
-    "zh": "美国掀起了新一波电动渡轮浪潮。有的甚至会飞",
-    "fr": "Une nouvelle vague de ferries électriques arrive aux États-Unis. Certains volent même",
-    "ar": "موجة جديدة من العبارات الكهربائية موجودة هنا في الولايات المتحدة. حتى أن البعض يطير",
-    "de": "In den USA gibt es eine neue Welle elektrischer Fähren. Manche fliegen sogar",
-    "el": "Ένα νέο κύμα ηλεκτρικών πορθμείων είναι εδώ στις ΗΠΑ. Κάποιοι μάλιστα πετούν"
    }
   },
   {
@@ -384,6 +314,13 @@
     "de": "Schwellenländer setzen viel schneller auf Solarenergie und verzichten auf fossile Brennstoffe als Europa oder die USA",
     "el": "Οι αναδυόμενες οικονομίες αγκαλιάζουν την ηλιακή ενέργεια και παρακάμπτουν τα ορυκτά καύσιμα πολύ πιο γρήγορα από την Ευρώπη ή τις ΗΠΑ"
    }
+  },
+  {
+   "source": "DW",
+   "title": "Climate leaders called for solar energy for 'everyone, everywhere' by 2030, but with three years to go, is that goal attainable?",
+   "url": "https://www.dw.com/en/climate-leaders-called-for-solar-energy-for-everyone-everywhere-by-2030-but-with-three-years-to-go-is-that-goal-attainable/a-79517056?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-10-02T13:48:00+00:00",
+   "t": {}
   }
  ]
 }
