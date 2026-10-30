@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T18:36:00.663328+00:00",
+ "updated": "2026-10-30T22:57:52.233435+00:00",
  "items": [
   {
    "source": "GUARDIAN",
@@ -79,22 +79,6 @@
     "ar": "ستة قتلى بعد تحطم مروحية في ولاية شمال الهند",
     "de": "Sechs Tote nach Hubschrauberabsturz im nordindischen Bundesstaat",
     "el": "Έξι νεκροί μετά από συντριβή ελικοπτέρου στη βόρεια πολιτεία της Ινδίας"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Bhutan hot springs hit by flood from glacial lake burst",
-   "url": "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
-   "date": "2026-10-30T14:01:03+00:00",
-   "t": {
-    "pt": "Fontes termais do Butão atingidas por inundação de lago glacial estouraram",
-    "es": "Las aguas termales de Bután afectadas por la inundación del lago glacial estallaron",
-    "it": "Le sorgenti termali del Bhutan colpite dall'alluvione del lago glaciale sono scoppiate",
-    "zh": "不丹温泉遭冰川湖决口洪水袭击",
-    "fr": "Les sources chaudes du Bhoutan touchées par les inondations causées par l'éclatement d'un lac glaciaire",
-    "ar": "انفجار ينابيع بوتان الساخنة التي ضربتها فيضانات بحيرة جليدية",
-    "de": "Heiße Quellen in Bhutan von Überschwemmung nach Ausbruch eines Gletschersees heimgesucht",
-    "el": "Οι θερμές πηγές του Μπουτάν που επλήγησαν από πλημμύρες από παγετώδη λίμνη έσκασαν"
    }
   },
   {
@@ -271,6 +255,70 @@
     "ar": "يقول ترامب إنه سينهي القيود المفروضة على غاز الميثان المسبب للاحتباس الحراري الناتج عن التنقيب عن النفط",
     "de": "Trump sagt, er werde die Beschränkungen für klimaerwärmendes Methan aus Ölbohrungen aufheben",
     "el": "Ο Τραμπ λέει ότι τερματίζει τους περιορισμούς στο μεθάνιο που θερμαίνει το κλίμα από τις γεωτρήσεις πετρελαίου"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Could a giant sunshade in space ‘solve global warming’? Scientists are taking the idea seriously",
+   "url": "https://www.nature.com/articles/d41586-026-03415-2",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Poderia um guarda-sol gigante no espaço ‘resolver o aquecimento global’? Os cientistas estão levando a ideia a sério",
+    "es": "¿Podría una sombrilla gigante en el espacio “resolver el calentamiento global”? Los científicos se están tomando la idea en serio.",
+    "it": "Un gigantesco parasole nello spazio potrebbe “risolvere il riscaldamento globale”? Gli scienziati stanno prendendo sul serio l’idea",
+    "zh": "太空中的巨型遮阳伞能否“解决全球变暖”？科学家们正在认真对待这个想法",
+    "fr": "Un parasol géant dans l’espace pourrait-il « résoudre le réchauffement climatique » ? Les scientifiques prennent l'idée au sérieux",
+    "ar": "هل يمكن لمظلة شمسية عملاقة في الفضاء أن تحل ظاهرة الاحتباس الحراري؟ يأخذ العلماء هذه الفكرة على محمل الجد",
+    "de": "Könnte ein riesiger Sonnenschirm im Weltraum „die globale Erwärmung lösen“? Wissenschaftler nehmen die Idee ernst",
+    "el": "Θα μπορούσε ένα γιγάντιο σκίαστρο στο διάστημα να «λύσει την υπερθέρμανση του πλανήτη»; Οι επιστήμονες παίρνουν την ιδέα στα σοβαρά"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Ribbon made of carbon pentagons and heptagons has metallic properties",
+   "url": "https://www.nature.com/articles/d41586-026-03298-3",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Fita feita de pentágonos e heptágonos de carbono tem propriedades metálicas",
+    "es": "La cinta hecha de pentágonos y heptágonos de carbono tiene propiedades metálicas",
+    "it": "Il nastro composto da pentagoni ed ettagoni di carbonio ha proprietà metalliche",
+    "zh": "由碳五边形和七边形制成的带具有金属特性",
+    "fr": "Le ruban composé de pentagones et d'heptagones de carbone possède des propriétés métalliques",
+    "ar": "الشريط المصنوع من خماسيات وسباعيات الكربون له خصائص معدنية",
+    "de": "Ein Band aus Kohlenstofffünfecken und -siebenecken hat metallische Eigenschaften",
+    "el": "Η κορδέλα από πεντάγωνα και επτάγωνα άνθρακα έχει μεταλλικές ιδιότητες"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Narrow carbon pentaheptite nanoribbon as a covalent metal",
+   "url": "https://www.nature.com/articles/s41586-026-11202-2",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Nanofita estreita de pentaheptita de carbono como metal covalente",
+    "es": "Nanocinta de pentaheptita de carbono estrecha como metal covalente",
+    "it": "Nanonastro di pentaeptite di carbonio stretto come metallo covalente",
+    "zh": "作为共价金属的窄碳五庚矿纳米带",
+    "fr": "Nanoruban de pentaheptite de carbone étroit comme métal covalent",
+    "ar": "شريط نانوريبون خماسي الببتيت الكربوني الضيق كمعدن تساهمي",
+    "de": "Schmales Kohlenstoffpentaheptit-Nanoband als kovalentes Metall",
+    "el": "Στενή νανοκορδέλα πενταεπτίτη άνθρακα ως ομοιοπολικό μέταλλο"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Methane emissions remain flat even as biggest US oil region opens the tap",
+   "url": "https://www.nature.com/articles/d41586-026-03388-2",
+   "date": "2026-10-27T00:00:00+00:00",
+   "t": {
+    "pt": "As emissões de metano permanecem estáveis, mesmo com a maior região petrolífera dos EUA abrindo a torneira",
+    "es": "Las emisiones de metano se mantienen estables incluso cuando la mayor región petrolera de EE. UU. abre el grifo",
+    "it": "Le emissioni di metano rimangono stabili anche se la più grande regione petrolifera degli Stati Uniti apre il rubinetto",
+    "zh": "即使美国最大的石油地区打开水龙头，甲烷排放量仍保持平稳",
+    "fr": "Les émissions de méthane restent stables alors même que la plus grande région pétrolière des États-Unis ouvre le robinet",
+    "ar": "تظل انبعاثات غاز الميثان ثابتة حتى مع قيام أكبر منطقة نفطية في الولايات المتحدة بفتح الصنبور",
+    "de": "Die Methanemissionen bleiben unverändert, auch wenn die größte Ölregion der USA den Hahn öffnet",
+    "el": "Οι εκπομπές μεθανίου παραμένουν σταθερές ακόμη και όταν η μεγαλύτερη πετρελαϊκή περιοχή των ΗΠΑ ανοίγει τη βρύση"
    }
   },
   {
