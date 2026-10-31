@@ -1,6 +1,22 @@
 {
- "updated": "2026-10-31T19:57:38.503299+00:00",
+ "updated": "2026-10-31T23:22:27.296953+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "'Fascinating' rare beetle found in Wales again after 60 years",
+   "url": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-31T22:07:56+00:00",
+   "t": {
+    "pt": "Besouro raro ‘fascinante’ encontrado novamente no País de Gales após 60 anos",
+    "es": "Un escarabajo raro 'fascinante' encontrado nuevamente en Gales después de 60 años",
+    "it": "Scarabeo raro e \"affascinante\" ritrovato in Galles dopo 60 anni",
+    "zh": "60年后在威尔士再次发现“迷人”的稀有甲虫",
+    "fr": "Un coléoptère rare « fascinant » retrouvé au Pays de Galles après 60 ans",
+    "ar": "العثور على خنفساء نادرة \"رائعة\" في ويلز مرة أخرى بعد 60 عامًا",
+    "de": "„Faszinierender“ seltener Käfer nach 60 Jahren wieder in Wales gefunden",
+    "el": "«Συναρπαστικό» σπάνιο σκαθάρι βρέθηκε ξανά στην Ουαλία μετά από 60 χρόνια"
+   }
+  },
   {
    "source": "NYTIMES",
    "title": "COP17 Biodiversity Talks in Yerevan, Armenia",
@@ -115,22 +131,6 @@
   },
   {
    "source": "NPR",
-   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
-    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
-    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
-    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
-    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
-    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
-    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
-    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
-   }
-  },
-  {
-   "source": "NPR",
    "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
    "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
    "date": "2026-10-31T09:00:00+00:00",
@@ -159,6 +159,22 @@
     "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
     "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
     "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
+    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
+    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
+    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
+    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
+    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
+    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
+    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
    }
   },
   {
@@ -191,22 +207,6 @@
     "ar": "محادثات الطبيعة العالمية تتوصل إلى اتفاق لكن المال يظل مشكلة",
     "de": "Bei den globalen Naturgesprächen wird eine Einigung erzielt, aber das Geld bleibt ein Problem",
     "el": "Οι παγκόσμιες συνομιλίες για τη φύση καταλήγουν σε συμφωνία, αλλά τα χρήματα παραμένουν ένα ζήτημα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "UK could see 10 days without rain after 'wettest week in two years'",
-   "url": "https://www.bbc.co.uk/weather/articles/cq98zrwd42jzo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-31T00:06:31+00:00",
-   "t": {
-    "pt": "Reino Unido poderá ver 10 dias sem chuva após 'semana mais chuvosa em dois anos'",
-    "es": "El Reino Unido podría ver 10 días sin lluvia después de la \"semana más húmeda en dos años\"",
-    "it": "Il Regno Unito potrebbe vedere 10 giorni senza pioggia dopo la “settimana più piovosa degli ultimi due anni”",
-    "zh": "英国经历“两年来最潮湿的一周”后可能将有10天没有下雨",
-    "fr": "Le Royaume-Uni pourrait connaître 10 jours sans pluie après la « semaine la plus humide depuis deux ans »",
-    "ar": "المملكة المتحدة قد تشهد 10 أيام بدون أمطار بعد \"الأسبوع الأكثر رطوبة منذ عامين\"",
-    "de": "Großbritannien könnte nach der „regenreichsten Woche seit zwei Jahren“ zehn Tage ohne Regen erleben",
-    "el": "Το Ηνωμένο Βασίλειο θα μπορούσε να δει 10 ημέρες χωρίς βροχή μετά την «πιο υγρή εβδομάδα των τελευταίων δύο ετών»"
    }
   },
   {
