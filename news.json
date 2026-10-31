@@ -1,6 +1,102 @@
 {
- "updated": "2026-10-31T02:20:36.103502+00:00",
+ "updated": "2026-10-31T09:35:09.786463+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "How Trump Is Dismantling America’s Scientific Research Machine",
+   "url": "https://www.nytimes.com/2026/10/31/climate/how-trump-is-dismantling-americas-scientific-research-machine.html",
+   "date": "2026-10-31T09:00:38+00:00",
+   "t": {
+    "pt": "Como Trump está desmantelando a máquina de pesquisa científica da América",
+    "es": "Cómo Trump está desmantelando la máquina de investigación científica de Estados Unidos",
+    "it": "Come Trump sta smantellando la macchina della ricerca scientifica americana",
+    "zh": "特朗普如何拆除美国的科学研究机器",
+    "fr": "Comment Trump démantèle la machine de recherche scientifique américaine",
+    "ar": "كيف يقوم ترامب بتفكيك آلة البحث العلمي الأمريكية؟",
+    "de": "Wie Trump Amerikas wissenschaftliche Forschungsmaschinerie demontiert",
+    "el": "Πώς ο Τραμπ διαλύει τη μηχανή επιστημονικής έρευνας της Αμερικής"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Os planos para um data center ameaçam a natureza cênica e os céus escuros na Virgínia Ocidental",
+    "es": "Los planes para un centro de datos amenazan la naturaleza escénica y los cielos oscuros en Virginia Occidental",
+    "it": "I progetti per un data center minacciano la natura selvaggia e i cieli bui del West Virginia",
+    "zh": "数据中心计划威胁到西弗吉尼亚州风景优美的荒野和黑暗的天空",
+    "fr": "Les projets de centre de données menacent la nature sauvage et le ciel sombre de la Virginie occidentale",
+    "ar": "تهدد خطط إنشاء مركز بيانات الحياة البرية ذات المناظر الخلابة والسماء المظلمة في ولاية فرجينيا الغربية",
+    "de": "Pläne für ein Rechenzentrum gefährden die malerische Wildnis und den dunklen Himmel in West Virginia",
+    "el": "Τα σχέδια για ένα κέντρο δεδομένων απειλούν τη γραφική ερημιά και τους σκοτεινούς ουρανούς στη Δυτική Βιρτζίνια"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
+    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
+    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
+    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
+    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
+    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
+    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
+    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
+    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
+    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
+    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
+    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
+    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
+    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
+    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as latest event on track to fail targets",
+   "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
+   "date": "2026-10-31T08:48:05+00:00",
+   "t": {
+    "pt": "‘Um monte de bobagens’: crescem os apelos por reformas na cúpula da Cop como o último evento no caminho certo para falhar nas metas",
+    "es": "“Un montón de tonterías”: crecen los llamados a reformas en la cumbre de la policía como el último evento en camino de no cumplir con los objetivos",
+    "it": "“Un mucchio di sciocchezze”: crescono le richieste di riforme del vertice della polizia come ultimo evento sulla buona strada per fallire gli obiettivi",
+    "zh": "“一堆胡言乱语”：要求缔约方会议改革的呼声越来越高，因为最新的活动可能会导致目标失败",
+    "fr": "« Un tas de conneries » : les appels se multiplient en faveur de réformes du sommet de la Cop alors que le dernier événement est en passe d'échouer ses objectifs",
+    "ar": "\"حفنة من الهراء\": تزايد الدعوات لإصلاحات قمة مؤتمر الأطراف كأحدث حدث على الطريق الصحيح لفشل الأهداف",
+    "de": "„Ein Haufen Quatsch“: Die Forderungen nach Reformen des Cop-Gipfels werden immer lauter, da die jüngste Veranstaltung auf dem besten Weg ist, ihre Ziele zu verfehlen",
+    "el": "«Bunch of baloney»: οι εκκλήσεις αυξάνονται για μεταρρυθμίσεις στη σύνοδο κορυφής της αστυνομίας ως το τελευταίο γεγονός σε τροχιά αποτυχίας στόχων"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Rewilding project aims to restore peatland",
+   "url": "https://www.bbc.co.uk/news/articles/crq8nw0q7d5ko?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-31T06:58:30+00:00",
+   "t": {
+    "pt": "Projeto de rewilding visa restaurar turfeiras",
+    "es": "El proyecto de reconstrucción tiene como objetivo restaurar las turberas",
+    "it": "Il progetto di rewilding mira a ripristinare le torbiere",
+    "zh": "重建项目旨在恢复泥炭地",
+    "fr": "Le projet de réensauvagement vise à restaurer les tourbières",
+    "ar": "يهدف مشروع إعادة الحياة البرية إلى استعادة الأراضي الخثية",
+    "de": "Ziel des Rewilding-Projekts ist die Wiederherstellung von Torfmooren",
+    "el": "Το έργο Rewilding στοχεύει στην αποκατάσταση των τυρφώνων"
+   }
+  },
   {
    "source": "BBC",
    "title": "Global nature talks reach deal but money remains an issue",
@@ -98,22 +194,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Fears for mature Scots Pines burned by huge Highland wildfire",
-   "url": "https://www.bbc.co.uk/news/articles/cqd09pv4l3k0o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-30T15:12:17+00:00",
-   "t": {
-    "pt": "Temores por pinheiros escoceses maduros queimados por um enorme incêndio florestal nas Terras Altas",
-    "es": "Temores por los pinos silvestres maduros quemados por un enorme incendio forestal en las Tierras Altas",
-    "it": "Timori per i pini silvestri maturi bruciati da un enorme incendio nelle Highland",
-    "zh": "担心成熟的欧洲赤松被巨大的高地野火烧毁",
-    "fr": "Craintes pour les pins sylvestres matures brûlés par un énorme incendie de forêt dans les Highlands",
-    "ar": "مخاوف من حرق أشجار الصنوبر الاسكتلندية الناضجة بسبب حرائق الغابات الضخمة في المرتفعات",
-    "de": "Befürchtungen, dass ausgewachsene Waldkiefern durch einen riesigen Waldbrand in den Highlands niedergebrannt sind",
-    "el": "Φόβοι για ώριμα Σκωτσέζικα Πεύκα που κάηκαν από τεράστια δασική πυρκαγιά στα Highland"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "The Iran war is deepening the US energy crisis. A bad winter is ahead | Mark Wolfe",
    "url": "https://www.theguardian.com/commentisfree/2026/oct/30/iran-war-energy-crisis-winter",
@@ -127,22 +207,6 @@
     "ar": "حرب إيران تفاقم أزمة الطاقة في الولايات المتحدة. شتاء سيء أمامنا | مارك وولف",
     "de": "Der Iran-Krieg verschärft die Energiekrise der USA. Ein schlimmer Winter steht bevor | Mark Wolfe",
     "el": "Ο πόλεμος στο Ιράν βαθαίνει την ενεργειακή κρίση των ΗΠΑ. Ένας κακός χειμώνας είναι μπροστά | Μαρκ Γουλφ"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Public sector an ‘afterthought’ to North Sea oil jobs, says Unison leader",
-   "url": "https://www.theguardian.com/politics/2026/oct/30/public-sector-afterthought-north-sea-oil-jobs-unison",
-   "date": "2026-10-30T13:04:03+00:00",
-   "t": {
-    "pt": "Setor público é uma “reflexão tardia” para os empregos petrolíferos no Mar do Norte, diz o líder do Unison",
-    "es": "El sector público es una \"idea de último momento\" para los empleos petroleros en el Mar del Norte, dice el líder de Unison",
-    "it": "Il settore pubblico è un “ripensamento” per i posti di lavoro petroliferi nel Mare del Nord, afferma il leader dell’Unison",
-    "zh": "Unison 领导人表示，公共部门是北海石油工作的“事后想法”",
-    "fr": "Le secteur public est une « réflexion après coup » pour les emplois pétroliers en mer du Nord, déclare le leader d'Unison",
-    "ar": "يقول زعيم يونيسون إن القطاع العام \"فكرة لاحقة\" لوظائف النفط في بحر الشمال",
-    "de": "Der öffentliche Sektor sei ein „nachträglicher Einfall“ für Öljobs in der Nordsee, sagt Unison-Chef",
-    "el": "Ο δημόσιος τομέας αποτελεί «μετά την σκέψη» για τις θέσεις εργασίας στο πετρέλαιο στη Βόρεια Θάλασσα, λέει ο ηγέτης της Unison"
    }
   },
   {
@@ -191,70 +255,6 @@
     "ar": "تظهر الدراسة أنه حتى الطيور تصاب باضطراب الرحلات الجوية الطويلة",
     "de": "Sogar Vögel leiden unter Jetlag, wie eine Studie zeigt",
     "el": "Ακόμη και τα πουλιά παθαίνουν jet lagg, σύμφωνα με μελέτη"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "A Marathon Runner’s Hard Lesson",
-   "url": "https://www.nytimes.com/2026/10/29/climate/climate-marathon-running.html",
-   "date": "2026-10-29T16:57:11+00:00",
-   "t": {
-    "pt": "A dura lição de um corredor de maratona",
-    "es": "La dura lección de un corredor de maratón",
-    "it": "La dura lezione di un maratoneta",
-    "zh": "马拉松运动员的惨痛教训",
-    "fr": "La dure leçon d’un marathonien",
-    "ar": "الدرس الصعب لعداء الماراثون",
-    "de": "Die harte Lektion eines Marathonläufers",
-    "el": "Δύσκολο Μάθημα Μαραθωνοδρόμων"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Forecasters are predicting a warmer and wetter winter. Here's how El Niño will affect your region",
-   "url": "https://www.npr.org/2026/10/28/nx-s1-6009547/el-nino-forecast-us-winter",
-   "date": "2026-10-29T02:20:45+00:00",
-   "t": {
-    "pt": "Os meteorologistas preveem um inverno mais quente e chuvoso. Veja como o El Niño afetará sua região",
-    "es": "Los meteorólogos predicen un invierno más cálido y húmedo. Así afectará El Niño a tu región",
-    "it": "I meteorologi prevedono un inverno più caldo e umido. Ecco come El Niño influenzerà la tua regione",
-    "zh": "预报员预测冬季将更加温暖和湿润。以下是厄尔尼诺现象将如何影响您所在的地区",
-    "fr": "Les prévisionnistes prévoient un hiver plus chaud et plus humide. Here's how El Niño will affect your region",
-    "ar": "ويتوقع خبراء الأرصاد أن يكون الشتاء أكثر دفئا ورطوبة. وإليك كيفية تأثير ظاهرة النينيو على منطقتك",
-    "de": "Meteorologen sagen einen wärmeren und nasseren Winter voraus. So wird sich El Niño auf Ihre Region auswirken",
-    "el": "Οι μετεωρολόγοι προβλέπουν θερμότερο και υγρότερο χειμώνα. Δείτε πώς το Ελ Νίνιο θα επηρεάσει την περιοχή σας"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Trump administration wants to remove regulations on a super planet-heating gas",
-   "url": "https://www.npr.org/2026/10/28/nx-s1-5995910/trump-wants-remove-regulations-planet-heating-methane",
-   "date": "2026-10-28T21:15:09+00:00",
-   "t": {
-    "pt": "A administração Trump quer remover regulamentações sobre um gás que superaquece o planeta",
-    "es": "La administración Trump quiere eliminar las regulaciones sobre un gas que calienta el planeta",
-    "it": "L’amministrazione Trump vuole rimuovere le normative sul gas che riscalda il pianeta",
-    "zh": "特朗普政府希望取消对超级行星加热气体的监管",
-    "fr": "L’administration Trump veut supprimer la réglementation sur un super gaz de chauffage planétaire",
-    "ar": "تريد إدارة ترامب إزالة اللوائح المتعلقة بغاز تسخين الكوكب الفائق",
-    "de": "Die Trump-Administration will die Vorschriften für ein Superplaneten-Heizgas aufheben",
-    "el": "Η κυβέρνηση Τραμπ θέλει να καταργήσει τους κανονισμούς για ένα αέριο υπερθέρμανσης του πλανήτη"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Trump says he's ending restrictions on climate-warming methane from oil drilling",
-   "url": "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions",
-   "date": "2026-10-28T06:15:31+00:00",
-   "t": {
-    "pt": "Trump diz que está acabando com as restrições ao metano causador do aquecimento climático proveniente da perfuração de petróleo",
-    "es": "Trump dice que pondrá fin a las restricciones al metano procedente de la extracción de petróleo, que calienta el clima",
-    "it": "Trump afferma che metterà fine alle restrizioni sul metano che riscalda il clima derivante dalle trivellazioni petrolifere",
-    "zh": "特朗普表示，他将终止对石油钻探产生的导致气候变暖的甲烷的限制",
-    "fr": "Trump dit qu'il met fin aux restrictions sur le méthane issu du forage pétrolier, un réchauffement climatique",
-    "ar": "يقول ترامب إنه سينهي القيود المفروضة على غاز الميثان المسبب للاحتباس الحراري الناتج عن التنقيب عن النفط",
-    "de": "Trump sagt, er werde die Beschränkungen für klimaerwärmendes Methan aus Ölbohrungen aufheben",
-    "el": "Ο Τραμπ λέει ότι τερματίζει τους περιορισμούς στο μεθάνιο που θερμαίνει το κλίμα από τις γεωτρήσεις πετρελαίου"
    }
   },
   {
