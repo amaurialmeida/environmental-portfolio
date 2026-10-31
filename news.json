@@ -1,6 +1,54 @@
 {
- "updated": "2026-10-30T22:57:52.233435+00:00",
+ "updated": "2026-10-31T02:20:36.103502+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Global nature talks reach deal but money remains an issue",
+   "url": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-31T01:27:05+00:00",
+   "t": {
+    "pt": "Negociações globais sobre natureza chegam a acordo, mas dinheiro continua sendo um problema",
+    "es": "Las conversaciones globales sobre naturaleza llegan a un acuerdo, pero el dinero sigue siendo un problema",
+    "it": "I colloqui globali sulla natura raggiungono un accordo, ma il denaro rimane un problema",
+    "zh": "全球自然谈判达成协议，但资金仍然是一个问题",
+    "fr": "Les négociations mondiales sur la nature parviennent à un accord, mais l'argent reste un problème",
+    "ar": "محادثات الطبيعة العالمية تتوصل إلى اتفاق لكن المال يظل مشكلة",
+    "de": "Bei den globalen Naturgesprächen wird eine Einigung erzielt, aber das Geld bleibt ein Problem",
+    "el": "Οι παγκόσμιες συνομιλίες για τη φύση καταλήγουν σε συμφωνία, αλλά τα χρήματα παραμένουν ένα ζήτημα"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "UK could see 10 days without rain after 'wettest week in two years'",
+   "url": "https://www.bbc.co.uk/weather/articles/cq98zrwd42jzo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-31T00:06:31+00:00",
+   "t": {
+    "pt": "Reino Unido poderá ver 10 dias sem chuva após 'semana mais chuvosa em dois anos'",
+    "es": "El Reino Unido podría ver 10 días sin lluvia después de la \"semana más húmeda en dos años\"",
+    "it": "Il Regno Unito potrebbe vedere 10 giorni senza pioggia dopo la “settimana più piovosa degli ultimi due anni”",
+    "zh": "英国经历“两年来最潮湿的一周”后可能将有10天没有下雨",
+    "fr": "Le Royaume-Uni pourrait connaître 10 jours sans pluie après la « semaine la plus humide depuis deux ans »",
+    "ar": "المملكة المتحدة قد تشهد 10 أيام بدون أمطار بعد \"الأسبوع الأكثر رطوبة منذ عامين\"",
+    "de": "Großbritannien könnte nach der „regenreichsten Woche seit zwei Jahren“ zehn Tage ohne Regen erleben",
+    "el": "Το Ηνωμένο Βασίλειο θα μπορούσε να δει 10 ημέρες χωρίς βροχή μετά την «πιο υγρή εβδομάδα των τελευταίων δύο ετών»"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Australia’s best photos of the month – October 2026",
+   "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/31/australias-best-photos-of-the-month-october-2026",
+   "date": "2026-10-30T23:00:26+00:00",
+   "t": {
+    "pt": "Melhores fotos do mês da Austrália – outubro de 2026",
+    "es": "Las mejores fotos del mes de Australia: octubre de 2026",
+    "it": "Le migliori foto australiane del mese – ottobre 2026",
+    "zh": "澳大利亚本月最佳照片 – 2026 年 10 月",
+    "fr": "Les meilleures photos d’Australie du mois – octobre 2026",
+    "ar": "أفضل صور أستراليا لهذا الشهر – أكتوبر 2026",
+    "de": "Australiens beste Fotos des Monats – Oktober 2026",
+    "el": "Οι καλύτερες φωτογραφίες του μήνα στην Αυστραλία – Οκτώβριος 2026"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Twice as many plants and animals sold in wildlife trade as previously thought, says report",
@@ -66,22 +114,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Six dead after helicopter crashes in northern Indian state",
-   "url": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-30T15:06:05+00:00",
-   "t": {
-    "pt": "Seis mortos após queda de helicóptero no estado do norte da Índia",
-    "es": "Seis muertos al estrellarse un helicóptero en un estado del norte de India",
-    "it": "Sei morti dopo lo schianto di un elicottero nello stato dell'India settentrionale",
-    "zh": "印度北部邦直升机坠毁造成六人死亡",
-    "fr": "Six morts dans le crash d'un hélicoptère dans un État du nord de l'Inde",
-    "ar": "ستة قتلى بعد تحطم مروحية في ولاية شمال الهند",
-    "de": "Sechs Tote nach Hubschrauberabsturz im nordindischen Bundesstaat",
-    "el": "Έξι νεκροί μετά από συντριβή ελικοπτέρου στη βόρεια πολιτεία της Ινδίας"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "The Iran war is deepening the US energy crisis. A bad winter is ahead | Mark Wolfe",
    "url": "https://www.theguardian.com/commentisfree/2026/oct/30/iran-war-energy-crisis-winter",
@@ -114,22 +146,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Five reasons why the US midterms matter for the climate – and your energy bill",
-   "url": "https://www.theguardian.com/us-news/2026/oct/30/climate-crisis-midterms-affordability",
-   "date": "2026-10-30T11:30:52+00:00",
-   "t": {
-    "pt": "Cinco razões pelas quais as eleições intercalares dos EUA são importantes para o clima – e para a sua fatura energética",
-    "es": "Cinco razones por las que las elecciones intermedias de Estados Unidos son importantes para el clima y su factura energética",
-    "it": "Cinque ragioni per cui le elezioni di metà mandato degli Stati Uniti sono importanti per il clima e per la bolletta energetica",
-    "zh": "美国中期选举对气候和能源账单至关重要的五个原因",
-    "fr": "Cinq raisons pour lesquelles les élections de mi-mandat aux États-Unis sont importantes pour le climat – et pour votre facture énergétique",
-    "ar": "خمسة أسباب تجعل الانتخابات النصفية في الولايات المتحدة مهمة بالنسبة للمناخ - وفاتورة الطاقة الخاصة بك",
-    "de": "Fünf Gründe, warum die Zwischenwahlen in den USA für das Klima – und Ihre Energierechnung – wichtig sind",
-    "el": "Πέντε λόγοι για τους οποίους οι ενδιάμεσοι όροι των ΗΠΑ έχουν σημασία για το κλίμα – και τον ενεργειακό σας λογαριασμό"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
    "url": "https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html",
@@ -143,22 +159,6 @@
     "ar": "حققت صناعة النفط الأمريكية أرباحًا تزيد عن 130 مليار دولار خلال حرب إيران",
     "de": "Die US-Ölindustrie erzielte während des Iran-Krieges einen Gewinn von über 130 Milliarden US-Dollar",
     "el": "Η βιομηχανία πετρελαίου των ΗΠΑ κέρδισε πάνω από 130 δισεκατομμύρια δολάρια σε κέρδη κατά τη διάρκεια του πολέμου στο Ιράν"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "What makes this golden eagle chick so important?",
-   "url": "https://www.bbc.co.uk/news/articles/cq4g1jyj9dv7o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-30T06:22:37+00:00",
-   "t": {
-    "pt": "O que torna esse filhote de águia dourada tão importante?",
-    "es": "¿Qué hace que este polluelo de águila real sea tan importante?",
-    "it": "Cosa rende questo pulcino dell'aquila reale così importante?",
-    "zh": "是什么让这只金雕小鸡如此重要？",
-    "fr": "Qu’est-ce qui rend ce poussin aigle royal si important ?",
-    "ar": "ما الذي يجعل فرخ النسر الذهبي في غاية الأهمية؟",
-    "de": "Was macht dieses Steinadlerküken so wichtig?",
-    "el": "Τι κάνει αυτό το γκόμενο του χρυσαετού τόσο σημαντικό;"
    }
   },
   {
@@ -367,22 +367,6 @@
     "ar": "دعا قادة المناخ إلى توفير الطاقة الشمسية \"للجميع، في كل مكان\" بحلول عام 2030، ولكن مع بقاء ثلاث سنوات، هل يمكن تحقيق هذا الهدف؟",
     "de": "Klimaschützer forderten Solarenergie für „jeden und überall“ bis 2030, aber ist dieses Ziel in drei Jahren erreichbar?",
     "el": "Οι ηγέτες του κλίματος ζήτησαν ηλιακή ενέργεια για «όλους, παντού» έως το 2030, αλλά με τρία χρόνια πριν, είναι εφικτός αυτός ο στόχος;"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Weakened US fuel-efficiency rules and promises of cheaper cars could see drivers pay higher running costs while also increasing carbon emissions.",
-   "url": "https://www.dw.com/en/weakened-us-fuel-efficiency-rules-and-promises-of-cheaper-cars-could-see-drivers-pay-higher-running-costs-while-also-increasing-carbon-emissions/a-79496554?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-01T11:05:00+00:00",
-   "t": {
-    "pt": "As regras enfraquecidas em matéria de eficiência de combustível nos EUA e as promessas de automóveis mais baratos poderão fazer com que os condutores paguem custos de funcionamento mais elevados, ao mesmo tempo que aumentam as emissões de carbono.",
-    "es": "El debilitamiento de las normas estadounidenses sobre eficiencia de combustible y las promesas de automóviles más baratos podrían hacer que los conductores paguen mayores costos de funcionamiento y al mismo tiempo aumenten las emisiones de carbono.",
-    "it": "L’indebolimento delle regole statunitensi sull’efficienza del carburante e la promessa di auto più economiche potrebbero portare gli automobilisti a pagare costi di gestione più elevati, aumentando allo stesso tempo le emissioni di carbonio.",
-    "zh": "美国燃油效率规则的削弱和廉价汽车的承诺可能会导致司机支付更高的运营成本，同时也会增加碳排放。",
-    "fr": "L’affaiblissement des règles américaines en matière d’efficacité énergétique et les promesses de voitures moins chères pourraient amener les conducteurs à payer des coûts de fonctionnement plus élevés tout en augmentant également les émissions de carbone.",
-    "ar": "إن ضعف قواعد كفاءة استهلاك الوقود في الولايات المتحدة والوعود بالسيارات الرخيصة يمكن أن يدفع السائقين إلى دفع تكاليف تشغيل أعلى مع زيادة انبعاثات الكربون أيضًا.",
-    "de": "Geschwächte US-Vorschriften zur Kraftstoffeffizienz und Versprechen billigerer Autos könnten dazu führen, dass Autofahrer höhere Betriebskosten zahlen und gleichzeitig den CO2-Ausstoß erhöhen.",
-    "el": "Οι εξασθενημένοι κανόνες απόδοσης καυσίμου στις ΗΠΑ και οι υποσχέσεις για φθηνότερα αυτοκίνητα θα μπορούσαν να κάνουν τους οδηγούς να πληρώνουν υψηλότερα έξοδα λειτουργίας, ενώ παράλληλα θα αυξάνουν τις εκπομπές άνθρακα."
    }
   }
  ]
