@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-31T09:35:09.786463+00:00",
+ "updated": "2026-10-31T15:43:43.205445+00:00",
  "items": [
   {
    "source": "NYTIMES",
    "title": "How Trump Is Dismantling America’s Scientific Research Machine",
    "url": "https://www.nytimes.com/2026/10/31/climate/how-trump-is-dismantling-americas-scientific-research-machine.html",
-   "date": "2026-10-31T09:00:38+00:00",
+   "date": "2026-10-31T15:39:09+00:00",
    "t": {
     "pt": "Como Trump está desmantelando a máquina de pesquisa científica da América",
     "es": "Cómo Trump está desmantelando la máquina de investigación científica de Estados Unidos",
@@ -15,6 +15,102 @@
     "ar": "كيف يقوم ترامب بتفكيك آلة البحث العلمي الأمريكية؟",
     "de": "Wie Trump Amerikas wissenschaftliche Forschungsmaschinerie demontiert",
     "el": "Πώς ο Τραμπ διαλύει τη μηχανή επιστημονικής έρευνας της Αμερικής"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Bute House protested by environmental campaigners",
+   "url": "https://www.bbc.co.uk/news/articles/c9rkypk1g7k0o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-10-31T13:41:07+00:00",
+   "t": {
+    "pt": "Bute House protestada por ativistas ambientais",
+    "es": "Bute House protestada por activistas medioambientales",
+    "it": "Bute House ha protestato da parte degli attivisti ambientali",
+    "zh": "布特之家遭到环保人士的抗议",
+    "fr": "Bute House a protesté contre les militants environnementaux",
+    "ar": "احتج بوت هاوس من قبل نشطاء البيئة",
+    "de": "Bute House protestierte von Umweltaktivisten",
+    "el": "Το Bute House διαμαρτυρήθηκε από περιβαλλοντολόγους"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Trump boosted half of US coal plants with taxpayer dollars and ‘free passes to pollute’, report says",
+   "url": "https://www.theguardian.com/us-news/2026/oct/31/trump-coal-plants-taxpayer-dollars",
+   "date": "2026-10-31T13:00:42+00:00",
+   "t": {
+    "pt": "Trump impulsionou metade das usinas de carvão dos EUA com dólares dos contribuintes e “passes gratuitos para poluir”, diz relatório",
+    "es": "Trump impulsó la mitad de las plantas de carbón de EE.UU. con dinero de los contribuyentes y “pase gratis para contaminar”, según un informe",
+    "it": "Trump ha potenziato la metà delle centrali a carbone statunitensi con i dollari dei contribuenti e “pass gratuiti per inquinare”, afferma il rapporto",
+    "zh": "报告称，特朗普用纳税人的钱和“污染免费通行证”兴建了美国一半的燃煤电厂",
+    "fr": "Trump a financé la moitié des centrales à charbon américaines avec l’argent des contribuables et des « laissez-passer gratuits pour polluer », selon un rapport",
+    "ar": "يقول التقرير إن ترامب عزز نصف محطات الفحم في الولايات المتحدة بأموال دافعي الضرائب و\"تصاريح مجانية للتلوث\".",
+    "de": "Laut Bericht hat Trump die Hälfte der US-Kohlekraftwerke mit Steuergeldern und „Freikarten zur Umweltverschmutzung“ gefördert",
+    "el": "Ο Τραμπ ενίσχυσε τα μισά εργοστάσια άνθρακα στις ΗΠΑ με δολάρια φορολογουμένων και «δωρεάν εισιτήρια για να ρυπαίνουν», αναφέρει έκθεση"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
+   "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
+   "date": "2026-10-31T12:30:06+00:00",
+   "t": {
+    "pt": "‘Um monte de bobagens’: crescem os apelos por reformas na cúpula da Cop, à medida que os países estão no caminho certo para falhar nas metas da natureza",
+    "es": "“Un montón de tonterías”: crecen los llamados a reformas en la cumbre de la policía a medida que los países van camino de no cumplir con los objetivos ambientales",
+    "it": "“Un mucchio di sciocchezze”: crescono le richieste di riforme del vertice della Cop mentre i paesi sono sulla buona strada per fallire gli obiettivi ambientali",
+    "zh": "“一派胡言”：随着各国未能实现自然目标，要求缔约方会议改革的呼声越来越高",
+    "fr": "« Un tas de conneries » : les appels se multiplient en faveur de réformes au sommet de la COP alors que les pays sont sur le point d’échouer leurs objectifs en matière de nature",
+    "ar": "\"حفنة من الهراء\": تزايد الدعوات لإصلاحات قمة مؤتمر الأطراف في الوقت الذي تسير فيه البلدان على الطريق الصحيح للفشل في تحقيق أهداف الطبيعة",
+    "de": "„Ein Haufen Blödsinn“: Forderungen nach Reformen des Cop-Gipfels werden immer lauter, da die Länder auf dem besten Weg sind, ihre Naturschutzziele zu verfehlen",
+    "el": "«Bunch of Baloney»: οι εκκλήσεις αυξάνονται για μεταρρυθμίσεις στη σύνοδο κορυφής της αστυνομίας καθώς οι χώρες βρίσκονται σε καλό δρόμο να αποτύχουν τους στόχους της φύσης"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Mill 19: a creative hub built into a former steel factory",
+   "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/31/mill-19-steel-factory-pittsburgh",
+   "date": "2026-10-31T12:00:42+00:00",
+   "t": {
+    "pt": "Moinho 19: um centro criativo construído em uma antiga fábrica de aço",
+    "es": "Mill 19: un centro creativo construido en una antigua fábrica de acero",
+    "it": "Mill 19: un hub creativo ricavato in un'ex acciaieria",
+    "zh": "Mill 19：建在前钢铁厂内的创意中心",
+    "fr": "Moulin 19 : un pôle créatif aménagé dans une ancienne aciérie",
+    "ar": "الطاحونة 19: مركز إبداعي تم بناؤه في مصنع سابق للصلب",
+    "de": "Mill 19: ein Kreativzentrum, eingebaut in eine ehemalige Stahlfabrik",
+    "el": "Μύλος 19: ένας δημιουργικός κόμβος ενσωματωμένος σε ένα πρώην εργοστάσιο χάλυβα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Healey to veto new offshore wind projects if they will not lower bills",
+   "url": "https://www.theguardian.com/environment/2026/oct/31/john-healey-chancellor-offshore-wind-projects-veto",
+   "date": "2026-10-31T11:48:14+00:00",
+   "t": {
+    "pt": "Healey vetará novos projetos eólicos offshore se eles não reduzirem as contas",
+    "es": "Healey vetará nuevos proyectos eólicos marinos si no reducen las facturas",
+    "it": "Healey porrà il veto ai nuovi progetti eolici offshore se non ridurranno le bollette",
+    "zh": "如果新的海上风电项目不降低费用，希利将否决它们",
+    "fr": "Healey opposera son veto aux nouveaux projets éoliens offshore s'ils ne réduisent pas les factures",
+    "ar": "هيلي ستستخدم حق النقض ضد مشاريع الرياح البحرية الجديدة إذا لم تخفض الفواتير",
+    "de": "Healey wird ein Veto gegen neue Offshore-Windprojekte einlegen, wenn diese die Rechnungen nicht senken",
+    "el": "Η Healey θα ασκήσει βέτο σε νέα υπεράκτια αιολικά έργα εάν δεν μειώσουν τους λογαριασμούς"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
+    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
+    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
+    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
+    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
+    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
+    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
+    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
    }
   },
   {
@@ -47,38 +143,6 @@
     "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
     "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
     "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
-    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
-    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
-    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
-    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
-    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
-    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
-    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as latest event on track to fail targets",
-   "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
-   "date": "2026-10-31T08:48:05+00:00",
-   "t": {
-    "pt": "‘Um monte de bobagens’: crescem os apelos por reformas na cúpula da Cop como o último evento no caminho certo para falhar nas metas",
-    "es": "“Un montón de tonterías”: crecen los llamados a reformas en la cumbre de la policía como el último evento en camino de no cumplir con los objetivos",
-    "it": "“Un mucchio di sciocchezze”: crescono le richieste di riforme del vertice della polizia come ultimo evento sulla buona strada per fallire gli obiettivi",
-    "zh": "“一堆胡言乱语”：要求缔约方会议改革的呼声越来越高，因为最新的活动可能会导致目标失败",
-    "fr": "« Un tas de conneries » : les appels se multiplient en faveur de réformes du sommet de la Cop alors que le dernier événement est en passe d'échouer ses objectifs",
-    "ar": "\"حفنة من الهراء\": تزايد الدعوات لإصلاحات قمة مؤتمر الأطراف كأحدث حدث على الطريق الصحيح لفشل الأهداف",
-    "de": "„Ein Haufen Quatsch“: Die Forderungen nach Reformen des Cop-Gipfels werden immer lauter, da die jüngste Veranstaltung auf dem besten Weg ist, ihre Ziele zu verfehlen",
-    "el": "«Bunch of baloney»: οι εκκλήσεις αυξάνονται για μεταρρυθμίσεις στη σύνοδο κορυφής της αστυνομίας ως το τελευταίο γεγονός σε τροχιά αποτυχίας στόχων"
    }
   },
   {
@@ -130,38 +194,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Australia’s best photos of the month – October 2026",
-   "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/31/australias-best-photos-of-the-month-october-2026",
-   "date": "2026-10-30T23:00:26+00:00",
-   "t": {
-    "pt": "Melhores fotos do mês da Austrália – outubro de 2026",
-    "es": "Las mejores fotos del mes de Australia: octubre de 2026",
-    "it": "Le migliori foto australiane del mese – ottobre 2026",
-    "zh": "澳大利亚本月最佳照片 – 2026 年 10 月",
-    "fr": "Les meilleures photos d’Australie du mois – octobre 2026",
-    "ar": "أفضل صور أستراليا لهذا الشهر – أكتوبر 2026",
-    "de": "Australiens beste Fotos des Monats – Oktober 2026",
-    "el": "Οι καλύτερες φωτογραφίες του μήνα στην Αυστραλία – Οκτώβριος 2026"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Twice as many plants and animals sold in wildlife trade as previously thought, says report",
-   "url": "https://www.theguardian.com/environment/2026/oct/30/twice-as-many-plants-and-animals-sold-in-wildlife-trade-as-previously-thought-says-report",
-   "date": "2026-10-30T18:00:19+00:00",
-   "t": {
-    "pt": "Duas vezes mais plantas e animais vendidos no comércio de vida selvagem do que se pensava anteriormente, diz relatório",
-    "es": "Se vende el doble de plantas y animales en el comercio de vida silvestre de lo que se pensaba anteriormente, según un informe",
-    "it": "Il numero di piante e animali venduti nel commercio di animali selvatici è il doppio di quanto si pensasse in precedenza, afferma il rapporto",
-    "zh": "报告称，野生动物贸易中出售的植物和动物数量是之前预计的两倍",
-    "fr": "Selon un rapport, deux fois plus de plantes et d'animaux vendus dans le commerce d'espèces sauvages qu'on le pensait auparavant",
-    "ar": "يقول التقرير إن عدد النباتات والحيوانات التي تباع في تجارة الحياة البرية ضعف ما كان يعتقد سابقًا",
-    "de": "Laut Bericht werden doppelt so viele Pflanzen und Tiere im Wildtierhandel verkauft wie bisher angenommen",
-    "el": "Διπλάσια ποσότητα φυτών και ζώων που πωλούνται στο εμπόριο άγριας ζωής από ό,τι πιστεύαμε προηγουμένως, αναφέρει η έκθεση"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Conservation Efforts for Caucasian Leopards Show Promise",
    "url": "https://www.nytimes.com/2026/10/30/climate/injured-leopards-200-mile-trek-suggests-hope-for-a-species.html",
@@ -175,38 +207,6 @@
     "ar": "جهود الحفاظ على النمور القوقازية تبدو واعدة",
     "de": "Schutzbemühungen für Kaukasische Leoparden sind vielversprechend",
     "el": "Οι προσπάθειες διατήρησης για τις λεοπαρδάλεις του Καυκάσου δείχνουν υπόσχεση"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Attenborough-backed appeal secures £30m estate",
-   "url": "https://www.bbc.co.uk/news/articles/ck79pj8zn3vwo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-10-30T15:23:37+00:00",
-   "t": {
-    "pt": "Recurso apoiado por Attenborough garante patrimônio de £ 30 milhões",
-    "es": "La apelación respaldada por Attenborough asegura un patrimonio de £ 30 millones",
-    "it": "L’appello sostenuto da Attenborough garantisce un patrimonio di 30 milioni di sterline",
-    "zh": "阿滕伯勒支持的上诉确保了 3000 万英镑的遗产",
-    "fr": "Un appel soutenu par Attenborough garantit une succession de 30 millions de livres sterling",
-    "ar": "الاستئناف المدعوم من أتينبورو يؤمن ملكية بقيمة 30 مليون جنيه إسترليني",
-    "de": "Von Attenborough unterstützte Berufung sichert Nachlass im Wert von 30 Millionen Pfund",
-    "el": "Η προσφυγή που υποστηρίζεται από το Attenborough εξασφαλίζει περιουσία 30 εκατομμυρίων λιρών"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "The Iran war is deepening the US energy crisis. A bad winter is ahead | Mark Wolfe",
-   "url": "https://www.theguardian.com/commentisfree/2026/oct/30/iran-war-energy-crisis-winter",
-   "date": "2026-10-30T14:00:20+00:00",
-   "t": {
-    "pt": "A guerra do Irão está a aprofundar a crise energética dos EUA. Um inverno rigoroso está por vir | Marcos Wolfe",
-    "es": "La guerra de Irán está profundizando la crisis energética de Estados Unidos. Se avecina un mal invierno | Marcos Wolfe",
-    "it": "La guerra con l’Iran sta aggravando la crisi energetica degli Stati Uniti. Si prospetta un brutto inverno | Marco Wolfe",
-    "zh": "伊朗战争正在加深美国的能源危机。一个糟糕的冬天即将来临 |马克·沃尔夫",
-    "fr": "La guerre en Iran aggrave la crise énergétique américaine. Un mauvais hiver s'annonce | Marc Wolfe",
-    "ar": "حرب إيران تفاقم أزمة الطاقة في الولايات المتحدة. شتاء سيء أمامنا | مارك وولف",
-    "de": "Der Iran-Krieg verschärft die Energiekrise der USA. Ein schlimmer Winter steht bevor | Mark Wolfe",
-    "el": "Ο πόλεμος στο Ιράν βαθαίνει την ενεργειακή κρίση των ΗΠΑ. Ένας κακός χειμώνας είναι μπροστά | Μαρκ Γουλφ"
    }
   },
   {
