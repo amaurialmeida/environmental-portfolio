@@ -1,11 +1,27 @@
 {
- "updated": "2026-10-31T15:43:43.205445+00:00",
+ "updated": "2026-10-31T19:57:38.503299+00:00",
  "items": [
   {
    "source": "NYTIMES",
+   "title": "COP17 Biodiversity Talks in Yerevan, Armenia",
+   "url": "https://www.nytimes.com/2026/10/31/climate/cop17-biodiversity-yerevan-conclusion.html",
+   "date": "2026-10-31T17:40:19+00:00",
+   "t": {
+    "pt": "COP17 Conversações sobre Biodiversidade em Yerevan, Armênia",
+    "es": "COP17 Conversaciones sobre Biodiversidad en Ereván, Armenia",
+    "it": "COP17 Colloqui sulla biodiversità a Yerevan, Armenia",
+    "zh": "COP17 生物多样性会谈在亚美尼亚埃里温举行",
+    "fr": "Conférences COP17 sur la biodiversité à Erevan, Arménie",
+    "ar": "محادثات التنوع البيولوجي COP17 في يريفان، أرمينيا",
+    "de": "COP17-Biodiversitätsgespräche in Eriwan, Armenien",
+    "el": "Συνομιλίες για τη βιοποικιλότητα COP17 στο Ερεβάν της Αρμενίας"
+   }
+  },
+  {
+   "source": "NYTIMES",
    "title": "How Trump Is Dismantling America’s Scientific Research Machine",
-   "url": "https://www.nytimes.com/2026/10/31/climate/how-trump-is-dismantling-americas-scientific-research-machine.html",
-   "date": "2026-10-31T15:39:09+00:00",
+   "url": "https://www.nytimes.com/2026/10/31/science/how-trump-is-dismantling-americas-scientific-research-machine.html",
+   "date": "2026-10-31T17:32:04+00:00",
    "t": {
     "pt": "Como Trump está desmantelando a máquina de pesquisa científica da América",
     "es": "Cómo Trump está desmantelando la máquina de investigación científica de Estados Unidos",
@@ -223,22 +239,6 @@
     "ar": "حققت صناعة النفط الأمريكية أرباحًا تزيد عن 130 مليار دولار خلال حرب إيران",
     "de": "Die US-Ölindustrie erzielte während des Iran-Krieges einen Gewinn von über 130 Milliarden US-Dollar",
     "el": "Η βιομηχανία πετρελαίου των ΗΠΑ κέρδισε πάνω από 130 δισεκατομμύρια δολάρια σε κέρδη κατά τη διάρκεια του πολέμου στο Ιράν"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "The Perils of Glittering Skylines",
-   "url": "https://www.nytimes.com/2026/10/29/world/glass-skyscrapers-climate-patrick-stewart.html",
-   "date": "2026-10-30T05:36:36+00:00",
-   "t": {
-    "pt": "Os perigos dos horizontes brilhantes",
-    "es": "Los peligros de los horizontes resplandecientes",
-    "it": "I pericoli degli skyline scintillanti",
-    "zh": "闪闪发光的天际线的危险",
-    "fr": "Les périls des horizons scintillants",
-    "ar": "مخاطر الآفاق المتلألئة",
-    "de": "Die Gefahren glitzernder Skylines",
-    "el": "The Rils of Glittering Skylines"
    }
   },
   {
