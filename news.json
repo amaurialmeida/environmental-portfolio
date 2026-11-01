@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-01T18:55:19.087082+00:00",
+ "updated": "2026-11-01T22:47:59.958131+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "Northern Territory water plan condemned as ‘blatant and shameless’ attack on nature",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/02/northern-territory-water-plan-condemned-as-blatant-and-shameless-attack-on-nature",
+   "date": "2026-11-01T20:02:57+00:00",
+   "t": {
+    "pt": "Plano hídrico do Território do Norte condenado como ataque “flagrante e descarado” à natureza",
+    "es": "El plan hídrico del Territorio del Norte es condenado como un ataque “flagrante y descarado” a la naturaleza",
+    "it": "Il piano idrico del Territorio del Nord è stato condannato come attacco “palese e spudorato” alla natura",
+    "zh": "北领地水资源计划被谴责为“公然无耻”的对自然的攻击",
+    "fr": "Le plan d’approvisionnement en eau du Territoire du Nord condamné comme une attaque « flagrante et éhontée » contre la nature",
+    "ar": "أدانت خطة المياه في الإقليم الشمالي ووصفتها بأنها هجوم “صارخ ووقح” على الطبيعة",
+    "de": "Wasserplan des Northern Territory als „eklatanter und schamloser“ Angriff auf die Natur verurteilt",
+    "el": "Το σχέδιο νερού της Βόρειας Επικράτειας καταδικάστηκε ως «κατάφωρη και ξεδιάντροπη» επίθεση στη φύση"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Video captures house collapsing due to Ecuador floods",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss",
+   "date": "2026-11-01T19:56:47+00:00",
+   "t": {
+    "pt": "Vídeo captura casa desabando devido às enchentes no Equador",
+    "es": "Video capta casa derrumbándose por inundaciones en Ecuador",
+    "it": "Il video riprende il crollo di una casa a causa delle inondazioni in Ecuador",
+    "zh": "视频捕捉到厄瓜多尔洪水导致房屋倒塌",
+    "fr": "Une vidéo montre une maison s'effondrant à cause des inondations en Équateur",
+    "ar": "بالفيديو: انهيار منزل بسبب فيضانات الإكوادور",
+    "de": "Das Video zeigt den Einsturz eines Hauses aufgrund der Überschwemmungen in Ecuador",
+    "el": "Βίντεο καταγράφει την κατάρρευση ενός σπιτιού από τις πλημμύρες στο Εκουαδόρ"
+   }
+  },
   {
    "source": "BBC",
    "title": "'Fascinating' rare beetle found in Wales again after 60 years",
@@ -31,22 +63,6 @@
     "ar": "يحارب مجتمع كولورادو خطة لاستخدام طائرات بدون طيار لرش مبيد الحشائش",
     "de": "Gemeindekämpfe in Colorado planen den Einsatz von Drohnen zum Versprühen von Unkrautvernichtungsmitteln",
     "el": "Οι μάχες της κοινότητας του Κολοράντο σχεδιάζουν να χρησιμοποιήσουν drones για να ψεκάσουν το ζιζανιοκτόνο"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Northern Territory water plan condemned as ‘blatant and shameless’ attack on nature",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/02/northern-territory-water-plan-condemned-as-blatant-and-shameless-attack-on-nature",
-   "date": "2026-11-01T14:00:13+00:00",
-   "t": {
-    "pt": "Plano hídrico do Território do Norte condenado como ataque “flagrante e descarado” à natureza",
-    "es": "El plan hídrico del Territorio del Norte es condenado como un ataque “flagrante y descarado” a la naturaleza",
-    "it": "Il piano idrico del Territorio del Nord è stato condannato come attacco “palese e spudorato” alla natura",
-    "zh": "北领地水资源计划被谴责为“公然无耻”的对自然的攻击",
-    "fr": "Le plan d’approvisionnement en eau du Territoire du Nord condamné comme une attaque « flagrante et éhontée » contre la nature",
-    "ar": "أدانت خطة المياه في الإقليم الشمالي ووصفتها بأنها هجوم “صارخ ووقح” على الطبيعة",
-    "de": "Wasserplan des Northern Territory als „eklatanter und schamloser“ Angriff auf die Natur verurteilt",
-    "el": "Το σχέδιο νερού της Βόρειας Επικράτειας καταδικάστηκε ως «κατάφωρη και ξεδιάντροπη» επίθεση στη φύση"
    }
   },
   {
