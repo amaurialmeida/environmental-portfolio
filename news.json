@@ -1,99 +1,212 @@
 {
- "updated": "2026-11-02T10:59:04.725151+00:00",
+ "updated": "2026-11-02T20:45:11.736273+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "He Pioneered a Groundbreaking Idea and Was Met With Corporate Wrath",
+   "url": "https://www.nytimes.com/2026/11/02/climate/william-nordhaus-carbon-tax-american-business.html",
+   "date": "2026-11-02T19:51:54+00:00",
+   "t": {
+    "pt": "Ele foi o pioneiro em uma ideia inovadora e enfrentou a ira corporativa",
+    "es": "Fue pionero en una idea innovadora y fue recibido con la ira corporativa",
+    "it": "È stato il pioniere di un'idea rivoluzionaria e ha incontrato l'ira aziendale",
+    "zh": "他开创了一个开创性的想法，但却遭到了企业的愤怒",
+    "fr": "Il a lancé une idée révolutionnaire et a suscité la colère des entreprises.",
+    "ar": "لقد كان رائدًا في فكرة رائدة وقد قوبل بغضب الشركات",
+    "de": "Er entwickelte eine bahnbrechende Idee und stieß bei den Konzernen auf den Zorn",
+    "el": "Πρωτοστάτησε σε μια πρωτοποριακή ιδέα και αντιμετωπίστηκε με εταιρική οργή"
+   }
+  },
   {
    "source": "NYTIMES",
    "title": "Do Animals Grieve?",
    "url": "https://www.nytimes.com/2026/11/02/science/animals-grief-death.html",
-   "date": "2026-11-02T10:02:39+00:00",
-   "t": {}
+   "date": "2026-11-02T19:42:22+00:00",
+   "t": {
+    "pt": "Os animais sofrem?",
+    "es": "¿Los animales sufren?",
+    "it": "Gli animali soffrono?",
+    "zh": "动物会悲伤吗？",
+    "fr": "Les animaux sont-ils en deuil ?",
+    "ar": "هل تحزن الحيوانات؟",
+    "de": "Trauern Tiere?",
+    "el": "Θλίβουν τα ζώα;"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Control of Britain’s 39m smart meters passes to non-profit startup",
+   "url": "https://www.theguardian.com/environment/2026/nov/02/control-of-britains-39m-smart-meters-passes-to-non-profit-startup",
+   "date": "2026-11-02T18:13:35+00:00",
+   "t": {
+    "pt": "O controle dos 39 milhões de medidores inteligentes da Grã-Bretanha passa para uma startup sem fins lucrativos",
+    "es": "El control de los 39 millones de contadores inteligentes de Gran Bretaña pasa a una startup sin fines de lucro",
+    "it": "Il controllo dei 39 milioni di contatori intelligenti britannici passa a una startup no-profit",
+    "zh": "英国 3900 万个智能电表的控制权移交给非营利初创公司",
+    "fr": "Le contrôle des 39 millions de compteurs intelligents britanniques passe à une start-up à but non lucratif",
+    "ar": "السيطرة على 39 مليون متر ذكي في بريطانيا تنتقل إلى شركة ناشئة غير ربحية",
+    "de": "Die Kontrolle über die 39 Millionen Smart Meter in Großbritannien geht an ein gemeinnütziges Startup über",
+    "el": "Ο έλεγχος των 39 εκατομμυρίων έξυπνων μετρητών της Βρετανίας περνά σε μη κερδοσκοπική startup"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "Disneyland’s Autopia Ride Will Switch to Electric Vehicles",
-   "url": "https://www.nytimes.com/2026/11/02/climate/after-71-years-and-a-lot-of-exhaust-disneylands-autopia-goes-electric.html",
-   "date": "2026-11-02T10:02:30+00:00",
-   "t": {}
+   "url": "https://www.nytimes.com/2026/11/02/climate/disneyland-autopia-gas-electric.html",
+   "date": "2026-11-02T17:00:26+00:00",
+   "t": {
+    "pt": "Autopia Ride da Disneylândia mudará para veículos elétricos",
+    "es": "Autopia Ride de Disneyland cambiará a vehículos eléctricos",
+    "it": "L’Autopia Ride di Disneyland passerà ai veicoli elettrici",
+    "zh": "迪士尼乐园的 Autopia 游乐设施将改用电动汽车",
+    "fr": "L'Autopia Ride de Disneyland passera aux véhicules électriques",
+    "ar": "سوف تتحول رحلة Autopia في ديزني لاند إلى السيارات الكهربائية",
+    "de": "Disneylands Autopia-Fahrt wird auf Elektrofahrzeuge umgestellt",
+    "el": "Το Autopia Ride της Disneyland θα αλλάξει σε ηλεκτρικά οχήματα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘It’s really, really unusual’: tender bond between male donkey and bull baffles scientists",
+   "url": "https://www.theguardian.com/science/2026/nov/02/tender-bond-male-donkey-bull-baffles-scientists",
+   "date": "2026-11-02T16:53:15+00:00",
+   "t": {
+    "pt": "‘É muito, muito incomum’: vínculo terno entre burro macho e touro confunde cientistas",
+    "es": "“Es muy, muy inusual”: el tierno vínculo entre un burro y un toro desconcierta a los científicos",
+    "it": "“È davvero, davvero insolito”: il tenero legame tra l’asino maschio e il toro sconcerta gli scienziati",
+    "zh": "“这真的非常非常不寻常”：公驴和公牛之间的温柔关系让科学家们感到困惑",
+    "fr": "\"C'est vraiment, vraiment inhabituel\" : le lien tendre entre un âne et un taureau déroute les scientifiques",
+    "ar": "\"إنه أمر غير معتاد حقًا\": الرابطة الرقيقة بين ذكر الحمار والثور تحير العلماء",
+    "de": "„Es ist wirklich, wirklich ungewöhnlich“: Die zarte Bindung zwischen männlichem Esel und Bulle verwirrt Wissenschaftler",
+    "el": "«Είναι πραγματικά, πραγματικά ασυνήθιστο»: ο τρυφερός δεσμός μεταξύ αρσενικού γαϊδάρου και ταύρου μπερδεύει τους επιστήμονες"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "At least seven migrants die on boat bound for Canary Islands amid storm",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss",
+   "date": "2026-11-02T16:13:21+00:00",
+   "t": {
+    "pt": "Pelo menos sete migrantes morrem em barco com destino às Ilhas Canárias em meio a tempestade",
+    "es": "Al menos siete inmigrantes mueren en un barco con destino a Canarias en medio de una tormenta",
+    "it": "Almeno sette migranti muoiono su una barca diretta alle Isole Canarie in mezzo a una tempesta",
+    "zh": "暴风雨中至少七名移民在开往加那利群岛的船上死亡",
+    "fr": "Au moins sept migrants meurent sur un bateau à destination des îles Canaries au milieu d'une tempête",
+    "ar": "لقي سبعة مهاجرين على الأقل حتفهم على متن قارب متجه إلى جزر الكناري وسط العاصفة",
+    "de": "Mindestens sieben Migranten sterben bei Sturm auf Boot auf dem Weg zu den Kanarischen Inseln",
+    "el": "Τουλάχιστον επτά μετανάστες σκοτώνονται σε πλοίο με προορισμό τα Κανάρια Νησιά εν μέσω καταιγίδας"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "'New kit' helps battle against bugs",
+   "url": "https://www.bbc.co.uk/news/videos/cm369dep8jwno?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-02T15:05:59+00:00",
+   "t": {
+    "pt": "‘Novo kit’ ajuda a combater bugs",
+    "es": "El 'nuevo kit' ayuda a combatir los errores",
+    "it": "Il \"Nuovo kit\" aiuta a combattere gli insetti",
+    "zh": "“新套件”有助于对抗错误",
+    "fr": "Un « nouveau kit » aide à lutter contre les bugs",
+    "ar": "تساعد \"المجموعة الجديدة\" في مكافحة الأخطاء",
+    "de": "„Neues Kit“ hilft bei der Bekämpfung von Insekten",
+    "el": "Το \"νέο κιτ\" βοηθά στην καταπολέμηση σφαλμάτων"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Rare ant nest stolen from last place in England where species survives",
+   "url": "https://www.theguardian.com/environment/2026/nov/02/rare-narrow-headed-ant-nest-stolen-devon",
+   "date": "2026-11-02T15:00:43+00:00",
+   "t": {
+    "pt": "Formigueiro raro roubado do último lugar na Inglaterra onde a espécie sobrevive",
+    "es": "Raro nido de hormigas robado del último lugar de Inglaterra donde sobrevive la especie",
+    "it": "Raro formicaio rubato dall'ultimo posto in Inghilterra dove la specie sopravvive",
+    "zh": "罕见的蚂蚁巢穴从英格兰最后一个物种生存的地方被盗",
+    "fr": "Un nid de fourmis rare volé dans le dernier endroit d'Angleterre où l'espèce survit",
+    "ar": "عش النمل النادر سُرق من المكان الأخير في إنجلترا حيث تعيش الأنواع",
+    "de": "Seltenes Ameisennest vom letzten Ort in England gestohlen, an dem die Art überlebt",
+    "el": "Σπάνια φωλιά μυρμηγκιών κλάπηκε από το τελευταίο μέρος στην Αγγλία όπου επιβιώνει είδος"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Greenpeace activists create ‘boulder barrier’ in North Sea to deter industrial fishing",
+   "url": "https://www.theguardian.com/environment/2026/nov/02/greenpeace-boulder-barrier-north-sea-industrial-fishing-bottom-trawling-marine-protected-area",
+   "date": "2026-11-02T13:10:08+00:00",
+   "t": {
+    "pt": "Ativistas do Greenpeace criam ‘barreira de pedra’ no Mar do Norte para impedir a pesca industrial",
+    "es": "Activistas de Greenpeace crean una “barrera de rocas” en el Mar del Norte para disuadir la pesca industrial",
+    "it": "Gli attivisti di Greenpeace creano una “barriera di massi” nel Mare del Nord per scoraggiare la pesca industriale",
+    "zh": "绿色和平活动人士在北海建造“巨石屏障”以阻止工业捕鱼",
+    "fr": "Des militants de Greenpeace créent une « barrière rocheuse » en mer du Nord pour dissuader la pêche industrielle",
+    "ar": "نشطاء منظمة السلام الأخضر يقومون بإنشاء \"حاجز صخري\" في بحر الشمال لردع الصيد الصناعي",
+    "de": "Greenpeace-Aktivisten errichten eine „Felsbarriere“ in der Nordsee, um die industrielle Fischerei abzuschrecken",
+    "el": "Οι ακτιβιστές της Greenpeace δημιουργούν «φράγμα ογκόλιθων» στη Βόρεια Θάλασσα για να αποτρέψουν τη βιομηχανική αλιεία"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "Why Did Snakes Lose Their Legs? And 9 More Animal Mysteries",
    "url": "https://www.nytimes.com/2026/11/02/science/animals-mysteries-research.html",
    "date": "2026-11-02T10:00:21+00:00",
-   "t": {}
+   "t": {
+    "pt": "Por que as cobras perderam as pernas? E mais 9 mistérios de animais",
+    "es": "¿Por qué las serpientes perdieron las patas? Y 9 misterios animales más",
+    "it": "Perché i serpenti hanno perso le gambe? E altri 9 misteri degli animali",
+    "zh": "蛇为什么会失去腿？还有另外 9 个动物之谜",
+    "fr": "Pourquoi les serpents ont-ils perdu leurs pattes ? Et 9 autres mystères animaux",
+    "ar": "لماذا فقدت الثعابين أرجلها؟ و9 المزيد من ألغاز الحيوانات",
+    "de": "Warum haben Schlangen ihre Beine verloren? Und 9 weitere Tiergeheimnisse",
+    "el": "Γιατί τα φίδια έχασαν τα πόδια τους; Και 9 ακόμη μυστήρια ζώων"
+   }
   },
   {
    "source": "DW",
    "title": "For US Democrats, climate policy is now about energy bills",
    "url": "https://www.dw.com/en/for-us-democrats-climate-policy-is-now-about-energy-bills/a-79808783?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-02T08:59:00+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Thousands evacuated as India braces for second cyclone in a week",
-   "url": "https://www.aljazeera.com/news/2026/11/2/thousands-evacuated-as-india-braces-for-second-cyclone-in-a-week?traffic_source=rss",
-   "date": "2026-11-02T08:29:29+00:00",
-   "t": {}
+   "t": {
+    "pt": "Para os democratas dos EUA, a política climática agora gira em torno das contas de energia",
+    "es": "Para los demócratas estadounidenses, la política climática ahora se trata de facturas de energía",
+    "it": "Per i democratici statunitensi, la politica climatica ora riguarda le bollette energetiche",
+    "zh": "对于美国民主党人来说，气候政策现在与能源法案有关",
+    "fr": "Pour les démocrates américains, la politique climatique concerne désormais les factures énergétiques",
+    "ar": "بالنسبة للديمقراطيين في الولايات المتحدة، أصبحت سياسة المناخ الآن تتعلق بفواتير الطاقة",
+    "de": "Für die US-Demokraten geht es in der Klimapolitik nun um Energierechnungen",
+    "el": "Για τους Δημοκρατικούς των ΗΠΑ, η κλιματική πολιτική αφορά πλέον τους λογαριασμούς ενέργειας"
+   }
   },
   {
    "source": "BBC",
    "title": "Woman who flew with swans warns of lead danger",
    "url": "https://www.bbc.co.uk/news/articles/cqly0r3kp1mlo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-02T06:22:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "Mulher que voou com cisnes alerta para perigo de chumbo",
+    "es": "Mujer que voló con cisnes advierte del peligro del plomo",
+    "it": "La donna che volava con i cigni avverte del pericolo di piombo",
+    "zh": "与天鹅一起飞行的女士警告铅危险",
+    "fr": "Une femme qui a volé avec des cygnes met en garde contre le danger du plomb",
+    "ar": "المرأة التي طارت مع البجع تحذر من خطر الرصاص",
+    "de": "Frau, die mit Schwänen geflogen ist, warnt vor Bleigefahr",
+    "el": "Γυναίκα που πέταξε με κύκνους προειδοποιεί για κίνδυνο από μόλυβδο"
+   }
   },
   {
    "source": "BBC",
    "title": "Verdict delayed on controversial sea defences",
    "url": "https://www.bbc.co.uk/news/articles/cq9vz2jj409vo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-02T06:16:34+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Google search has gone from being very handy to useless | First Dog on the Moon",
-   "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/02/google-search-has-gone-from-being-very-handy-to-useless",
-   "date": "2026-11-02T05:54:05+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘They have schedules to follow’: how fast ferries can threaten endangered whales in the Mediterranean",
-   "url": "https://www.theguardian.com/environment/2026/nov/02/fast-ferries-threaten-endangered-whales-mediterranean",
-   "date": "2026-11-02T05:00:32+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Cryosphere faces permanent damage when world overshoots 1.5C, scientists warn",
-   "url": "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn",
-   "date": "2026-11-02T00:01:25+00:00",
    "t": {
-    "pt": "A criosfera enfrenta danos permanentes quando o mundo ultrapassa 1,5°C, alertam cientistas",
-    "es": "La criósfera se enfrenta a daños permanentes cuando el mundo supera los 1,5 °C, advierten los científicos",
-    "it": "La criosfera subirà danni permanenti quando il mondo supererà la soglia di 1,5°C, avvertono gli scienziati",
-    "zh": "科学家警告称，当全球气温超过1.5摄氏度时，冰冻圈将面临永久性损害",
-    "fr": "La cryosphère risque des dommages permanents lorsque la température mondiale dépasse 1,5°C, préviennent les scientifiques",
-    "ar": "يحذر العلماء من أن الغلاف الجليدي يواجه ضررًا دائمًا عندما يتجاوز العالم 1.5 درجة مئوية",
-    "de": "Wissenschaftler warnen, dass der Kryosphäre bleibende Schäden drohen, wenn die Temperatur weltweit über 1,5 °C steigt",
-    "el": "Η κρυόσφαιρα αντιμετωπίζει μόνιμη ζημιά όταν ο κόσμος ξεπεράσει τους 1,5 βαθμούς Κελσίου, προειδοποιούν οι επιστήμονες"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Northern Territory water plan condemned as ‘blatant and shameless’ attack on nature",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/02/northern-territory-water-plan-condemned-as-blatant-and-shameless-attack-on-nature",
-   "date": "2026-11-01T20:02:57+00:00",
-   "t": {
-    "pt": "Plano hídrico do Território do Norte condenado como ataque “flagrante e descarado” à natureza",
-    "es": "El plan hídrico del Territorio del Norte es condenado como un ataque “flagrante y descarado” a la naturaleza",
-    "it": "Il piano idrico del Territorio del Nord è stato condannato come attacco “palese e spudorato” alla natura",
-    "zh": "北领地水资源计划被谴责为“公然无耻”的对自然的攻击",
-    "fr": "Le plan d’approvisionnement en eau du Territoire du Nord condamné comme une attaque « flagrante et éhontée » contre la nature",
-    "ar": "أدانت خطة المياه في الإقليم الشمالي ووصفتها بأنها هجوم “صارخ ووقح” على الطبيعة",
-    "de": "Wasserplan des Northern Territory als „eklatanter und schamloser“ Angriff auf die Natur verurteilt",
-    "el": "Το σχέδιο νερού της Βόρειας Επικράτειας καταδικάστηκε ως «κατάφωρη και ξεδιάντροπη» επίθεση στη φύση"
+    "pt": "Veredicto adiado sobre controversas defesas marítimas",
+    "es": "Se retrasa el veredicto sobre las controvertidas defensas marítimas",
+    "it": "Verdetto rinviato sulle controverse difese a mare",
+    "zh": "对有争议的海上防御系统的判决被推迟",
+    "fr": "Verdict retardé sur les défenses maritimes controversées",
+    "ar": "تأخر الحكم على الدفاعات البحرية المثيرة للجدل",
+    "de": "Urteilsverkündung wegen umstrittener Seeverteidigung verzögert",
+    "el": "Καθυστέρησε η ετυμηγορία για αμφιλεγόμενες θαλάσσιες άμυνες"
    }
   },
   {
@@ -113,51 +226,19 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Aquarium shark that helped 'dispel myths' dies",
-   "url": "https://www.bbc.co.uk/news/articles/c64g18lkz0kno?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-01T12:13:50+00:00",
+   "source": "NPR",
+   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
+   "date": "2026-10-31T09:00:00+00:00",
    "t": {
-    "pt": "Morre tubarão de aquário que ajudou a ‘dissipar mitos’",
-    "es": "Muere el tiburón de acuario que ayudó a \"disipar mitos\"",
-    "it": "Muore lo squalo dell'acquario che ha contribuito a \"sfatare i miti\".",
-    "zh": "帮助“消除神话”的水族馆鲨鱼去世",
-    "fr": "Le requin d'aquarium qui a contribué à « dissiper les mythes » est mort",
-    "ar": "وفاة سمكة القرش التي ساعدت في \"تبديد الأساطير\"",
-    "de": "Aquariumhai, der dabei geholfen hat, „Mythen zu zerstreuen“, ist gestorben",
-    "el": "Πεθαίνει ο καρχαρίας του ενυδρείου που βοήθησε στην «διάλυση των μύθων»."
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Portugal police storm housing protest camps in Lisbon, Porto",
-   "url": "https://www.dw.com/en/portugal-police-storm-housing-protest-camps-in-lisbon-porto/a-79821643?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-01T11:20:00+00:00",
-   "t": {
-    "pt": "Polícia portuguesa invade acampamentos de protesto em Lisboa e Porto",
-    "es": "La policía portuguesa asalta campamentos de protesta en Lisboa y Oporto",
-    "it": "La polizia portoghese fa irruzione nei campi di protesta a Lisbona, Porto",
-    "zh": "葡萄牙警方突袭里斯本和波尔图的住房抗议营地",
-    "fr": "La police portugaise prend d'assaut les camps de protestation à Lisbonne et à Porto",
-    "ar": "الشرطة البرتغالية تقتحم مخيمات الاحتجاج في لشبونة، بورتو",
-    "de": "Die portugiesische Polizei stürmt Protestlager in Lissabon und Porto",
-    "el": "Η αστυνομία της Πορτογαλίας εισέβαλε σε καταυλισμούς διαμαρτυρίας στη Λισαβόνα του Πόρτο"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "COP17 Biodiversity Talks in Yerevan, Armenia",
-   "url": "https://www.nytimes.com/2026/10/31/climate/cop17-biodiversity-yerevan-conclusion.html",
-   "date": "2026-10-31T17:40:19+00:00",
-   "t": {
-    "pt": "COP17 Conversações sobre Biodiversidade em Yerevan, Armênia",
-    "es": "COP17 Conversaciones sobre Biodiversidad en Ereván, Armenia",
-    "it": "COP17 Colloqui sulla biodiversità a Yerevan, Armenia",
-    "zh": "COP17 生物多样性会谈在亚美尼亚埃里温举行",
-    "fr": "Conférences COP17 sur la biodiversité à Erevan, Arménie",
-    "ar": "محادثات التنوع البيولوجي COP17 في يريفان، أرمينيا",
-    "de": "COP17-Biodiversitätsgespräche in Eriwan, Armenien",
-    "el": "Συνομιλίες για τη βιοποικιλότητα COP17 στο Ερεβάν της Αρμενίας"
+    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
+    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
+    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
+    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
+    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
+    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
+    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
+    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
    }
   },
   {
@@ -174,22 +255,6 @@
     "ar": "تهدد خطط إنشاء مركز بيانات الحياة البرية ذات المناظر الخلابة والسماء المظلمة في ولاية فرجينيا الغربية",
     "de": "Pläne für ein Rechenzentrum gefährden die malerische Wildnis und den dunklen Himmel in West Virginia",
     "el": "Τα σχέδια για ένα κέντρο δεδομένων απειλούν τη γραφική ερημιά και τους σκοτεινούς ουρανούς στη Δυτική Βιρτζίνια"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
-    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
-    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
-    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
-    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
-    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
-    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
-    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
    }
   },
   {
@@ -302,6 +367,22 @@
     "ar": "ارتفاع الانبعاثات ودرجات الحرارة: أصبحت تكلفة تراجع ترامب بشأن المناخ واضحة الآن",
     "de": "Steigende Emissionen und Temperaturen: Die Kosten von Trumps Klima-Rückzug sind jetzt klar",
     "el": "Αύξηση των εκπομπών και της θερμοκρασίας: Το κόστος της κλιματικής υποχώρησης του Τραμπ είναι πλέον σαφές"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
+   "url": "https://www.dw.com/en/emerging-economies-are-embracing-solar-power-and-skipping-fossil-fuels-much-faster-than-europe-or-the-us/a-79474847?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-10-07T07:48:00+00:00",
+   "t": {
+    "pt": "As economias emergentes estão a adotar a energia solar e a abandonar os combustíveis fósseis muito mais rapidamente do que a Europa ou os EUA",
+    "es": "Las economías emergentes están adoptando la energía solar y abandonando los combustibles fósiles mucho más rápido que Europa o Estados Unidos.",
+    "it": "Le economie emergenti stanno abbracciando l’energia solare e abbandonando i combustibili fossili molto più velocemente di Europa o Stati Uniti",
+    "zh": "新兴经济体拥抱太阳能并跳过化石燃料的速度比欧洲或美国快得多",
+    "fr": "Les économies émergentes adoptent l’énergie solaire et abandonnent les combustibles fossiles beaucoup plus rapidement que l’Europe ou les États-Unis.",
+    "ar": "تتبنى الاقتصادات الناشئة الطاقة الشمسية وتتخلى عن الوقود الأحفوري بسرعة أكبر بكثير من أوروبا أو الولايات المتحدة",
+    "de": "Schwellenländer setzen viel schneller auf Solarenergie und verzichten auf fossile Brennstoffe als Europa oder die USA",
+    "el": "Οι αναδυόμενες οικονομίες αγκαλιάζουν την ηλιακή ενέργεια και παρακάμπτουν τα ορυκτά καύσιμα πολύ πιο γρήγορα από την Ευρώπη ή τις ΗΠΑ"
    }
   }
  ]
