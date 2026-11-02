@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-01T22:47:59.958131+00:00",
+ "updated": "2026-11-02T02:28:50.622842+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "Cryosphere faces permanent damage when world overshoots 1.5C, scientists warn",
+   "url": "https://www.theguardian.com/science/2026/nov/02/permanent-damage-crysophere-overshoots-15c-scientists-warn",
+   "date": "2026-11-02T00:01:25+00:00",
+   "t": {
+    "pt": "A criosfera enfrenta danos permanentes quando o mundo ultrapassa 1,5°C, alertam cientistas",
+    "es": "La criósfera se enfrenta a daños permanentes cuando el mundo supera los 1,5 °C, advierten los científicos",
+    "it": "La criosfera subirà danni permanenti quando il mondo supererà la soglia di 1,5°C, avvertono gli scienziati",
+    "zh": "科学家警告称，当全球气温超过1.5摄氏度时，冰冻圈将面临永久性损害",
+    "fr": "La cryosphère risque des dommages permanents lorsque la température mondiale dépasse 1,5°C, préviennent les scientifiques",
+    "ar": "يحذر العلماء من أن الغلاف الجليدي يواجه ضررًا دائمًا عندما يتجاوز العالم 1.5 درجة مئوية",
+    "de": "Wissenschaftler warnen, dass der Kryosphäre bleibende Schäden drohen, wenn die Temperatur weltweit über 1,5 °C steigt",
+    "el": "Η κρυόσφαιρα αντιμετωπίζει μόνιμη ζημιά όταν ο κόσμος ξεπεράσει τους 1,5 βαθμούς Κελσίου, προειδοποιούν οι επιστήμονες"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Northern Territory water plan condemned as ‘blatant and shameless’ attack on nature",
@@ -175,22 +191,6 @@
     "ar": "يقول التقرير إن ترامب عزز نصف محطات الفحم في الولايات المتحدة بأموال دافعي الضرائب و\"تصاريح مجانية للتلوث\".",
     "de": "Laut Bericht hat Trump die Hälfte der US-Kohlekraftwerke mit Steuergeldern und „Freikarten zur Umweltverschmutzung“ gefördert",
     "el": "Ο Τραμπ ενίσχυσε τα μισά εργοστάσια άνθρακα στις ΗΠΑ με δολάρια φορολογουμένων και «δωρεάν εισιτήρια για να ρυπαίνουν», αναφέρει έκθεση"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
-   "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
-   "date": "2026-10-31T12:30:06+00:00",
-   "t": {
-    "pt": "‘Um monte de bobagens’: crescem os apelos por reformas na cúpula da Cop, à medida que os países estão no caminho certo para falhar nas metas da natureza",
-    "es": "“Un montón de tonterías”: crecen los llamados a reformas en la cumbre de la policía a medida que los países van camino de no cumplir con los objetivos ambientales",
-    "it": "“Un mucchio di sciocchezze”: crescono le richieste di riforme del vertice della Cop mentre i paesi sono sulla buona strada per fallire gli obiettivi ambientali",
-    "zh": "“一派胡言”：随着各国未能实现自然目标，要求缔约方会议改革的呼声越来越高",
-    "fr": "« Un tas de conneries » : les appels se multiplient en faveur de réformes au sommet de la COP alors que les pays sont sur le point d’échouer leurs objectifs en matière de nature",
-    "ar": "\"حفنة من الهراء\": تزايد الدعوات لإصلاحات قمة مؤتمر الأطراف في الوقت الذي تسير فيه البلدان على الطريق الصحيح للفشل في تحقيق أهداف الطبيعة",
-    "de": "„Ein Haufen Blödsinn“: Forderungen nach Reformen des Cop-Gipfels werden immer lauter, da die Länder auf dem besten Weg sind, ihre Naturschutzziele zu verfehlen",
-    "el": "«Bunch of Baloney»: οι εκκλήσεις αυξάνονται για μεταρρυθμίσεις στη σύνοδο κορυφής της αστυνομίας καθώς οι χώρες βρίσκονται σε καλό δρόμο να αποτύχουν τους στόχους της φύσης"
    }
   },
   {
