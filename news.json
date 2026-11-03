@@ -1,20 +1,116 @@
 {
- "updated": "2026-11-02T20:45:11.736273+00:00",
+ "updated": "2026-11-03T02:53:54.525176+00:00",
  "items": [
   {
-   "source": "NYTIMES",
-   "title": "He Pioneered a Groundbreaking Idea and Was Met With Corporate Wrath",
-   "url": "https://www.nytimes.com/2026/11/02/climate/william-nordhaus-carbon-tax-american-business.html",
-   "date": "2026-11-02T19:51:54+00:00",
+   "source": "BBC",
+   "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
+   "url": "https://www.bbc.co.uk/news/articles/cm86zdp2ygqno?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-03T00:41:36+00:00",
    "t": {
-    "pt": "Ele foi o pioneiro em uma ideia inovadora e enfrentou a ira corporativa",
-    "es": "Fue pionero en una idea innovadora y fue recibido con la ira corporativa",
-    "it": "È stato il pioniere di un'idea rivoluzionaria e ha incontrato l'ira aziendale",
-    "zh": "他开创了一个开创性的想法，但却遭到了企业的愤怒",
-    "fr": "Il a lancé une idée révolutionnaire et a suscité la colère des entreprises.",
-    "ar": "لقد كان رائدًا في فكرة رائدة وقد قوبل بغضب الشركات",
-    "de": "Er entwickelte eine bahnbrechende Idee und stieß bei den Konzernen auf den Zorn",
-    "el": "Πρωτοστάτησε σε μια πρωτοποριακή ιδέα και αντιμετωπίστηκε με εταιρική οργή"
+    "pt": "De scooters a shampoo - as pessoas salvando centenas de pessoas mergulhando em lixeiras",
+    "es": "Desde scooters hasta champú: las personas que salvaron a cientos de personas que buscaban en los contenedores de basura",
+    "it": "Dagli scooter allo shampoo: le persone che salvano centinaia di persone dalle immersioni nei cassonetti",
+    "zh": "从踏板车到洗发水——人们从垃圾箱潜水中拯救了数百人",
+    "fr": "Des scooters au shampoing : les gens sauvent des centaines de personnes de la plongée dans les poubelles",
+    "ar": "من الدراجات البخارية إلى الشامبو - ينقذ الأشخاص المئات من الغوص في القمامة",
+    "de": "Vom Roller bis zum Shampoo – die Menschen retten Hunderte vor dem Müllcontainertauchen",
+    "el": "Από σκούτερ μέχρι σαμπουάν - οι άνθρωποι σώζουν εκατοντάδες από τις καταδύσεις με σκουπίδια"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "William Nordhaus Pioneered Putting a Price on Pollution",
+   "url": "https://www.nytimes.com/2026/11/02/climate/william-nordhaus-carbon-tax-american-business.html",
+   "date": "2026-11-03T00:27:42+00:00",
+   "t": {
+    "pt": "William Nordhaus foi pioneiro em colocar um preço na poluição",
+    "es": "William Nordhaus fue pionero en poner precio a la contaminación",
+    "it": "William Nordhaus fu il pioniere nel dare un prezzo all’inquinamento",
+    "zh": "威廉·诺德豪斯率先为污染定价",
+    "fr": "William Nordhaus a été le pionnier de la tarification de la pollution",
+    "ar": "كان ويليام نوردهاوس رائداً في تحديد سعر للتلوث",
+    "de": "William Nordhaus leistete Pionierarbeit bei der Festlegung eines Preises für die Umweltverschmutzung",
+    "el": "Ο Γουίλιαμ Νόρντχαους πρωτοστάτησε στο να βάλει τιμή στη ρύπανση"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Red gold from purple flowers: saffron harvest in Kashmir – in pictures",
+   "url": "https://www.theguardian.com/world/gallery/2026/nov/03/red-gold-from-purple-flowers-saffron-harvest-in-kashmir-in-pictures",
+   "date": "2026-11-02T23:37:16+00:00",
+   "t": {
+    "pt": "Ouro vermelho de flores roxas: colheita de açafrão na Caxemira – em fotos",
+    "es": "Oro rojo de flores violetas: cosecha de azafrán en Cachemira – en imágenes",
+    "it": "Oro rosso dai fiori viola: raccolta dello zafferano in Kashmir – in immagini",
+    "zh": "紫色花朵中的红金：克什米尔的藏红花收获——图片中",
+    "fr": "L'or rouge des fleurs violettes : récolte du safran au Cachemire – en images",
+    "ar": "الذهب الأحمر من الزهور الأرجوانية: حصاد الزعفران في كشمير – بالصور",
+    "de": "Rotes Gold aus violetten Blüten: Safranernte in Kaschmir – in Bildern",
+    "el": "Κόκκινος χρυσός από μωβ άνθη: συγκομιδή σαφράν στο Κασμίρ – σε εικόνες"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "William Nordhaus Has Died. Nobelist Influenced Climate Policy.",
+   "url": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
+   "date": "2026-11-02T23:13:58+00:00",
+   "t": {
+    "pt": "William Nordhaus morreu. Política climática influenciada pelo Nobel.",
+    "es": "William Nordhaus ha muerto. Política climática influenciada por los Nobel.",
+    "it": "William Nordhaus è morto. Politica climatica influenzata dai Nobelisti.",
+    "zh": "威廉·诺德豪斯去世。诺贝尔奖获得者影响的气候政策。",
+    "fr": "William Nordhaus est décédé. Les Nobelistes ont influencé la politique climatique.",
+    "ar": "توفي ويليام نوردهاوس. سياسة المناخ المتأثرة بجائزة نوبل.",
+    "de": "William Nordhaus ist gestorben. Von Nobelpreisträgern beeinflusste Klimapolitik.",
+    "el": "Ο William Nordhaus πέθανε. Πολιτική για το κλίμα που επηρεάστηκε από το Νόμπελ."
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Powerful storm tears through beach resort on Italy’s southern coast",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/powerful-storm-tears-through-beach-resort-on-italys-southern-coast?traffic_source=rss",
+   "date": "2026-11-02T22:59:41+00:00",
+   "t": {
+    "pt": "Forte tempestade atinge resort de praia na costa sul da Itália",
+    "es": "Una poderosa tormenta arrasa un balneario en la costa sur de Italia",
+    "it": "Una potente tempesta si abbatte su una località balneare sulla costa meridionale dell’Italia",
+    "zh": "强大的风暴席卷了意大利南部海岸的海滩度假胜地",
+    "fr": "Une puissante tempête ravage une station balnéaire de la côte sud de l’Italie",
+    "ar": "عاصفة قوية تمزق منتجع الشاطئ على الساحل الجنوبي لإيطاليا",
+    "de": "Ein heftiger Sturm fegt über einen Badeort an der Südküste Italiens",
+    "el": "Ισχυρή καταιγίδα σκίζει παραλιακό θέρετρο στη νότια ακτή της Ιταλίας"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Do the Shetland Isles need Cold War-style military protection?",
+   "url": "https://www.bbc.co.uk/news/articles/cjg47dq6q775o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-02T22:45:57+00:00",
+   "t": {
+    "pt": "As Ilhas Shetland precisam de protecção militar ao estilo da Guerra Fria?",
+    "es": "¿Necesitan las Islas Shetland una protección militar al estilo de la Guerra Fría?",
+    "it": "Le Isole Shetland hanno bisogno di una protezione militare in stile Guerra Fredda?",
+    "zh": "设得兰群岛需要冷战式的军事保护吗？",
+    "fr": "Les îles Shetland ont-elles besoin d’une protection militaire de type guerre froide ?",
+    "ar": "هل تحتاج جزر شيتلاند إلى حماية عسكرية على غرار الحرب الباردة؟",
+    "de": "Brauchen die Shetlandinseln einen militärischen Schutz im Stil des Kalten Krieges?",
+    "el": "Χρειάζονται τα νησιά Shetland στρατιωτική προστασία τύπου Ψυχρού Πολέμου;"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Disneyland’s Autopia Ride Will Switch to Electric Vehicles",
+   "url": "https://www.nytimes.com/2026/11/02/climate/disneyland-autopia-gas-electric.html",
+   "date": "2026-11-02T21:11:41+00:00",
+   "t": {
+    "pt": "Autopia Ride da Disneylândia mudará para veículos elétricos",
+    "es": "Autopia Ride de Disneyland cambiará a vehículos eléctricos",
+    "it": "L’Autopia Ride di Disneyland passerà ai veicoli elettrici",
+    "zh": "迪士尼乐园的 Autopia 游乐设施将改用电动汽车",
+    "fr": "L'Autopia Ride de Disneyland passera aux véhicules électriques",
+    "ar": "سوف تتحول رحلة Autopia في ديزني لاند إلى السيارات الكهربائية",
+    "de": "Disneylands Autopia-Fahrt wird auf Elektrofahrzeuge umgestellt",
+    "el": "Το Autopia Ride της Disneyland θα αλλάξει σε ηλεκτρικά οχήματα"
    }
   },
   {
@@ -50,22 +146,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "Disneyland’s Autopia Ride Will Switch to Electric Vehicles",
-   "url": "https://www.nytimes.com/2026/11/02/climate/disneyland-autopia-gas-electric.html",
-   "date": "2026-11-02T17:00:26+00:00",
-   "t": {
-    "pt": "Autopia Ride da Disneylândia mudará para veículos elétricos",
-    "es": "Autopia Ride de Disneyland cambiará a vehículos eléctricos",
-    "it": "L’Autopia Ride di Disneyland passerà ai veicoli elettrici",
-    "zh": "迪士尼乐园的 Autopia 游乐设施将改用电动汽车",
-    "fr": "L'Autopia Ride de Disneyland passera aux véhicules électriques",
-    "ar": "سوف تتحول رحلة Autopia في ديزني لاند إلى السيارات الكهربائية",
-    "de": "Disneylands Autopia-Fahrt wird auf Elektrofahrzeuge umgestellt",
-    "el": "Το Autopia Ride της Disneyland θα αλλάξει σε ηλεκτρικά οχήματα"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "‘It’s really, really unusual’: tender bond between male donkey and bull baffles scientists",
    "url": "https://www.theguardian.com/science/2026/nov/02/tender-bond-male-donkey-bull-baffles-scientists",
@@ -79,22 +159,6 @@
     "ar": "\"إنه أمر غير معتاد حقًا\": الرابطة الرقيقة بين ذكر الحمار والثور تحير العلماء",
     "de": "„Es ist wirklich, wirklich ungewöhnlich“: Die zarte Bindung zwischen männlichem Esel und Bulle verwirrt Wissenschaftler",
     "el": "«Είναι πραγματικά, πραγματικά ασυνήθιστο»: ο τρυφερός δεσμός μεταξύ αρσενικού γαϊδάρου και ταύρου μπερδεύει τους επιστήμονες"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "At least seven migrants die on boat bound for Canary Islands amid storm",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/at-least-seven-migrants-die-on-boat-bound-for-canary-islands-amid-storm?traffic_source=rss",
-   "date": "2026-11-02T16:13:21+00:00",
-   "t": {
-    "pt": "Pelo menos sete migrantes morrem em barco com destino às Ilhas Canárias em meio a tempestade",
-    "es": "Al menos siete inmigrantes mueren en un barco con destino a Canarias en medio de una tormenta",
-    "it": "Almeno sette migranti muoiono su una barca diretta alle Isole Canarie in mezzo a una tempesta",
-    "zh": "暴风雨中至少七名移民在开往加那利群岛的船上死亡",
-    "fr": "Au moins sept migrants meurent sur un bateau à destination des îles Canaries au milieu d'une tempête",
-    "ar": "لقي سبعة مهاجرين على الأقل حتفهم على متن قارب متجه إلى جزر الكناري وسط العاصفة",
-    "de": "Mindestens sieben Migranten sterben bei Sturm auf Boot auf dem Weg zu den Kanarischen Inseln",
-    "el": "Τουλάχιστον επτά μετανάστες σκοτώνονται σε πλοίο με προορισμό τα Κανάρια Νησιά εν μέσω καταιγίδας"
    }
   },
   {
@@ -130,38 +194,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Greenpeace activists create ‘boulder barrier’ in North Sea to deter industrial fishing",
-   "url": "https://www.theguardian.com/environment/2026/nov/02/greenpeace-boulder-barrier-north-sea-industrial-fishing-bottom-trawling-marine-protected-area",
-   "date": "2026-11-02T13:10:08+00:00",
-   "t": {
-    "pt": "Ativistas do Greenpeace criam ‘barreira de pedra’ no Mar do Norte para impedir a pesca industrial",
-    "es": "Activistas de Greenpeace crean una “barrera de rocas” en el Mar del Norte para disuadir la pesca industrial",
-    "it": "Gli attivisti di Greenpeace creano una “barriera di massi” nel Mare del Nord per scoraggiare la pesca industriale",
-    "zh": "绿色和平活动人士在北海建造“巨石屏障”以阻止工业捕鱼",
-    "fr": "Des militants de Greenpeace créent une « barrière rocheuse » en mer du Nord pour dissuader la pêche industrielle",
-    "ar": "نشطاء منظمة السلام الأخضر يقومون بإنشاء \"حاجز صخري\" في بحر الشمال لردع الصيد الصناعي",
-    "de": "Greenpeace-Aktivisten errichten eine „Felsbarriere“ in der Nordsee, um die industrielle Fischerei abzuschrecken",
-    "el": "Οι ακτιβιστές της Greenpeace δημιουργούν «φράγμα ογκόλιθων» στη Βόρεια Θάλασσα για να αποτρέψουν τη βιομηχανική αλιεία"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Why Did Snakes Lose Their Legs? And 9 More Animal Mysteries",
-   "url": "https://www.nytimes.com/2026/11/02/science/animals-mysteries-research.html",
-   "date": "2026-11-02T10:00:21+00:00",
-   "t": {
-    "pt": "Por que as cobras perderam as pernas? E mais 9 mistérios de animais",
-    "es": "¿Por qué las serpientes perdieron las patas? Y 9 misterios animales más",
-    "it": "Perché i serpenti hanno perso le gambe? E altri 9 misteri degli animali",
-    "zh": "蛇为什么会失去腿？还有另外 9 个动物之谜",
-    "fr": "Pourquoi les serpents ont-ils perdu leurs pattes ? Et 9 autres mystères animaux",
-    "ar": "لماذا فقدت الثعابين أرجلها؟ و9 المزيد من ألغاز الحيوانات",
-    "de": "Warum haben Schlangen ihre Beine verloren? Und 9 weitere Tiergeheimnisse",
-    "el": "Γιατί τα φίδια έχασαν τα πόδια τους; Και 9 ακόμη μυστήρια ζώων"
-   }
-  },
-  {
    "source": "DW",
    "title": "For US Democrats, climate policy is now about energy bills",
    "url": "https://www.dw.com/en/for-us-democrats-climate-policy-is-now-about-energy-bills/a-79808783?maca=en-rss-en-all-1573-rdf",
@@ -194,54 +226,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Verdict delayed on controversial sea defences",
-   "url": "https://www.bbc.co.uk/news/articles/cq9vz2jj409vo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-02T06:16:34+00:00",
-   "t": {
-    "pt": "Veredicto adiado sobre controversas defesas marítimas",
-    "es": "Se retrasa el veredicto sobre las controvertidas defensas marítimas",
-    "it": "Verdetto rinviato sulle controverse difese a mare",
-    "zh": "对有争议的海上防御系统的判决被推迟",
-    "fr": "Verdict retardé sur les défenses maritimes controversées",
-    "ar": "تأخر الحكم على الدفاعات البحرية المثيرة للجدل",
-    "de": "Urteilsverkündung wegen umstrittener Seeverteidigung verzögert",
-    "el": "Καθυστέρησε η ετυμηγορία για αμφιλεγόμενες θαλάσσιες άμυνες"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "'Fascinating' rare beetle found in Wales again after 60 years",
-   "url": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-01T18:04:52+00:00",
-   "t": {
-    "pt": "Besouro raro ‘fascinante’ encontrado novamente no País de Gales após 60 anos",
-    "es": "Un escarabajo raro 'fascinante' encontrado nuevamente en Gales después de 60 años",
-    "it": "Scarabeo raro e \"affascinante\" ritrovato in Galles dopo 60 anni",
-    "zh": "60年后在威尔士再次发现“迷人”的稀有甲虫",
-    "fr": "Un coléoptère rare « fascinant » retrouvé au Pays de Galles après 60 ans",
-    "ar": "العثور على خنفساء نادرة \"رائعة\" في ويلز مرة أخرى بعد 60 عامًا",
-    "de": "„Faszinierender“ seltener Käfer nach 60 Jahren wieder in Wales gefunden",
-    "el": "«Συναρπαστικό» σπάνιο σκαθάρι βρέθηκε ξανά στην Ουαλία μετά από 60 χρόνια"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
-    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
-    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
-    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
-    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
-    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
-    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
-    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
-   }
-  },
-  {
    "source": "NPR",
    "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
    "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
@@ -271,6 +255,22 @@
     "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
     "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
     "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
+    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
+    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
+    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
+    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
+    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
+    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
+    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
    }
   },
   {
