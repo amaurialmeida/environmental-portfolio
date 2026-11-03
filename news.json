@@ -1,20 +1,68 @@
 {
- "updated": "2026-11-03T18:24:52.348783+00:00",
+ "updated": "2026-11-03T23:58:17.566218+00:00",
  "items": [
   {
+   "source": "BBC",
+   "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
+   "url": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-03T23:00:14+00:00",
+   "t": {
+    "pt": "Príncipe William diz que o Reino Unido enfrenta um risco terrível de mais incêndios florestais devido às mudanças climáticas",
+    "es": "El príncipe William dice que el Reino Unido enfrenta un riesgo aterrador de más incendios forestales debido al cambio climático",
+    "it": "Il principe William afferma che il Regno Unito corre il rischio terrificante di ulteriori incendi a causa dei cambiamenti climatici",
+    "zh": "威廉王子表示，由于气候变化，英国面临更多野火的可怕风险",
+    "fr": "Le prince William déclare que le Royaume-Uni est confronté à un risque terrifiant d'incendies de forêt supplémentaires en raison du changement climatique",
+    "ar": "يقول الأمير ويليام إن المملكة المتحدة تواجه خطرًا مرعبًا بحدوث المزيد من حرائق الغابات بسبب تغير المناخ",
+    "de": "Prinz William sagt, dass in Großbritannien aufgrund des Klimawandels ein erschreckendes Risiko weiterer Waldbrände besteht",
+    "el": "Ο πρίγκιπας Ουίλιαμ λέει ότι το Ηνωμένο Βασίλειο αντιμετωπίζει τρομακτικό κίνδυνο για περισσότερες πυρκαγιές λόγω της κλιματικής αλλαγής"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Why Floodwaters Won’t Solve the Southwestern Water Crisis",
+   "url": "https://www.nytimes.com/2026/11/03/climate/floods-arizona-colorado-river-water.html",
+   "date": "2026-11-03T21:06:37+00:00",
+   "t": {
+    "pt": "Por que as enchentes não resolverão a crise hídrica do sudoeste",
+    "es": "Por qué las inundaciones no resolverán la crisis del agua en el suroeste",
+    "it": "Perché le alluvioni non risolveranno la crisi idrica del sud-ovest",
+    "zh": "为什么洪水无法解决西南地区的水危机",
+    "fr": "Pourquoi les eaux de crue ne résoudront pas la crise de l’eau dans le sud-ouest",
+    "ar": "لماذا لن تحل مياه الفيضانات أزمة المياه في الجنوب الغربي؟",
+    "de": "Warum Überschwemmungen die Wasserkrise im Südwesten nicht lösen werden",
+    "el": "Γιατί τα νερά των πλημμυρών δεν θα λύσουν την κρίση του Νοτιοδυτικού Νερού"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "The Election Day Edition",
+   "url": "https://www.nytimes.com/2026/11/03/climate/climate-midterm-elections.html",
+   "date": "2026-11-03T19:17:25+00:00",
+   "t": {
+    "pt": "A edição do dia da eleição",
+    "es": "La edición del día de las elecciones",
+    "it": "L'edizione del giorno delle elezioni",
+    "zh": "选举日版",
+    "fr": "L'édition du jour du scrutin",
+    "ar": "طبعة يوم الانتخابات",
+    "de": "Die Wahltagsausgabe",
+    "el": "Έκδοση για την ημέρα των εκλογών"
+   }
+  },
+  {
    "source": "GUARDIAN",
-   "title": "UK makes huge aid cuts to Commonwealth nations despite warm words at Chogm summit",
+   "title": "UK makes huge aid cuts to Commonwealth nations despite warm words at Chogm",
    "url": "https://www.theguardian.com/world/2026/nov/03/uk-cuts-aid-commonwealth-countries-despite-warm-words-at-chogm-summit",
    "date": "2026-11-03T17:49:57+00:00",
    "t": {
-    "pt": "O Reino Unido faz enormes cortes na ajuda às nações da Commonwealth, apesar das palavras calorosas na cimeira de Chogm",
-    "es": "El Reino Unido hace enormes recortes en la ayuda a los países de la Commonwealth a pesar de las cálidas palabras en la cumbre de Chogm",
-    "it": "Il Regno Unito effettua enormi tagli agli aiuti alle nazioni del Commonwealth nonostante le parole calorose pronunciate al vertice di Chogm",
-    "zh": "尽管在 Chogm 峰会上发表了热情洋溢的言论，英国还是大幅削减了对英联邦国家的援助",
-    "fr": "Le Royaume-Uni réduit considérablement son aide aux pays du Commonwealth malgré les propos chaleureux du sommet de Chogm",
-    "ar": "المملكة المتحدة تجري تخفيضات كبيرة في المساعدات لدول الكومنولث على الرغم من الكلمات الدافئة في قمة تشوجم",
-    "de": "Trotz freundlicher Worte auf dem Chogm-Gipfel nimmt Großbritannien erhebliche Kürzungen bei der Hilfe für Commonwealth-Staaten vor",
-    "el": "Το Ηνωμένο Βασίλειο κάνει τεράστιες περικοπές βοήθειας προς τα έθνη της Κοινοπολιτείας παρά τα θερμά λόγια στη σύνοδο κορυφής του Τσόγκμ"
+    "pt": "O Reino Unido faz enormes cortes na ajuda às nações da Commonwealth, apesar das palavras calorosas em Chogm",
+    "es": "El Reino Unido hace enormes recortes en la ayuda a los países de la Commonwealth a pesar de las cálidas palabras en Chogm",
+    "it": "Il Regno Unito effettua enormi tagli agli aiuti alle nazioni del Commonwealth nonostante le parole calorose pronunciate a Chogm",
+    "zh": "尽管在乔格姆会议上发表了热情洋溢的言论，英国还是大幅削减了对英联邦国家的援助",
+    "fr": "Le Royaume-Uni réduit considérablement son aide aux pays du Commonwealth malgré les paroles chaleureuses de Chogm",
+    "ar": "المملكة المتحدة تجري تخفيضات كبيرة في المساعدات لدول الكومنولث على الرغم من الكلمات الدافئة في تشوغم",
+    "de": "Großbritannien nimmt trotz freundlicher Worte bei Chogm große Kürzungen bei der Hilfe für Commonwealth-Staaten vor",
+    "el": "Το Ηνωμένο Βασίλειο κάνει τεράστιες περικοπές βοήθειας προς τα έθνη της Κοινοπολιτείας παρά τα θερμά λόγια στο Chogm"
    }
   },
   {
@@ -98,22 +146,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "Why Southwestern Floods Won’t Solve a Water Crisis",
-   "url": "https://www.nytimes.com/2026/11/03/climate/floods-arizona-colorado-river-water.html",
-   "date": "2026-11-03T14:16:14+00:00",
-   "t": {
-    "pt": "Por que as inundações no sudoeste não resolverão uma crise hídrica",
-    "es": "Por qué las inundaciones en el suroeste no resolverán la crisis del agua",
-    "it": "Perché le inondazioni nel sud-ovest non risolveranno la crisi idrica",
-    "zh": "为什么西南洪水无法解决水危机",
-    "fr": "Pourquoi les inondations dans le sud-ouest ne résoudront pas une crise de l’eau",
-    "ar": "لماذا لن تحل الفيضانات الجنوبية الغربية أزمة المياه",
-    "de": "Warum Überschwemmungen im Südwesten eine Wasserkrise nicht lösen werden",
-    "el": "Γιατί οι πλημμύρες στα νοτιοδυτικά δεν θα λύσουν μια κρίση νερού"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "Snowy Hydro 2.0 executives awarded bonuses totalling $751,925 despite cost blowout",
    "url": "https://www.theguardian.com/australia-news/2026/nov/04/snowy-hydro-20-executives-awarded-bonuses-totalling-751925-despite-cost-blowout",
@@ -162,38 +194,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Boulders dropped off coast to disrupt deep fishing",
-   "url": "https://www.bbc.co.uk/news/articles/c3j47k8rrkr5o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-03T10:53:09+00:00",
-   "t": {
-    "pt": "Pedregulhos caíram da costa para atrapalhar a pesca profunda",
-    "es": "Caídas de rocas frente a la costa perturban la pesca de profundidad",
-    "it": "I massi sono caduti al largo della costa interrompendo la pesca profonda",
-    "zh": "巨石从海岸掉落扰乱深海捕鱼",
-    "fr": "Des rochers lâchés au large des côtes pour perturber la pêche en profondeur",
-    "ar": "سقطت الصخور قبالة الساحل لتعطيل الصيد العميق",
-    "de": "Felsbrocken fielen vor der Küste ab und störten die Tiefseefischerei",
-    "el": "Οι ογκόλιθοι έπεσαν στα ανοικτά των ακτών για να διαταράξουν το ψάρεμα σε βάθος"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Old, Polluting Jet Engines Are Being Scavenged to Power Data Centers",
-   "url": "https://www.nytimes.com/2026/11/03/climate/jet-engines-ai-data-center-generators-boneyard.html",
-   "date": "2026-11-03T10:00:11+00:00",
-   "t": {
-    "pt": "Motores a jato antigos e poluentes estão sendo eliminados para alimentar data centers",
-    "es": "Se están recuperando motores a reacción viejos y contaminantes para alimentar centros de datos",
-    "it": "Vecchi motori a reazione inquinanti vengono recuperati per alimentare i data center",
-    "zh": "污染严重的旧喷气发动机被用来为数据中心供电",
-    "fr": "De vieux moteurs à réaction polluants sont récupérés pour alimenter les centres de données",
-    "ar": "يجري الآن استخدام المحركات النفاثة القديمة الملوثة لتشغيل مراكز البيانات",
-    "de": "Alte, umweltschädliche Flugzeugtriebwerke werden ausgesondert, um Rechenzentren mit Strom zu versorgen",
-    "el": "Παλιοί, ρυπογόνες κινητήρες αεριωθουμένων σκουπίζονται για να τροφοδοτήσουν τα κέντρα δεδομένων"
-   }
-  },
-  {
    "source": "DW",
    "title": "India news: Cyclone Murasu wreaks havoc after landfall",
    "url": "https://www.dw.com/en/india-news-cyclone-murasu-wreaks-havoc-after-landfall/live-79835410?maca=en-rss-en-all-1573-rdf",
@@ -207,22 +207,6 @@
     "ar": "أخبار الهند: إعصار موراسو يُحدث دمارًا بعد وصوله إلى اليابسة",
     "de": "Nachrichten aus Indien: Zyklon Murasu richtet nach Landung verheerende Schäden an",
     "el": "Ειδήσεις από την Ινδία: Ο κυκλώνας Μουράσου προκαλεί όλεθρο μετά την πτώση"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Os planos para um data center ameaçam a natureza cênica e os céus escuros na Virgínia Ocidental",
-    "es": "Los planes para un centro de datos amenazan la naturaleza escénica y los cielos oscuros en Virginia Occidental",
-    "it": "I progetti per un data center minacciano la natura selvaggia e i cieli bui del West Virginia",
-    "zh": "数据中心计划威胁到西弗吉尼亚州风景优美的荒野和黑暗的天空",
-    "fr": "Les projets de centre de données menacent la nature sauvage et le ciel sombre de la Virginie occidentale",
-    "ar": "تهدد خطط إنشاء مركز بيانات الحياة البرية ذات المناظر الخلابة والسماء المظلمة في ولاية فرجينيا الغربية",
-    "de": "Pläne für ein Rechenzentrum gefährden die malerische Wildnis und den dunklen Himmel in West Virginia",
-    "el": "Τα σχέδια για ένα κέντρο δεδομένων απειλούν τη γραφική ερημιά και τους σκοτεινούς ουρανούς στη Δυτική Βιρτζίνια"
    }
   },
   {
@@ -255,6 +239,22 @@
     "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
     "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
     "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Os planos para um data center ameaçam a natureza cênica e os céus escuros na Virgínia Ocidental",
+    "es": "Los planes para un centro de datos amenazan la naturaleza escénica y los cielos oscuros en Virginia Occidental",
+    "it": "I progetti per un data center minacciano la natura selvaggia e i cieli bui del West Virginia",
+    "zh": "数据中心计划威胁到西弗吉尼亚州风景优美的荒野和黑暗的天空",
+    "fr": "Les projets de centre de données menacent la nature sauvage et le ciel sombre de la Virginie occidentale",
+    "ar": "تهدد خطط إنشاء مركز بيانات الحياة البرية ذات المناظر الخلابة والسماء المظلمة في ولاية فرجينيا الغربية",
+    "de": "Pläne für ein Rechenzentrum gefährden die malerische Wildnis und den dunklen Himmel in West Virginia",
+    "el": "Τα σχέδια για ένα κέντρο δεδομένων απειλούν τη γραφική ερημιά και τους σκοτεινούς ουρανούς στη Δυτική Βιρτζίνια"
    }
   },
   {
