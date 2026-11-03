@@ -1,11 +1,75 @@
 {
- "updated": "2026-11-03T02:53:54.525176+00:00",
+ "updated": "2026-11-03T10:48:30.166524+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "Why Southwestern Floods Won’t Solve A Water Crisis",
+   "url": "https://www.nytimes.com/2026/11/03/climate/floods-arizona-colorado-river-water.html",
+   "date": "2026-11-03T10:03:41+00:00",
+   "t": {
+    "pt": "Por que as inundações no sudoeste não resolverão uma crise hídrica",
+    "es": "Por qué las inundaciones en el suroeste no resolverán la crisis del agua",
+    "it": "Perché le inondazioni nel sud-ovest non risolveranno la crisi idrica",
+    "zh": "为什么西南洪水无法解决水危机",
+    "fr": "Pourquoi les inondations dans le sud-ouest ne résoudront pas la crise de l’eau",
+    "ar": "لماذا لن تحل الفيضانات الجنوبية الغربية أزمة المياه؟",
+    "de": "Warum Überschwemmungen im Südwesten eine Wasserkrise nicht lösen werden",
+    "el": "Γιατί οι πλημμύρες στα νοτιοδυτικά δεν θα λύσουν μια κρίση νερού"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Old, Polluting Jet Engines Are Being Scavenged to Power Data Centers",
+   "url": "https://www.nytimes.com/2026/11/03/climate/jet-engines-ai-data-center-generators-boneyard.html",
+   "date": "2026-11-03T10:00:11+00:00",
+   "t": {
+    "pt": "Motores a jato antigos e poluentes estão sendo eliminados para alimentar data centers",
+    "es": "Se están recuperando motores a reacción viejos y contaminantes para alimentar centros de datos",
+    "it": "Vecchi motori a reazione inquinanti vengono recuperati per alimentare i data center",
+    "zh": "污染严重的旧喷气发动机被用来为数据中心供电",
+    "fr": "De vieux moteurs à réaction polluants sont récupérés pour alimenter les centres de données",
+    "ar": "يجري الآن استخدام المحركات النفاثة القديمة الملوثة لتشغيل مراكز البيانات",
+    "de": "Alte, umweltschädliche Flugzeugtriebwerke werden ausgesondert, um Rechenzentren mit Strom zu versorgen",
+    "el": "Παλιοί, ρυπογόνες κινητήρες αεριωθουμένων σκουπίζονται για να τροφοδοτήσουν τα κέντρα δεδομένων"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Cyclone Murasu makes landfall on India’s eastern coast",
+   "url": "https://www.aljazeera.com/news/2026/11/3/cyclone-murasu-makes-landfall-on-indias-eastern-coast?traffic_source=rss",
+   "date": "2026-11-03T09:33:18+00:00",
+   "t": {
+    "pt": "Ciclone Murasu atinge costa leste da Índia",
+    "es": "El ciclón Murasu toca tierra en la costa oriental de la India",
+    "it": "Il ciclone Murasu si abbatte sulla costa orientale dell’India",
+    "zh": "气旋穆拉苏在印度东海岸登陆",
+    "fr": "Le cyclone Murasu touche terre sur la côte est de l’Inde",
+    "ar": "إعصار موراسو يصل إلى اليابسة على الساحل الشرقي للهند",
+    "de": "Zyklon Murasu trifft an der Ostküste Indiens auf Land",
+    "el": "Ο κυκλώνας Μουράσου φτάνει στην ανατολική ακτή της Ινδίας"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Welsh public sector unlikely to meet net zero plans by 2030, say auditors",
+   "url": "https://www.bbc.co.uk/news/articles/cm62y97z2n71o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-03T08:57:20+00:00",
+   "t": {
+    "pt": "É improvável que o setor público galês cumpra os planos de zero emissões líquidas até 2030, dizem os auditores",
+    "es": "Es poco probable que el sector público galés cumpla los planes de cero emisiones netas para 2030, dicen los auditores",
+    "it": "Secondo i revisori dei conti, è improbabile che il settore pubblico gallese raggiunga i piani di zero emissioni nette entro il 2030",
+    "zh": "审计师表示，威尔士公共部门不太可能到 2030 年实现净零排放计划",
+    "fr": "Il est peu probable que le secteur public gallois atteigne ses objectifs nets zéro d’ici 2030, selon les auditeurs",
+    "ar": "يقول المدققون إنه من غير المرجح أن يحقق القطاع العام في ويلز خطط صافي الصفر بحلول عام 2030",
+    "de": "Laut Wirtschaftsprüfern wird der walisische öffentliche Sektor die Netto-Null-Pläne bis 2030 wahrscheinlich nicht erreichen",
+    "el": "Ο δημόσιος τομέας της Ουαλίας είναι απίθανο να εκπληρώσει τα καθαρά μηδενικά σχέδια μέχρι το 2030, λένε οι ελεγκτές"
+   }
+  },
   {
    "source": "BBC",
    "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
    "url": "https://www.bbc.co.uk/news/articles/cm86zdp2ygqno?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-03T00:41:36+00:00",
+   "date": "2026-11-03T07:50:14+00:00",
    "t": {
     "pt": "De scooters a shampoo - as pessoas salvando centenas de pessoas mergulhando em lixeiras",
     "es": "Desde scooters hasta champú: las personas que salvaron a cientos de personas que buscaban en los contenedores de basura",
@@ -15,6 +79,70 @@
     "ar": "من الدراجات البخارية إلى الشامبو - ينقذ الأشخاص المئات من الغوص في القمامة",
     "de": "Vom Roller bis zum Shampoo – die Menschen retten Hunderte vor dem Müllcontainertauchen",
     "el": "Από σκούτερ μέχρι σαμπουάν - οι άνθρωποι σώζουν εκατοντάδες από τις καταδύσεις με σκουπίδια"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Major study into 'forever chemicals' in people's bodies launched in UK",
+   "url": "https://www.bbc.co.uk/news/articles/cwly4ejrr72mo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-03T07:19:27+00:00",
+   "t": {
+    "pt": "Grande estudo sobre 'produtos químicos para sempre' no corpo das pessoas é lançado no Reino Unido",
+    "es": "Se lanza en el Reino Unido un importante estudio sobre las 'sustancias químicas permanentes' en el cuerpo de las personas",
+    "it": "Avviato nel Regno Unito un importante studio sulle \"sostanze chimiche per sempre\" nei corpi delle persone",
+    "zh": "英国启动对人体内“永久化学物质”的重大研究",
+    "fr": "Lancement d'une étude majeure sur les « produits chimiques permanents » dans le corps humain",
+    "ar": "تم إطلاق دراسة رئيسية حول \"المواد الكيميائية الأبدية\" في أجسام الناس في المملكة المتحدة",
+    "de": "In Großbritannien wurde eine große Studie zu „ewigen Chemikalien“ im menschlichen Körper gestartet",
+    "el": "Μεγάλη μελέτη για τα «για πάντα χημικά» στα σώματα των ανθρώπων ξεκίνησε στο Ηνωμένο Βασίλειο"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Charity warns about damage of over-foraging fungi",
+   "url": "https://www.bbc.co.uk/news/articles/c6jrw5j7n4dlo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-03T06:37:19+00:00",
+   "t": {
+    "pt": "Caridade alerta sobre danos causados por fungos que se alimentam excessivamente",
+    "es": "Una organización benéfica advierte sobre los daños causados por los hongos que se alimentan excesivamente",
+    "it": "La carità mette in guardia sui danni causati dai funghi che si nutrono troppo",
+    "zh": "慈善机构警告过度采食真菌造成的损害",
+    "fr": "Une association caritative met en garde contre les dégâts causés par les champignons en quête de nourriture excessive",
+    "ar": "مؤسسة خيرية تحذر من أضرار الإفراط في البحث عن الفطريات",
+    "de": "Wohltätigkeitsorganisation warnt vor Schäden durch übermäßig fressende Pilze",
+    "el": "Η Charity προειδοποιεί για ζημιές από μύκητες που αναζητούν υπερβολική τροφή"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "India news: Cyclone Murasu wreaks havoc after landfall",
+   "url": "https://www.dw.com/en/india-news-cyclone-murasu-wreaks-havoc-after-landfall/live-79835410?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-03T06:12:00+00:00",
+   "t": {
+    "pt": "Notícias da Índia: Ciclone Murasu causa estragos após atingir a costa",
+    "es": "Noticias de India: el ciclón Murasu causa estragos tras tocar tierra",
+    "it": "Notizie dall'India: il ciclone Murasu provoca il caos dopo l'atterraggio",
+    "zh": "印度新闻：穆拉苏登陆后造成严重破坏",
+    "fr": "Inde : le cyclone Murasu fait des ravages après avoir touché terre",
+    "ar": "أخبار الهند: إعصار موراسو يُحدث دمارًا بعد وصوله إلى اليابسة",
+    "de": "Nachrichten aus Indien: Zyklon Murasu richtet nach Landung verheerende Schäden an",
+    "el": "Ειδήσεις από την Ινδία: Ο κυκλώνας Μουράσου προκαλεί όλεθρο μετά την πτώση"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "UK ministers told not to engage formally with Indian mega-zoo after lobbying",
+   "url": "https://www.theguardian.com/environment/2026/nov/03/uk-ministers-anant-ambani-indian-zoo-vantara-freedom-information-endangered-animals-cites",
+   "date": "2026-11-03T06:00:39+00:00",
+   "t": {
+    "pt": "Ministros do Reino Unido disseram para não se envolverem formalmente com o megazoológico indiano após lobby",
+    "es": "A los ministros del Reino Unido se les dijo que no se involucraran formalmente con el megazoológico indio después de ejercer presión",
+    "it": "I ministri del Regno Unito hanno detto di non impegnarsi formalmente con il mega-zoo indiano dopo aver esercitato pressioni",
+    "zh": "英国部长们在游说后被告知不要与印度大型动物园正式接触",
+    "fr": "Les ministres britanniques ont été invités à ne pas s'engager officiellement avec le méga-zoo indien après des pressions",
+    "ar": "طلب من وزراء المملكة المتحدة عدم التعامل رسميًا مع حديقة الحيوان الهندية الكبرى بعد ممارسة الضغط",
+    "de": "Britische Minister forderten nach Lobbyarbeit, sich nicht offiziell mit dem indischen Mega-Zoo zu befassen",
+    "el": "Οι υπουργοί του Ηνωμένου Βασιλείου είπαν να μην εμπλακούν επίσημα με τον ινδικό μέγα ζωολογικό κήπο μετά από λόμπι"
    }
   },
   {
@@ -66,70 +194,6 @@
    }
   },
   {
-   "source": "AL JAZEERA",
-   "title": "Powerful storm tears through beach resort on Italy’s southern coast",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/powerful-storm-tears-through-beach-resort-on-italys-southern-coast?traffic_source=rss",
-   "date": "2026-11-02T22:59:41+00:00",
-   "t": {
-    "pt": "Forte tempestade atinge resort de praia na costa sul da Itália",
-    "es": "Una poderosa tormenta arrasa un balneario en la costa sur de Italia",
-    "it": "Una potente tempesta si abbatte su una località balneare sulla costa meridionale dell’Italia",
-    "zh": "强大的风暴席卷了意大利南部海岸的海滩度假胜地",
-    "fr": "Une puissante tempête ravage une station balnéaire de la côte sud de l’Italie",
-    "ar": "عاصفة قوية تمزق منتجع الشاطئ على الساحل الجنوبي لإيطاليا",
-    "de": "Ein heftiger Sturm fegt über einen Badeort an der Südküste Italiens",
-    "el": "Ισχυρή καταιγίδα σκίζει παραλιακό θέρετρο στη νότια ακτή της Ιταλίας"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Do the Shetland Isles need Cold War-style military protection?",
-   "url": "https://www.bbc.co.uk/news/articles/cjg47dq6q775o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-02T22:45:57+00:00",
-   "t": {
-    "pt": "As Ilhas Shetland precisam de protecção militar ao estilo da Guerra Fria?",
-    "es": "¿Necesitan las Islas Shetland una protección militar al estilo de la Guerra Fría?",
-    "it": "Le Isole Shetland hanno bisogno di una protezione militare in stile Guerra Fredda?",
-    "zh": "设得兰群岛需要冷战式的军事保护吗？",
-    "fr": "Les îles Shetland ont-elles besoin d’une protection militaire de type guerre froide ?",
-    "ar": "هل تحتاج جزر شيتلاند إلى حماية عسكرية على غرار الحرب الباردة؟",
-    "de": "Brauchen die Shetlandinseln einen militärischen Schutz im Stil des Kalten Krieges?",
-    "el": "Χρειάζονται τα νησιά Shetland στρατιωτική προστασία τύπου Ψυχρού Πολέμου;"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Disneyland’s Autopia Ride Will Switch to Electric Vehicles",
-   "url": "https://www.nytimes.com/2026/11/02/climate/disneyland-autopia-gas-electric.html",
-   "date": "2026-11-02T21:11:41+00:00",
-   "t": {
-    "pt": "Autopia Ride da Disneylândia mudará para veículos elétricos",
-    "es": "Autopia Ride de Disneyland cambiará a vehículos eléctricos",
-    "it": "L’Autopia Ride di Disneyland passerà ai veicoli elettrici",
-    "zh": "迪士尼乐园的 Autopia 游乐设施将改用电动汽车",
-    "fr": "L'Autopia Ride de Disneyland passera aux véhicules électriques",
-    "ar": "سوف تتحول رحلة Autopia في ديزني لاند إلى السيارات الكهربائية",
-    "de": "Disneylands Autopia-Fahrt wird auf Elektrofahrzeuge umgestellt",
-    "el": "Το Autopia Ride της Disneyland θα αλλάξει σε ηλεκτρικά οχήματα"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Do Animals Grieve?",
-   "url": "https://www.nytimes.com/2026/11/02/science/animals-grief-death.html",
-   "date": "2026-11-02T19:42:22+00:00",
-   "t": {
-    "pt": "Os animais sofrem?",
-    "es": "¿Los animales sufren?",
-    "it": "Gli animali soffrono?",
-    "zh": "动物会悲伤吗？",
-    "fr": "Les animaux sont-ils en deuil ?",
-    "ar": "هل تحزن الحيوانات؟",
-    "de": "Trauern Tiere?",
-    "el": "Θλίβουν τα ζώα;"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "Control of Britain’s 39m smart meters passes to non-profit startup",
    "url": "https://www.theguardian.com/environment/2026/nov/02/control-of-britains-39m-smart-meters-passes-to-non-profit-startup",
@@ -159,70 +223,6 @@
     "ar": "\"إنه أمر غير معتاد حقًا\": الرابطة الرقيقة بين ذكر الحمار والثور تحير العلماء",
     "de": "„Es ist wirklich, wirklich ungewöhnlich“: Die zarte Bindung zwischen männlichem Esel und Bulle verwirrt Wissenschaftler",
     "el": "«Είναι πραγματικά, πραγματικά ασυνήθιστο»: ο τρυφερός δεσμός μεταξύ αρσενικού γαϊδάρου και ταύρου μπερδεύει τους επιστήμονες"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "'New kit' helps battle against bugs",
-   "url": "https://www.bbc.co.uk/news/videos/cm369dep8jwno?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-02T15:05:59+00:00",
-   "t": {
-    "pt": "‘Novo kit’ ajuda a combater bugs",
-    "es": "El 'nuevo kit' ayuda a combatir los errores",
-    "it": "Il \"Nuovo kit\" aiuta a combattere gli insetti",
-    "zh": "“新套件”有助于对抗错误",
-    "fr": "Un « nouveau kit » aide à lutter contre les bugs",
-    "ar": "تساعد \"المجموعة الجديدة\" في مكافحة الأخطاء",
-    "de": "„Neues Kit“ hilft bei der Bekämpfung von Insekten",
-    "el": "Το \"νέο κιτ\" βοηθά στην καταπολέμηση σφαλμάτων"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Rare ant nest stolen from last place in England where species survives",
-   "url": "https://www.theguardian.com/environment/2026/nov/02/rare-narrow-headed-ant-nest-stolen-devon",
-   "date": "2026-11-02T15:00:43+00:00",
-   "t": {
-    "pt": "Formigueiro raro roubado do último lugar na Inglaterra onde a espécie sobrevive",
-    "es": "Raro nido de hormigas robado del último lugar de Inglaterra donde sobrevive la especie",
-    "it": "Raro formicaio rubato dall'ultimo posto in Inghilterra dove la specie sopravvive",
-    "zh": "罕见的蚂蚁巢穴从英格兰最后一个物种生存的地方被盗",
-    "fr": "Un nid de fourmis rare volé dans le dernier endroit d'Angleterre où l'espèce survit",
-    "ar": "عش النمل النادر سُرق من المكان الأخير في إنجلترا حيث تعيش الأنواع",
-    "de": "Seltenes Ameisennest vom letzten Ort in England gestohlen, an dem die Art überlebt",
-    "el": "Σπάνια φωλιά μυρμηγκιών κλάπηκε από το τελευταίο μέρος στην Αγγλία όπου επιβιώνει είδος"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "For US Democrats, climate policy is now about energy bills",
-   "url": "https://www.dw.com/en/for-us-democrats-climate-policy-is-now-about-energy-bills/a-79808783?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-02T08:59:00+00:00",
-   "t": {
-    "pt": "Para os democratas dos EUA, a política climática agora gira em torno das contas de energia",
-    "es": "Para los demócratas estadounidenses, la política climática ahora se trata de facturas de energía",
-    "it": "Per i democratici statunitensi, la politica climatica ora riguarda le bollette energetiche",
-    "zh": "对于美国民主党人来说，气候政策现在与能源法案有关",
-    "fr": "Pour les démocrates américains, la politique climatique concerne désormais les factures énergétiques",
-    "ar": "بالنسبة للديمقراطيين في الولايات المتحدة، أصبحت سياسة المناخ الآن تتعلق بفواتير الطاقة",
-    "de": "Für die US-Demokraten geht es in der Klimapolitik nun um Energierechnungen",
-    "el": "Για τους Δημοκρατικούς των ΗΠΑ, η κλιματική πολιτική αφορά πλέον τους λογαριασμούς ενέργειας"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Woman who flew with swans warns of lead danger",
-   "url": "https://www.bbc.co.uk/news/articles/cqly0r3kp1mlo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-02T06:22:00+00:00",
-   "t": {
-    "pt": "Mulher que voou com cisnes alerta para perigo de chumbo",
-    "es": "Mujer que voló con cisnes advierte del peligro del plomo",
-    "it": "La donna che volava con i cigni avverte del pericolo di piombo",
-    "zh": "与天鹅一起飞行的女士警告铅危险",
-    "fr": "Une femme qui a volé avec des cygnes met en garde contre le danger du plomb",
-    "ar": "المرأة التي طارت مع البجع تحذر من خطر الرصاص",
-    "de": "Frau, die mit Schwänen geflogen ist, warnt vor Bleigefahr",
-    "el": "Γυναίκα που πέταξε με κύκνους προειδοποιεί για κίνδυνο από μόλυβδο"
    }
   },
   {
@@ -335,22 +335,6 @@
     "ar": "شريط نانوريبون خماسي الببتيت الكربوني الضيق كمعدن تساهمي",
     "de": "Schmales Kohlenstoffpentaheptit-Nanoband als kovalentes Metall",
     "el": "Στενή νανοκορδέλα πενταεπτίτη άνθρακα ως ομοιοπολικό μέταλλο"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Methane emissions remain flat even as biggest US oil region opens the tap",
-   "url": "https://www.nature.com/articles/d41586-026-03388-2",
-   "date": "2026-10-27T00:00:00+00:00",
-   "t": {
-    "pt": "As emissões de metano permanecem estáveis, mesmo com a maior região petrolífera dos EUA abrindo a torneira",
-    "es": "Las emisiones de metano se mantienen estables incluso cuando la mayor región petrolera de EE. UU. abre el grifo",
-    "it": "Le emissioni di metano rimangono stabili anche se la più grande regione petrolifera degli Stati Uniti apre il rubinetto",
-    "zh": "即使美国最大的石油地区打开水龙头，甲烷排放量仍保持平稳",
-    "fr": "Les émissions de méthane restent stables alors même que la plus grande région pétrolière des États-Unis ouvre le robinet",
-    "ar": "تظل انبعاثات غاز الميثان ثابتة حتى مع قيام أكبر منطقة نفطية في الولايات المتحدة بفتح الصنبور",
-    "de": "Die Methanemissionen bleiben unverändert, auch wenn die größte Ölregion der USA den Hahn öffnet",
-    "el": "Οι εκπομπές μεθανίου παραμένουν σταθερές ακόμη και όταν η μεγαλύτερη πετρελαϊκή περιοχή των ΗΠΑ ανοίγει τη βρύση"
    }
   },
   {
