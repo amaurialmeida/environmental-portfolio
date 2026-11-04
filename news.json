@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-03T23:58:17.566218+00:00",
+ "updated": "2026-11-04T06:13:28.659021+00:00",
  "items": [
   {
    "source": "BBC",
    "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
    "url": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-03T23:00:14+00:00",
+   "date": "2026-11-04T06:11:43+00:00",
    "t": {
     "pt": "Príncipe William diz que o Reino Unido enfrenta um risco terrível de mais incêndios florestais devido às mudanças climáticas",
     "es": "El príncipe William dice que el Reino Unido enfrenta un riesgo aterrador de más incendios forestales debido al cambio climático",
@@ -15,6 +15,38 @@
     "ar": "يقول الأمير ويليام إن المملكة المتحدة تواجه خطرًا مرعبًا بحدوث المزيد من حرائق الغابات بسبب تغير المناخ",
     "de": "Prinz William sagt, dass in Großbritannien aufgrund des Klimawandels ein erschreckendes Risiko weiterer Waldbrände besteht",
     "el": "Ο πρίγκιπας Ουίλιαμ λέει ότι το Ηνωμένο Βασίλειο αντιμετωπίζει τρομακτικό κίνδυνο για περισσότερες πυρκαγιές λόγω της κλιματικής αλλαγής"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Trust vows to 'maintain spirit' of nature reserve",
+   "url": "https://www.bbc.co.uk/news/articles/cr3wv0ywnvl7o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-04T05:57:48+00:00",
+   "t": {
+    "pt": "Trust promete ‘manter o espírito’ da reserva natural",
+    "es": "Trust promete \"mantener el espíritu\" de la reserva natural",
+    "it": "La fiducia promette di \"mantenere lo spirito\" della riserva naturale",
+    "zh": "信托誓言“保持自然保护区的精神”",
+    "fr": "Trust s'engage à « maintenir l'esprit » de la réserve naturelle",
+    "ar": "تتعهد الثقة بـ \"الحفاظ على روح\" المحمية الطبيعية",
+    "de": "Trust verspricht, den Geist des Naturschutzgebiets zu bewahren",
+    "el": "Ορκίζεται εμπιστοσύνη για «διατήρηση του πνεύματος» του φυσικού καταφυγίου"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Kashmir’s potato pits are vanishing – and generations of knowledge could be buried for ever",
+   "url": "https://www.theguardian.com/environment/2026/nov/04/kashmir-potato-pits-vanishing-indigenous-knowledge-buried-aoe",
+   "date": "2026-11-04T03:00:22+00:00",
+   "t": {
+    "pt": "Os caroços de batata da Caxemira estão desaparecendo – e gerações de conhecimento podem ser enterradas para sempre",
+    "es": "Los huesos de las patatas de Cachemira están desapareciendo y generaciones de conocimientos podrían quedar enterradas para siempre",
+    "it": "I noccioli di patate del Kashmir stanno scomparendo e generazioni di conoscenze potrebbero essere sepolte per sempre",
+    "zh": "克什米尔的马铃薯坑正在消失——几代人的知识可能会被永远埋葬",
+    "fr": "Les fosses à pommes de terre du Cachemire sont en train de disparaître – et des générations de connaissances pourraient être enterrées à jamais",
+    "ar": "إن حفر البطاطس في كشمير تختفي الآن، ومن الممكن أن تُدفن أجيال من المعرفة إلى الأبد",
+    "de": "Kaschmirs Kartoffelgruben verschwinden – und das Wissen von Generationen könnte für immer begraben sein",
+    "el": "Οι λάκκοι πατάτας του Κασμίρ εξαφανίζονται - και γενιές γνώσης θα μπορούσαν να θαφτούν για πάντα"
    }
   },
   {
@@ -117,7 +149,7 @@
    "source": "NYTIMES",
    "title": "William Nordhaus Dies; Nobel Winner Influenced Climate Policy.",
    "url": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
-   "date": "2026-11-03T15:02:20+00:00",
+   "date": "2026-11-03T15:02:21+00:00",
    "t": {
     "pt": "William Nordhaus morre; O vencedor do Nobel influenciou a política climática.",
     "es": "Muere William Nordhaus; El premio Nobel influyó en la política climática.",
@@ -162,51 +194,19 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "New tool will help gardeners move away from thirsty English classics to drought-resistant plants",
-   "url": "https://www.theguardian.com/environment/2026/nov/03/garden-climate-assessment-tool-drought-gardening",
-   "date": "2026-11-03T13:05:28+00:00",
+   "source": "NPR",
+   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
+   "date": "2026-10-31T09:00:00+00:00",
    "t": {
-    "pt": "A nova ferramenta ajudará os jardineiros a mudarem dos sedentos clássicos ingleses para plantas resistentes à seca",
-    "es": "Una nueva herramienta ayudará a los jardineros a pasar de los clásicos ingleses sedientos a plantas resistentes a la sequía",
-    "it": "Un nuovo strumento aiuterà i giardinieri ad abbandonare gli assetati classici inglesi verso piante resistenti alla siccità",
-    "zh": "新工具将帮助园丁从口渴的英国经典植物转向抗旱植物",
-    "fr": "Un nouvel outil aidera les jardiniers à abandonner les classiques anglais assoiffés pour se tourner vers des plantes résistantes à la sécheresse",
-    "ar": "ستساعد الأداة الجديدة البستانيين على الابتعاد عن الكلاسيكيات الإنجليزية المتعطشة إلى النباتات المقاومة للجفاف",
-    "de": "Neues Werkzeug wird Gärtnern helfen, von durstigen englischen Klassikern auf dürreresistente Pflanzen umzusteigen",
-    "el": "Νέο εργαλείο θα βοηθήσει τους κηπουρούς να απομακρυνθούν από τα διψασμένα αγγλικά κλασικά σε φυτά ανθεκτικά στην ξηρασία"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Charity warns about damage of over-foraging fungi",
-   "url": "https://www.bbc.co.uk/news/articles/c6jrw5j7n4dlo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-03T11:43:10+00:00",
-   "t": {
-    "pt": "Caridade alerta sobre danos causados por fungos que se alimentam excessivamente",
-    "es": "Una organización benéfica advierte sobre los daños causados por los hongos que se alimentan excesivamente",
-    "it": "La carità mette in guardia sui danni causati dai funghi che si nutrono troppo",
-    "zh": "慈善机构警告过度采食真菌造成的损害",
-    "fr": "Une association caritative met en garde contre les dégâts causés par les champignons en quête de nourriture excessive",
-    "ar": "مؤسسة خيرية تحذر من أضرار الإفراط في البحث عن الفطريات",
-    "de": "Wohltätigkeitsorganisation warnt vor Schäden durch übermäßig fressende Pilze",
-    "el": "Η Charity προειδοποιεί για ζημιές από μύκητες που αναζητούν υπερβολική τροφή"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "India news: Cyclone Murasu wreaks havoc after landfall",
-   "url": "https://www.dw.com/en/india-news-cyclone-murasu-wreaks-havoc-after-landfall/live-79835410?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-03T06:12:00+00:00",
-   "t": {
-    "pt": "Notícias da Índia: Ciclone Murasu causa estragos após atingir a costa",
-    "es": "Noticias de India: el ciclón Murasu causa estragos tras tocar tierra",
-    "it": "Notizie dall'India: il ciclone Murasu provoca il caos dopo l'atterraggio",
-    "zh": "印度新闻：穆拉苏登陆后造成严重破坏",
-    "fr": "Inde : le cyclone Murasu fait des ravages après avoir touché terre",
-    "ar": "أخبار الهند: إعصار موراسو يُحدث دمارًا بعد وصوله إلى اليابسة",
-    "de": "Nachrichten aus Indien: Zyklon Murasu richtet nach Landung verheerende Schäden an",
-    "el": "Ειδήσεις από την Ινδία: Ο κυκλώνας Μουράσου προκαλεί όλεθρο μετά την πτώση"
+    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
+    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
+    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
+    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
+    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
+    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
+    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
+    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
    }
   },
   {
@@ -223,22 +223,6 @@
     "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
     "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
     "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
-    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
-    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
-    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
-    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
-    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
-    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
-    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
    }
   },
   {
@@ -271,6 +255,54 @@
     "ar": "تظهر الدراسة أنه حتى الطيور تصاب باضطراب الرحلات الجوية الطويلة",
     "de": "Sogar Vögel leiden unter Jetlag, wie eine Studie zeigt",
     "el": "Ακόμη και τα πουλιά παθαίνουν jet lagg, σύμφωνα με μελέτη"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Could a giant sunshade in space ‘solve global warming’? Scientists are taking the idea seriously",
+   "url": "https://www.nature.com/articles/d41586-026-03415-2",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Poderia um guarda-sol gigante no espaço ‘resolver o aquecimento global’? Os cientistas estão levando a ideia a sério",
+    "es": "¿Podría una sombrilla gigante en el espacio “resolver el calentamiento global”? Los científicos se están tomando la idea en serio.",
+    "it": "Un gigantesco parasole nello spazio potrebbe “risolvere il riscaldamento globale”? Gli scienziati stanno prendendo sul serio l’idea",
+    "zh": "太空中的巨型遮阳伞能否“解决全球变暖”？科学家们正在认真对待这个想法",
+    "fr": "Un parasol géant dans l’espace pourrait-il « résoudre le réchauffement climatique » ? Les scientifiques prennent l'idée au sérieux",
+    "ar": "هل يمكن لمظلة شمسية عملاقة في الفضاء أن تحل ظاهرة الاحتباس الحراري؟ يأخذ العلماء هذه الفكرة على محمل الجد",
+    "de": "Könnte ein riesiger Sonnenschirm im Weltraum „die globale Erwärmung lösen“? Wissenschaftler nehmen die Idee ernst",
+    "el": "Θα μπορούσε ένα γιγάντιο σκίαστρο στο διάστημα να «λύσει την υπερθέρμανση του πλανήτη»; Οι επιστήμονες παίρνουν την ιδέα στα σοβαρά"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Ribbon made of carbon pentagons and heptagons has metallic properties",
+   "url": "https://www.nature.com/articles/d41586-026-03298-3",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Fita feita de pentágonos e heptágonos de carbono tem propriedades metálicas",
+    "es": "La cinta hecha de pentágonos y heptágonos de carbono tiene propiedades metálicas",
+    "it": "Il nastro composto da pentagoni ed ettagoni di carbonio ha proprietà metalliche",
+    "zh": "由碳五边形和七边形制成的带具有金属特性",
+    "fr": "Le ruban composé de pentagones et d'heptagones de carbone possède des propriétés métalliques",
+    "ar": "الشريط المصنوع من خماسيات وسباعيات الكربون له خصائص معدنية",
+    "de": "Ein Band aus Kohlenstofffünfecken und -siebenecken hat metallische Eigenschaften",
+    "el": "Η κορδέλα από πεντάγωνα και επτάγωνα άνθρακα έχει μεταλλικές ιδιότητες"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Narrow carbon pentaheptite nanoribbon as a covalent metal",
+   "url": "https://www.nature.com/articles/s41586-026-11202-2",
+   "date": "2026-10-28T00:00:00+00:00",
+   "t": {
+    "pt": "Nanofita estreita de pentaheptita de carbono como metal covalente",
+    "es": "Nanocinta de pentaheptita de carbono estrecha como metal covalente",
+    "it": "Nanonastro di pentaeptite di carbonio stretto come metallo covalente",
+    "zh": "作为共价金属的窄碳五庚矿纳米带",
+    "fr": "Nanoruban de pentaheptite de carbone étroit comme métal covalent",
+    "ar": "شريط نانوريبون خماسي الببتيت الكربوني الضيق كمعدن تساهمي",
+    "de": "Schmales Kohlenstoffpentaheptit-Nanoband als kovalentes Metall",
+    "el": "Στενή νανοκορδέλα πενταεπτίτη άνθρακα ως ομοιοπολικό μέταλλο"
    }
   },
   {
