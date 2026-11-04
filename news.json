@@ -1,6 +1,70 @@
 {
- "updated": "2026-11-04T14:30:01.661574+00:00",
+ "updated": "2026-11-04T21:18:33.333659+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "How Trump’s Energy Policies Helped Trigger Midterm Rout",
+   "url": "https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
+   "date": "2026-11-04T19:51:40+00:00",
+   "t": {
+    "pt": "Como as políticas energéticas de Trump ajudaram a desencadear a derrota a médio prazo",
+    "es": "Cómo las políticas energéticas de Trump ayudaron a desencadenar la derrota de mitad de mandato",
+    "it": "Come le politiche energetiche di Trump hanno contribuito a innescare la disfatta di medio termine",
+    "zh": "特朗普的能源政策如何引发中期选举溃败",
+    "fr": "Comment la politique énergétique de Trump a contribué à déclencher une déroute à mi-parcours",
+    "ar": "كيف ساعدت سياسات ترامب في مجال الطاقة على إثارة أزمة منتصف المدة؟",
+    "de": "Wie Trumps Energiepolitik zur mittelfristigen Niederlage beitrug",
+    "el": "Πώς οι ενεργειακές πολιτικές του Τραμπ βοήθησαν στην ενδιάμεση καταστροφή"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "The Southwest Is Parched. Can the Recent Floodwaters Quench It?",
+   "url": "https://www.nytimes.com/2026/11/03/climate/floods-arizona-colorado-river-water.html",
+   "date": "2026-11-04T17:01:11+00:00",
+   "t": {
+    "pt": "O sudoeste está ressecado. As recentes enchentes podem saciá-lo?",
+    "es": "El suroeste está árido. ¿Podrán las recientes inundaciones apagarlo?",
+    "it": "Il sud-ovest è arido. Le recenti alluvioni potranno placarlo?",
+    "zh": "西南地区干旱。最近的洪水能浇灭它吗？",
+    "fr": "Le sud-ouest est desséché. Les récentes inondations peuvent-elles l’éteindre ?",
+    "ar": "الجنوب الغربي جاف. هل يمكن لمياه الفيضانات الأخيرة أن تطفئها؟",
+    "de": "Der Südwesten ist ausgedörrt. Können die jüngsten Überschwemmungen es löschen?",
+    "el": "Το νοτιοδυτικό είναι ξεραμένο. Μπορούν οι πρόσφατες πλημμύρες να το σβήσουν;"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
+   "url": "https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html",
+   "date": "2026-11-04T16:31:15+00:00",
+   "t": {
+    "pt": "A indústria petrolífera dos EUA obteve mais de US$ 130 bilhões em lucros durante a guerra no Irã",
+    "es": "La industria petrolera estadounidense obtuvo más de 130 mil millones de dólares en ganancias durante la guerra con Irán",
+    "it": "L’industria petrolifera statunitense ha guadagnato oltre 130 miliardi di dollari durante la guerra con l’Iran",
+    "zh": "美国石油工业在伊朗战争期间赚取了超过1300亿美元的利润",
+    "fr": "L’industrie pétrolière américaine a réalisé plus de 130 milliards de dollars de bénéfices pendant la guerre en Iran",
+    "ar": "حققت صناعة النفط الأمريكية أرباحًا تزيد عن 130 مليار دولار خلال حرب إيران",
+    "de": "Die US-Ölindustrie erzielte während des Iran-Krieges einen Gewinn von über 130 Milliarden US-Dollar",
+    "el": "Η βιομηχανία πετρελαίου των ΗΠΑ κέρδισε πάνω από 130 δισεκατομμύρια δολάρια σε κέρδη κατά τη διάρκεια του πολέμου στο Ιράν"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "William Nordhaus Dies; Nobel Winner Influenced Climate Policy",
+   "url": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
+   "date": "2026-11-04T15:04:11+00:00",
+   "t": {
+    "pt": "William Nordhaus morre; Política climática influenciada pelo vencedor do Nobel",
+    "es": "Muere William Nordhaus; El premio Nobel influyó en la política climática",
+    "it": "Muore William Nordhaus; Il vincitore del Nobel ha influenzato la politica climatica",
+    "zh": "威廉·诺德豪斯去世；诺贝尔奖获得者影响气候政策",
+    "fr": "William Nordhaus décède ; Le lauréat du prix Nobel a influencé la politique climatique",
+    "ar": "وفاة ويليام نوردهاوس؛ الفائز بجائزة نوبل أثر على سياسة المناخ",
+    "de": "William Nordhaus stirbt; Nobelpreisträger beeinflusste die Klimapolitik",
+    "el": "Ο William Nordhaus πεθαίνει. Πολιτική για το κλίμα που επηρεάστηκε από τον νικητή του Νόμπελ"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Endangered giant burrowing frog returns to wild after tadpoles rescued from ashes of black summer fires",
@@ -130,83 +194,67 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "Why Floodwaters Won’t Solve the Southwestern Water Crisis",
-   "url": "https://www.nytimes.com/2026/11/03/climate/floods-arizona-colorado-river-water.html",
-   "date": "2026-11-03T21:06:37+00:00",
+   "source": "NATURE",
+   "title": "First-of-its-kind planetary wreckage holds clues to our Solar System’s fate",
+   "url": "https://www.nature.com/articles/d41586-026-03537-7",
+   "date": "2026-11-04T00:00:00+00:00",
    "t": {
-    "pt": "Por que as enchentes não resolverão a crise hídrica do sudoeste",
-    "es": "Por qué las inundaciones no resolverán la crisis del agua en el suroeste",
-    "it": "Perché le alluvioni non risolveranno la crisi idrica del sud-ovest",
-    "zh": "为什么洪水无法解决西南地区的水危机",
-    "fr": "Pourquoi les eaux de crue ne résoudront pas la crise de l’eau dans le sud-ouest",
-    "ar": "لماذا لن تحل مياه الفيضانات أزمة المياه في الجنوب الغربي؟",
-    "de": "Warum Überschwemmungen die Wasserkrise im Südwesten nicht lösen werden",
-    "el": "Γιατί τα νερά των πλημμυρών δεν θα λύσουν την κρίση του Νοτιοδυτικού Νερού"
+    "pt": "Destroços planetários inéditos contêm pistas sobre o destino do nosso Sistema Solar",
+    "es": "Los restos planetarios, los primeros de su tipo, contienen pistas sobre el destino de nuestro Sistema Solar",
+    "it": "I rottami planetari, primi nel loro genere, contengono indizi sul destino del nostro Sistema Solare",
+    "zh": "第一个行星残骸蕴藏着太阳系命运的线索",
+    "fr": "Une épave planétaire, la première en son genre, contient des indices sur le sort de notre système solaire",
+    "ar": "حطام كوكبي هو الأول من نوعه يحمل أدلة حول مصير نظامنا الشمسي",
+    "de": "Das erste Planetenwrack seiner Art birgt Hinweise auf das Schicksal unseres Sonnensystems",
+    "el": "Το πρώτο στο είδος του πλανητικά συντρίμμια έχει ενδείξεις για τη μοίρα του ηλιακού μας συστήματος"
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "The Election Day Edition",
-   "url": "https://www.nytimes.com/2026/11/03/climate/climate-midterm-elections.html",
-   "date": "2026-11-03T19:17:25+00:00",
+   "source": "NATURE",
+   "title": "Carbon radical generation by irreversible metal-to-ligand charge transfer",
+   "url": "https://www.nature.com/articles/s41586-026-11368-9",
+   "date": "2026-11-04T00:00:00+00:00",
    "t": {
-    "pt": "A edição do dia da eleição",
-    "es": "La edición del día de las elecciones",
-    "it": "L'edizione del giorno delle elezioni",
-    "zh": "选举日版",
-    "fr": "L'édition du jour du scrutin",
-    "ar": "طبعة يوم الانتخابات",
-    "de": "Die Wahltagsausgabe",
-    "el": "Έκδοση για την ημέρα των εκλογών"
+    "pt": "Geração de radicais de carbono por transferência irreversível de carga de metal para ligante",
+    "es": "Generación de radicales de carbono mediante transferencia irreversible de carga de metal a ligando.",
+    "it": "Generazione di radicali carbonio mediante trasferimento irreversibile di carica metallo-ligando",
+    "zh": "通过不可逆金属-配体电荷转移产生碳自由基",
+    "fr": "Génération de radicaux carbonés par transfert de charge irréversible métal-ligand",
+    "ar": "توليد جذري للكربون عن طريق نقل شحنة لا رجعة فيها من المعدن إلى اللجند",
+    "de": "Erzeugung von Kohlenstoffradikalen durch irreversiblen Ladungstransfer von Metall zu Ligand",
+    "el": "Παραγωγή ρίζας άνθρακα με μη αναστρέψιμη μεταφορά φορτίου από μέταλλο σε συνδετήρα"
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "Conservation Efforts for Caucasian Leopards Show Promise",
-   "url": "https://www.nytimes.com/2026/10/30/climate/injured-leopards-200-mile-trek-suggests-hope-for-a-species.html",
-   "date": "2026-11-03T16:59:09+00:00",
+   "source": "NATURE",
+   "title": "Ecosystems depend on people: don’t abandon them",
+   "url": "https://www.nature.com/articles/d41586-026-03544-8",
+   "date": "2026-11-04T00:00:00+00:00",
    "t": {
-    "pt": "Esforços de conservação para leopardos caucasianos mostram promessas",
-    "es": "Los esfuerzos de conservación de los leopardos caucásicos son prometedores",
-    "it": "Gli sforzi di conservazione dei leopardi del Caucaso sono promettenti",
-    "zh": "高加索豹的保护工作显示出希望",
-    "fr": "Les efforts de conservation des léopards du Caucase sont prometteurs",
-    "ar": "جهود الحفاظ على النمور القوقازية تبدو واعدة",
-    "de": "Schutzbemühungen für kaukasische Leoparden sind vielversprechend",
-    "el": "Οι προσπάθειες διατήρησης για τις λεοπαρδάλεις του Καυκάσου δείχνουν υπόσχεση"
+    "pt": "Os ecossistemas dependem das pessoas: não os abandone",
+    "es": "Los ecosistemas dependen de las personas: no los abandones",
+    "it": "Gli ecosistemi dipendono dalle persone: non abbandonarli",
+    "zh": "生态系统依赖于人：不要抛弃他们",
+    "fr": "Les écosystèmes dépendent des hommes : ne les abandonnez pas",
+    "ar": "تعتمد النظم البيئية على الناس: فلا تتخلى عنهم",
+    "de": "Ökosysteme sind auf Menschen angewiesen: Lassen Sie sie nicht im Stich",
+    "el": "Τα οικοσυστήματα εξαρτώνται από τους ανθρώπους: μην τους εγκαταλείπετε"
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "William Nordhaus Dies; Nobel Winner Influenced Climate Policy.",
-   "url": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
-   "date": "2026-11-03T15:02:21+00:00",
+   "source": "NATURE",
+   "title": "When humans disappear, biodiversity takes a surprising turn",
+   "url": "https://www.nature.com/articles/d41586-026-03505-1",
+   "date": "2026-11-04T00:00:00+00:00",
    "t": {
-    "pt": "William Nordhaus morre; O vencedor do Nobel influenciou a política climática.",
-    "es": "Muere William Nordhaus; El premio Nobel influyó en la política climática.",
-    "it": "Muore William Nordhaus; Il vincitore del Nobel ha influenzato la politica climatica.",
-    "zh": "威廉·诺德豪斯去世；诺贝尔奖获得者影响了气候政策。",
-    "fr": "William Nordhaus décède ; Le lauréat du prix Nobel a influencé la politique climatique.",
-    "ar": "وفاة ويليام نوردهاوس؛ الفائز بجائزة نوبل أثر على سياسة المناخ.",
-    "de": "William Nordhaus stirbt; Nobelpreisträger beeinflusste die Klimapolitik.",
-    "el": "Ο William Nordhaus πεθαίνει. Πολιτική για το κλίμα που επηρεάστηκε από τον νικητή του Νόμπελ."
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
-    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
-    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
-    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
-    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
-    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
-    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
-    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
+    "pt": "Quando os humanos desaparecem, a biodiversidade dá uma guinada surpreendente",
+    "es": "Cuando los humanos desaparecen, la biodiversidad da un giro sorprendente",
+    "it": "Quando gli esseri umani scompaiono, la biodiversità prende una svolta sorprendente",
+    "zh": "当人类消失时，生物多样性发生惊人的转变",
+    "fr": "Quand les humains disparaissent, la biodiversité prend une tournure surprenante",
+    "ar": "عندما يختفي البشر، يأخذ التنوع البيولوجي منعطفًا مفاجئًا",
+    "de": "Wenn der Mensch verschwindet, nimmt die Artenvielfalt eine überraschende Wendung",
+    "el": "Όταν οι άνθρωποι εξαφανίζονται, η βιοποικιλότητα παίρνει μια εκπληκτική τροπή"
    }
   },
   {
@@ -223,6 +271,22 @@
     "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
     "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
     "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
+    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
+    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
+    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
+    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
+    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
+    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
+    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
    }
   },
   {
