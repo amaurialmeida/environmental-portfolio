@@ -1,6 +1,102 @@
 {
- "updated": "2026-11-05T10:50:04.391027+00:00",
+ "updated": "2026-11-05T18:43:20.248850+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "How Democrats used the midterms to turn affordability concerns into ‘green populism’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/05/democrats-climate-crisis-in-midterm-election-results",
+   "date": "2026-11-05T17:00:28+00:00",
+   "t": {
+    "pt": "Como os democratas usaram as eleições intercalares para transformar as preocupações de acessibilidade em “populismo verde”",
+    "es": "Cómo los demócratas utilizaron las elecciones intermedias para convertir las preocupaciones sobre la asequibilidad en “populismo verde”",
+    "it": "Come i democratici hanno utilizzato le elezioni di medio termine per trasformare le preoccupazioni sull’accessibilità economica in “populismo verde”",
+    "zh": "民主党如何利用中期选举将负担能力担忧转变为“绿色民粹主义”",
+    "fr": "Comment les démocrates ont utilisé les élections de mi-mandat pour transformer les préoccupations en matière d’accessibilité financière en « populisme vert »",
+    "ar": "كيف استخدم الديمقراطيون الانتخابات النصفية لتحويل المخاوف المتعلقة بالقدرة على تحمل التكاليف إلى \"شعبوية خضراء\"",
+    "de": "Wie die Demokraten die Zwischenwahlen nutzten, um Bezahlbarkeitsbedenken in „grünen Populismus“ umzuwandeln",
+    "el": "Πώς χρησιμοποίησαν οι Δημοκρατικοί τα ενδιάμεσα για να μετατρέψουν τις ανησυχίες σχετικά με την οικονομική προσιτότητα σε «πράσινο λαϊκισμό»"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "BBC Inside Science",
+   "url": "https://www.bbc.co.uk/sounds/play/w3ct978k?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-05T17:00:00+00:00",
+   "t": {
+    "pt": "BBC por dentro da ciência",
+    "es": "BBC dentro de la ciencia",
+    "it": "BBC Dentro la scienza",
+    "zh": "BBC 科学内幕",
+    "fr": "BBC à l'intérieur de la science",
+    "ar": "بي بي سي داخل العلوم",
+    "de": "BBC Inside Science",
+    "el": "BBC Inside Science"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Investigation into 'major fish kill' after pollution incident",
+   "url": "https://www.bbc.co.uk/news/articles/cx1l36y2d941o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-05T14:51:45+00:00",
+   "t": {
+    "pt": "Investigação sobre 'grande morte de peixes' após incidente de poluição",
+    "es": "Investigación sobre la \"gran muerte de peces\" tras un incidente de contaminación",
+    "it": "Indagine sulla \"grande uccisione di pesci\" dopo un incidente di inquinamento",
+    "zh": "污染事件后调查“重大鱼类死亡”",
+    "fr": "Enquête sur une « mortalité importante de poissons » après un incident de pollution",
+    "ar": "التحقيق في \"قتل الأسماك الكبيرة\" بعد حادث التلوث",
+    "de": "Untersuchung des „großen Fischsterbens“ nach einem Verschmutzungsvorfall",
+    "el": "Έρευνα για «σημαντική θανάτωση ψαριών» μετά από περιστατικό ρύπανσης"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘It’s kind of a melting pot’: how one US city transformed a highway into a leafy oasis",
+   "url": "https://www.theguardian.com/environment/2026/nov/05/lancaster-california-transformed-highway-leafy-oasis",
+   "date": "2026-11-05T14:07:12+00:00",
+   "t": {
+    "pt": "‘É uma espécie de caldeirão cultural’: como uma cidade dos EUA transformou uma rodovia em um oásis arborizado",
+    "es": "“Es una especie de crisol de razas”: cómo una ciudad estadounidense transformó una carretera en un frondoso oasis",
+    "it": "“È una specie di crogiolo”: come una città degli Stati Uniti ha trasformato un’autostrada in un’oasi verdeggiante",
+    "zh": "“这就像一个熔炉”：美国一座城市如何将高速公路变成绿树成荫的绿洲",
+    "fr": "« C’est une sorte de creuset » : comment une ville américaine a transformé une autoroute en une oasis verdoyante",
+    "ar": "\"إنها بمثابة بوتقة انصهار\": كيف حولت إحدى المدن الأمريكية طريقًا سريعًا إلى واحة مورقة",
+    "de": "„Es ist eine Art Schmelztiegel“: Wie eine US-Stadt eine Autobahn in eine grüne Oase verwandelte",
+    "el": "«Είναι κάπως χωνευτήρι»: πώς μια πόλη των ΗΠΑ μετέτρεψε έναν αυτοκινητόδρομο σε μια καταπράσινη όαση"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Trump takes 500 actions to weaken cancer protections, new report says",
+   "url": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
+   "date": "2026-11-05T12:00:23+00:00",
+   "t": {
+    "pt": "Trump toma 500 ações para enfraquecer a proteção contra o câncer, diz novo relatório",
+    "es": "Trump toma 500 acciones para debilitar las protecciones contra el cáncer, según un nuevo informe",
+    "it": "Trump intraprende 500 azioni per indebolire le protezioni contro il cancro, afferma un nuovo rapporto",
+    "zh": "新报告称特朗普采取 500 项行动削弱癌症保护",
+    "fr": "Trump prend 500 mesures pour affaiblir la protection contre le cancer, selon un nouveau rapport",
+    "ar": "يقول تقرير جديد إن ترامب يتخذ 500 إجراء لإضعاف الحماية من السرطان",
+    "de": "Trump ergreift 500 Maßnahmen, um den Schutz vor Krebs zu schwächen, heißt es in einem neuen Bericht",
+    "el": "Ο Τραμπ λαμβάνει 500 μέτρα για να αποδυναμώσει την προστασία από τον καρκίνο, αναφέρει νέα έκθεση"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Google refused 54K-name petition, say campaigners",
+   "url": "https://www.bbc.co.uk/news/articles/c5ev3wm3ng42o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-05T11:30:03+00:00",
+   "t": {
+    "pt": "Google recusou petição com 54 mil nomes, dizem ativistas",
+    "es": "Google rechazó la petición de 54.000 nombres, dicen activistas",
+    "it": "Google ha rifiutato la petizione con il nome 54K, dicono gli attivisti",
+    "zh": "活动人士称，谷歌拒绝了 54K 姓名请愿书",
+    "fr": "Google a refusé la pétition de 54 000 noms, selon les militants",
+    "ar": "يقول الناشطون إن جوجل رفضت التماسًا يحمل اسم 54 ألفًا",
+    "de": "Google lehnte die Petition für 54.000 Namen ab, sagen Aktivisten",
+    "el": "Η Google απέρριψε αίτηση 54.000 ονομάτων, λένε οι ακτιβιστές"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "South West Water’s failure to fix leaks ‘putting customer supplies at risk’",
@@ -15,22 +111,6 @@
     "ar": "فشل شركة South West Water في إصلاح التسريبات \"يعرض إمدادات العملاء للخطر\"",
     "de": "Das Versäumnis von South West Water, Lecks zu beheben, „gefährdet die Kundenversorgung“",
     "el": "Η αποτυχία της South West Water να διορθώσει διαρροές «θέτοντας σε κίνδυνο τις προμήθειες των πελατών»"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘No one cares about the little guy’: Sri Lanka’s fishers still reeling from 2021 toxic plastic spill",
-   "url": "https://www.theguardian.com/environment/2026/nov/05/no-one-cares-about-the-little-guy-sri-lankas-fishers-still-reeling-from-2021-toxic-plastic-spill",
-   "date": "2026-11-05T10:00:00+00:00",
-   "t": {
-    "pt": "‘Ninguém se importa com o garotinho’: os pescadores do Sri Lanka ainda se recuperam do derramamento de plástico tóxico em 2021",
-    "es": "“A nadie le importa el pequeño”: los pescadores de Sri Lanka aún se recuperan del derrame de plástico tóxico de 2021",
-    "it": "“A nessuno importa del piccoletto”: i pescatori dello Sri Lanka sono ancora scossi dalla fuoriuscita di plastica tossica avvenuta nel 2021",
-    "zh": "“没有人关心这个小家伙”：斯里兰卡渔民仍深受 2021 年有毒塑料泄漏事件的影响",
-    "fr": "« Personne ne se soucie du petit bonhomme » : les pêcheurs du Sri Lanka encore sous le choc de la marée noire de plastique toxique de 2021",
-    "ar": "\"لا أحد يهتم بالرجل الصغير\": لا يزال الصيادون في سريلانكا يعانون من تسرب البلاستيك السام في عام 2021",
-    "de": "„Niemand kümmert sich um den kleinen Kerl“: Sri Lankas Fischer leiden immer noch unter der giftigen Plastikkatastrophe von 2021",
-    "el": "«Κανείς δεν νοιάζεται για τον μικρό τύπο»: Οι ψαράδες της Σρι Λάνκα εξακολουθούν να ταλαιπωρούνται από τη διαρροή τοξικού πλαστικού το 2021"
    }
   },
   {
@@ -50,70 +130,6 @@
    }
   },
   {
-   "source": "AL JAZEERA",
-   "title": "Ten years of the Paris Agreement: Has the world kept its climate promises?",
-   "url": "https://www.aljazeera.com/news/2026/11/5/ten-years-of-the-paris-agreement-has-the-world-kept-its-climate-promises?traffic_source=rss",
-   "date": "2026-11-05T07:41:25+00:00",
-   "t": {
-    "pt": "Dez anos do Acordo de Paris: o mundo cumpriu as suas promessas climáticas?",
-    "es": "Diez años del Acuerdo de París: ¿Ha cumplido el mundo sus promesas climáticas?",
-    "it": "Dieci anni dell’Accordo di Parigi: il mondo ha mantenuto le sue promesse sul clima?",
-    "zh": "《巴黎协定》十年：世界兑现了气候承诺吗？",
-    "fr": "Dix ans d’Accord de Paris : le monde a-t-il tenu ses promesses climatiques ?",
-    "ar": "عشر سنوات من اتفاق باريس: هل أوفى العالم بوعوده المناخية؟",
-    "de": "Zehn Jahre Pariser Abkommen: Hat die Welt ihre Klimaversprechen gehalten?",
-    "el": "Δέκα χρόνια Συμφωνίας του Παρισιού: Τήρησε ο κόσμος τις υποσχέσεις του για το κλίμα;"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Warming UK seas could ‘fundamentally reshape marine ecosystems’ – report",
-   "url": "https://www.theguardian.com/environment/2026/nov/05/warming-uk-seas-could-fundamentally-reshape-marine-ecosystems-report",
-   "date": "2026-11-05T07:00:56+00:00",
-   "t": {
-    "pt": "O aquecimento dos mares do Reino Unido poderia “remodelar fundamentalmente os ecossistemas marinhos” – relatório",
-    "es": "El calentamiento de los mares del Reino Unido podría “remodelar fundamentalmente los ecosistemas marinos”: informe",
-    "it": "Il riscaldamento dei mari del Regno Unito potrebbe “rimodellare radicalmente gli ecosistemi marini” – rapporto",
-    "zh": "报告称，英国海洋变暖可能“从根本上重塑海洋生态系统”",
-    "fr": "Le réchauffement des mers britanniques pourrait « remodeler fondamentalement les écosystèmes marins » – rapport",
-    "ar": "تقرير: ارتفاع درجة حرارة البحار في المملكة المتحدة يمكن أن \"يعيد تشكيل النظم البيئية البحرية بشكل أساسي\"",
-    "de": "Die Erwärmung der britischen Meere könnte „die Meeresökosysteme grundlegend verändern“ – Bericht",
-    "el": "Η θέρμανση των θαλασσών του Ηνωμένου Βασιλείου θα μπορούσε να «αναδιαμορφώσει θεμελιωδώς τα θαλάσσια οικοσυστήματα» - έκθεση"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "World’s wettest rainstorms are getting wetter, affecting flood and drought risk",
-   "url": "https://www.theguardian.com/news/2026/nov/05/worlds-wettest-rainstorms-getting-worse-flood-drought-risk",
-   "date": "2026-11-05T06:00:54+00:00",
-   "t": {
-    "pt": "As tempestades mais chuvosas do mundo estão ficando mais úmidas, afetando o risco de enchentes e secas",
-    "es": "Las tormentas más húmedas del mundo son cada vez más húmedas, lo que afecta el riesgo de inundaciones y sequías",
-    "it": "I temporali più piovosi del mondo si stanno intensificando, influenzando il rischio di inondazioni e siccità",
-    "zh": "世界上最潮湿的暴雨变得更加潮湿，影响洪水和干旱风险",
-    "fr": "Les tempêtes de pluie les plus humides du monde deviennent de plus en plus humides, ce qui affecte les risques d'inondation et de sécheresse.",
-    "ar": "العواصف المطيرة الأكثر رطوبة في العالم تزداد رطوبة، مما يؤثر على مخاطر الفيضانات والجفاف",
-    "de": "Die feuchtesten Regenfälle der Welt werden immer nasser, was sich auf das Überschwemmungs- und Dürrerisiko auswirkt",
-    "el": "Οι πιο υγρές καταιγίδες στον κόσμο γίνονται όλο και πιο υγρές, επηρεάζοντας τον κίνδυνο πλημμύρας και ξηρασίας"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Brazilian airport torn apart by violent storm",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss",
-   "date": "2026-11-05T04:12:11+00:00",
-   "t": {
-    "pt": "Aeroporto brasileiro destruído por violenta tempestade",
-    "es": "Aeropuerto brasileño destrozado por una violenta tormenta",
-    "it": "Aeroporto brasiliano devastato da un violento temporale",
-    "zh": "巴西机场被暴风雨摧毁",
-    "fr": "Un aéroport brésilien détruit par une violente tempête",
-    "ar": "مطار برازيلي تمزقه عاصفة عنيفة",
-    "de": "Brasilianischer Flughafen wurde von heftigem Sturm zerstört",
-    "el": "Το αεροδρόμιο της Βραζιλίας διαλύθηκε από σφοδρή καταιγίδα"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "How Trump’s Energy Policies Helped Trigger Midterm Rout",
    "url": "https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
@@ -127,6 +143,22 @@
     "ar": "كيف ساعدت سياسات ترامب في مجال الطاقة على إثارة أزمة منتصف المدة؟",
     "de": "Wie Trumps Energiepolitik zur mittelfristigen Niederlage beitrug",
     "el": "Πώς οι ενεργειακές πολιτικές του Τραμπ βοήθησαν στην ενδιάμεση καταστροφή"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
+   "url": "https://www.nature.com/articles/s41586-026-11351-4",
+   "date": "2026-11-05T00:00:00+00:00",
+   "t": {
+    "pt": "Derivados de hidrogênio permitem neutralidade de carbono econômica na China",
+    "es": "Los derivados del hidrógeno permiten una neutralidad de carbono rentable en China",
+    "it": "I derivati dell’idrogeno consentono una neutralità del carbonio economicamente vantaggiosa in Cina",
+    "zh": "氢衍生物使中国实现具有成本效益的碳中和",
+    "fr": "Les dérivés de l'hydrogène permettent une neutralité carbone rentable en Chine",
+    "ar": "تعمل مشتقات الهيدروجين على تمكين حياد الكربون بفعالية من حيث التكلفة في الصين",
+    "de": "Wasserstoffderivate ermöglichen kostengünstige CO2-Neutralität in China",
+    "el": "Τα παράγωγα υδρογόνου επιτρέπουν την οικονομικά αποδοτική ουδετερότητα άνθρακα στην Κίνα"
    }
   },
   {
@@ -194,54 +226,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "William meets firefighters who tackled summer blazes",
-   "url": "https://www.bbc.co.uk/news/videos/c94g1m232pgyo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-04T11:35:08+00:00",
-   "t": {
-    "pt": "William conhece bombeiros que combateram incêndios de verão",
-    "es": "William se reúne con los bomberos que combatieron los incendios de verano",
-    "it": "William incontra i vigili del fuoco che hanno affrontato gli incendi estivi",
-    "zh": "威廉会见了解决夏季大火的消防队员",
-    "fr": "William rencontre les pompiers qui ont lutté contre les incendies estivaux",
-    "ar": "يلتقي ويليام برجال الإطفاء الذين تعاملوا مع حرائق الصيف",
-    "de": "William trifft Feuerwehrleute, die Sommerbrände bekämpft haben",
-    "el": "Ο Γουίλιαμ συναντά πυροσβέστες που αντιμετώπισαν τις καλοκαιρινές φλόγες"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-   "url": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-04T07:39:38+00:00",
-   "t": {
-    "pt": "A qualidade do ar em Delhi piora antes do Diwali, com a entrada em vigor das restrições aos fogos de artifício",
-    "es": "La calidad del aire de Delhi empeora antes del Diwali a medida que entran en vigor las restricciones a los fuegos artificiales",
-    "it": "La qualità dell’aria di Delhi peggiora in vista di Diwali con l’entrata in vigore delle restrizioni sui fuochi d’artificio",
-    "zh": "由于烟花限制生效，德里空气质量在排灯节前恶化",
-    "fr": "La qualité de l'air à Delhi se détériore avant Diwali alors que les restrictions sur les feux d'artifice entrent en vigueur",
-    "ar": "تتدهور جودة الهواء في دلهي قبل عيد ديوالي مع دخول قيود الألعاب النارية حيز التنفيذ",
-    "de": "Die Luftqualität in Delhi verschlechtert sich vor Diwali, da Feuerwerksbeschränkungen in Kraft treten",
-    "el": "Η ποιότητα του αέρα του Δελχί επιδεινώνεται εν όψει του Ντιβάλι καθώς τίθενται σε ισχύ περιορισμοί για τα πυροτεχνήματα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Tiktoker 'super excited' to co-host BBC nature show",
-   "url": "https://www.bbc.co.uk/news/articles/c6y93pgydvzdo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-04T06:15:01+00:00",
-   "t": {
-    "pt": "Tiktoker 'super animado' para co-apresentar programa de natureza da BBC",
-    "es": "Tiktoker 'súper emocionado' de ser coanfitrión del programa de naturaleza de la BBC",
-    "it": "Tiktoker è “super entusiasta” di co-condurre lo spettacolo sulla natura della BBC",
-    "zh": "Tiktoker 对联合主办 BBC 自然秀“超级兴奋”",
-    "fr": "Tiktoker « super excité » de co-animer l'émission sur la nature de la BBC",
-    "ar": "Tiktoker \"متحمس للغاية\" للمشاركة في استضافة برنامج بي بي سي للطبيعة",
-    "de": "Tiktoker „sehr aufgeregt“, Co-Moderator der BBC-Naturshow zu sein",
-    "el": "Το Tiktoker «σούπερ ενθουσιασμένο» που θα συνδιοργανώσει τη φυσική εκπομπή του BBC"
-   }
-  },
-  {
    "source": "NATURE",
    "title": "First-of-its-kind planetary wreckage holds clues to our Solar System’s fate",
    "url": "https://www.nature.com/articles/d41586-026-03537-7",
@@ -287,22 +271,6 @@
     "ar": "تعتمد النظم البيئية على الناس: فلا تتخلى عنهم",
     "de": "Ökosysteme sind auf Menschen angewiesen: Lassen Sie sie nicht im Stich",
     "el": "Τα οικοσυστήματα εξαρτώνται από τους ανθρώπους: μην τους εγκαταλείπετε"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "When humans disappear, biodiversity takes a surprising turn",
-   "url": "https://www.nature.com/articles/d41586-026-03505-1",
-   "date": "2026-11-04T00:00:00+00:00",
-   "t": {
-    "pt": "Quando os humanos desaparecem, a biodiversidade dá uma guinada surpreendente",
-    "es": "Cuando los humanos desaparecen, la biodiversidad da un giro sorprendente",
-    "it": "Quando gli esseri umani scompaiono, la biodiversità prende una svolta sorprendente",
-    "zh": "当人类消失时，生物多样性发生惊人的转变",
-    "fr": "Quand les humains disparaissent, la biodiversité prend une tournure surprenante",
-    "ar": "عندما يختفي البشر، يأخذ التنوع البيولوجي منعطفًا مفاجئًا",
-    "de": "Wenn der Mensch verschwindet, nimmt die Artenvielfalt eine überraschende Wendung",
-    "el": "Όταν οι άνθρωποι εξαφανίζονται, η βιοποικιλότητα παίρνει μια εκπληκτική τροπή"
    }
   },
   {
@@ -383,6 +351,22 @@
     "ar": "ارتفاع الانبعاثات ودرجات الحرارة: أصبحت تكلفة تراجع ترامب بشأن المناخ واضحة الآن",
     "de": "Steigende Emissionen und Temperaturen: Die Kosten von Trumps Klima-Rückzug sind jetzt klar",
     "el": "Αύξηση των εκπομπών και της θερμοκρασίας: Το κόστος της κλιματικής υποχώρησης του Τραμπ είναι πλέον σαφές"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
+   "url": "https://www.dw.com/en/emerging-economies-are-embracing-solar-power-and-skipping-fossil-fuels-much-faster-than-europe-or-the-us/a-79474847?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-10-07T07:48:00+00:00",
+   "t": {
+    "pt": "As economias emergentes estão a adotar a energia solar e a abandonar os combustíveis fósseis muito mais rapidamente do que a Europa ou os EUA",
+    "es": "Las economías emergentes están adoptando la energía solar y abandonando los combustibles fósiles mucho más rápido que Europa o Estados Unidos.",
+    "it": "Le economie emergenti stanno abbracciando l’energia solare e abbandonando i combustibili fossili molto più velocemente di Europa o Stati Uniti",
+    "zh": "新兴经济体拥抱太阳能并跳过化石燃料的速度比欧洲或美国快得多",
+    "fr": "Les économies émergentes adoptent l’énergie solaire et abandonnent les combustibles fossiles beaucoup plus rapidement que l’Europe ou les États-Unis.",
+    "ar": "تتبنى الاقتصادات الناشئة الطاقة الشمسية وتتخلى عن الوقود الأحفوري بسرعة أكبر بكثير من أوروبا أو الولايات المتحدة",
+    "de": "Schwellenländer setzen viel schneller auf Solarenergie und verzichten auf fossile Brennstoffe als Europa oder die USA",
+    "el": "Οι αναδυόμενες οικονομίες αγκαλιάζουν την ηλιακή ενέργεια και παρακάμπτουν τα ορυκτά καύσιμα πολύ πιο γρήγορα από την Ευρώπη ή τις ΗΠΑ"
    }
   }
  ]
