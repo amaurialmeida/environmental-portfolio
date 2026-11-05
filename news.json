@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-04T21:18:33.333659+00:00",
+ "updated": "2026-11-05T02:24:08.799346+00:00",
  "items": [
   {
    "source": "NYTIMES",
    "title": "How Trump’s Energy Policies Helped Trigger Midterm Rout",
    "url": "https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
-   "date": "2026-11-04T19:51:40+00:00",
+   "date": "2026-11-05T00:31:06+00:00",
    "t": {
     "pt": "Como as políticas energéticas de Trump ajudaram a desencadear a derrota a médio prazo",
     "es": "Cómo las políticas energéticas de Trump ayudaron a desencadenar la derrota de mitad de mandato",
@@ -15,6 +15,38 @@
     "ar": "كيف ساعدت سياسات ترامب في مجال الطاقة على إثارة أزمة منتصف المدة؟",
     "de": "Wie Trumps Energiepolitik zur mittelfristigen Niederlage beitrug",
     "el": "Πώς οι ενεργειακές πολιτικές του Τραμπ βοήθησαν στην ενδιάμεση καταστροφή"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+   "url": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-04T23:12:47+00:00",
+   "t": {
+    "pt": "Tufões atingem o Leste Asiático enquanto El Niño faz o Pacífico “queimar de febre”",
+    "es": "Tifones azotan el este de Asia mientras El Niño hace que el Pacífico \"arda de fiebre\"",
+    "it": "I tifoni colpiscono l’Asia orientale mentre El Niño fa “bruciare di febbre” il Pacifico",
+    "zh": "台风袭击东亚，厄尔尼诺现象让太平洋“发烧”",
+    "fr": "Les typhons frappent l’Asie de l’Est alors qu’El Niño fait « brûler de fièvre » le Pacifique",
+    "ar": "الأعاصير تضرب شرق آسيا بينما تجعل ظاهرة النينيو المحيط الهادئ \"تحترق بالحمى\"",
+    "de": "Taifune verwüsten Ostasien, während El Niño den Pazifik „vor Fieber brennen lässt“",
+    "el": "Τυφώνες πλήττουν την Ανατολική Ασία καθώς ο Ελ Νίνιο κάνει τον Ειρηνικό να «καίει από πυρετό»"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Democrats eye inquiries into Trump actions on energy, public land.",
+   "url": "https://www.nytimes.com/live/2026/11/04/us/midterm-election-results-democrats/congressional-investigations",
+   "date": "2026-11-04T22:06:04+00:00",
+   "t": {
+    "pt": "Os democratas estão de olho nas investigações sobre as ações de Trump em energia e terras públicas.",
+    "es": "Los demócratas están atentos a las investigaciones sobre las acciones de Trump en materia de energía y terrenos públicos.",
+    "it": "I democratici tengono d’occhio le indagini sulle azioni di Trump sull’energia e sul suolo pubblico.",
+    "zh": "民主党人正在调查特朗普在能源和公共土地方面的行为。",
+    "fr": "Les démocrates envisagent des enquêtes sur les actions de Trump en matière d’énergie et de terres publiques.",
+    "ar": "يتطلع الديمقراطيون إلى تحقيقات في تصرفات ترامب بشأن الطاقة والأراضي العامة.",
+    "de": "Demokraten prüfen Untersuchungen zu Trumps Maßnahmen in den Bereichen Energie und öffentliches Land.",
+    "el": "Οι Δημοκρατικοί παρακολουθούν έρευνες σχετικά με τις ενέργειες Τραμπ για την ενέργεια, τη δημόσια γη."
    }
   },
   {
@@ -47,22 +79,6 @@
     "ar": "حققت صناعة النفط الأمريكية أرباحًا تزيد عن 130 مليار دولار خلال حرب إيران",
     "de": "Die US-Ölindustrie erzielte während des Iran-Krieges einen Gewinn von über 130 Milliarden US-Dollar",
     "el": "Η βιομηχανία πετρελαίου των ΗΠΑ κέρδισε πάνω από 130 δισεκατομμύρια δολάρια σε κέρδη κατά τη διάρκεια του πολέμου στο Ιράν"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "William Nordhaus Dies; Nobel Winner Influenced Climate Policy",
-   "url": "https://www.nytimes.com/2026/11/02/business/economy/williiam-nordhaus-nobel-dead.html",
-   "date": "2026-11-04T15:04:11+00:00",
-   "t": {
-    "pt": "William Nordhaus morre; Política climática influenciada pelo vencedor do Nobel",
-    "es": "Muere William Nordhaus; El premio Nobel influyó en la política climática",
-    "it": "Muore William Nordhaus; Il vincitore del Nobel ha influenzato la politica climatica",
-    "zh": "威廉·诺德豪斯去世；诺贝尔奖获得者影响气候政策",
-    "fr": "William Nordhaus décède ; Le lauréat du prix Nobel a influencé la politique climatique",
-    "ar": "وفاة ويليام نوردهاوس؛ الفائز بجائزة نوبل أثر على سياسة المناخ",
-    "de": "William Nordhaus stirbt; Nobelpreisträger beeinflusste die Klimapolitik",
-    "el": "Ο William Nordhaus πεθαίνει. Πολιτική για το κλίμα που επηρεάστηκε από τον νικητή του Νόμπελ"
    }
   },
   {
@@ -175,22 +191,6 @@
     "ar": "Tiktoker \"متحمس للغاية\" للمشاركة في استضافة برنامج بي بي سي للطبيعة",
     "de": "Tiktoker „sehr aufgeregt“, Co-Moderator der BBC-Naturshow zu sein",
     "el": "Το Tiktoker «σούπερ ενθουσιασμένο» που θα συνδιοργανώσει τη φυσική εκπομπή του BBC"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
-   "url": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-04T06:11:43+00:00",
-   "t": {
-    "pt": "Príncipe William diz que o Reino Unido enfrenta um risco terrível de mais incêndios florestais devido às mudanças climáticas",
-    "es": "El príncipe William dice que el Reino Unido enfrenta un riesgo aterrador de más incendios forestales debido al cambio climático",
-    "it": "Il principe William afferma che il Regno Unito corre il rischio terrificante di ulteriori incendi a causa dei cambiamenti climatici",
-    "zh": "威廉王子表示，由于气候变化，英国面临更多野火的可怕风险",
-    "fr": "Le prince William déclare que le Royaume-Uni est confronté à un risque terrifiant d'incendies de forêt supplémentaires en raison du changement climatique",
-    "ar": "يقول الأمير ويليام إن المملكة المتحدة تواجه خطرًا مرعبًا بحدوث المزيد من حرائق الغابات بسبب تغير المناخ",
-    "de": "Prinz William sagt, dass in Großbritannien aufgrund des Klimawandels ein erschreckendes Risiko weiterer Waldbrände besteht",
-    "el": "Ο πρίγκιπας Ουίλιαμ λέει ότι το Ηνωμένο Βασίλειο αντιμετωπίζει τρομακτικό κίνδυνο για περισσότερες πυρκαγιές λόγω της κλιματικής αλλαγής"
    }
   },
   {
