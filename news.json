@@ -1,6 +1,70 @@
 {
- "updated": "2026-11-06T00:12:53.096501+00:00",
+ "updated": "2026-11-06T06:40:35.697011+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "'Extra special' tamarin twins born at zoo",
+   "url": "https://www.bbc.co.uk/news/articles/cmx23zzlezp8o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-06T06:15:18+00:00",
+   "t": {
+    "pt": "Gêmeos micos 'extra especiais' nascem no zoológico",
+    "es": "Nacen gemelos titíes 'extra especiales' en un zoológico",
+    "it": "Gemelli tamarini \"extra speciali\" nati allo zoo",
+    "zh": "“特别”的狨猴双胞胎在动物园出生",
+    "fr": "Des jumeaux tamarins « extra spéciaux » sont nés au zoo",
+    "ar": "ولادة توأم قرد الطمارين \"المميز للغاية\" في حديقة الحيوان",
+    "de": "„Besondere“ Tamarin-Zwillinge im Zoo geboren",
+    "el": "«Εξαιρετικά ξεχωριστά» δίδυμα tamarin που γεννήθηκαν σε ζωολογικό κήπο"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "More than 40 pilot whales die after mass stranding in New Zealand’s North Island",
+   "url": "https://www.theguardian.com/world/2026/nov/06/pilot-whales-dead-stranded-new-zealand-north-island",
+   "date": "2026-11-06T04:45:33+00:00",
+   "t": {
+    "pt": "Mais de 40 baleias-piloto morrem após encalhe em massa na Ilha Norte da Nova Zelândia",
+    "es": "Más de 40 ballenas piloto mueren tras varamiento masivo en la Isla Norte de Nueva Zelanda",
+    "it": "Più di 40 globicefali muoiono dopo uno spiaggiamento di massa nell’Isola del Nord della Nuova Zelanda",
+    "zh": "新西兰北岛大规模搁浅 逾40头领航鲸死亡",
+    "fr": "Plus de 40 globicéphales meurent après un échouage massif sur l’île du Nord de la Nouvelle-Zélande",
+    "ar": "نفوق أكثر من 40 حوتًا طيارًا بعد الجنوح الجماعي في الجزيرة الشمالية بنيوزيلندا",
+    "de": "Mehr als 40 Grindwale sterben nach Massenstrandung auf der Nordinsel Neuseelands",
+    "el": "Περισσότερες από 40 πιλότες φάλαινες πεθαίνουν μετά από μαζικό προσάραξη στο βόρειο νησί της Νέας Ζηλανδίας"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Peru airport officials discover 3,000 tarantulas smuggled inside dirty socks",
+   "url": "https://www.theguardian.com/world/2026/nov/06/3000-tarantulas-smuggled-inside-dirty-socks-peru",
+   "date": "2026-11-06T01:22:49+00:00",
+   "t": {
+    "pt": "Autoridades do aeroporto do Peru descobrem 3.000 tarântulas contrabandeadas dentro de meias sujas",
+    "es": "Funcionarios del aeropuerto de Perú descubren 3.000 tarántulas introducidas de contrabando dentro de calcetines sucios",
+    "it": "Funzionari dell'aeroporto del Perù scoprono 3.000 tarantole contrabbandate all'interno di calzini sporchi",
+    "zh": "秘鲁机场官员发现3000只狼蛛藏在脏袜子里走私",
+    "fr": "Les responsables de l'aéroport péruvien découvrent 3 000 tarentules introduites clandestinement dans des chaussettes sales",
+    "ar": "اكتشف مسؤولو مطار بيرو 3000 عنكبوت عنكبوتي مهربة داخل جوارب قذرة",
+    "de": "Beamte des peruanischen Flughafens entdecken 3.000 in schmutzigen Socken geschmuggelte Vogelspinnen",
+    "el": "Οι υπεύθυνοι του αεροδρομίου του Περού ανακαλύπτουν 3.000 ταραντούλες λαθραία μέσα σε βρώμικες κάλτσες"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Could the earliest weakening of the polar vortex on record bring UK snow?",
+   "url": "https://www.bbc.co.uk/weather/articles/cwyvrz09mnd6o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-06T01:22:39+00:00",
+   "t": {
+    "pt": "Poderia o primeiro enfraquecimento do vórtice polar já registrado trazer neve no Reino Unido?",
+    "es": "¿Podría el debilitamiento más temprano del vórtice polar registrado provocar nieve en el Reino Unido?",
+    "it": "Il primo indebolimento del vortice polare mai registrato potrebbe portare la neve nel Regno Unito?",
+    "zh": "有记录以来最早的极地涡旋减弱会给英国带来降雪吗？",
+    "fr": "Le premier affaiblissement du vortex polaire jamais enregistré pourrait-il apporter de la neige au Royaume-Uni ?",
+    "ar": "هل يمكن أن يؤدي الضعف المبكر للدوامة القطبية المسجلة إلى جلب الثلوج في المملكة المتحدة؟",
+    "de": "Könnte die früheste Abschwächung des Polarwirbels in Großbritannien zu Schnee führen?",
+    "el": "Θα μπορούσε η παλαιότερη αποδυνάμωση της πολικής δίνης που έχει καταγραφεί να φέρει χιόνι στο Ηνωμένο Βασίλειο;"
+   }
+  },
   {
    "source": "BBC",
    "title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
@@ -31,22 +95,6 @@
     "ar": "بي بي سي داخل العلوم",
     "de": "BBC Inside Science",
     "el": "BBC Inside Science"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Over 1,000 tonnes of sewage seen at landfill site",
-   "url": "https://www.bbc.co.uk/news/articles/cmp8ggn9gpjjo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-05T20:01:05+00:00",
-   "t": {
-    "pt": "Mais de 1.000 toneladas de esgoto vistas em aterro sanitário",
-    "es": "Más de 1.000 toneladas de aguas residuales detectadas en un vertedero",
-    "it": "Oltre 1.000 tonnellate di liquami avvistate in una discarica",
-    "zh": "垃圾填埋场污水逾千吨",
-    "fr": "Plus de 1 000 tonnes d'eaux usées détectées dans une décharge",
-    "ar": "أكثر من 1000 طن من مياه الصرف الصحي شوهدت في موقع مكب النفايات",
-    "de": "Über 1.000 Tonnen Abwasser auf Mülldeponie gesehen",
-    "el": "Πάνω από 1.000 τόνοι λυμάτων παρατηρήθηκαν σε χώρο υγειονομικής ταφής"
    }
   },
   {
@@ -82,22 +130,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Investigation into 'major fish kill' after pollution incident",
-   "url": "https://www.bbc.co.uk/news/articles/cx1l36y2d941o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-05T14:51:45+00:00",
-   "t": {
-    "pt": "Investigação sobre 'grande morte de peixes' após incidente de poluição",
-    "es": "Investigación sobre la \"gran muerte de peces\" tras un incidente de contaminación",
-    "it": "Indagine sulla \"grande uccisione di pesci\" dopo un incidente di inquinamento",
-    "zh": "污染事件后调查“重大鱼类死亡”",
-    "fr": "Enquête sur une « mortalité importante de poissons » après un incident de pollution",
-    "ar": "التحقيق في \"قتل الأسماك الكبيرة\" بعد حادث التلوث",
-    "de": "Untersuchung des „großen Fischsterbens“ nach einem Verschmutzungsvorfall",
-    "el": "Έρευνα για «σημαντική θανάτωση ψαριών» μετά από περιστατικό ρύπανσης"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "‘It’s kind of a melting pot’: how one US city transformed a highway into a leafy oasis",
    "url": "https://www.theguardian.com/environment/2026/nov/05/lancaster-california-transformed-highway-leafy-oasis",
@@ -111,38 +143,6 @@
     "ar": "\"إنها بمثابة بوتقة انصهار\": كيف حولت إحدى المدن الأمريكية طريقًا سريعًا إلى واحة مورقة",
     "de": "„Es ist eine Art Schmelztiegel“: Wie eine US-Stadt eine Autobahn in eine grüne Oase verwandelte",
     "el": "«Είναι κάπως χωνευτήρι»: πώς μια πόλη των ΗΠΑ μετέτρεψε έναν αυτοκινητόδρομο σε μια καταπράσινη όαση"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Trump takes 500 actions to weaken cancer protections, new report says",
-   "url": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
-   "date": "2026-11-05T12:00:23+00:00",
-   "t": {
-    "pt": "Trump toma 500 ações para enfraquecer a proteção contra o câncer, diz novo relatório",
-    "es": "Trump toma 500 acciones para debilitar las protecciones contra el cáncer, según un nuevo informe",
-    "it": "Trump intraprende 500 azioni per indebolire le protezioni contro il cancro, afferma un nuovo rapporto",
-    "zh": "新报告称特朗普采取 500 项行动削弱癌症保护",
-    "fr": "Trump prend 500 mesures pour affaiblir la protection contre le cancer, selon un nouveau rapport",
-    "ar": "يقول تقرير جديد إن ترامب يتخذ 500 إجراء لإضعاف الحماية من السرطان",
-    "de": "Trump ergreift 500 Maßnahmen, um den Schutz vor Krebs zu schwächen, heißt es in einem neuen Bericht",
-    "el": "Ο Τραμπ λαμβάνει 500 μέτρα για να αποδυναμώσει την προστασία από τον καρκίνο, αναφέρει νέα έκθεση"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "South West Water’s failure to fix leaks ‘putting customer supplies at risk’",
-   "url": "https://www.theguardian.com/business/2026/nov/05/south-west-water-failure-fix-leaks-putting-customer-supplies-at-risk",
-   "date": "2026-11-05T10:00:02+00:00",
-   "t": {
-    "pt": "O fracasso da South West Water em consertar vazamentos ‘colocando em risco o abastecimento dos clientes’",
-    "es": "La incapacidad de South West Water para reparar las fugas \"pone en riesgo los suministros de los clientes\"",
-    "it": "L’incapacità di South West Water di riparare le perdite “mettendo a rischio le forniture dei clienti”",
-    "zh": "西南水务公司未能修复泄漏，“使客户供应面临风险”",
-    "fr": "L’incapacité de South West Water à réparer les fuites « met en danger l’approvisionnement des clients »",
-    "ar": "فشل شركة South West Water في إصلاح التسريبات \"يعرض إمدادات العملاء للخطر\"",
-    "de": "Das Versäumnis von South West Water, Lecks zu beheben, „gefährdet die Kundenversorgung“",
-    "el": "Η αποτυχία της South West Water να διορθώσει διαρροές «θέτοντας σε κίνδυνο τις προμήθειες των πελατών»"
    }
   },
   {
