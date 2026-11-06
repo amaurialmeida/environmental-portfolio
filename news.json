@@ -1,6 +1,70 @@
 {
- "updated": "2026-11-05T18:43:20.248850+00:00",
+ "updated": "2026-11-06T00:12:53.096501+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
+   "url": "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-05T23:16:53+00:00",
+   "t": {
+    "pt": "O ar tóxico do inverno em Delhi está de volta - a capital indiana está preparada para a poluição?",
+    "es": "El aire tóxico del invierno en Delhi ha vuelto: ¿está preparada la capital india para la contaminación?",
+    "it": "L'aria tossica invernale di Delhi è tornata: la capitale indiana è preparata all'inquinamento?",
+    "zh": "德里的冬季有毒空气又回来了——印度首都准备好应对污染了吗？",
+    "fr": "L'air hivernal toxique de Delhi est de retour : la capitale indienne est-elle prête à affronter la pollution ?",
+    "ar": "عاد هواء الشتاء السام إلى دلهي، فهل العاصمة الهندية مستعدة للتلوث؟",
+    "de": "Delhis giftige Winterluft ist zurück – ist die indische Hauptstadt auf Verschmutzung vorbereitet?",
+    "el": "Ο τοξικός χειμωνιάτικος αέρας του Δελχί επιστρέφει - είναι η ινδική πρωτεύουσα προετοιμασμένη για τη ρύπανση;"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "BBC Inside Science",
+   "url": "https://www.bbc.co.uk/sounds/play/w3ct978k?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-05T21:00:00+00:00",
+   "t": {
+    "pt": "BBC por dentro da ciência",
+    "es": "BBC dentro de la ciencia",
+    "it": "BBC Dentro la scienza",
+    "zh": "BBC 科学内幕",
+    "fr": "BBC à l'intérieur de la science",
+    "ar": "بي بي سي داخل العلوم",
+    "de": "BBC Inside Science",
+    "el": "BBC Inside Science"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Over 1,000 tonnes of sewage seen at landfill site",
+   "url": "https://www.bbc.co.uk/news/articles/cmp8ggn9gpjjo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-05T20:01:05+00:00",
+   "t": {
+    "pt": "Mais de 1.000 toneladas de esgoto vistas em aterro sanitário",
+    "es": "Más de 1.000 toneladas de aguas residuales detectadas en un vertedero",
+    "it": "Oltre 1.000 tonnellate di liquami avvistate in una discarica",
+    "zh": "垃圾填埋场污水逾千吨",
+    "fr": "Plus de 1 000 tonnes d'eaux usées détectées dans une décharge",
+    "ar": "أكثر من 1000 طن من مياه الصرف الصحي شوهدت في موقع مكب النفايات",
+    "de": "Über 1.000 Tonnen Abwasser auf Mülldeponie gesehen",
+    "el": "Πάνω από 1.000 τόνοι λυμάτων παρατηρήθηκαν σε χώρο υγειονομικής ταφής"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Environmental Ballot Wins",
+   "url": "https://www.nytimes.com/2026/11/05/climate/climate-environment-ballot-meaures-midterms.html",
+   "date": "2026-11-05T19:40:22+00:00",
+   "t": {
+    "pt": "Vitórias na votação ambiental",
+    "es": "La votación ambiental gana",
+    "it": "Vince la votazione ambientale",
+    "zh": "环境投票获胜",
+    "fr": "Victoire du scrutin environnemental",
+    "ar": "فوز الاقتراع البيئي",
+    "de": "Umweltabstimmung gewinnt",
+    "el": "Κέρδισε το Περιβαλλοντικό Ψηφοδέλτιο"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "How Democrats used the midterms to turn affordability concerns into ‘green populism’",
@@ -15,22 +79,6 @@
     "ar": "كيف استخدم الديمقراطيون الانتخابات النصفية لتحويل المخاوف المتعلقة بالقدرة على تحمل التكاليف إلى \"شعبوية خضراء\"",
     "de": "Wie die Demokraten die Zwischenwahlen nutzten, um Bezahlbarkeitsbedenken in „grünen Populismus“ umzuwandeln",
     "el": "Πώς χρησιμοποίησαν οι Δημοκρατικοί τα ενδιάμεσα για να μετατρέψουν τις ανησυχίες σχετικά με την οικονομική προσιτότητα σε «πράσινο λαϊκισμό»"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "BBC Inside Science",
-   "url": "https://www.bbc.co.uk/sounds/play/w3ct978k?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-05T17:00:00+00:00",
-   "t": {
-    "pt": "BBC por dentro da ciência",
-    "es": "BBC dentro de la ciencia",
-    "it": "BBC Dentro la scienza",
-    "zh": "BBC 科学内幕",
-    "fr": "BBC à l'intérieur de la science",
-    "ar": "بي بي سي داخل العلوم",
-    "de": "BBC Inside Science",
-    "el": "BBC Inside Science"
    }
   },
   {
@@ -82,22 +130,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Google refused 54K-name petition, say campaigners",
-   "url": "https://www.bbc.co.uk/news/articles/c5ev3wm3ng42o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-05T11:30:03+00:00",
-   "t": {
-    "pt": "Google recusou petição com 54 mil nomes, dizem ativistas",
-    "es": "Google rechazó la petición de 54.000 nombres, dicen activistas",
-    "it": "Google ha rifiutato la petizione con il nome 54K, dicono gli attivisti",
-    "zh": "活动人士称，谷歌拒绝了 54K 姓名请愿书",
-    "fr": "Google a refusé la pétition de 54 000 noms, selon les militants",
-    "ar": "يقول الناشطون إن جوجل رفضت التماسًا يحمل اسم 54 ألفًا",
-    "de": "Google lehnte die Petition für 54.000 Namen ab, sagen Aktivisten",
-    "el": "Η Google απέρριψε αίτηση 54.000 ονομάτων, λένε οι ακτιβιστές"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "South West Water’s failure to fix leaks ‘putting customer supplies at risk’",
    "url": "https://www.theguardian.com/business/2026/nov/05/south-west-water-failure-fix-leaks-putting-customer-supplies-at-risk",
@@ -114,26 +146,10 @@
    }
   },
   {
-   "source": "DW",
-   "title": "South Korea tests Arctic shipping route amid Russia-West row",
-   "url": "https://www.dw.com/en/south-korea-tests-arctic-shipping-route-amid-russia-west-row/a-79853907?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-05T09:45:00+00:00",
-   "t": {
-    "pt": "Coreia do Sul testa rota marítima do Ártico em meio a disputa entre Rússia e Ocidente",
-    "es": "Corea del Sur prueba ruta marítima en el Ártico en medio de disputa entre Rusia y Occidente",
-    "it": "La Corea del Sud mette alla prova la rotta marittima artica nel conflitto tra Russia e Occidente",
-    "zh": "韩国在俄罗斯与西方的争端中测试北极航线",
-    "fr": "La Corée du Sud teste une route maritime dans l'Arctique au milieu du conflit entre la Russie et l'Ouest",
-    "ar": "كوريا الجنوبية تختبر طريق الشحن في القطب الشمالي وسط الخلاف بين روسيا والغرب",
-    "de": "Südkorea testet die arktische Schifffahrtsroute im Streit zwischen Russland und dem Westen",
-    "el": "Η Νότια Κορέα δοκιμάζει τη ναυτιλιακή διαδρομή της Αρκτικής εν μέσω διαμάχης Ρωσίας-Δύσης"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "How Trump’s Energy Policies Helped Trigger Midterm Rout",
    "url": "https://www.nytimes.com/2026/11/04/climate/trump-fossil-fuel-energy-policy-election.html",
-   "date": "2026-11-05T00:31:06+00:00",
+   "date": "2026-11-05T00:31:07+00:00",
    "t": {
     "pt": "Como as políticas energéticas de Trump ajudaram a desencadear a derrota a médio prazo",
     "es": "Cómo las políticas energéticas de Trump ayudaron a desencadenar la derrota de mitad de mandato",
@@ -159,22 +175,6 @@
     "ar": "تعمل مشتقات الهيدروجين على تمكين حياد الكربون بفعالية من حيث التكلفة في الصين",
     "de": "Wasserstoffderivate ermöglichen kostengünstige CO2-Neutralität in China",
     "el": "Τα παράγωγα υδρογόνου επιτρέπουν την οικονομικά αποδοτική ουδετερότητα άνθρακα στην Κίνα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
-   "url": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-04T23:12:47+00:00",
-   "t": {
-    "pt": "Tufões atingem o Leste Asiático enquanto El Niño faz o Pacífico “queimar de febre”",
-    "es": "Tifones azotan el este de Asia mientras El Niño hace que el Pacífico \"arda de fiebre\"",
-    "it": "I tifoni colpiscono l’Asia orientale mentre El Niño fa “bruciare di febbre” il Pacifico",
-    "zh": "台风袭击东亚，厄尔尼诺现象让太平洋“发烧”",
-    "fr": "Les typhons frappent l’Asie de l’Est alors qu’El Niño fait « brûler de fièvre » le Pacifique",
-    "ar": "الأعاصير تضرب شرق آسيا بينما تجعل ظاهرة النينيو المحيط الهادئ \"تحترق بالحمى\"",
-    "de": "Taifune verwüsten Ostasien, während El Niño den Pazifik „vor Fieber brennen lässt“",
-    "el": "Τυφώνες πλήττουν την Ανατολική Ασία καθώς ο Ελ Νίνιο κάνει τον Ειρηνικό να «καίει από πυρετό»"
    }
   },
   {
@@ -207,22 +207,6 @@
     "ar": "الجنوب الغربي جاف. هل يمكن لمياه الفيضانات الأخيرة أن تطفئها؟",
     "de": "Der Südwesten ist ausgedörrt. Können die jüngsten Überschwemmungen es löschen?",
     "el": "Το νοτιοδυτικό είναι ξεραμένο. Μπορούν οι πρόσφατες πλημμύρες να το σβήσουν;"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "U.S. Oil Industry Earned Over $130 Billion in Profit During Iran War",
-   "url": "https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html",
-   "date": "2026-11-04T16:31:15+00:00",
-   "t": {
-    "pt": "A indústria petrolífera dos EUA obteve mais de US$ 130 bilhões em lucros durante a guerra no Irã",
-    "es": "La industria petrolera estadounidense obtuvo más de 130 mil millones de dólares en ganancias durante la guerra con Irán",
-    "it": "L’industria petrolifera statunitense ha guadagnato oltre 130 miliardi di dollari durante la guerra con l’Iran",
-    "zh": "美国石油工业在伊朗战争期间赚取了超过1300亿美元的利润",
-    "fr": "L’industrie pétrolière américaine a réalisé plus de 130 milliards de dollars de bénéfices pendant la guerre en Iran",
-    "ar": "حققت صناعة النفط الأمريكية أرباحًا تزيد عن 130 مليار دولار خلال حرب إيران",
-    "de": "Die US-Ölindustrie erzielte während des Iran-Krieges einen Gewinn von über 130 Milliarden US-Dollar",
-    "el": "Η βιομηχανία πετρελαίου των ΗΠΑ κέρδισε πάνω από 130 δισεκατομμύρια δολάρια σε κέρδη κατά τη διάρκεια του πολέμου στο Ιράν"
    }
   },
   {
@@ -275,6 +259,22 @@
   },
   {
    "source": "NPR",
+   "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Os planos para um data center ameaçam a natureza cênica e os céus escuros na Virgínia Ocidental",
+    "es": "Los planes para un centro de datos amenazan la naturaleza escénica y los cielos oscuros en Virginia Occidental",
+    "it": "I progetti per un data center minacciano la natura selvaggia e i cieli bui del West Virginia",
+    "zh": "数据中心计划威胁到西弗吉尼亚州风景优美的荒野和黑暗的天空",
+    "fr": "Les projets de centre de données menacent la nature sauvage et le ciel sombre de la Virginie occidentale",
+    "ar": "تهدد خطط إنشاء مركز بيانات الحياة البرية ذات المناظر الخلابة والسماء المظلمة في ولاية فرجينيا الغربية",
+    "de": "Pläne für ein Rechenzentrum gefährden die malerische Wildnis und den dunklen Himmel in West Virginia",
+    "el": "Τα σχέδια για ένα κέντρο δεδομένων απειλούν τη γραφική ερημιά και τους σκοτεινούς ουρανούς στη Δυτική Βιρτζίνια"
+   }
+  },
+  {
+   "source": "NPR",
    "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
    "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
    "date": "2026-10-31T09:00:00+00:00",
@@ -307,22 +307,6 @@
   },
   {
    "source": "NPR",
-   "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Os planos para um data center ameaçam a natureza cênica e os céus escuros na Virgínia Ocidental",
-    "es": "Los planes para un centro de datos amenazan la naturaleza escénica y los cielos oscuros en Virginia Occidental",
-    "it": "I progetti per un data center minacciano la natura selvaggia e i cieli bui del West Virginia",
-    "zh": "数据中心计划威胁到西弗吉尼亚州风景优美的荒野和黑暗的天空",
-    "fr": "Les projets de centre de données menacent la nature sauvage et le ciel sombre de la Virginie occidentale",
-    "ar": "تهدد خطط إنشاء مركز بيانات الحياة البرية ذات المناظر الخلابة والسماء المظلمة في ولاية فرجينيا الغربية",
-    "de": "Pläne für ein Rechenzentrum gefährden die malerische Wildnis und den dunklen Himmel in West Virginia",
-    "el": "Τα σχέδια για ένα κέντρο δεδομένων απειλούν τη γραφική ερημιά και τους σκοτεινούς ουρανούς στη Δυτική Βιρτζίνια"
-   }
-  },
-  {
-   "source": "NPR",
    "title": "Even birds get jet lagged, study shows",
    "url": "https://www.npr.org/2026/10/29/nx-s1-6019228/manx-shearwater-jet-lag-birds",
    "date": "2026-10-29T18:00:00+00:00",
@@ -351,22 +335,6 @@
     "ar": "ارتفاع الانبعاثات ودرجات الحرارة: أصبحت تكلفة تراجع ترامب بشأن المناخ واضحة الآن",
     "de": "Steigende Emissionen und Temperaturen: Die Kosten von Trumps Klima-Rückzug sind jetzt klar",
     "el": "Αύξηση των εκπομπών και της θερμοκρασίας: Το κόστος της κλιματικής υποχώρησης του Τραμπ είναι πλέον σαφές"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
-   "url": "https://www.dw.com/en/emerging-economies-are-embracing-solar-power-and-skipping-fossil-fuels-much-faster-than-europe-or-the-us/a-79474847?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-07T07:48:00+00:00",
-   "t": {
-    "pt": "As economias emergentes estão a adotar a energia solar e a abandonar os combustíveis fósseis muito mais rapidamente do que a Europa ou os EUA",
-    "es": "Las economías emergentes están adoptando la energía solar y abandonando los combustibles fósiles mucho más rápido que Europa o Estados Unidos.",
-    "it": "Le economie emergenti stanno abbracciando l’energia solare e abbandonando i combustibili fossili molto più velocemente di Europa o Stati Uniti",
-    "zh": "新兴经济体拥抱太阳能并跳过化石燃料的速度比欧洲或美国快得多",
-    "fr": "Les économies émergentes adoptent l’énergie solaire et abandonnent les combustibles fossiles beaucoup plus rapidement que l’Europe ou les États-Unis.",
-    "ar": "تتبنى الاقتصادات الناشئة الطاقة الشمسية وتتخلى عن الوقود الأحفوري بسرعة أكبر بكثير من أوروبا أو الولايات المتحدة",
-    "de": "Schwellenländer setzen viel schneller auf Solarenergie und verzichten auf fossile Brennstoffe als Europa oder die USA",
-    "el": "Οι αναδυόμενες οικονομίες αγκαλιάζουν την ηλιακή ενέργεια και παρακάμπτουν τα ορυκτά καύσιμα πολύ πιο γρήγορα από την Ευρώπη ή τις ΗΠΑ"
    }
   }
  ]
