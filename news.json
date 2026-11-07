@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-07T13:58:43.427161+00:00",
+ "updated": "2026-11-07T18:45:46.511193+00:00",
  "items": [
+  {
+   "source": "AL JAZEERA",
+   "title": "Jerusalem Daily: Heavy rains flood Gaza",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
+   "date": "2026-11-07T17:11:29+00:00",
+   "t": {
+    "pt": "Jerusalem Daily: Fortes chuvas inundam Gaza",
+    "es": "Jerusalem Daily: Fuertes lluvias inundan Gaza",
+    "it": "Jerusalem Daily: Forti piogge inondano Gaza",
+    "zh": "耶路撒冷日报：大雨淹没加沙",
+    "fr": "Jerusalem Daily : De fortes pluies inondent Gaza",
+    "ar": "القدس ديلي: أمطار غزيرة تغمر غزة",
+    "de": "Jerusalem Daily: Heftige Regenfälle überschwemmen Gaza",
+    "el": "Jerusalem Daily: Ισχυρές βροχοπτώσεις πλημμυρίζουν τη Γάζα"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Lonnie Thompson Has Died. He Dodged Avalanches to Preserve Climate History.",
+   "url": "https://www.nytimes.com/2026/11/06/science/lonnie-thompson-dead.html",
+   "date": "2026-11-07T14:19:29+00:00",
+   "t": {
+    "pt": "Lonnie Thompson morreu. Ele evitou avalanches para preservar a história climática.",
+    "es": "Lonnie Thompson ha muerto. Esquivó avalanchas para preservar la historia del clima.",
+    "it": "Lonnie Thompson è morto. Ha schivato le valanghe per preservare la storia del clima.",
+    "zh": "朗尼·汤普森去世了。他躲避雪崩以保存气候历史。",
+    "fr": "Lonnie Thompson est décédée. Il a évité les avalanches pour préserver l'histoire du climat.",
+    "ar": "توفي لوني طومسون. لقد تهرب من الانهيارات الثلجية للحفاظ على تاريخ المناخ.",
+    "de": "Lonnie Thompson ist gestorben. Er wich Lawinen aus, um die Klimageschichte zu bewahren.",
+    "el": "Πέθανε η Λόνι Τόμσον. Απέφυγε τις χιονοστιβάδες για να διατηρήσει την ιστορία του κλίματος."
+   }
+  },
   {
    "source": "AL JAZEERA",
    "title": "Heavy rains flood displacement camps across Gaza",
@@ -31,54 +63,6 @@
     "ar": "وجدت دراسة أن المواد الكيميائية الجديدة \"عالية الأمان\" الموجودة في عبوات المواد الغذائية البلاستيكية مرتبطة بانخفاض الوزن عند الولادة",
     "de": "Studie zeigt, dass neue „hochsichere“ Chemikalien in Lebensmittelverpackungen aus Kunststoff mit einem geringeren Geburtsgewicht verbunden sind",
     "el": "Νέα χημικά «υψηλής ασφάλειας» σε πλαστικές συσκευασίες τροφίμων συνδέονται με χαμηλότερο βάρος γέννησης, διαπιστώνει μελέτη"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Nepal’s fight to rebuild after flood disaster",
-   "url": "https://www.aljazeera.com/video/101-east/2026/11/7/nepals-fight-to-rebuild-after-flood-disaster?traffic_source=rss",
-   "date": "2026-11-07T11:30:00+00:00",
-   "t": {
-    "pt": "A luta do Nepal para reconstruir após o desastre das inundações",
-    "es": "La lucha de Nepal para reconstruirse tras el desastre de las inundaciones",
-    "it": "La lotta del Nepal per la ricostruzione dopo l’alluvione",
-    "zh": "尼泊尔洪水灾害后的重建斗争",
-    "fr": "Le combat du Népal pour se reconstruire après les inondations catastrophiques",
-    "ar": "نيبال تكافح من أجل إعادة البناء بعد كارثة الفيضانات",
-    "de": "Nepals Kampf um den Wiederaufbau nach der Flutkatastrophe",
-    "el": "Ο αγώνας του Νεπάλ για ανοικοδόμηση μετά την καταστροφή από τις πλημμύρες"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Rains flood 70,000 displaced families’ tents in Gaza",
-   "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
-   "date": "2026-11-07T11:10:02+00:00",
-   "t": {
-    "pt": "Chuvas inundam tendas de 70 mil famílias deslocadas em Gaza",
-    "es": "Las lluvias inundan las tiendas de campaña de 70.000 familias desplazadas en Gaza",
-    "it": "Le piogge allagano 70.000 tende di famiglie sfollate a Gaza",
-    "zh": "降雨淹没了加沙7万个流离失所家庭的帐篷",
-    "fr": "Les pluies inondent les tentes de 70 000 familles déplacées à Gaza",
-    "ar": "الأمطار تغمر 70 ألف خيمة لعائلة نازحة في غزة",
-    "de": "Regen überschwemmt die Zelte von 70.000 vertriebenen Familien in Gaza",
-    "el": "Οι βροχές πλημμύρισαν σκηνές 70.000 εκτοπισμένων οικογενειών στη Γάζα"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Sudan war and climate change see parents struggle to feed their children",
-   "url": "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss",
-   "date": "2026-11-07T10:36:32+00:00",
-   "t": {
-    "pt": "A guerra no Sudão e as alterações climáticas fazem com que os pais tenham dificuldade em alimentar os seus filhos",
-    "es": "La guerra de Sudán y el cambio climático hacen que los padres tengan dificultades para alimentar a sus hijos",
-    "it": "La guerra in Sudan e il cambiamento climatico vedono i genitori lottare per nutrire i propri figli",
-    "zh": "苏丹战争和气候变化导致父母难以养活孩子",
-    "fr": "La guerre au Soudan et le changement climatique obligent les parents à lutter pour nourrir leurs enfants",
-    "ar": "الحرب في السودان وتغير المناخ تجعل الآباء يكافحون من أجل إطعام أطفالهم",
-    "de": "Der Krieg im Sudan und der Klimawandel führen dazu, dass Eltern Schwierigkeiten haben, ihre Kinder zu ernähren",
-    "el": "Ο πόλεμος του Σουδάν και η κλιματική αλλαγή βλέπουν τους γονείς να αγωνίζονται να ταΐσουν τα παιδιά τους"
    }
   },
   {
@@ -159,22 +143,6 @@
     "ar": "تم تدمير التكوينات الصخرية الشهيرة في نيو مكسيكو بعد هطول أمطار غزيرة بسبب ظاهرة النينيو",
     "de": "Berühmte Felsformation in New Mexico wurde nach sintflutartigen El-Niño-Regenfällen zerstört",
     "el": "Διάσημος βράχος στο Νέο Μεξικό καταστράφηκε μετά από καταρρακτώδεις βροχές Ελ Νίνιο"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Lonnie Thompson Has Died. He Dodged Avalanches to Preserve Climate History.",
-   "url": "https://www.nytimes.com/2026/11/06/science/lonnie-thompson-dead.html",
-   "date": "2026-11-06T19:17:59+00:00",
-   "t": {
-    "pt": "Lonnie Thompson morreu. Ele evitou avalanches para preservar a história climática.",
-    "es": "Lonnie Thompson ha muerto. Esquivó avalanchas para preservar la historia del clima.",
-    "it": "Lonnie Thompson è morto. Ha schivato le valanghe per preservare la storia del clima.",
-    "zh": "朗尼·汤普森去世了。他躲避雪崩以保存气候历史。",
-    "fr": "Lonnie Thompson est décédée. Il a évité les avalanches pour préserver l'histoire du climat.",
-    "ar": "توفي لوني طومسون. لقد تهرب من الانهيارات الثلجية للحفاظ على تاريخ المناخ.",
-    "de": "Lonnie Thompson ist gestorben. Er wich Lawinen aus, um die Klimageschichte zu bewahren.",
-    "el": "Πέθανε η Λόνι Τόμσον. Απέφυγε τις χιονοστιβάδες για να διατηρήσει την ιστορία του κλίματος."
    }
   },
   {
@@ -355,6 +323,22 @@
   },
   {
    "source": "NPR",
+   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
+    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
+    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
+    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
+    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
+    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
+    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
+    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
+   }
+  },
+  {
+   "source": "NPR",
    "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
    "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
    "date": "2026-10-31T09:00:00+00:00",
@@ -371,18 +355,34 @@
   },
   {
    "source": "NPR",
-   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
-   "date": "2026-10-31T09:00:00+00:00",
+   "title": "Even birds get jet lagged, study shows",
+   "url": "https://www.npr.org/2026/10/29/nx-s1-6019228/manx-shearwater-jet-lag-birds",
+   "date": "2026-10-29T18:00:00+00:00",
    "t": {
-    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
-    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
-    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
-    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
-    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
-    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
-    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
-    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
+    "pt": "Até os pássaros ficam com jet lag, mostra estudo",
+    "es": "Incluso los pájaros sufren desfase horario, según un estudio",
+    "it": "Anche gli uccelli soffrono di jet lag, lo dimostra uno studio",
+    "zh": "研究表明，即使是鸟类也会时差反应",
+    "fr": "Même les oiseaux subissent le décalage horaire, selon une étude",
+    "ar": "تظهر الدراسة أنه حتى الطيور تصاب باضطراب الرحلات الجوية الطويلة",
+    "de": "Sogar Vögel leiden unter Jetlag, wie eine Studie zeigt",
+    "el": "Ακόμη και τα πουλιά παθαίνουν jet lagg, σύμφωνα με μελέτη"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "Rising emissions and temperatures: The cost of Trump's climate retreat is now clear",
+   "url": "https://www.dw.com/en/rising-emissions-and-temperatures-the-cost-of-trump-s-climate-retreat-is-now-clear/a-79714915?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-10-21T05:00:00+00:00",
+   "t": {
+    "pt": "Aumento das emissões e temperaturas: o custo da retirada climática de Trump é agora claro",
+    "es": "Aumento de las emisiones y las temperaturas: el coste de la retirada climática de Trump ahora está claro",
+    "it": "Aumento delle emissioni e delle temperature: il costo della ritirata climatica di Trump è ormai chiaro",
+    "zh": "排放量和气温上升：特朗普气候撤退的代价现已显而易见",
+    "fr": "Hausse des émissions et des températures : le coût du retrait climatique de Trump est désormais clair",
+    "ar": "ارتفاع الانبعاثات ودرجات الحرارة: أصبحت تكلفة تراجع ترامب بشأن المناخ واضحة الآن",
+    "de": "Steigende Emissionen und Temperaturen: Die Kosten von Trumps Klima-Rückzug sind jetzt klar",
+    "el": "Αύξηση των εκπομπών και της θερμοκρασίας: Το κόστος της κλιματικής υποχώρησης του Τραμπ είναι πλέον σαφές"
    }
   }
  ]
