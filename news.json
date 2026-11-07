@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T20:52:27.591063+00:00",
+ "updated": "2026-11-07T00:55:13.539617+00:00",
  "items": [
   {
    "source": "GUARDIAN",
@@ -178,22 +178,6 @@
    }
   },
   {
-   "source": "DW",
-   "title": "'No choice but to bear it': Delhi's unrelenting air pollution crisis",
-   "url": "https://www.dw.com/en/no-choice-but-to-bear-it-delhi-s-unrelenting-air-pollution-crisis/a-79873124?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-06T12:05:00+00:00",
-   "t": {
-    "pt": "'Não há escolha a não ser suportar': a implacável crise de poluição do ar em Delhi",
-    "es": "\"No hay más remedio que soportarlo\": la implacable crisis de contaminación del aire en Delhi",
-    "it": "“Non c’è altra scelta che sopportarlo”: l’inesorabile crisi dell’inquinamento atmosferico di Delhi",
-    "zh": "“别无选择，只能忍受”：德里持续不断的空气污染危机",
-    "fr": "« Pas d'autre choix que de le supporter » : la crise incessante de la pollution de l'air à Delhi",
-    "ar": "\"لا خيار سوى تحملها\": أزمة تلوث الهواء المستمرة في دلهي",
-    "de": "„Keine andere Wahl, als es zu ertragen“: Delhis unerbittliche Luftverschmutzungskrise",
-    "el": "«Δεν υπάρχει άλλη επιλογή από το να το αντέξουμε»: η αδυσώπητη κρίση ατμοσφαιρικής ρύπανσης στο Δελχί"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Disaster-Prone Communities Face Cuts and Slowdowns in Federal Help",
    "url": "https://www.nytimes.com/2026/11/06/climate/fema-grants-cuts-resilience.html",
@@ -291,22 +275,6 @@
   },
   {
    "source": "NPR",
-   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
-    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
-    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
-    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
-    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
-    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
-    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
-    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
-   }
-  },
-  {
-   "source": "NPR",
    "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
    "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
    "date": "2026-10-31T09:00:00+00:00",
@@ -319,6 +287,22 @@
     "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
     "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
     "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
+   "date": "2026-10-31T09:00:00+00:00",
+   "t": {
+    "pt": "Os estoques de ostras despencaram em Chesapeake. Este residente quer trazê-los de volta",
+    "es": "Las poblaciones de ostras se han desplomado en Chesapeake. Este residente quiere traerlos de vuelta.",
+    "it": "Le scorte di ostriche sono crollate nel Chesapeake. Questo residente vuole riportarli indietro",
+    "zh": "切萨皮克地区的牡蛎库存大幅下降。这位居民想把他们带回来",
+    "fr": "Les stocks d'huîtres ont plongé dans la Chesapeake. Ce résident veut les ramener",
+    "ar": "انخفضت أسهم المحار في تشيسابيك. هذا المقيم يريد إعادتهم",
+    "de": "Die Austernbestände im Chesapeake sind stark zurückgegangen. Dieser Bewohner möchte sie zurückholen",
+    "el": "Τα αποθέματα Oyster έχουν υποχωρήσει στο Chesapeake. Αυτός ο κάτοικος θέλει να τους φέρει πίσω"
    }
   },
   {
