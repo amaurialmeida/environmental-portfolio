@@ -1,19 +1,149 @@
 {
- "updated": "2026-11-07T07:06:28.277766+00:00",
+ "updated": "2026-11-07T13:58:43.427161+00:00",
  "items": [
   {
    "source": "AL JAZEERA",
-   "title": "Protesters storm site of Microsoft’s planned Amsterdam data centre",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
-   "date": "2026-11-07T04:08:02+00:00",
-   "t": {}
+   "title": "Heavy rains flood displacement camps across Gaza",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
+   "date": "2026-11-07T13:04:51+00:00",
+   "t": {
+    "pt": "Fortes chuvas inundam campos de deslocados em Gaza",
+    "es": "Fuertes lluvias inundan los campamentos de desplazados en toda Gaza",
+    "it": "Forti piogge allagano i campi profughi in tutta Gaza",
+    "zh": "大雨淹没了加沙各地的流离失所者营地",
+    "fr": "De fortes pluies inondent les camps de déplacés à Gaza",
+    "ar": "الأمطار الغزيرة تغمر مخيمات النازحين في أنحاء غزة",
+    "de": "Heftige Regenfälle überschwemmen Flüchtlingslager im gesamten Gazastreifen",
+    "el": "Ισχυρές βροχοπτώσεις πλημμυρίζουν στρατόπεδα εκτοπισμένων στη Γάζα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "New ‘high safety’ chemicals in plastic food packaging linked to lower birth weight, study finds",
+   "url": "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study",
+   "date": "2026-11-07T12:00:13+00:00",
+   "t": {
+    "pt": "Novos produtos químicos de “alta segurança” em embalagens plásticas de alimentos estão associados ao menor peso ao nascer, segundo estudo",
+    "es": "Nuevos productos químicos de \"alta seguridad\" en envases de plástico para alimentos están relacionados con un menor peso al nacer, según un estudio",
+    "it": "Nuovi prodotti chimici “ad alta sicurezza” negli imballaggi in plastica per alimenti sono collegati al minor peso alla nascita, rileva uno studio",
+    "zh": "研究发现塑料食品包装中的新型“高安全”化学品与降低出生体重有关",
+    "fr": "Selon une étude, de nouveaux produits chimiques « de haute sécurité » contenus dans les emballages alimentaires en plastique seraient liés à un poids à la naissance plus faible",
+    "ar": "وجدت دراسة أن المواد الكيميائية الجديدة \"عالية الأمان\" الموجودة في عبوات المواد الغذائية البلاستيكية مرتبطة بانخفاض الوزن عند الولادة",
+    "de": "Studie zeigt, dass neue „hochsichere“ Chemikalien in Lebensmittelverpackungen aus Kunststoff mit einem geringeren Geburtsgewicht verbunden sind",
+    "el": "Νέα χημικά «υψηλής ασφάλειας» σε πλαστικές συσκευασίες τροφίμων συνδέονται με χαμηλότερο βάρος γέννησης, διαπιστώνει μελέτη"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Nepal’s fight to rebuild after flood disaster",
+   "url": "https://www.aljazeera.com/video/101-east/2026/11/7/nepals-fight-to-rebuild-after-flood-disaster?traffic_source=rss",
+   "date": "2026-11-07T11:30:00+00:00",
+   "t": {
+    "pt": "A luta do Nepal para reconstruir após o desastre das inundações",
+    "es": "La lucha de Nepal para reconstruirse tras el desastre de las inundaciones",
+    "it": "La lotta del Nepal per la ricostruzione dopo l’alluvione",
+    "zh": "尼泊尔洪水灾害后的重建斗争",
+    "fr": "Le combat du Népal pour se reconstruire après les inondations catastrophiques",
+    "ar": "نيبال تكافح من أجل إعادة البناء بعد كارثة الفيضانات",
+    "de": "Nepals Kampf um den Wiederaufbau nach der Flutkatastrophe",
+    "el": "Ο αγώνας του Νεπάλ για ανοικοδόμηση μετά την καταστροφή από τις πλημμύρες"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Rains flood 70,000 displaced families’ tents in Gaza",
+   "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
+   "date": "2026-11-07T11:10:02+00:00",
+   "t": {
+    "pt": "Chuvas inundam tendas de 70 mil famílias deslocadas em Gaza",
+    "es": "Las lluvias inundan las tiendas de campaña de 70.000 familias desplazadas en Gaza",
+    "it": "Le piogge allagano 70.000 tende di famiglie sfollate a Gaza",
+    "zh": "降雨淹没了加沙7万个流离失所家庭的帐篷",
+    "fr": "Les pluies inondent les tentes de 70 000 familles déplacées à Gaza",
+    "ar": "الأمطار تغمر 70 ألف خيمة لعائلة نازحة في غزة",
+    "de": "Regen überschwemmt die Zelte von 70.000 vertriebenen Familien in Gaza",
+    "el": "Οι βροχές πλημμύρισαν σκηνές 70.000 εκτοπισμένων οικογενειών στη Γάζα"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Sudan war and climate change see parents struggle to feed their children",
+   "url": "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss",
+   "date": "2026-11-07T10:36:32+00:00",
+   "t": {
+    "pt": "A guerra no Sudão e as alterações climáticas fazem com que os pais tenham dificuldade em alimentar os seus filhos",
+    "es": "La guerra de Sudán y el cambio climático hacen que los padres tengan dificultades para alimentar a sus hijos",
+    "it": "La guerra in Sudan e il cambiamento climatico vedono i genitori lottare per nutrire i propri figli",
+    "zh": "苏丹战争和气候变化导致父母难以养活孩子",
+    "fr": "La guerre au Soudan et le changement climatique obligent les parents à lutter pour nourrir leurs enfants",
+    "ar": "الحرب في السودان وتغير المناخ تجعل الآباء يكافحون من أجل إطعام أطفالهم",
+    "de": "Der Krieg im Sudan und der Klimawandel führen dazu, dass Eltern Schwierigkeiten haben, ihre Kinder zu ernähren",
+    "el": "Ο πόλεμος του Σουδάν και η κλιματική αλλαγή βλέπουν τους γονείς να αγωνίζονται να ταΐσουν τα παιδιά τους"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Autumn colours around the world – in pictures",
+   "url": "https://www.theguardian.com/environment/gallery/2026/nov/07/autumn-colours-around-the-world-in-pictures",
+   "date": "2026-11-07T08:30:05+00:00",
+   "t": {
+    "pt": "Cores do outono ao redor do mundo – em fotos",
+    "es": "Colores del otoño en todo el mundo: en imágenes",
+    "it": "I colori autunnali in tutto il mondo – in immagini",
+    "zh": "世界各地的秋天色彩——图片",
+    "fr": "Les couleurs d’automne à travers le monde – en images",
+    "ar": "ألوان الخريف حول العالم – بالصور",
+    "de": "Herbstfarben auf der ganzen Welt – in Bildern",
+    "el": "Χρώματα του φθινοπώρου σε όλο τον κόσμο – σε εικόνες"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "New Forest wildfire restoration work begins",
+   "url": "https://www.bbc.co.uk/news/articles/cw98zzn7z04vo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-07T07:14:33+00:00",
+   "t": {
+    "pt": "Iniciam-se trabalhos de recuperação de incêndios florestais em Nova Floresta",
+    "es": "Comienzan los trabajos de restauración de incendios forestales en New Forest",
+    "it": "Iniziano i lavori di ripristino degli incendi della nuova foresta",
+    "zh": "新森林山火恢复工作开始",
+    "fr": "Début des travaux de restauration des feux de forêt de New Forest",
+    "ar": "بدء أعمال ترميم حرائق الغابات في نيو فورست",
+    "de": "Die Sanierungsarbeiten für die Waldbrände in New Forest beginnen",
+    "el": "Ξεκινούν οι εργασίες αποκατάστασης των νέων δασικών πυρκαγιών"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "India news: Vehicles major cause of Delhi pollution, top court says",
+   "url": "https://www.dw.com/en/india-news-vehicles-major-cause-of-delhi-pollution-top-court-says/live-79883248?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-07T07:07:00+00:00",
+   "t": {
+    "pt": "Notícias da Índia: Veículos são a principal causa da poluição de Delhi, afirma o tribunal superior",
+    "es": "Noticias de la India: los vehículos son la principal causa de contaminación de Delhi, dice el tribunal superior",
+    "it": "Notizie dall'India: i veicoli sono la principale causa dell'inquinamento di Delhi, afferma la Corte Suprema",
+    "zh": "India news: Vehicles major cause of Delhi pollution, top court says",
+    "fr": "Inde : les véhicules sont la principale cause de la pollution à Delhi, selon le plus haut tribunal",
+    "ar": "أخبار الهند: تقول المحكمة العليا إن المركبات هي السبب الرئيسي لتلوث دلهي",
+    "de": "Nachrichten aus Indien: Laut oberstem Gericht sind Fahrzeuge die Hauptursache für die Umweltverschmutzung in Delhi",
+    "el": "Ειδήσεις από την Ινδία: Τα οχήματα είναι η κύρια αιτία της ρύπανσης του Δελχί, λέει το ανώτατο δικαστήριο"
+   }
   },
   {
    "source": "BBC",
    "title": "One of the year's most prolific meteor showers to light up the night sky this weekend",
    "url": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-07T02:03:28+00:00",
-   "t": {}
+   "t": {
+    "pt": "Uma das chuvas de meteoros mais prolíficas do ano iluminará o céu noturno neste fim de semana",
+    "es": "Una de las lluvias de meteoritos más prolíficas del año iluminará el cielo nocturno este fin de semana",
+    "it": "Uno degli sciami meteorici più prolifici dell'anno illuminerà il cielo notturno questo fine settimana",
+    "zh": "本周末，今年最多产的流星雨之一将照亮夜空",
+    "fr": "L'une des pluies de météores les plus prolifiques de l'année illuminera le ciel nocturne ce week-end",
+    "ar": "واحدة من زخات الشهب الأكثر غزارة لهذا العام والتي تضيء سماء الليل في نهاية هذا الأسبوع",
+    "de": "Einer der heftigsten Meteorschauer des Jahres erhellt an diesem Wochenende den Nachthimmel",
+    "el": "Μία από τις πιο παραγωγικές βροχές μετεωριτών της χρονιάς που φωτίζει τον νυχτερινό ουρανό αυτό το Σαββατοκύριακο"
+   }
   },
   {
    "source": "GUARDIAN",
@@ -112,22 +242,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "What is the Paris Agreement and why does 1.5C matter?",
-   "url": "https://www.bbc.co.uk/news/articles/c93d59d4zy1o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-06T16:39:07+00:00",
-   "t": {
-    "pt": "O que é o Acordo de Paris e por que 1,5°C é importante?",
-    "es": "¿Qué es el Acuerdo de París y por qué es importante el 1,5°C?",
-    "it": "Cos’è l’Accordo di Parigi e perché l’1,5°C è importante?",
-    "zh": "什么是《巴黎协定》？为什么 1.5C 很重要？",
-    "fr": "Qu’est-ce que l’Accord de Paris et pourquoi le 1,5°C est-il important ?",
-    "ar": "ما هو اتفاق باريس ولماذا يهم 1.5 درجة مئوية؟",
-    "de": "Was ist das Pariser Abkommen und warum ist 1,5 °C wichtig?",
-    "el": "Τι είναι η Συμφωνία του Παρισιού και γιατί έχει σημασία ο 1,5C;"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "In Alaska’s capital, food comes by water, air or, most often, community sharing",
    "url": "https://www.theguardian.com/environment/2026/nov/06/alaska-juneau-food-access",
@@ -144,38 +258,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Australia’s coal and gas approvals are starting to stink ahead of Cop31 | Jess Harwood",
-   "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/07/australias-coal-and-gas-approvals-are-starting-to-stink-ahead-of-cop31",
-   "date": "2026-11-06T14:00:44+00:00",
-   "t": {
-    "pt": "As aprovações de carvão e gás da Austrália estão começando a cheirar mal antes da Cop31 | Jess Harwood",
-    "es": "Las aprobaciones de carbón y gas de Australia empiezan a apestar antes de la Cop31 | Jess Harwood",
-    "it": "Le approvazioni per carbone e gas dell’Australia stanno iniziando a puzzare in vista della Cop31 | Jess Harwood",
-    "zh": "在第 31 届缔约方会议之前，澳大利亚的煤炭和天然气审批开始出现问题 |杰西·哈伍德",
-    "fr": "Les approbations australiennes du charbon et du gaz commencent à puer avant la Cop31 | Jess Harwood",
-    "ar": "بدأت موافقات الفحم والغاز في أستراليا في التدهور قبل مؤتمر Cop31 | جيس هاروود",
-    "de": "Australiens Kohle- und Gasgenehmigungen beginnen vor der Cop31 zu stinken | Jess Harwood",
-    "el": "Οι εγκρίσεις άνθρακα και φυσικού αερίου της Αυστραλίας αρχίζουν να μυρίζουν εν όψει του Cop31 | Τζες Χάργουντ"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Most Europeans want action to tackle climate crisis but not at any cost, poll shows",
-   "url": "https://www.theguardian.com/world/2026/nov/06/europeans-want-action-climate-crisis-yougov-poll",
-   "date": "2026-11-06T12:27:54+00:00",
-   "t": {
-    "pt": "A maioria dos europeus quer medidas para enfrentar a crise climática, mas não a qualquer custo, mostra a sondagem",
-    "es": "La mayoría de los europeos quieren actuar para abordar la crisis climática, pero no a cualquier precio, según una encuesta",
-    "it": "La maggior parte degli europei vuole agire per affrontare la crisi climatica, ma non ad ogni costo, mostra un sondaggio",
-    "zh": "民意调查显示，大多数欧洲人希望采取行动应对气候危机，但不惜任何代价",
-    "fr": "La plupart des Européens veulent des mesures pour lutter contre la crise climatique, mais pas à n'importe quel prix, selon un sondage",
-    "ar": "أظهر استطلاع للرأي أن معظم الأوروبيين يريدون اتخاذ إجراءات لمعالجة أزمة المناخ ولكن ليس بأي ثمن",
-    "de": "Die meisten Europäer wollen Maßnahmen zur Bewältigung der Klimakrise, aber nicht um jeden Preis, wie eine Umfrage zeigt",
-    "el": "Οι περισσότεροι Ευρωπαίοι θέλουν δράση για την αντιμετώπιση της κλιματικής κρίσης, αλλά όχι με οποιοδήποτε κόστος, σύμφωνα με δημοσκόπηση"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Disaster-Prone Communities Face Cuts and Slowdowns in Federal Help",
    "url": "https://www.nytimes.com/2026/11/06/climate/fema-grants-cuts-resilience.html",
@@ -189,6 +271,70 @@
     "ar": "تواجه المجتمعات المعرضة للكوارث انقطاعات وتباطؤًا في المساعدات الفيدرالية",
     "de": "Katastrophengefährdete Gemeinden sind mit Kürzungen und Verlangsamungen der Bundeshilfe konfrontiert",
     "el": "Οι επιρρεπείς σε καταστροφές κοινότητες αντιμετωπίζουν περικοπές και επιβραδύνσεις στην Ομοσπονδιακή Βοήθεια"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
+   "url": "https://www.nature.com/articles/s41586-026-11351-4",
+   "date": "2026-11-05T00:00:00+00:00",
+   "t": {
+    "pt": "Derivados de hidrogênio permitem neutralidade de carbono econômica na China",
+    "es": "Los derivados del hidrógeno permiten una neutralidad de carbono rentable en China",
+    "it": "I derivati dell’idrogeno consentono una neutralità del carbonio economicamente vantaggiosa in Cina",
+    "zh": "氢衍生物使中国实现具有成本效益的碳中和",
+    "fr": "Les dérivés de l'hydrogène permettent une neutralité carbone rentable en Chine",
+    "ar": "تعمل مشتقات الهيدروجين على تمكين حياد الكربون بفعالية من حيث التكلفة في الصين",
+    "de": "Wasserstoffderivate ermöglichen kostengünstige CO2-Neutralität in China",
+    "el": "Τα παράγωγα υδρογόνου επιτρέπουν την οικονομικά αποδοτική ουδετερότητα άνθρακα στην Κίνα"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "First-of-its-kind planetary wreckage holds clues to our Solar System’s fate",
+   "url": "https://www.nature.com/articles/d41586-026-03537-7",
+   "date": "2026-11-04T00:00:00+00:00",
+   "t": {
+    "pt": "Destroços planetários inéditos contêm pistas sobre o destino do nosso Sistema Solar",
+    "es": "Los restos planetarios, los primeros de su tipo, contienen pistas sobre el destino de nuestro Sistema Solar",
+    "it": "I rottami planetari, primi nel loro genere, contengono indizi sul destino del nostro Sistema Solare",
+    "zh": "第一个行星残骸蕴藏着太阳系命运的线索",
+    "fr": "Une épave planétaire, la première en son genre, contient des indices sur le sort de notre système solaire",
+    "ar": "حطام كوكبي هو الأول من نوعه يحمل أدلة حول مصير نظامنا الشمسي",
+    "de": "Das erste Planetenwrack seiner Art birgt Hinweise auf das Schicksal unseres Sonnensystems",
+    "el": "Το πρώτο στο είδος του πλανητικά συντρίμμια έχει ενδείξεις για τη μοίρα του Ηλιακού μας Συστήματος"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Carbon radical generation by irreversible metal-to-ligand charge transfer",
+   "url": "https://www.nature.com/articles/s41586-026-11368-9",
+   "date": "2026-11-04T00:00:00+00:00",
+   "t": {
+    "pt": "Geração de radicais de carbono por transferência irreversível de carga de metal para ligante",
+    "es": "Generación de radicales de carbono mediante transferencia irreversible de carga de metal a ligando.",
+    "it": "Generazione di radicali carbonio mediante trasferimento irreversibile di carica metallo-ligando",
+    "zh": "通过不可逆金属-配体电荷转移产生碳自由基",
+    "fr": "Génération de radicaux carbonés par transfert de charge irréversible métal-ligand",
+    "ar": "توليد جذري للكربون عن طريق نقل شحنة لا رجعة فيها من المعدن إلى اللجند",
+    "de": "Erzeugung von Kohlenstoffradikalen durch irreversiblen Metall-Ligand-Ladungstransfer",
+    "el": "Παραγωγή ρίζας άνθρακα με μη αναστρέψιμη μεταφορά φορτίου από μέταλλο σε συνδετήρα"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Ecosystems depend on people: don’t abandon them",
+   "url": "https://www.nature.com/articles/d41586-026-03544-8",
+   "date": "2026-11-04T00:00:00+00:00",
+   "t": {
+    "pt": "Os ecossistemas dependem das pessoas: não os abandone",
+    "es": "Los ecosistemas dependen de las personas: no los abandones",
+    "it": "Gli ecosistemi dipendono dalle persone: non abbandonarli",
+    "zh": "生态系统依赖于人：不要抛弃他们",
+    "fr": "Les écosystèmes dépendent des hommes : ne les abandonnez pas",
+    "ar": "تعتمد النظم البيئية على الناس: فلا تتخلى عنهم",
+    "de": "Ökosysteme sind auf Menschen angewiesen: Lassen Sie sie nicht im Stich",
+    "el": "Τα οικοσυστήματα εξαρτώνται από τους ανθρώπους: μην τους εγκαταλείπετε"
    }
   },
   {
@@ -209,22 +355,6 @@
   },
   {
    "source": "NPR",
-   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
-    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
-    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
-    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
-    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
-    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
-    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
-    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
-   }
-  },
-  {
-   "source": "NPR",
    "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
    "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
    "date": "2026-10-31T09:00:00+00:00",
@@ -241,34 +371,18 @@
   },
   {
    "source": "NPR",
-   "title": "Even birds get jet lagged, study shows",
-   "url": "https://www.npr.org/2026/10/29/nx-s1-6019228/manx-shearwater-jet-lag-birds",
-   "date": "2026-10-29T18:00:00+00:00",
+   "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
+   "date": "2026-10-31T09:00:00+00:00",
    "t": {
-    "pt": "Até os pássaros ficam com jet lag, mostra estudo",
-    "es": "Incluso los pájaros sufren desfase horario, según un estudio",
-    "it": "Anche gli uccelli soffrono di jet lag, lo dimostra uno studio",
-    "zh": "研究表明，即使是鸟类也会时差反应",
-    "fr": "Même les oiseaux subissent le décalage horaire, selon une étude",
-    "ar": "تظهر الدراسة أنه حتى الطيور تصاب باضطراب الرحلات الجوية الطويلة",
-    "de": "Sogar Vögel leiden unter Jetlag, wie eine Studie zeigt",
-    "el": "Ακόμη και τα πουλιά παθαίνουν jet lagg, σύμφωνα με μελέτη"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Rising emissions and temperatures: The cost of Trump's climate retreat is now clear",
-   "url": "https://www.dw.com/en/rising-emissions-and-temperatures-the-cost-of-trump-s-climate-retreat-is-now-clear/a-79714915?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-10-21T05:00:00+00:00",
-   "t": {
-    "pt": "Aumento das emissões e temperaturas: o custo da retirada climática de Trump é agora claro",
-    "es": "Aumento de las emisiones y las temperaturas: el coste de la retirada climática de Trump ahora está claro",
-    "it": "Aumento delle emissioni e delle temperature: il costo della ritirata climatica di Trump è ormai chiaro",
-    "zh": "排放量和气温上升：特朗普气候撤退的代价现已显而易见",
-    "fr": "Hausse des émissions et des températures : le coût du retrait climatique de Trump est désormais clair",
-    "ar": "ارتفاع الانبعاثات ودرجات الحرارة: أصبحت تكلفة تراجع ترامب بشأن المناخ واضحة الآن",
-    "de": "Steigende Emissionen und Temperaturen: Die Kosten von Trumps Klima-Rückzug sind jetzt klar",
-    "el": "Αύξηση των εκπομπών και της θερμοκρασίας: Το κόστος της κλιματικής υποχώρησης του Τραμπ είναι πλέον σαφές"
+    "pt": "Depois da tempestade do ano passado, esta remota cidade do Alasca ainda está juntando os cacos",
+    "es": "Después de la tormenta del año pasado, esta remota ciudad de Alaska todavía se está recuperando",
+    "it": "Dopo la tempesta dello scorso anno, questa remota cittadina dell'Alaska sta ancora raccogliendo i pezzi",
+    "zh": "去年的风暴过后，这个偏远的阿拉斯加小镇仍在收拾残局",
+    "fr": "Après la tempête de l'année dernière, cette ville isolée de l'Alaska continue de recoller les morceaux",
+    "ar": "بعد عاصفة العام الماضي، لا تزال هذه المدينة النائية في ألاسكا تستعيد عافيتها",
+    "de": "Nach dem Sturm im letzten Jahr ist diese abgelegene Stadt in Alaska immer noch dabei, die Trümmer aufzusammeln",
+    "el": "Μετά την περσινή καταιγίδα, αυτή η απομακρυσμένη πόλη της Αλάσκας εξακολουθεί να μαζεύει τα κομμάτια"
    }
   }
  ]
