@@ -1,6 +1,20 @@
 {
- "updated": "2026-11-07T00:55:13.539617+00:00",
+ "updated": "2026-11-07T07:06:28.277766+00:00",
  "items": [
+  {
+   "source": "AL JAZEERA",
+   "title": "Protesters storm site of Microsoft’s planned Amsterdam data centre",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
+   "date": "2026-11-07T04:08:02+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "One of the year's most prolific meteor showers to light up the night sky this weekend",
+   "url": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-07T02:03:28+00:00",
+   "t": {}
+  },
   {
    "source": "GUARDIAN",
    "title": "Famous New Mexico rock formation destroyed after torrential El Niño rains",
@@ -114,22 +128,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "What is net zero and is the UK on track to achieve it?",
-   "url": "https://www.bbc.co.uk/news/articles/cx238yyr40qo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-06T16:22:51+00:00",
-   "t": {
-    "pt": "O que é net zero e o Reino Unido está no caminho certo para alcançá-lo?",
-    "es": "¿Qué es el cero neto y está el Reino Unido en camino de lograrlo?",
-    "it": "Cos’è lo zero netto e il Regno Unito è sulla buona strada per raggiungerlo?",
-    "zh": "什么是净零？英国是否有望实现这一目标？",
-    "fr": "Qu’est-ce que le zéro net et le Royaume-Uni est-il sur la bonne voie pour y parvenir ?",
-    "ar": "ما هو صافي الصفر وهل المملكة المتحدة تسير على الطريق الصحيح لتحقيقه؟",
-    "de": "Was ist Netto-Null und ist Großbritannien auf dem Weg, es zu erreichen?",
-    "el": "Τι είναι το καθαρό μηδέν και είναι το Ηνωμένο Βασίλειο σε καλό δρόμο για να το πετύχει;"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "In Alaska’s capital, food comes by water, air or, most often, community sharing",
    "url": "https://www.theguardian.com/environment/2026/nov/06/alaska-juneau-food-access",
@@ -191,70 +189,6 @@
     "ar": "تواجه المجتمعات المعرضة للكوارث انقطاعات وتباطؤًا في المساعدات الفيدرالية",
     "de": "Katastrophengefährdete Gemeinden sind mit Kürzungen und Verlangsamungen der Bundeshilfe konfrontiert",
     "el": "Οι επιρρεπείς σε καταστροφές κοινότητες αντιμετωπίζουν περικοπές και επιβραδύνσεις στην Ομοσπονδιακή Βοήθεια"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
-   "url": "https://www.nature.com/articles/s41586-026-11351-4",
-   "date": "2026-11-05T00:00:00+00:00",
-   "t": {
-    "pt": "Derivados de hidrogênio permitem neutralidade de carbono econômica na China",
-    "es": "Los derivados del hidrógeno permiten una neutralidad de carbono rentable en China",
-    "it": "I derivati dell’idrogeno consentono una neutralità del carbonio economicamente vantaggiosa in Cina",
-    "zh": "氢衍生物使中国实现具有成本效益的碳中和",
-    "fr": "Les dérivés de l'hydrogène permettent une neutralité carbone rentable en Chine",
-    "ar": "تعمل مشتقات الهيدروجين على تمكين حياد الكربون بفعالية من حيث التكلفة في الصين",
-    "de": "Wasserstoffderivate ermöglichen kostengünstige CO2-Neutralität in China",
-    "el": "Τα παράγωγα υδρογόνου επιτρέπουν την οικονομικά αποδοτική ουδετερότητα άνθρακα στην Κίνα"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "First-of-its-kind planetary wreckage holds clues to our Solar System’s fate",
-   "url": "https://www.nature.com/articles/d41586-026-03537-7",
-   "date": "2026-11-04T00:00:00+00:00",
-   "t": {
-    "pt": "Destroços planetários inéditos contêm pistas sobre o destino do nosso Sistema Solar",
-    "es": "Los restos planetarios, los primeros de su tipo, contienen pistas sobre el destino de nuestro Sistema Solar",
-    "it": "I rottami planetari, primi nel loro genere, contengono indizi sul destino del nostro Sistema Solare",
-    "zh": "第一个行星残骸蕴藏着太阳系命运的线索",
-    "fr": "Une épave planétaire, la première en son genre, contient des indices sur le sort de notre système solaire",
-    "ar": "حطام كوكبي هو الأول من نوعه يحمل أدلة حول مصير نظامنا الشمسي",
-    "de": "Das erste Planetenwrack seiner Art birgt Hinweise auf das Schicksal unseres Sonnensystems",
-    "el": "Το πρώτο στο είδος του πλανητικά συντρίμμια έχει ενδείξεις για τη μοίρα του ηλιακού μας συστήματος"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Carbon radical generation by irreversible metal-to-ligand charge transfer",
-   "url": "https://www.nature.com/articles/s41586-026-11368-9",
-   "date": "2026-11-04T00:00:00+00:00",
-   "t": {
-    "pt": "Geração de radicais de carbono por transferência irreversível de carga de metal para ligante",
-    "es": "Generación de radicales de carbono mediante transferencia irreversible de carga de metal a ligando.",
-    "it": "Generazione di radicali carbonio mediante trasferimento irreversibile di carica metallo-ligando",
-    "zh": "通过不可逆金属-配体电荷转移产生碳自由基",
-    "fr": "Génération de radicaux carbonés par transfert de charge irréversible métal-ligand",
-    "ar": "توليد جذري للكربون عن طريق نقل شحنة لا رجعة فيها من المعدن إلى اللجند",
-    "de": "Erzeugung von Kohlenstoffradikalen durch irreversiblen Ladungstransfer von Metall zu Ligand",
-    "el": "Παραγωγή ρίζας άνθρακα με μη αναστρέψιμη μεταφορά φορτίου από μέταλλο σε συνδετήρα"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Ecosystems depend on people: don’t abandon them",
-   "url": "https://www.nature.com/articles/d41586-026-03544-8",
-   "date": "2026-11-04T00:00:00+00:00",
-   "t": {
-    "pt": "Os ecossistemas dependem das pessoas: não os abandone",
-    "es": "Los ecosistemas dependen de las personas: no los abandones",
-    "it": "Gli ecosistemi dipendono dalle persone: non abbandonarli",
-    "zh": "生态系统依赖于人：不要抛弃他们",
-    "fr": "Les écosystèmes dépendent des hommes : ne les abandonnez pas",
-    "ar": "تعتمد النظم البيئية على الناس: فلا تتخلى عنهم",
-    "de": "Ökosysteme sind auf Menschen angewiesen: Lassen Sie sie nicht im Stich",
-    "el": "Τα οικοσυστήματα εξαρτώνται από τους ανθρώπους: μην τους εγκαταλείπετε"
    }
   },
   {
