@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-07T22:43:42.457234+00:00",
+ "updated": "2026-11-08T02:26:35.914452+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "How Trump Is Dismantling America’s Scientific Research Machine",
+   "url": "https://www.nytimes.com/2026/10/31/science/how-trump-is-dismantling-americas-scientific-research-machine.html",
+   "date": "2026-11-08T02:09:25+00:00",
+   "t": {
+    "pt": "Como Trump está desmantelando a máquina de pesquisa científica da América",
+    "es": "Cómo Trump está desmantelando la máquina de investigación científica de Estados Unidos",
+    "it": "Come Trump sta smantellando la macchina della ricerca scientifica americana",
+    "zh": "特朗普如何拆除美国的科学研究机器",
+    "fr": "Comment Trump démantèle la machine de recherche scientifique américaine",
+    "ar": "كيف يقوم ترامب بتفكيك آلة البحث العلمي الأمريكية؟",
+    "de": "Wie Trump Amerikas wissenschaftliche Forschungsmaschinerie demontiert",
+    "el": "Πώς ο Τραμπ διαλύει τη μηχανή επιστημονικής έρευνας της Αμερικής"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
@@ -31,22 +47,6 @@
     "ar": "دع ألف زهرة تتفتح: زهور الجاكراندا في سيدني تقدم عرضها الربيعي - بالصور",
     "de": "Lass tausend Blüten erblühen: Sydneys Jacarandas präsentieren ihre Frühlingsshow – in Bildern",
     "el": "Αφήστε τα χίλια άνθη να ανθίσουν: Οι ζακαράντες του Σίδνεϊ έκαναν την ανοιξιάτικη παράσταση τους – σε φωτογραφίες"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Jerusalem Daily: Heavy rains flood Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
-   "date": "2026-11-07T17:11:29+00:00",
-   "t": {
-    "pt": "Jerusalem Daily: Fortes chuvas inundam Gaza",
-    "es": "Jerusalem Daily: Fuertes lluvias inundan Gaza",
-    "it": "Jerusalem Daily: Forti piogge inondano Gaza",
-    "zh": "耶路撒冷日报：大雨淹没加沙",
-    "fr": "Jerusalem Daily : De fortes pluies inondent Gaza",
-    "ar": "القدس ديلي: أمطار غزيرة تغمر غزة",
-    "de": "Jerusalem Daily: Heftige Regenfälle überschwemmen Gaza",
-    "el": "Jerusalem Daily: Ισχυρές βροχοπτώσεις πλημμυρίζουν τη Γάζα"
    }
   },
   {
@@ -207,22 +207,6 @@
     "ar": "دليل بسيط حقا لتغير المناخ",
     "de": "Ein wirklich einfacher Leitfaden zum Klimawandel",
     "el": "Ένας πολύ απλός οδηγός για την κλιματική αλλαγή"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Disaster-Prone Communities Face Cuts and Slowdowns in Federal Help",
-   "url": "https://www.nytimes.com/2026/11/06/climate/fema-grants-cuts-resilience.html",
-   "date": "2026-11-06T10:00:45+00:00",
-   "t": {
-    "pt": "Comunidades propensas a desastres enfrentam cortes e lentidão na ajuda federal",
-    "es": "Las comunidades propensas a desastres enfrentan recortes y desaceleraciones en la ayuda federal",
-    "it": "Le comunità esposte ai disastri affrontano tagli e rallentamenti negli aiuti federali",
-    "zh": "易受灾害社区面临联邦援助的削减和放缓",
-    "fr": "Les communautés sujettes aux catastrophes sont confrontées à des réductions et à des ralentissements de l’aide fédérale",
-    "ar": "تواجه المجتمعات المعرضة للكوارث انقطاعات وتباطؤًا في المساعدات الفيدرالية",
-    "de": "Katastrophengefährdete Gemeinden sind mit Kürzungen und Verlangsamungen der Bundeshilfe konfrontiert",
-    "el": "Οι επιρρεπείς σε καταστροφές κοινότητες αντιμετωπίζουν περικοπές και επιβραδύνσεις στην Ομοσπονδιακή Βοήθεια"
    }
   },
   {
