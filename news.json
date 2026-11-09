@@ -1,20 +1,212 @@
 {
- "updated": "2026-11-09T07:56:12.364454+00:00",
+ "updated": "2026-11-09T18:45:36.241251+00:00",
  "items": [
   {
-   "source": "GUARDIAN",
-   "title": "Cop31 live: world leaders gather for crucial climate crisis talks",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/09/cop31-climate-crisis-talks-turkey-latest-news-updates",
-   "date": "2026-11-09T07:39:48+00:00",
+   "source": "AL JAZEERA",
+   "title": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/jerusalem-daily-deadly-aftermath-of-gaza-rainstorm-continues?traffic_source=rss",
+   "date": "2026-11-09T17:55:47+00:00",
    "t": {
-    "pt": "Cop31 ao vivo: líderes mundiais se reúnem para negociações cruciais sobre a crise climática",
-    "es": "Cop31 en vivo: los líderes mundiales se reúnen para conversaciones cruciales sobre la crisis climática",
-    "it": "Cop31 in diretta: i leader mondiali si riuniscono per i colloqui cruciali sulla crisi climatica",
-    "zh": "第 31 届缔约方会议现场直播：世界领导人齐聚一堂，进行重要的气候危机会谈",
-    "fr": "Cop31 en direct : les dirigeants mondiaux se réunissent pour des négociations cruciales sur la crise climatique",
-    "ar": "Cop31 مباشر: يجتمع قادة العالم لإجراء محادثات حاسمة بشأن أزمة المناخ",
-    "de": "Cop31 live: Staats- und Regierungschefs der Welt treffen sich zu wichtigen Klimakrisengesprächen",
-    "el": "Cop31 live: παγκόσμιοι ηγέτες συγκεντρώνονται για κρίσιμες συνομιλίες για την κλιματική κρίση"
+    "pt": "Jerusalem Daily: Consequências mortais da tempestade em Gaza continuam",
+    "es": "Jerusalem Daily: Continúan las consecuencias mortales de la tormenta en Gaza",
+    "it": "Jerusalem Daily: Continuano le conseguenze mortali del temporale a Gaza",
+    "zh": "耶路撒冷日报：加沙暴雨造成的致命后果仍在继续",
+    "fr": "Jerusalem Daily : Les conséquences meurtrières des pluies torrentielles à Gaza se poursuivent",
+    "ar": "القدس ديلي: الآثار القاتلة للعاصفة المطيرة في غزة مستمرة",
+    "de": "Jerusalem Daily: Die tödlichen Folgen des Regensturms in Gaza dauern an",
+    "el": "Jerusalem Daily: Συνεχίζονται οι θανατηφόρες συνέπειες της καταιγίδας στη Γάζα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Air pollution soars as fog traps emissions in England’s urban areas",
+   "url": "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
+   "date": "2026-11-09T17:50:28+00:00",
+   "t": {
+    "pt": "A poluição do ar aumenta à medida que o nevoeiro retém as emissões nas áreas urbanas da Inglaterra",
+    "es": "La contaminación del aire se dispara a medida que la niebla atrapa las emisiones en las zonas urbanas de Inglaterra",
+    "it": "L’inquinamento atmosferico aumenta mentre la nebbia intrappola le emissioni nelle aree urbane inglesi",
+    "zh": "由于雾气限制了英格兰城市地区的排放，空气污染飙升",
+    "fr": "La pollution de l’air s’envole alors que le brouillard piège les émissions dans les zones urbaines d’Angleterre",
+    "ar": "يرتفع تلوث الهواء حيث يحبس الضباب الانبعاثات في المناطق الحضرية في إنجلترا",
+    "de": "Die Luftverschmutzung nimmt zu, da Nebel die Emissionen in den städtischen Gebieten Englands einfängt",
+    "el": "Η ατμοσφαιρική ρύπανση αυξάνεται καθώς η ομίχλη παγιδεύει τις εκπομπές στις αστικές περιοχές της Αγγλίας"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate negotiator tells Cop31",
+   "url": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
+   "date": "2026-11-09T17:47:04+00:00",
+   "t": {
+    "pt": "Os altos preços dos combustíveis fósseis espalham a inflação “como um câncer”, disse o negociador climático da ONU à Cop31",
+    "es": "Los altos precios de los combustibles fósiles propagan la inflación “como un cáncer”, dice el negociador climático de la ONU a la Cop31",
+    "it": "Gli alti prezzi dei combustibili fossili diffondono l’inflazione “come un cancro”, dice a Cop31 il negoziatore sul clima delle Nazioni Unite",
+    "zh": "联合国气候谈判代表告诉第31届缔约方会议，高化石燃料价格“像癌症一样”扩散通货膨胀",
+    "fr": "Les prix élevés des combustibles fossiles propagent l’inflation « comme un cancer », déclare le négociateur de l’ONU sur le climat à la Cop31",
+    "ar": "ارتفاع أسعار الوقود الأحفوري ينشر التضخم \"مثل السرطان\"، حسبما قال مفاوض الأمم المتحدة المعني بالمناخ لمؤتمر الأطراف الـ31",
+    "de": "Hohe Preise für fossile Brennstoffe verbreiten die Inflation „wie ein Krebsgeschwür“, sagt UN-Klimaunterhändler gegenüber Cop31",
+    "el": "Οι υψηλές τιμές των ορυκτών καυσίμων εξαπλώνουν τον πληθωρισμό «σαν καρκίνο», λέει ο διαπραγματευτής του ΟΗΕ για το κλίμα στην Cop31"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Burnham warns that NHS will ‘struggle’ to cope if consultants don’t resume talks over pay – as it happened",
+   "url": "https://www.theguardian.com/politics/live/2026/nov/09/polanski-greens-labour-andy-burnham-climate-crisis-ev-targets-uk-politics-latest-news",
+   "date": "2026-11-09T17:31:36+00:00",
+   "t": {
+    "pt": "Burnham alerta que o NHS ‘lutará’ para lidar com a situação se os consultores não retomarem as negociações sobre salários – como aconteceu",
+    "es": "Burnham advierte que el NHS “luchará” para hacer frente si los consultores no reanudan las conversaciones sobre salarios, como sucedió",
+    "it": "Burnham avverte che il servizio sanitario nazionale “faticherà” a far fronte se i consulenti non riprenderanno i colloqui sulla retribuzione, come è successo",
+    "zh": "伯纳姆警告说，如果顾问不恢复薪酬谈判，NHS 将“陷入困境”——正如事实所发生的那样",
+    "fr": "Burnham prévient que le NHS « aura du mal » à faire face si les consultants ne reprennent pas les négociations sur les salaires – comme cela s’est produit",
+    "ar": "يحذر برنهام من أن هيئة الخدمات الصحية الوطنية \"ستكافح\" من أجل التأقلم إذا لم يستأنف المستشارون المحادثات بشأن الأجور - كما حدث",
+    "de": "Burnham warnt davor, dass der NHS „Schwierigkeiten“ haben wird, damit klarzukommen, wenn Berater die Gespräche über die Bezahlung nicht wieder aufnehmen – wie es geschehen ist",
+    "el": "Ο Burnham προειδοποιεί ότι το NHS θα «παλέψει» να αντεπεξέλθει εάν οι σύμβουλοι δεν ξαναρχίσουν τις συνομιλίες για την αμοιβή - όπως συνέβη"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "What Is Congress’s Plan to Speed Up Energy Permits?",
+   "url": "https://www.nytimes.com/2026/11/09/climate/congress-energy-permitting-reform-vote.html",
+   "date": "2026-11-09T17:14:23+00:00",
+   "t": {
+    "pt": "Qual é o plano do Congresso para acelerar as licenças de energia?",
+    "es": "¿Cuál es el plan del Congreso para acelerar los permisos energéticos?",
+    "it": "Qual è il piano del Congresso per accelerare i permessi energetici?",
+    "zh": "国会加速能源许可的计划是什么？",
+    "fr": "Quel est le plan du Congrès pour accélérer les permis énergétiques ?",
+    "ar": "ما هي خطة الكونجرس لتسريع تصاريح الطاقة؟",
+    "de": "Was ist der Plan des Kongresses, die Energiegenehmigungen zu beschleunigen?",
+    "el": "Ποιο είναι το σχέδιο του Κογκρέσου για την επιτάχυνση των ενεργειακών αδειών;"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Oil Prices Fall on Hopes for Peace Between U.S. and Iran",
+   "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/oil-price-iran-trump-war.html",
+   "date": "2026-11-09T17:02:37+00:00",
+   "t": {
+    "pt": "Preços do petróleo caem devido às esperanças de paz entre EUA e Irão",
+    "es": "Los precios del petróleo caen ante las esperanzas de paz entre Estados Unidos e Irán",
+    "it": "I prezzi del petrolio scendono sulle speranze di pace tra Stati Uniti e Iran",
+    "zh": "由于美国和伊朗之间的和平希望，油价下跌",
+    "fr": "Les prix du pétrole chutent face aux espoirs de paix entre les États-Unis et l’Iran",
+    "ar": "أسعار النفط تنخفض بفعل آمال السلام بين الولايات المتحدة وإيران",
+    "de": "Ölpreise fallen aufgrund der Hoffnung auf Frieden zwischen den USA und dem Iran",
+    "el": "Οι τιμές του πετρελαίου μειώνονται λόγω ελπίδων για ειρήνη μεταξύ ΗΠΑ και Ιράν"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Cop31 as it happened: world leaders gather for crucial climate crisis talks",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/09/cop31-climate-crisis-talks-turkey-latest-news-updates",
+   "date": "2026-11-09T15:45:04+00:00",
+   "t": {
+    "pt": "Cop31 como aconteceu: líderes mundiais se reúnem para negociações cruciais sobre a crise climática",
+    "es": "Cop31 como sucedió: los líderes mundiales se reúnen para conversaciones cruciales sobre la crisis climática",
+    "it": "Cop31 come è successo: i leader mondiali si riuniscono per i colloqui cruciali sulla crisi climatica",
+    "zh": "第三十一届缔约方会议的实际情况：世界领导人齐聚一堂，进行重要的气候危机会谈",
+    "fr": "La Cop31 telle qu'elle s'est déroulée : les dirigeants du monde se réunissent pour des négociations cruciales sur la crise climatique",
+    "ar": "Cop31 كما حدث: زعماء العالم يجتمعون لإجراء محادثات حاسمة بشأن أزمة المناخ",
+    "de": "Cop31, wie es geschah: Staats- und Regierungschefs der Welt treffen sich zu wichtigen Gesprächen über die Klimakrise",
+    "el": "Cop31 όπως συνέβη: παγκόσμιοι ηγέτες συγκεντρώνονται για κρίσιμες συνομιλίες για την κλιματική κρίση"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Giant Merger of NextEra and Dominion Could Fail Amid Anger Over Electricity Bills",
+   "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/nextera-dominon-energy-virginia.html",
+   "date": "2026-11-09T15:18:30+00:00",
+   "t": {
+    "pt": "A fusão gigante da NextEra e da Dominion pode falhar em meio à raiva pelas contas de eletricidade",
+    "es": "La fusión gigante de NextEra y Dominion podría fracasar en medio de la ira por las facturas de electricidad",
+    "it": "La gigantesca fusione tra NextEra e Dominion potrebbe fallire a causa della rabbia per le bollette dell’elettricità",
+    "zh": "NextEra 和 Dominion 的大型合并可能因电费账单而失败",
+    "fr": "La fusion géante de NextEra et Dominion pourrait échouer en raison de la colère suscitée par les factures d'électricité",
+    "ar": "الاندماج العملاق بين NextEra وDominion قد يفشل وسط الغضب بشأن فواتير الكهرباء",
+    "de": "Riesige Fusion von NextEra und Dominion könnte angesichts der Wut über Stromrechnungen scheitern",
+    "el": "Η γιγαντιαία συγχώνευση των NextEra και Dominion θα μπορούσε να αποτύχει εν μέσω θυμού για τους λογαριασμούς ηλεκτρικού ρεύματος"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Birds return to waterfowl park after oil vandalism",
+   "url": "https://www.bbc.co.uk/news/articles/c6gqwq1x85e0o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-09T14:52:07+00:00",
+   "t": {
+    "pt": "Aves voltam ao parque de aves aquáticas após vandalismo com petróleo",
+    "es": "Las aves regresan al parque de aves acuáticas después del vandalismo petrolero",
+    "it": "Gli uccelli tornano al parco degli uccelli acquatici dopo un atto di vandalismo sul petrolio",
+    "zh": "石油破坏后鸟类返回水禽公园",
+    "fr": "Les oiseaux reviennent au parc de la sauvagine après un vandalisme pétrolier",
+    "ar": "عودة الطيور إلى حديقة الطيور المائية بعد التخريب النفطي",
+    "de": "Nach Ölvandalismus kehren Vögel in den Wasservogelpark zurück",
+    "el": "Τα πουλιά επιστρέφουν στο πάρκο υδρόβιων πτηνών μετά από βανδαλισμό πετρελαίου"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Rising cost of living tests UK's net zero ambitions",
+   "url": "https://www.bbc.co.uk/news/videos/cm1dwd4e4ywvo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-09T13:42:03+00:00",
+   "t": {
+    "pt": "Aumento do custo de vida testa as ambições líquidas zero do Reino Unido",
+    "es": "El aumento del coste de vida pone a prueba las ambiciones netas cero del Reino Unido",
+    "it": "L’aumento del costo della vita mette alla prova le ambizioni di zero emissioni nette del Regno Unito",
+    "zh": "生活成本上升考验英国的净零雄心",
+    "fr": "La hausse du coût de la vie met à l’épreuve les ambitions nettes zéro du Royaume-Uni",
+    "ar": "ارتفاع تكلفة المعيشة يختبر صافي طموحات المملكة المتحدة الصفرية",
+    "de": "Steigende Lebenshaltungskosten stellen Großbritanniens Netto-Null-Ambitionen auf die Probe",
+    "el": "Το αυξανόμενο κόστος ζωής δοκιμάζει τις καθαρές μηδενικές φιλοδοξίες του Ηνωμένου Βασιλείου"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "How yesterday's waste is becoming tomorrow's fashion",
+   "url": "https://www.bbc.co.uk/news/articles/cm5yd1q12g1no?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-09T13:18:38+00:00",
+   "t": {
+    "pt": "Como o lixo de ontem está se tornando a moda de amanhã",
+    "es": "Cómo los residuos de ayer se están convirtiendo en la moda del mañana",
+    "it": "Come i rifiuti di ieri diventano la moda di domani",
+    "zh": "昨天的垃圾如何成为明天的时尚",
+    "fr": "Comment les déchets d'hier deviennent la mode de demain",
+    "ar": "كيف أصبحت نفايات الأمس موضة الغد",
+    "de": "Wie der Abfall von gestern zur Mode von morgen wird",
+    "el": "Πώς τα χθεσινά απόβλητα γίνονται αυριανή μόδα"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "A Decade After Henry Worsley Died in Antarctica, His Son Tries to Reach the South Pole",
+   "url": "https://www.nytimes.com/2026/11/09/climate/max-worsley-antarctic-expedition.html",
+   "date": "2026-11-09T12:06:09+00:00",
+   "t": {
+    "pt": "Uma década depois da morte de Henry Worsley na Antártida, seu filho tenta chegar ao Pólo Sul",
+    "es": "Una década después de la muerte de Henry Worsley en la Antártida, su hijo intenta llegar al Polo Sur",
+    "it": "Un decennio dopo la morte di Henry Worsley in Antartide, suo figlio cerca di raggiungere il Polo Sud",
+    "zh": "亨利·沃斯利在南极洲去世十年后，他的儿子试图到达南极",
+    "fr": "Une décennie après la mort d'Henry Worsley en Antarctique, son fils tente d'atteindre le pôle Sud",
+    "ar": "بعد عقد من وفاة هنري ورسلي في القارة القطبية الجنوبية، يحاول ابنه الوصول إلى القطب الجنوبي",
+    "de": "Ein Jahrzehnt nach dem Tod von Henry Worsley in der Antarktis versucht sein Sohn, den Südpol zu erreichen",
+    "el": "Μια δεκαετία μετά τον θάνατο του Henry Worsley στην Ανταρκτική, ο γιος του προσπαθεί να φτάσει στον Νότιο Πόλο"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "Turkey pushes for transition at COP31 as coal burns",
+   "url": "https://www.dw.com/en/turkey-pushes-for-transition-at-cop31-as-coal-burns/a-79871687?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-09T08:31:00+00:00",
+   "t": {
+    "pt": "Turquia pressiona pela transição na COP31 enquanto carvão queima",
+    "es": "Turquía impulsa una transición en la COP31 mientras el carbón arde",
+    "it": "La Turchia spinge per la transizione alla COP31 mentre il carbone brucia",
+    "zh": "土耳其在 COP31 上推动煤炭燃烧过渡",
+    "fr": "La Turquie fait pression pour la transition à la COP31 alors que le charbon brûle",
+    "ar": "تركيا تضغط من أجل التحول في مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31) مع حرق الفحم",
+    "de": "Die Türkei drängt auf der COP31 auf einen Übergang, während die Kohle brennt",
+    "el": "Η Τουρκία πιέζει για μετάβαση στο COP31 καθώς καίγεται άνθρακας"
    }
   },
   {
@@ -31,182 +223,6 @@
     "ar": "يتوقع العلماء أن يكون عام 2026 هو العام الأكثر سخونة على الإطلاق مع بدء محادثات المناخ",
     "de": "Wissenschaftler sagen zu Beginn der Klimaverhandlungen das wärmste Jahr seit Beginn der Aufzeichnungen für 2026 voraus",
     "el": "Οι επιστήμονες προβλέπουν ότι το 2026 είναι η πιο ζεστή χρονιά που έχει καταγραφεί, καθώς ξεκινούν οι συνομιλίες για το κλίμα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘A new age of climate extremes’: Earth accumulating heat at accelerating rate",
-   "url": "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-extremes-earth-global-heating",
-   "date": "2026-11-09T07:30:02+00:00",
-   "t": {
-    "pt": "‘Uma nova era de extremos climáticos’: a Terra acumula calor em ritmo acelerado",
-    "es": "“Una nueva era de extremos climáticos”: la Tierra acumula calor a un ritmo acelerado",
-    "it": "“Una nuova era di estremi climatici”: la Terra accumula calore a un ritmo crescente",
-    "zh": "“极端气候的新时代”：地球正在加速积聚热量",
-    "fr": "« Une nouvelle ère d’extrêmes climatiques » : la Terre accumule de la chaleur à un rythme accéléré",
-    "ar": "\"عصر جديد من الظواهر المناخية المتطرفة\": الأرض تتراكم الحرارة بمعدل متسارع",
-    "de": "„Ein neues Zeitalter der Klimaextreme“: Die Erde speichert immer schneller Wärme",
-    "el": "«Μια νέα εποχή των ακραίων κλίματος»: Η Γη συσσωρεύει θερμότητα με επιταχυνόμενο ρυθμό"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Print commissioned by Nasa uncovered for exhibition",
-   "url": "https://www.bbc.co.uk/news/articles/cw98zm084dr3o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-09T06:18:19+00:00",
-   "t": {
-    "pt": "Impressão encomendada pela Nasa descoberta para exposição",
-    "es": "Impresión encargada por la NASA descubierta para exhibición",
-    "it": "Stampa commissionata dalla NASA scoperta per la mostra",
-    "zh": "美国宇航局委托印刷的印刷品被发现用于展览",
-    "fr": "Une impression commandée par la Nasa découverte pour une exposition",
-    "ar": "تم الكشف عن طباعة بتكليف من وكالة ناسا للمعرض",
-    "de": "Von der NASA in Auftrag gegebener Druck zur Ausstellung freigelegt",
-    "el": "Εκτύπωση που παραγγέλθηκε από τη Nasa αποκαλύφθηκε για έκθεση"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "How yesterday's waste is becoming tomorrow's fashion",
-   "url": "https://www.bbc.co.uk/news/articles/cm5yd1q12g1no?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-09T06:05:15+00:00",
-   "t": {
-    "pt": "Como o lixo de ontem está se tornando a moda de amanhã",
-    "es": "Cómo los residuos de ayer se están convirtiendo en la moda del mañana",
-    "it": "Come i rifiuti di ieri diventano la moda di domani",
-    "zh": "昨天的垃圾如何成为明天的时尚",
-    "fr": "Comment les déchets d'hier deviennent la mode de demain",
-    "ar": "كيف أصبحت نفايات الأمس موضة الغد",
-    "de": "Wie der Abfall von gestern zur Mode von morgen wird",
-    "el": "Πώς τα χθεσινά απόβλητα γίνονται αυριανή μόδα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Charity wants bee, bird and butterfly population boost",
-   "url": "https://www.bbc.co.uk/news/articles/ckvg77j83p0vo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-09T06:00:40+00:00",
-   "t": {
-    "pt": "Instituição de caridade quer aumento populacional de abelhas, pássaros e borboletas",
-    "es": "Una organización benéfica quiere aumentar la población de abejas, pájaros y mariposas",
-    "it": "L'organizzazione benefica vuole aumentare la popolazione di api, uccelli e farfalle",
-    "zh": "慈善机构希望增加蜜蜂、鸟类和蝴蝶的数量",
-    "fr": "Une association caritative veut augmenter la population d’abeilles, d’oiseaux et de papillons",
-    "ar": "تريد المؤسسة الخيرية زيادة أعداد النحل والطيور والفراشات",
-    "de": "Wohltätigkeitsorganisation will Bienen-, Vogel- und Schmetterlingspopulation steigern",
-    "el": "Η φιλανθρωπία θέλει ενίσχυση του πληθυσμού των μελισσών, των πουλιών και των πεταλούδων"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Democrats to attend Cop31 climate talks boosted by midterms and eager to make up for Trump-era setbacks",
-   "url": "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-democrats-midterms",
-   "date": "2026-11-09T06:00:01+00:00",
-   "t": {
-    "pt": "Democratas participarão das negociações climáticas da Cop31, impulsionados pelas eleições intermediárias e ansiosos para compensar os reveses da era Trump",
-    "es": "Los demócratas asistirán a las conversaciones sobre el clima de la Cop31 impulsados por las elecciones intermedias y ansiosos por compensar los reveses de la era Trump",
-    "it": "I democratici parteciperanno ai colloqui sul clima della Cop31 rafforzati dalle elezioni di metà mandato e desiderosi di rimediare alle battute d’arresto dell’era Trump",
-    "zh": "中期选举推动民主党参加第 31 届缔约方会议气候谈判，渴望弥补特朗普时代的挫折",
-    "fr": "Les démocrates participeront aux négociations sur le climat de la Cop31, stimulés par les élections de mi-mandat et désireux de rattraper les revers de l'ère Trump",
-    "ar": "سيحضر الديمقراطيون محادثات المناخ Cop31 مدعومة بالانتخابات النصفية ويتوقون للتعويض عن نكسات عهد ترامب",
-    "de": "Demokraten nehmen an den Klimaverhandlungen der Cop31 teil, die durch Zwischenwahlen gestärkt wurden und bestrebt sind, Rückschläge aus der Trump-Ära auszugleichen",
-    "el": "Οι Δημοκρατικοί θα συμμετάσχουν στις συνομιλίες για το κλίμα του Cop31 που ενισχύθηκαν από την ενδιάμεση θητεία και πρόθυμοι να αντισταθμίσουν τις αποτυχίες της εποχής Τραμπ"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Stop undermining Jim Chalmers, environment minister urges Labor colleagues",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/09/stop-undermining-treasurer-jim-chalmers-environment-minister-urges-colleagues",
-   "date": "2026-11-09T05:47:49+00:00",
-   "t": {
-    "pt": "Pare de minar Jim Chalmers, ministro do Meio Ambiente pede aos colegas trabalhistas",
-    "es": "Dejen de socavar a Jim Chalmers, insta el ministro de Medio Ambiente a sus colegas laboristas",
-    "it": "Smettetela di indebolire Jim Chalmers, esorta il ministro dell'Ambiente ai colleghi laburisti",
-    "zh": "环境部长敦促工党同事停止破坏吉姆·查尔默斯",
-    "fr": "Arrêtez de saper Jim Chalmers, exhorte le ministre de l’Environnement à ses collègues travaillistes",
-    "ar": "توقفوا عن تقويض جيم تشالمرز، وزير البيئة يحث زملاء حزب العمال",
-    "de": "Hören Sie auf, Jim Chalmers zu untergraben, fordert Umweltminister die Labour-Kollegen auf",
-    "el": "Σταματήστε να υπονομεύετε τον Τζιμ Τσάλμερς, προτρέπει ο υπουργός Περιβάλλοντος τους συναδέλφους του Εργατικού Κόμματος"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "‘Tents don’t protect us’: Rains flood displaced Palestinians in Gaza",
-   "url": "https://www.aljazeera.com/features/2026/11/9/tents-dont-protect-us-rains-flood-displaced-palestinians-in-gaza?traffic_source=rss",
-   "date": "2026-11-09T05:18:39+00:00",
-   "t": {
-    "pt": "‘Barracas não nos protegem’: Chuvas inundam palestinos deslocados em Gaza",
-    "es": "“Las tiendas de campaña no nos protegen”: las lluvias inundan a los palestinos desplazados en Gaza",
-    "it": "“Le tende non ci proteggono”: le piogge hanno inondato i palestinesi sfollati a Gaza",
-    "zh": "“帐篷不能保护我们”：降雨导致加沙巴勒斯坦人流离失所",
-    "fr": "« Les tentes ne nous protègent pas » : les pluies inondent les Palestiniens déplacés à Gaza",
-    "ar": "\"الخيام لا تحمينا\": الأمطار تغمر الفلسطينيين النازحين في غزة",
-    "de": "„Zelte schützen uns nicht“: Regenfälle überschwemmen vertriebene Palästinenser in Gaza",
-    "el": "«Οι σκηνές δεν μας προστατεύουν»: Οι βροχές πλημμύρισαν τους Παλαιστίνιους στη Γάζα"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Turkiye pushes electrification top of climate agenda as COP31 set to open",
-   "url": "https://www.aljazeera.com/news/2026/11/9/turkiye-pushes-electrification-top-of-climate-agenda-as-cop31-set-to-open?traffic_source=rss",
-   "date": "2026-11-09T05:02:19+00:00",
-   "t": {
-    "pt": "Turkiye coloca a eletrificação no topo da agenda climática com a abertura da COP31",
-    "es": "Turkiye impulsa la electrificación como prioridad en la agenda climática antes de la inauguración de la COP31",
-    "it": "Turkiye pone l’elettrificazione in cima all’agenda sul clima in vista dell’apertura della COP31",
-    "zh": "COP31开幕之际，土耳其将电气化列为气候议程的首要议题",
-    "fr": "La Turquie place l’électrification en tête de son agenda climatique alors que la COP31 s’ouvre",
-    "ar": "تركيا تضع قضية الكهرباء على رأس جدول أعمال المناخ مع افتتاح مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31).",
-    "de": "Turkiye setzt die Elektrifizierung anlässlich der Eröffnung der COP31 ganz oben auf die Klimaagenda",
-    "el": "Η Turkiye θέτει την ηλεκτροδότηση στην κορυφή της κλιματικής ατζέντας καθώς η COP31 ετοιμάζεται να ανοίξει"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Polluted Delhi Tries ‘Green’ Fireworks to Clear the Air at Diwali",
-   "url": "https://www.nytimes.com/2026/11/08/world/asia/delhi-pollution-green-fireworks-diwali.html",
-   "date": "2026-11-09T01:38:48+00:00",
-   "t": {
-    "pt": "Poluída Delhi tenta fogos de artifício ‘verdes’ para limpar o ar no Diwali",
-    "es": "La contaminada Delhi prueba fuegos artificiales “verdes” para limpiar el aire en Diwali",
-    "it": "Delhi inquinata prova i fuochi d'artificio \"verdi\" per purificare l'aria a Diwali",
-    "zh": "污染严重的德里在排灯节尝试“绿色”烟花净化空气",
-    "fr": "Delhi, polluée, tente des feux d'artifice « verts » pour purifier l'air à Diwali",
-    "ar": "دلهي الملوثة تحاول استخدام الألعاب النارية \"الخضراء\" لتنقية الهواء في ديوالي",
-    "de": "Das verschmutzte Delhi versucht an Diwali ein „grünes“ Feuerwerk, um die Luft zu reinigen",
-    "el": "Το μολυσμένο Δελχί δοκιμάζει «πράσινα» πυροτεχνήματα για να καθαρίσει τον αέρα στο Diwali"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Disaster-Prone Communities Face Cuts and Slowdowns in Federal Help",
-   "url": "https://www.nytimes.com/2026/11/06/climate/fema-grants-cuts-resilience.html",
-   "date": "2026-11-08T21:06:54+00:00",
-   "t": {
-    "pt": "Comunidades propensas a desastres enfrentam cortes e lentidão na ajuda federal",
-    "es": "Las comunidades propensas a desastres enfrentan recortes y desaceleraciones en la ayuda federal",
-    "it": "Le comunità esposte ai disastri affrontano tagli e rallentamenti negli aiuti federali",
-    "zh": "易受灾害社区面临联邦援助的削减和放缓",
-    "fr": "Les communautés sujettes aux catastrophes sont confrontées à des réductions et à des ralentissements de l’aide fédérale",
-    "ar": "تواجه المجتمعات المعرضة للكوارث انقطاعات وتباطؤًا في المساعدات الفيدرالية",
-    "de": "Katastrophengefährdete Gemeinden sind mit Kürzungen und Verlangsamungen der Bundeshilfe konfrontiert",
-    "el": "Οι κοινότητες που είναι επιρρεπείς σε καταστροφές αντιμετωπίζουν περικοπές και επιβραδύνσεις στην Ομοσπονδιακή Βοήθεια"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Why the Iran War Has Spurred Both Clean Energy and Fossil Fuels",
-   "url": "https://www.nytimes.com/2026/11/08/business/cop-31-iran-war-oil.html",
-   "date": "2026-11-08T15:39:13+00:00",
-   "t": {
-    "pt": "Por que a Guerra do Irã estimulou tanto a energia limpa quanto os combustíveis fósseis",
-    "es": "Por qué la guerra de Irán ha estimulado tanto la energía limpia como los combustibles fósiles",
-    "it": "Perché la guerra con l’Iran ha stimolato sia l’energia pulita che i combustibili fossili",
-    "zh": "为什么伊朗战争刺激了清洁能源和化石燃料的发展",
-    "fr": "Pourquoi la guerre en Iran a stimulé à la fois les énergies propres et les combustibles fossiles",
-    "ar": "لماذا حفزت حرب إيران كلاً من الطاقة النظيفة والوقود الأحفوري؟",
-    "de": "Warum der Iran-Krieg sowohl saubere Energie als auch fossile Brennstoffe vorangetrieben hat",
-    "el": "Γιατί ο πόλεμος του Ιράν ώθησε τόσο την καθαρή ενέργεια όσο και τα ορυκτά καύσιμα"
    }
   },
   {
@@ -255,22 +271,6 @@
     "ar": "تغير المناخ يغير الألوان التي نراها في العالم: رحلة مصورة",
     "de": "Der Klimawandel verändert die Farben, die wir auf der Welt sehen: eine illustrierte Reise",
     "el": "Η κλιματική αλλαγή αλλάζει τα χρώματα που βλέπουμε στον κόσμο: ένα εικονογραφημένο ταξίδι"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "A Guide to COP31 Climate Talks in Antalya, Turkey",
-   "url": "https://www.nytimes.com/2026/11/08/climate/what-is-cop31-climate.html",
-   "date": "2026-11-08T10:01:50+00:00",
-   "t": {
-    "pt": "Um guia para as negociações climáticas da COP31 em Antalya, Turquia",
-    "es": "Una guía para las conversaciones sobre el clima de la COP31 en Antalya, Turquía",
-    "it": "Una guida ai colloqui sul clima della COP31 ad Antalya, in Turchia",
-    "zh": "土耳其安塔利亚 COP31 气候谈判指南",
-    "fr": "Un guide pour les négociations sur le climat de la COP31 à Antalya, en Turquie",
-    "ar": "دليل محادثات المناخ COP31 في أنطاليا، تركيا",
-    "de": "Ein Leitfaden zu den COP31-Klimaverhandlungen in Antalya, Türkei",
-    "el": "Ένας οδηγός για τις συνομιλίες για το κλίμα COP31 στην Αττάλεια της Τουρκίας"
    }
   },
   {
