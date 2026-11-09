@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-08T21:08:01.659379+00:00",
+ "updated": "2026-11-09T00:51:52.715100+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "Cold blast brings springtime snow to alpine regions as temperatures plummet across Australia’s south-east",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/08/australia-weather-cold-blast-springtime-snow-thredbo-perisher-hotham-victoria-tasmania-el-nino",
+   "date": "2026-11-08T21:25:10+00:00",
+   "t": {
+    "pt": "A rajada de frio traz neve da primavera para as regiões alpinas enquanto as temperaturas despencam no sudeste da Austrália",
+    "es": "Una ráfaga de frío trae nieve primaveral a las regiones alpinas mientras las temperaturas caen en picado en el sureste de Australia",
+    "it": "L’ondata di freddo porta la neve primaverile nelle regioni alpine mentre le temperature precipitano nel sud-est dell’Australia",
+    "zh": "随着澳大利亚东南部气温骤降，寒流给高山地区带来了春季降雪",
+    "fr": "Une vague de froid apporte de la neige printanière dans les régions alpines alors que les températures chutent dans le sud-est de l’Australie.",
+    "ar": "يجلب الانفجار البارد الثلوج في فصل الربيع إلى مناطق جبال الألب مع انخفاض درجات الحرارة في جميع أنحاء جنوب شرق أستراليا",
+    "de": "Kältewind bringt frühlingshaften Schnee in die Alpenregionen, während die Temperaturen im Südosten Australiens sinken",
+    "el": "Ψυχρή έκρηξη φέρνει το ανοιξιάτικο χιόνι στις αλπικές περιοχές καθώς οι θερμοκρασίες πέφτουν κατακόρυφα στη νοτιοανατολική Αυστραλία"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Disaster-Prone Communities Face Cuts and Slowdowns in Federal Help",
+   "url": "https://www.nytimes.com/2026/11/06/climate/fema-grants-cuts-resilience.html",
+   "date": "2026-11-08T21:06:54+00:00",
+   "t": {
+    "pt": "Comunidades propensas a desastres enfrentam cortes e lentidão na ajuda federal",
+    "es": "Las comunidades propensas a desastres enfrentan recortes y desaceleraciones en la ayuda federal",
+    "it": "Le comunità esposte ai disastri affrontano tagli e rallentamenti negli aiuti federali",
+    "zh": "易受灾害社区面临联邦援助的削减和放缓",
+    "fr": "Les communautés sujettes aux catastrophes sont confrontées à des réductions et à des ralentissements de l’aide fédérale",
+    "ar": "تواجه المجتمعات المعرضة للكوارث انقطاعات وتباطؤًا في المساعدات الفيدرالية",
+    "de": "Katastrophengefährdete Gemeinden sind mit Kürzungen und Verlangsamungen der Bundeshilfe konfrontiert",
+    "el": "Οι κοινότητες που είναι επιρρεπείς σε καταστροφές αντιμετωπίζουν περικοπές και επιβραδύνσεις στην Ομοσπονδιακή Βοήθεια"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Heavy rain floods displaced families’ tents in Gaza – in pictures",
@@ -82,22 +114,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Beef industry quietly squashes part of its own science curriculum after ranchers protest",
-   "url": "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education",
-   "date": "2026-11-08T15:00:43+00:00",
-   "t": {
-    "pt": "A indústria da carne bovina silenciosamente esmaga parte de seu próprio currículo de ciências após protestos de fazendeiros",
-    "es": "La industria de la carne de res aplasta silenciosamente parte de su propio plan de estudios de ciencias después de la protesta de los ganaderos",
-    "it": "L’industria della carne bovina sopprime silenziosamente parte del proprio curriculum scientifico dopo la protesta degli allevatori",
-    "zh": "在牧场主抗议后，牛肉行业悄然取消了部分科学课程",
-    "fr": "L’industrie bovine supprime discrètement une partie de son propre programme scientifique après les protestations des éleveurs",
-    "ar": "صناعة لحوم البقر تسحق بهدوء جزءًا من مناهج العلوم الخاصة بها بعد احتجاج أصحاب المزارع",
-    "de": "Die Rindfleischindustrie streicht stillschweigend einen Teil ihres eigenen naturwissenschaftlichen Lehrplans, nachdem Viehzüchter protestiert haben",
-    "el": "Η βιομηχανία βοείου κρέατος καταργεί αθόρυβα μέρος του διδακτικού της προγράμματος σπουδών μετά από διαμαρτυρία κτηνοτρόφων"
-   }
-  },
-  {
    "source": "NPR",
    "title": "SS United States, a historic ship will be sunk to create an artificial reef",
    "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
@@ -175,22 +191,6 @@
     "ar": "دليل محادثات المناخ COP31 في أنطاليا، تركيا",
     "de": "Ein Leitfaden zu den COP31-Klimaverhandlungen in Antalya, Türkei",
     "el": "Ένας οδηγός για τις συνομιλίες για το κλίμα COP31 στην Αττάλεια της Τουρκίας"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "With Hopes Low and Temperatures High, Climate Summit Opens in Turkey",
-   "url": "https://www.nytimes.com/2026/11/08/climate/with-hopes-low-and-temperatures-high-climate-summit-opens-in-turkey.html",
-   "date": "2026-11-08T10:01:37+00:00",
-   "t": {
-    "pt": "Com esperanças baixas e temperaturas altas, a Cúpula do Clima é aberta na Turquia",
-    "es": "Con esperanzas bajas y temperaturas altas, se inaugura la Cumbre sobre el Clima en Turquía",
-    "it": "Con poche speranze e temperature elevate, si apre in Turchia il vertice sul clima",
-    "zh": "气候峰会在土耳其开幕，希望渺茫，气温却很高",
-    "fr": "Avec des espoirs faibles et des températures élevées, le sommet sur le climat s’ouvre en Turquie",
-    "ar": "مع انخفاض الآمال وارتفاع درجات الحرارة، تفتتح قمة المناخ في تركيا",
-    "de": "Mit geringen Hoffnungen und hohen Temperaturen beginnt der Klimagipfel in der Türkei",
-    "el": "Με ελπίδες χαμηλές και υψηλές θερμοκρασίες, η Σύνοδος Κορυφής για το Κλίμα ανοίγει στην Τουρκία"
    }
   },
   {
