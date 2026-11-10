@@ -1,75 +1,11 @@
 {
- "updated": "2026-11-09T18:45:36.241251+00:00",
+ "updated": "2026-11-10T02:04:20.190639+00:00",
  "items": [
-  {
-   "source": "AL JAZEERA",
-   "title": "Jerusalem Daily: Deadly aftermath of Gaza rainstorm continues",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/jerusalem-daily-deadly-aftermath-of-gaza-rainstorm-continues?traffic_source=rss",
-   "date": "2026-11-09T17:55:47+00:00",
-   "t": {
-    "pt": "Jerusalem Daily: Consequências mortais da tempestade em Gaza continuam",
-    "es": "Jerusalem Daily: Continúan las consecuencias mortales de la tormenta en Gaza",
-    "it": "Jerusalem Daily: Continuano le conseguenze mortali del temporale a Gaza",
-    "zh": "耶路撒冷日报：加沙暴雨造成的致命后果仍在继续",
-    "fr": "Jerusalem Daily : Les conséquences meurtrières des pluies torrentielles à Gaza se poursuivent",
-    "ar": "القدس ديلي: الآثار القاتلة للعاصفة المطيرة في غزة مستمرة",
-    "de": "Jerusalem Daily: Die tödlichen Folgen des Regensturms in Gaza dauern an",
-    "el": "Jerusalem Daily: Συνεχίζονται οι θανατηφόρες συνέπειες της καταιγίδας στη Γάζα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Air pollution soars as fog traps emissions in England’s urban areas",
-   "url": "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
-   "date": "2026-11-09T17:50:28+00:00",
-   "t": {
-    "pt": "A poluição do ar aumenta à medida que o nevoeiro retém as emissões nas áreas urbanas da Inglaterra",
-    "es": "La contaminación del aire se dispara a medida que la niebla atrapa las emisiones en las zonas urbanas de Inglaterra",
-    "it": "L’inquinamento atmosferico aumenta mentre la nebbia intrappola le emissioni nelle aree urbane inglesi",
-    "zh": "由于雾气限制了英格兰城市地区的排放，空气污染飙升",
-    "fr": "La pollution de l’air s’envole alors que le brouillard piège les émissions dans les zones urbaines d’Angleterre",
-    "ar": "يرتفع تلوث الهواء حيث يحبس الضباب الانبعاثات في المناطق الحضرية في إنجلترا",
-    "de": "Die Luftverschmutzung nimmt zu, da Nebel die Emissionen in den städtischen Gebieten Englands einfängt",
-    "el": "Η ατμοσφαιρική ρύπανση αυξάνεται καθώς η ομίχλη παγιδεύει τις εκπομπές στις αστικές περιοχές της Αγγλίας"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate negotiator tells Cop31",
-   "url": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
-   "date": "2026-11-09T17:47:04+00:00",
-   "t": {
-    "pt": "Os altos preços dos combustíveis fósseis espalham a inflação “como um câncer”, disse o negociador climático da ONU à Cop31",
-    "es": "Los altos precios de los combustibles fósiles propagan la inflación “como un cáncer”, dice el negociador climático de la ONU a la Cop31",
-    "it": "Gli alti prezzi dei combustibili fossili diffondono l’inflazione “come un cancro”, dice a Cop31 il negoziatore sul clima delle Nazioni Unite",
-    "zh": "联合国气候谈判代表告诉第31届缔约方会议，高化石燃料价格“像癌症一样”扩散通货膨胀",
-    "fr": "Les prix élevés des combustibles fossiles propagent l’inflation « comme un cancer », déclare le négociateur de l’ONU sur le climat à la Cop31",
-    "ar": "ارتفاع أسعار الوقود الأحفوري ينشر التضخم \"مثل السرطان\"، حسبما قال مفاوض الأمم المتحدة المعني بالمناخ لمؤتمر الأطراف الـ31",
-    "de": "Hohe Preise für fossile Brennstoffe verbreiten die Inflation „wie ein Krebsgeschwür“, sagt UN-Klimaunterhändler gegenüber Cop31",
-    "el": "Οι υψηλές τιμές των ορυκτών καυσίμων εξαπλώνουν τον πληθωρισμό «σαν καρκίνο», λέει ο διαπραγματευτής του ΟΗΕ για το κλίμα στην Cop31"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Burnham warns that NHS will ‘struggle’ to cope if consultants don’t resume talks over pay – as it happened",
-   "url": "https://www.theguardian.com/politics/live/2026/nov/09/polanski-greens-labour-andy-burnham-climate-crisis-ev-targets-uk-politics-latest-news",
-   "date": "2026-11-09T17:31:36+00:00",
-   "t": {
-    "pt": "Burnham alerta que o NHS ‘lutará’ para lidar com a situação se os consultores não retomarem as negociações sobre salários – como aconteceu",
-    "es": "Burnham advierte que el NHS “luchará” para hacer frente si los consultores no reanudan las conversaciones sobre salarios, como sucedió",
-    "it": "Burnham avverte che il servizio sanitario nazionale “faticherà” a far fronte se i consulenti non riprenderanno i colloqui sulla retribuzione, come è successo",
-    "zh": "伯纳姆警告说，如果顾问不恢复薪酬谈判，NHS 将“陷入困境”——正如事实所发生的那样",
-    "fr": "Burnham prévient que le NHS « aura du mal » à faire face si les consultants ne reprennent pas les négociations sur les salaires – comme cela s’est produit",
-    "ar": "يحذر برنهام من أن هيئة الخدمات الصحية الوطنية \"ستكافح\" من أجل التأقلم إذا لم يستأنف المستشارون المحادثات بشأن الأجور - كما حدث",
-    "de": "Burnham warnt davor, dass der NHS „Schwierigkeiten“ haben wird, damit klarzukommen, wenn Berater die Gespräche über die Bezahlung nicht wieder aufnehmen – wie es geschehen ist",
-    "el": "Ο Burnham προειδοποιεί ότι το NHS θα «παλέψει» να αντεπεξέλθει εάν οι σύμβουλοι δεν ξαναρχίσουν τις συνομιλίες για την αμοιβή - όπως συνέβη"
-   }
-  },
   {
    "source": "NYTIMES",
    "title": "What Is Congress’s Plan to Speed Up Energy Permits?",
    "url": "https://www.nytimes.com/2026/11/09/climate/congress-energy-permitting-reform-vote.html",
-   "date": "2026-11-09T17:14:23+00:00",
+   "date": "2026-11-10T01:30:26+00:00",
    "t": {
     "pt": "Qual é o plano do Congresso para acelerar as licenças de energia?",
     "es": "¿Cuál es el plan del Congreso para acelerar los permisos energéticos?",
@@ -83,9 +19,73 @@
   },
   {
    "source": "NYTIMES",
+   "title": "Iran War Unexpectedly Drove Down Carbon Emissions This Year",
+   "url": "https://www.nytimes.com/2026/11/09/climate/global-emissions-iran-war.html",
+   "date": "2026-11-10T01:01:05+00:00",
+   "t": {
+    "pt": "A Guerra do Irã reduziu inesperadamente as emissões de carbono este ano",
+    "es": "La guerra de Irán redujo inesperadamente las emisiones de carbono este año",
+    "it": "La guerra in Iran ha inaspettatamente ridotto le emissioni di carbonio quest’anno",
+    "zh": "伊朗战争意外降低了今年的碳排放量",
+    "fr": "La guerre en Iran a fait baisser les émissions de carbone de manière inattendue cette année",
+    "ar": "أدت حرب إيران إلى خفض انبعاثات الكربون بشكل غير متوقع هذا العام",
+    "de": "Der Iran-Krieg führte dieses Jahr unerwartet zu einem Rückgang der CO2-Emissionen",
+    "el": "Ο πόλεμος του Ιράν μείωσε απροσδόκητα τις εκπομπές άνθρακα φέτος"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Slight fall in carbon emissions from fossil fuels as Iran war drives renewables push",
+   "url": "https://www.theguardian.com/environment/2026/nov/10/slight-fall-in-carbon-emissions-from-fossil-fuels-as-iran-war-drives-renewables-push",
+   "date": "2026-11-10T01:00:23+00:00",
+   "t": {
+    "pt": "Ligeira queda nas emissões de carbono provenientes de combustíveis fósseis à medida que a guerra no Irão impulsiona o impulso às energias renováveis",
+    "es": "Ligera caída de las emisiones de carbono procedentes de los combustibles fósiles a medida que la guerra de Irán impulsa el impulso de las energías renovables",
+    "it": "Leggero calo delle emissioni di carbonio derivanti dai combustibili fossili mentre la guerra in Iran spinge le energie rinnovabili",
+    "zh": "随着伊朗战争推动可再生能源的发展，化石燃料的碳排放量略有下降",
+    "fr": "Légère baisse des émissions de carbone provenant des combustibles fossiles alors que la guerre en Iran stimule les énergies renouvelables",
+    "ar": "انخفاض طفيف في انبعاثات الكربون من الوقود الأحفوري مع دفع حرب إيران إلى دفع مصادر الطاقة المتجددة",
+    "de": "Leichter Rückgang der Kohlenstoffemissionen aus fossilen Brennstoffen, da der Iran-Krieg den Vorstoß für erneuerbare Energien vorantreibt",
+    "el": "Μικρή πτώση στις εκπομπές άνθρακα από τα ορυκτά καύσιμα καθώς ο πόλεμος στο Ιράν ωθεί τις ανανεώσιμες πηγές ενέργειας"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Senate advances bill to speed up projects from gas pipelines to clean energy",
+   "url": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote",
+   "date": "2026-11-10T00:41:13+00:00",
+   "t": {
+    "pt": "Senado avança projeto de lei para acelerar projetos de gasodutos a energia limpa",
+    "es": "Senado avanza proyecto de ley para acelerar proyectos desde gasoductos hasta energía limpia",
+    "it": "Il Senato avanza un disegno di legge per accelerare i progetti dai gasdotti all'energia pulita",
+    "zh": "参议院推进法案加速从天然气管道到清洁能源的项目",
+    "fr": "Le Sénat avance un projet de loi visant à accélérer les projets allant des gazoducs aux énergies propres",
+    "ar": "مجلس الشيوخ يقدم مشروع قانون لتسريع المشاريع من خطوط أنابيب الغاز إلى الطاقة النظيفة",
+    "de": "Der Senat bringt einen Gesetzentwurf zur Beschleunigung von Projekten von Gaspipelines bis hin zu sauberer Energie voran",
+    "el": "Η Γερουσία προωθεί νομοσχέδιο για την επιτάχυνση των έργων από αγωγούς φυσικού αερίου στην καθαρή ενέργεια"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "The superpower battle over energy – and what it means for your bills",
+   "url": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-10T00:08:28+00:00",
+   "t": {
+    "pt": "A batalha das superpotências pela energia – e o que isso significa para as suas contas",
+    "es": "La batalla de las superpotencias por la energía y lo que significa para sus facturas",
+    "it": "La battaglia delle superpotenze sull’energia – e cosa significa per le vostre bollette",
+    "zh": "超级大国的能源之争——及其对您的账单意味着什么",
+    "fr": "La bataille des superpuissances pour l’énergie – et ses conséquences sur vos factures",
+    "ar": "معركة القوى العظمى على الطاقة – وماذا يعني ذلك بالنسبة لفواتيرك",
+    "de": "Der Kampf der Supermächte um Energie – und was er für Ihre Rechnungen bedeutet",
+    "el": "Η μάχη υπερδυνάμεων για την ενέργεια – και τι σημαίνει για τους λογαριασμούς σας"
+   }
+  },
+  {
+   "source": "NYTIMES",
    "title": "Oil Prices Fall on Hopes for Peace Between U.S. and Iran",
    "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/oil-price-iran-trump-war.html",
-   "date": "2026-11-09T17:02:37+00:00",
+   "date": "2026-11-09T21:24:16+00:00",
    "t": {
     "pt": "Preços do petróleo caem devido às esperanças de paz entre EUA e Irão",
     "es": "Los precios del petróleo caen ante las esperanzas de paz entre Estados Unidos e Irán",
@@ -98,19 +98,51 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Cop31 as it happened: world leaders gather for crucial climate crisis talks",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/09/cop31-climate-crisis-talks-turkey-latest-news-updates",
-   "date": "2026-11-09T15:45:04+00:00",
+   "source": "AL JAZEERA",
+   "title": "COP31 opens amid energy crisis as activists demand climate action",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/cop31-opens-amid-energy-crisis-as-activists-demand-climate-action?traffic_source=rss",
+   "date": "2026-11-09T21:18:25+00:00",
    "t": {
-    "pt": "Cop31 como aconteceu: líderes mundiais se reúnem para negociações cruciais sobre a crise climática",
-    "es": "Cop31 como sucedió: los líderes mundiales se reúnen para conversaciones cruciales sobre la crisis climática",
-    "it": "Cop31 come è successo: i leader mondiali si riuniscono per i colloqui cruciali sulla crisi climatica",
-    "zh": "第三十一届缔约方会议的实际情况：世界领导人齐聚一堂，进行重要的气候危机会谈",
-    "fr": "La Cop31 telle qu'elle s'est déroulée : les dirigeants du monde se réunissent pour des négociations cruciales sur la crise climatique",
-    "ar": "Cop31 كما حدث: زعماء العالم يجتمعون لإجراء محادثات حاسمة بشأن أزمة المناخ",
-    "de": "Cop31, wie es geschah: Staats- und Regierungschefs der Welt treffen sich zu wichtigen Gesprächen über die Klimakrise",
-    "el": "Cop31 όπως συνέβη: παγκόσμιοι ηγέτες συγκεντρώνονται για κρίσιμες συνομιλίες για την κλιματική κρίση"
+    "pt": "COP31 abre em meio a crise energética enquanto ativistas exigem ação climática",
+    "es": "La COP31 comienza en medio de una crisis energética mientras los activistas exigen acción climática",
+    "it": "La COP31 si apre nel mezzo della crisi energetica mentre gli attivisti chiedono un’azione per il clima",
+    "zh": "COP31 在能源危机中开幕，活动人士要求采取气候行动",
+    "fr": "La COP31 s’ouvre sur fond de crise énergétique alors que les militants exigent une action climatique",
+    "ar": "يفتتح مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31) وسط أزمة الطاقة حيث يطالب النشطاء باتخاذ إجراءات بشأن المناخ",
+    "de": "COP31 beginnt inmitten der Energiekrise, während Aktivisten Klimaschutzmaßnahmen fordern",
+    "el": "Το COP31 ανοίγει εν μέσω ενεργειακής κρίσης καθώς οι ακτιβιστές απαιτούν δράση για το κλίμα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Air pollution soars as fog traps emissions in England’s urban areas",
+   "url": "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
+   "date": "2026-11-09T19:13:59+00:00",
+   "t": {
+    "pt": "A poluição do ar aumenta à medida que o nevoeiro retém as emissões nas áreas urbanas da Inglaterra",
+    "es": "La contaminación del aire se dispara a medida que la niebla atrapa las emisiones en las zonas urbanas de Inglaterra",
+    "it": "L’inquinamento atmosferico aumenta mentre la nebbia intrappola le emissioni nelle aree urbane inglesi",
+    "zh": "由于雾气限制了英格兰城市地区的排放，空气污染飙升",
+    "fr": "La pollution de l’air s’envole alors que le brouillard piège les émissions dans les zones urbaines d’Angleterre",
+    "ar": "يرتفع تلوث الهواء حيث يحبس الضباب الانبعاثات في المناطق الحضرية في إنجلترا",
+    "de": "Die Luftverschmutzung nimmt zu, da Nebel die Emissionen in den städtischen Gebieten Englands einfängt",
+    "el": "Η ατμοσφαιρική ρύπανση αυξάνεται καθώς η ομίχλη παγιδεύει τις εκπομπές στις αστικές περιοχές της Αγγλίας"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate chief tells Cop31",
+   "url": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
+   "date": "2026-11-09T17:47:04+00:00",
+   "t": {
+    "pt": "Os altos preços dos combustíveis fósseis espalham a inflação “como um câncer”, disse o chefe do clima da ONU à Cop31",
+    "es": "Los altos precios de los combustibles fósiles propagan la inflación “como un cáncer”, dice el jefe del clima de la ONU a la Cop31",
+    "it": "Gli alti prezzi dei combustibili fossili diffondono l’inflazione “come un cancro”, dice a Cop31 il responsabile del clima delle Nazioni Unite",
+    "zh": "联合国气候变化负责人告诉第31届缔约方会议，高化石燃料价格“像癌症一样”扩散通货膨胀",
+    "fr": "Les prix élevés des combustibles fossiles propagent l’inflation « comme un cancer », déclare le chef du climat de l’ONU à la Cop31",
+    "ar": "ارتفاع أسعار الوقود الأحفوري ينشر التضخم \"مثل السرطان\"، حسبما صرح رئيس الأمم المتحدة للمناخ لمؤتمر Cop31",
+    "de": "Hohe Preise für fossile Brennstoffe verbreiten die Inflation „wie ein Krebsgeschwür“, sagt UN-Klimachef gegenüber Cop31",
+    "el": "Οι υψηλές τιμές των ορυκτών καυσίμων εξαπλώνουν τον πληθωρισμό «σαν καρκίνο», λέει ο επικεφαλής του ΟΗΕ για το κλίμα στην Cop31"
    }
   },
   {
@@ -178,22 +210,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "A Decade After Henry Worsley Died in Antarctica, His Son Tries to Reach the South Pole",
-   "url": "https://www.nytimes.com/2026/11/09/climate/max-worsley-antarctic-expedition.html",
-   "date": "2026-11-09T12:06:09+00:00",
-   "t": {
-    "pt": "Uma década depois da morte de Henry Worsley na Antártida, seu filho tenta chegar ao Pólo Sul",
-    "es": "Una década después de la muerte de Henry Worsley en la Antártida, su hijo intenta llegar al Polo Sur",
-    "it": "Un decennio dopo la morte di Henry Worsley in Antartide, suo figlio cerca di raggiungere il Polo Sud",
-    "zh": "亨利·沃斯利在南极洲去世十年后，他的儿子试图到达南极",
-    "fr": "Une décennie après la mort d'Henry Worsley en Antarctique, son fils tente d'atteindre le pôle Sud",
-    "ar": "بعد عقد من وفاة هنري ورسلي في القارة القطبية الجنوبية، يحاول ابنه الوصول إلى القطب الجنوبي",
-    "de": "Ein Jahrzehnt nach dem Tod von Henry Worsley in der Antarktis versucht sein Sohn, den Südpol zu erreichen",
-    "el": "Μια δεκαετία μετά τον θάνατο του Henry Worsley στην Ανταρκτική, ο γιος του προσπαθεί να φτάσει στον Νότιο Πόλο"
-   }
-  },
-  {
    "source": "DW",
    "title": "Turkey pushes for transition at COP31 as coal burns",
    "url": "https://www.dw.com/en/turkey-pushes-for-transition-at-cop31-as-coal-burns/a-79871687?maca=en-rss-en-all-1573-rdf",
@@ -210,19 +226,35 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Scientists predict 2026 hottest year on record as climate talks begin",
-   "url": "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-09T07:30:12+00:00",
+   "source": "NATURE",
+   "title": "The super El Niño is more than a climate shock – it’s a health one, too",
+   "url": "https://www.nature.com/articles/d41586-026-03628-5",
+   "date": "2026-11-09T00:00:00+00:00",
    "t": {
-    "pt": "Cientistas prevêem 2026 como o ano mais quente já registrado com o início das negociações sobre o clima",
-    "es": "Los científicos predicen que 2026 será el año más caluroso registrado mientras comienzan las conversaciones sobre el clima",
-    "it": "Gli scienziati prevedono che il 2026 sarà l’anno più caldo mai registrato con l’inizio dei colloqui sul clima",
-    "zh": "随着气候谈判的开始，科学家预测 2026 年将是有记录以来最热的一年",
-    "fr": "Les scientifiques prévoient que 2026 sera l’année la plus chaude jamais enregistrée alors que les négociations sur le climat commencent",
-    "ar": "يتوقع العلماء أن يكون عام 2026 هو العام الأكثر سخونة على الإطلاق مع بدء محادثات المناخ",
-    "de": "Wissenschaftler sagen zu Beginn der Klimaverhandlungen das wärmste Jahr seit Beginn der Aufzeichnungen für 2026 voraus",
-    "el": "Οι επιστήμονες προβλέπουν ότι το 2026 είναι η πιο ζεστή χρονιά που έχει καταγραφεί, καθώς ξεκινούν οι συνομιλίες για το κλίμα"
+    "pt": "O super El Niño é mais do que um choque climático – é também um choque de saúde",
+    "es": "El súper Niño es más que un shock climático: también es un shock sanitario",
+    "it": "Il super El Niño è più di uno shock climatico: è anche uno shock sanitario",
+    "zh": "超级厄尔尼诺现象不仅是一种气候冲击，也是一种健康冲击",
+    "fr": "Le super El Niño est plus qu’un choc climatique : c’est aussi un choc sanitaire",
+    "ar": "إن ظاهرة النينيو الفائقة ليست مجرد صدمة مناخية، بل إنها صدمة صحية أيضا",
+    "de": "Der Super-El Niño ist mehr als ein Klimaschock – er ist auch ein Gesundheitsschock",
+    "el": "Το σούπερ Ελ Νίνιο είναι κάτι περισσότερο από ένα κλιματικό σοκ – είναι και για την υγεία"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "COP31 kicks off as planet faces imminent overshoot of 1.5 °C climate target",
+   "url": "https://www.nature.com/articles/d41586-026-03631-w",
+   "date": "2026-11-09T00:00:00+00:00",
+   "t": {
+    "pt": "A COP31 arranca enquanto o planeta enfrenta uma ultrapassagem iminente da meta climática de 1,5 °C",
+    "es": "La COP31 comienza cuando el planeta se enfrenta a un inminente rebasamiento del objetivo climático de 1,5 °C",
+    "it": "La COP31 prende il via mentre il pianeta rischia di superare l’obiettivo climatico di 1,5°C",
+    "zh": "COP31 开幕，地球面临即将超调 1.5°C 的气候目标",
+    "fr": "La COP31 démarre alors que la planète est confrontée à un dépassement imminent de l’objectif climatique de 1,5 °C",
+    "ar": "ينطلق مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31) في الوقت الذي يواجه فيه الكوكب تجاوزًا وشيكًا لهدف المناخ المتمثل في 1.5 درجة مئوية",
+    "de": "COP31 beginnt, während der Planet vor einer drohenden Überschreitung des 1,5 °C-Klimaziels steht",
+    "el": "Το COP31 ξεκινά καθώς ο πλανήτης αντιμετωπίζει επικείμενη υπέρβαση του κλιματικού στόχου 1,5 °C"
    }
   },
   {
@@ -287,6 +319,38 @@
     "ar": "مع انطلاق مؤتمر COP31 في أنطاليا، هل يستطيع العالم تجاوز الوعود الكبيرة؟",
     "de": "Kann die Welt zu Beginn der COP31 in Antalya über ihre großen Versprechen hinauskommen?",
     "el": "Καθώς ξεκινά το COP31 Antalya, μπορεί ο κόσμος να προχωρήσει πέρα από τις μεγάλες υποσχέσεις;"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
+   "url": "https://www.nature.com/articles/s41586-026-11351-4",
+   "date": "2026-11-05T00:00:00+00:00",
+   "t": {
+    "pt": "Derivados de hidrogênio permitem neutralidade de carbono econômica na China",
+    "es": "Los derivados del hidrógeno permiten una neutralidad de carbono rentable en China",
+    "it": "I derivati dell’idrogeno consentono una neutralità del carbonio economicamente vantaggiosa in Cina",
+    "zh": "氢衍生物使中国实现具有成本效益的碳中和",
+    "fr": "Les dérivés de l'hydrogène permettent une neutralité carbone rentable en Chine",
+    "ar": "تعمل مشتقات الهيدروجين على تمكين حياد الكربون بفعالية من حيث التكلفة في الصين",
+    "de": "Wasserstoffderivate ermöglichen kostengünstige CO2-Neutralität in China",
+    "el": "Τα παράγωγα υδρογόνου επιτρέπουν την οικονομικά αποδοτική ουδετερότητα άνθρακα στην Κίνα"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "First-of-its-kind planetary wreckage holds clues to our Solar System’s fate",
+   "url": "https://www.nature.com/articles/d41586-026-03537-7",
+   "date": "2026-11-04T00:00:00+00:00",
+   "t": {
+    "pt": "Destroços planetários inéditos contêm pistas sobre o destino do nosso Sistema Solar",
+    "es": "Los restos planetarios, los primeros de su tipo, contienen pistas sobre el destino de nuestro Sistema Solar",
+    "it": "I rottami planetari, primi nel loro genere, contengono indizi sul destino del nostro Sistema Solare",
+    "zh": "第一个行星残骸蕴藏着太阳系命运的线索",
+    "fr": "Une épave planétaire, la première en son genre, contient des indices sur le sort de notre système solaire",
+    "ar": "حطام كوكبي هو الأول من نوعه يحمل أدلة حول مصير نظامنا الشمسي",
+    "de": "Das erste Planetenwrack seiner Art birgt Hinweise auf das Schicksal unseres Sonnensystems",
+    "el": "Το πρώτο στο είδος του πλανητικά συντρίμμια έχει ενδείξεις για τη μοίρα του ηλιακού μας συστήματος"
    }
   },
   {
