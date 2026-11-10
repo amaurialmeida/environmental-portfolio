@@ -1,20 +1,148 @@
 {
- "updated": "2026-11-10T09:45:02.673617+00:00",
+ "updated": "2026-11-10T17:47:52.488251+00:00",
  "items": [
   {
-   "source": "GUARDIAN",
-   "title": "Cop31 live: slight drop in fossil fuel emissions revealed as conference enters second day",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/10/cop31-live-fossil-fuel-carbon-emissions-climate-crisis-latest-news-updates",
-   "date": "2026-11-10T09:30:55+00:00",
+   "source": "NYTIMES",
+   "title": "How an Italian Capital of Design Is Coping with Climate Change",
+   "url": "https://www.nytimes.com/2026/11/10/arts/design/milan-architecture-design-climate-change.html",
+   "date": "2026-11-10T17:06:01+00:00",
    "t": {
-    "pt": "Cop31 ao vivo: ligeira queda nas emissões de combustíveis fósseis revelada no segundo dia da conferência",
-    "es": "Cop31 en vivo: se revela una ligera caída en las emisiones de combustibles fósiles a medida que la conferencia ingresa al segundo día",
-    "it": "Cop31 in diretta: leggero calo nelle emissioni di combustibili fossili rivelato mentre la conferenza entra nel secondo giorno",
-    "zh": "第 31 届缔约方会议现场直播：会议进入第二天，化石燃料排放量略有下降",
-    "fr": "Cop31 en direct : légère baisse des émissions de combustibles fossiles révélée alors que la conférence entre dans sa deuxième journée",
-    "ar": "Cop31 مباشر: تم الكشف عن انخفاض طفيف في انبعاثات الوقود الأحفوري مع دخول المؤتمر يومه الثاني",
-    "de": "Cop31 live: Leichter Rückgang der Emissionen fossiler Brennstoffe zu Beginn der Konferenz am zweiten Tag bekannt gegeben",
-    "el": "Cop31 live: μικρή πτώση στις εκπομπές ορυκτών καυσίμων αποκαλύφθηκε καθώς η διάσκεψη εισέρχεται στη δεύτερη μέρα"
+    "pt": "Como uma capital italiana do design está lidando com as mudanças climáticas",
+    "es": "Cómo una capital italiana del diseño está afrontando el cambio climático",
+    "it": "Come una capitale italiana del design sta affrontando il cambiamento climatico",
+    "zh": "意大利设计之都如何应对气候变化",
+    "fr": "Comment une capitale italienne du design fait face au changement climatique",
+    "ar": "كيف تتعامل عاصمة التصميم الإيطالية مع تغير المناخ",
+    "de": "Wie eine italienische Designhauptstadt mit dem Klimawandel umgeht",
+    "el": "Πώς μια ιταλική πρωτεύουσα σχεδιασμού αντιμετωπίζει την κλιματική αλλαγή"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Oil Prices Have Tumbled in November. Here’s Why.",
+   "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/oil-price-iran-trump-war.html",
+   "date": "2026-11-10T15:59:29+00:00",
+   "t": {
+    "pt": "Os preços do petróleo caíram em novembro. Aqui está o porquê.",
+    "es": "Los precios del petróleo han caído en noviembre. He aquí por qué.",
+    "it": "I prezzi del petrolio sono crollati a novembre. Ecco perché.",
+    "zh": "11 月份油价暴跌。这就是为什么。",
+    "fr": "Les prix du pétrole ont chuté en novembre. Voici pourquoi.",
+    "ar": "تراجعت أسعار النفط في نوفمبر. إليكم السبب.",
+    "de": "Die Ölpreise sind im November gefallen. Hier erfahren Sie, warum.",
+    "el": "Οι τιμές του πετρελαίου υποχώρησαν τον Νοέμβριο. Εδώ είναι γιατί."
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Cop31 as it happened: ‘Everything and everyone we love is at stake,’ Greta Thunberg warns",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/10/cop31-live-fossil-fuel-carbon-emissions-climate-crisis-latest-news-updates",
+   "date": "2026-11-10T15:35:09+00:00",
+   "t": {
+    "pt": "Cop31 como aconteceu: ‘Tudo e todos que amamos estão em jogo’, alerta Greta Thunberg",
+    "es": "Cop31 como sucedió: “Todo y todos los que amamos está en juego”, advierte Greta Thunberg",
+    "it": "Cop31 come è successo: \"Tutto e tutti quelli che amiamo sono in gioco\", avverte Greta Thunberg",
+    "zh": "第 31 届缔约方会议的情况：“我们所爱的一切和每个人都处于危险之中，”格蕾塔·桑伯格警告说",
+    "fr": "Cop31 comme cela s’est passé : « Tout et tous ceux que nous aimons sont en jeu », prévient Greta Thunberg",
+    "ar": "Cop31 كما حدث: \"كل شيء وكل شخص نحبه على المحك\"، تحذر غريتا ثونبرج",
+    "de": "Cop31, wie es geschah: „Alles und jeder, den wir lieben, steht auf dem Spiel“, warnt Greta Thunberg",
+    "el": "Cop31 όπως συνέβη: «Τα πάντα και όλοι όσοι αγαπάμε διακυβεύονται», προειδοποιεί η Γκρέτα Τούνμπεργκ"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Sales of tinned food and bottled water jump after 'Be Ready' campaign launch",
+   "url": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-10T15:10:20+00:00",
+   "t": {
+    "pt": "Vendas de alimentos enlatados e água engarrafada aumentam após lançamento da campanha 'Be Ready'",
+    "es": "Las ventas de alimentos enlatados y agua embotellada aumentan tras el lanzamiento de la campaña \"Be Ready\"",
+    "it": "Le vendite di cibo in scatola e acqua in bottiglia aumentano dopo il lancio della campagna \"Be Ready\".",
+    "zh": "“Be Ready”活动推出后，罐头食品和瓶装水销量猛增",
+    "fr": "Les ventes de conserves et d'eau en bouteille bondissent après le lancement de la campagne « Soyez prêts »",
+    "ar": "ارتفعت مبيعات الأغذية المعلبة والمياه المعبأة بعد إطلاق حملة \"كن جاهزاً\".",
+    "de": "Nach dem Start der „Be Ready“-Kampagne steigen die Verkäufe von Lebensmittelkonserven und Mineralwasser",
+    "el": "Οι πωλήσεις κονσερβοποιημένων τροφίμων και εμφιαλωμένου νερού αυξήθηκαν μετά την έναρξη της καμπάνιας «Be Ready»."
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Jimmy Carter’s Georgia farm to open to the public: ‘This land shaped him and his legacy’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/10/jimmy-carter-georgia-farm-conserved-open-to-public",
+   "date": "2026-11-10T15:01:41+00:00",
+   "t": {
+    "pt": "Fazenda de Jimmy Carter na Geórgia será aberta ao público: ‘Esta terra moldou ele e seu legado’",
+    "es": "La granja de Jimmy Carter en Georgia se abrirá al público: \"Esta tierra le dio forma a él y a su legado\"",
+    "it": "La fattoria di Jimmy Carter in Georgia aprirà al pubblico: “Questa terra ha plasmato lui e la sua eredità”",
+    "zh": "吉米·卡特的乔治亚农场向公众开放：“这片土地塑造了他和他的遗产”",
+    "fr": "La ferme de Jimmy Carter en Géorgie va ouvrir au public : « Cette terre l'a façonné ainsi que son héritage »",
+    "ar": "مزرعة جيمي كارتر في جورجيا مفتوحة للجمهور: \"هذه الأرض شكلته وإرثه\"",
+    "de": "Jimmy Carters Farm in Georgia wird der Öffentlichkeit zugänglich gemacht: „Dieses Land hat ihn und sein Vermächtnis geprägt“",
+    "el": "Το αγρόκτημα Τζίμι Κάρτερ στη Τζόρτζια θα ανοίξει στο κοινό: «Αυτή η γη διαμόρφωσε αυτόν και την κληρονομιά του»"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Iran War Unexpectedly Drove Down Carbon Emissions This Year",
+   "url": "https://www.nytimes.com/2026/11/09/climate/global-emissions-iran-war.html",
+   "date": "2026-11-10T13:40:41+00:00",
+   "t": {
+    "pt": "A Guerra do Irã reduziu inesperadamente as emissões de carbono este ano",
+    "es": "La guerra de Irán redujo inesperadamente las emisiones de carbono este año",
+    "it": "La guerra in Iran ha inaspettatamente ridotto le emissioni di carbonio quest’anno",
+    "zh": "伊朗战争意外降低了今年的碳排放量",
+    "fr": "La guerre en Iran a fait baisser les émissions de carbone de manière inattendue cette année",
+    "ar": "أدت حرب إيران إلى خفض انبعاثات الكربون بشكل غير متوقع هذا العام",
+    "de": "Der Iran-Krieg führte dieses Jahr unerwartet zu einem Rückgang der CO2-Emissionen",
+    "el": "Ο πόλεμος του Ιράν μείωσε απροσδόκητα τις εκπομπές άνθρακα φέτος"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "This small Alaska town is swamped by cruise ship visitors every summer. But what happens when they all go home?",
+   "url": "https://www.theguardian.com/environment/2026/nov/10/alaska-skagway-community-cruise-ship-tourism-housing",
+   "date": "2026-11-10T13:00:52+00:00",
+   "t": {
+    "pt": "Esta pequena cidade do Alasca é inundada por visitantes de navios de cruzeiro todo verão. Mas o que acontece quando todos vão para casa?",
+    "es": "Esta pequeña ciudad de Alaska se ve inundada de visitantes de cruceros cada verano. ¿Pero qué pasa cuando todos regresan a casa?",
+    "it": "Questa piccola città dell'Alaska è invasa dai visitatori delle navi da crociera ogni estate. Ma cosa succederà quando torneranno tutti a casa?",
+    "zh": "每年夏天，这个阿拉斯加小镇都会挤满游轮游客。但当他们都回家后会发生什么呢？",
+    "fr": "Cette petite ville de l’Alaska est inondée de visiteurs de bateaux de croisière chaque été. Mais que se passe-t-il quand ils rentrent tous chez eux ?",
+    "ar": "تغمر هذه المدينة الصغيرة في ألاسكا زوار السفن السياحية كل صيف. ولكن ماذا يحدث عندما يعودون جميعًا إلى المنزل؟",
+    "de": "Diese kleine Stadt in Alaska wird jeden Sommer von Kreuzfahrtschiffbesuchern überschwemmt. Aber was passiert, wenn sie alle nach Hause gehen?",
+    "el": "Αυτή η μικρή πόλη της Αλάσκας κατακλύζεται από επισκέπτες κρουαζιερόπλοιων κάθε καλοκαίρι. Τι γίνεται όμως όταν πάνε όλοι σπίτι τους;"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "US and rest of world must follow China’s lead on green energy, says John Kerry",
+   "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31",
+   "date": "2026-11-10T12:08:23+00:00",
+   "t": {
+    "pt": "Os EUA e o resto do mundo devem seguir o exemplo da China em matéria de energia verde, diz John Kerry",
+    "es": "Estados Unidos y el resto del mundo deben seguir el ejemplo de China en materia de energía verde, dice John Kerry",
+    "it": "Gli Stati Uniti e il resto del mondo devono seguire l’esempio della Cina in materia di energia verde, afferma John Kerry",
+    "zh": "约翰·克里表示，美国和世界其他国家必须追随中国在绿色能源方面的领先地位",
+    "fr": "Les États-Unis et le reste du monde doivent suivre l’exemple de la Chine en matière d’énergie verte, déclare John Kerry",
+    "ar": "يقول جون كيري إنه يتعين على الولايات المتحدة وبقية دول العالم أن تحذو حذو الصين في مجال الطاقة الخضراء",
+    "de": "Die USA und der Rest der Welt müssen Chinas Beispiel für grüne Energie folgen, sagt John Kerry",
+    "el": "Οι ΗΠΑ και ο υπόλοιπος κόσμος πρέπει να ακολουθήσουν το παράδειγμα της Κίνας στην πράσινη ενέργεια, λέει ο Τζον Κέρι"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "A New York Times Reporter on El Niño and His California Childhood",
+   "url": "https://www.nytimes.com/2026/11/10/insider/el-nino-california-climate.html",
+   "date": "2026-11-10T10:05:08+00:00",
+   "t": {
+    "pt": "Um repórter do New York Times sobre El Niño e sua infância na Califórnia",
+    "es": "Un reportero del New York Times sobre El Niño y su infancia en California",
+    "it": "Un giornalista del New York Times su El Niño e la sua infanzia in California",
+    "zh": "《纽约时报》记者讲述厄尔尼诺现象和他的加州童年",
+    "fr": "Un journaliste du New York Times sur El Niño et son enfance californienne",
+    "ar": "مراسل نيويورك تايمز عن ظاهرة النينيو وطفولته في كاليفورنيا",
+    "de": "Ein Reporter der New York Times über El Niño und seine Kindheit in Kalifornien",
+    "el": "Ρεπόρτερ των New York Times για το El Niño και τα παιδικά του χρόνια στην Καλιφόρνια"
    }
   },
   {
@@ -82,22 +210,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Tuesday briefing: The world is falling short on climate action. Can Cop31 change that?",
-   "url": "https://www.theguardian.com/world/2026/nov/10/tuesday-briefing-the-world-is-falling-short-on-climate-action-can-cop31-change-that",
-   "date": "2026-11-10T06:45:39+00:00",
-   "t": {
-    "pt": "Briefing de terça-feira: O mundo está aquém da ação climática. O Cop31 pode mudar isso?",
-    "es": "Reunión informativa del martes: El mundo se está quedando corto en materia de acción climática. ¿Puede la Cop31 cambiar eso?",
-    "it": "Briefing di martedì: il mondo non è all’altezza dell’azione per il clima. Cop31 può cambiare la situazione?",
-    "zh": "周二的简报：世界在气候行动方面做得不够。第三十一届缔约方大会能否改变这一点？",
-    "fr": "Briefing de mardi : Le monde n’est pas à la hauteur en matière d’action climatique. La Cop31 peut-elle changer cela ?",
-    "ar": "إحاطة يوم الثلاثاء: العالم مقصر في العمل المناخي. هل يمكن لـ Cop31 تغيير ذلك؟",
-    "de": "Dienstagsbriefing: Die Welt versäumt es, Klimaschutzmaßnahmen zu ergreifen. Kann Cop31 das ändern?",
-    "el": "Ενημέρωση Τρίτης: Ο κόσμος υστερεί στη δράση για το κλίμα. Μπορεί το Cop31 να το αλλάξει αυτό;"
-   }
-  },
-  {
    "source": "BBC",
    "title": "The swan sanctuary wetland fighting climate change",
    "url": "https://www.bbc.co.uk/news/articles/c60rleej7dqgo?at_medium=RSS&at_campaign=rss",
@@ -114,22 +226,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Auckland hit by swarms of bees after milder than usual New Zealand winter",
-   "url": "https://www.theguardian.com/environment/2026/nov/10/bee-swarm-nz-auckland-swarming-bees-new-zealand",
-   "date": "2026-11-10T04:07:54+00:00",
-   "t": {
-    "pt": "Auckland atingida por enxames de abelhas após inverno mais ameno do que o normal na Nova Zelândia",
-    "es": "Auckland golpeada por enjambres de abejas después de un invierno más suave de lo habitual en Nueva Zelanda",
-    "it": "Auckland colpita da sciami di api dopo un inverno neozelandese più mite del solito",
-    "zh": "新西兰冬季比平常温和，奥克兰遭遇蜂群袭击",
-    "fr": "Auckland frappée par des essaims d'abeilles après un hiver plus doux que d'habitude en Nouvelle-Zélande",
-    "ar": "أوكلاند تتعرض لأسراب من النحل بعد شتاء أكثر اعتدالا من المعتاد في نيوزيلندا",
-    "de": "Auckland wird nach einem milderen Winter in Neuseeland von Bienenschwärmen heimgesucht",
-    "el": "Το Ώκλαντ χτυπήθηκε από σμήνη μελισσών μετά από ηπιότερο από το συνηθισμένο χειμώνα της Νέας Ζηλανδίας"
-   }
-  },
-  {
    "source": "DW",
    "title": "Iran war oil shock drives dip in global emissions, study shows",
    "url": "https://www.dw.com/en/iran-war-oil-shock-drives-dip-in-global-emissions-study-shows/a-79905937?maca=en-rss-en-all-1573-rdf",
@@ -143,102 +239,6 @@
     "ar": "أظهرت دراسة أن الصدمة النفطية الناجمة عن حرب إيران تؤدي إلى انخفاض الانبعاثات العالمية",
     "de": "Eine Studie zeigt, dass der Ölschock im Iran-Krieg zu einem Rückgang der weltweiten Emissionen führt",
     "el": "Το πετρελαϊκό σοκ από τον πόλεμο του Ιράν οδηγεί στη μείωση των παγκόσμιων εκπομπών, σύμφωνα με μελέτη"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Senate advances bill to speed up projects from gas pipelines to clean energy",
-   "url": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote",
-   "date": "2026-11-10T02:28:00+00:00",
-   "t": {
-    "pt": "Senado avança projeto de lei para acelerar projetos de gasodutos a energia limpa",
-    "es": "Senado avanza proyecto de ley para acelerar proyectos desde gasoductos hasta energía limpia",
-    "it": "Il Senato avanza un disegno di legge per accelerare i progetti dai gasdotti all'energia pulita",
-    "zh": "参议院推进法案加速从天然气管道到清洁能源的项目",
-    "fr": "Le Sénat avance un projet de loi visant à accélérer les projets allant des gazoducs aux énergies propres",
-    "ar": "مجلس الشيوخ يقدم مشروع قانون لتسريع المشاريع من خطوط أنابيب الغاز إلى الطاقة النظيفة",
-    "de": "Der Senat bringt einen Gesetzentwurf zur Beschleunigung von Projekten von Gaspipelines bis hin zu sauberer Energie voran",
-    "el": "Η Γερουσία προωθεί νομοσχέδιο για την επιτάχυνση των έργων από αγωγούς φυσικού αερίου στην καθαρή ενέργεια"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "What Is Congress’s Plan to Speed Up Energy Permits?",
-   "url": "https://www.nytimes.com/2026/11/09/climate/congress-energy-permitting-reform-vote.html",
-   "date": "2026-11-10T01:30:26+00:00",
-   "t": {
-    "pt": "Qual é o plano do Congresso para acelerar as licenças de energia?",
-    "es": "¿Cuál es el plan del Congreso para acelerar los permisos energéticos?",
-    "it": "Qual è il piano del Congresso per accelerare i permessi energetici?",
-    "zh": "国会加速能源许可的计划是什么？",
-    "fr": "Quel est le plan du Congrès pour accélérer les permis énergétiques ?",
-    "ar": "ما هي خطة الكونجرس لتسريع تصاريح الطاقة؟",
-    "de": "Was ist der Plan des Kongresses, die Energiegenehmigungen zu beschleunigen?",
-    "el": "Ποιο είναι το σχέδιο του Κογκρέσου για την επιτάχυνση των ενεργειακών αδειών;"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Iran War Unexpectedly Drove Down Carbon Emissions This Year",
-   "url": "https://www.nytimes.com/2026/11/09/climate/global-emissions-iran-war.html",
-   "date": "2026-11-10T01:01:05+00:00",
-   "t": {
-    "pt": "A Guerra do Irã reduziu inesperadamente as emissões de carbono este ano",
-    "es": "La guerra de Irán redujo inesperadamente las emisiones de carbono este año",
-    "it": "La guerra in Iran ha inaspettatamente ridotto le emissioni di carbonio quest’anno",
-    "zh": "伊朗战争意外降低了今年的碳排放量",
-    "fr": "La guerre en Iran a fait baisser les émissions de carbone de manière inattendue cette année",
-    "ar": "أدت حرب إيران إلى خفض انبعاثات الكربون بشكل غير متوقع هذا العام",
-    "de": "Der Iran-Krieg führte dieses Jahr unerwartet zu einem Rückgang der CO2-Emissionen",
-    "el": "Ο πόλεμος του Ιράν μείωσε απροσδόκητα τις εκπομπές άνθρακα φέτος"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "The superpower battle over energy – and what it means for your bills",
-   "url": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-10T00:08:28+00:00",
-   "t": {
-    "pt": "A batalha das superpotências pela energia – e o que isso significa para as suas contas",
-    "es": "La batalla de las superpotencias por la energía y lo que significa para sus facturas",
-    "it": "La battaglia delle superpotenze sull’energia – e cosa significa per le vostre bollette",
-    "zh": "超级大国的能源之争——及其对您的账单意味着什么",
-    "fr": "La bataille des superpuissances pour l’énergie – et ses conséquences sur vos factures",
-    "ar": "معركة القوى العظمى على الطاقة – وماذا يعني ذلك بالنسبة لفواتيرك",
-    "de": "Der Kampf der Supermächte um Energie – und was er für Ihre Rechnungen bedeutet",
-    "el": "Η μάχη υπερδυνάμεων για την ενέργεια – και τι σημαίνει για τους λογαριασμούς σας"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Oil Prices Fall on Hopes for Peace Between U.S. and Iran",
-   "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/oil-price-iran-trump-war.html",
-   "date": "2026-11-09T21:24:16+00:00",
-   "t": {
-    "pt": "Preços do petróleo caem devido às esperanças de paz entre EUA e Irão",
-    "es": "Los precios del petróleo caen ante las esperanzas de paz entre Estados Unidos e Irán",
-    "it": "I prezzi del petrolio scendono sulle speranze di pace tra Stati Uniti e Iran",
-    "zh": "由于美国和伊朗之间的和平希望，油价下跌",
-    "fr": "Les prix du pétrole chutent face aux espoirs de paix entre les États-Unis et l’Iran",
-    "ar": "أسعار النفط تنخفض بفعل آمال السلام بين الولايات المتحدة وإيران",
-    "de": "Ölpreise fallen aufgrund der Hoffnung auf Frieden zwischen den USA und dem Iran",
-    "el": "Οι τιμές του πετρελαίου μειώνονται λόγω ελπίδων για ειρήνη μεταξύ ΗΠΑ και Ιράν"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Giant Merger of NextEra and Dominion Could Fail Amid Anger Over Electricity Bills",
-   "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/nextera-dominon-energy-virginia.html",
-   "date": "2026-11-09T15:18:30+00:00",
-   "t": {
-    "pt": "A fusão gigante da NextEra e da Dominion pode falhar em meio à raiva pelas contas de eletricidade",
-    "es": "La fusión gigante de NextEra y Dominion podría fracasar en medio de la ira por las facturas de electricidad",
-    "it": "La gigantesca fusione tra NextEra e Dominion potrebbe fallire a causa della rabbia per le bollette dell’elettricità",
-    "zh": "NextEra 和 Dominion 的大型合并可能因电费账单而失败",
-    "fr": "La fusion géante de NextEra et Dominion pourrait échouer en raison de la colère suscitée par les factures d'électricité",
-    "ar": "الاندماج العملاق بين NextEra وDominion قد يفشل وسط الغضب بشأن فواتير الكهرباء",
-    "de": "Riesige Fusion von NextEra und Dominion könnte angesichts der Wut über Stromrechnungen scheitern",
-    "el": "Η γιγαντιαία συγχώνευση των NextEra και Dominion θα μπορούσε να αποτύχει εν μέσω θυμού για τους λογαριασμούς ηλεκτρικού ρεύματος"
    }
   },
   {
