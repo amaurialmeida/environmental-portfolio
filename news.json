@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-10T17:47:52.488251+00:00",
+ "updated": "2026-11-10T23:16:37.380621+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "Toyota Plans to Sell a Kei Pickup Truck in the U.S.",
+   "url": "https://www.nytimes.com/2026/11/10/business/toyota-kei-pickup-truck.html",
+   "date": "2026-11-10T22:58:31+00:00",
+   "t": {
+    "pt": "Toyota planeja vender uma caminhonete Kei nos EUA",
+    "es": "Toyota planea vender una camioneta Kei en EE. UU.",
+    "it": "Toyota prevede di vendere un camioncino Kei negli Stati Uniti",
+    "zh": "丰田计划在美国销售 Kei 皮卡车",
+    "fr": "Toyota envisage de vendre une camionnette Kei aux États-Unis",
+    "ar": "تخطط تويوتا لبيع شاحنة Kei Pickup في الولايات المتحدة",
+    "de": "Toyota plant, einen Kei-Pickup-Truck in den USA zu verkaufen.",
+    "el": "Η Toyota σχεδιάζει να πουλήσει ένα Pickup Truck Kei στις Η.Π.Α."
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "What Is Congress’s Plan to Speed Up Energy Permits?",
+   "url": "https://www.nytimes.com/2026/11/09/climate/congress-energy-permitting-reform-vote.html",
+   "date": "2026-11-10T20:29:54+00:00",
+   "t": {
+    "pt": "Qual é o plano do Congresso para acelerar as licenças de energia?",
+    "es": "¿Cuál es el plan del Congreso para acelerar los permisos energéticos?",
+    "it": "Qual è il piano del Congresso per accelerare i permessi energetici?",
+    "zh": "国会加速能源许可的计划是什么？",
+    "fr": "Quel est le plan du Congrès pour accélérer les permis énergétiques ?",
+    "ar": "ما هي خطة الكونجرس لتسريع تصاريح الطاقة؟",
+    "de": "Was ist der Plan des Kongresses, die Energiegenehmigungen zu beschleunigen?",
+    "el": "Ποιο είναι το σχέδιο του Κογκρέσου για την επιτάχυνση των ενεργειακών αδειών;"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "From Climate Activism to the House of Representatives",
+   "url": "https://www.nytimes.com/2026/11/10/climate/william-lawrence-sunrise-congress.html",
+   "date": "2026-11-10T20:18:17+00:00",
+   "t": {
+    "pt": "Do ativismo climático à Câmara dos Representantes",
+    "es": "Del activismo climático a la Cámara de Representantes",
+    "it": "Dall’attivismo climatico alla Camera dei rappresentanti",
+    "zh": "从气候行动主义到众议院",
+    "fr": "De l’activisme climatique à la Chambre des représentants",
+    "ar": "من النشاط المناخي إلى مجلس النواب",
+    "de": "Vom Klimaaktivismus bis zum Repräsentantenhaus",
+    "el": "Από τον ακτιβισμό για το κλίμα στη Βουλή των Αντιπροσώπων"
+   }
+  },
   {
    "source": "NYTIMES",
    "title": "How an Italian Capital of Design Is Coping with Climate Change",
@@ -15,22 +63,6 @@
     "ar": "كيف تتعامل عاصمة التصميم الإيطالية مع تغير المناخ",
     "de": "Wie eine italienische Designhauptstadt mit dem Klimawandel umgeht",
     "el": "Πώς μια ιταλική πρωτεύουσα σχεδιασμού αντιμετωπίζει την κλιματική αλλαγή"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Oil Prices Have Tumbled in November. Here’s Why.",
-   "url": "https://www.nytimes.com/2026/11/09/business/energy-environment/oil-price-iran-trump-war.html",
-   "date": "2026-11-10T15:59:29+00:00",
-   "t": {
-    "pt": "Os preços do petróleo caíram em novembro. Aqui está o porquê.",
-    "es": "Los precios del petróleo han caído en noviembre. He aquí por qué.",
-    "it": "I prezzi del petrolio sono crollati a novembre. Ecco perché.",
-    "zh": "11 月份油价暴跌。这就是为什么。",
-    "fr": "Les prix du pétrole ont chuté en novembre. Voici pourquoi.",
-    "ar": "تراجعت أسعار النفط في نوفمبر. إليكم السبب.",
-    "de": "Die Ölpreise sind im November gefallen. Hier erfahren Sie, warum.",
-    "el": "Οι τιμές του πετρελαίου υποχώρησαν τον Νοέμβριο. Εδώ είναι γιατί."
    }
   },
   {
@@ -67,34 +99,18 @@
   },
   {
    "source": "GUARDIAN",
-   "title": "Jimmy Carter’s Georgia farm to open to the public: ‘This land shaped him and his legacy’",
+   "title": "Jimmy Carter’s Georgia farm acquired by conservation group planning to open it to public",
    "url": "https://www.theguardian.com/us-news/2026/nov/10/jimmy-carter-georgia-farm-conserved-open-to-public",
    "date": "2026-11-10T15:01:41+00:00",
    "t": {
-    "pt": "Fazenda de Jimmy Carter na Geórgia será aberta ao público: ‘Esta terra moldou ele e seu legado’",
-    "es": "La granja de Jimmy Carter en Georgia se abrirá al público: \"Esta tierra le dio forma a él y a su legado\"",
-    "it": "La fattoria di Jimmy Carter in Georgia aprirà al pubblico: “Questa terra ha plasmato lui e la sua eredità”",
-    "zh": "吉米·卡特的乔治亚农场向公众开放：“这片土地塑造了他和他的遗产”",
-    "fr": "La ferme de Jimmy Carter en Géorgie va ouvrir au public : « Cette terre l'a façonné ainsi que son héritage »",
-    "ar": "مزرعة جيمي كارتر في جورجيا مفتوحة للجمهور: \"هذه الأرض شكلته وإرثه\"",
-    "de": "Jimmy Carters Farm in Georgia wird der Öffentlichkeit zugänglich gemacht: „Dieses Land hat ihn und sein Vermächtnis geprägt“",
-    "el": "Το αγρόκτημα Τζίμι Κάρτερ στη Τζόρτζια θα ανοίξει στο κοινό: «Αυτή η γη διαμόρφωσε αυτόν και την κληρονομιά του»"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Iran War Unexpectedly Drove Down Carbon Emissions This Year",
-   "url": "https://www.nytimes.com/2026/11/09/climate/global-emissions-iran-war.html",
-   "date": "2026-11-10T13:40:41+00:00",
-   "t": {
-    "pt": "A Guerra do Irã reduziu inesperadamente as emissões de carbono este ano",
-    "es": "La guerra de Irán redujo inesperadamente las emisiones de carbono este año",
-    "it": "La guerra in Iran ha inaspettatamente ridotto le emissioni di carbonio quest’anno",
-    "zh": "伊朗战争意外降低了今年的碳排放量",
-    "fr": "La guerre en Iran a fait baisser les émissions de carbone de manière inattendue cette année",
-    "ar": "أدت حرب إيران إلى خفض انبعاثات الكربون بشكل غير متوقع هذا العام",
-    "de": "Der Iran-Krieg führte dieses Jahr unerwartet zu einem Rückgang der CO2-Emissionen",
-    "el": "Ο πόλεμος του Ιράν μείωσε απροσδόκητα τις εκπομπές άνθρακα φέτος"
+    "pt": "Fazenda de Jimmy Carter na Geórgia adquirida por grupo conservacionista que planeja abri-la ao público",
+    "es": "La granja de Jimmy Carter en Georgia adquirida por un grupo conservacionista que planea abrirla al público",
+    "it": "La fattoria della Georgia di Jimmy Carter acquisita da un gruppo ambientalista che prevede di aprirla al pubblico",
+    "zh": "吉米卡特的佐治亚农场被保护组织收购，计划向公众开放",
+    "fr": "La ferme de Jimmy Carter en Géorgie acquise par un groupe de conservation prévoyant de l'ouvrir au public",
+    "ar": "مزرعة جيمي كارتر في جورجيا التي استحوذت عليها مجموعة الحفاظ على البيئة وتخطط لفتحها للجمهور",
+    "de": "Jimmy Carters Farm in Georgia wurde von einer Naturschutzgruppe erworben, die plant, sie der Öffentlichkeit zugänglich zu machen",
+    "el": "Το αγρόκτημα Τζίμι Κάρτερ στη Τζόρτζια εξαγοράστηκε από ομάδα προστασίας που σχεδιάζει να το ανοίξει στο κοινό"
    }
   },
   {
@@ -127,22 +143,6 @@
     "ar": "يقول جون كيري إنه يتعين على الولايات المتحدة وبقية دول العالم أن تحذو حذو الصين في مجال الطاقة الخضراء",
     "de": "Die USA und der Rest der Welt müssen Chinas Beispiel für grüne Energie folgen, sagt John Kerry",
     "el": "Οι ΗΠΑ και ο υπόλοιπος κόσμος πρέπει να ακολουθήσουν το παράδειγμα της Κίνας στην πράσινη ενέργεια, λέει ο Τζον Κέρι"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "A New York Times Reporter on El Niño and His California Childhood",
-   "url": "https://www.nytimes.com/2026/11/10/insider/el-nino-california-climate.html",
-   "date": "2026-11-10T10:05:08+00:00",
-   "t": {
-    "pt": "Um repórter do New York Times sobre El Niño e sua infância na Califórnia",
-    "es": "Un reportero del New York Times sobre El Niño y su infancia en California",
-    "it": "Un giornalista del New York Times su El Niño e la sua infanzia in California",
-    "zh": "《纽约时报》记者讲述厄尔尼诺现象和他的加州童年",
-    "fr": "Un journaliste du New York Times sur El Niño et son enfance californienne",
-    "ar": "مراسل نيويورك تايمز عن ظاهرة النينيو وطفولته في كاليفورنيا",
-    "de": "Ein Reporter der New York Times über El Niño und seine Kindheit in Kalifornien",
-    "el": "Ρεπόρτερ των New York Times για το El Niño και τα παιδικά του χρόνια στην Καλιφόρνια"
    }
   },
   {
