@@ -1,43 +1,107 @@
 {
- "updated": "2026-11-11T10:52:38.591065+00:00",
+ "updated": "2026-11-11T18:41:25.173055+00:00",
  "items": [
   {
-   "source": "GUARDIAN",
-   "title": "Cop31 live: ‘Fossil fuels must go the way of the dinosaurs’ - UN chief hits out at industry lobbying",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/11/climate-crisis-talks-turkey-latest-news-updates",
-   "date": "2026-11-11T10:25:49+00:00",
+   "source": "NYTIMES",
+   "title": "The S.S. United States, a Historic Supership, Heads to the Ocean Floor",
+   "url": "https://www.nytimes.com/2026/11/11/climate/ss-united-states-ship-sinking-artificial-reef-florida.html",
+   "date": "2026-11-11T18:38:08+00:00",
    "t": {
-    "pt": "Cop31 ao vivo: ‘Os combustíveis fósseis devem seguir o caminho dos dinossauros’ – Chefe da ONU ataca o lobby da indústria",
-    "es": "Cop31 en vivo: “Los combustibles fósiles deben seguir el camino de los dinosaurios”: el jefe de la ONU ataca el lobby de la industria",
-    "it": "Cop31 in diretta: “I combustibili fossili devono fare la fine dei dinosauri” – il capo delle Nazioni Unite attacca le lobby dell’industria",
-    "zh": "第 31 届缔约方大会直播：“化石燃料必须走恐龙之路”——联合国秘书长猛烈抨击行业游说",
-    "fr": "Cop31 en direct : « Les combustibles fossiles doivent suivre la voie des dinosaures » - Le chef de l'ONU s'en prend au lobbying de l'industrie",
-    "ar": "Cop31 Live: \"الوقود الأحفوري يجب أن يسير في طريق الديناصورات\" - الأمين العام للأمم المتحدة ينتقد الضغط الذي تمارسه الصناعة",
-    "de": "Cop31 live: „Fossile Brennstoffe müssen den Weg der Dinosaurier gehen“ – UN-Chef kritisiert Branchenlobbyismus",
-    "el": "Cop31 live: «Τα ορυκτά καύσιμα πρέπει να ακολουθήσουν τον δρόμο των δεινοσαύρων» - Ο επικεφαλής του ΟΗΕ χτυπά τα λόμπι της βιομηχανίας"
+    "pt": "O S.S. Estados Unidos, um supernavio histórico, dirige-se ao fundo do oceano",
+    "es": "El S.S. United States, un superbuque histórico, se dirige al fondo del océano",
+    "it": "La S.S. United States, una supernave storica, si dirige verso il fondale oceanico",
+    "zh": "历史悠久的超级舰美国号驶向海底",
+    "fr": "Le S.S. United States, un supernavire historique, se dirige vers le fond de l'océan",
+    "ar": "الولايات المتحدة، سفينة عملاقة تاريخية، تتجه إلى قاع المحيط",
+    "de": "Die S.S. United States, ein historisches Superschiff, steuert auf den Meeresboden zu",
+    "el": "Το S.S. Ηνωμένες Πολιτείες, ένα ιστορικό υπερόπλο, κατευθύνεται στον πυθμένα του ωκεανού"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "KKR and RWE are rich firms. Why do they need a UK state loan for their windfarms? | Nils Pratley",
+   "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/nov/11/kkr-rwe-uk-state-loan-vanguard-windfarms",
+   "date": "2026-11-11T18:15:26+00:00",
+   "t": {
+    "pt": "KKR e RWE são empresas ricas. Por que precisam de um empréstimo estatal do Reino Unido para os seus parques eólicos? | Nils Pratley",
+    "es": "KKR y RWE son empresas ricas. ¿Por qué necesitan un préstamo estatal del Reino Unido para sus parques eólicos? | Nils Pratley",
+    "it": "KKR e RWE sono aziende ricche. Perché hanno bisogno di un prestito statale nel Regno Unito per i loro parchi eolici? | Nils Pratley",
+    "zh": "KKR 和 RWE 都是富有的公司。为什么他们的风电场需要英国国家贷款？ |尼尔斯·普拉特利",
+    "fr": "KKR et RWE sont des entreprises riches. Pourquoi ont-ils besoin d’un prêt de l’État britannique pour leurs parcs éoliens ? | Nils Pratley",
+    "ar": "KKR و RWE هما شركتان غنيتان. لماذا يحتاجون إلى قرض من الدولة البريطانية لمزارع الرياح الخاصة بهم؟ | نيلز براتلي",
+    "de": "KKR und RWE sind reiche Unternehmen. Warum brauchen sie einen britischen Staatskredit für ihre Windparks? | Nils Pratley",
+    "el": "Η KKR και η RWE είναι πλούσιες εταιρείες. Γιατί χρειάζονται ένα κρατικό δάνειο του Ηνωμένου Βασιλείου για τα αιολικά τους πάρκα; | Nils Pratley"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Recalling the S.S. United States as It Becomes a Florida Reef",
+   "url": "https://www.nytimes.com/2026/11/11/insider/ss-united-states-destin-florida-memories.html",
+   "date": "2026-11-11T18:14:57+00:00",
+   "t": {
+    "pt": "Relembrando o S.S. Estados Unidos quando ele se torna um recife da Flórida",
+    "es": "Recordando el S.S. Estados Unidos mientras se convierte en un arrecife de Florida",
+    "it": "Ricordando la SS degli Stati Uniti mentre diventa una barriera corallina della Florida",
+    "zh": "回顾美国号成为佛罗里达礁石",
+    "fr": "Rappel du SS United States alors qu'il devient un récif de Floride",
+    "ar": "إذ يشير إلى الولايات المتحدة الأمريكية عندما تصبح شعابًا مرجانية في فلوريدا",
+    "de": "Erinnerung an die S.S. Vereinigte Staaten, wie sie zu einem Florida-Riff wird",
+    "el": "Ανακαλώντας το S.S. Ηνωμένες Πολιτείες καθώς γίνονται ύφαλος της Φλόριντα"
    }
   },
   {
    "source": "AL JAZEERA",
-   "title": "Gaza’s infrastructure collapse leaves residents defenceless against floods",
-   "url": "https://www.aljazeera.com/news/2026/11/11/gaza-infrastructure-collapse-leaves-residents-defenceless-against-floods?traffic_source=rss",
-   "date": "2026-11-11T10:12:37+00:00",
+   "title": "Portugal cancels more than 300 flights, shuts schools due to Storm Charles",
+   "url": "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss",
+   "date": "2026-11-11T17:46:40+00:00",
    "t": {
-    "pt": "O colapso da infra-estrutura de Gaza deixa os residentes indefesos contra as inundações",
-    "es": "El colapso de la infraestructura de Gaza deja a los residentes indefensos ante las inundaciones",
-    "it": "Il collasso delle infrastrutture di Gaza lascia i residenti indifesi contro le inondazioni",
-    "zh": "加沙基础设施崩溃导致居民在洪水面前毫无防御能力",
-    "fr": "L’effondrement des infrastructures de Gaza laisse les habitants sans défense face aux inondations",
-    "ar": "انهيار البنية التحتية في غزة يترك السكان بلا حماية ضد الفيضانات",
-    "de": "Der Zusammenbruch der Infrastruktur im Gazastreifen macht die Bewohner den Überschwemmungen schutzlos ausgeliefert",
-    "el": "Η κατάρρευση των υποδομών της Γάζας αφήνει τους κατοίκους ανυπεράσπιστους έναντι των πλημμυρών"
+    "pt": "Portugal cancela mais de 300 voos e fecha escolas devido à tempestade Charles",
+    "es": "Portugal cancela más de 300 vuelos y cierra escuelas debido a la tormenta Charles",
+    "it": "Il Portogallo cancella più di 300 voli, chiude le scuole a causa della tempesta Charles",
+    "zh": "葡萄牙因查尔斯风暴取消300多个航班并关闭学校",
+    "fr": "Le Portugal annule plus de 300 vols et ferme des écoles à cause de la tempête Charles",
+    "ar": "البرتغال تلغي أكثر من 300 رحلة جوية وتغلق المدارس بسبب العاصفة تشارلز",
+    "de": "Portugal streicht wegen Sturm Charles mehr als 300 Flüge und schließt Schulen",
+    "el": "Η Πορτογαλία ακυρώνει περισσότερες από 300 πτήσεις και κλείνει τα σχολεία λόγω της καταιγίδας Charles"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "‘Fight Harder,’ U.N. Chief António Guterres Implores, Rousing Climate Ambassadors at COP31",
+   "url": "https://www.nytimes.com/2026/11/11/climate/cop31-antonio-guterres-un.html",
+   "date": "2026-11-11T17:27:55+00:00",
+   "t": {
+    "pt": "‘Lute mais’, implora o chefe da ONU, António Guterres, estimulando os embaixadores do clima na COP31",
+    "es": "“Luchen más duro”, implora el jefe de la ONU, António Guterres, animando a los embajadores climáticos en la COP31",
+    "it": "\"Combattere più duramente\", implora il capo delle Nazioni Unite António Guterres, suscitando l'entusiasmo degli ambasciatori del clima alla COP31",
+    "zh": "联合国秘书长安东尼奥·古特雷斯在 COP31 上呼吁气候大使“更加努力地战斗”",
+    "fr": "« Combattez plus fort », implore le chef de l'ONU, António Guterres, en encourageant les ambassadeurs du climat à la COP31",
+    "ar": "\"قاتلوا بقوة أكبر\"، يناشد الأمين العام للأمم المتحدة أنطونيو غوتيريس، سفراء المناخ المثيرين في مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31)",
+    "de": "„Kämpft härter“, fleht UN-Chef António Guterres und rüttelt die Klimabotschafter auf der COP31 auf",
+    "el": "«Πολεμήστε σκληρότερα», εκλιπαρεί ο Αρχηγός των Ηνωμένων Εθνών Αντόνιο Γκουτέρες, ξεσηκώνοντας τους πρεσβευτές για το κλίμα στο COP31"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Cop31 as it happened: ‘Fossil fuels must go the way of the dinosaurs’ - UN chief hits out at industry lobbying",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/11/climate-crisis-talks-turkey-latest-news-updates",
+   "date": "2026-11-11T17:26:42+00:00",
+   "t": {
+    "pt": "Cop31 como aconteceu: ‘Os combustíveis fósseis devem seguir o caminho dos dinossauros’ – Chefe da ONU ataca o lobby da indústria",
+    "es": "Cop31 como sucedió: “Los combustibles fósiles deben seguir el camino de los dinosaurios”: el jefe de la ONU ataca al lobby de la industria",
+    "it": "Cop31 come è successo: “I combustibili fossili devono fare la fine dei dinosauri” – il capo delle Nazioni Unite attacca le lobby dell’industria",
+    "zh": "第三十一届缔约方大会：“化石燃料必须走恐龙之路”——联合国秘书长猛烈抨击行业游说",
+    "fr": "Cop31 : « Les combustibles fossiles doivent suivre la voie des dinosaures » - Le chef de l'ONU s'en prend au lobbying de l'industrie",
+    "ar": "Cop31 كما حدث: \"الوقود الأحفوري يجب أن يذهب في طريق الديناصورات\" - الأمين العام للأمم المتحدة ينتقد الضغط الذي تمارسه الصناعة",
+    "de": "Cop31, wie es geschah: „Fossile Brennstoffe müssen den Weg der Dinosaurier gehen“ – UN-Chef kritisiert Industrielobbyismus",
+    "el": "Cop31 όπως συνέβη: «Τα ορυκτά καύσιμα πρέπει να ακολουθήσουν τον δρόμο των δεινοσαύρων» - Ο επικεφαλής του ΟΗΕ χτυπά τα λόμπι της βιομηχανίας"
    }
   },
   {
    "source": "NYTIMES",
    "title": "Heating Costs Will Rise 7% on Average This Winter",
    "url": "https://www.nytimes.com/2026/11/11/business/energy-environment/winter-heating-oil-costs.html",
-   "date": "2026-11-11T10:04:21+00:00",
+   "date": "2026-11-11T17:16:17+00:00",
    "t": {
     "pt": "Os custos de aquecimento aumentarão em média 7% neste inverno",
     "es": "Los costos de calefacción aumentarán un 7% en promedio este invierno",
@@ -47,6 +111,102 @@
     "ar": "سترتفع تكاليف التدفئة بنسبة 7% في المتوسط هذا الشتاء",
     "de": "Die Heizkosten werden in diesem Winter durchschnittlich um 7 % steigen",
     "el": "Το κόστος θέρμανσης θα αυξηθεί κατά 7% κατά μέσο όρο αυτό το χειμώνα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Labour MPs warn against weakening electric vehicle targets ahead of crunch talks",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/11/labour-mps-electric-vehicle-targets",
+   "date": "2026-11-11T16:01:41+00:00",
+   "t": {
+    "pt": "Deputados trabalhistas alertam contra o enfraquecimento das metas de veículos elétricos antes das negociações decisivas",
+    "es": "Los parlamentarios laboristas advierten contra el debilitamiento de los objetivos de vehículos eléctricos antes de las conversaciones cruciales",
+    "it": "I parlamentari laburisti mettono in guardia contro l’indebolimento degli obiettivi relativi ai veicoli elettrici in vista dei colloqui cruciali",
+    "zh": "工党议员警告在关键谈判之前不要削弱电动汽车目标",
+    "fr": "Les députés travaillistes mettent en garde contre un affaiblissement des objectifs en matière de véhicules électriques avant les négociations cruciales",
+    "ar": "يحذر نواب حزب العمال من إضعاف أهداف السيارات الكهربائية قبل المحادثات الحاسمة",
+    "de": "Labour-Abgeordnete warnen davor, die Ziele für Elektrofahrzeuge vor den entscheidenden Gesprächen zu schwächen",
+    "el": "Οι Εργατικοί βουλευτές προειδοποιούν για την αποδυνάμωση των στόχων των ηλεκτρικών οχημάτων ενόψει των κρίσιμων συνομιλιών"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Israel is ‘disrupting entire ecosystems’, including Lebanon’s wheat crop",
+   "url": "https://www.aljazeera.com/news/2026/11/11/israel-is-disrupting-entire-ecosystems-including-lebanons-wheat-crop?traffic_source=rss",
+   "date": "2026-11-11T15:48:39+00:00",
+   "t": {
+    "pt": "Israel está “perturbando ecossistemas inteiros”, incluindo a colheita de trigo do Líbano",
+    "es": "Israel está “perturbando ecosistemas enteros”, incluida la cosecha de trigo del Líbano",
+    "it": "Israele sta “disturbando interi ecosistemi”, compreso il raccolto di grano del Libano",
+    "zh": "以色列正在“破坏整个生态系统”，包括黎巴嫩的小麦作物",
+    "fr": "Israël « perturbe des écosystèmes entiers », y compris la récolte de blé du Liban",
+    "ar": "تعمل إسرائيل على \"تعطيل النظم البيئية بأكملها\"، بما في ذلك محصول القمح في لبنان",
+    "de": "Israel „stört ganze Ökosysteme“, darunter auch die Weizenernte im Libanon",
+    "el": "Το Ισραήλ «διαταράσσει ολόκληρα οικοσυστήματα», συμπεριλαμβανομένης της καλλιέργειας σιταριού του Λιβάνου"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Toby Jones stars in film about UK Mars mission",
+   "url": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-11T14:10:11+00:00",
+   "t": {
+    "pt": "Toby Jones estrela filme sobre missão britânica a Marte",
+    "es": "Toby Jones protagoniza una película sobre la misión británica a Marte",
+    "it": "Toby Jones è il protagonista del film sulla missione su Marte nel Regno Unito",
+    "zh": "托比·琼斯主演有关英国火星任务的电影",
+    "fr": "Toby Jones joue dans un film sur la mission britannique sur Mars",
+    "ar": "توبي جونز يلعب دور البطولة في فيلم عن مهمة المملكة المتحدة إلى المريخ",
+    "de": "Toby Jones spielt die Hauptrolle in einem Film über die britische Marsmission",
+    "el": "Ο Τόμπι Τζόουνς πρωταγωνιστεί στην ταινία για την αποστολή του Ηνωμένου Βασιλείου στον Άρη"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "‘Our neighbours are gone’: Gaza survivors recount horrors of deadly floods",
+   "url": "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
+   "date": "2026-11-11T14:04:17+00:00",
+   "t": {
+    "pt": "‘Nossos vizinhos se foram’: sobreviventes de Gaza relatam os horrores das enchentes mortais",
+    "es": "“Nuestros vecinos se han ido”: los supervivientes de Gaza relatan los horrores de las inundaciones mortales",
+    "it": "“I nostri vicini se ne sono andati”: i sopravvissuti di Gaza raccontano gli orrori delle inondazioni mortali",
+    "zh": "“我们的邻居消失了”：加沙幸存者讲述致命洪水的恐怖",
+    "fr": "« Nos voisins sont partis » : des survivants de Gaza racontent les horreurs des inondations meurtrières",
+    "ar": "\"جيراننا رحلوا\": الناجون من غزة يروون أهوال الفيضانات القاتلة",
+    "de": "„Unsere Nachbarn sind weg“: Gaza-Überlebende berichten von schrecklichen tödlichen Überschwemmungen",
+    "el": "«Οι γείτονές μας έχουν φύγει»: Οι επιζώντες της Γάζας αφηγούνται τη φρίκη των φονικών πλημμυρών"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Anthony Albanese fails to mention fossil fuels in Cop summit speech",
+   "url": "https://www.theguardian.com/environment/2026/nov/11/anthony-albanese-avoids-mention-of-fossil-fuels-in-cop-summit-speech",
+   "date": "2026-11-11T13:57:22+00:00",
+   "t": {
+    "pt": "Anthony Albanese não menciona os combustíveis fósseis no discurso da cúpula do Cop",
+    "es": "Anthony Albanese no menciona los combustibles fósiles en el discurso de la cumbre de la policía",
+    "it": "Anthony Albanese non menziona i combustibili fossili nel discorso del vertice della polizia",
+    "zh": "安东尼·艾博尼斯在缔约方峰会演讲中没有提及化石燃料",
+    "fr": "Anthony Albanese omet de mentionner les combustibles fossiles dans son discours au sommet de la Cop",
+    "ar": "فشل أنتوني ألبانيز في ذكر الوقود الأحفوري في خطاب قمة Cop",
+    "de": "Anthony Albanese erwähnt in seiner Rede zum Cop-Gipfel fossile Brennstoffe nicht",
+    "el": "Ο Anthony Albanese παραλείπει να αναφέρει τα ορυκτά καύσιμα στην ομιλία της συνόδου κορυφής της αστυνομίας"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+   "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-11T13:24:29+00:00",
+   "t": {
+    "pt": "Quatro ursos pardos mortos no Canadá após ataque fatal a mãe e filha",
+    "es": "Cuatro osos grizzly muertos en Canadá tras ataque fatal a madre e hija",
+    "it": "Quattro orsi grizzly uccisi in Canada dopo aver attaccato mortalmente madre e figlia",
+    "zh": "加拿大四只灰熊母女遇袭身亡",
+    "fr": "Quatre grizzlis tués au Canada après une attaque mortelle contre une mère et sa fille",
+    "ar": "مقتل أربعة دببة رمادية في كندا بعد هجوم مميت على الأم وابنتها",
+    "de": "In Kanada wurden vier Grizzlybären nach einem tödlichen Angriff auf Mutter und Tochter getötet",
+    "el": "Τέσσερις αρκούδες γκρίζλι σκοτώθηκαν στον Καναδά μετά από θανατηφόρα επίθεση σε μητέρα και κόρη"
    }
   },
   {
@@ -63,70 +223,6 @@
     "ar": "يتم غرق سفينة ضخمة قبالة فلوريدا لإنشاء شعاب مرجانية صناعية",
     "de": "Vor Florida wird ein riesiges Schiff versenkt, um ein künstliches Riff zu errichten",
     "el": "Ένα τεράστιο πλοίο βυθίζεται ανοιχτά της Φλόριντα για να φτιάξει έναν τεχνητό ύφαλο"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Burnham lauds £12bn offshore wind investment as he prepares for climate summit",
-   "url": "https://www.theguardian.com/environment/2026/nov/11/burnham-offshore-wind-investment-norfolk-climate-summit-cop31-jackdaw-gasfield",
-   "date": "2026-11-11T09:46:18+00:00",
-   "t": {
-    "pt": "Burnham elogia investimento eólico offshore de £ 12 bilhões enquanto se prepara para a cúpula do clima",
-    "es": "Burnham elogia la inversión de £12 mil millones en energía eólica marina mientras se prepara para la cumbre sobre el clima",
-    "it": "Burnham elogia gli investimenti nell’eolico offshore da 12 miliardi di sterline mentre si prepara al vertice sul clima",
-    "zh": "伯纳姆赞扬 120 亿英镑的海上风电投资，为气候峰会做准备",
-    "fr": "Burnham salue un investissement de 12 milliards de livres sterling dans l’éolien offshore alors qu’il se prépare au sommet sur le climat",
-    "ar": "يشيد بورنهام باستثمارات طاقة الرياح البحرية بقيمة 12 مليار جنيه إسترليني بينما يستعد لقمة المناخ",
-    "de": "Burnham lobt Offshore-Windinvestitionen in Höhe von 12 Milliarden Pfund, während er sich auf den Klimagipfel vorbereitet",
-    "el": "Ο Μπέρναμ επαινεί την επένδυση 12 δισεκατομμυρίων λιρών υπεράκτιας αιολικής ενέργειας καθώς προετοιμάζεται για τη σύνοδο κορυφής για το κλίμα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Ed Miliband: climate crisis puts national security of all countries at risk",
-   "url": "https://www.theguardian.com/environment/2026/nov/11/ed-miliband-national-security-climate-crisis-cop31",
-   "date": "2026-11-11T09:09:47+00:00",
-   "t": {
-    "pt": "Ed Miliband: crise climática coloca em risco a segurança nacional de todos os países",
-    "es": "Ed Miliband: la crisis climática pone en riesgo la seguridad nacional de todos los países",
-    "it": "Ed Miliband: la crisi climatica mette a rischio la sicurezza nazionale di tutti i paesi",
-    "zh": "埃德·米利班德：气候危机使所有国家的国家安全面临风险",
-    "fr": "Ed Miliband : la crise climatique met en danger la sécurité nationale de tous les pays",
-    "ar": "إد ميليباند: أزمة المناخ تعرض الأمن القومي لجميع البلدان للخطر",
-    "de": "Ed Miliband: Die Klimakrise gefährdet die nationale Sicherheit aller Länder",
-    "el": "Ed Miliband: Η κλιματική κρίση θέτει σε κίνδυνο την εθνική ασφάλεια όλων των χωρών"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Bird flu has caused catastrophic die-offs – could a wave of extinctions follow?",
-   "url": "https://www.theguardian.com/environment/2026/nov/11/wildlife-bird-flu-killed-millions-animals-iucn-endangered-red-list-aoe",
-   "date": "2026-11-11T09:00:35+00:00",
-   "t": {
-    "pt": "A gripe aviária causou mortes catastróficas – poderá ocorrer uma onda de extinções?",
-    "es": "La gripe aviar ha provocado mortandades catastróficas: ¿podría seguir una ola de extinciones?",
-    "it": "L’influenza aviaria ha causato morti catastrofiche: potrebbe seguirne un’ondata di estinzioni?",
-    "zh": "禽流感造成了灾难性的死亡——接下来会出现一波灭绝浪潮吗？",
-    "fr": "La grippe aviaire a provoqué des décès catastrophiques – une vague d’extinctions pourrait-elle s’ensuivre ?",
-    "ar": "تسببت أنفلونزا الطيور في حالات نفوق كارثية، فهل يمكن أن تتبعها موجة من الانقراض؟",
-    "de": "Die Vogelgrippe hat zu katastrophalen Artensterben geführt – könnte eine Aussterbewelle folgen?",
-    "el": "Η γρίπη των πτηνών έχει προκαλέσει καταστροφικούς θανάτους – θα μπορούσε να ακολουθήσει ένα κύμα εξαφανίσεων;"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "The United States Is Skipping COP31 in Turkey",
-   "url": "https://www.nytimes.com/2026/11/11/climate/trump-cop31-climate-turkey.html",
-   "date": "2026-11-11T08:21:07+00:00",
-   "t": {
-    "pt": "Os Estados Unidos estão pulando a COP31 na Turquia",
-    "es": "Estados Unidos se salta la COP31 en Turquía",
-    "it": "Gli Stati Uniti saltano la COP31 in Turchia",
-    "zh": "美国将跳过在土耳其举行的 COP31",
-    "fr": "Les États-Unis sautent la COP31 en Turquie",
-    "ar": "الولايات المتحدة تتخطى مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31) في تركيا",
-    "de": "Die USA verzichten auf die COP31 in der Türkei",
-    "el": "Οι Ηνωμένες Πολιτείες παρακάμπτουν το COP31 στην Τουρκία"
    }
   },
   {
@@ -194,67 +290,67 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Duchy tenants may have to buy farms or leave as Prince William plans sell-off",
-   "url": "https://www.bbc.co.uk/news/articles/cwm242plggldo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-11T00:35:14+00:00",
+   "source": "NATURE",
+   "title": "Too dry for cacti: extreme droughts could push iconic species to extinction",
+   "url": "https://www.nature.com/articles/d41586-026-03671-2",
+   "date": "2026-11-11T00:00:00+00:00",
    "t": {
-    "pt": "Os inquilinos do Ducado podem ter que comprar fazendas ou sair, já que o Príncipe William planeja a liquidação",
-    "es": "Es posible que los inquilinos del ducado tengan que comprar granjas o irse mientras el príncipe William planea venderlas",
-    "it": "Gli inquilini del Ducato potrebbero essere costretti ad acquistare fattorie o ad andarsene mentre il principe William pianifica la svendita",
-    "zh": "由于威廉王子计划出售，公国租户可能不得不购买农场或离开",
-    "fr": "Les locataires du duché pourraient devoir acheter des fermes ou partir alors que le prince William envisage de les vendre",
-    "ar": "قد يضطر مستأجرو الدوقية إلى شراء المزارع أو المغادرة حيث يخطط الأمير ويليام للبيع",
-    "de": "Pächter des Herzogtums müssen möglicherweise Farmen kaufen oder gehen, da Prinz William einen Ausverkauf plant",
-    "el": "Οι ένοικοι του Δουκάτου μπορεί να χρειαστεί να αγοράσουν αγροκτήματα ή να φύγουν καθώς ο πρίγκιπας Γουίλιαμ σχεδιάζει να πουλήσει"
+    "pt": "Muito seco para cactos: secas extremas podem levar espécies icônicas à extinção",
+    "es": "Demasiado seco para los cactus: las sequías extremas podrían llevar a la extinción a especies icónicas",
+    "it": "Troppo secco per i cactus: siccità estreme potrebbero portare all’estinzione specie iconiche",
+    "zh": "仙人掌太干燥：极端干旱可能导致标志性物种灭绝",
+    "fr": "Trop sec pour les cactus : des sécheresses extrêmes pourraient pousser des espèces emblématiques à l'extinction",
+    "ar": "جاف جدًا بالنسبة للصبار: قد يؤدي الجفاف الشديد إلى دفع الأنواع المميزة إلى الانقراض",
+    "de": "Zu trocken für Kakteen: Extreme Dürren könnten ikonische Arten zum Aussterben bringen",
+    "el": "Πολύ ξηροί για κάκτους: οι ακραίες ξηρασίες θα μπορούσαν να ωθήσουν τα εικονικά είδη στην εξαφάνιση"
    }
   },
   {
-   "source": "BBC",
-   "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
-   "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-11T00:18:07+00:00",
+   "source": "NATURE",
+   "title": "Getting a grasp on the global wildlife trade",
+   "url": "https://www.nature.com/articles/d41586-026-03591-1",
+   "date": "2026-11-11T00:00:00+00:00",
    "t": {
-    "pt": "'Isso pode nos matar': Quenianos temem o impacto do El Niño com previsão de enchentes",
-    "es": "\"Puede matarnos\": los kenianos temen el impacto de El Niño y se pronostican inundaciones",
-    "it": "\"Può ucciderci\": i keniani temono l'impatto di El Niño con la previsione di inondazioni",
-    "zh": "“它可以杀死我们”：肯尼亚人担心厄尔尼诺现象的影响，预计会发生洪水",
-    "fr": "« Cela peut nous tuer » : les Kenyans craignent l'impact d'El Niño avec des inondations prévues",
-    "ar": "\"يمكن أن تقتلنا\": يخشى الكينيون من تأثير ظاهرة النينيو مع توقع حدوث فيضانات",
-    "de": "„Es kann uns töten“: Kenianer befürchten die Auswirkungen von El Niño und prognostizieren Überschwemmungen",
-    "el": "«Μπορεί να μας σκοτώσει»: Οι Κενυάτες φοβούνται τον αντίκτυπο του Ελ Νίνιο με τις προβλεπόμενες πλημμύρες"
+    "pt": "Entendendo o comércio global de vida selvagem",
+    "es": "Comprender el comercio mundial de vida silvestre",
+    "it": "Comprendere il commercio globale di animali selvatici",
+    "zh": "掌握全球野生动物贸易",
+    "fr": "Mieux comprendre le commerce mondial des espèces sauvages",
+    "ar": "التعرف على التجارة العالمية للحياة البرية",
+    "de": "Den globalen Wildtierhandel verstehen",
+    "el": "Γνωρίζοντας το παγκόσμιο εμπόριο άγριας ζωής"
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "Toyota Plans to Sell a Kei Pickup Truck in the U.S.",
-   "url": "https://www.nytimes.com/2026/11/10/business/toyota-kei-pickup-truck.html",
-   "date": "2026-11-10T22:58:31+00:00",
+   "source": "NATURE",
+   "title": "Even giant anteaters in remote Brazil have microplastics in their blood",
+   "url": "https://www.nature.com/articles/d41586-026-03660-5",
+   "date": "2026-11-11T00:00:00+00:00",
    "t": {
-    "pt": "Toyota planeja vender uma caminhonete Kei nos EUA",
-    "es": "Toyota planea vender una camioneta Kei en EE. UU.",
-    "it": "Toyota prevede di vendere un camioncino Kei negli Stati Uniti",
-    "zh": "丰田计划在美国销售 Kei 皮卡车",
-    "fr": "Toyota envisage de vendre une camionnette Kei aux États-Unis",
-    "ar": "تخطط تويوتا لبيع شاحنة Kei Pickup في الولايات المتحدة",
-    "de": "Toyota plant, einen Kei-Pickup-Truck in den USA zu verkaufen.",
-    "el": "Η Toyota σχεδιάζει να πουλήσει ένα Pickup Truck Kei στις Η.Π.Α."
+    "pt": "Até tamanduás gigantes no remoto Brasil têm microplásticos no sangue",
+    "es": "Incluso los osos hormigueros gigantes del remoto Brasil tienen microplásticos en la sangre",
+    "it": "Anche i formichieri giganti del remoto Brasile hanno microplastiche nel sangue",
+    "zh": "甚至巴西偏远地区的巨型食蚁兽的血液中也含有微塑料",
+    "fr": "Même les fourmiliers géants des régions reculées du Brésil ont des microplastiques dans le sang",
+    "ar": "حتى آكلات النمل العملاقة في المناطق النائية في البرازيل تحتوي على مواد بلاستيكية دقيقة في دمائها",
+    "de": "Selbst Riesenameisenbären im abgelegenen Brasilien haben Mikroplastik im Blut",
+    "el": "Ακόμη και οι γιγάντιοι μυρμηγκοφάγοι στην απομακρυσμένη Βραζιλία έχουν μικροπλαστικά στο αίμα τους"
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "What Is Congress’s Plan to Speed Up Energy Permits?",
-   "url": "https://www.nytimes.com/2026/11/09/climate/congress-energy-permitting-reform-vote.html",
-   "date": "2026-11-10T20:29:54+00:00",
+   "source": "NATURE",
+   "title": "Cacti are severely threatened by drought in a warming world",
+   "url": "https://www.nature.com/articles/d41586-026-03496-z",
+   "date": "2026-11-11T00:00:00+00:00",
    "t": {
-    "pt": "Qual é o plano do Congresso para acelerar as licenças de energia?",
-    "es": "¿Cuál es el plan del Congreso para acelerar los permisos energéticos?",
-    "it": "Qual è il piano del Congresso per accelerare i permessi energetici?",
-    "zh": "国会加速能源许可的计划是什么？",
-    "fr": "Quel est le plan du Congrès pour accélérer les permis énergétiques ?",
-    "ar": "ما هي خطة الكونجرس لتسريع تصاريح الطاقة؟",
-    "de": "Was ist der Plan des Kongresses, die Energiegenehmigungen zu beschleunigen?",
-    "el": "Ποιο είναι το σχέδιο του Κογκρέσου για την επιτάχυνση των ενεργειακών αδειών;"
+    "pt": "Os cactos estão gravemente ameaçados pela seca num mundo em aquecimento",
+    "es": "Los cactus están gravemente amenazados por la sequía en un mundo que se calienta",
+    "it": "I cactus sono gravemente minacciati dalla siccità in un mondo che si riscalda",
+    "zh": "在全球变暖的背景下，仙人掌受到干旱的严重威胁",
+    "fr": "Les cactus sont gravement menacés par la sécheresse dans un monde en réchauffement",
+    "ar": "الصبار مهدد بشدة بالجفاف في عالم يزداد حرارة",
+    "de": "Kakteen sind in einer sich erwärmenden Welt stark von Dürre bedroht",
+    "el": "Οι κάκτοι απειλούνται σοβαρά από την ξηρασία σε έναν κόσμο που θερμαίνεται"
    }
   },
   {
@@ -287,102 +383,6 @@
     "ar": "هل ستدفع أستراليا للخروج من الوقود الأحفوري في محادثات الأمم المتحدة؟",
     "de": "Wird Australien bei UN-Gesprächen auf einen Ausstieg aus fossilen Brennstoffen drängen?",
     "el": "Θα πιέσει η Αυστραλία για έξοδο από τα ορυκτά καύσιμα στις συνομιλίες του ΟΗΕ;"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "The super El Niño is more than a climate shock – it’s a health one, too",
-   "url": "https://www.nature.com/articles/d41586-026-03628-5",
-   "date": "2026-11-09T00:00:00+00:00",
-   "t": {
-    "pt": "O super El Niño é mais do que um choque climático – é também um choque de saúde",
-    "es": "El súper Niño es más que un shock climático: también es un shock sanitario",
-    "it": "Il super El Niño è più di uno shock climatico: è anche uno shock sanitario",
-    "zh": "超级厄尔尼诺现象不仅是一种气候冲击，也是一种健康冲击",
-    "fr": "Le super El Niño est plus qu’un choc climatique : c’est aussi un choc sanitaire",
-    "ar": "إن ظاهرة النينيو الفائقة ليست مجرد صدمة مناخية، بل إنها صدمة صحية أيضا",
-    "de": "Der Super-El Niño ist mehr als ein Klimaschock – er ist auch ein Gesundheitsschock",
-    "el": "Το σούπερ Ελ Νίνιο είναι κάτι περισσότερο από ένα κλιματικό σοκ – είναι και για την υγεία"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "COP31 kicks off as planet faces imminent overshoot of 1.5 °C climate target",
-   "url": "https://www.nature.com/articles/d41586-026-03631-w",
-   "date": "2026-11-09T00:00:00+00:00",
-   "t": {
-    "pt": "A COP31 arranca enquanto o planeta enfrenta uma ultrapassagem iminente da meta climática de 1,5 °C",
-    "es": "La COP31 comienza cuando el planeta se enfrenta a un inminente rebasamiento del objetivo climático de 1,5 °C",
-    "it": "La COP31 prende il via mentre il pianeta rischia di superare l’obiettivo climatico di 1,5°C",
-    "zh": "COP31 开幕，地球面临即将超调 1.5°C 的气候目标",
-    "fr": "La COP31 démarre alors que la planète est confrontée à un dépassement imminent de l’objectif climatique de 1,5 °C",
-    "ar": "ينطلق مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31) في الوقت الذي يواجه فيه الكوكب تجاوزًا وشيكًا لهدف المناخ المتمثل في 1.5 درجة مئوية",
-    "de": "COP31 beginnt, während der Planet vor einer drohenden Überschreitung des 1,5 °C-Klimaziels steht",
-    "el": "Το COP31 ξεκινά καθώς ο πλανήτης αντιμετωπίζει επικείμενη υπέρβαση του κλιματικού στόχου 1,5 °C"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "SS United States, a historic ship will be sunk to create an artificial reef",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
-   "date": "2026-11-08T13:34:34+00:00",
-   "t": {
-    "pt": "SS Estados Unidos, um navio histórico será afundado para criar um recife artificial",
-    "es": "SS Estados Unidos, se hundirá un barco histórico para crear un arrecife artificial",
-    "it": "SS Stati Uniti, una nave storica verrà affondata per creare un reef artificiale",
-    "zh": "SS United，一艘历史悠久的船只将被沉没以建造人工鱼礁",
-    "fr": "SS United States, un navire historique sera coulé pour créer un récif artificiel",
-    "ar": "SS الولايات المتحدة، سيتم غرق سفينة تاريخية لإنشاء الشعاب المرجانية الاصطناعية",
-    "de": "SS United States, ein historisches Schiff wird versenkt, um ein künstliches Riff zu schaffen",
-    "el": "SS Ηνωμένες Πολιτείες, ένα ιστορικό πλοίο θα βυθιστεί για να δημιουργηθεί ένας τεχνητός ύφαλος"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Trump administration moves to lift ban on roadbuilding and logging in national forests",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-5981452/trump-administration-moves-to-lift-ban-on-roadbuilding-and-logging-in-national-forests",
-   "date": "2026-11-08T13:16:04+00:00",
-   "t": {
-    "pt": "A administração Trump toma medidas para suspender a proibição da construção de estradas e da exploração madeireira nas florestas nacionais",
-    "es": "La administración Trump toma medidas para levantar la prohibición de la construcción de carreteras y la tala en los bosques nacionales",
-    "it": "L’amministrazione Trump si muove per revocare il divieto di costruzione di strade e di disboscamento nelle foreste nazionali",
-    "zh": "特朗普政府采取行动取消道路建设和国家森林伐木禁令",
-    "fr": "L’administration Trump décide de lever l’interdiction de la construction de routes et de l’exploitation forestière dans les forêts nationales",
-    "ar": "تتحرك إدارة ترامب لرفع الحظر المفروض على بناء الطرق وقطع الأشجار في الغابات الوطنية",
-    "de": "Die Trump-Regierung will das Verbot des Straßenbaus und der Abholzung in nationalen Wäldern aufheben",
-    "el": "Η κυβέρνηση Τραμπ κινείται για την άρση της απαγόρευσης της κατασκευής δρόμων και της υλοτομίας σε εθνικά δάση"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Climate change is altering the colors we see in the world: an illustrated journey",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-5393776/color-climate-change-coral-lakes",
-   "date": "2026-11-08T11:00:00+00:00",
-   "t": {
-    "pt": "As alterações climáticas estão a alterar as cores que vemos no mundo: uma viagem ilustrada",
-    "es": "El cambio climático está alterando los colores que vemos en el mundo: un viaje ilustrado",
-    "it": "Il cambiamento climatico sta alterando i colori che vediamo nel mondo: un viaggio illustrato",
-    "zh": "气候变化正在改变我们在世界上看到的颜色：图解之旅",
-    "fr": "Le changement climatique modifie les couleurs que nous voyons dans le monde : un voyage illustré",
-    "ar": "تغير المناخ يغير الألوان التي نراها في العالم: رحلة مصورة",
-    "de": "Der Klimawandel verändert die Farben, die wir auf der Welt sehen: eine illustrierte Reise",
-    "el": "Η κλιματική αλλαγή αλλάζει τα χρώματα που βλέπουμε στον κόσμο: ένα εικονογραφημένο ταξίδι"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Hydrogen Derivatives Enable Cost-Effective Carbon Neutrality in China",
-   "url": "https://www.nature.com/articles/s41586-026-11351-4",
-   "date": "2026-11-05T00:00:00+00:00",
-   "t": {
-    "pt": "Derivados de hidrogênio permitem neutralidade de carbono econômica na China",
-    "es": "Los derivados del hidrógeno permiten una neutralidad de carbono rentable en China",
-    "it": "I derivati dell’idrogeno consentono una neutralità del carbonio economicamente vantaggiosa in Cina",
-    "zh": "氢衍生物使中国实现具有成本效益的碳中和",
-    "fr": "Les dérivés de l'hydrogène permettent une neutralité carbone rentable en Chine",
-    "ar": "تعمل مشتقات الهيدروجين على تمكين حياد الكربون بفعالية من حيث التكلفة في الصين",
-    "de": "Wasserstoffderivate ermöglichen kostengünstige CO2-Neutralität in China",
-    "el": "Τα παράγωγα υδρογόνου επιτρέπουν την οικονομικά αποδοτική ουδετερότητα άνθρακα στην Κίνα"
    }
   }
  ]
