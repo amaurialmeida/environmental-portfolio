@@ -1,6 +1,27 @@
 {
- "updated": "2026-11-10T23:16:37.380621+00:00",
+ "updated": "2026-11-11T02:50:13.569892+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Duchy tenants may have to buy farms or leave as Prince William plans sell-off",
+   "url": "https://www.bbc.co.uk/news/articles/cwm242plggldo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-11T00:35:14+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "‘Everything and everyone we love is at stake’: Thunberg slams COP31 talks",
+   "url": "https://www.aljazeera.com/news/2026/11/11/everything-and-everyone-we-love-is-at-stake-thunberg-slams-cop31-talks?traffic_source=rss",
+   "date": "2026-11-11T00:24:27+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+   "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-11T00:18:07+00:00",
+   "t": {}
+  },
   {
    "source": "NYTIMES",
    "title": "Toyota Plans to Sell a Kei Pickup Truck in the U.S.",
@@ -194,38 +215,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "House martin artificial nests scheme set to expand",
-   "url": "https://www.bbc.co.uk/news/articles/c64g1ge73y8lo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-10T07:27:21+00:00",
-   "t": {
-    "pt": "Esquema de ninhos artificiais da House Martin definido para expansão",
-    "es": "El proyecto de nidos artificiales de House Martin se ampliará",
-    "it": "Il progetto di nidi artificiali del balestruccio è destinato ad espandersi",
-    "zh": "马丁家人工巢计划将扩大",
-    "fr": "Le projet de nids artificiels d’hirondelle domestique va s’étendre",
-    "ar": "مخطط أعشاش هاوس مارتن الاصطناعية من المقرر أن يتوسع",
-    "de": "Das Projekt für künstliche Nester für Mehlschwalben soll ausgeweitet werden",
-    "el": "Το σχέδιο τεχνητών φωλιών House Martin επεκτείνεται"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "The swan sanctuary wetland fighting climate change",
-   "url": "https://www.bbc.co.uk/news/articles/c60rleej7dqgo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-10T06:30:29+00:00",
-   "t": {
-    "pt": "A zona húmida do santuário dos cisnes que combate as alterações climáticas",
-    "es": "El humedal santuario de los cisnes que lucha contra el cambio climático",
-    "it": "La zona umida del Santuario del Cigno che combatte il cambiamento climatico",
-    "zh": "天鹅保护区湿地应对气候变化",
-    "fr": "La zone humide du sanctuaire des cygnes lutte contre le changement climatique",
-    "ar": "الأراضي الرطبة في محمية البجعة تكافح تغير المناخ",
-    "de": "Das Schwanenschutzgebiet im Feuchtgebiet kämpft gegen den Klimawandel",
-    "el": "Ο υδροβιότοπος του καταφυγίου των κύκνων καταπολεμά την κλιματική αλλαγή"
-   }
-  },
-  {
    "source": "DW",
    "title": "Iran war oil shock drives dip in global emissions, study shows",
    "url": "https://www.dw.com/en/iran-war-oil-shock-drives-dip-in-global-emissions-study-shows/a-79905937?maca=en-rss-en-all-1573-rdf",
@@ -367,22 +356,6 @@
     "ar": "حطام كوكبي هو الأول من نوعه يحمل أدلة حول مصير نظامنا الشمسي",
     "de": "Das erste Planetenwrack seiner Art birgt Hinweise auf das Schicksal unseres Sonnensystems",
     "el": "Το πρώτο στο είδος του πλανητικά συντρίμμια έχει ενδείξεις για τη μοίρα του ηλιακού μας συστήματος"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
-   "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
-   "date": "2026-10-31T09:00:00+00:00",
-   "t": {
-    "pt": "Os planos para um data center ameaçam a natureza cênica e os céus escuros na Virgínia Ocidental",
-    "es": "Los planes para un centro de datos amenazan la naturaleza escénica y los cielos oscuros en Virginia Occidental",
-    "it": "I progetti per un data center minacciano la natura selvaggia e i cieli bui del West Virginia",
-    "zh": "数据中心计划威胁到西弗吉尼亚州风景优美的荒野和黑暗的天空",
-    "fr": "Les projets de centre de données menacent la nature sauvage et le ciel sombre de la Virginie occidentale",
-    "ar": "تهدد خطط إنشاء مركز بيانات الحياة البرية ذات المناظر الخلابة والسماء المظلمة في ولاية فرجينيا الغربية",
-    "de": "Pläne für ein Rechenzentrum gefährden die malerische Wildnis und den dunklen Himmel in West Virginia",
-    "el": "Τα σχέδια για ένα κέντρο δεδομένων απειλούν τη γραφική ερημιά και τους σκοτεινούς ουρανούς στη Δυτική Βιρτζίνια"
    }
   }
  ]
