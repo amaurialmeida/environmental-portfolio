@@ -1,0 +1,25 @@
+{
+  "name": "Amauri Almeida · Portfólio Ambiental",
+  "short_name": "Amauri Almeida",
+  "description": "Portfólio de pesquisa ambiental e ciência de dados de Amauri Almeida.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a2a3a",
+  "theme_color": "#1a2a3a",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
