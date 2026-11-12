@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T18:41:25.173055+00:00",
+ "updated": "2026-11-12T01:31:33.481457+00:00",
  "items": [
   {
    "source": "NYTIMES",
    "title": "The S.S. United States, a Historic Supership, Heads to the Ocean Floor",
    "url": "https://www.nytimes.com/2026/11/11/climate/ss-united-states-ship-sinking-artificial-reef-florida.html",
-   "date": "2026-11-11T18:38:08+00:00",
+   "date": "2026-11-12T00:15:56+00:00",
    "t": {
     "pt": "O S.S. Estados Unidos, um supernavio histórico, dirige-se ao fundo do oceano",
     "es": "El S.S. United States, un superbuque histórico, se dirige al fondo del océano",
@@ -15,6 +15,54 @@
     "ar": "الولايات المتحدة، سفينة عملاقة تاريخية، تتجه إلى قاع المحيط",
     "de": "Die S.S. United States, ein historisches Superschiff, steuert auf den Meeresboden zu",
     "el": "Το S.S. Ηνωμένες Πολιτείες, ένα ιστορικό υπερόπλο, κατευθύνεται στον πυθμένα του ωκεανού"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
+   "url": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-12T00:12:59+00:00",
+   "t": {
+    "pt": "Queda significativa nos níveis de produtos químicos tóxicos “para sempre” nos rios da Inglaterra",
+    "es": "Caída significativa en los niveles de sustancias químicas tóxicas \"para siempre\" en los ríos de Inglaterra",
+    "it": "Calo significativo dei livelli di sostanze chimiche tossiche “per sempre” nei fiumi inglesi",
+    "zh": "英格兰河流中“永久”有毒化学物质的含量显着下降",
+    "fr": "Baisse significative des niveaux de produits chimiques toxiques « permanents » dans les rivières anglaises",
+    "ar": "انخفاض كبير في مستويات المواد الكيميائية السامة \"للأبد\" في أنهار إنجلترا",
+    "de": "Deutlicher Rückgang des Gehalts an „für immer“ giftigen Chemikalien in Englands Flüssen",
+    "el": "Σημαντική πτώση των επιπέδων τοξικών «για πάντα» χημικών ουσιών στα ποτάμια της Αγγλίας"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "'Summer was a wake-up call, winter could be dire' warning over food supplies",
+   "url": "https://www.bbc.co.uk/news/articles/cmkgev3ldl9ro?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-11T22:48:59+00:00",
+   "t": {
+    "pt": "‘O verão foi um sinal de alerta, o inverno pode ser terrível’, alerta sobre o abastecimento de alimentos",
+    "es": "\"El verano fue una llamada de atención, el invierno podría ser terrible\", advierte sobre el suministro de alimentos",
+    "it": "'L'estate è stata un campanello d'allarme, l'inverno potrebbe essere terribile', un avvertimento sulle scorte di cibo",
+    "zh": "“夏天是警钟，冬天可能是可怕的”食品供应警告",
+    "fr": "\"L'été a été un signal d'alarme, l'hiver pourrait être désastreux\", avertissement concernant les approvisionnements alimentaires",
+    "ar": "\"كان الصيف بمثابة دعوة للاستيقاظ، والشتاء يمكن أن يكون رهيبا\" تحذيرا بشأن الإمدادات الغذائية",
+    "de": "„Der Sommer war ein Weckruf, der Winter könnte schlimm werden“-Warnung bezüglich der Lebensmittelversorgung",
+    "el": "«Το καλοκαίρι ήταν μια κλήση αφύπνισης, ο χειμώνας μπορεί να είναι τρομερός» προειδοποιεί σχετικά με τις προμήθειες τροφίμων"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
+   "url": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
+   "date": "2026-11-11T18:52:08+00:00",
+   "t": {
+    "pt": "‘O mundo que conhecemos acabou’ sem ação climática urgente, dizem os líderes à Cop31",
+    "es": "“El mundo que conocemos se acaba” sin una acción climática urgente, dicen los líderes a la Cop31",
+    "it": "“Il mondo che conosciamo è finito” senza un’azione urgente per il clima, dicono i leader alla Cop31",
+    "zh": "领导人告诉第 31 届缔约方会议，如果不采取紧急气候行动，“我们所知道的世界就结束了”",
+    "fr": "« Le monde que nous connaissons est terminé » sans une action climatique urgente, déclarent les dirigeants à la Cop31",
+    "ar": "\"العالم الذي نعرفه قد انتهى\" دون اتخاذ إجراءات عاجلة بشأن المناخ، كما يقول القادة لـ Cop31",
+    "de": "„Die Welt, wie wir sie kennen, ist vorbei“, sagen Staats- und Regierungschefs gegenüber Cop31 ohne dringende Klimaschutzmaßnahmen",
+    "el": "«Ο κόσμος που γνωρίζουμε έχει τελειώσει» χωρίς επείγουσα δράση για το κλίμα, λένε οι ηγέτες στο Cop31"
    }
   },
   {
@@ -47,22 +95,6 @@
     "ar": "إذ يشير إلى الولايات المتحدة الأمريكية عندما تصبح شعابًا مرجانية في فلوريدا",
     "de": "Erinnerung an die S.S. Vereinigte Staaten, wie sie zu einem Florida-Riff wird",
     "el": "Ανακαλώντας το S.S. Ηνωμένες Πολιτείες καθώς γίνονται ύφαλος της Φλόριντα"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Portugal cancels more than 300 flights, shuts schools due to Storm Charles",
-   "url": "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss",
-   "date": "2026-11-11T17:46:40+00:00",
-   "t": {
-    "pt": "Portugal cancela mais de 300 voos e fecha escolas devido à tempestade Charles",
-    "es": "Portugal cancela más de 300 vuelos y cierra escuelas debido a la tormenta Charles",
-    "it": "Il Portogallo cancella più di 300 voli, chiude le scuole a causa della tempesta Charles",
-    "zh": "葡萄牙因查尔斯风暴取消300多个航班并关闭学校",
-    "fr": "Le Portugal annule plus de 300 vols et ferme des écoles à cause de la tempête Charles",
-    "ar": "البرتغال تلغي أكثر من 300 رحلة جوية وتغلق المدارس بسبب العاصفة تشارلز",
-    "de": "Portugal streicht wegen Sturm Charles mehr als 300 Flüge und schließt Schulen",
-    "el": "Η Πορτογαλία ακυρώνει περισσότερες από 300 πτήσεις και κλείνει τα σχολεία λόγω της καταιγίδας Charles"
    }
   },
   {
@@ -130,22 +162,6 @@
    }
   },
   {
-   "source": "AL JAZEERA",
-   "title": "Israel is ‘disrupting entire ecosystems’, including Lebanon’s wheat crop",
-   "url": "https://www.aljazeera.com/news/2026/11/11/israel-is-disrupting-entire-ecosystems-including-lebanons-wheat-crop?traffic_source=rss",
-   "date": "2026-11-11T15:48:39+00:00",
-   "t": {
-    "pt": "Israel está “perturbando ecossistemas inteiros”, incluindo a colheita de trigo do Líbano",
-    "es": "Israel está “perturbando ecosistemas enteros”, incluida la cosecha de trigo del Líbano",
-    "it": "Israele sta “disturbando interi ecosistemi”, compreso il raccolto di grano del Libano",
-    "zh": "以色列正在“破坏整个生态系统”，包括黎巴嫩的小麦作物",
-    "fr": "Israël « perturbe des écosystèmes entiers », y compris la récolte de blé du Liban",
-    "ar": "تعمل إسرائيل على \"تعطيل النظم البيئية بأكملها\"، بما في ذلك محصول القمح في لبنان",
-    "de": "Israel „stört ganze Ökosysteme“, darunter auch die Weizenernte im Libanon",
-    "el": "Το Ισραήλ «διαταράσσει ολόκληρα οικοσυστήματα», συμπεριλαμβανομένης της καλλιέργειας σιταριού του Λιβάνου"
-   }
-  },
-  {
    "source": "BBC",
    "title": "Toby Jones stars in film about UK Mars mission",
    "url": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
@@ -159,38 +175,6 @@
     "ar": "توبي جونز يلعب دور البطولة في فيلم عن مهمة المملكة المتحدة إلى المريخ",
     "de": "Toby Jones spielt die Hauptrolle in einem Film über die britische Marsmission",
     "el": "Ο Τόμπι Τζόουνς πρωταγωνιστεί στην ταινία για την αποστολή του Ηνωμένου Βασιλείου στον Άρη"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "‘Our neighbours are gone’: Gaza survivors recount horrors of deadly floods",
-   "url": "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
-   "date": "2026-11-11T14:04:17+00:00",
-   "t": {
-    "pt": "‘Nossos vizinhos se foram’: sobreviventes de Gaza relatam os horrores das enchentes mortais",
-    "es": "“Nuestros vecinos se han ido”: los supervivientes de Gaza relatan los horrores de las inundaciones mortales",
-    "it": "“I nostri vicini se ne sono andati”: i sopravvissuti di Gaza raccontano gli orrori delle inondazioni mortali",
-    "zh": "“我们的邻居消失了”：加沙幸存者讲述致命洪水的恐怖",
-    "fr": "« Nos voisins sont partis » : des survivants de Gaza racontent les horreurs des inondations meurtrières",
-    "ar": "\"جيراننا رحلوا\": الناجون من غزة يروون أهوال الفيضانات القاتلة",
-    "de": "„Unsere Nachbarn sind weg“: Gaza-Überlebende berichten von schrecklichen tödlichen Überschwemmungen",
-    "el": "«Οι γείτονές μας έχουν φύγει»: Οι επιζώντες της Γάζας αφηγούνται τη φρίκη των φονικών πλημμυρών"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Anthony Albanese fails to mention fossil fuels in Cop summit speech",
-   "url": "https://www.theguardian.com/environment/2026/nov/11/anthony-albanese-avoids-mention-of-fossil-fuels-in-cop-summit-speech",
-   "date": "2026-11-11T13:57:22+00:00",
-   "t": {
-    "pt": "Anthony Albanese não menciona os combustíveis fósseis no discurso da cúpula do Cop",
-    "es": "Anthony Albanese no menciona los combustibles fósiles en el discurso de la cumbre de la policía",
-    "it": "Anthony Albanese non menziona i combustibili fossili nel discorso del vertice della polizia",
-    "zh": "安东尼·艾博尼斯在缔约方峰会演讲中没有提及化石燃料",
-    "fr": "Anthony Albanese omet de mentionner les combustibles fossiles dans son discours au sommet de la Cop",
-    "ar": "فشل أنتوني ألبانيز في ذكر الوقود الأحفوري في خطاب قمة Cop",
-    "de": "Anthony Albanese erwähnt in seiner Rede zum Cop-Gipfel fossile Brennstoffe nicht",
-    "el": "Ο Anthony Albanese παραλείπει να αναφέρει τα ορυκτά καύσιμα στην ομιλία της συνόδου κορυφής της αστυνομίας"
    }
   },
   {
@@ -258,102 +242,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Bid to restore rare Atlantic rainforest secures £6m lottery grant",
-   "url": "https://www.bbc.co.uk/news/articles/cmn8w8n5ynq2o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-11T06:37:12+00:00",
-   "t": {
-    "pt": "Proposta para restaurar a rara floresta tropical atlântica garante subsídio de loteria de £ 6 milhões",
-    "es": "La oferta para restaurar la rara selva atlántica obtiene una subvención de lotería de £ 6 millones",
-    "it": "Un'offerta per ripristinare la rara foresta pluviale atlantica ottiene una sovvenzione dalla lotteria di 6 milioni di sterline",
-    "zh": "恢复稀有大西洋雨林的竞标获得了 600 万英镑的彩票补助",
-    "fr": "L'offre visant à restaurer la rare forêt tropicale atlantique obtient une subvention de loterie de 6 millions de livres sterling",
-    "ar": "محاولة استعادة الغابات المطيرة الأطلسية النادرة تحصل على منحة يانصيب بقيمة 6 ملايين جنيه إسترليني",
-    "de": "Angebot zur Wiederherstellung des seltenen atlantischen Regenwaldes sichert sich Lotteriezuschuss in Höhe von 6 Millionen Pfund",
-    "el": "Η προσφορά για την αποκατάσταση του σπάνιου τροπικού δάσους του Ατλαντικού εξασφαλίζει επιχορήγηση 6 εκατομμυρίων λιρών"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Artist creates world's biggest soil painting",
-   "url": "https://www.bbc.co.uk/news/articles/cm3wvvp5d1qzo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-11T06:06:21+00:00",
-   "t": {
-    "pt": "Artista cria a maior pintura de solo do mundo",
-    "es": "Artista crea la pintura sobre suelo más grande del mundo",
-    "it": "L'artista crea il più grande dipinto del suolo del mondo",
-    "zh": "艺术家创作世界最大土壤画",
-    "fr": "Un artiste crée la plus grande peinture de sol au monde",
-    "ar": "فنان يرسم أكبر لوحة للتربة في العالم",
-    "de": "Künstler schafft das größte Bodengemälde der Welt",
-    "el": "Καλλιτέχνης δημιουργεί τον μεγαλύτερο πίνακα εδάφους στον κόσμο"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Too dry for cacti: extreme droughts could push iconic species to extinction",
-   "url": "https://www.nature.com/articles/d41586-026-03671-2",
-   "date": "2026-11-11T00:00:00+00:00",
-   "t": {
-    "pt": "Muito seco para cactos: secas extremas podem levar espécies icônicas à extinção",
-    "es": "Demasiado seco para los cactus: las sequías extremas podrían llevar a la extinción a especies icónicas",
-    "it": "Troppo secco per i cactus: siccità estreme potrebbero portare all’estinzione specie iconiche",
-    "zh": "仙人掌太干燥：极端干旱可能导致标志性物种灭绝",
-    "fr": "Trop sec pour les cactus : des sécheresses extrêmes pourraient pousser des espèces emblématiques à l'extinction",
-    "ar": "جاف جدًا بالنسبة للصبار: قد يؤدي الجفاف الشديد إلى دفع الأنواع المميزة إلى الانقراض",
-    "de": "Zu trocken für Kakteen: Extreme Dürren könnten ikonische Arten zum Aussterben bringen",
-    "el": "Πολύ ξηροί για κάκτους: οι ακραίες ξηρασίες θα μπορούσαν να ωθήσουν τα εικονικά είδη στην εξαφάνιση"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Getting a grasp on the global wildlife trade",
-   "url": "https://www.nature.com/articles/d41586-026-03591-1",
-   "date": "2026-11-11T00:00:00+00:00",
-   "t": {
-    "pt": "Entendendo o comércio global de vida selvagem",
-    "es": "Comprender el comercio mundial de vida silvestre",
-    "it": "Comprendere il commercio globale di animali selvatici",
-    "zh": "掌握全球野生动物贸易",
-    "fr": "Mieux comprendre le commerce mondial des espèces sauvages",
-    "ar": "التعرف على التجارة العالمية للحياة البرية",
-    "de": "Den globalen Wildtierhandel verstehen",
-    "el": "Γνωρίζοντας το παγκόσμιο εμπόριο άγριας ζωής"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Even giant anteaters in remote Brazil have microplastics in their blood",
-   "url": "https://www.nature.com/articles/d41586-026-03660-5",
-   "date": "2026-11-11T00:00:00+00:00",
-   "t": {
-    "pt": "Até tamanduás gigantes no remoto Brasil têm microplásticos no sangue",
-    "es": "Incluso los osos hormigueros gigantes del remoto Brasil tienen microplásticos en la sangre",
-    "it": "Anche i formichieri giganti del remoto Brasile hanno microplastiche nel sangue",
-    "zh": "甚至巴西偏远地区的巨型食蚁兽的血液中也含有微塑料",
-    "fr": "Même les fourmiliers géants des régions reculées du Brésil ont des microplastiques dans le sang",
-    "ar": "حتى آكلات النمل العملاقة في المناطق النائية في البرازيل تحتوي على مواد بلاستيكية دقيقة في دمائها",
-    "de": "Selbst Riesenameisenbären im abgelegenen Brasilien haben Mikroplastik im Blut",
-    "el": "Ακόμη και οι γιγάντιοι μυρμηγκοφάγοι στην απομακρυσμένη Βραζιλία έχουν μικροπλαστικά στο αίμα τους"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Cacti are severely threatened by drought in a warming world",
-   "url": "https://www.nature.com/articles/d41586-026-03496-z",
-   "date": "2026-11-11T00:00:00+00:00",
-   "t": {
-    "pt": "Os cactos estão gravemente ameaçados pela seca num mundo em aquecimento",
-    "es": "Los cactus están gravemente amenazados por la sequía en un mundo que se calienta",
-    "it": "I cactus sono gravemente minacciati dalla siccità in un mondo che si riscalda",
-    "zh": "在全球变暖的背景下，仙人掌受到干旱的严重威胁",
-    "fr": "Les cactus sont gravement menacés par la sécheresse dans un monde en réchauffement",
-    "ar": "الصبار مهدد بشدة بالجفاف في عالم يزداد حرارة",
-    "de": "Kakteen sind in einer sich erwärmenden Welt stark von Dürre bedroht",
-    "el": "Οι κάκτοι απειλούνται σοβαρά από την ξηρασία σε έναν κόσμο που θερμαίνεται"
-   }
-  },
-  {
    "source": "DW",
    "title": "Why electrification is the climate game changer we need",
    "url": "https://www.dw.com/en/why-electrification-is-the-climate-game-changer-we-need/a-79615979?maca=en-rss-en-all-1573-rdf",
@@ -383,6 +271,54 @@
     "ar": "هل ستدفع أستراليا للخروج من الوقود الأحفوري في محادثات الأمم المتحدة؟",
     "de": "Wird Australien bei UN-Gesprächen auf einen Ausstieg aus fossilen Brennstoffen drängen?",
     "el": "Θα πιέσει η Αυστραλία για έξοδο από τα ορυκτά καύσιμα στις συνομιλίες του ΟΗΕ;"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "SS United States, a historic ship will be sunk to create an artificial reef",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
+   "date": "2026-11-08T13:34:34+00:00",
+   "t": {
+    "pt": "SS Estados Unidos, um navio histórico será afundado para criar um recife artificial",
+    "es": "SS Estados Unidos, se hundirá un barco histórico para crear un arrecife artificial",
+    "it": "SS Stati Uniti, una nave storica verrà affondata per creare un reef artificiale",
+    "zh": "SS United，一艘历史悠久的船只将被沉没以建造人工鱼礁",
+    "fr": "SS United States, un navire historique sera coulé pour créer un récif artificiel",
+    "ar": "SS الولايات المتحدة، سيتم غرق سفينة تاريخية لإنشاء الشعاب المرجانية الاصطناعية",
+    "de": "SS United States, ein historisches Schiff wird versenkt, um ein künstliches Riff zu schaffen",
+    "el": "SS Ηνωμένες Πολιτείες, ένα ιστορικό πλοίο θα βυθιστεί για να δημιουργηθεί ένας τεχνητός ύφαλος"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Trump administration moves to lift ban on roadbuilding and logging in national forests",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-5981452/trump-administration-moves-to-lift-ban-on-roadbuilding-and-logging-in-national-forests",
+   "date": "2026-11-08T13:16:04+00:00",
+   "t": {
+    "pt": "A administração Trump toma medidas para suspender a proibição da construção de estradas e da exploração madeireira nas florestas nacionais",
+    "es": "La administración Trump toma medidas para levantar la prohibición de la construcción de carreteras y la tala en los bosques nacionales",
+    "it": "L’amministrazione Trump si muove per revocare il divieto di costruzione di strade e di disboscamento nelle foreste nazionali",
+    "zh": "特朗普政府采取行动取消道路建设和国家森林伐木禁令",
+    "fr": "L’administration Trump décide de lever l’interdiction de la construction de routes et de l’exploitation forestière dans les forêts nationales",
+    "ar": "تتحرك إدارة ترامب لرفع الحظر المفروض على بناء الطرق وقطع الأشجار في الغابات الوطنية",
+    "de": "Die Trump-Regierung will das Verbot des Straßenbaus und der Abholzung in nationalen Wäldern aufheben",
+    "el": "Η κυβέρνηση Τραμπ κινείται για την άρση της απαγόρευσης της κατασκευής δρόμων και της υλοτομίας σε εθνικά δάση"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Climate change is altering the colors we see in the world: an illustrated journey",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-5393776/color-climate-change-coral-lakes",
+   "date": "2026-11-08T11:00:00+00:00",
+   "t": {
+    "pt": "As alterações climáticas estão a alterar as cores que vemos no mundo: uma viagem ilustrada",
+    "es": "El cambio climático está alterando los colores que vemos en el mundo: un viaje ilustrado",
+    "it": "Il cambiamento climatico sta alterando i colori che vediamo nel mondo: un viaggio illustrato",
+    "zh": "气候变化正在改变我们在世界上看到的颜色：图解之旅",
+    "fr": "Le changement climatique modifie les couleurs que nous voyons dans le monde : un voyage illustré",
+    "ar": "تغير المناخ يغير الألوان التي نراها في العالم: رحلة مصورة",
+    "de": "Der Klimawandel verändert die Farben, die wir auf der Welt sehen: eine illustrierte Reise",
+    "el": "Η κλιματική αλλαγή αλλάζει τα χρώματα που βλέπουμε στον κόσμο: ένα εικονογραφημένο ταξίδι"
    }
   }
  ]
