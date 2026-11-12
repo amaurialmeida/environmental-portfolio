@@ -1,43 +1,91 @@
 {
- "updated": "2026-11-12T01:31:33.481457+00:00",
+ "updated": "2026-11-12T09:46:49.975544+00:00",
  "items": [
   {
-   "source": "NYTIMES",
-   "title": "The S.S. United States, a Historic Supership, Heads to the Ocean Floor",
-   "url": "https://www.nytimes.com/2026/11/11/climate/ss-united-states-ship-sinking-artificial-reef-florida.html",
-   "date": "2026-11-12T00:15:56+00:00",
+   "source": "GUARDIAN",
+   "title": "Cop31: “No one is coming to rescue us” Greta Thunberg tells climate summit",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/12/cop31-the-crisis-is-upon-us-now-burnham-due-to-tell-climate-summit",
+   "date": "2026-11-12T09:27:40+00:00",
    "t": {
-    "pt": "O S.S. Estados Unidos, um supernavio histórico, dirige-se ao fundo do oceano",
-    "es": "El S.S. United States, un superbuque histórico, se dirige al fondo del océano",
-    "it": "La S.S. United States, una supernave storica, si dirige verso il fondale oceanico",
-    "zh": "历史悠久的超级舰美国号驶向海底",
-    "fr": "Le S.S. United States, un supernavire historique, se dirige vers le fond de l'océan",
-    "ar": "الولايات المتحدة، سفينة عملاقة تاريخية، تتجه إلى قاع المحيط",
-    "de": "Die S.S. United States, ein historisches Superschiff, steuert auf den Meeresboden zu",
-    "el": "Το S.S. Ηνωμένες Πολιτείες, ένα ιστορικό υπερόπλο, κατευθύνεται στον πυθμένα του ωκεανού"
+    "pt": "Cop31: “Ninguém vem nos resgatar”, diz Greta Thunberg na cúpula do clima",
+    "es": "Cop31: “Nadie vendrá a rescatarnos”, dice Greta Thunberg a la cumbre del clima",
+    "it": "Cop31: “Nessuno verrà a salvarci” dice Greta Thunberg al vertice sul clima",
+    "zh": "第 31 届缔约方大会：“没有人来拯救我们”格蕾塔·桑伯格在气候峰会上表示",
+    "fr": "Cop31 : « Personne ne viendra nous sauver » déclare Greta Thunberg au sommet sur le climat",
+    "ar": "Cop31: \"لن يأتي أحد لإنقاذنا\" غريتا ثونبرج تقول لقمة المناخ",
+    "de": "Cop31: „Niemand kommt, um uns zu retten“, sagt Greta Thunberg zum Klimagipfel",
+    "el": "Cop31: «Κανείς δεν έρχεται να μας σώσει» λέει η Greta Thunberg στη σύνοδο κορυφής για το κλίμα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Water industry bonus ban to be tightened as Ofwat warns of ‘damage to public trust’",
+   "url": "https://www.theguardian.com/business/2026/nov/12/water-industry-bonus-ban-tightened-ofwat",
+   "date": "2026-11-12T07:59:52+00:00",
+   "t": {
+    "pt": "Proibição de bônus para a indústria de água será reforçada enquanto Ofwat alerta sobre “danos à confiança pública”",
+    "es": "La prohibición de bonificaciones en la industria del agua se endurecerá mientras Ofwat advierte sobre el \"daño a la confianza pública\"",
+    "it": "Il divieto dei bonus per l’industria idrica sarà inasprito mentre Ofwat mette in guardia dal “danno alla fiducia pubblica”",
+    "zh": "Ofwat 警告“公众信任受损”，水务行业奖金禁令将收紧",
+    "fr": "L’interdiction des primes dans l’industrie de l’eau va être renforcée alors que l’Ofwat met en garde contre une « atteinte à la confiance du public »",
+    "ar": "سيتم تشديد الحظر على المكافآت في صناعة المياه حيث يحذر Ofwat من ’الإضرار بثقة الجمهور’",
+    "de": "Bonusverbot für die Wasserindustrie soll verschärft werden, da Ofwat vor „Schaden für das öffentliche Vertrauen“ warnt",
+    "el": "Η απαγόρευση μπόνους της βιομηχανίας νερού θα γίνει αυστηρότερη καθώς η Ofwat προειδοποιεί για «ζημία στην εμπιστοσύνη του κοινού»"
    }
   },
   {
    "source": "BBC",
-   "title": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
-   "url": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-12T00:12:59+00:00",
+   "title": "Campaigners want more land protected from housing",
+   "url": "https://www.bbc.co.uk/news/articles/cmpw48zwnevlo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-12T06:24:44+00:00",
    "t": {
-    "pt": "Queda significativa nos níveis de produtos químicos tóxicos “para sempre” nos rios da Inglaterra",
-    "es": "Caída significativa en los niveles de sustancias químicas tóxicas \"para siempre\" en los ríos de Inglaterra",
-    "it": "Calo significativo dei livelli di sostanze chimiche tossiche “per sempre” nei fiumi inglesi",
-    "zh": "英格兰河流中“永久”有毒化学物质的含量显着下降",
-    "fr": "Baisse significative des niveaux de produits chimiques toxiques « permanents » dans les rivières anglaises",
-    "ar": "انخفاض كبير في مستويات المواد الكيميائية السامة \"للأبد\" في أنهار إنجلترا",
-    "de": "Deutlicher Rückgang des Gehalts an „für immer“ giftigen Chemikalien in Englands Flüssen",
-    "el": "Σημαντική πτώση των επιπέδων τοξικών «για πάντα» χημικών ουσιών στα ποτάμια της Αγγλίας"
+    "pt": "Ativistas querem mais terras protegidas de habitação",
+    "es": "Los activistas quieren más tierras protegidas de la vivienda",
+    "it": "Gli attivisti vogliono che più terra sia protetta dalle abitazioni",
+    "zh": "活动人士希望保护更多土地免受住房保护",
+    "fr": "Les militants veulent plus de terres protégées des habitations",
+    "ar": "يريد الناشطون حماية المزيد من الأراضي من الإسكان",
+    "de": "Aktivisten wollen mehr Land, das vor Wohnraum geschützt ist",
+    "el": "Οι εκστρατείες θέλουν περισσότερη γη προστατευμένη από στέγαση"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Art trail celebrates arrival of black bears at zoo",
+   "url": "https://www.bbc.co.uk/news/articles/c39wzv2vqgxvo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-12T06:13:52+00:00",
+   "t": {
+    "pt": "Trilha artística celebra chegada de ursos negros ao zoológico",
+    "es": "Ruta artística celebra la llegada de osos negros al zoológico",
+    "it": "Il percorso artistico celebra l'arrivo degli orsi neri allo zoo",
+    "zh": "艺术小径庆祝黑熊抵达动物园",
+    "fr": "Un parcours artistique célèbre l'arrivée des ours noirs au zoo",
+    "ar": "مسار فني يحتفل بوصول الدببة السوداء إلى حديقة الحيوانات",
+    "de": "Kunstpfad feiert die Ankunft von Schwarzbären im Zoo",
+    "el": "Το μονοπάτι τέχνης γιορτάζει την άφιξη των μαύρων αρκούδων στο ζωολογικό κήπο"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Nurdle impact to be researched for a year",
+   "url": "https://www.bbc.co.uk/news/articles/cxnv4y23zldyo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-12T06:06:41+00:00",
+   "t": {
+    "pt": "Impacto Nurdle será pesquisado por um ano",
+    "es": "El impacto de Nurdle se investigará durante un año",
+    "it": "L'impatto di Nurdle sarà studiato per un anno",
+    "zh": "Nurdle 的影响需要研究一年",
+    "fr": "L'impact de Nurdle fera l'objet de recherches pendant un an",
+    "ar": "تأثير Nurdle ليتم بحثها لمدة عام",
+    "de": "Nurdle-Auswirkungen sollen ein Jahr lang erforscht werden",
+    "el": "Ο αντίκτυπος του νευρώνα θα ερευνηθεί για ένα χρόνο"
    }
   },
   {
    "source": "BBC",
    "title": "'Summer was a wake-up call, winter could be dire' warning over food supplies",
    "url": "https://www.bbc.co.uk/news/articles/cmkgev3ldl9ro?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-11T22:48:59+00:00",
+   "date": "2026-11-12T06:02:55+00:00",
    "t": {
     "pt": "‘O verão foi um sinal de alerta, o inverno pode ser terrível’, alerta sobre o abastecimento de alimentos",
     "es": "\"El verano fue una llamada de atención, el invierno podría ser terrible\", advierte sobre el suministro de alimentos",
@@ -50,42 +98,26 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
-   "url": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
-   "date": "2026-11-11T18:52:08+00:00",
+   "source": "NYTIMES",
+   "title": "The S.S. United States, a Historic Supership, Sinks to the Ocean Floor",
+   "url": "https://www.nytimes.com/2026/11/11/climate/ss-united-states-ship-sinking-artificial-reef-florida.html",
+   "date": "2026-11-12T03:48:06+00:00",
    "t": {
-    "pt": "‘O mundo que conhecemos acabou’ sem ação climática urgente, dizem os líderes à Cop31",
-    "es": "“El mundo que conocemos se acaba” sin una acción climática urgente, dicen los líderes a la Cop31",
-    "it": "“Il mondo che conosciamo è finito” senza un’azione urgente per il clima, dicono i leader alla Cop31",
-    "zh": "领导人告诉第 31 届缔约方会议，如果不采取紧急气候行动，“我们所知道的世界就结束了”",
-    "fr": "« Le monde que nous connaissons est terminé » sans une action climatique urgente, déclarent les dirigeants à la Cop31",
-    "ar": "\"العالم الذي نعرفه قد انتهى\" دون اتخاذ إجراءات عاجلة بشأن المناخ، كما يقول القادة لـ Cop31",
-    "de": "„Die Welt, wie wir sie kennen, ist vorbei“, sagen Staats- und Regierungschefs gegenüber Cop31 ohne dringende Klimaschutzmaßnahmen",
-    "el": "«Ο κόσμος που γνωρίζουμε έχει τελειώσει» χωρίς επείγουσα δράση για το κλίμα, λένε οι ηγέτες στο Cop31"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "KKR and RWE are rich firms. Why do they need a UK state loan for their windfarms? | Nils Pratley",
-   "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/nov/11/kkr-rwe-uk-state-loan-vanguard-windfarms",
-   "date": "2026-11-11T18:15:26+00:00",
-   "t": {
-    "pt": "KKR e RWE são empresas ricas. Por que precisam de um empréstimo estatal do Reino Unido para os seus parques eólicos? | Nils Pratley",
-    "es": "KKR y RWE son empresas ricas. ¿Por qué necesitan un préstamo estatal del Reino Unido para sus parques eólicos? | Nils Pratley",
-    "it": "KKR e RWE sono aziende ricche. Perché hanno bisogno di un prestito statale nel Regno Unito per i loro parchi eolici? | Nils Pratley",
-    "zh": "KKR 和 RWE 都是富有的公司。为什么他们的风电场需要英国国家贷款？ |尼尔斯·普拉特利",
-    "fr": "KKR et RWE sont des entreprises riches. Pourquoi ont-ils besoin d’un prêt de l’État britannique pour leurs parcs éoliens ? | Nils Pratley",
-    "ar": "KKR و RWE هما شركتان غنيتان. لماذا يحتاجون إلى قرض من الدولة البريطانية لمزارع الرياح الخاصة بهم؟ | نيلز براتلي",
-    "de": "KKR und RWE sind reiche Unternehmen. Warum brauchen sie einen britischen Staatskredit für ihre Windparks? | Nils Pratley",
-    "el": "Η KKR και η RWE είναι πλούσιες εταιρείες. Γιατί χρειάζονται ένα κρατικό δάνειο του Ηνωμένου Βασιλείου για τα αιολικά τους πάρκα; | Nils Pratley"
+    "pt": "O SS Estados Unidos, um supernavio histórico, afunda no fundo do oceano",
+    "es": "El S.S. United States, un superbuque histórico, se hunde hasta el fondo del océano",
+    "it": "La S.S. United States, una supernave storica, affonda nel fondale dell'oceano",
+    "zh": "美国号历史超级舰沉入海底",
+    "fr": "Le S.S. United States, un supernavire historique, coule au fond de l'océan",
+    "ar": "الولايات المتحدة، سفينة عملاقة تاريخية، تغرق في قاع المحيط",
+    "de": "Die S.S. United States, ein historisches Superschiff, sinkt auf den Meeresboden",
+    "el": "Το S.S. Ηνωμένες Πολιτείες, ένα ιστορικό υπερόπλο, βυθίζεται στον πυθμένα του ωκεανού"
    }
   },
   {
    "source": "NYTIMES",
    "title": "Recalling the S.S. United States as It Becomes a Florida Reef",
    "url": "https://www.nytimes.com/2026/11/11/insider/ss-united-states-destin-florida-memories.html",
-   "date": "2026-11-11T18:14:57+00:00",
+   "date": "2026-11-12T03:12:34+00:00",
    "t": {
     "pt": "Relembrando o S.S. Estados Unidos quando ele se torna um recife da Flórida",
     "es": "Recordando el S.S. Estados Unidos mientras se convierte en un arrecife de Florida",
@@ -95,6 +127,54 @@
     "ar": "إذ يشير إلى الولايات المتحدة الأمريكية عندما تصبح شعابًا مرجانية في فلوريدا",
     "de": "Erinnerung an die S.S. Vereinigte Staaten, wie sie zu einem Florida-Riff wird",
     "el": "Ανακαλώντας το S.S. Ηνωμένες Πολιτείες καθώς γίνονται ύφαλος της Φλόριντα"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+   "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
+   "date": "2026-11-12T03:10:32+00:00",
+   "t": {
+    "pt": "O transatlântico mais rápido do mundo é afundado e quebra outro recorde: o maior recife artificial",
+    "es": "El transatlántico más rápido del mundo se hunde para batir otro récord: el arrecife artificial más grande",
+    "it": "Il transatlantico più veloce del mondo viene affondato per battere un altro record: la più grande barriera corallina artificiale",
+    "zh": "世界最快远洋客轮沉没打破另一纪录：最大人工鱼礁",
+    "fr": "Le paquebot le plus rapide du monde est coulé et bat un autre record : le plus grand récif artificiel",
+    "ar": "غرقت أسرع سفينة محيطية في العالم لتحطيم رقم قياسي آخر: أكبر شعاب مرجانية صناعية",
+    "de": "Der schnellste Ozeandampfer der Welt wird versenkt und bricht einen weiteren Rekord: das größte künstliche Riff",
+    "el": "Το ταχύτερο υπερωκεάνιο στον κόσμο βυθίστηκε για να σπάσει άλλο ένα ρεκόρ: τον μεγαλύτερο τεχνητό ύφαλο"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Historic US ocean liner sinks near Florida to become world’s largest artificial reef",
+   "url": "https://www.theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef",
+   "date": "2026-11-12T03:07:16+00:00",
+   "t": {
+    "pt": "Histórico transatlântico dos EUA afunda perto da Flórida e se torna o maior recife artificial do mundo",
+    "es": "Histórico transatlántico estadounidense se hunde cerca de Florida y se convierte en el arrecife artificial más grande del mundo",
+    "it": "Lo storico transatlantico americano affonda vicino alla Florida e diventa la più grande barriera corallina artificiale del mondo",
+    "zh": "历史悠久的美国远洋客轮在佛罗里达州附近沉没，成为世界上最大的人工鱼礁",
+    "fr": "Un paquebot américain historique coule près de la Floride et devient le plus grand récif artificiel du monde",
+    "ar": "تغرق سفينة تاريخية تابعة للمحيطات بالقرب من فلوريدا لتصبح أكبر شعاب مرجانية صناعية في العالم",
+    "de": "Historischer US-Ozeandampfer sinkt in der Nähe von Florida und wird zum größten künstlichen Riff der Welt",
+    "el": "Το ιστορικό υπερωκεάνιο των ΗΠΑ βυθίζεται κοντά στη Φλόριντα για να γίνει ο μεγαλύτερος τεχνητός ύφαλος στον κόσμο"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
+   "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+   "date": "2026-11-12T03:00:07+00:00",
+   "t": {
+    "pt": "Manchas de petróleo vistas do espaço: o impacto devastador dos ataques de barcos nos frágeis ecossistemas do Golfo",
+    "es": "Derrames de petróleo vistos desde el espacio: el impacto devastador de los choques de embarcaciones en los frágiles ecosistemas del Golfo",
+    "it": "Chiazze di petrolio viste dallo spazio: l’impatto devastante degli attacchi navali sui fragili ecosistemi del Golfo",
+    "zh": "从太空看到的浮油：船只撞击对脆弱的海湾生态系统造成的毁灭性影响",
+    "fr": "Marées noires vues de l'espace : l'impact dévastateur des collisions de bateaux sur les écosystèmes fragiles du Golfe",
+    "ar": "البقع النفطية كما تظهر من الفضاء: التأثير المدمر لضربات القوارب على النظم البيئية الخليجية الهشة",
+    "de": "Ölteppiche aus dem Weltraum gesehen: die verheerenden Auswirkungen von Bootsangriffen auf fragile Ökosysteme im Golf",
+    "el": "Οι πετρελαιοκηλίδες φαίνονται από το διάστημα: ο καταστροφικός αντίκτυπος των απεργιών σκαφών στα εύθραυστα οικοσυστήματα του Κόλπου"
    }
   },
   {
@@ -114,22 +194,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Cop31 as it happened: ‘Fossil fuels must go the way of the dinosaurs’ - UN chief hits out at industry lobbying",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/11/climate-crisis-talks-turkey-latest-news-updates",
-   "date": "2026-11-11T17:26:42+00:00",
-   "t": {
-    "pt": "Cop31 como aconteceu: ‘Os combustíveis fósseis devem seguir o caminho dos dinossauros’ – Chefe da ONU ataca o lobby da indústria",
-    "es": "Cop31 como sucedió: “Los combustibles fósiles deben seguir el camino de los dinosaurios”: el jefe de la ONU ataca al lobby de la industria",
-    "it": "Cop31 come è successo: “I combustibili fossili devono fare la fine dei dinosauri” – il capo delle Nazioni Unite attacca le lobby dell’industria",
-    "zh": "第三十一届缔约方大会：“化石燃料必须走恐龙之路”——联合国秘书长猛烈抨击行业游说",
-    "fr": "Cop31 : « Les combustibles fossiles doivent suivre la voie des dinosaures » - Le chef de l'ONU s'en prend au lobbying de l'industrie",
-    "ar": "Cop31 كما حدث: \"الوقود الأحفوري يجب أن يذهب في طريق الديناصورات\" - الأمين العام للأمم المتحدة ينتقد الضغط الذي تمارسه الصناعة",
-    "de": "Cop31, wie es geschah: „Fossile Brennstoffe müssen den Weg der Dinosaurier gehen“ – UN-Chef kritisiert Industrielobbyismus",
-    "el": "Cop31 όπως συνέβη: «Τα ορυκτά καύσιμα πρέπει να ακολουθήσουν τον δρόμο των δεινοσαύρων» - Ο επικεφαλής του ΟΗΕ χτυπά τα λόμπι της βιομηχανίας"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Heating Costs Will Rise 7% on Average This Winter",
    "url": "https://www.nytimes.com/2026/11/11/business/energy-environment/winter-heating-oil-costs.html",
@@ -143,54 +207,6 @@
     "ar": "سترتفع تكاليف التدفئة بنسبة 7% في المتوسط هذا الشتاء",
     "de": "Die Heizkosten werden in diesem Winter durchschnittlich um 7 % steigen",
     "el": "Το κόστος θέρμανσης θα αυξηθεί κατά 7% κατά μέσο όρο αυτό το χειμώνα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Labour MPs warn against weakening electric vehicle targets ahead of crunch talks",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/11/labour-mps-electric-vehicle-targets",
-   "date": "2026-11-11T16:01:41+00:00",
-   "t": {
-    "pt": "Deputados trabalhistas alertam contra o enfraquecimento das metas de veículos elétricos antes das negociações decisivas",
-    "es": "Los parlamentarios laboristas advierten contra el debilitamiento de los objetivos de vehículos eléctricos antes de las conversaciones cruciales",
-    "it": "I parlamentari laburisti mettono in guardia contro l’indebolimento degli obiettivi relativi ai veicoli elettrici in vista dei colloqui cruciali",
-    "zh": "工党议员警告在关键谈判之前不要削弱电动汽车目标",
-    "fr": "Les députés travaillistes mettent en garde contre un affaiblissement des objectifs en matière de véhicules électriques avant les négociations cruciales",
-    "ar": "يحذر نواب حزب العمال من إضعاف أهداف السيارات الكهربائية قبل المحادثات الحاسمة",
-    "de": "Labour-Abgeordnete warnen davor, die Ziele für Elektrofahrzeuge vor den entscheidenden Gesprächen zu schwächen",
-    "el": "Οι Εργατικοί βουλευτές προειδοποιούν για την αποδυνάμωση των στόχων των ηλεκτρικών οχημάτων ενόψει των κρίσιμων συνομιλιών"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Toby Jones stars in film about UK Mars mission",
-   "url": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-11T14:10:11+00:00",
-   "t": {
-    "pt": "Toby Jones estrela filme sobre missão britânica a Marte",
-    "es": "Toby Jones protagoniza una película sobre la misión británica a Marte",
-    "it": "Toby Jones è il protagonista del film sulla missione su Marte nel Regno Unito",
-    "zh": "托比·琼斯主演有关英国火星任务的电影",
-    "fr": "Toby Jones joue dans un film sur la mission britannique sur Mars",
-    "ar": "توبي جونز يلعب دور البطولة في فيلم عن مهمة المملكة المتحدة إلى المريخ",
-    "de": "Toby Jones spielt die Hauptrolle in einem Film über die britische Marsmission",
-    "el": "Ο Τόμπι Τζόουνς πρωταγωνιστεί στην ταινία για την αποστολή του Ηνωμένου Βασιλείου στον Άρη"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-   "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-11T13:24:29+00:00",
-   "t": {
-    "pt": "Quatro ursos pardos mortos no Canadá após ataque fatal a mãe e filha",
-    "es": "Cuatro osos grizzly muertos en Canadá tras ataque fatal a madre e hija",
-    "it": "Quattro orsi grizzly uccisi in Canada dopo aver attaccato mortalmente madre e figlia",
-    "zh": "加拿大四只灰熊母女遇袭身亡",
-    "fr": "Quatre grizzlis tués au Canada après une attaque mortelle contre une mère et sa fille",
-    "ar": "مقتل أربعة دببة رمادية في كندا بعد هجوم مميت على الأم وابنتها",
-    "de": "In Kanada wurden vier Grizzlybären nach einem tödlichen Angriff auf Mutter und Tochter getötet",
-    "el": "Τέσσερις αρκούδες γκρίζλι σκοτώθηκαν στον Καναδά μετά από θανατηφόρα επίθεση σε μητέρα και κόρη"
    }
   },
   {
@@ -211,22 +227,6 @@
   },
   {
    "source": "DW",
-   "title": "India: CPCB addresses stark Delhi pollution data gap on Diwali night",
-   "url": "https://www.dw.com/en/india-cpcb-addresses-stark-delhi-pollution-data-gap-on-diwali-night/live-79914190?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-11T06:46:00+00:00",
-   "t": {
-    "pt": "Índia: CPCB aborda grande lacuna de dados sobre poluição em Delhi na noite de Diwali",
-    "es": "India: CPCB aborda la marcada laguna en los datos sobre contaminación de Delhi en la noche de Diwali",
-    "it": "India: il CPCB affronta la grave lacuna dei dati sull’inquinamento di Delhi nella notte di Diwali",
-    "zh": "印度：CPCB 在排灯节之夜解决了德里严重的污染数据差距问题",
-    "fr": "Inde : le CPCB comble le manque flagrant de données sur la pollution à Delhi la nuit de Diwali",
-    "ar": "الهند: يعالج CPCB الفجوة الصارخة في بيانات التلوث في دلهي في ليلة ديوالي",
-    "de": "Indien: CPCB schließt in der Diwali-Nacht große Datenlücke zur Luftverschmutzung in Delhi",
-    "el": "Ινδία: Το CPCB αντιμετωπίζει το έντονο κενό δεδομένων ρύπανσης του Δελχί τη νύχτα του Diwali"
-   }
-  },
-  {
-   "source": "DW",
    "title": "Germany slips in climate protection rankings as other countries make gains",
    "url": "https://www.dw.com/en/germany-slips-in-climate-protection-rankings-as-other-countries-make-gains/a-79913635?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-11T06:41:00+00:00",
@@ -239,6 +239,70 @@
     "ar": "ألمانيا تتراجع في تصنيفات حماية المناخ مع تحقيق دول أخرى مكاسب",
     "de": "Deutschland rutscht im Klimaschutzranking ab, während andere Länder zulegen",
     "el": "Η Γερμανία διολισθαίνει στην κατάταξη για την προστασία του κλίματος καθώς άλλες χώρες σημειώνουν κέρδη"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Too dry for cacti: extreme droughts could push iconic species to extinction",
+   "url": "https://www.nature.com/articles/d41586-026-03671-2",
+   "date": "2026-11-11T00:00:00+00:00",
+   "t": {
+    "pt": "Muito seco para cactos: secas extremas podem levar espécies icônicas à extinção",
+    "es": "Demasiado seco para los cactus: las sequías extremas podrían llevar a la extinción a especies icónicas",
+    "it": "Troppo secco per i cactus: siccità estreme potrebbero portare all’estinzione specie iconiche",
+    "zh": "仙人掌太干燥：极端干旱可能导致标志性物种灭绝",
+    "fr": "Trop sec pour les cactus : des sécheresses extrêmes pourraient pousser des espèces emblématiques à l'extinction",
+    "ar": "جاف جدًا بالنسبة للصبار: قد يؤدي الجفاف الشديد إلى دفع الأنواع المميزة إلى الانقراض",
+    "de": "Zu trocken für Kakteen: Extreme Dürren könnten ikonische Arten zum Aussterben bringen",
+    "el": "Πολύ ξηροί για κάκτους: οι ακραίες ξηρασίες θα μπορούσαν να ωθήσουν τα εικονικά είδη στην εξαφάνιση"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Getting a grasp on the global wildlife trade",
+   "url": "https://www.nature.com/articles/d41586-026-03591-1",
+   "date": "2026-11-11T00:00:00+00:00",
+   "t": {
+    "pt": "Entendendo o comércio global de vida selvagem",
+    "es": "Comprender el comercio mundial de vida silvestre",
+    "it": "Comprendere il commercio globale di animali selvatici",
+    "zh": "掌握全球野生动物贸易",
+    "fr": "Mieux comprendre le commerce mondial des espèces sauvages",
+    "ar": "التعرف على التجارة العالمية للحياة البرية",
+    "de": "Den globalen Wildtierhandel verstehen",
+    "el": "Γνωρίζοντας το παγκόσμιο εμπόριο άγριας ζωής"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Even giant anteaters in remote Brazil have microplastics in their blood",
+   "url": "https://www.nature.com/articles/d41586-026-03660-5",
+   "date": "2026-11-11T00:00:00+00:00",
+   "t": {
+    "pt": "Até tamanduás gigantes no remoto Brasil têm microplásticos no sangue",
+    "es": "Incluso los osos hormigueros gigantes del remoto Brasil tienen microplásticos en la sangre",
+    "it": "Anche i formichieri giganti del remoto Brasile hanno microplastiche nel sangue",
+    "zh": "甚至巴西偏远地区的巨型食蚁兽的血液中也含有微塑料",
+    "fr": "Même les fourmiliers géants des régions reculées du Brésil ont des microplastiques dans le sang",
+    "ar": "حتى آكلات النمل العملاقة في المناطق النائية في البرازيل تحتوي على مواد بلاستيكية دقيقة في دمائها",
+    "de": "Selbst Riesenameisenbären im abgelegenen Brasilien haben Mikroplastik im Blut",
+    "el": "Ακόμη και οι γιγάντιοι μυρμηγκοφάγοι στην απομακρυσμένη Βραζιλία έχουν μικροπλαστικά στο αίμα τους"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Microplastics change the colour of the sea near the Great Pacific Garbage Patch",
+   "url": "https://www.nature.com/articles/d41586-026-03637-4",
+   "date": "2026-11-11T00:00:00+00:00",
+   "t": {
+    "pt": "Microplásticos mudam a cor do mar perto da Grande Mancha de Lixo do Pacífico",
+    "es": "Los microplásticos cambian el color del mar cerca de la Gran Mancha de Basura del Pacífico",
+    "it": "Le microplastiche cambiano il colore del mare vicino al Great Pacific Garbage Patch",
+    "zh": "微塑料改变了太平洋垃圾带附近海水的颜色",
+    "fr": "Les microplastiques changent la couleur de la mer près de la zone de déchets du Grand Pacifique",
+    "ar": "تغير المواد البلاستيكية الدقيقة لون البحر بالقرب من رقعة القمامة الكبرى في المحيط الهادئ",
+    "de": "Mikroplastik verändert die Farbe des Meeres in der Nähe des Great Pacific Garbage Patch",
+    "el": "Τα μικροπλαστικά αλλάζουν το χρώμα της θάλασσας κοντά στο Great Pacific Garbage Patch"
    }
   },
   {
@@ -274,6 +338,22 @@
    }
   },
   {
+   "source": "DW",
+   "title": "Iran war oil shock drives dip in global emissions, study shows",
+   "url": "https://www.dw.com/en/iran-war-oil-shock-drives-dip-in-global-emissions-study-shows/a-79905937?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-10T03:58:00+00:00",
+   "t": {
+    "pt": "Choque petrolífero da guerra no Irão provoca queda nas emissões globais, mostra estudo",
+    "es": "La crisis del petróleo de la guerra de Irán provoca una caída de las emisiones globales, según un estudio",
+    "it": "Lo shock petrolifero provocato dalla guerra in Iran determina un calo delle emissioni globali, lo dimostra uno studio",
+    "zh": "研究显示伊朗战争石油冲击导致全球排放量下降",
+    "fr": "Le choc pétrolier de la guerre en Iran entraîne une baisse des émissions mondiales, selon une étude",
+    "ar": "أظهرت دراسة أن الصدمة النفطية الناجمة عن حرب إيران تؤدي إلى انخفاض الانبعاثات العالمية",
+    "de": "Eine Studie zeigt, dass der Ölschock im Iran-Krieg zu einem Rückgang der weltweiten Emissionen führt",
+    "el": "Το πετρελαϊκό σοκ από τον πόλεμο του Ιράν οδηγεί στη μείωση των παγκόσμιων εκπομπών, σύμφωνα με μελέτη"
+   }
+  },
+  {
    "source": "NPR",
    "title": "SS United States, a historic ship will be sunk to create an artificial reef",
    "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
@@ -303,22 +383,6 @@
     "ar": "تتحرك إدارة ترامب لرفع الحظر المفروض على بناء الطرق وقطع الأشجار في الغابات الوطنية",
     "de": "Die Trump-Regierung will das Verbot des Straßenbaus und der Abholzung in nationalen Wäldern aufheben",
     "el": "Η κυβέρνηση Τραμπ κινείται για την άρση της απαγόρευσης της κατασκευής δρόμων και της υλοτομίας σε εθνικά δάση"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Climate change is altering the colors we see in the world: an illustrated journey",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-5393776/color-climate-change-coral-lakes",
-   "date": "2026-11-08T11:00:00+00:00",
-   "t": {
-    "pt": "As alterações climáticas estão a alterar as cores que vemos no mundo: uma viagem ilustrada",
-    "es": "El cambio climático está alterando los colores que vemos en el mundo: un viaje ilustrado",
-    "it": "Il cambiamento climatico sta alterando i colori che vediamo nel mondo: un viaggio illustrato",
-    "zh": "气候变化正在改变我们在世界上看到的颜色：图解之旅",
-    "fr": "Le changement climatique modifie les couleurs que nous voyons dans le monde : un voyage illustré",
-    "ar": "تغير المناخ يغير الألوان التي نراها في العالم: رحلة مصورة",
-    "de": "Der Klimawandel verändert die Farben, die wir auf der Welt sehen: eine illustrierte Reise",
-    "el": "Η κλιματική αλλαγή αλλάζει τα χρώματα που βλέπουμε στον κόσμο: ένα εικονογραφημένο ταξίδι"
    }
   }
  ]
