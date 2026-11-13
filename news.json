@@ -1,27 +1,11 @@
 {
- "updated": "2026-11-12T23:41:05.912547+00:00",
+ "updated": "2026-11-13T06:39:41.376066+00:00",
  "items": [
-  {
-   "source": "BBC",
-   "title": "Flood victim, 95, lived in Wetherspoons after her home was destroyed and died before she could return",
-   "url": "https://www.bbc.co.uk/news/articles/cqe8r8ngjepjo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-12T22:49:48+00:00",
-   "t": {
-    "pt": "Vítima da enchente, 95 anos, morava em Wetherspoons depois que sua casa foi destruída e morreu antes que pudesse retornar",
-    "es": "La víctima de las inundaciones, de 95 años, vivía en Wetherspoons después de que su casa fuera destruida y murió antes de poder regresar.",
-    "it": "La vittima dell'alluvione, 95 anni, viveva a Wetherspoons dopo che la sua casa era stata distrutta ed è morta prima che potesse tornare",
-    "zh": "95 岁的洪水受害者在房屋被毁后住在 Wetherspoons，在返回之前就去世了",
-    "fr": "Une victime des inondations, 95 ans, vivait à Wetherspoons après la destruction de sa maison et est décédée avant de pouvoir rentrer",
-    "ar": "عاشت ضحية الفيضانات، 95 عامًا، في ويذرسبونز بعد أن دمر منزلها وتوفيت قبل أن تتمكن من العودة",
-    "de": "Die 95-jährige Flutopferin lebte nach der Zerstörung ihres Hauses in Wetherspoons und starb, bevor sie zurückkehren konnte",
-    "el": "Η πλημμυροπαθής, 95 ετών, ζούσε στο Wetherspoons αφού το σπίτι της καταστράφηκε και πέθανε πριν προλάβει να επιστρέψει"
-   }
-  },
   {
    "source": "BBC",
    "title": "How many sewage spills have happened in your part of Scotland?",
    "url": "https://www.bbc.co.uk/news/articles/c0re545l8jdo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-12T22:48:55+00:00",
+   "date": "2026-11-13T06:31:51+00:00",
    "t": {
     "pt": "Quantos derramamentos de esgoto aconteceram na sua parte da Escócia?",
     "es": "¿Cuántos vertidos de aguas residuales se han producido en tu zona de Escocia?",
@@ -34,35 +18,131 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Dozens of protesters arrested after staging sit-in at Chuck Schumer’s DC office",
-   "url": "https://www.theguardian.com/us-news/2026/nov/12/protesters-arrested-chuck-schumer-office-dc",
-   "date": "2026-11-12T22:12:56+00:00",
+   "source": "BBC",
+   "title": "National Trust takes back land for nature restoration",
+   "url": "https://www.bbc.co.uk/news/articles/cqvg257kl440o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-13T06:22:20+00:00",
    "t": {
-    "pt": "Dezenas de manifestantes presos após realizarem manifestação no escritório de Chuck Schumer em DC",
-    "es": "Decenas de manifestantes arrestados después de realizar una sentada en la oficina de Chuck Schumer en DC",
-    "it": "Decine di manifestanti arrestati dopo aver organizzato un sit-in nell'ufficio di Chuck Schumer a Washington",
-    "zh": "数十名抗议者在查克·舒默的华盛顿办公室静坐后被捕",
-    "fr": "Des dizaines de manifestants arrêtés après avoir organisé un sit-in au bureau de Chuck Schumer à Washington",
-    "ar": "تم القبض على العشرات من المتظاهرين بعد اعتصامهم في مكتب تشاك شومر بالعاصمة",
-    "de": "Dutzende Demonstranten wurden nach einem Sitzstreik im DC-Büro von Chuck Schumer festgenommen",
-    "el": "Δεκάδες διαδηλωτές συνελήφθησαν μετά από καθιστική διαμαρτυρία στο γραφείο του Chuck Schumer στο DC"
+    "pt": "National Trust recupera terras para restauração da natureza",
+    "es": "National Trust recupera tierras para la restauración de la naturaleza",
+    "it": "Il National Trust si riprende la terra per il ripristino della natura",
+    "zh": "国民信托收回土地用于自然恢复",
+    "fr": "Le National Trust récupère des terres pour la restauration de la nature",
+    "ar": "الصندوق الوطني يستعيد الأراضي لاستعادة الطبيعة",
+    "de": "National Trust holt Land zur Wiederherstellung der Natur zurück",
+    "el": "Η National Trust παίρνει πίσω γη για την αποκατάσταση της φύσης"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Flood victim, 95, lived in Wetherspoons after her home was destroyed and died before she could return",
+   "url": "https://www.bbc.co.uk/news/articles/cqe8r8ngjepjo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-13T06:05:49+00:00",
+   "t": {
+    "pt": "Vítima da enchente, 95 anos, morava em Wetherspoons depois que sua casa foi destruída e morreu antes que pudesse retornar",
+    "es": "La víctima de las inundaciones, de 95 años, vivía en Wetherspoons después de que su casa fuera destruida y murió antes de poder regresar.",
+    "it": "La vittima dell'alluvione, 95 anni, viveva a Wetherspoons dopo che la sua casa era stata distrutta ed è morta prima che potesse tornare",
+    "zh": "95 岁的洪水受害者在房屋被毁后住在 Wetherspoons，在返回之前就去世了",
+    "fr": "Une victime des inondations, 95 ans, vivait à Wetherspoons après la destruction de sa maison et est décédée avant de pouvoir rentrer",
+    "ar": "عاشت ضحية الفيضانات، 95 عامًا، في ويذرسبونز بعد أن دمر منزلها وتوفيت قبل أن تتمكن من العودة",
+    "de": "Die 95-jährige Flutopferin lebte nach der Zerstörung ihres Hauses in Wetherspoons und starb, bevor sie zurückkehren konnte",
+    "el": "Η πλημμυροπαθής, 95 ετών, ζούσε στο Wetherspoons αφού το σπίτι της καταστράφηκε και πέθανε πριν προλάβει να επιστρέψει"
    }
   },
   {
    "source": "GUARDIAN",
-   "title": "China rules out hosting Cop33 climate summit in 2028",
-   "url": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028",
-   "date": "2026-11-12T22:00:15+00:00",
+   "title": "Children’s exposure to home wood-burning could be as significant as traffic exhaust, study suggests",
+   "url": "https://www.theguardian.com/environment/2026/nov/13/wood-burning-stoves-pollution-traffic-exhaust-children",
+   "date": "2026-11-13T06:00:12+00:00",
    "t": {
-    "pt": "China descarta sediar cúpula climática Cop33 em 2028",
-    "es": "China descarta albergar la cumbre climática Cop33 en 2028",
-    "it": "La Cina esclude di ospitare il vertice sul clima Cop33 nel 2028",
-    "zh": "中国排除在2028年举办Cop33气候峰会的可能性",
-    "fr": "La Chine exclut d’accueillir le sommet sur le climat Cop33 en 2028",
-    "ar": "الصين تستبعد استضافة قمة المناخ Cop33 في عام 2028",
-    "de": "China schließt die Ausrichtung des Klimagipfels Cop33 im Jahr 2028 aus",
-    "el": "Η Κίνα αποκλείει το ενδεχόμενο να φιλοξενήσει τη σύνοδο κορυφής Cop33 για το κλίμα το 2028"
+    "pt": "A exposição das crianças à queima de lenha em casa pode ser tão significativa quanto a exaustão do tráfego, sugere estudo",
+    "es": "La exposición de los niños a la quema de leña en el hogar podría ser tan importante como los gases de escape del tráfico, sugiere un estudio",
+    "it": "L’esposizione dei bambini alla combustione della legna domestica potrebbe essere significativa quanto lo scarico del traffico, suggerisce lo studio",
+    "zh": "研究表明，儿童接触家庭燃木的情况可能与交通尾气一样严重",
+    "fr": "L’exposition des enfants au chauffage au bois à la maison pourrait être aussi importante que les gaz d’échappement de la circulation, suggère une étude",
+    "ar": "تشير الدراسة إلى أن تعرض الأطفال لحرق الأخشاب في المنزل قد يكون بنفس خطورة عوادم حركة المرور",
+    "de": "Die Belastung von Kindern durch die Holzverbrennung zu Hause könnte ebenso schwerwiegend sein wie die Abgase des Verkehrs, so eine Studie",
+    "el": "Η έκθεση των παιδιών στην καύση ξύλου στο σπίτι θα μπορούσε να είναι εξίσου σημαντική με τα καυσαέρια της κυκλοφορίας, προτείνει μια μελέτη"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "World is now in ‘age of electricity’, energy agency chief says at Cop31",
+   "url": "https://www.theguardian.com/environment/2026/nov/13/cop-31-electricity-energy-fossil-fuels-fatih-birol-iea",
+   "date": "2026-11-13T05:00:11+00:00",
+   "t": {
+    "pt": "O mundo está agora na “era da eletricidade”, diz chefe da agência de energia na Cop31",
+    "es": "El mundo está ahora en la “era de la electricidad”, dice el jefe de la agencia de energía en la Cop31",
+    "it": "Il mondo è ormai nell’era dell’elettricità, ha affermato il capo dell’agenzia per l’energia al Cop31",
+    "zh": "能源机构负责人在第 31 次缔约方会议上表示，世界现在正处于“电力时代”",
+    "fr": "Le monde est désormais dans « l’ère de l’électricité », a déclaré le chef de l’agence de l’énergie lors de la Cop31",
+    "ar": "العالم الآن في \"عصر الكهرباء\"، حسبما يقول رئيس وكالة الطاقة في مؤتمر Cop31",
+    "de": "Die Welt befindet sich jetzt im „Zeitalter der Elektrizität“, sagt der Chef der Energieagentur auf der Cop31",
+    "el": "Ο κόσμος βρίσκεται τώρα στην «εποχή του ηλεκτρισμού», λέει ο επικεφαλής της υπηρεσίας ενέργειας στο Cop31"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘I spend less, that’s all that matters’: life in the world’s most electrified countries",
+   "url": "https://www.theguardian.com/environment/2026/nov/13/i-spend-less-thats-all-that-matters-life-in-the-worlds-most-electrified-countries",
+   "date": "2026-11-13T05:00:10+00:00",
+   "t": {
+    "pt": "‘Gasto menos, isso é tudo que importa’: a vida nos países mais eletrificados do mundo",
+    "es": "“Gasto menos, eso es lo único que importa”: la vida en los países más electrificados del mundo",
+    "it": "“Spendo meno, questo è l’importante”: la vita nei Paesi più elettrizzati del mondo",
+    "zh": "“我花得更少，这才是最重要的”：世界上电气化程度最高的国家的生活",
+    "fr": "« Je dépense moins, c’est tout ce qui compte » : la vie dans les pays les plus électrifiés du monde",
+    "ar": "\"أنا أنفق أقل، هذا كل ما يهم\": الحياة في أكثر دول العالم كهربة",
+    "de": "„Ich gebe weniger aus, das ist alles, was zählt“: das Leben in den am stärksten elektrifizierten Ländern der Welt",
+    "el": "«Ξοδεύω λιγότερα, αυτό είναι το μόνο που έχει σημασία»: η ζωή στις πιο ηλεκτρισμένες χώρες του κόσμου"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "From ocean legend to undersea reef: Why has the SS United States been sunk?",
+   "url": "https://www.aljazeera.com/news/2026/11/13/from-ocean-legend-to-undersea-reef-why-has-the-ss-united-states-been-sunk?traffic_source=rss",
+   "date": "2026-11-13T04:39:33+00:00",
+   "t": {
+    "pt": "Da lenda oceânica ao recife submarino: por que o SS Estados Unidos foi afundado?",
+    "es": "De leyenda oceánica a arrecife submarino: ¿Por qué se hundió el SS United States?",
+    "it": "Dalla leggenda dell'oceano alla barriera corallina sottomarina: perché la SS United States è stata affondata?",
+    "zh": "从海洋传说到海底暗礁：美国号为何沉没？",
+    "fr": "De la légende océanique aux récifs sous-marins : pourquoi le SS United States a-t-il été coulé ?",
+    "ar": "من أسطورة المحيط إلى الشعاب المرجانية تحت البحر: لماذا غرقت سفينة SS United States؟",
+    "de": "Von der Meereslegende zum Unterwasserriff: Warum wurde die SS United States versenkt?",
+    "el": "Από τον μύθο του ωκεανού στον υποθαλάσσιο ύφαλο: Γιατί βυθίστηκαν τα SS Ηνωμένες Πολιτείες;"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘Start listening’: Indigenous activist implores Albanese to block new coal, oil and gas",
+   "url": "https://www.theguardian.com/environment/2026/nov/12/start-listening-indigenous-activist-implores-albanese-to-block-new-coal-oil-and-gas",
+   "date": "2026-11-13T01:14:05+00:00",
+   "t": {
+    "pt": "‘Comece a ouvir’: ativista indígena implora aos albaneses que bloqueiem novo carvão, petróleo e gás",
+    "es": "“Empiece a escuchar”: un activista indígena implora a los albaneses que bloqueen el suministro de carbón, petróleo y gas",
+    "it": "“Inizia ad ascoltare”: un attivista indigeno implora gli albanesi di bloccare la nuova produzione di carbone, petrolio e gas",
+    "zh": "“开始倾听”：原住民活动家恳求阿尔巴尼斯阻止新的煤炭、石油和天然气开采",
+    "fr": "« Commencez à écouter » : un activiste indigène implore les Albanais de bloquer l’exploitation du charbon, du pétrole et du gaz",
+    "ar": "\"ابدأ الاستماع\": ناشط من السكان الأصليين يناشد الألبانيين منع الفحم والنفط والغاز الجديد",
+    "de": "„Fangen Sie an zuzuhören“: Indigener Aktivist fleht die Albaner an, neue Kohle-, Öl- und Gasvorkommen zu blockieren",
+    "el": "«Άρχισε να ακούς»: Ιθαγενής ακτιβιστής εκλιπαρεί τους Αλβανέζους να μπλοκάρουν νέο άνθρακα, πετρέλαιο και φυσικό αέριο"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Colorado flood victims hope for speedier federal help",
+   "url": "https://www.npr.org/2026/11/12/nx-s1-6036811/colorado-flood-victims-hope-for-speedier-federal-help",
+   "date": "2026-11-12T23:51:38+00:00",
+   "t": {
+    "pt": "Vítimas das enchentes no Colorado esperam ajuda federal mais rápida",
+    "es": "Las víctimas de las inundaciones en Colorado esperan una ayuda federal más rápida",
+    "it": "Le vittime delle inondazioni del Colorado sperano in un aiuto federale più rapido",
+    "zh": "科罗拉多州洪水灾民希望联邦政府更快提供帮助",
+    "fr": "Les victimes des inondations au Colorado espèrent une aide fédérale plus rapide",
+    "ar": "يأمل ضحايا فيضانات كولورادو في الحصول على مساعدة فيدرالية أسرع",
+    "de": "Die Flutopfer in Colorado hoffen auf schnellere staatliche Hilfe",
+    "el": "Τα θύματα των πλημμυρών του Κολοράντο ελπίζουν σε ταχύτερη ομοσπονδιακή βοήθεια"
    }
   },
   {
@@ -79,22 +159,6 @@
     "ar": "بي بي سي داخل العلوم",
     "de": "BBC Inside Science",
     "el": "BBC Inside Science"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Be sea-ing you: humpback whale spotted in New York’s Hudson River",
-   "url": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
-   "date": "2026-11-12T20:53:49+00:00",
-   "t": {
-    "pt": "Maravilhe-se: baleia jubarte avistada no rio Hudson, em Nova York",
-    "es": "Estar navegando: ballena jorobada avistada en el río Hudson de Nueva York",
-    "it": "In mare: megattera avvistata nel fiume Hudson a New York",
-    "zh": "与你一起出海：在纽约哈德逊河发现座头鲸",
-    "fr": "Soyez en mer : une baleine à bosse aperçue dans le fleuve Hudson à New York",
-    "ar": "استمتع بالبحر: رصد الحوت الأحدب في نهر هدسون في نيويورك",
-    "de": "Lassen Sie sich überraschen: Buckelwal im New Yorker Hudson River gesichtet",
-    "el": "Να σας κολυμπήσω: εντοπίστηκε φάλαινα φυσητήρας στον ποταμό Hudson της Νέας Υόρκης"
    }
   },
   {
@@ -146,22 +210,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "UK ministers have no plans to publish explosive report on climate crisis",
-   "url": "https://www.theguardian.com/environment/2026/nov/12/uk-ministers-no-plans-publish-climate-crisis-report",
-   "date": "2026-11-12T17:51:24+00:00",
-   "t": {
-    "pt": "Os ministros do Reino Unido não têm planos de publicar relatório explosivo sobre a crise climática",
-    "es": "Los ministros del Reino Unido no tienen planes de publicar un informe explosivo sobre la crisis climática",
-    "it": "I ministri del Regno Unito non hanno intenzione di pubblicare un rapporto esplosivo sulla crisi climatica",
-    "zh": "英国部长们没有计划发布有关气候危机的爆炸性报告",
-    "fr": "Les ministres britanniques n’ont pas l’intention de publier un rapport explosif sur la crise climatique",
-    "ar": "ليس لدى وزراء المملكة المتحدة أي خطط لنشر تقرير متفجر حول أزمة المناخ",
-    "de": "Die britischen Minister haben nicht vor, einen brisanten Bericht zur Klimakrise zu veröffentlichen",
-    "el": "Οι υπουργοί του Ηνωμένου Βασιλείου δεν σχεδιάζουν να δημοσιεύσουν εκρηκτική έκθεση για την κλιματική κρίση"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Historic S.S. United States Sinks to Become an Artificial Reef",
    "url": "https://www.nytimes.com/2026/11/11/climate/ss-united-states-ship-sinking-artificial-reef-florida.html",
@@ -191,22 +239,6 @@
     "ar": "ما هو الوقود الأحفوري؟",
     "de": "Was sind fossile Brennstoffe?",
     "el": "Τι είναι τα ορυκτά καύσιμα;"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Nurdle impact to be researched for a year",
-   "url": "https://www.bbc.co.uk/news/articles/cxnv4y23zldyo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-12T11:38:35+00:00",
-   "t": {
-    "pt": "Impacto Nurdle será pesquisado por um ano",
-    "es": "El impacto de Nurdle se investigará durante un año",
-    "it": "L'impatto di Nurdle sarà studiato per un anno",
-    "zh": "Nurdle 的影响需要研究一年",
-    "fr": "L'impact de Nurdle fera l'objet de recherches pendant un an",
-    "ar": "تأثير Nurdle ليتم بحثها لمدة عام",
-    "de": "Nurdle-Auswirkungen sollen ein Jahr lang erforscht werden",
-    "el": "Ο αντίκτυπος του νευρώνα θα ερευνηθεί για ένα χρόνο"
    }
   },
   {
@@ -258,6 +290,70 @@
    }
   },
   {
+   "source": "NATURE",
+   "title": "Too dry for cacti: extreme droughts could push iconic species to extinction",
+   "url": "https://www.nature.com/articles/d41586-026-03671-2",
+   "date": "2026-11-11T00:00:00+00:00",
+   "t": {
+    "pt": "Muito seco para cactos: secas extremas podem levar espécies icônicas à extinção",
+    "es": "Demasiado seco para los cactus: las sequías extremas podrían llevar a la extinción a especies icónicas",
+    "it": "Troppo secco per i cactus: siccità estreme potrebbero portare all’estinzione specie iconiche",
+    "zh": "仙人掌太干燥：极端干旱可能导致标志性物种灭绝",
+    "fr": "Trop sec pour les cactus : des sécheresses extrêmes pourraient pousser des espèces emblématiques à l'extinction",
+    "ar": "جاف جدًا بالنسبة للصبار: قد يؤدي الجفاف الشديد إلى دفع الأنواع المميزة إلى الانقراض",
+    "de": "Zu trocken für Kakteen: Extreme Dürren könnten ikonische Arten zum Aussterben bringen",
+    "el": "Πολύ ξηροί για κάκτους: οι ακραίες ξηρασίες θα μπορούσαν να ωθήσουν τα εικονικά είδη στην εξαφάνιση"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Getting a grasp on the global wildlife trade",
+   "url": "https://www.nature.com/articles/d41586-026-03591-1",
+   "date": "2026-11-11T00:00:00+00:00",
+   "t": {
+    "pt": "Entendendo o comércio global de vida selvagem",
+    "es": "Comprender el comercio mundial de vida silvestre",
+    "it": "Comprendere il commercio globale di animali selvatici",
+    "zh": "掌握全球野生动物贸易",
+    "fr": "Mieux comprendre le commerce mondial des espèces sauvages",
+    "ar": "التعرف على التجارة العالمية للحياة البرية",
+    "de": "Den globalen Wildtierhandel verstehen",
+    "el": "Γνωρίζοντας το παγκόσμιο εμπόριο άγριας ζωής"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Even giant anteaters in remote Brazil have microplastics in their blood",
+   "url": "https://www.nature.com/articles/d41586-026-03660-5",
+   "date": "2026-11-11T00:00:00+00:00",
+   "t": {
+    "pt": "Até tamanduás gigantes no remoto Brasil têm microplásticos no sangue",
+    "es": "Incluso los osos hormigueros gigantes del remoto Brasil tienen microplásticos en la sangre",
+    "it": "Anche i formichieri giganti del remoto Brasile hanno microplastiche nel sangue",
+    "zh": "甚至巴西偏远地区的巨型食蚁兽的血液中也含有微塑料",
+    "fr": "Même les fourmiliers géants des régions reculées du Brésil ont des microplastiques dans le sang",
+    "ar": "حتى آكلات النمل العملاقة في المناطق النائية في البرازيل تحتوي على مواد بلاستيكية دقيقة في دمائها",
+    "de": "Selbst Riesenameisenbären im abgelegenen Brasilien haben Mikroplastik im Blut",
+    "el": "Ακόμη και οι γιγάντιοι μυρμηγκοφάγοι στην απομακρυσμένη Βραζιλία έχουν μικροπλαστικά στο αίμα τους"
+   }
+  },
+  {
+   "source": "NATURE",
+   "title": "Microplastics change the colour of the sea near the Great Pacific Garbage Patch",
+   "url": "https://www.nature.com/articles/d41586-026-03637-4",
+   "date": "2026-11-11T00:00:00+00:00",
+   "t": {
+    "pt": "Microplásticos mudam a cor do mar perto da Grande Mancha de Lixo do Pacífico",
+    "es": "Los microplásticos cambian el color del mar cerca de la Gran Mancha de Basura del Pacífico",
+    "it": "Le microplastiche cambiano il colore del mare vicino al Great Pacific Garbage Patch",
+    "zh": "微塑料改变了太平洋垃圾带附近海水的颜色",
+    "fr": "Les microplastiques changent la couleur de la mer près de la zone de déchets du Grand Pacifique",
+    "ar": "تغير المواد البلاستيكية الدقيقة لون البحر بالقرب من رقعة القمامة الكبرى في المحيط الهادئ",
+    "de": "Mikroplastik verändert die Farbe des Meeres in der Nähe des Great Pacific Garbage Patch",
+    "el": "Τα μικροπλαστικά αλλάζουν το χρώμα της θάλασσας κοντά στο Great Pacific Garbage Patch"
+   }
+  },
+  {
    "source": "DW",
    "title": "Why electrification is the climate game changer we need",
    "url": "https://www.dw.com/en/why-electrification-is-the-climate-game-changer-we-need/a-79615979?maca=en-rss-en-all-1573-rdf",
@@ -287,38 +383,6 @@
     "ar": "هل ستدفع أستراليا للخروج من الوقود الأحفوري في محادثات الأمم المتحدة؟",
     "de": "Wird Australien bei UN-Gesprächen auf einen Ausstieg aus fossilen Brennstoffen drängen?",
     "el": "Θα πιέσει η Αυστραλία για έξοδο από τα ορυκτά καύσιμα στις συνομιλίες του ΟΗΕ;"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "SS United States, a historic ship will be sunk to create an artificial reef",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
-   "date": "2026-11-08T13:34:34+00:00",
-   "t": {
-    "pt": "SS Estados Unidos, um navio histórico será afundado para criar um recife artificial",
-    "es": "SS Estados Unidos, se hundirá un barco histórico para crear un arrecife artificial",
-    "it": "SS Stati Uniti, una nave storica verrà affondata per creare un reef artificiale",
-    "zh": "SS United，一艘历史悠久的船只将被沉没以建造人工鱼礁",
-    "fr": "SS United States, un navire historique sera coulé pour créer un récif artificiel",
-    "ar": "SS الولايات المتحدة، سيتم غرق سفينة تاريخية لإنشاء الشعاب المرجانية الاصطناعية",
-    "de": "SS United States, ein historisches Schiff wird versenkt, um ein künstliches Riff zu schaffen",
-    "el": "SS Ηνωμένες Πολιτείες, ένα ιστορικό πλοίο θα βυθιστεί για να δημιουργηθεί ένας τεχνητός ύφαλος"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Trump administration moves to lift ban on roadbuilding and logging in national forests",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-5981452/trump-administration-moves-to-lift-ban-on-roadbuilding-and-logging-in-national-forests",
-   "date": "2026-11-08T13:16:04+00:00",
-   "t": {
-    "pt": "A administração Trump toma medidas para suspender a proibição da construção de estradas e da exploração madeireira nas florestas nacionais",
-    "es": "La administración Trump toma medidas para levantar la prohibición de la construcción de carreteras y la tala en los bosques nacionales",
-    "it": "L’amministrazione Trump si muove per revocare il divieto di costruzione di strade e di disboscamento nelle foreste nazionali",
-    "zh": "特朗普政府采取行动取消道路建设和国家森林伐木禁令",
-    "fr": "L’administration Trump décide de lever l’interdiction de la construction de routes et de l’exploitation forestière dans les forêts nationales",
-    "ar": "تتحرك إدارة ترامب لرفع الحظر المفروض على بناء الطرق وقطع الأشجار في الغابات الوطنية",
-    "de": "Die Trump-Regierung will das Verbot des Straßenbaus und der Abholzung in nationalen Wäldern aufheben",
-    "el": "Η κυβέρνηση Τραμπ κινείται για την άρση της απαγόρευσης της κατασκευής δρόμων και της υλοτομίας σε εθνικά δάση"
    }
   }
  ]
