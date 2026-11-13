@@ -1,11 +1,53 @@
 {
- "updated": "2026-11-13T15:23:07.177049+00:00",
+ "updated": "2026-11-13T21:59:31.119163+00:00",
  "items": [
   {
    "source": "GUARDIAN",
-   "title": "Cop31 live: ‘You cannot build peace on a burning planet’, warns UN chief Guterres in final climate summit speech",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/13/cop31-climate-crisis-talks-turkey-latest-news-updates",
-   "date": "2026-11-13T15:04:29+00:00",
+   "title": "Rip out ugly clutter to help revive UK high streets, says thinktank",
+   "url": "https://www.theguardian.com/society/2026/nov/13/rip-out-clutter-to-retail-revive-high-streets-thinktank",
+   "date": "2026-11-13T21:34:43+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Send us your questions about climate crisis and politics for the next Stateside guest: Bill McKibben",
+   "url": "https://www.theguardian.com/us-news/2026/nov/13/climate-environment-questions-bill-mckibben",
+   "date": "2026-11-13T20:23:23+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "SpaceX to attempt double catch of huge Starship rocket",
+   "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-13T20:12:02+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "What could El Niño mean for winter weather in the US and Canada?",
+   "url": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-13T18:50:15+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "The Guardian view on M John Harrison’s Booker win: a new frontier for science fiction | Editorial",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/13/the-guardian-view-on-m-john-harrisons-booker-win-a-new-frontier-for-science-fiction",
+   "date": "2026-11-13T18:00:56+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Timing of Climate Science Reports Ignites a Hot Fight at U.N. Talks",
+   "url": "https://www.nytimes.com/2026/11/13/climate/cop31-turkey-ipcc-climate-report.html",
+   "date": "2026-11-13T17:59:45+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Fight the climate crisis or go for growth? There is a way Burnham can do both | Jonathan Freedland",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/13/fight-climate-crisis-growth-andy-burnham-economic-leaders",
+   "date": "2026-11-13T17:10:23+00:00",
    "t": {}
   },
   {
@@ -13,27 +55,6 @@
    "title": "Climate action discussed at youth COP meeting",
    "url": "https://www.bbc.co.uk/news/articles/ckx28ly7y387o?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-13T14:39:06+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘Incredibly unusual’ bird migrating from Siberia found in Cumbria – killed by cat",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/13/siberian-rubythroat-bird-migrating-siberia-cumbria-killed-by-cat",
-   "date": "2026-11-13T14:00:20+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "UK’s biggest insurer hit by rise in subsidence claims after record hot summer",
-   "url": "https://www.theguardian.com/business/2026/nov/13/uk-insurer-rise-in-subsidence-claims-aviva-hastings-direct-axa",
-   "date": "2026-11-13T13:37:31+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "New York is running out of room for its waste even with Statue of Liberty-sized landfill",
-   "url": "https://www.theguardian.com/us-news/2026/nov/13/new-york-seneca-meadows-landfill",
-   "date": "2026-11-13T12:30:18+00:00",
    "t": {}
   },
   {
@@ -49,38 +70,6 @@
    "url": "https://www.dw.com/en/could-lack-of-money-sink-tfff-rainforest-fund-before-it-even-launches/a-79878673?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-13T08:12:00+00:00",
    "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "National Trust takes back land for nature restoration",
-   "url": "https://www.bbc.co.uk/news/articles/cqvg257kl440o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-13T07:04:09+00:00",
-   "t": {
-    "pt": "National Trust recupera terras para restauração da natureza",
-    "es": "National Trust recupera tierras para la restauración de la naturaleza",
-    "it": "Il National Trust si riprende la terra per il ripristino della natura",
-    "zh": "国民信托收回土地用于自然恢复",
-    "fr": "Le National Trust récupère des terres pour la restauration de la nature",
-    "ar": "الصندوق الوطني يستعيد الأراضي لاستعادة الطبيعة",
-    "de": "National Trust holt Land zur Wiederherstellung der Natur zurück",
-    "el": "Η National Trust παίρνει πίσω γη για την αποκατάσταση της φύσης"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "How many sewage spills have happened in your part of Scotland?",
-   "url": "https://www.bbc.co.uk/news/articles/c0re545l8jdo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-13T06:31:51+00:00",
-   "t": {
-    "pt": "Quantos derramamentos de esgoto aconteceram na sua parte da Escócia?",
-    "es": "¿Cuántos vertidos de aguas residuales se han producido en tu zona de Escocia?",
-    "it": "Quante fuoriuscite di liquami si sono verificate nella tua parte della Scozia?",
-    "zh": "您所在的苏格兰地区发生了多少次污水泄漏事件？",
-    "fr": "Combien de déversements d’eaux usées se sont produits dans votre région d’Écosse ?",
-    "ar": "كم عدد حالات انسكاب مياه الصرف الصحي التي حدثت في الجزء الذي تعيش فيه من اسكتلندا؟",
-    "de": "Wie viele Abwasserunfälle sind in Ihrem Teil Schottlands passiert?",
-    "el": "Πόσες διαρροές λυμάτων έχουν συμβεί στην περιοχή σας στη Σκωτία;"
-   }
   },
   {
    "source": "NATURE",
@@ -151,22 +140,6 @@
     "ar": "يضع الديمقراطيون الأهداف على علم مع تبلور مراقبة ترامب",
     "de": "Demokraten machen Ziele bekannt, während Trumps Aufsicht Gestalt annimmt",
     "el": "Οι Δημοκρατικοί θέτουν τους στόχους σε ειδοποίηση καθώς η επίβλεψη Τραμπ παίρνει μορφή"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Historic S.S. United States Sinks to Become an Artificial Reef",
-   "url": "https://www.nytimes.com/2026/11/11/climate/ss-united-states-ship-sinking-artificial-reef-florida.html",
-   "date": "2026-11-12T14:47:27+00:00",
-   "t": {
-    "pt": "Histórico S.S. Estados Unidos afunda para se tornar um recife artificial",
-    "es": "El histórico SS Estados Unidos se hunde para convertirse en un arrecife artificial",
-    "it": "La storica SS degli Stati Uniti affonda per diventare una barriera corallina artificiale",
-    "zh": "历史悠久的美国号沉没，成为人工鱼礁",
-    "fr": "L'historique SS United States coule pour devenir un récif artificiel",
-    "ar": "الولايات المتحدة الأمريكية التاريخية تغرق لتصبح شعابًا مرجانية اصطناعية",
-    "de": "Die historische S.S. United States sinkt und wird zu einem künstlichen Riff",
-    "el": "Το ιστορικό S.S. των Ηνωμένων Πολιτειών βυθίζεται για να γίνει τεχνητός ύφαλος"
    }
   },
   {
