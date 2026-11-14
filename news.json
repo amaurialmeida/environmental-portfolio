@@ -1,54 +1,117 @@
 {
- "updated": "2026-11-14T17:04:37.920001+00:00",
+ "updated": "2026-11-14T21:27:56.805028+00:00",
  "items": [
   {
-   "source": "GUARDIAN",
-   "title": "LGBTQ+ protesters defy crackdown in Turkey to march with Cop31 activists",
-   "url": "https://www.theguardian.com/world/2026/nov/14/lgbtq-protesters-defy-crackdown-in-turkey-to-march-with-cop31-activists",
-   "date": "2026-11-14T16:13:58+00:00",
-   "t": {}
+   "source": "BBC",
+   "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
+   "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-14T21:05:14+00:00",
+   "t": {
+    "pt": "Segunda tentativa de captura enquanto o foguete SpaceX Starship volta para a Terra",
+    "es": "Segundo intento de captura mientras el cohete SpaceX Starship regresa a la Tierra",
+    "it": "Secondo tentativo di cattura mentre il razzo Starship di SpaceX torna sulla Terra",
+    "zh": "SpaceX 星舰火箭返回地球时的第二次捕获尝试",
+    "fr": "Deuxième tentative de capture alors que la fusée SpaceX Starship retourne sur Terre",
+    "ar": "محاولة الصيد الثانية أثناء عودة صاروخ SpaceX Starship إلى الأرض",
+    "de": "Zweiter Fangversuch, während die SpaceX-Starship-Rakete zur Erde zurückkehrt",
+    "el": "Δεύτερη προσπάθεια αλιείας καθώς ο πύραυλος SpaceX Starship επιστρέφει στη Γη"
+   }
   },
   {
-   "source": "BBC",
-   "title": "Second catch attempt for SpaceX Starship rocket",
-   "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T14:18:41+00:00",
-   "t": {}
+   "source": "DW",
+   "title": "COP31: Protesters, UN urge swift climate deal",
+   "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-14T17:19:00+00:00",
+   "t": {
+    "pt": "COP31: Manifestantes e ONU pedem acordo climático rápido",
+    "es": "COP31: Manifestantes y la ONU instan a un acuerdo climático rápido",
+    "it": "COP31: I manifestanti e le Nazioni Unite sollecitano un rapido accordo sul clima",
+    "zh": "COP31：抗议者、联合国敦促迅速达成气候协议",
+    "fr": "COP31 : les manifestants et l’ONU réclament un accord rapide sur le climat",
+    "ar": "COP31: المتظاهرون والأمم المتحدة يحثون على التوصل إلى اتفاق سريع بشأن المناخ",
+    "de": "COP31: Demonstranten und UN fordern schnelles Klimaabkommen",
+    "el": "COP31: Διαδηλωτές, ΟΗΕ ζητούν ταχεία συμφωνία για το κλίμα"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "Indigenous students retrace Lewis and Clark’s historic journey: ‘We can’t protect what we cannot see’",
    "url": "https://www.theguardian.com/us-news/2026/nov/14/lewis-clark-indigenous-students",
    "date": "2026-11-14T14:00:46+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Underwater salt mine closure in Ohio raises safety and supply concerns for winter",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
-   "date": "2026-11-14T13:00:45+00:00",
-   "t": {}
+   "t": {
+    "pt": "Estudantes indígenas refazem a jornada histórica de Lewis e Clark: ‘Não podemos proteger o que não podemos ver’",
+    "es": "Estudiantes indígenas rememoran el viaje histórico de Lewis y Clark: “No podemos proteger lo que no podemos ver”",
+    "it": "Studenti indigeni ripercorrono il viaggio storico di Lewis e Clark: “Non possiamo proteggere ciò che non possiamo vedere”",
+    "zh": "原住民学生回顾刘易斯和克拉克的历史之旅：“我们无法保护我们看不到的东西”",
+    "fr": "Des étudiants autochtones retracent le parcours historique de Lewis et Clark : « Nous ne pouvons pas protéger ce que nous ne pouvons pas voir »",
+    "ar": "طلاب من السكان الأصليين يسترجعون رحلة لويس وكلارك التاريخية: \"لا يمكننا حماية ما لا نستطيع رؤيته\"",
+    "de": "Indigene Studenten zeichnen die historische Reise von Lewis und Clark nach: „Wir können nicht schützen, was wir nicht sehen können“",
+    "el": "Οι ιθαγενείς μαθητές παρακολουθούν ξανά το ιστορικό ταξίδι του Λιούις και του Κλαρκ: «Δεν μπορούμε να προστατεύσουμε αυτό που δεν μπορούμε να δούμε»"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
    "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
    "date": "2026-11-14T13:00:44+00:00",
-   "t": {}
+   "t": {
+    "pt": "Incêndios sufocantes, calor mortal e inundações devastadoras: 2026 em condições climáticas extremas",
+    "es": "Incendios asfixiantes, calor mortal e inundaciones devastadoras: 2026 en condiciones climáticas extremas",
+    "it": "Incendi soffocanti, caldo mortale e inondazioni devastanti: il 2026 in condizioni meteorologiche estreme",
+    "zh": "令人窒息的大火、致命的高温和毁灭性的洪水：2026 年的极端天气",
+    "fr": "Incendies étouffants, chaleur mortelle et inondations dévastatrices : 2026 dans des conditions météorologiques extrêmes",
+    "ar": "حرائق خانقة وحرارة مميتة وفيضانات مدمرة: عام 2026 في طقس قاسٍ",
+    "de": "Erstickende Brände, tödliche Hitze und verheerende Überschwemmungen: 2026 im extremen Wetter",
+    "el": "Πνιγμένες πυρκαγιές, θανατηφόρα ζέστη και καταστροφικές πλημμύρες: 2026 σε ακραίες καιρικές συνθήκες"
+   }
   },
   {
    "source": "DW",
    "title": "Germany news: Solar power production approaches record high",
    "url": "https://www.dw.com/en/germany-news-solar-power-production-approaches-record-high/live-79947500?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-14T11:22:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "Notícias da Alemanha: Produção de energia solar se aproxima de recorde",
+    "es": "Noticias de Alemania: La producción de energía solar se acerca a un nivel récord",
+    "it": "Notizie dalla Germania: la produzione di energia solare si avvicina al livello record",
+    "zh": "德国新闻：太阳能发电量创历史新高",
+    "fr": "Allemagne : la production d'énergie solaire approche d'un niveau record",
+    "ar": "أخبار ألمانيا: إنتاج الطاقة الشمسية يقترب من مستوى قياسي",
+    "de": "Nachrichten aus Deutschland: Solarstromproduktion nähert sich Rekordhoch",
+    "el": "Γερμανικά νέα: Η παραγωγή ηλιακής ενέργειας πλησιάζει σε ρεκόρ"
+   }
   },
   {
    "source": "BBC",
    "title": "How to spot November's planetary parade in the pre-dawn sky",
    "url": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-14T11:07:51+00:00",
-   "t": {}
+   "t": {
+    "pt": "Como identificar o desfile planetário de novembro no céu antes do amanhecer",
+    "es": "Cómo detectar el desfile planetario de noviembre en el cielo antes del amanecer",
+    "it": "Come individuare la parata planetaria di novembre nel cielo prima dell'alba",
+    "zh": "如何在黎明前的天空中发现十一月的行星巡游",
+    "fr": "Comment repérer le défilé planétaire de novembre dans le ciel avant l'aube",
+    "ar": "كيفية اكتشاف موكب الكواكب لشهر نوفمبر في سماء ما قبل الفجر",
+    "de": "So erkennen Sie die Planetenparade im November am Himmel vor der Morgendämmerung",
+    "el": "Πώς να εντοπίσετε την πλανητική παρέλαση του Νοεμβρίου στον ουρανό πριν την αυγή"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Greenpeace boulders may delay building of £12bn windfarms in North Sea",
+   "url": "https://www.theguardian.com/environment/2026/nov/14/greenpeace-boulders-norfolk-vanguard-windfarms",
+   "date": "2026-11-14T11:00:43+00:00",
+   "t": {
+    "pt": "Pedregulhos do Greenpeace podem atrasar a construção de parques eólicos de £ 12 bilhões no Mar do Norte",
+    "es": "Los cantos rodados de Greenpeace pueden retrasar la construcción de parques eólicos de 12.000 millones de libras en el Mar del Norte",
+    "it": "I massi di Greenpeace potrebbero ritardare la costruzione di parchi eolici da 12 miliardi di sterline nel Mare del Nord",
+    "zh": "绿色和平巨石可能会推迟在北海建造价值 120 亿英镑的风电场",
+    "fr": "Les rochers de Greenpeace pourraient retarder la construction de parcs éoliens de 12 milliards de livres sterling en mer du Nord",
+    "ar": "قد تؤخر صخور منظمة السلام الأخضر بناء مزارع الرياح بقيمة 12 مليار جنيه إسترليني في بحر الشمال",
+    "de": "Felsbrocken von Greenpeace könnten den Bau von Windparks im Wert von 12 Milliarden Pfund in der Nordsee verzögern",
+    "el": "Οι ογκόλιθοι της Greenpeace ενδέχεται να καθυστερήσουν την κατασκευή αιολικών πάρκων αξίας 12 δισεκατομμυρίων λιρών στη Βόρεια Θάλασσα"
+   }
   },
   {
    "source": "BBC",
@@ -64,6 +127,22 @@
     "ar": "الطقس القاسي يترك البستانيين يتحوطون رهاناتهم",
     "de": "Aufgrund des extremen Wetters sind Gärtner auf der sicheren Seite",
     "el": "Οι ακραίες καιρικές συνθήκες αφήνουν τους κηπουρούς να αντισταθμίζουν τα στοιχήματά τους"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Bristol aims to become UK’s first ‘wetland city’ and reduce flood risk",
+   "url": "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
+   "date": "2026-11-14T07:00:37+00:00",
+   "t": {
+    "pt": "Bristol pretende se tornar a primeira ‘cidade pantanosa’ do Reino Unido e reduzir o risco de inundações",
+    "es": "Bristol aspira a convertirse en la primera \"ciudad humedal\" del Reino Unido y reducir el riesgo de inundaciones",
+    "it": "Bristol mira a diventare la prima “città delle zone umide” del Regno Unito e a ridurre il rischio di inondazioni",
+    "zh": "布里斯托尔旨在成为英国第一个“湿地城市”并降低洪水风险",
+    "fr": "Bristol vise à devenir la première « ville humide » du Royaume-Uni et à réduire les risques d’inondation",
+    "ar": "تهدف بريستول إلى أن تصبح أول \"مدينة للأراضي الرطبة\" في المملكة المتحدة وتقليل مخاطر الفيضانات",
+    "de": "Bristol möchte die erste „Feuchtgebietsstadt“ Großbritanniens werden und das Überschwemmungsrisiko verringern",
+    "el": "Το Μπρίστολ στοχεύει να γίνει η πρώτη «υγροτόπος» του Ηνωμένου Βασιλείου και να μειώσει τον κίνδυνο πλημμύρας"
    }
   },
   {
@@ -243,22 +322,6 @@
    }
   },
   {
-   "source": "DW",
-   "title": "Germany slips in climate protection rankings as other countries make gains",
-   "url": "https://www.dw.com/en/germany-slips-in-climate-protection-rankings-as-other-countries-make-gains/a-79913635?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-11T06:41:00+00:00",
-   "t": {
-    "pt": "A Alemanha cai nos rankings de proteção climática à medida que outros países obtêm ganhos",
-    "es": "Alemania cae en la clasificación de protección climática mientras otros países avanzan",
-    "it": "La Germania scivola nella classifica della protezione del clima mentre altri paesi guadagnano terreno",
-    "zh": "德国在气候保护排名中下滑，而其他国家则有所进步",
-    "fr": "L’Allemagne recule dans le classement de la protection du climat tandis que d’autres pays progressent",
-    "ar": "ألمانيا تتراجع في تصنيفات حماية المناخ مع تحقيق دول أخرى مكاسب",
-    "de": "Deutschland rutscht im Klimaschutzranking ab, während andere Länder zulegen",
-    "el": "Η Γερμανία διολισθαίνει στην κατάταξη για την προστασία του κλίματος καθώς άλλες χώρες σημειώνουν κέρδη"
-   }
-  },
-  {
    "source": "NATURE",
    "title": "Too dry for cacti: extreme droughts could push iconic species to extinction",
    "url": "https://www.nature.com/articles/d41586-026-03671-2",
@@ -311,7 +374,16 @@
    "title": "SS United States, a historic ship will be sunk to create an artificial reef",
    "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
    "date": "2026-11-08T13:34:34+00:00",
-   "t": {}
+   "t": {
+    "pt": "SS Estados Unidos, um navio histórico será afundado para criar um recife artificial",
+    "es": "SS Estados Unidos, se hundirá un barco histórico para crear un arrecife artificial",
+    "it": "SS Stati Uniti, una nave storica verrà affondata per creare un reef artificiale",
+    "zh": "SS United，一艘历史悠久的船只将被沉没以建造人工鱼礁",
+    "fr": "SS United States, un navire historique sera coulé pour créer un récif artificiel",
+    "ar": "SS الولايات المتحدة، سيتم غرق سفينة تاريخية لإنشاء الشعاب المرجانية الاصطناعية",
+    "de": "SS United States, ein historisches Schiff wird versenkt, um ein künstliches Riff zu schaffen",
+    "el": "SS Ηνωμένες Πολιτείες, ένα ιστορικό πλοίο θα βυθιστεί για να δημιουργηθεί ένας τεχνητός ύφαλος"
+   }
   }
  ]
 }
