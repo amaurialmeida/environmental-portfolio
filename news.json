@@ -1,6 +1,43 @@
 {
- "updated": "2026-11-13T21:59:31.119163+00:00",
+ "updated": "2026-11-14T02:26:47.637398+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Bluetongue virus confirmed on County Down farm",
+   "url": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-14T00:17:45+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
+   "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-14T00:03:56+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Setback for SpaceX Starship rocket's double-catch test",
+   "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-14T00:01:01+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Malawi Farmers Brace for Drought From ‘Super El Niño’",
+   "url": "https://www.nytimes.com/video/climate/100000011222904/super-el-nino-malawi-drought-farmers.html",
+   "date": "2026-11-13T22:53:23+00:00",
+   "t": {
+    "pt": "Agricultores do Malawi se preparam para a seca devido ao “Super El Niño”",
+    "es": "Los agricultores de Malawi se preparan para la sequía provocada por el \"Súper El Niño\"",
+    "it": "Gli agricoltori del Malawi si preparano alla siccità causata dal “Super El Niño”",
+    "zh": "马拉维农民准备迎接“超级厄尔尼诺”带来的干旱",
+    "fr": "Les agriculteurs du Malawi se préparent à la sécheresse provoquée par le « Super El Niño »",
+    "ar": "المزارعون في مالاوي يستعدون لمواجهة الجفاف الناجم عن ظاهرة النينيو الفائقة",
+    "de": "Malawi-Bauern bereiten sich auf Dürre durch „Super El Niño“ vor",
+    "el": "Οι αγρότες του Μαλάουι προετοιμάζονται για την ξηρασία από το «Super El Niño»"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Rip out ugly clutter to help revive UK high streets, says thinktank",
@@ -13,13 +50,6 @@
    "title": "Send us your questions about climate crisis and politics for the next Stateside guest: Bill McKibben",
    "url": "https://www.theguardian.com/us-news/2026/nov/13/climate-environment-questions-bill-mckibben",
    "date": "2026-11-13T20:23:23+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "SpaceX to attempt double catch of huge Starship rocket",
-   "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-13T20:12:02+00:00",
    "t": {}
   },
   {
@@ -51,20 +81,6 @@
    "t": {}
   },
   {
-   "source": "BBC",
-   "title": "Climate action discussed at youth COP meeting",
-   "url": "https://www.bbc.co.uk/news/articles/ckx28ly7y387o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-13T14:39:06+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "Summer heatwave put bin crews lives at risk, says council worker",
-   "url": "https://www.bbc.co.uk/news/articles/cj1dv5q21wdxo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-13T12:03:04+00:00",
-   "t": {}
-  },
-  {
    "source": "DW",
    "title": "Could lack of money sink TFFF rainforest fund before it even launches?",
    "url": "https://www.dw.com/en/could-lack-of-money-sink-tfff-rainforest-fund-before-it-even-launches/a-79878673?maca=en-rss-en-all-1573-rdf",
@@ -92,22 +108,6 @@
     "ar": "يأمل ضحايا فيضانات كولورادو في الحصول على مساعدة فيدرالية أسرع",
     "de": "Die Flutopfer in Colorado hoffen auf schnellere staatliche Hilfe",
     "el": "Τα θύματα των πλημμυρών του Κολοράντο ελπίζουν σε ταχύτερη ομοσπονδιακή βοήθεια"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Malawi Farmers Brace for Drought From ‘Super El Niño’",
-   "url": "https://www.nytimes.com/video/climate/100000011222904/super-el-nino-malawi-drought-farmers.html",
-   "date": "2026-11-12T20:51:23+00:00",
-   "t": {
-    "pt": "Agricultores do Malawi se preparam para a seca devido ao “Super El Niño”",
-    "es": "Los agricultores de Malawi se preparan para la sequía provocada por el \"Súper El Niño\"",
-    "it": "Gli agricoltori del Malawi si preparano alla siccità causata dal “Super El Niño”",
-    "zh": "马拉维农民准备迎接“超级厄尔尼诺”带来的干旱",
-    "fr": "Les agriculteurs du Malawi se préparent à la sécheresse provoquée par le « Super El Niño »",
-    "ar": "المزارعون في مالاوي يستعدون لمواجهة الجفاف الناجم عن ظاهرة النينيو الفائقة",
-    "de": "Malawi-Bauern bereiten sich auf Dürre durch „Super El Niño“ vor",
-    "el": "Οι αγρότες του Μαλάουι προετοιμάζονται για την ξηρασία από το «Super El Niño»"
    }
   },
   {
