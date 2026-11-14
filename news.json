@@ -1,26 +1,85 @@
 {
- "updated": "2026-11-14T02:26:47.637398+00:00",
+ "updated": "2026-11-14T10:20:09.188578+00:00",
  "items": [
+  {
+   "source": "AL JAZEERA",
+   "title": "Nearly $20m found in Hungary’s forests, buildings amid corruption probe",
+   "url": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings?traffic_source=rss",
+   "date": "2026-11-14T09:08:21+00:00",
+   "t": {
+    "pt": "Quase US$ 20 milhões encontrados em florestas e edifícios da Hungria em meio a investigação de corrupção",
+    "es": "Casi 20 millones de dólares encontrados en bosques y edificios de Hungría en medio de una investigación de corrupción",
+    "it": "Quasi 20 milioni di dollari trovati nelle foreste e negli edifici dell’Ungheria sotto inchiesta sulla corruzione",
+    "zh": "腐败调查中匈牙利森林和建筑物发现近2000万美元",
+    "fr": "Près de 20 millions de dollars découverts dans les forêts et les bâtiments de Hongrie dans le cadre d'une enquête pour corruption",
+    "ar": "العثور على ما يقرب من 20 مليون دولار في غابات ومباني المجر وسط تحقيقات الفساد",
+    "de": "Bei Korruptionsermittlungen wurden in Ungarns Wäldern und Gebäuden fast 20 Millionen US-Dollar gefunden",
+    "el": "Βρέθηκαν σχεδόν 20 εκατομμύρια δολάρια σε δάση της Ουγγαρίας, κτίρια εν μέσω έρευνας για διαφθορά"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Extreme weather leaves gardeners hedging their bets",
+   "url": "https://www.bbc.co.uk/news/articles/c6qj5r2qzqpwo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-14T07:12:14+00:00",
+   "t": {
+    "pt": "O clima extremo faz com que os jardineiros evitem suas apostas",
+    "es": "El clima extremo deja a los jardineros cubriendo sus apuestas",
+    "it": "Il clima estremo costringe i giardinieri a coprire le loro scommesse",
+    "zh": "极端天气让园丁们两面下注",
+    "fr": "Les conditions météorologiques extrêmes obligent les jardiniers à se couvrir",
+    "ar": "الطقس القاسي يترك البستانيين يتحوطون رهاناتهم",
+    "de": "Aufgrund des extremen Wetters sind Gärtner auf der sicheren Seite",
+    "el": "Οι ακραίες καιρικές συνθήκες αφήνουν τους κηπουρούς να αντισταθμίζουν τα στοιχήματά τους"
+   }
+  },
   {
    "source": "BBC",
    "title": "Bluetongue virus confirmed on County Down farm",
    "url": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T00:17:45+00:00",
-   "t": {}
+   "date": "2026-11-14T06:56:58+00:00",
+   "t": {
+    "pt": "Vírus da língua azul confirmado na fazenda County Down",
+    "es": "Virus de la lengua azul confirmado en una granja del condado de Down",
+    "it": "Virus della febbre catarrale confermato nella fattoria della contea di Down",
+    "zh": "唐郡农场确诊蓝舌病毒",
+    "fr": "Virus de la fièvre catarrhale confirmé dans une ferme du comté de Down",
+    "ar": "تم تأكيد وجود فيروس اللسان الأزرق في مزرعة مقاطعة داون",
+    "de": "Blauzungenvirus auf Farm in County Down bestätigt",
+    "el": "Επιβεβαιώθηκε ο ιός του καταρροϊκού πυρετού στο αγρόκτημα County Down"
+   }
   },
   {
    "source": "BBC",
    "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
    "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-14T00:03:56+00:00",
-   "t": {}
+   "t": {
+    "pt": "Jojo, o gorila, passou a vida sozinho. Ele pode finalmente encontrar uma companhia?",
+    "es": "Jojo el gorila ha pasado su vida solo. ¿Podrá finalmente encontrar un compañero?",
+    "it": "Jojo il gorilla ha trascorso la sua vita da solo. Riuscirà finalmente a trovare un compagno?",
+    "zh": "大猩猩乔乔孤独地度过了一生。他最终能找到同伴吗？",
+    "fr": "Jojo le gorille a passé sa vie seul. Pourra-t-il enfin trouver un compagnon ?",
+    "ar": "لقد أمضى جوجو الغوريلا حياته وحيدًا. هل يمكنه أخيرًا العثور على رفيق؟",
+    "de": "Jojo, der Gorilla, hat sein Leben allein verbracht. Kann er endlich einen Gefährten finden?",
+    "el": "Ο γορίλας Jojo έχει περάσει τη ζωή του μόνος. Μπορεί επιτέλους να βρει σύντροφο;"
+   }
   },
   {
    "source": "BBC",
    "title": "Setback for SpaceX Starship rocket's double-catch test",
    "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-14T00:01:01+00:00",
-   "t": {}
+   "t": {
+    "pt": "Revés para o teste de captura dupla do foguete SpaceX Starship",
+    "es": "Revés para la prueba de doble captura del cohete SpaceX Starship",
+    "it": "Battuta d'arresto per il test della doppia cattura del razzo Starship di SpaceX",
+    "zh": "SpaceX 星舰火箭双捕获测试受挫",
+    "fr": "Revers pour le test de double capture de la fusée SpaceX Starship",
+    "ar": "انتكاسة لاختبار الالتقاط المزدوج لصاروخ SpaceX Starship",
+    "de": "Rückschlag für den Double-Catch-Test der SpaceX-Starship-Rakete",
+    "el": "Αποτυχία για τη δοκιμή διπλής σύλληψης του πυραύλου SpaceX Starship"
+   }
   },
   {
    "source": "NYTIMES",
@@ -43,56 +102,112 @@
    "title": "Rip out ugly clutter to help revive UK high streets, says thinktank",
    "url": "https://www.theguardian.com/society/2026/nov/13/rip-out-clutter-to-retail-revive-high-streets-thinktank",
    "date": "2026-11-13T21:34:43+00:00",
-   "t": {}
+   "t": {
+    "pt": "Elimine a desordem feia para ajudar a reviver as ruas principais do Reino Unido, diz thinktank",
+    "es": "Eliminar el desorden desagradable para ayudar a revivir las calles principales del Reino Unido, dice un grupo de expertos",
+    "it": "Eliminare la brutta confusione per contribuire a rilanciare le strade principali del Regno Unito, afferma il thinktank",
+    "zh": "智囊团表示，清理丑陋的杂物有助于重振英国商业街",
+    "fr": "Éliminez le désordre laid pour aider à redonner vie aux rues principales du Royaume-Uni, selon un groupe de réflexion",
+    "ar": "يقول مركز أبحاث: تخلص من الفوضى القبيحة للمساعدة في إحياء الشوارع الرئيسية في المملكة المتحدة",
+    "de": "Entfernen Sie hässliches Durcheinander, um die Hauptstraßen Großbritanniens wiederzubeleben, sagt Thinktank",
+    "el": "Διώξτε την άσχημη ακαταστασία για να βοηθήσετε στην αναβίωση των κεντρικών δρόμων του Ηνωμένου Βασιλείου, λέει η thinktank"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "Send us your questions about climate crisis and politics for the next Stateside guest: Bill McKibben",
    "url": "https://www.theguardian.com/us-news/2026/nov/13/climate-environment-questions-bill-mckibben",
    "date": "2026-11-13T20:23:23+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "What could El Niño mean for winter weather in the US and Canada?",
-   "url": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-13T18:50:15+00:00",
-   "t": {}
+   "t": {
+    "pt": "Envie-nos suas perguntas sobre crise climática e política para o próximo convidado dos Estados Unidos: Bill McKibben",
+    "es": "Envíenos sus preguntas sobre la crisis climática y la política para el próximo invitado en Estados Unidos: Bill McKibben",
+    "it": "Inviaci le tue domande sulla crisi climatica e sulla politica per il prossimo ospite negli Stati Uniti: Bill McKibben",
+    "zh": "请向我们发送有关气候危机和政治的问题，请下一位美国嘉宾：比尔·麦基本 (Bill McKibben)",
+    "fr": "Envoyez-nous vos questions sur la crise climatique et la politique pour le prochain invité américain : Bill McKibben",
+    "ar": "أرسل لنا أسئلتك حول أزمة المناخ والسياسة للضيف القادم من الولايات المتحدة: بيل ماكيبين",
+    "de": "Senden Sie uns Ihre Fragen zur Klimakrise und Politik für den nächsten Gast in den USA: Bill McKibben",
+    "el": "Στείλτε μας τις ερωτήσεις σας σχετικά με την κλιματική κρίση και την πολιτική για τον επόμενο καλεσμένο στην Πολιτεία: Bill McKibben"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "The Guardian view on M John Harrison’s Booker win: a new frontier for science fiction | Editorial",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/13/the-guardian-view-on-m-john-harrisons-booker-win-a-new-frontier-for-science-fiction",
    "date": "2026-11-13T18:00:56+00:00",
-   "t": {}
+   "t": {
+    "pt": "A opinião do Guardian sobre a vitória de M John Harrison no Booker: uma nova fronteira para a ficção científica | Redação",
+    "es": "Opinión de The Guardian sobre la victoria de Booker de M. John Harrison: una nueva frontera para la ciencia ficción | Redacción",
+    "it": "Il punto di vista del Guardian sulla vittoria di Booker di M John Harrison: una nuova frontiera per la fantascienza | Editoriale",
+    "zh": "《卫报》对约翰·哈里森布克奖的看法：科幻小说的新领域社论",
+    "fr": "Le point de vue du Guardian sur la victoire de M John Harrison à Booker : une nouvelle frontière pour la science-fiction | Éditorial",
+    "ar": "وجهة نظر صحيفة الغارديان حول فوز إم جون هاريسون بالبوكر: حدود جديدة للخيال العلمي | افتتاحية",
+    "de": "Die Sicht des Guardian auf M. John Harrisons Booker-Sieg: eine neue Grenze für Science-Fiction | Leitartikel",
+    "el": "Η άποψη του Guardian για τη νίκη του Μπούκερ του M John Harrison: ένα νέο σύνορο για την επιστημονική φαντασία | Συντακτική"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "Timing of Climate Science Reports Ignites a Hot Fight at U.N. Talks",
    "url": "https://www.nytimes.com/2026/11/13/climate/cop31-turkey-ipcc-climate-report.html",
    "date": "2026-11-13T17:59:45+00:00",
-   "t": {}
+   "t": {
+    "pt": "O momento dos relatórios de ciência climática desencadeia uma luta acirrada nas negociações da ONU",
+    "es": "El momento de publicación de los informes científicos sobre el clima desata una acalorada pelea en las conversaciones de la ONU",
+    "it": "La tempistica dei rapporti sulla scienza del clima accende una dura battaglia ai colloqui delle Nazioni Unite",
+    "zh": "气候科学报告的发布时机在联合国会谈中引发激烈争论",
+    "fr": "Le timing des rapports scientifiques sur le climat déclenche une vive bagarre lors des pourparlers de l’ONU",
+    "ar": "توقيت تقارير علوم المناخ يشعل معركة ساخنة في محادثات الأمم المتحدة",
+    "de": "Der Zeitpunkt der wissenschaftlichen Klimaberichte entfacht einen heftigen Streit bei den UN-Gesprächen",
+    "el": "Ο χρόνος των αναφορών για την επιστήμη του κλίματος πυροδοτεί μια καυτή μάχη στις συνομιλίες του ΟΗΕ"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "Fight the climate crisis or go for growth? There is a way Burnham can do both | Jonathan Freedland",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/13/fight-climate-crisis-growth-andy-burnham-economic-leaders",
    "date": "2026-11-13T17:10:23+00:00",
-   "t": {}
+   "t": {
+    "pt": "Lutar contra a crise climática ou apostar no crescimento? Existe uma maneira de Burnham fazer as duas coisas | Jonathan Freedland",
+    "es": "¿Luchar contra la crisis climática o apostar por el crecimiento? Hay una manera en que Burnham puede hacer ambas cosas | Jonathan Freeland",
+    "it": "Combattere la crisi climatica o puntare sulla crescita? C'è un modo in cui Burnham può fare entrambe le cose | Jonathan Freeland",
+    "zh": "应对气候危机还是寻求增长？伯纳姆有一种方法可以做到这两点 |乔纳森·弗里德兰",
+    "fr": "Combattre la crise climatique ou miser sur la croissance ? Il existe un moyen pour Burnham de faire les deux | Jonathan Freedland",
+    "ar": "هل نحارب أزمة المناخ أم نتجه نحو النمو؟ هناك طريقة يمكن لبرنهام من خلالها القيام بالأمرين معًا | جوناثان فريدلاند",
+    "de": "Die Klimakrise bekämpfen oder auf Wachstum setzen? Es gibt eine Möglichkeit, dass Burnham beides tun kann | Jonathan Freedland",
+    "el": "Καταπολέμηση της κλιματικής κρίσης ή πάμε για ανάπτυξη; Υπάρχει ένας τρόπος που η Burnham μπορεί να κάνει και τα δύο | Τζόναθαν Φρίντλαντ"
+   }
   },
   {
    "source": "DW",
    "title": "Could lack of money sink TFFF rainforest fund before it even launches?",
    "url": "https://www.dw.com/en/could-lack-of-money-sink-tfff-rainforest-fund-before-it-even-launches/a-79878673?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-13T08:12:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "A falta de dinheiro poderia afundar o fundo TFFF para florestas tropicais antes mesmo de ser lançado?",
+    "es": "¿Podría la falta de dinero hundir el fondo para la selva tropical del TFFF incluso antes de su lanzamiento?",
+    "it": "La mancanza di denaro potrebbe affondare il fondo TFFF per la foresta pluviale prima ancora che venga lanciato?",
+    "zh": "TFFF 雨林基金在启动之前是否会因为资金短缺而陷入困境？",
+    "fr": "Le manque d’argent pourrait-il faire sombrer le fonds TFFF pour la forêt tropicale avant même son lancement ?",
+    "ar": "هل يمكن أن يؤدي نقص الأموال إلى إغراق صندوق الغابات المطيرة TFFF قبل إطلاقه؟",
+    "de": "Könnte Geldmangel dazu führen, dass der TFFF-Regenwaldfonds sinkt, bevor er überhaupt aufgelegt wird?",
+    "el": "Θα μπορούσε η έλλειψη χρημάτων να βυθίσει το ταμείο τροπικών δασών TFFF πριν καν ξεκινήσει;"
+   }
   },
   {
    "source": "NATURE",
    "title": "Is the climate totally cooked? What the data say",
    "url": "https://www.nature.com/articles/d41586-026-03716-6",
    "date": "2026-11-13T00:00:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "O clima está totalmente cozinhado? O que dizem os dados",
+    "es": "¿El clima está totalmente cocido? Lo que dicen los datos",
+    "it": "Il clima è completamente cotto? Cosa dicono i dati",
+    "zh": "气候完全煮熟了吗？数据说明什么",
+    "fr": "Le climat est-il totalement cuit ? Ce que disent les données",
+    "ar": "هل المناخ مطبوخ بالكامل؟ ماذا تقول البيانات",
+    "de": "Ist das Klima völlig durchgekocht? Was die Daten sagen",
+    "el": "Είναι το κλίμα εντελώς μαγειρεμένο; Τι λένε τα στοιχεία"
+   }
   },
   {
    "source": "NPR",
@@ -269,13 +384,6 @@
     "de": "Warum die Elektrifizierung der Klima-Game-Changer ist, den wir brauchen",
     "el": "Γιατί η ηλεκτροδότηση είναι η αλλαγή του κλίματος που χρειαζόμαστε"
    }
-  },
-  {
-   "source": "NPR",
-   "title": "SS United States, a historic ship will be sunk to create an artificial reef",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
-   "date": "2026-11-08T13:34:34+00:00",
-   "t": {}
   }
  ]
 }
