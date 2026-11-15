@@ -1,12 +1,37 @@
 {
- "updated": "2026-11-15T17:06:10.960160+00:00",
+ "updated": "2026-11-15T21:46:00.634014+00:00",
  "items": [
+  {
+   "source": "AL JAZEERA",
+   "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
+   "url": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
+   "date": "2026-11-15T20:54:13+00:00",
+   "t": {
+    "pt": "Fotos: Papa Leão visita as regiões amazônica e andina do Peru durante viagem de 12 dias",
+    "es": "Fotos: El Papa León visita la Amazonía y las regiones andinas del Perú durante una gira de 12 días",
+    "it": "Foto: Papa Leone visita le regioni amazzoniche e andine del Perù durante un tour di 12 giorni",
+    "zh": "照片：教皇利奥在为期12天的访问中访问秘鲁亚马逊和安第斯地区",
+    "fr": "Photos : le pape Léon visite les régions amazonienne et andine du Pérou au cours d’une tournée de 12 jours",
+    "ar": "الصور: البابا ليو يزور منطقتي الأمازون والأنديز في بيرو خلال جولة تستغرق 12 يومًا",
+    "de": "Fotos: Papst Leo besucht während einer 12-tägigen Reise die Amazonas- und Andenregionen Perus",
+    "el": "Φωτογραφίες: Ο Πάπας Λέων επισκέπτεται τις περιοχές του Αμαζονίου και των Άνδεων του Περού κατά τη διάρκεια 12ήμερης περιοδείας"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Surgery by fairy lights and truckloads of fruit: the sanctuary saving Cameroon’s chimpanzees",
    "url": "https://www.theguardian.com/environment/2026/nov/15/surgery-by-fairy-lights-and-truckloads-of-fruit-the-sanctuary-saving-cameroons-chimpanzees",
    "date": "2026-11-15T12:00:14+00:00",
-   "t": {}
+   "t": {
+    "pt": "Cirurgia com luzes de fadas e caminhões de frutas: o santuário salvando os chimpanzés de Camarões",
+    "es": "Cirugía iluminada por luces de hadas y camiones llenos de fruta: el santuario que salva a los chimpancés de Camerún",
+    "it": "Intervento chirurgico con lucine e camion carichi di frutta: il santuario che salva gli scimpanzé del Camerun",
+    "zh": "童话灯光和卡车水果的手术：拯救喀麦隆黑猩猩的庇护所",
+    "fr": "Chirurgie à la guirlande lumineuse et camions de fruits : le sanctuaire sauve les chimpanzés du Cameroun",
+    "ar": "عملية جراحية بواسطة أضواء خرافية وشاحنات محملة بالفواكه: الملاذ الذي ينقذ الشمبانزي في الكاميرون",
+    "de": "Operation mit Lichterketten und LKW-Ladungen voller Obst: Das Tierheim rettet Kameruns Schimpansen",
+    "el": "Χειρουργική από νεράιδες και φορτηγά φρούτα: το καταφύγιο που σώζει τους χιμπατζήδες του Καμερούν"
+   }
   },
   {
    "source": "BBC",
@@ -29,43 +54,63 @@
    "title": "Looking for an ancient tree worth a detour? There’s an app for that",
    "url": "https://www.theguardian.com/environment/2026/nov/15/ancient-tree-worth-a-detour-digital-app-",
    "date": "2026-11-15T08:00:07+00:00",
-   "t": {}
+   "t": {
+    "pt": "Procurando por uma árvore antiga que vale a pena desviar? Existe um aplicativo para isso",
+    "es": "¿Busca un árbol antiguo que merezca la pena visitar? Hay una aplicación para eso",
+    "it": "Cerchi un albero secolare che valga una deviazione? C'è un'app per questo",
+    "zh": "寻找一棵值得绕道而行的古树？有一个应用程序可以做到这一点",
+    "fr": "À la recherche d’un arbre centenaire qui mérite le détour ? Il y a une application pour ça",
+    "ar": "هل تبحث عن شجرة قديمة تستحق الالتفاف؟ هناك تطبيق لذلك",
+    "de": "Suchen Sie einen alten Baum, der einen Umweg wert ist? Dafür gibt es eine App",
+    "el": "Ψάχνετε για ένα αρχαίο δέντρο που αξίζει μια παράκαμψη; Υπάρχει μια εφαρμογή για αυτό"
+   }
   },
   {
    "source": "BBC",
    "title": "SpaceX catches part of its Starship rocket on return to Earth",
    "url": "https://www.bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-14T23:15:10+00:00",
-   "t": {}
+   "t": {
+    "pt": "SpaceX captura parte de seu foguete Starship no retorno à Terra",
+    "es": "SpaceX atrapa parte de su cohete Starship al regresar a la Tierra",
+    "it": "SpaceX cattura parte del suo razzo Starship durante il ritorno sulla Terra",
+    "zh": "SpaceX 在返回地球时捕获了其 Starship 火箭的一部分",
+    "fr": "SpaceX récupère une partie de sa fusée Starship à son retour sur Terre",
+    "ar": "تلتقط شركة SpaceX جزءًا من صاروخ Starship الخاص بها عند عودتها إلى الأرض",
+    "de": "SpaceX fängt einen Teil seiner Starship-Rakete bei der Rückkehr zur Erde ein",
+    "el": "Η SpaceX πιάνει μέρος του πυραύλου Starship της κατά την επιστροφή στη Γη"
+   }
   },
   {
    "source": "BBC",
    "title": "SpaceX successfully catches top of huge Starship rocket for first time",
    "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-14T22:15:52+00:00",
-   "t": {}
+   "t": {
+    "pt": "SpaceX alcança com sucesso o topo do enorme foguete Starship pela primeira vez",
+    "es": "SpaceX alcanza con éxito la cima del enorme cohete Starship por primera vez",
+    "it": "SpaceX cattura con successo per la prima volta la cima dell'enorme razzo Starship",
+    "zh": "SpaceX 首次成功登上巨型 Starship 火箭顶部",
+    "fr": "SpaceX réussit à attraper le sommet d'une énorme fusée Starship pour la première fois",
+    "ar": "نجحت شركة SpaceX في اللحاق بصاروخ Starship الضخم لأول مرة",
+    "de": "SpaceX erobert zum ersten Mal erfolgreich die Spitze einer riesigen Starship-Rakete",
+    "el": "Το SpaceX πιάνει με επιτυχία την κορυφή ενός τεράστιου πυραύλου Starship για πρώτη φορά"
+   }
   },
   {
    "source": "BBC",
    "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
    "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-14T22:09:40+00:00",
-   "t": {}
-  },
-  {
-   "source": "DW",
-   "title": "COP31: Protesters, UN urge swift climate deal",
-   "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-14T17:19:00+00:00",
    "t": {
-    "pt": "COP31: Manifestantes e ONU pedem acordo climático rápido",
-    "es": "COP31: Manifestantes y la ONU instan a un acuerdo climático rápido",
-    "it": "COP31: I manifestanti e le Nazioni Unite sollecitano un rapido accordo sul clima",
-    "zh": "COP31：抗议者、联合国敦促迅速达成气候协议",
-    "fr": "COP31 : les manifestants et l’ONU réclament un accord rapide sur le climat",
-    "ar": "COP31: المتظاهرون والأمم المتحدة يحثون على التوصل إلى اتفاق سريع بشأن المناخ",
-    "de": "COP31: Demonstranten und UN fordern schnelles Klimaabkommen",
-    "el": "COP31: Διαδηλωτές, ΟΗΕ ζητούν ταχεία συμφωνία για το κλίμα"
+    "pt": "‘Dá para acreditar?’: SpaceX pega parte de seu foguete Starship no retorno à Terra",
+    "es": "'¿Puedes creerlo?': SpaceX atrapa parte de su cohete Starship en su regreso a la Tierra",
+    "it": "\"Riesci a crederci?\": SpaceX cattura parte del suo razzo Starship durante il ritorno sulla Terra",
+    "zh": "“你能相信吗？”：SpaceX 在返回地球时捕获了其 Starship 火箭的一部分",
+    "fr": "« Pouvez-vous y croire ? » : SpaceX attrape une partie de sa fusée Starship à son retour sur Terre",
+    "ar": "\"هل تصدق ذلك؟\": التقطت شركة SpaceX جزءًا من صاروخ Starship الخاص بها عند عودتها إلى الأرض",
+    "de": "„Können Sie es glauben?“: SpaceX fängt einen Teil seiner Starship-Rakete bei der Rückkehr zur Erde ein",
+    "el": "«Μπορείς να το πιστέψεις;»: Η SpaceX πιάνει μέρος του πυραύλου Starship της κατά την επιστροφή στη Γη"
    }
   },
   {
@@ -73,7 +118,16 @@
    "title": "LGBTQ+ protesters defy crackdown in Turkey to march with Cop31 activists",
    "url": "https://www.theguardian.com/world/2026/nov/14/lgbtq-protesters-defy-crackdown-in-turkey-to-march-with-cop31-activists",
    "date": "2026-11-14T17:08:18+00:00",
-   "t": {}
+   "t": {
+    "pt": "Manifestantes LGBTQ+ desafiam a repressão na Turquia para marchar com ativistas da Cop31",
+    "es": "Manifestantes LGBTQ+ desafían la represión en Turquía para marchar con activistas de Cop31",
+    "it": "I manifestanti LGBTQ+ sfidano la repressione in Turchia marciando con gli attivisti Cop31",
+    "zh": "LGBTQ+ 抗议者不顾土耳其镇压，与 Cop31 活动人士一起游行",
+    "fr": "Des manifestants LGBTQ+ défient la répression en Turquie pour marcher avec les militants de la Cop31",
+    "ar": "يتحدى المتظاهرون من مجتمع LGBTQ+ حملة القمع في تركيا لتنظيم مسيرة مع نشطاء Cop31",
+    "de": "LGBTQ+-Demonstranten trotzen dem Vorgehen in der Türkei und marschieren mit Cop31-Aktivisten",
+    "el": "Οι LGBTQ+ διαδηλωτές αψηφούν την καταστολή στην Τουρκία για να διαδηλώσουν μαζί με ακτιβιστές Cop31"
+   }
   },
   {
    "source": "GUARDIAN",
@@ -256,7 +310,16 @@
    "title": "Germany slips in climate protection rankings as other countries make gains",
    "url": "https://www.dw.com/en/germany-slips-in-climate-protection-rankings-as-other-countries-make-gains/a-79913635?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-11T06:41:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "A Alemanha cai nos rankings de proteção climática à medida que outros países obtêm ganhos",
+    "es": "Alemania cae en la clasificación de protección climática mientras otros países avanzan",
+    "it": "La Germania scivola nella classifica della protezione del clima mentre altri paesi guadagnano terreno",
+    "zh": "德国在气候保护排名中下滑，而其他国家则有所进步",
+    "fr": "L’Allemagne recule dans le classement de la protection du climat tandis que d’autres pays progressent",
+    "ar": "ألمانيا تتراجع في تصنيفات حماية المناخ مع تحقيق دول أخرى مكاسب",
+    "de": "Deutschland rutscht im Klimaschutzranking ab, während andere Länder zulegen",
+    "el": "Η Γερμανία διολισθαίνει στην κατάταξη για την προστασία του κλίματος καθώς άλλες χώρες σημειώνουν κέρδη"
+   }
   },
   {
    "source": "NATURE",
@@ -307,19 +370,19 @@
    }
   },
   {
-   "source": "NPR",
-   "title": "SS United States, a historic ship will be sunk to create an artificial reef",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
-   "date": "2026-11-08T13:34:34+00:00",
+   "source": "DW",
+   "title": "Why electrification is the climate game changer we need",
+   "url": "https://www.dw.com/en/why-electrification-is-the-climate-game-changer-we-need/a-79615979?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-10T08:00:00+00:00",
    "t": {
-    "pt": "SS Estados Unidos, um navio histórico será afundado para criar um recife artificial",
-    "es": "SS Estados Unidos, se hundirá un barco histórico para crear un arrecife artificial",
-    "it": "SS Stati Uniti, una nave storica verrà affondata per creare un reef artificiale",
-    "zh": "SS United，一艘历史悠久的船只将被沉没以建造人工鱼礁",
-    "fr": "SS United States, un navire historique sera coulé pour créer un récif artificiel",
-    "ar": "SS الولايات المتحدة، سيتم غرق سفينة تاريخية لإنشاء الشعاب المرجانية الاصطناعية",
-    "de": "SS United States, ein historisches Schiff wird versenkt, um ein künstliches Riff zu schaffen",
-    "el": "SS Ηνωμένες Πολιτείες, ένα ιστορικό πλοίο θα βυθιστεί για να δημιουργηθεί ένας τεχνητός ύφαλος"
+    "pt": "Por que a eletrificação é a mudança climática de que precisamos",
+    "es": "Por qué la electrificación es el factor de cambio climático que necesitamos",
+    "it": "Perché l’elettrificazione è il punto di svolta climatico di cui abbiamo bisogno",
+    "zh": "为什么电气化是我们需要的气候游戏规则改变者",
+    "fr": "Pourquoi l’électrification est le changement climatique dont nous avons besoin",
+    "ar": "لماذا تعتبر الكهرباء هي التغيير الذي نحتاجه في مجال المناخ؟",
+    "de": "Warum die Elektrifizierung der Klima-Game-Changer ist, den wir brauchen",
+    "el": "Γιατί η ηλεκτροδότηση είναι η αλλαγή του κλίματος που χρειαζόμαστε"
    }
   }
  ]
