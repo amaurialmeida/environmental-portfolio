@@ -1,6 +1,29 @@
 {
- "updated": "2026-11-15T09:20:44.806883+00:00",
+ "updated": "2026-11-15T17:06:10.960160+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "Surgery by fairy lights and truckloads of fruit: the sanctuary saving Cameroon’s chimpanzees",
+   "url": "https://www.theguardian.com/environment/2026/nov/15/surgery-by-fairy-lights-and-truckloads-of-fruit-the-sanctuary-saving-cameroons-chimpanzees",
+   "date": "2026-11-15T12:00:14+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "How to spot November's planetary parade in the pre-dawn sky",
+   "url": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-15T10:49:57+00:00",
+   "t": {
+    "pt": "Como identificar o desfile planetário de novembro no céu antes do amanhecer",
+    "es": "Cómo detectar el desfile planetario de noviembre en el cielo antes del amanecer",
+    "it": "Come individuare la parata planetaria di novembre nel cielo prima dell'alba",
+    "zh": "如何在黎明前的天空中发现十一月的行星巡游",
+    "fr": "Comment repérer le défilé planétaire de novembre dans le ciel avant l'aube",
+    "ar": "كيفية اكتشاف موكب الكواكب لشهر نوفمبر في سماء ما قبل الفجر",
+    "de": "So erkennen Sie die Planetenparade im November am Himmel vor der Morgendämmerung",
+    "el": "Πώς να εντοπίσετε την πλανητική παρέλαση του Νοεμβρίου στον ουρανό πριν την αυγή"
+   }
+  },
   {
    "source": "GUARDIAN",
    "title": "Looking for an ancient tree worth a detour? There’s an app for that",
@@ -66,29 +89,6 @@
     "ar": "طلاب من السكان الأصليين يسترجعون رحلة لويس وكلارك التاريخية: \"لا يمكننا حماية ما لا نستطيع رؤيته\"",
     "de": "Indigene Studenten zeichnen die historische Reise von Lewis und Clark nach: „Wir können nicht schützen, was wir nicht sehen können“",
     "el": "Οι ιθαγενείς μαθητές παρακολουθούν ξανά το ιστορικό ταξίδι του Λιούις και του Κλαρκ: «Δεν μπορούμε να προστατεύσουμε αυτό που δεν μπορούμε να δούμε»"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Underwater salt mine closure in Ohio raises safety and supply concerns for winter",
-   "url": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
-   "date": "2026-11-14T13:00:45+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "How to spot November's planetary parade in the pre-dawn sky",
-   "url": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T11:07:51+00:00",
-   "t": {
-    "pt": "Como identificar o desfile planetário de novembro no céu antes do amanhecer",
-    "es": "Cómo detectar el desfile planetario de noviembre en el cielo antes del amanecer",
-    "it": "Come individuare la parata planetaria di novembre nel cielo prima dell'alba",
-    "zh": "如何在黎明前的天空中发现十一月的行星巡游",
-    "fr": "Comment repérer le défilé planétaire de novembre dans le ciel avant l'aube",
-    "ar": "كيفية اكتشاف موكب الكواكب لشهر نوفمبر في سماء ما قبل الفجر",
-    "de": "So erkennen Sie die Planetenparade im November am Himmel vor der Morgendämmerung",
-    "el": "Πώς να εντοπίσετε την πλανητική παρέλαση του Νοεμβρίου στον ουρανό πριν την αυγή"
    }
   },
   {
