@@ -1,21 +1,26 @@
 {
- "updated": "2026-11-14T21:27:56.805028+00:00",
+ "updated": "2026-11-15T01:52:48.241823+00:00",
  "items": [
   {
    "source": "BBC",
-   "title": "Second catch attempt as SpaceX Starship rocket heads back to Earth",
+   "title": "SpaceX catches part of its Starship rocket on return to Earth",
+   "url": "https://www.bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-14T23:15:10+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "SpaceX successfully catches top of huge Starship rocket for first time",
    "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T21:05:14+00:00",
-   "t": {
-    "pt": "Segunda tentativa de captura enquanto o foguete SpaceX Starship volta para a Terra",
-    "es": "Segundo intento de captura mientras el cohete SpaceX Starship regresa a la Tierra",
-    "it": "Secondo tentativo di cattura mentre il razzo Starship di SpaceX torna sulla Terra",
-    "zh": "SpaceX 星舰火箭返回地球时的第二次捕获尝试",
-    "fr": "Deuxième tentative de capture alors que la fusée SpaceX Starship retourne sur Terre",
-    "ar": "محاولة الصيد الثانية أثناء عودة صاروخ SpaceX Starship إلى الأرض",
-    "de": "Zweiter Fangversuch, während die SpaceX-Starship-Rakete zur Erde zurückkehrt",
-    "el": "Δεύτερη προσπάθεια αλιείας καθώς ο πύραυλος SpaceX Starship επιστρέφει στη Γη"
-   }
+   "date": "2026-11-14T22:15:52+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+   "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-14T22:09:40+00:00",
+   "t": {}
   },
   {
    "source": "DW",
@@ -35,6 +40,13 @@
   },
   {
    "source": "GUARDIAN",
+   "title": "LGBTQ+ protesters defy crackdown in Turkey to march with Cop31 activists",
+   "url": "https://www.theguardian.com/world/2026/nov/14/lgbtq-protesters-defy-crackdown-in-turkey-to-march-with-cop31-activists",
+   "date": "2026-11-14T17:08:18+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
    "title": "Indigenous students retrace Lewis and Clark’s historic journey: ‘We can’t protect what we cannot see’",
    "url": "https://www.theguardian.com/us-news/2026/nov/14/lewis-clark-indigenous-students",
    "date": "2026-11-14T14:00:46+00:00",
@@ -48,6 +60,13 @@
     "de": "Indigene Studenten zeichnen die historische Reise von Lewis und Clark nach: „Wir können nicht schützen, was wir nicht sehen können“",
     "el": "Οι ιθαγενείς μαθητές παρακολουθούν ξανά το ιστορικό ταξίδι του Λιούις και του Κλαρκ: «Δεν μπορούμε να προστατεύσουμε αυτό που δεν μπορούμε να δούμε»"
    }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Underwater salt mine closure in Ohio raises safety and supply concerns for winter",
+   "url": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
+   "date": "2026-11-14T13:00:45+00:00",
+   "t": {}
   },
   {
    "source": "GUARDIAN",
@@ -95,70 +114,6 @@
     "ar": "كيفية اكتشاف موكب الكواكب لشهر نوفمبر في سماء ما قبل الفجر",
     "de": "So erkennen Sie die Planetenparade im November am Himmel vor der Morgendämmerung",
     "el": "Πώς να εντοπίσετε την πλανητική παρέλαση του Νοεμβρίου στον ουρανό πριν την αυγή"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Greenpeace boulders may delay building of £12bn windfarms in North Sea",
-   "url": "https://www.theguardian.com/environment/2026/nov/14/greenpeace-boulders-norfolk-vanguard-windfarms",
-   "date": "2026-11-14T11:00:43+00:00",
-   "t": {
-    "pt": "Pedregulhos do Greenpeace podem atrasar a construção de parques eólicos de £ 12 bilhões no Mar do Norte",
-    "es": "Los cantos rodados de Greenpeace pueden retrasar la construcción de parques eólicos de 12.000 millones de libras en el Mar del Norte",
-    "it": "I massi di Greenpeace potrebbero ritardare la costruzione di parchi eolici da 12 miliardi di sterline nel Mare del Nord",
-    "zh": "绿色和平巨石可能会推迟在北海建造价值 120 亿英镑的风电场",
-    "fr": "Les rochers de Greenpeace pourraient retarder la construction de parcs éoliens de 12 milliards de livres sterling en mer du Nord",
-    "ar": "قد تؤخر صخور منظمة السلام الأخضر بناء مزارع الرياح بقيمة 12 مليار جنيه إسترليني في بحر الشمال",
-    "de": "Felsbrocken von Greenpeace könnten den Bau von Windparks im Wert von 12 Milliarden Pfund in der Nordsee verzögern",
-    "el": "Οι ογκόλιθοι της Greenpeace ενδέχεται να καθυστερήσουν την κατασκευή αιολικών πάρκων αξίας 12 δισεκατομμυρίων λιρών στη Βόρεια Θάλασσα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Extreme weather leaves gardeners hedging their bets",
-   "url": "https://www.bbc.co.uk/news/articles/c6qj5r2qzqpwo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T07:12:14+00:00",
-   "t": {
-    "pt": "O clima extremo faz com que os jardineiros evitem suas apostas",
-    "es": "El clima extremo deja a los jardineros cubriendo sus apuestas",
-    "it": "Il clima estremo costringe i giardinieri a coprire le loro scommesse",
-    "zh": "极端天气让园丁们两面下注",
-    "fr": "Les conditions météorologiques extrêmes obligent les jardiniers à se couvrir",
-    "ar": "الطقس القاسي يترك البستانيين يتحوطون رهاناتهم",
-    "de": "Aufgrund des extremen Wetters sind Gärtner auf der sicheren Seite",
-    "el": "Οι ακραίες καιρικές συνθήκες αφήνουν τους κηπουρούς να αντισταθμίζουν τα στοιχήματά τους"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Bristol aims to become UK’s first ‘wetland city’ and reduce flood risk",
-   "url": "https://www.theguardian.com/environment/2026/nov/14/bristol-first-uk-wetland-city-flood",
-   "date": "2026-11-14T07:00:37+00:00",
-   "t": {
-    "pt": "Bristol pretende se tornar a primeira ‘cidade pantanosa’ do Reino Unido e reduzir o risco de inundações",
-    "es": "Bristol aspira a convertirse en la primera \"ciudad humedal\" del Reino Unido y reducir el riesgo de inundaciones",
-    "it": "Bristol mira a diventare la prima “città delle zone umide” del Regno Unito e a ridurre il rischio di inondazioni",
-    "zh": "布里斯托尔旨在成为英国第一个“湿地城市”并降低洪水风险",
-    "fr": "Bristol vise à devenir la première « ville humide » du Royaume-Uni et à réduire les risques d’inondation",
-    "ar": "تهدف بريستول إلى أن تصبح أول \"مدينة للأراضي الرطبة\" في المملكة المتحدة وتقليل مخاطر الفيضانات",
-    "de": "Bristol möchte die erste „Feuchtgebietsstadt“ Großbritanniens werden und das Überschwemmungsrisiko verringern",
-    "el": "Το Μπρίστολ στοχεύει να γίνει η πρώτη «υγροτόπος» του Ηνωμένου Βασιλείου και να μειώσει τον κίνδυνο πλημμύρας"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Bluetongue virus confirmed on County Down farm",
-   "url": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T06:56:58+00:00",
-   "t": {
-    "pt": "Vírus da língua azul confirmado na fazenda County Down",
-    "es": "Virus de la lengua azul confirmado en una granja del condado de Down",
-    "it": "Virus della febbre catarrale confermato nella fattoria della contea di Down",
-    "zh": "唐郡农场确诊蓝舌病毒",
-    "fr": "Virus de la fièvre catarrhale confirmé dans une ferme du comté de Down",
-    "ar": "تم تأكيد وجود فيروس اللسان الأزرق في مزرعة مقاطعة داون",
-    "de": "Blauzungenvirus auf Farm in County Down bestätigt",
-    "el": "Επιβεβαιώθηκε ο ιός του καταρροϊκού πυρετού στο αγρόκτημα County Down"
    }
   },
   {
