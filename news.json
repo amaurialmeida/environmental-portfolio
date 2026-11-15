@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-15T01:52:48.241823+00:00",
+ "updated": "2026-11-15T09:20:44.806883+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "Looking for an ancient tree worth a detour? There’s an app for that",
+   "url": "https://www.theguardian.com/environment/2026/nov/15/ancient-tree-worth-a-detour-digital-app-",
+   "date": "2026-11-15T08:00:07+00:00",
+   "t": {}
+  },
   {
    "source": "BBC",
    "title": "SpaceX catches part of its Starship rocket on return to Earth",
@@ -67,38 +74,6 @@
    "url": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
    "date": "2026-11-14T13:00:45+00:00",
    "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
-   "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
-   "date": "2026-11-14T13:00:44+00:00",
-   "t": {
-    "pt": "Incêndios sufocantes, calor mortal e inundações devastadoras: 2026 em condições climáticas extremas",
-    "es": "Incendios asfixiantes, calor mortal e inundaciones devastadoras: 2026 en condiciones climáticas extremas",
-    "it": "Incendi soffocanti, caldo mortale e inondazioni devastanti: il 2026 in condizioni meteorologiche estreme",
-    "zh": "令人窒息的大火、致命的高温和毁灭性的洪水：2026 年的极端天气",
-    "fr": "Incendies étouffants, chaleur mortelle et inondations dévastatrices : 2026 dans des conditions météorologiques extrêmes",
-    "ar": "حرائق خانقة وحرارة مميتة وفيضانات مدمرة: عام 2026 في طقس قاسٍ",
-    "de": "Erstickende Brände, tödliche Hitze und verheerende Überschwemmungen: 2026 im extremen Wetter",
-    "el": "Πνιγμένες πυρκαγιές, θανατηφόρα ζέστη και καταστροφικές πλημμύρες: 2026 σε ακραίες καιρικές συνθήκες"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Germany news: Solar power production approaches record high",
-   "url": "https://www.dw.com/en/germany-news-solar-power-production-approaches-record-high/live-79947500?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-14T11:22:00+00:00",
-   "t": {
-    "pt": "Notícias da Alemanha: Produção de energia solar se aproxima de recorde",
-    "es": "Noticias de Alemania: La producción de energía solar se acerca a un nivel récord",
-    "it": "Notizie dalla Germania: la produzione di energia solare si avvicina al livello record",
-    "zh": "德国新闻：太阳能发电量创历史新高",
-    "fr": "Allemagne : la production d'énergie solaire approche d'un niveau record",
-    "ar": "أخبار ألمانيا: إنتاج الطاقة الشمسية يقترب من مستوى قياسي",
-    "de": "Nachrichten aus Deutschland: Solarstromproduktion nähert sich Rekordhoch",
-    "el": "Γερμανικά νέα: Η παραγωγή ηλιακής ενέργειας πλησιάζει σε ρεκόρ"
-   }
   },
   {
    "source": "BBC",
@@ -275,6 +250,13 @@
     "de": "Vor Florida wird ein riesiges Schiff versenkt, um ein künstliches Riff zu errichten",
     "el": "Ένα τεράστιο πλοίο βυθίζεται ανοιχτά της Φλόριντα για να φτιάξει έναν τεχνητό ύφαλο"
    }
+  },
+  {
+   "source": "DW",
+   "title": "Germany slips in climate protection rankings as other countries make gains",
+   "url": "https://www.dw.com/en/germany-slips-in-climate-protection-rankings-as-other-countries-make-gains/a-79913635?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-11T06:41:00+00:00",
+   "t": {}
   },
   {
    "source": "NATURE",
