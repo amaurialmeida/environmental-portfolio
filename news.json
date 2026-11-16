@@ -1,6 +1,83 @@
 {
- "updated": "2026-11-16T02:02:09.560244+00:00",
+ "updated": "2026-11-16T09:38:24.269925+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "Cop31 live: diplomats divided as climate crisis talks enter second week",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/16/cop31-climate-crisis-talks-turkey-latest-news-updates",
+   "date": "2026-11-16T09:29:26+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Delaware hit by rare November tornado",
+   "url": "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado",
+   "date": "2026-11-16T09:27:06+00:00",
+   "t": {}
+  },
+  {
+   "source": "DW",
+   "title": "Can a 'coalition of the willing' create momentum for a fossil fuel phaseout?",
+   "url": "https://www.dw.com/en/can-a-coalition-of-the-willing-create-momentum-for-a-fossil-fuel-phaseout/a-79926748?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-16T08:23:00+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Yellow weather warnings issued for snow and ice as temperatures plummet",
+   "url": "https://www.bbc.co.uk/weather/articles/c6y97j2xq531o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-16T07:43:51+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Experts explore returning beavers to River Waveney",
+   "url": "https://www.bbc.co.uk/news/articles/cm3rglzqjl90o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-16T06:27:27+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Gas starts flowing from Jackdaw after government green light",
+   "url": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-16T06:24:08+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Pupils fascinated by space get astronomy lesson",
+   "url": "https://www.bbc.co.uk/news/articles/c67428w9vvkqo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-16T06:11:42+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Weakening UK electric vehicle targets would hurt car industry, ministers told",
+   "url": "https://www.theguardian.com/environment/2026/nov/16/weakening-uk-electric-vehicle-targets-would-hurt-car-industry-ministers-told",
+   "date": "2026-11-16T06:00:37+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Europe’s Wadden Sea is a natural wonder. So why might it join the world heritage in danger list?",
+   "url": "https://www.theguardian.com/environment/2026/nov/16/europes-wadden-sea-is-a-natural-wonder-so-why-might-it-join-the-world-heritage-in-danger-list",
+   "date": "2026-11-16T05:00:34+00:00",
+   "t": {}
+  },
+  {
+   "source": "DW",
+   "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
+   "url": "https://www.dw.com/en/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites/a-79953931?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-16T04:27:00+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Indonesian president apologises to Singapore, Malaysia for wildfire haze",
+   "url": "https://www.aljazeera.com/news/2026/11/16/indonesian-president-apologises-to-singapore-malaysia-for-wildfire-haze?traffic_source=rss",
+   "date": "2026-11-16T04:11:53+00:00",
+   "t": {}
+  },
   {
    "source": "AL JAZEERA",
    "title": "Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon",
@@ -16,137 +93,11 @@
    "t": {}
   },
   {
-   "source": "GUARDIAN",
-   "title": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
-   "url": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
-   "date": "2026-11-16T01:13:44+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Huge waves pummel California coast, forcing closure of popular piers",
-   "url": "https://www.theguardian.com/us-news/2026/nov/15/california-coast-waves-piers-closed",
-   "date": "2026-11-16T01:00:42+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
-   "url": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
-   "date": "2026-11-15T20:54:13+00:00",
-   "t": {
-    "pt": "Fotos: Papa Leão visita as regiões amazônica e andina do Peru durante viagem de 12 dias",
-    "es": "Fotos: El Papa León visita la Amazonía y las regiones andinas del Perú durante una gira de 12 días",
-    "it": "Foto: Papa Leone visita le regioni amazzoniche e andine del Perù durante un tour di 12 giorni",
-    "zh": "照片：教皇利奥在为期12天的访问中访问秘鲁亚马逊和安第斯地区",
-    "fr": "Photos : le pape Léon visite les régions amazonienne et andine du Pérou au cours d’une tournée de 12 jours",
-    "ar": "الصور: البابا ليو يزور منطقتي الأمازون والأنديز في بيرو خلال جولة تستغرق 12 يومًا",
-    "de": "Fotos: Papst Leo besucht während einer 12-tägigen Reise die Amazonas- und Andenregionen Perus",
-    "el": "Φωτογραφίες: Ο Πάπας Λέων επισκέπτεται τις περιοχές του Αμαζονίου και των Άνδεων του Περού κατά τη διάρκεια 12ήμερης περιοδείας"
-   }
-  },
-  {
    "source": "DW",
    "title": "Pope Leo heads to the Amazon on the final leg of his South American tour",
    "url": "https://www.dw.com/en/pope-leo-heads-to-the-amazon-on-the-final-leg-of-his-south-american-tour/a-79952884?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-15T15:23:00+00:00",
    "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Surgery by fairy lights and truckloads of fruit: the sanctuary saving Cameroon’s chimpanzees",
-   "url": "https://www.theguardian.com/environment/2026/nov/15/surgery-by-fairy-lights-and-truckloads-of-fruit-the-sanctuary-saving-cameroons-chimpanzees",
-   "date": "2026-11-15T12:00:14+00:00",
-   "t": {
-    "pt": "Cirurgia com luzes de fadas e caminhões de frutas: o santuário salvando os chimpanzés de Camarões",
-    "es": "Cirugía iluminada por luces de hadas y camiones llenos de fruta: el santuario que salva a los chimpancés de Camerún",
-    "it": "Intervento chirurgico con lucine e camion carichi di frutta: il santuario che salva gli scimpanzé del Camerun",
-    "zh": "童话灯光和卡车水果的手术：拯救喀麦隆黑猩猩的庇护所",
-    "fr": "Chirurgie à la guirlande lumineuse et camions de fruits : le sanctuaire sauve les chimpanzés du Cameroun",
-    "ar": "عملية جراحية بواسطة أضواء خرافية وشاحنات محملة بالفواكه: الملاذ الذي ينقذ الشمبانزي في الكاميرون",
-    "de": "Operation mit Lichterketten und LKW-Ladungen voller Obst: Das Tierheim rettet Kameruns Schimpansen",
-    "el": "Χειρουργική από νεράιδες και φορτηγά φρούτα: το καταφύγιο που σώζει τους χιμπατζήδες του Καμερούν"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "How to spot November's planetary parade in the pre-dawn sky",
-   "url": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-15T10:49:57+00:00",
-   "t": {
-    "pt": "Como identificar o desfile planetário de novembro no céu antes do amanhecer",
-    "es": "Cómo detectar el desfile planetario de noviembre en el cielo antes del amanecer",
-    "it": "Come individuare la parata planetaria di novembre nel cielo prima dell'alba",
-    "zh": "如何在黎明前的天空中发现十一月的行星巡游",
-    "fr": "Comment repérer le défilé planétaire de novembre dans le ciel avant l'aube",
-    "ar": "كيفية اكتشاف موكب الكواكب لشهر نوفمبر في سماء ما قبل الفجر",
-    "de": "So erkennen Sie die Planetenparade im November am Himmel vor der Morgendämmerung",
-    "el": "Πώς να εντοπίσετε την πλανητική παρέλαση του Νοεμβρίου στον ουρανό πριν την αυγή"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Looking for an ancient tree worth a detour? There’s an app for that",
-   "url": "https://www.theguardian.com/environment/2026/nov/15/ancient-tree-worth-a-detour-digital-app-",
-   "date": "2026-11-15T08:00:07+00:00",
-   "t": {
-    "pt": "Procurando por uma árvore antiga que vale a pena desviar? Existe um aplicativo para isso",
-    "es": "¿Busca un árbol antiguo que merezca la pena visitar? Hay una aplicación para eso",
-    "it": "Cerchi un albero secolare che valga una deviazione? C'è un'app per questo",
-    "zh": "寻找一棵值得绕道而行的古树？有一个应用程序可以做到这一点",
-    "fr": "À la recherche d’un arbre centenaire qui mérite le détour ? Il y a une application pour ça",
-    "ar": "هل تبحث عن شجرة قديمة تستحق الالتفاف؟ هناك تطبيق لذلك",
-    "de": "Suchen Sie einen alten Baum, der einen Umweg wert ist? Dafür gibt es eine App",
-    "el": "Ψάχνετε για ένα αρχαίο δέντρο που αξίζει μια παράκαμψη; Υπάρχει μια εφαρμογή για αυτό"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "SpaceX catches part of its Starship rocket on return to Earth",
-   "url": "https://www.bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T23:15:10+00:00",
-   "t": {
-    "pt": "SpaceX captura parte de seu foguete Starship no retorno à Terra",
-    "es": "SpaceX atrapa parte de su cohete Starship al regresar a la Tierra",
-    "it": "SpaceX cattura parte del suo razzo Starship durante il ritorno sulla Terra",
-    "zh": "SpaceX 在返回地球时捕获了其 Starship 火箭的一部分",
-    "fr": "SpaceX récupère une partie de sa fusée Starship à son retour sur Terre",
-    "ar": "تلتقط شركة SpaceX جزءًا من صاروخ Starship الخاص بها عند عودتها إلى الأرض",
-    "de": "SpaceX fängt einen Teil seiner Starship-Rakete bei der Rückkehr zur Erde ein",
-    "el": "Η SpaceX πιάνει μέρος του πυραύλου Starship της κατά την επιστροφή στη Γη"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "SpaceX successfully catches top of huge Starship rocket for first time",
-   "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T22:15:52+00:00",
-   "t": {
-    "pt": "SpaceX alcança com sucesso o topo do enorme foguete Starship pela primeira vez",
-    "es": "SpaceX alcanza con éxito la cima del enorme cohete Starship por primera vez",
-    "it": "SpaceX cattura con successo per la prima volta la cima dell'enorme razzo Starship",
-    "zh": "SpaceX 首次成功登上巨型 Starship 火箭顶部",
-    "fr": "SpaceX réussit à attraper le sommet d'une énorme fusée Starship pour la première fois",
-    "ar": "نجحت شركة SpaceX في اللحاق بصاروخ Starship الضخم لأول مرة",
-    "de": "SpaceX erobert zum ersten Mal erfolgreich die Spitze einer riesigen Starship-Rakete",
-    "el": "Το SpaceX πιάνει με επιτυχία την κορυφή ενός τεράστιου πυραύλου Starship για πρώτη φορά"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
-   "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-14T22:09:40+00:00",
-   "t": {
-    "pt": "‘Dá para acreditar?’: SpaceX pega parte de seu foguete Starship no retorno à Terra",
-    "es": "'¿Puedes creerlo?': SpaceX atrapa parte de su cohete Starship en su regreso a la Tierra",
-    "it": "\"Riesci a crederci?\": SpaceX cattura parte del suo razzo Starship durante il ritorno sulla Terra",
-    "zh": "“你能相信吗？”：SpaceX 在返回地球时捕获了其 Starship 火箭的一部分",
-    "fr": "« Pouvez-vous y croire ? » : SpaceX attrape une partie de sa fusée Starship à son retour sur Terre",
-    "ar": "\"هل تصدق ذلك؟\": التقطت شركة SpaceX جزءًا من صاروخ Starship الخاص بها عند عودتها إلى الأرض",
-    "de": "„Können Sie es glauben?“: SpaceX fängt einen Teil seiner Starship-Rakete bei der Rückkehr zur Erde ein",
-    "el": "«Μπορείς να το πιστέψεις;»: Η SpaceX πιάνει μέρος του πυραύλου Starship της κατά την επιστροφή στη Γη"
-   }
   },
   {
    "source": "NYTIMES",
@@ -261,22 +212,6 @@
    }
   },
   {
-   "source": "DW",
-   "title": "What are fossil fuels?",
-   "url": "https://www.dw.com/en/what-are-fossil-fuels/a-67970540?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-12T12:04:00+00:00",
-   "t": {
-    "pt": "O que são combustíveis fósseis?",
-    "es": "¿Qué son los combustibles fósiles?",
-    "it": "Cosa sono i combustibili fossili?",
-    "zh": "什么是化石燃料？",
-    "fr": "Que sont les énergies fossiles ?",
-    "ar": "ما هو الوقود الأحفوري؟",
-    "de": "Was sind fossile Brennstoffe?",
-    "el": "Τι είναι τα ορυκτά καύσιμα;"
-   }
-  },
-  {
    "source": "NPR",
    "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
    "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
@@ -306,22 +241,6 @@
     "ar": "يتم غرق سفينة ضخمة قبالة فلوريدا لإنشاء شعاب مرجانية صناعية",
     "de": "Vor Florida wird ein riesiges Schiff versenkt, um ein künstliches Riff zu errichten",
     "el": "Ένα τεράστιο πλοίο βυθίζεται ανοιχτά της Φλόριντα για να φτιάξει έναν τεχνητό ύφαλο"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Germany slips in climate protection rankings as other countries make gains",
-   "url": "https://www.dw.com/en/germany-slips-in-climate-protection-rankings-as-other-countries-make-gains/a-79913635?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-11T06:41:00+00:00",
-   "t": {
-    "pt": "A Alemanha cai nos rankings de proteção climática à medida que outros países obtêm ganhos",
-    "es": "Alemania cae en la clasificación de protección climática mientras otros países avanzan",
-    "it": "La Germania scivola nella classifica della protezione del clima mentre altri paesi guadagnano terreno",
-    "zh": "德国在气候保护排名中下滑，而其他国家则有所进步",
-    "fr": "L’Allemagne recule dans le classement de la protection du climat tandis que d’autres pays progressent",
-    "ar": "ألمانيا تتراجع في تصنيفات حماية المناخ مع تحقيق دول أخرى مكاسب",
-    "de": "Deutschland rutscht im Klimaschutzranking ab, während andere Länder zulegen",
-    "el": "Η Γερμανία διολισθαίνει στην κατάταξη για την προστασία του κλίματος καθώς άλλες χώρες σημειώνουν κέρδη"
    }
   },
   {
