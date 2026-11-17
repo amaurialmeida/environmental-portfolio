@@ -1,18 +1,53 @@
 {
- "updated": "2026-11-16T20:28:26.930799+00:00",
+ "updated": "2026-11-17T03:51:59.046316+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "Lonnie Thompson Has Died. He Dodged Avalanches to Preserve Climate History.",
+   "url": "https://www.nytimes.com/2026/11/06/science/lonnie-thompson-dead.html",
+   "date": "2026-11-17T03:13:16+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Pipeline Executive Worked for Alan Armstrong During Permitting Push",
+   "url": "https://www.nytimes.com/2026/11/16/climate/alan-armstrong-oklahoma.html",
+   "date": "2026-11-17T00:59:20+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Met Office yellow warning in place as snow could disrupt Tuesday morning travel",
+   "url": "https://www.bbc.co.uk/weather/articles/ck5y1g0rnx02o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-17T00:09:54+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Band of baby sea turtles swims into ocean after historic California nesting",
+   "url": "https://www.theguardian.com/us-news/2026/nov/16/california-sea-turtle-eggs-hatched",
+   "date": "2026-11-16T23:19:11+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Tucked in a Closet, Hidden by a Coat, a Lost Work by Georgia O’Keeffe",
+   "url": "https://www.nytimes.com/2026/11/16/nyregion/found-georgia-okeeffe-painting.html",
+   "date": "2026-11-16T23:04:31+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "The Death of ‘Keep 1.5 Alive’",
+   "url": "https://www.nytimes.com/2026/11/16/world/climate-cop31-ukraine-nvidia-james-bond.html",
+   "date": "2026-11-16T20:46:12+00:00",
+   "t": {}
+  },
   {
    "source": "GUARDIAN",
    "title": "Massive wave knocks down onlooker in California – video",
    "url": "https://www.theguardian.com/us-news/video/2026/nov/16/massive-wave-knocks-down-onlooker-in-california-video",
    "date": "2026-11-16T18:52:31+00:00",
-   "t": {}
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Permitting Bill Would Charge Data Centers Billions for Power",
-   "url": "https://www.nytimes.com/2026/11/16/climate/permitting-bill-data-centers-electricity-rates.html",
-   "date": "2026-11-16T17:00:35+00:00",
    "t": {}
   },
   {
@@ -27,20 +62,6 @@
    "title": "Hero, villain or victim: why are refugees so rarely seen now as fully human? | Zoe Williams",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/16/hero-villain-or-victim-why-are-refugees-so-rarely-seen-now-as-fully-human",
    "date": "2026-11-16T16:22:51+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "AI models ‘weak and fallible’ on climate science, UN-backed study reports",
-   "url": "https://www.theguardian.com/environment/2026/nov/16/ai-models-fallible-denial-climate-science-unesco-cop31",
-   "date": "2026-11-16T16:05:58+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Students protest as air pollution chokes New Delhi",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/students-protest-as-air-pollution-chokes-new-delhi?traffic_source=rss",
-   "date": "2026-11-16T15:27:07+00:00",
    "t": {}
   },
   {
@@ -79,13 +100,6 @@
    "t": {}
   },
   {
-   "source": "BBC",
-   "title": "Pupils fascinated by space get astronomy lesson",
-   "url": "https://www.bbc.co.uk/news/articles/c67428w9vvkqo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-16T06:11:42+00:00",
-   "t": {}
-  },
-  {
    "source": "NATURE",
    "title": "<b>The climate is in </b><b>crisis</b><b> — here’s four things we can do</b>",
    "url": "https://www.nature.com/articles/d41586-026-03760-2",
@@ -101,42 +115,17 @@
   },
   {
    "source": "NATURE",
-   "title": "Is the sixth great extinction imminent? Scientists must draw on natural history for clues",
-   "url": "https://www.nature.com/articles/d41586-026-03712-w",
+   "title": "Can AI actually help the climate? Nations want to harness the technology to cut emissions",
+   "url": "https://www.nature.com/articles/d41586-026-03763-z",
    "date": "2026-11-16T00:00:00+00:00",
    "t": {}
   },
   {
-   "source": "NYTIMES",
-   "title": "Malawi Farmers Brace for Drought From ‘Super El Niño’",
-   "url": "https://www.nytimes.com/video/climate/100000011222904/super-el-nino-malawi-drought-farmers.html",
-   "date": "2026-11-13T22:53:23+00:00",
-   "t": {
-    "pt": "Agricultores do Malawi se preparam para a seca devido ao “Super El Niño”",
-    "es": "Los agricultores de Malawi se preparan para la sequía provocada por el \"Súper El Niño\"",
-    "it": "Gli agricoltori del Malawi si preparano alla siccità causata dal “Super El Niño”",
-    "zh": "马拉维农民准备迎接“超级厄尔尼诺”带来的干旱",
-    "fr": "Les agriculteurs du Malawi se préparent à la sécheresse provoquée par le « Super El Niño »",
-    "ar": "المزارعون في مالاوي يستعدون لمواجهة الجفاف الناجم عن ظاهرة النينيو الفائقة",
-    "de": "Malawi-Bauern bereiten sich auf Dürre durch „Super El Niño“ vor",
-    "el": "Οι αγρότες του Μαλάουι προετοιμάζονται για την ξηρασία από το «Super El Niño»"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Timing of Climate Science Reports Ignites a Hot Fight at U.N. Talks",
-   "url": "https://www.nytimes.com/2026/11/13/climate/cop31-turkey-ipcc-climate-report.html",
-   "date": "2026-11-13T17:59:45+00:00",
-   "t": {
-    "pt": "O momento dos relatórios de ciência climática desencadeia uma luta acirrada nas negociações da ONU",
-    "es": "El momento de publicación de los informes científicos sobre el clima desata una acalorada pelea en las conversaciones de la ONU",
-    "it": "La tempistica dei rapporti sulla scienza del clima accende una dura battaglia ai colloqui delle Nazioni Unite",
-    "zh": "气候科学报告的发布时机在联合国会谈中引发激烈争论",
-    "fr": "Le timing des rapports scientifiques sur le climat déclenche une vive bagarre lors des pourparlers de l’ONU",
-    "ar": "توقيت تقارير علوم المناخ يشعل معركة ساخنة في محادثات الأمم المتحدة",
-    "de": "Der Zeitpunkt der wissenschaftlichen Klimaberichte entfacht einen heftigen Streit bei den UN-Gesprächen",
-    "el": "Ο χρόνος των αναφορών για την επιστήμη του κλίματος πυροδοτεί μια καυτή μάχη στις συνομιλίες του ΟΗΕ"
-   }
+   "source": "NATURE",
+   "title": "Is the sixth great extinction imminent? Scientists must draw on natural history for clues",
+   "url": "https://www.nature.com/articles/d41586-026-03712-w",
+   "date": "2026-11-16T00:00:00+00:00",
+   "t": {}
   },
   {
    "source": "DW",
@@ -155,22 +144,6 @@
    }
   },
   {
-   "source": "NATURE",
-   "title": "Is the climate totally cooked? What the data say",
-   "url": "https://www.nature.com/articles/d41586-026-03716-6",
-   "date": "2026-11-13T00:00:00+00:00",
-   "t": {
-    "pt": "O clima está totalmente cozinhado? O que dizem os dados",
-    "es": "¿El clima está totalmente cocido? Lo que dicen los datos",
-    "it": "Il clima è completamente cotto? Cosa dicono i dati",
-    "zh": "气候完全煮熟了吗？数据说明什么",
-    "fr": "Le climat est-il totalement cuit ? Ce que disent les données",
-    "ar": "هل المناخ مطبوخ بالكامل؟ ماذا تقول البيانات",
-    "de": "Ist das Klima völlig durchgekocht? Was die Daten sagen",
-    "el": "Είναι το κλίμα εντελώς μαγειρεμένο; Τι λένε τα στοιχεία"
-   }
-  },
-  {
    "source": "NPR",
    "title": "Colorado flood victims hope for speedier federal help",
    "url": "https://www.npr.org/2026/11/12/nx-s1-6036811/colorado-flood-victims-hope-for-speedier-federal-help",
@@ -184,22 +157,6 @@
     "ar": "يأمل ضحايا فيضانات كولورادو في الحصول على مساعدة فيدرالية أسرع",
     "de": "Die Flutopfer in Colorado hoffen auf schnellere staatliche Hilfe",
     "el": "Τα θύματα των πλημμυρών του Κολοράντο ελπίζουν σε ταχύτερη ομοσπονδιακή βοήθεια"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "A Key Paris Agreement Goal Is Dead. What Now?",
-   "url": "https://www.nytimes.com/2026/11/12/climate/a-key-paris-agreement-goal-is-dead-what-now.html",
-   "date": "2026-11-12T20:15:04+00:00",
-   "t": {
-    "pt": "Uma meta-chave do Acordo de Paris está morta. E agora?",
-    "es": "Un objetivo clave del Acuerdo de París está muerto. ¿Y ahora qué?",
-    "it": "Uno degli obiettivi chiave dell’accordo di Parigi è morto. E adesso?",
-    "zh": "《巴黎协定》的一个关键目标已经落空。现在怎么办？",
-    "fr": "Un objectif clé de l’Accord de Paris est mort. Et maintenant ?",
-    "ar": "لقد مات أحد الأهداف الرئيسية لاتفاق باريس. ماذا الآن؟",
-    "de": "Ein wichtiges Ziel des Pariser Abkommens ist tot. Was nun?",
-    "el": "Ένας βασικός στόχος της Συμφωνίας του Παρισιού είναι νεκρός. Τι τώρα;"
    }
   },
   {
@@ -240,6 +197,13 @@
     "de": "Vor Florida wird ein riesiges Schiff versenkt, um ein künstliches Riff zu errichten",
     "el": "Ένα τεράστιο πλοίο βυθίζεται ανοιχτά της Φλόριντα για να φτιάξει έναν τεχνητό ύφαλο"
    }
+  },
+  {
+   "source": "NPR",
+   "title": "SS United States, a historic ship will be sunk to create an artificial reef",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6030918/ss-united-states-a-historic-ship-will-be-sunk-to-create-an-artificial-reef",
+   "date": "2026-11-08T13:34:34+00:00",
+   "t": {}
   }
  ]
 }
