@@ -1,0 +1,1562 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="html-root">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title id="doc-title">Estudo de Caso — Síndrome do Colapso das Colônias de Abelhas | Amauri Almeida</title>
+
+<meta id="meta-desc" name="description" content="Estudo de caso aprofundado do TCC de Amauri Almeida sobre a Síndrome do Colapso das Colônias de Abelhas: metodologia de campo, entrevistas com apicultores, 338 colônias e ~20 milhões de abelhas perdidas entre 2016-2022, e o achado sobre subnotificação por medo de represália." />
+<meta name="robots" content="index, follow" />
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
+<meta name="theme-color" content="#1a2a3a" />
+
+<meta property="og:type" content="article" />
+<meta id="og-title" property="og:title" content="Estudo de Caso — Síndrome do Colapso das Colônias de Abelhas" />
+<meta id="og-desc" property="og:description" content="Como uma pesquisa de campo sobre agrotóxicos revelou um problema maior do que os dados conseguem capturar." />
+<meta property="og:image" content="https://amaurialmeida.github.io/environmental-portfolio/assets/img/logo.png" />
+<meta id="og-locale" property="og:locale" content="pt_BR" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+
+<style>
+:root {
+  --header-bg: #1a2a3a;
+  --glacier:   #a8c5c0;
+  --stone:     #6b7a72;
+  --obsidian:  #0d1714;
+  --gold:      #c9a84c;
+  --cream:     #f0ebe0;
+  --sky:       #7ab3d4;
+  --accent:    #7ab3d4;
+  --amber:     #e0a840;
+  --coral:     #d97757;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+  outline:2px solid var(--sky, #7ab3d4); outline-offset:2px; border-radius:2px;
+}
+html { scroll-behavior:smooth; }
+body {
+  background:var(--obsidian); color:var(--cream); font-family:'DM Sans',sans-serif;
+  font-weight:300; line-height:1.7; -webkit-font-smoothing:antialiased;
+}
+::selection { background:rgba(122,179,212,.3); }
+a { color:inherit; }
+img { max-width:100%; display:block; }
+
+/* ── Header ─────────────────────────────────────────── */
+header {
+  position:sticky; top:0; z-index:50; height:60px; display:flex; align-items:center;
+  justify-content:space-between; padding:0 2.5rem; background:var(--header-bg);
+  border-bottom:1px solid rgba(168,197,192,.12); gap:1rem;
+}
+.back-link {
+  font-family:'Space Mono',monospace; font-size:.68rem; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--glacier); text-decoration:none; display:flex; align-items:center; gap:.5rem;
+  transition:color .2s ease; flex-shrink:0;
+}
+.back-link:hover { color:var(--cream); }
+.header-tag {
+  font-family:'Space Mono',monospace; font-size:.6rem; letter-spacing:.14em; text-transform:uppercase;
+  color:rgba(168,197,192,.55); margin-right:auto; padding-left:1.5rem;
+}
+.lang-switch { display:flex; gap:.35rem; flex-shrink:0; }
+.lang-btn {
+  font-family:'Space Mono',monospace; font-size:.68rem; letter-spacing:.05em; padding:.4rem .7rem;
+  background:transparent; border:1px solid rgba(168,197,192,.25); color:var(--glacier); border-radius:2px;
+  cursor:pointer; transition:all .2s ease;
+}
+.lang-btn:hover { border-color:var(--glacier); }
+.lang-btn.active { background:var(--accent); color:var(--header-bg); border-color:var(--accent); }
+@media(max-width:640px){ header{padding:0 1.2rem;} .header-tag{display:none;} .lang-switch{overflow-x:auto;max-width:70vw;padding-bottom:2px;} .lang-btn{flex:0 0 auto;padding:.35rem .55rem;font-size:.6rem;} }
+.rtl-mode { direction:rtl; }
+.rtl-mode .back-link { direction:rtl; }
+.rtl-mode .committee-inner { border-left:none; border-right:1px solid rgba(201,168,76,.4); padding-left:0; padding-right:1.2rem; }
+
+/* ── Layout ─────────────────────────────────────────── */
+.wrap { max-width:820px; margin:0 auto; padding:0 1.8rem; }
+section { padding:4.2rem 0; border-bottom:1px solid rgba(168,197,192,.08); }
+section:last-of-type { border-bottom:none; }
+
+/* ── Hero ───────────────────────────────────────────── */
+.hero { padding:4.5rem 0 3.5rem; }
+.hero-eyebrow {
+  font-family:'Space Mono',monospace; font-size:.68rem; letter-spacing:.18em; text-transform:uppercase;
+  color:var(--amber); margin-bottom:1.2rem;
+}
+.hero-title {
+  font-family:'Cormorant Garamond',serif; font-style:italic; font-weight:400;
+  font-size:clamp(2.1rem,5.5vw,3.4rem); line-height:1.12; color:var(--cream); margin-bottom:1.4rem;
+  max-width:680px;
+}
+.hero-sub {
+  font-size:1.05rem; font-weight:300; color:rgba(240,235,224,.72); max-width:600px; margin-bottom:2.2rem;
+}
+.hero-meta {
+  display:flex; flex-wrap:wrap; gap:.5rem 1.6rem; font-family:'Space Mono',monospace; font-size:.68rem;
+  color:var(--stone); padding-top:1.6rem; border-top:1px solid rgba(168,197,192,.14);
+}
+.hero-meta b { color:var(--glacier); font-weight:400; }
+
+.stat-row { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(168,197,192,.1); margin-top:2.6rem; border:1px solid rgba(168,197,192,.1); }
+.stat-cell { background:var(--obsidian); padding:1.5rem 1rem; text-align:center; }
+.stat-num { font-family:'Space Mono',monospace; font-size:1.5rem; font-weight:700; color:var(--amber); }
+.stat-lbl { font-family:'Space Mono',monospace; font-size:.56rem; letter-spacing:.08em; text-transform:uppercase; color:var(--stone); margin-top:.4rem; line-height:1.4; }
+@media(max-width:640px){ .stat-row{grid-template-columns:repeat(2,1fr);} }
+
+/* ── Seções ─────────────────────────────────────────── */
+.sec-label {
+  font-family:'Space Mono',monospace; font-size:.62rem; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--sky); margin-bottom:.7rem;
+}
+.sec-title {
+  font-family:'Cormorant Garamond',serif; font-weight:400; font-size:clamp(1.5rem,3.5vw,2rem);
+  color:var(--cream); margin-bottom:1.3rem; max-width:560px;
+}
+.sec-body p { margin-bottom:1.1rem; color:rgba(240,235,224,.82); font-size:.98rem; }
+.sec-body p:last-child { margin-bottom:0; }
+.sec-body strong { color:var(--cream); font-weight:500; }
+.sec-intro { color:rgba(240,235,224,.72); font-size:.92rem; max-width:600px; }
+.pull-note {
+  border-left:2px solid var(--amber); padding:.2rem 0 .2rem 1.1rem; margin:1.6rem 0;
+  font-style:italic; color:rgba(240,235,224,.68); font-size:.92rem;
+}
+
+/* ── Foto placeholder ───────────────────────────────── */
+.photo-slot {
+  margin:1.8rem 0; border:1px dashed rgba(168,197,192,.28); border-radius:4px;
+  padding:2.4rem 1.5rem; text-align:center; background:rgba(168,197,192,.03);
+}
+.photo-slot-icon { font-size:1.6rem; margin-bottom:.6rem; opacity:.5; }
+.photo-slot-text { font-family:'Space Mono',monospace; font-size:.62rem; letter-spacing:.06em; color:var(--stone); line-height:1.6; }
+.photo-slot img { border-radius:3px; margin:0 auto; }
+
+/* ── Metodologia timeline ───────────────────────────── */
+.meta-steps { margin-top:1.6rem; }
+.meta-step { display:flex; gap:1.2rem; padding:1rem 0; border-top:1px solid rgba(168,197,192,.1); }
+.meta-step:first-child { border-top:none; }
+.meta-step-date { font-family:'Space Mono',monospace; font-size:.68rem; color:var(--gold); flex-shrink:0; width:110px; padding-top:.1rem; }
+.meta-step-desc { font-size:.92rem; color:rgba(240,235,224,.78); }
+.meta-step-desc b { color:var(--cream); font-weight:500; }
+
+/* ── Cards regionais ────────────────────────────────── */
+.region-grid { display:grid; grid-template-columns:1fr 1fr; gap:1px; background:rgba(168,197,192,.1); border:1px solid rgba(168,197,192,.1); margin-top:1.8rem; }
+.region-card { background:var(--obsidian); padding:1.6rem; }
+.region-card-head { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:.7rem; }
+.region-name { font-family:'Space Grotesk',sans-serif; font-weight:500; font-size:.95rem; color:var(--cream); }
+.region-tag { font-family:'Space Mono',monospace; font-size:.58rem; color:var(--stone); }
+.region-stats { display:flex; gap:1.6rem; margin:.7rem 0; }
+.region-stat-v { font-family:'Space Mono',monospace; font-size:1.15rem; font-weight:700; color:var(--coral); }
+.region-stat-l { font-family:'Space Mono',monospace; font-size:.52rem; color:var(--stone); text-transform:uppercase; margin-top:.15rem; }
+.region-cause { font-size:.82rem; color:rgba(240,235,224,.68); line-height:1.5; }
+@media(max-width:640px){ .region-grid{grid-template-columns:1fr;} }
+
+/* ── Chart ──────────────────────────────────────────── */
+.chart-wrap { margin-top:2rem; }
+.chart-caption { font-family:'Space Mono',monospace; font-size:.6rem; color:var(--stone); text-align:center; margin-top:.6rem; }
+.bar-label { font-family:'Space Mono',monospace; font-size:.62rem; fill:var(--cream); }
+.bar-value { font-family:'Space Mono',monospace; font-size:.62rem; fill:var(--amber); font-weight:700; }
+.axis text { font-family:'Space Mono',monospace; font-size:.56rem; fill:var(--stone); }
+.axis path, .axis line { stroke:rgba(168,197,192,.2); }
+
+/* ── Achado (destaque) ──────────────────────────────── */
+.finding-box {
+  background:linear-gradient(180deg,rgba(224,168,64,.08),rgba(224,168,64,.02));
+  border:1px solid rgba(224,168,64,.25); border-radius:6px; padding:2rem;
+  margin-top:1.6rem;
+}
+.finding-box .sec-label { color:var(--amber); }
+.finding-box p { font-size:.92rem; color:rgba(240,235,224,.82); margin-top:.6rem; }
+
+/* ── Limitações / lista ─────────────────────────────── */
+.limit-list { list-style:none; margin-top:1.4rem; }
+.limit-list li { display:flex; gap:.9rem; padding:.85rem 0; border-top:1px solid rgba(168,197,192,.1); font-size:.92rem; color:rgba(240,235,224,.78); }
+.limit-list li:first-child { border-top:none; }
+.limit-list li::before { content:'—'; color:var(--stone); flex-shrink:0; }
+
+/* ── Reflexão pessoal ───────────────────────────────── */
+.reflection {
+  background:rgba(168,197,192,.04); border-left:2px solid var(--sky); border-radius:0 4px 4px 0;
+  padding:1.6rem 1.8rem; margin-top:1.6rem;
+}
+.reflection p { font-style:italic; color:rgba(240,235,224,.85); font-size:.98rem; margin-bottom:0; }
+.reflection-sig { font-family:'Space Mono',monospace; font-size:.62rem; color:var(--stone); margin-top:1rem; text-transform:uppercase; letter-spacing:.08em; }
+
+/* ── Fonte primária / CTA final ─────────────────────── */
+.source-box {
+  display:flex; align-items:center; gap:1rem; padding:1.3rem 1.5rem; background:rgba(168,197,192,.04);
+  border:1px solid rgba(168,197,192,.14); border-radius:6px; margin-top:1.4rem;
+}
+.source-icon { font-size:1.4rem; flex-shrink:0; }
+.source-text { font-size:.85rem; color:rgba(240,235,224,.75); }
+.source-text b { color:var(--cream); }
+.source-text i { color:rgba(240,235,224,.6); }
+
+/* ── Comissão Julgadora / Banca Avaliadora ──────────── */
+.committee-inner { padding-left:1.2rem; border-left:1px solid rgba(201,168,76,.4); margin-top:.8rem; }
+.committee-sub {
+  font-family:'Space Mono',monospace; font-size:.52rem; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--stone); margin-bottom:.6rem;
+}
+.committee-list { display:flex; flex-direction:column; gap:.45rem; margin-bottom:.7rem; }
+.committee-link {
+  font-family:'Space Mono',monospace; font-size:.68rem; letter-spacing:.03em; color:var(--accent);
+  text-decoration:none; display:flex; align-items:center; gap:.4rem; flex-wrap:wrap;
+}
+.committee-link:hover { text-decoration:underline; }
+.committee-arrow { opacity:.6; flex-shrink:0; }
+.committee-role { color:var(--stone); font-size:.6rem; }
+.committee-profile-btn {
+  font-family:'Space Mono',monospace; font-size:.6rem; letter-spacing:.08em; color:var(--glacier);
+  text-decoration:none; margin-top:.2rem; display:inline-block; border:1px solid rgba(168,197,192,.25);
+  padding:.35rem .7rem; border-radius:2px; transition:all .2s ease;
+}
+.committee-profile-btn:hover { border-color:var(--glacier); background:rgba(168,197,192,.08); }
+
+.cta-row { display:flex; gap:.9rem; flex-wrap:wrap; margin-top:2rem; }
+.btn-primary, .btn-ghost {
+  font-family:'Space Mono',monospace; font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+  padding:.8rem 1.4rem; border-radius:3px; text-decoration:none; display:inline-flex; align-items:center; gap:.5rem;
+  transition:all .2s ease;
+}
+.btn-primary { background:var(--sky); color:var(--header-bg); font-weight:700; }
+.btn-primary:hover { background:#93c5e0; }
+.btn-ghost { border:1px solid rgba(168,197,192,.3); color:var(--glacier); }
+.btn-ghost:hover { border-color:var(--glacier); background:rgba(168,197,192,.06); }
+
+footer { padding:2.5rem 0; text-align:center; }
+.footer-note { font-family:'Space Mono',monospace; font-size:.56rem; letter-spacing:.1em; color:rgba(107,122,114,.55); text-transform:uppercase; }
+</style>
+<script data-goatcounter="https://environmental-portfolio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "Síndrome do Colapso das Colônias de Abelhas",
+  "url": "https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html",
+  "description": "Análise qualitativa e quantitativa da mortalidade de abelhas por compostos químicos agrícolas em Minas Gerais, São Paulo e Paraná (2016–2022).",
+  "author": {
+    "@type": "Person",
+    "name": "Amauri Almeida de Souza Junior",
+    "url": "https://amaurialmeida.github.io/environmental-portfolio/"
+  },
+  "datePublished": "2022",
+  "publisher": { "@type": "Organization", "name": "FATEC Jundiaí" },
+  "inLanguage": ["pt-BR", "en", "es", "it", "zh-CN", "fr", "ar", "de", "el", "af"],
+  "isPartOf": {
+    "@type": "WebSite",
+    "url": "https://amaurialmeida.github.io/environmental-portfolio/"
+  }
+}
+</script>
+<link rel="alternate" hreflang="x-default" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html" />
+<link rel="alternate" hreflang="pt-BR" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html" />
+<link rel="alternate" hreflang="en" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=en" />
+<link rel="alternate" hreflang="es" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=es" />
+<link rel="alternate" hreflang="it" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=it" />
+<link rel="alternate" hreflang="zh-CN" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=zh" />
+<link rel="alternate" hreflang="fr" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=fr" />
+<link rel="alternate" hreflang="ar" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=ar" />
+<link rel="alternate" hreflang="de" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=de" />
+<link rel="alternate" hreflang="el" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=el" />
+<link rel="alternate" hreflang="af" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=af" />
+<link rel="alternate" hreflang="it" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=it" />
+<link rel="alternate" hreflang="zh-CN" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=zh" />
+<link rel="alternate" hreflang="fr" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=fr" />
+<link rel="alternate" hreflang="ar" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=ar" />
+<link rel="alternate" hreflang="de" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=de" />
+<link rel="alternate" hreflang="el" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=el" />
+<link rel="alternate" hreflang="af" href="https://amaurialmeida.github.io/environmental-portfolio/case-study-abelhas.html?lang=af" />
+</head>
+<body>
+<div id="read-progress-bar" style="position:fixed;top:0;left:0;width:0%;height:3px;background:var(--sky, #7ab3d4);z-index:2000;transition:width .1s ease;"></div>
+
+<header>
+  <a class="back-link" id="back-link" href="index.html">← Voltar ao portfólio</a>
+  <span class="header-tag" id="header-tag">AMAURI ALMEIDA · ESTUDO DE CASO</span>
+  <div class="lang-switch">
+    <button class="lang-btn active" type="button" data-lang="pt" onclick="csSetLang('pt')">🇧🇷 PT</button>
+    <button class="lang-btn" type="button" data-lang="es" onclick="csSetLang('es')">🇪🇸 ES</button>
+    <button class="lang-btn" type="button" data-lang="en" onclick="csSetLang('en')">🇺🇸 EN</button>
+    <button class="lang-btn" type="button" data-lang="it" onclick="csSetLang('it')">🇮🇹 IT</button>
+    <button class="lang-btn" type="button" data-lang="zh" onclick="csSetLang('zh')">🇨🇳 ZH</button>
+    <button class="lang-btn" type="button" data-lang="fr" onclick="csSetLang('fr')">🇫🇷 FR</button>
+    <button class="lang-btn" type="button" data-lang="ar" onclick="csSetLang('ar')">🇸🇦 AR</button>
+    <button class="lang-btn" type="button" data-lang="de" onclick="csSetLang('de')">🇩🇪 DE</button>
+    <button class="lang-btn" type="button" data-lang="el" onclick="csSetLang('el')">🇬🇷 EL</button>
+    <button class="lang-btn" type="button" data-lang="af" onclick="csSetLang('af')">🇿🇦 AF</button>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero">
+    <div class="hero-eyebrow" id="hero-eyebrow">Estudo de caso · Trabalho de Conclusão de Curso</div>
+    <h1 class="hero-title" id="hero-title">Síndrome do Colapso das Colônias de Abelhas</h1>
+    <p class="hero-sub" id="hero-sub">Como uma pesquisa de campo sobre agrotóxicos revelou um problema maior do que os dados oficiais conseguem capturar — e por que os apicultores tiveram medo de responder.</p>
+
+    <div class="hero-meta">
+      <span><b>FATEC Jundiaí</b> — Deputado Ary Fossen</span>
+      <span><b id="meta-course-lbl">Curso:</b> <span id="meta-course-val">Tecnólogo em Gestão Ambiental</span></span>
+      <span><b id="meta-advisor-lbl">Orientador:</b> Prof. Me. Claudio da Cunha</span>
+      <span><b id="meta-year-lbl">Ano:</b> 2022</span>
+      <span id="meta-enade"><b>3º lugar</b> ENADE</span>
+      <span id="meta-readtime">📖 <b>7 min</b> <span id="meta-readtime-label">de leitura</span></span>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat-cell"><div class="stat-num">338</div><div class="stat-lbl" id="stat-lbl-1">colônias perdidas</div></div>
+      <div class="stat-cell"><div class="stat-num">~20M</div><div class="stat-lbl" id="stat-lbl-2">abelhas perdidas</div></div>
+      <div class="stat-cell"><div class="stat-num">4/9</div><div class="stat-lbl" id="stat-lbl-3">apicultores responderam</div></div>
+      <div class="stat-cell"><div class="stat-num">3</div><div class="stat-lbl" id="stat-lbl-4">estados · 2016–2022</div></div>
+    </div>
+  </section>
+
+  <!-- ══════════ 1. O PROBLEMA ══════════ -->
+  <section>
+    <div class="sec-label" id="s1-label">01 · O problema</div>
+    <h2 class="sec-title" id="s1-title">Por que abelhas são a pergunta certa a se fazer</h2>
+    <div class="sec-body" id="s1-body">
+      <p>Cerca de 80% das plantas com flor dependem de polinização por insetos, e 85% dessa polinização é feita por abelhas — incluindo aproximadamente 90% das árvores frutíferas. Isso torna as abelhas um <strong>bioindicador</strong>: quando elas começam a desaparecer numa região, é sinal de que algo no ambiente já está fora do equilíbrio antes que os efeitos apareçam em outras espécies, inclusive na nossa.</p>
+      <p>Em outubro de 2006, um fenômeno até então pouco documentado — a <strong>Síndrome do Colapso das Colônias (CCD)</strong> — foi registrado na Califórnia: colônias inteiras perdendo suas abelhas operárias adultas de forma acelerada, restando apenas larvas sem alimento nos alvéolos. Em três anos, o fenômeno já havia sido relatado em 38 dos 50 estados americanos. No Brasil, o mesmo padrão começou a ser relatado na região Sudeste.</p>
+      <p>O pano de fundo é o uso intensivo de agrotóxicos: o Brasil aplica cerca de <strong>300 mil toneladas de agrotóxicos por ano</strong>, um aumento de 700% nos últimos 40 anos. A pergunta que guiou esta pesquisa foi simples de formular e difícil de responder: o quanto disso está matando as abelhas — e o quanto disso a gente sequer consegue medir?</p>
+    </div>
+
+    <div class="photo-slot" id="photo-slot-1">
+      <div class="photo-slot-icon">🐝</div>
+      <div class="photo-slot-text" id="photo-slot-text-1">FOTO DE CAMPO — reservado para imagem original do TCC<br>(ex: caixa de meliponicultura, autoria própria, 2022)</div>
+    </div>
+  </section>
+
+  <!-- ══════════ 2. METODOLOGIA ══════════ -->
+  <section>
+    <div class="sec-label" id="s2-label">02 · Metodologia de campo</div>
+    <h2 class="sec-title" id="s2-title">Entrevistar quem realmente vê as abelhas morrerem</h2>
+    <div class="sec-body" id="s2-body">
+      <p>A pesquisa combinou revisão bibliográfica (teses, dissertações e artigos levantados via Google Acadêmico) com <strong>pesquisa de campo qualitativa</strong>, usando método hipotético-dedutivo: formular a hipótese de que agrotóxicos e herbicidas eram a principal causa de mortandade de abelhas entre 2016 e 2022, e testá-la com dados reais de quem cria abelhas no Brasil.</p>
+      <p>Um roteiro de entrevista foi desenvolvido em conjunto com o orientador, com perguntas objetivas: houve perda de colônias entre 2016 e 2022? Em qual região? Quantos indivíduos aproximadamente? Qual a causa provável? Todos os entrevistados assinaram declaração autorizando o uso acadêmico dos dados.</p>
+    </div>
+
+    <div class="meta-steps" id="meta-steps">
+      <div class="meta-step">
+        <div class="meta-step-date">18 ABR 2022</div>
+        <div class="meta-step-desc" id="step-1">Entrevista com <b>Produtor A</b> (Sul de Minas Gerais), via WhatsApp e e-mail.</div>
+      </div>
+      <div class="meta-step">
+        <div class="meta-step-date">23 ABR 2022</div>
+        <div class="meta-step-desc" id="step-2">Entrevista com <b>Produtor B</b> (Região Metropolitana de SP), via Instagram e e-mail.</div>
+      </div>
+      <div class="meta-step">
+        <div class="meta-step-date">31 MAI 2022</div>
+        <div class="meta-step-desc" id="step-3">Entrevista com <b>Produtor C</b> (Região Central do Paraná), via Instagram e e-mail.</div>
+      </div>
+      <div class="meta-step">
+        <div class="meta-step-date">03 JUN 2022</div>
+        <div class="meta-step-desc" id="step-4">Entrevista com <b>Produtor D</b> (Região Central do Paraná), via Instagram e e-mail.</div>
+      </div>
+    </div>
+
+    <div class="pull-note" id="pull-note-1">Dos 9 apicultores e meliponicultores contatados, apenas 4 retornaram — e todos os 4 pediram anonimato, temendo represálias de agricultores vizinhos. As respostas foram compiladas em 4 planilhas Excel, uma por produtor.</div>
+  </section>
+
+  <!-- ══════════ 3. RESULTADOS POR REGIÃO ══════════ -->
+  <section>
+    <div class="sec-label" id="s3-label">03 · Resultados por região</div>
+    <h2 class="sec-title" id="s3-title">338 colônias, ~20 milhões de abelhas, 3 estados</h2>
+    <p class="sec-intro" id="s3-intro">Os números variam em ordens de grandeza entre produtores — de 3 colônias perdidas por um apicultor de pequeno porte a 300 colônias de uma vez por um produtor de grande porte no Paraná. O gráfico usa escala logarítmica por isso.</p>
+
+    <div class="chart-wrap">
+      <div id="bee-chart"></div>
+      <div class="chart-caption" id="chart-caption">Abelhas perdidas por produtor entrevistado (escala logarítmica) · dados brutos das 4 planilhas do TCC</div>
+    </div>
+
+    <div class="region-grid">
+      <div class="region-card">
+        <div class="region-card-head"><span class="region-name" id="r1-name">Produtor A</span><span class="region-tag" id="r1-tag">Sul de MG · pequeno porte</span></div>
+        <div class="region-stats">
+          <div><div class="region-stat-v">3</div><div class="region-stat-l" id="r-lbl-hives-1">colônias</div></div>
+          <div><div class="region-stat-v">~8 mil</div><div class="region-stat-l" id="r-lbl-bees-1">abelhas</div></div>
+        </div>
+        <div class="region-cause" id="r1-cause">Perdas em 2016, 2020 e 2021. Causa: caminhão de fumacê contra <i>Aedes aegypti</i> (inseticida organofosforado de uso urbano), apiário próximo a bairro residencial.</div>
+      </div>
+      <div class="region-card">
+        <div class="region-card-head"><span class="region-name" id="r2-name">Produtor B</span><span class="region-tag" id="r2-tag">Metropolitana SP · médio porte</span></div>
+        <div class="region-stats">
+          <div><div class="region-stat-v">5</div><div class="region-stat-l" id="r-lbl-hives-2">colônias</div></div>
+          <div><div class="region-stat-v">~300 mil</div><div class="region-stat-l" id="r-lbl-bees-2">abelhas</div></div>
+        </div>
+        <div class="region-cause" id="r2-cause">Perda concentrada em 2022. Causa: herbicida sistêmico não seletivo, usado em terrenos baldios vizinhos ao apiário.</div>
+      </div>
+      <div class="region-card">
+        <div class="region-card-head"><span class="region-name" id="r3-name">Produtor C</span><span class="region-tag" id="r3-tag">Central PR · grande porte</span></div>
+        <div class="region-stats">
+          <div><div class="region-stat-v">30</div><div class="region-stat-l" id="r-lbl-hives-3">colônias</div></div>
+          <div><div class="region-stat-v">~1,8 mi</div><div class="region-stat-l" id="r-lbl-bees-3">abelhas</div></div>
+        </div>
+        <div class="region-cause" id="r3-cause">Perda em 2021. Causa: pulverização de pesticida não identificado, apiário próximo a monocultura — produtor não quis nomear o composto.</div>
+      </div>
+      <div class="region-card">
+        <div class="region-card-head"><span class="region-name" id="r4-name">Produtor D</span><span class="region-tag" id="r4-tag">Central PR · grande porte</span></div>
+        <div class="region-stats">
+          <div><div class="region-stat-v">300</div><div class="region-stat-l" id="r-lbl-hives-4">colônias</div></div>
+          <div><div class="region-stat-v">~18 mi</div><div class="region-stat-l" id="r-lbl-bees-4">abelhas</div></div>
+        </div>
+        <div class="region-cause" id="r4-cause">Perda em 2019, a maior do estudo. Causa: pulverização de pesticida não identificado, apiário próximo a monocultura — mesmo receio de retaliação do Produtor C.</div>
+      </div>
+    </div>
+
+    <div class="source-box" style="margin-top:1.4rem;">
+      <span class="source-icon">📋</span>
+      <span class="source-text" id="protocol-note"><b>Nota de Protocolo Científico:</b> Os nomes comerciais dos compostos químicos identificados nesta pesquisa foram omitidos nesta publicação a pedido dos produtores entrevistados e por cautela legal, substituídos por categorias técnicas genéricas. Os dados completos estão disponíveis no TCC original depositado na FATEC Jundiaí (2022). Para fins acadêmicos, solicite acesso pelo formulário de contato.</span>
+    </div>
+  </section>
+
+  <!-- ══════════ 4. O ACHADO INESPERADO ══════════ -->
+  <section>
+    <div class="sec-label" id="s4-label">04 · O achado inesperado</div>
+    <h2 class="sec-title" id="s4-title">O dado mais importante não está nas tabelas</h2>
+    <div class="sec-body" id="s4-body">
+      <p>O resultado mais revelador desta pesquisa não foi nenhum dos números acima — foi <strong>por que 5 dos 9 apicultores contatados nunca responderam</strong>, e por que os 4 que responderam exigiram sigilo total.</p>
+      <p>A explicação que emergiu das entrevistas: a maioria dos apicultores não é dona da terra onde instala suas colmeias. Se um apicultor denuncia a perda de abelhas por agrotóxico, corre o risco de o proprietário da terra espalhar que ele "fez uma denúncia ambiental" — o que pode manchar sua reputação entre outros produtores rurais e fechar as portas para conseguir novos terrenos no futuro. O incentivo estrutural é ficar calado, mesmo quando o prejuízo é real.</p>
+    </div>
+
+    <div class="finding-box">
+      <div class="sec-label" id="s4-finding-label">Um segundo silêncio, vindo de cima</div>
+      <p id="s4-finding-body">O mesmo padrão aparece na ponta oficial: segundo levantamento da Repórter Brasil (Rohden, 2022), a ANVISA <strong>parou de publicar novos dados de resíduos de agrotóxicos em alimentos desde 2017</strong>. Ou seja: enquanto apicultores individuais ficam calados por medo de represália, o órgão regulador também parou de gerar o dado que permitiria cruzar essas informações em escala nacional. Dois silêncios independentes, apontando na mesma direção — o problema real provavelmente é maior do que qualquer um dos dois lados consegue, ou quer, medir.</p>
+    </div>
+  </section>
+
+  <!-- ══════════ 5. CONCLUSÕES ══════════ -->
+  <section>
+    <div class="sec-label" id="s5-label">05 · Conclusões</div>
+    <h2 class="sec-title" id="s5-title">O que a pesquisa recomenda</h2>
+    <div class="sec-body" id="s5-body">
+      <p>Agrotóxicos e herbicidas foram identificados como a principal causa de mortandade de abelhas no período estudado, confirmando a hipótese de pesquisa. Duas medidas concretas, já previstas em lei mas nem sempre cumpridas na prática, emergem como recomendação direta do estudo:</p>
+    </div>
+    <ul class="limit-list" id="s5-list">
+      <li>O registro legal de apiários e meliponários é permitido mesmo em Área de Proteção Permanente (APP), por serem consideradas atividades de baixo impacto pelo Código Florestal (Lei nº 12.651/2012) — mas exige que o apicultor formalize a atividade, o que nem sempre acontece.</li>
+      <li>Aplicadores de agrotóxico são obrigados a notificar apiários num raio de 6 km com <strong>48 horas de antecedência</strong> antes da pulverização — regra que, segundo os relatos coletados, frequentemente não é seguida.</li>
+    </ul>
+  </section>
+
+  <!-- ══════════ 6. LIMITAÇÕES ══════════ -->
+  <section>
+    <div class="sec-label" id="s6-label">06 · Limitações — sem maquiagem</div>
+    <h2 class="sec-title" id="s6-title">O que esses dados não permitem afirmar</h2>
+    <ul class="limit-list" id="s6-list">
+      <li><strong>Amostra pequena e autosselecionada:</strong> 4 respondentes de 9 contatados não é uma amostra representativa do Brasil — é o recorte de quem topou (e teve coragem de) responder.</li>
+      <li><strong>Regiões definidas por quem respondeu, não por desenho amostral:</strong> Minas Gerais, São Paulo e Paraná aparecem no estudo porque foi ali que houve retorno, não porque foram escolhidas como representativas do país.</li>
+      <li><strong>Sem geolocalização exata:</strong> o sigilo pedido pelos 4 produtores — condição para participarem — impediu registrar coordenadas ou nomes de apiários, o que limita qualquer análise espacial mais fina.</li>
+    </ul>
+  </section>
+
+  <!-- ══════════ 7. O QUE EU FARIA DIFERENTE ══════════ -->
+  <section>
+    <div class="sec-label" id="s7-label">07 · Olhando pra trás, com o que sei hoje</div>
+    <h2 class="sec-title" id="s7-title">O que eu faria diferente</h2>
+    <div class="reflection">
+      <p id="s7-quote">"Hoje eu ampliaria a coleta usando mais fóruns e buscaria mais trabalhos de iniciação científica publicados sobre o tema. Tentaria também contato direto com cooperativas de apicultores — que costumam ter grupos de troca de conhecimento e problemas, num formato parecido com grupo de apoio — e tentaria alcançar o máximo possível dessas cooperativas nas cinco regiões do Brasil: Norte, Nordeste, Centro-Oeste, Sudeste e Sul, não só nos três estados que consegui na época."</p>
+      <div class="reflection-sig">— Amauri Almeida, 2026</div>
+    </div>
+  </section>
+
+  <!-- ══════════ FONTE + CTA ══════════ -->
+  <section style="border-bottom:none;">
+    <div class="sec-label" id="source-label">Fonte primária</div>
+    <div class="source-box">
+      <span class="source-icon">📄</span>
+      <span class="source-text" id="source-text"><b>A Problemática da Síndrome das Colônias de Abelhas</b> — Trabalho de Conclusão de Curso, 55 páginas, Tecnólogo em Gestão Ambiental, FATEC Jundiaí "Deputado Ary Fossen", 2022. Orientação: Prof. Me. Claudio da Cunha.</span>
+    </div>
+
+    <div class="committee-box">
+      <div class="sec-label" id="committee-label" style="margin-top:1.6rem;">Comissão Julgadora</div>
+      <div class="committee-inner">
+        <div class="committee-sub" id="committee-sub">BANCA AVALIADORA</div>
+        <div class="committee-list">
+          <a href="https://www.escavador.com/sobre/2189995/claudio-da-cunha" target="_blank" rel="noopener noreferrer" class="committee-link">
+            <span class="committee-arrow">↗</span> Prof. Me. Claudio da Cunha <span class="committee-role" id="role-advisor">(Orientador)</span>
+          </a>
+          <a href="https://www.escavador.com/sobre/5826804/francisco-del-moral-hernandez" target="_blank" rel="noopener noreferrer" class="committee-link">
+            <span class="committee-arrow">↗</span> Me. Francisco del Moral Hernandez
+          </a>
+          <a href="https://www.escavador.com/sobre/588119/claudia-aparecida-longatti" target="_blank" rel="noopener noreferrer" class="committee-link">
+            <span class="committee-arrow">↗</span> Me. Cláudia Aparecida Longatti
+          </a>
+        </div>
+        <a href="https://www.escavador.com/sobre/403010308/amauri-almeida-de-souza-junior" target="_blank" rel="noopener noreferrer" class="committee-profile-btn" id="committee-profile-btn">
+          ↗ PERFIL ACADÊMICO · ESCAVADOR
+        </a>
+      </div>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn-primary" id="cta-dashboard" href="https://bee-colony-collapse-brazil.streamlit.app/" target="_blank" rel="noopener noreferrer">↗ Ver dashboard interativo</a>
+      <a class="btn-ghost" id="cta-back" href="index.html">← Voltar ao portfólio</a>
+      <button class="btn-ghost" id="cta-share" type="button" onclick="csShareLink()">📋 Copiar link</button>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="footer-note" id="footer-note">© 2026 Amauri Almeida · Estudo de caso baseado em TCC original de 2022</div>
+</footer>
+
+<script>
+var CS_T = {
+  pt: {
+    'doc-title': 'Estudo de Caso — Síndrome do Colapso das Colônias de Abelhas | Amauri Almeida',
+    'meta-desc-content': 'Estudo de caso aprofundado do TCC de Amauri Almeida sobre a Síndrome do Colapso das Colônias de Abelhas: metodologia de campo, entrevistas com apicultores, 338 colônias e ~20 milhões de abelhas perdidas entre 2016-2022, e o achado sobre subnotificação por medo de represália.',
+    'og-title-content': 'Estudo de Caso — Síndrome do Colapso das Colônias de Abelhas',
+    'og-desc-content': 'Como uma pesquisa de campo sobre agrotóxicos revelou um problema maior do que os dados conseguem capturar.',
+    'og-locale-content': 'pt_BR',
+    'html-lang': 'pt-BR',
+    'back-link': '← Voltar ao portfólio',
+    'header-tag': 'AMAURI ALMEIDA · ESTUDO DE CASO',
+    'hero-eyebrow': 'Estudo de caso · Trabalho de Conclusão de Curso',
+    'hero-title': 'Síndrome do Colapso das Colônias de Abelhas',
+    'hero-sub': 'Como uma pesquisa de campo sobre agrotóxicos revelou um problema maior do que os dados oficiais conseguem capturar — e por que os apicultores tiveram medo de responder.',
+    'meta-course-lbl': 'Curso:', 'meta-course-val': 'Tecnólogo em Gestão Ambiental',
+    'meta-advisor-lbl': 'Orientador:', 'meta-year-lbl': 'Ano:',
+    'meta-enade': '<b>3º lugar</b> ENADE',
+    'stat-lbl-1': 'colônias perdidas', 'stat-lbl-2': 'abelhas perdidas',
+    'stat-lbl-3': 'apicultores responderam', 'stat-lbl-4': 'estados · 2016–2022',
+    's1-label': '01 · O problema',
+    's1-title': 'Por que abelhas são a pergunta certa a se fazer',
+    's1-body': '<p>Cerca de 80% das plantas com flor dependem de polinização por insetos, e 85% dessa polinização é feita por abelhas — incluindo aproximadamente 90% das árvores frutíferas. Isso torna as abelhas um <strong>bioindicador</strong>: quando elas começam a desaparecer numa região, é sinal de que algo no ambiente já está fora do equilíbrio antes que os efeitos apareçam em outras espécies, inclusive na nossa.</p><p>Em outubro de 2006, um fenômeno até então pouco documentado — a <strong>Síndrome do Colapso das Colônias (CCD)</strong> — foi registrado na Califórnia: colônias inteiras perdendo suas abelhas operárias adultas de forma acelerada, restando apenas larvas sem alimento nos alvéolos. Em três anos, o fenômeno já havia sido relatado em 38 dos 50 estados americanos. No Brasil, o mesmo padrão começou a ser relatado na região Sudeste.</p><p>O pano de fundo é o uso intensivo de agrotóxicos: o Brasil aplica cerca de <strong>300 mil toneladas de agrotóxicos por ano</strong>, um aumento de 700% nos últimos 40 anos. A pergunta que guiou esta pesquisa foi simples de formular e difícil de responder: o quanto disso está matando as abelhas — e o quanto disso a gente sequer consegue medir?</p>',
+    'photo-slot-text-1': 'FOTO DE CAMPO — reservado para imagem original do TCC<br>(ex: caixa de meliponicultura, autoria própria, 2022)',
+    's2-label': '02 · Metodologia de campo',
+    's2-title': 'Entrevistar quem realmente vê as abelhas morrerem',
+    's2-body': '<p>A pesquisa combinou revisão bibliográfica (teses, dissertações e artigos levantados via Google Acadêmico) com <strong>pesquisa de campo qualitativa</strong>, usando método hipotético-dedutivo: formular a hipótese de que agrotóxicos e herbicidas eram a principal causa de mortandade de abelhas entre 2016 e 2022, e testá-la com dados reais de quem cria abelhas no Brasil.</p><p>Um roteiro de entrevista foi desenvolvido em conjunto com o orientador, com perguntas objetivas: houve perda de colônias entre 2016 e 2022? Em qual região? Quantos indivíduos aproximadamente? Qual a causa provável? Todos os entrevistados assinaram declaração autorizando o uso acadêmico dos dados.</p>',
+    'step-1': 'Entrevista com <b>Produtor A</b> (Sul de Minas Gerais), via WhatsApp e e-mail.',
+    'step-2': 'Entrevista com <b>Produtor B</b> (Região Metropolitana de SP), via Instagram e e-mail.',
+    'step-3': 'Entrevista com <b>Produtor C</b> (Região Central do Paraná), via Instagram e e-mail.',
+    'step-4': 'Entrevista com <b>Produtor D</b> (Região Central do Paraná), via Instagram e e-mail.',
+    'pull-note-1': 'Dos 9 apicultores e meliponicultores contatados, apenas 4 retornaram — e todos os 4 pediram anonimato, temendo represálias de agricultores vizinhos. As respostas foram compiladas em 4 planilhas Excel, uma por produtor.',
+    's3-label': '03 · Resultados por região',
+    's3-title': '338 colônias, ~20 milhões de abelhas, 3 estados',
+    's3-intro': 'Os números variam em ordens de grandeza entre produtores — de 3 colônias perdidas por um apicultor de pequeno porte a 300 colônias de uma vez por um produtor de grande porte no Paraná. O gráfico usa escala logarítmica por isso.',
+    'chart-caption': 'Abelhas perdidas por produtor entrevistado (escala logarítmica) · dados brutos das 4 planilhas do TCC',
+    'r1-name': 'Produtor A', 'r1-tag': 'Sul de MG · pequeno porte',
+    'r1-cause': 'Perdas em 2016, 2020 e 2021. Causa: caminhão de fumacê contra <i>Aedes aegypti</i> (inseticida organofosforado de uso urbano), apiário próximo a bairro residencial.',
+    'r2-name': 'Produtor B', 'r2-tag': 'Metropolitana SP · médio porte',
+    'r2-cause': 'Perda concentrada em 2022. Causa: herbicida sistêmico não seletivo, usado em terrenos baldios vizinhos ao apiário.',
+    'protocol-note': '<b>Nota de Protocolo Científico:</b> Os nomes comerciais dos compostos químicos identificados nesta pesquisa foram omitidos nesta publicação a pedido dos produtores entrevistados e por cautela legal, substituídos por categorias técnicas genéricas. Os dados completos estão disponíveis no TCC original depositado na FATEC Jundiaí (2022). Para fins acadêmicos, solicite acesso pelo formulário de contato.',
+    'r3-name': 'Produtor C', 'r3-tag': 'Central PR · grande porte',
+    'r3-cause': 'Perda em 2021. Causa: pulverização de pesticida não identificado, apiário próximo a monocultura — produtor não quis nomear o composto.',
+    'r4-name': 'Produtor D', 'r4-tag': 'Central PR · grande porte',
+    'r4-cause': 'Perda em 2019, a maior do estudo. Causa: pulverização de pesticida não identificado, apiário próximo a monocultura — mesmo receio de retaliação do Produtor C.',
+    'r-lbl-hives-1': 'colônias', 'r-lbl-bees-1': 'abelhas',
+    'r-lbl-hives-2': 'colônias', 'r-lbl-bees-2': 'abelhas',
+    'r-lbl-hives-3': 'colônias', 'r-lbl-bees-3': 'abelhas',
+    'r-lbl-hives-4': 'colônias', 'r-lbl-bees-4': 'abelhas',
+    's4-label': '04 · O achado inesperado',
+    's4-title': 'O dado mais importante não está nas tabelas',
+    's4-body': '<p>O resultado mais revelador desta pesquisa não foi nenhum dos números acima — foi <strong>por que 5 dos 9 apicultores contatados nunca responderam</strong>, e por que os 4 que responderam exigiram sigilo total.</p><p>A explicação que emergiu das entrevistas: a maioria dos apicultores não é dona da terra onde instala suas colmeias. Se um apicultor denuncia a perda de abelhas por agrotóxico, corre o risco de o proprietário da terra espalhar que ele "fez uma denúncia ambiental" — o que pode manchar sua reputação entre outros produtores rurais e fechar as portas para conseguir novos terrenos no futuro. O incentivo estrutural é ficar calado, mesmo quando o prejuízo é real.</p>',
+    's4-finding-label': 'Um segundo silêncio, vindo de cima',
+    's4-finding-body': 'O mesmo padrão aparece na ponta oficial: segundo levantamento da Repórter Brasil (Rohden, 2022), a ANVISA <strong>parou de publicar novos dados de resíduos de agrotóxicos em alimentos desde 2017</strong>. Ou seja: enquanto apicultores individuais ficam calados por medo de represália, o órgão regulador também parou de gerar o dado que permitiria cruzar essas informações em escala nacional. Dois silêncios independentes, apontando na mesma direção — o problema real provavelmente é maior do que qualquer um dos dois lados consegue, ou quer, medir.',
+    's5-label': '05 · Conclusões',
+    's5-title': 'O que a pesquisa recomenda',
+    's5-body': '<p>Agrotóxicos e herbicidas foram identificados como a principal causa de mortandade de abelhas no período estudado, confirmando a hipótese de pesquisa. Duas medidas concretas, já previstas em lei mas nem sempre cumpridas na prática, emergem como recomendação direta do estudo:</p>',
+    's5-list': '<li>O registro legal de apiários e meliponários é permitido mesmo em Área de Proteção Permanente (APP), por serem consideradas atividades de baixo impacto pelo Código Florestal (Lei nº 12.651/2012) — mas exige que o apicultor formalize a atividade, o que nem sempre acontece.</li><li>Aplicadores de agrotóxico são obrigados a notificar apiários num raio de 6 km com <strong>48 horas de antecedência</strong> antes da pulverização — regra que, segundo os relatos coletados, frequentemente não é seguida.</li>',
+    's6-label': '06 · Limitações — sem maquiagem',
+    's6-title': 'O que esses dados não permitem afirmar',
+    's6-list': '<li><strong>Amostra pequena e autosselecionada:</strong> 4 respondentes de 9 contatados não é uma amostra representativa do Brasil — é o recorte de quem topou (e teve coragem de) responder.</li><li><strong>Regiões definidas por quem respondeu, não por desenho amostral:</strong> Minas Gerais, São Paulo e Paraná aparecem no estudo porque foi ali que houve retorno, não porque foram escolhidas como representativas do país.</li><li><strong>Sem geolocalização exata:</strong> o sigilo pedido pelos 4 produtores — condição para participarem — impediu registrar coordenadas ou nomes de apiários, o que limita qualquer análise espacial mais fina.</li>',
+    's7-label': '07 · Olhando pra trás, com o que sei hoje',
+    's7-title': 'O que eu faria diferente',
+    's7-quote': '"Hoje eu ampliaria a coleta usando mais fóruns e buscaria mais trabalhos de iniciação científica publicados sobre o tema. Tentaria também contato direto com cooperativas de apicultores — que costumam ter grupos de troca de conhecimento e problemas, num formato parecido com grupo de apoio — e tentaria alcançar o máximo possível dessas cooperativas nas cinco regiões do Brasil: Norte, Nordeste, Centro-Oeste, Sudeste e Sul, não só nos três estados que consegui na época."',
+    'source-label': 'Fonte primária',
+    'committee-label': 'Comissão Julgadora',
+    'committee-sub': 'BANCA AVALIADORA',
+    'role-advisor': '(Orientador)',
+    'committee-profile-btn': '↗ PERFIL ACADÊMICO · ESCAVADOR',
+    'source-text': '<b>A Problemática da Síndrome das Colônias de Abelhas</b> — Trabalho de Conclusão de Curso, 55 páginas, Tecnólogo em Gestão Ambiental, FATEC Jundiaí "Deputado Ary Fossen", 2022. Orientação: Prof. Me. Claudio da Cunha.',
+    'cta-dashboard': '↗ Ver dashboard interativo', 'cta-back': '← Voltar ao portfólio', 'cta-share': '📋 Copiar link', 'cta-share-done': '✓ Link copiado!', 'meta-readtime-label': 'de leitura',
+    'footer-note': '© 2026 Amauri Almeida · Estudo de caso baseado em TCC original de 2022',
+    chartData: [
+      { name: 'Produtor A\n(Sul MG)', value: 8000 },
+      { name: 'Produtor B\n(Metrop. SP)', value: 300000 },
+      { name: 'Produtor C\n(Central PR)', value: 1800000 },
+      { name: 'Produtor D\n(Central PR)', value: 18000000 }
+    ],
+    fmtThousand: 'mil', fmtDecimalSep: ','
+  },
+  en: {
+    'doc-title': 'Case Study — Bee Colony Collapse Disorder | Amauri Almeida',
+    'meta-desc-content': "In-depth case study of Amauri Almeida's undergraduate thesis on Bee Colony Collapse Disorder: field methodology, beekeeper interviews, 338 hives and ~20 million bees lost between 2016-2022, and the finding on underreporting driven by fear of retaliation.",
+    'og-title-content': 'Case Study — Bee Colony Collapse Disorder',
+    'og-desc-content': 'How a field study on pesticides revealed a problem bigger than the data can capture.',
+    'og-locale-content': 'en_GB',
+    'html-lang': 'en',
+    'back-link': '← Back to portfolio',
+    'header-tag': 'AMAURI ALMEIDA · CASE STUDY',
+    'hero-eyebrow': 'Case study · Undergraduate thesis',
+    'hero-title': 'Bee Colony Collapse Disorder',
+    'hero-sub': 'How a field study on pesticides revealed a problem bigger than official data can capture — and why beekeepers were afraid to respond.',
+    'meta-course-lbl': 'Program:', 'meta-course-val': 'Associate Degree in Environmental Management',
+    'meta-advisor-lbl': 'Advisor:', 'meta-year-lbl': 'Year:',
+    'meta-enade': '<b>3rd place</b> ENADE (national exam)',
+    'stat-lbl-1': 'hives lost', 'stat-lbl-2': 'bees lost',
+    'stat-lbl-3': 'beekeepers responded', 'stat-lbl-4': 'states · 2016–2022',
+    's1-label': '01 · The problem',
+    's1-title': 'Why bees are the right question to ask',
+    's1-body': "<p>About 80% of flowering plants depend on insect pollination, and 85% of that pollination is done by bees — including roughly 90% of fruit trees. That makes bees a <strong>bioindicator</strong>: when they start disappearing from a region, it's a sign that something in the environment is already out of balance, before the effects show up in other species — including ours.</p><p>In October 2006, a phenomenon barely documented until then — <strong>Colony Collapse Disorder (CCD)</strong> — was reported in California: entire colonies rapidly losing their adult worker bees, leaving only unfed larvae in the cells. Within three years, it had been reported in 38 of the 50 US states. In Brazil, the same pattern began appearing in the Southeast region.</p><p>The backdrop is heavy pesticide use: Brazil applies around <strong>300,000 tons of pesticides a year</strong>, a 700% increase over the last 40 years. The question that guided this research was simple to ask and hard to answer: how much of this is killing the bees — and how much of it can we even measure?</p>",
+    'photo-slot-text-1': "FIELD PHOTO — reserved for an original image from the thesis<br>(e.g., stingless-bee hive box, author's own photo, 2022)",
+    's2-label': '02 · Field methodology',
+    's2-title': 'Interviewing the people who actually watch bees die',
+    's2-body': '<p>The research combined a literature review (theses, dissertations and papers gathered via Google Scholar) with <strong>qualitative field research</strong>, using a hypothetical-deductive method: formulate the hypothesis that pesticides and herbicides were the main cause of bee mortality between 2016 and 2022, then test it with real data from beekeepers across Brazil.</p><p>An interview script was developed together with the advisor, with objective questions: were there colony losses between 2016 and 2022? In which region? Roughly how many individuals? What was the likely cause? All interviewees signed a statement authorizing academic use of the data.</p>',
+    'step-1': 'Interview with <b>Producer A</b> (Southern Minas Gerais), via WhatsApp and email.',
+    'step-2': 'Interview with <b>Producer B</b> (Greater São Paulo), via Instagram and email.',
+    'step-3': 'Interview with <b>Producer C</b> (Central Paraná), via Instagram and email.',
+    'step-4': 'Interview with <b>Producer D</b> (Central Paraná), via Instagram and email.',
+    'pull-note-1': 'Of the 9 beekeepers and meliponiculturists contacted, only 4 replied — and all 4 requested anonymity, fearing retaliation from neighboring farmers. Responses were compiled into 4 spreadsheets, one per producer.',
+    's3-label': '03 · Results by region',
+    's3-title': '338 hives, ~20 million bees, 3 states',
+    's3-intro': "Numbers vary by orders of magnitude between producers — from 3 hives lost by a small-scale beekeeper to 300 hives at once from a large-scale producer in Paraná. That's why the chart uses a logarithmic scale.",
+    'chart-caption': "Bees lost per interviewed producer (logarithmic scale) · raw data from the thesis's 4 spreadsheets",
+    'r1-name': 'Producer A', 'r1-tag': 'Southern MG · small-scale',
+    'r1-cause': 'Losses in 2016, 2020 and 2021. Cause: municipal fogging truck against <i>Aedes aegypti</i> (organophosphate insecticide, urban use), apiary near a residential neighborhood.',
+    'r2-name': 'Producer B', 'r2-tag': 'Greater São Paulo · mid-scale',
+    'r2-cause': 'Loss concentrated in 2022. Cause: non-selective systemic herbicide, used on vacant lots next to the apiary.',
+    'protocol-note': '<b>Scientific Protocol Note:</b> The commercial names of the chemical compounds identified in this research were omitted from this publication at the request of the interviewed producers and out of legal caution, replaced with generic technical categories. The complete data is available in the original thesis deposited at FATEC Jundiaí (2022). For academic purposes, please request access through the contact form.',
+    'r3-name': 'Producer C', 'r3-tag': 'Central Paraná · large-scale',
+    'r3-cause': 'Loss in 2021. Cause: spraying of an unidentified pesticide, apiary near a monoculture farm — the producer declined to name the compound.',
+    'r4-name': 'Producer D', 'r4-tag': 'Central Paraná · large-scale',
+    'r4-cause': 'Loss in 2019, the largest in the study. Cause: spraying of an unidentified pesticide, apiary near a monoculture farm — same fear of retaliation as Producer C.',
+    'r-lbl-hives-1': 'hives', 'r-lbl-bees-1': 'bees',
+    'r-lbl-hives-2': 'hives', 'r-lbl-bees-2': 'bees',
+    'r-lbl-hives-3': 'hives', 'r-lbl-bees-3': 'bees',
+    'r-lbl-hives-4': 'hives', 'r-lbl-bees-4': 'bees',
+    's4-label': '04 · The unexpected finding',
+    's4-title': "The most important data point isn't in the tables",
+    's4-body': '<p>The most revealing result of this research wasn\'t any of the numbers above — it was <strong>why 5 of the 9 beekeepers contacted never replied</strong>, and why the 4 who did demanded total secrecy.</p><p>The explanation that emerged from the interviews: most beekeepers don\'t own the land where they place their hives. If a beekeeper reports bee losses from pesticides, they risk the landowner spreading word that they "filed an environmental complaint" — which can damage their reputation among other rural producers and close doors to new land in the future. The structural incentive is to stay quiet, even when the loss is real.</p>',
+    's4-finding-label': 'A second silence, from the top down',
+    's4-finding-body': "The same pattern shows up on the official side: according to an investigation by Repórter Brasil (Rohden, 2022), Brazil's health regulator ANVISA <strong>stopped publishing new pesticide-residue-in-food data after 2017</strong>. In other words: while individual beekeepers stay quiet out of fear of retaliation, the regulatory body also stopped producing the data that would allow this to be cross-checked at a national scale. Two independent silences, pointing the same direction — the real problem is probably bigger than either side can, or wants to, measure.",
+    's5-label': '05 · Conclusions',
+    's5-title': 'What the research recommends',
+    's5-body': '<p>Pesticides and herbicides were identified as the leading cause of bee mortality in the period studied, confirming the research hypothesis. Two concrete measures, already required by law but not always followed in practice, emerge as direct recommendations from the study:</p>',
+    's5-list': "<li>Legal registration of apiaries and meliponaries is allowed even within Permanent Protection Areas (APP), as they're considered low-impact activities under Brazil's Forest Code (Law 12.651/2012) — but it requires the beekeeper to formalize the activity, which doesn't always happen.</li><li>Pesticide applicators are required to notify apiaries within a 6 km radius <strong>48 hours in advance</strong> of spraying — a rule that, according to the interviews collected, is frequently not followed.</li>",
+    's6-label': '06 · Limitations — no varnish',
+    's6-title': "What this data doesn't let us claim",
+    's6-list': "<li><strong>Small, self-selected sample:</strong> 4 respondents out of 9 contacted is not a representative sample of Brazil — it's the slice of people who agreed to (and had the courage to) respond.</li><li><strong>Regions defined by who responded, not by sampling design:</strong> Minas Gerais, São Paulo and Paraná appear in the study because that's where there was a response, not because they were chosen as representative of the country.</li><li><strong>No exact geolocation:</strong> the anonymity requested by the 4 producers — a condition for participating at all — made it impossible to record coordinates or apiary names, which limits any finer spatial analysis.</li>",
+    's7-label': '07 · Looking back, with what I know now',
+    's7-title': 'What I would do differently',
+    's7-quote': '"Today I would broaden data collection using more forums, and look for more published undergraduate-research papers on the topic. I\'d also try reaching out directly to beekeeper cooperatives — they usually have knowledge- and problem-sharing groups, in a format similar to a support group — and try to reach as many of these cooperatives as possible across Brazil\'s five regions: North, Northeast, Central-West, Southeast and South, not just the three states I managed to reach at the time."',
+    'source-label': 'Primary source',
+    'committee-label': 'Examination Committee',
+    'committee-sub': 'COMMITTEE MEMBERS',
+    'role-advisor': '(Advisor)',
+    'committee-profile-btn': '↗ ACADEMIC PROFILE · ESCAVADOR',
+    'source-text': '<b>A Problemática da Síndrome das Colônias de Abelhas</b> <i>(The Problem of Bee Colony Collapse Syndrome, original in Portuguese)</i> — Undergraduate thesis, 55 pages, Associate Degree in Environmental Management, FATEC Jundiaí "Deputado Ary Fossen", 2022. Advisor: Prof. Claudio da Cunha, M.Sc.',
+    'cta-dashboard': '↗ View interactive dashboard', 'cta-back': '← Back to portfolio', 'cta-share': '📋 Copy link', 'cta-share-done': '✓ Link copied!', 'meta-readtime-label': 'read',
+    'footer-note': '© 2026 Amauri Almeida · Case study based on the original 2022 thesis',
+    chartData: [
+      { name: 'Producer A\n(South MG)', value: 8000 },
+      { name: 'Producer B\n(Greater SP)', value: 300000 },
+      { name: 'Producer C\n(Central PR)', value: 1800000 },
+      { name: 'Producer D\n(Central PR)', value: 18000000 }
+    ],
+    fmtThousand: 'K', fmtDecimalSep: '.'
+  },
+  es: {
+    'doc-title': 'Estudio de Caso — Síndrome de Colapso de Colonias de Abejas | Amauri Almeida',
+    'meta-desc-content': 'Estudio de caso a fondo del TCC de Amauri Almeida sobre el Síndrome de Colapso de Colonias de Abejas: metodología de campo, entrevistas con apicultores, 338 colmenas y ~20 millones de abejas perdidas entre 2016-2022, y el hallazgo sobre la falta de denuncias por miedo a represalias.',
+    'og-title-content': 'Estudio de Caso — Síndrome de Colapso de Colonias de Abejas',
+    'og-desc-content': 'Cómo una investigación de campo sobre agrotóxicos reveló un problema más grande de lo que los datos logran capturar.',
+    'og-locale-content': 'es_ES',
+    'html-lang': 'es',
+    'back-link': '← Volver al portafolio',
+    'header-tag': 'AMAURI ALMEIDA · ESTUDIO DE CASO',
+    'hero-eyebrow': 'Estudio de caso · Trabajo de Fin de Grado',
+    'hero-title': 'Síndrome de Colapso de Colonias de Abejas',
+    'hero-sub': 'Cómo una investigación de campo sobre agrotóxicos reveló un problema más grande de lo que los datos oficiales logran capturar — y por qué los apicultores tuvieron miedo de responder.',
+    'meta-course-lbl': 'Carrera:', 'meta-course-val': 'Tecnólogo en Gestión Ambiental',
+    'meta-advisor-lbl': 'Director:', 'meta-year-lbl': 'Año:',
+    'meta-enade': '<b>3er lugar</b> ENADE',
+    'stat-lbl-1': 'colmenas perdidas', 'stat-lbl-2': 'abejas perdidas',
+    'stat-lbl-3': 'apicultores respondieron', 'stat-lbl-4': 'estados · 2016–2022',
+    's1-label': '01 · El problema',
+    's1-title': 'Por qué las abejas son la pregunta correcta',
+    's1-body': '<p>Cerca del 80% de las plantas con flor dependen de la polinización por insectos, y el 85% de esa polinización la realizan las abejas — incluyendo aproximadamente el 90% de los árboles frutales. Esto convierte a las abejas en un <strong>bioindicador</strong>: cuando empiezan a desaparecer de una región, es señal de que algo en el ambiente ya está desequilibrado, antes de que los efectos se noten en otras especies, incluida la nuestra.</p><p>En octubre de 2006, un fenómeno hasta entonces poco documentado — el <strong>Síndrome de Colapso de Colonias (CCD)</strong> — fue registrado en California: colonias enteras perdiendo a sus abejas obreras adultas de forma acelerada, quedando solo larvas sin alimento en las celdas. En tres años, el fenómeno ya se había reportado en 38 de los 50 estados de EE. UU. En Brasil, el mismo patrón comenzó a reportarse en la región Sudeste.</p><p>El trasfondo es el uso intensivo de agrotóxicos: Brasil aplica cerca de <strong>300 mil toneladas de agrotóxicos al año</strong>, un aumento del 700% en los últimos 40 años. La pregunta que guio esta investigación fue simple de formular y difícil de responder: ¿cuánto de esto está matando a las abejas, y cuánto de esto siquiera logramos medir?</p>',
+    'photo-slot-text-1': 'FOTO DE CAMPO — reservado para imagen original del TCC<br>(ej.: caja de meliponicultura, autoría propia, 2022)',
+    's2-label': '02 · Metodología de campo',
+    's2-title': 'Entrevistar a quienes realmente ven morir a las abejas',
+    's2-body': '<p>La investigación combinó una revisión bibliográfica (tesis, disertaciones y artículos recopilados vía Google Académico) con <strong>investigación de campo cualitativa</strong>, usando el método hipotético-deductivo: formular la hipótesis de que los agrotóxicos y herbicidas eran la principal causa de mortalidad de abejas entre 2016 y 2022, y ponerla a prueba con datos reales de quienes crían abejas en Brasil.</p><p>Se desarrolló un guion de entrevista junto con el director, con preguntas objetivas: ¿hubo pérdida de colonias entre 2016 y 2022? ¿En qué región? ¿Cuántos individuos aproximadamente? ¿Cuál fue la causa probable? Todos los entrevistados firmaron una declaración autorizando el uso académico de los datos.</p>',
+    'step-1': 'Entrevista con <b>Productor A</b> (Sur de Minas Gerais), vía WhatsApp y correo electrónico.',
+    'step-2': 'Entrevista con <b>Productor B</b> (Área Metropolitana de SP), vía Instagram y correo electrónico.',
+    'step-3': 'Entrevista con <b>Productor C</b> (Centro de Paraná), vía Instagram y correo electrónico.',
+    'step-4': 'Entrevista con <b>Productor D</b> (Centro de Paraná), vía Instagram y correo electrónico.',
+    'pull-note-1': 'De los 9 apicultores y meliponicultores contactados, solo 4 respondieron — y los 4 pidieron anonimato, temiendo represalias de agricultores vecinos. Las respuestas se compilaron en 4 hojas de cálculo, una por productor.',
+    's3-label': '03 · Resultados por región',
+    's3-title': '338 colmenas, ~20 millones de abejas, 3 estados',
+    's3-intro': 'Los números varían en órdenes de magnitud entre productores — de 3 colmenas perdidas por un apicultor de pequeña escala a 300 colmenas de una vez por un productor de gran escala en Paraná. Por eso el gráfico usa escala logarítmica.',
+    'chart-caption': 'Abejas perdidas por productor entrevistado (escala logarítmica) · datos brutos de las 4 hojas de cálculo del TCC',
+    'r1-name': 'Productor A', 'r1-tag': 'Sur de MG · pequeña escala',
+    'r1-cause': 'Pérdidas en 2016, 2020 y 2021. Causa: camión de fumigación contra el <i>Aedes aegypti</i> (insecticida organofosforado de uso urbano), apiario cerca de un barrio residencial.',
+    'r2-name': 'Productor B', 'r2-tag': 'Área Metropolitana SP · mediana escala',
+    'r2-cause': 'Pérdida concentrada en 2022. Causa: herbicida sistémico no selectivo, usado en terrenos baldíos junto al apiario.',
+    'protocol-note': '<b>Nota de Protocolo Científico:</b> Los nombres comerciales de los compuestos químicos identificados en esta investigación fueron omitidos en esta publicación a pedido de los productores entrevistados y por cautela legal, sustituidos por categorías técnicas genéricas. Los datos completos están disponibles en la tesis original depositada en FATEC Jundiaí (2022). Para fines académicos, solicite acceso a través del formulario de contacto.',
+    'r3-name': 'Productor C', 'r3-tag': 'Centro de PR · gran escala',
+    'r3-cause': 'Pérdida en 2021. Causa: fumigación de un pesticida no identificado, apiario cerca de un monocultivo — el productor no quiso nombrar el compuesto.',
+    'r4-name': 'Productor D', 'r4-tag': 'Centro de PR · gran escala',
+    'r4-cause': 'Pérdida en 2019, la mayor del estudio. Causa: fumigación de un pesticida no identificado, apiario cerca de un monocultivo — mismo temor a represalias que el Productor C.',
+    'r-lbl-hives-1': 'colmenas', 'r-lbl-bees-1': 'abejas',
+    'r-lbl-hives-2': 'colmenas', 'r-lbl-bees-2': 'abejas',
+    'r-lbl-hives-3': 'colmenas', 'r-lbl-bees-3': 'abejas',
+    'r-lbl-hives-4': 'colmenas', 'r-lbl-bees-4': 'abejas',
+    's4-label': '04 · El hallazgo inesperado',
+    's4-title': 'El dato más importante no está en las tablas',
+    's4-body': '<p>El resultado más revelador de esta investigación no fue ninguno de los números anteriores — fue <strong>por qué 5 de los 9 apicultores contactados nunca respondieron</strong>, y por qué los 4 que respondieron exigieron total confidencialidad.</p><p>La explicación que surgió de las entrevistas: la mayoría de los apicultores no son dueños de la tierra donde instalan sus colmenas. Si un apicultor denuncia la pérdida de abejas por agrotóxicos, corre el riesgo de que el dueño de la tierra difunda que "hizo una denuncia ambiental" — lo que puede dañar su reputación entre otros productores rurales y cerrarle las puertas para conseguir nuevos terrenos en el futuro. El incentivo estructural es quedarse callado, incluso cuando la pérdida es real.</p>',
+    's4-finding-label': 'Un segundo silencio, desde arriba',
+    's4-finding-body': 'El mismo patrón aparece en el lado oficial: según una investigación de Repórter Brasil (Rohden, 2022), la ANVISA (agencia reguladora de salud de Brasil) <strong>dejó de publicar nuevos datos de residuos de agrotóxicos en alimentos desde 2017</strong>. Es decir: mientras los apicultores individuales callan por miedo a represalias, el organismo regulador también dejó de generar el dato que permitiría cruzar esta información a escala nacional. Dos silencios independientes, apuntando en la misma dirección — el problema real probablemente es más grande de lo que cualquiera de los dos lados logra, o quiere, medir.',
+    's5-label': '05 · Conclusiones',
+    's5-title': 'Qué recomienda la investigación',
+    's5-body': '<p>Los agrotóxicos y herbicidas fueron identificados como la principal causa de mortalidad de abejas en el período estudiado, confirmando la hipótesis de investigación. Dos medidas concretas, ya previstas por ley pero no siempre cumplidas en la práctica, surgen como recomendación directa del estudio:</p>',
+    's5-list': '<li>El registro legal de apiarios y meliponarios está permitido incluso en Área de Protección Permanente (APP), por considerarse actividades de bajo impacto según el Código Forestal (Ley nº 12.651/2012) — pero exige que el apicultor formalice la actividad, algo que no siempre ocurre.</li><li>Los aplicadores de agrotóxicos están obligados a notificar a los apiarios en un radio de 6 km con <strong>48 horas de anticipación</strong> antes de fumigar — regla que, según los relatos recopilados, frecuentemente no se cumple.</li>',
+    's6-label': '06 · Limitaciones — sin maquillaje',
+    's6-title': 'Lo que estos datos no permiten afirmar',
+    's6-list': '<li><strong>Muestra pequeña y autoseleccionada:</strong> 4 respondientes de 9 contactados no es una muestra representativa de Brasil — es el recorte de quienes aceptaron (y tuvieron el coraje de) responder.</li><li><strong>Regiones definidas por quién respondió, no por diseño muestral:</strong> Minas Gerais, São Paulo y Paraná aparecen en el estudio porque fue ahí donde hubo respuesta, no porque fueran elegidas como representativas del país.</li><li><strong>Sin geolocalización exacta:</strong> el anonimato pedido por los 4 productores — condición para participar — impidió registrar coordenadas o nombres de apiarios, lo que limita cualquier análisis espacial más fino.</li>',
+    's7-label': '07 · Mirando atrás, con lo que sé hoy',
+    's7-title': 'Qué haría diferente',
+    's7-quote': '"Hoy ampliaría la recolección usando más foros y buscaría más trabajos de iniciación científica publicados sobre el tema. También intentaría contactar directamente a cooperativas de apicultores — que suelen tener grupos de intercambio de conocimientos y problemas, en un formato parecido a un grupo de apoyo — e intentaría alcanzar la mayor cantidad posible de esas cooperativas en las cinco regiones de Brasil: Norte, Nordeste, Centro-Oeste, Sudeste y Sur, no solo en los tres estados que logré contactar en su momento."',
+    'source-label': 'Fuente primaria',
+    'committee-label': 'Tribunal Evaluador',
+    'committee-sub': 'MIEMBROS DEL TRIBUNAL',
+    'role-advisor': '(Director)',
+    'committee-profile-btn': '↗ PERFIL ACADÉMICO · ESCAVADOR',
+    'source-text': '<b>A Problemática da Síndrome das Colônias de Abelhas</b> <i>(El Problema del Síndrome de Colapso de Colonias de Abejas, original en portugués)</i> — Trabajo de Fin de Grado, 55 páginas, Tecnólogo en Gestión Ambiental, FATEC Jundiaí "Deputado Ary Fossen", 2022. Director: Prof. Claudio da Cunha, M.Sc.',
+    'cta-dashboard': '↗ Ver panel interactivo', 'cta-back': '← Volver al portafolio', 'cta-share': '📋 Copiar enlace', 'cta-share-done': '✓ ¡Enlace copiado!', 'meta-readtime-label': 'de lectura',
+    'footer-note': '© 2026 Amauri Almeida · Estudio de caso basado en el TCC original de 2022',
+    chartData: [
+      { name: 'Productor A\n(Sur MG)', value: 8000 },
+      { name: 'Productor B\n(Metrop. SP)', value: 300000 },
+      { name: 'Productor C\n(Centro PR)', value: 1800000 },
+      { name: 'Productor D\n(Centro PR)', value: 18000000 }
+    ],
+    fmtThousand: 'mil', fmtDecimalSep: ','
+  },
+  it: {
+    "doc-title": "Studio di caso — Sindrome dello spopolamento degli alveari | Amauri Almeida",
+    "meta-desc-content": "Studio approfondito della tesi di laurea di Amauri Almeida sulla Sindrome dello spopolamento degli alveari: metodologia sul campo, interviste agli apicoltori, 338 colonie e ~20 milioni di api perse tra il 2016 e il 2022, e la scoperta della sottosegnalazione dovuta al timore di ritorsioni.",
+    "og-title-content": "Studio di caso — Sindrome dello spopolamento degli alveari",
+    "og-desc-content": "Come una ricerca sul campo sui pesticidi ha rivelato un problema più grande di quanto i dati riescano a documentare.",
+    "og-locale-content": "it_IT",
+    "html-lang": "it",
+    "back-link": "← Torna al portfolio",
+    "header-tag": "AMAURI ALMEIDA · STUDIO DI CASO",
+    "hero-eyebrow": "Studio di caso · Tesi di laurea",
+    "hero-title": "Sindrome dello spopolamento degli alveari",
+    "hero-sub": "Come una ricerca sul campo sui pesticidi ha rivelato un problema più grande di quanto i dati ufficiali riescano a documentare — e perché gli apicoltori avevano paura di rispondere.",
+    "meta-course-lbl": "Corso:",
+    "meta-course-val": "Tecnologo in Gestione ambientale",
+    "meta-advisor-lbl": "Relatore:",
+    "meta-year-lbl": "Anno:",
+    "meta-enade": "<b>3º posto</b> ENADE",
+    "stat-lbl-1": "colonie perse",
+    "stat-lbl-2": "api perse",
+    "stat-lbl-3": "apicoltori hanno risposto",
+    "stat-lbl-4": "stati · 2016–2022",
+    "s1-label": "01 · Il problema",
+    "s1-title": "Perché le api sono la domanda giusta da porsi",
+    "s1-body": "<p>Circa l’80% delle piante da fiore dipende dall’impollinazione degli insetti, e l’85% di questa impollinazione è svolta dalle api — comprese circa il 90% degli alberi da frutto. Questo rende le api un <strong>bioindicatore</strong>: quando iniziano a scomparire da una regione, è segno che qualcosa nell’ambiente è già fuori equilibrio, prima che gli effetti si manifestino in altre specie, compresa la nostra.</p><p>Nell’ottobre 2006, in California è stato registrato un fenomeno fino ad allora poco documentato — la <strong>Sindrome dello spopolamento degli alveari (CCD)</strong>: intere colonie perdevano rapidamente le api operaie adulte, lasciando nei favi soltanto larve senza nutrimento. In tre anni il fenomeno era già stato segnalato in 38 dei 50 stati americani. In Brasile, lo stesso schema ha iniziato a essere segnalato nella regione Sud-Est.</p><p>Il contesto è quello dell’uso intensivo di pesticidi: il Brasile ne applica circa <strong>300 mila tonnellate all’anno</strong>, con un aumento del 700% negli ultimi 40 anni. La domanda che ha guidato questa ricerca era semplice da formulare e difficile da rispondere: quante api stanno uccidendo — e quanto di questo riusciamo persino a misurare?</p>",
+    "photo-slot-text-1": "FOTO SUL CAMPO — riservato a un’immagine originale della tesi<br>(es.: arnia per meliponicoltura, realizzata dall’autore, 2022)",
+    "s2-label": "02 · Metodologia sul campo",
+    "s2-title": "Intervistare chi vede davvero morire le api",
+    "s2-body": "<p>La ricerca ha combinato una revisione bibliografica (tesi, dissertazioni e articoli reperiti tramite Google Scholar) con una <strong>ricerca qualitativa sul campo</strong>, adottando il metodo ipotetico-deduttivo: formulare l’ipotesi che pesticidi ed erbicidi fossero la principale causa di mortalità delle api tra il 2016 e il 2022, e verificarla con dati reali raccolti da chi alleva api in Brasile.</p><p>Una traccia per le interviste è stata elaborata insieme al relatore, con domande dirette: ci sono state perdite di colonie tra il 2016 e il 2022? In quale regione? Quanti individui, approssimativamente? Qual è la causa probabile? Tutti gli intervistati hanno firmato una dichiarazione che autorizzava l’uso accademico dei dati.</p>",
+    "step-1": "Intervista al <b>Produttore A</b> (sud del Minas Gerais), tramite WhatsApp ed e-mail.",
+    "step-2": "Intervista al <b>Produttore B</b> (Regione metropolitana di SP), tramite Instagram ed e-mail.",
+    "step-3": "Intervista al <b>Produttore C</b> (regione centrale del Paraná), tramite Instagram ed e-mail.",
+    "step-4": "Intervista al <b>Produttore D</b> (regione centrale del Paraná), tramite Instagram ed e-mail.",
+    "pull-note-1": "Dei 9 apicoltori e meliponicultori contattati, solo 4 hanno risposto — e tutti e 4 hanno chiesto di restare anonimi, temendo ritorsioni da parte degli agricoltori vicini. Le risposte sono state raccolte in 4 fogli Excel, uno per produttore.",
+    "s3-label": "03 · Risultati per regione",
+    "s3-title": "338 colonie, ~20 milioni di api, 3 stati",
+    "s3-intro": "I numeri variano di diversi ordini di grandezza tra i produttori — da 3 colonie perse da un apicoltore di piccole dimensioni a 300 colonie perse in una volta sola da un produttore di grandi dimensioni nel Paraná. Per questo il grafico usa una scala logaritmica.",
+    "chart-caption": "Api perse per produttore intervistato (scala logaritmica) · dati grezzi dei 4 fogli della tesi",
+    "r1-name": "Produttore A",
+    "r1-tag": "sud del MG · piccole dimensioni",
+    "r1-cause": "Perdite nel 2016, 2020 e 2021. Causa: camion per la disinfestazione contro <i>Aedes aegypti</i> (insetticida organofosforico per uso urbano), apiario vicino a un quartiere residenziale.",
+    "r2-name": "Produttore B",
+    "r2-tag": "area metropolitana di SP · medie dimensioni",
+    "r2-cause": "Perdita concentrata nel 2022. Causa: erbicida sistemico non selettivo, usato su terreni incolti adiacenti all’apiario.",
+    "protocol-note": "<b>Nota sul protocollo scientifico:</b> I nomi commerciali dei composti chimici individuati in questa ricerca sono stati omessi da questa pubblicazione su richiesta dei produttori intervistati e per cautela legale, e sostituiti con categorie tecniche generiche. I dati completi sono disponibili nella tesi originale depositata presso la FATEC Jundiaí (2022). Per scopi accademici, richiedere l’accesso tramite il modulo di contatto.",
+    "r3-name": "Produttore C",
+    "r3-tag": "zona centrale del PR · grandi dimensioni",
+    "r3-cause": "Perdita nel 2021. Causa: irrorazione di un pesticida non identificato, apiario vicino a una monocoltura — il produttore non ha voluto indicare il composto.",
+    "r4-name": "Produttore D",
+    "r4-tag": "zona centrale del PR · grandi dimensioni",
+    "r4-cause": "Perdita nel 2019, la maggiore dello studio. Causa: irrorazione di un pesticida non identificato, apiario vicino a una monocoltura — lo stesso timore di ritorsioni del Produttore C.",
+    "r-lbl-hives-1": "colonie",
+    "r-lbl-bees-1": "api",
+    "r-lbl-hives-2": "colonie",
+    "r-lbl-bees-2": "api",
+    "r-lbl-hives-3": "colonie",
+    "r-lbl-bees-3": "api",
+    "r-lbl-hives-4": "colonie",
+    "r-lbl-bees-4": "api",
+    "s4-label": "04 · La scoperta inattesa",
+    "s4-title": "Il dato più importante non è nelle tabelle",
+    "s4-body": "<p>Il risultato più rivelatore di questa ricerca non è stato nessuno dei numeri riportati sopra — bensì <strong>il motivo per cui 5 dei 9 apicoltori contattati non hanno mai risposto</strong>, e perché i 4 che hanno risposto hanno preteso il massimo riserbo.</p><p>La spiegazione emersa dalle interviste: la maggior parte degli apicoltori non è proprietaria dei terreni in cui installa i propri alveari. Se un apicoltore denuncia la perdita di api causata dai pesticidi, rischia che il proprietario del terreno diffonda la voce che lui \"ha presentato una denuncia ambientale\" — cosa che può danneggiarne la reputazione presso altri produttori agricoli e precludergli la possibilità di ottenere nuovi terreni in futuro. L’incentivo strutturale è restare in silenzio, anche quando il danno è reale.</p>",
+    "s4-finding-label": "Un secondo silenzio, dall’alto",
+    "s4-finding-body": "Lo stesso schema si osserva a livello istituzionale: secondo un’indagine di Repórter Brasil (Rohden, 2022), l’ANVISA <strong>ha smesso di pubblicare nuovi dati sui residui di pesticidi negli alimenti dal 2017</strong>. In altre parole: mentre i singoli apicoltori tacciono per paura di ritorsioni, anche l’ente regolatore ha smesso di produrre i dati che permetterebbero di incrociare queste informazioni su scala nazionale. Due silenzi indipendenti che indicano la stessa direzione — il problema reale è probabilmente più grande di quanto entrambe le parti riescano, o vogliano, misurare.",
+    "s5-label": "05 · Conclusioni",
+    "s5-title": "Le raccomandazioni della ricerca",
+    "s5-body": "<p>Pesticidi ed erbicidi sono stati individuati come la principale causa di mortalità delle api nel periodo studiato, confermando l’ipotesi di ricerca. Due misure concrete, già previste dalla legge ma non sempre applicate nella pratica, emergono come raccomandazioni dirette dello studio:</p>",
+    "s5-list": "<li>La registrazione legale di apiari e meliponari è consentita anche nelle Aree di Protezione Permanente (APP), in quanto considerate attività a basso impatto dal Codice forestale (Legge nº 12.651/2012) — ma richiede che l’apicoltore formalizzi l’attività, cosa che non sempre avviene.</li><li>Gli operatori che applicano pesticidi sono tenuti a informare gli apiari situati entro un raggio di 6 km con <strong>48 ore di anticipo</strong> rispetto all’irrorazione — una regola che, secondo le testimonianze raccolte, viene spesso disattesa.</li>",
+    "s6-label": "06 · Limiti — senza abbellimenti",
+    "s6-title": "Cosa non è possibile affermare sulla base di questi dati",
+    "s6-list": "<li><strong>Campione ridotto e autoselezionato:</strong> 4 rispondenti su 9 contattati non costituiscono un campione rappresentativo del Brasile — rappresentano il gruppo di persone che hanno accettato (e avuto il coraggio di) rispondere.</li><li><strong>Regioni determinate da chi ha risposto, non dal disegno campionario:</strong> Minas Gerais, São Paulo e Paraná compaiono nello studio perché è da lì che sono arrivate le risposte, non perché siano stati scelti come rappresentativi del Paese.</li><li><strong>Assenza di geolocalizzazione precisa:</strong> la riservatezza richiesta dai 4 produttori — condizione per la loro partecipazione — ha impedito di registrare coordinate o nomi degli apiari, limitando qualsiasi analisi spaziale più dettagliata.</li>",
+    "s7-label": "07 · Guardando indietro, con quello che so oggi",
+    "s7-title": "Cosa farei diversamente",
+    "s7-quote": "\"Oggi amplierei la raccolta usando più forum e cercherei altri lavori pubblicati di ricerca scientifica di base sull’argomento. Proverei anche a contattare direttamente le cooperative di apicoltori — che spesso hanno gruppi per lo scambio di conoscenze e la condivisione dei problemi, in un formato simile a un gruppo di sostegno — e cercherei di raggiungere il maggior numero possibile di queste cooperative nelle cinque regioni del Brasile: Nord, Nord-Est, Centro-Ovest, Sud-Est e Sud, non solo nei tre stati che sono riuscito a coinvolgere all’epoca.\"",
+    "source-label": "Fonte primaria",
+    "committee-label": "Commissione giudicatrice",
+    "committee-sub": "COMMISSIONE DI VALUTAZIONE",
+    "role-advisor": "(Relatore)",
+    "committee-profile-btn": "↗ PROFILO ACCADEMICO · ESCAVADOR",
+    "source-text": "<b>La problematica della sindrome dello spopolamento degli alveari</b> — Tesi di laurea, 55 pagine, Tecnologo in Gestione ambientale, FATEC Jundiaí \"Deputado Ary Fossen\", 2022. Relatore: Prof. Me. Claudio da Cunha.",
+    "cta-dashboard": "↗ Visualizza la dashboard interattiva",
+    "cta-back": "← Torna al portfolio",
+    "cta-share": "📋 Copia link",
+    "cta-share-done": "✓ Link copiato!",
+    "meta-readtime-label": "di lettura",
+    "footer-note": "© 2026 Amauri Almeida · Studio di caso basato sulla tesi originale del 2022",
+    "fmtThousand": "mila",
+    "fmtDecimalSep": ",",
+    "chartData": [
+      {"name": "Produttore A\\n(sud MG)", "value": 8000},
+      {"name": "Produttore B\\n(area metrop. SP)", "value": 300000},
+      {"name": "Produttore C\\n(zona centrale PR)", "value": 1800000},
+      {"name": "Produttore D\\n(zona centrale PR)", "value": 18000000}
+    ]
+  },
+  zh: {
+    "doc-title": "案例研究——蜜蜂群体崩溃综合征 | Amauri Almeida",
+    "meta-desc-content": "Amauri Almeida毕业论文的深度案例研究，主题为蜜蜂群体崩溃综合征：实地研究方法、对养蜂人的访谈、2016—2022年间损失的338个蜂群和约2,000万只蜜蜂，以及因害怕遭到报复而导致漏报的发现。",
+    "og-title-content": "案例研究——蜜蜂群体崩溃综合征",
+    "og-desc-content": "一项关于农药的实地研究如何揭示了一个超出数据所能反映范围的更大问题。",
+    "og-locale-content": "zh_CN",
+    "html-lang": "zh-CN",
+    "back-link": "← 返回作品集",
+    "header-tag": "AMAURI ALMEIDA · 案例研究",
+    "hero-eyebrow": "案例研究 · 毕业论文",
+    "hero-title": "蜜蜂群体崩溃综合征",
+    "hero-sub": "一项关于农药的实地研究如何揭示了一个超出官方数据所能反映范围的更大问题——以及养蜂人为何害怕作答。",
+    "meta-course-lbl": "课程：",
+    "meta-course-val": "环境管理技术学士",
+    "meta-advisor-lbl": "指导教师：",
+    "meta-year-lbl": "年份：",
+    "meta-enade": "<b>第3名</b> ENADE",
+    "stat-lbl-1": "损失的蜂群",
+    "stat-lbl-2": "损失的蜜蜂",
+    "stat-lbl-3": "受访养蜂人",
+    "stat-lbl-4": "个州 · 2016–2022",
+    "s1-label": "01 · 问题",
+    "s1-title": "为什么蜜蜂是值得关注的对象",
+    "s1-body": "<p>约80%的开花植物依赖昆虫授粉，其中85%的授粉由蜜蜂完成——包括约90%的果树。这使蜜蜂成为一种<strong>生物指示物</strong>：当某个地区的蜜蜂开始消失时，说明环境中的某些因素已经失衡，其影响尚未显现于其他物种，包括人类。</p><p>2006年10月，加利福尼亚州记录到一种此前鲜有记载的现象——<strong>蜂群崩溃综合征（CCD）</strong>：整个蜂群的成年工蜂迅速消失，只剩蜂巢房中没有食物的幼虫。三年内，这种现象已在美国50个州中的38个州有报告。在巴西，东南部地区也开始出现同样的情况。</p><p>其背景是农药的集约化使用：巴西每年使用约<strong>30万吨农药</strong>，过去40年间增幅达700%。本研究试图回答的问题简单明了，却难以作答：这些农药究竟造成了多少蜜蜂死亡——而其中又有多少根本无法测量？</p>",
+    "photo-slot-text-1": "实地照片——预留位置，用于插入毕业论文原始图片<br>（例如：传粉昆虫养殖箱，作者自摄，2022年）",
+    "s2-label": "02 · 实地研究方法",
+    "s2-title": "访谈真正目睹蜜蜂死亡的人",
+    "s2-body": "<p>本研究结合了文献综述（通过 Google 学术检索的论文、学位论文和期刊文章）与<strong>定性实地研究</strong>，采用假设演绎法：提出农药和除草剂是2016至2022年间蜜蜂大量死亡的主要原因这一假设，并以巴西养蜂人的真实数据进行检验。</p><p>研究者与指导教师共同制定了访谈提纲，问题明确具体：2016至2022年间是否有蜂群损失？发生在哪个地区？估计损失了多少个体？可能的原因是什么？所有受访者均签署声明，授权将数据用于学术研究。</p>",
+    "step-1": "通过 WhatsApp 和电子邮件访谈<b>养殖户 A</b>（米纳斯吉拉斯州南部）。",
+    "step-2": "通过 Instagram 和电子邮件访谈<b>养殖户 B</b>（圣保罗大都会区）。",
+    "step-3": "通过 Instagram 和电子邮件访谈<b>养殖户 C</b>（巴拉那州中部地区）。",
+    "step-4": "通过 Instagram 和电子邮件访谈<b>养殖户 D</b>（巴拉那州中部地区）。",
+    "pull-note-1": "联系的9位养蜂人和无刺蜂养殖者中，只有4位作出回复——而且这4位都要求匿名，因为担心遭到邻近农户报复。回复内容汇总在4份 Excel 电子表格中，每位养殖户各一份。",
+    "s3-label": "03 · 分地区结果",
+    "s3-title": "338个蜂群、约2,000万只蜜蜂、3个州",
+    "s3-intro": "不同养殖户的数据相差数个数量级——从一位小规模养蜂人损失3个蜂群，到巴拉那州一位大型养殖户一次损失300个蜂群。因此，图表采用对数刻度。",
+    "chart-caption": "受访养殖户损失的蜜蜂数量（对数刻度）· 毕业论文4份电子表格中的原始数据",
+    "r1-name": "养殖户 A",
+    "r1-tag": "米纳斯吉拉斯州南部 · 小规模",
+    "r1-cause": "2016年、2020年和2021年发生损失。原因：一辆用于对抗<i>Aedes aegypti</i>的熏雾车（城市使用的有机磷杀虫剂）经过，养蜂场靠近居民区。",
+    "r2-name": "养殖户 B",
+    "r2-tag": "圣保罗大都会区 · 中等规模",
+    "r2-cause": "损失集中在2022年。原因：邻近养蜂场的空地使用了非选择性内吸性除草剂。",
+    "protocol-note": "<b>科学规范说明：</b>应受访养殖户要求并出于法律审慎考虑，本研究中识别出的化合物商品名称在本次发布中予以省略，并以通用技术类别代替。完整数据收录于存放在 FATEC Jundiaí 的原始毕业论文中（2022年）。如需学术用途，请通过联系表单申请查阅。",
+    "r3-name": "养殖户 C",
+    "r3-tag": "巴拉那州中部 · 大规模",
+    "r3-cause": "2021年发生损失。原因：喷洒了未确认的农药，养蜂场靠近单一种植区——养殖户不愿透露该化合物名称。",
+    "r4-name": "养殖户 D",
+    "r4-tag": "巴拉那州中部 · 大规模",
+    "r4-cause": "2019年发生损失，是本研究中损失最大的一次。原因：喷洒了未确认的农药，养蜂场靠近单一种植区——与养殖户 C 一样，担心遭到报复。",
+    "r-lbl-hives-1": "蜂群",
+    "r-lbl-bees-1": "蜜蜂",
+    "r-lbl-hives-2": "蜂群",
+    "r-lbl-bees-2": "蜜蜂",
+    "r-lbl-hives-3": "蜂群",
+    "r-lbl-bees-3": "蜜蜂",
+    "r-lbl-hives-4": "蜂群",
+    "r-lbl-bees-4": "蜜蜂",
+    "s4-label": "04 · 意外发现",
+    "s4-title": "最重要的数据不在表格里",
+    "s4-body": "<p>本研究最具启示性的发现并非上述任何一个数字，而是<strong>为什么联系的9位养蜂人中有5位始终没有回复</strong>，以及为什么回复的4位都要求严格保密。</p><p>访谈中浮现出的解释是：多数养蜂人并不拥有安置蜂箱的土地。如果养蜂人举报蜜蜂因农药而死亡，就可能面临这样的风险：土地所有者散播他“举报了环境问题”的消息——这会损害他在其他农村生产者中的声誉，也可能让他今后无法租用新的土地。即使损失确实发生，结构性激励仍然是保持沉默。</p>",
+    "s4-finding-label": "来自上层的另一种沉默",
+    "s4-finding-body": "同样的情况也出现在官方层面：据 Repórter Brasil 的调查（Rohden，2022），ANVISA <strong>自2017年以来已停止发布新的食品农药残留数据</strong>。也就是说，个体养蜂人因害怕遭到报复而保持沉默的同时，监管机构也停止生成能够在全国范围内交叉比对这些信息的数据。两种彼此独立的沉默，指向同一个方向——实际问题很可能比任何一方能够或愿意测量的范围都更严重。",
+    "s5-label": "05 · 结论",
+    "s5-title": "研究提出的建议",
+    "s5-body": "<p>研究确认，农药和除草剂是研究期间蜜蜂大量死亡的主要原因，验证了研究假设。两项法律已有规定、但实践中并非总能落实的具体措施，可作为本研究直接提出的建议：</p>",
+    "s5-list": "<li>即使在永久保护区（APP）内，也允许依法登记养蜂场和无刺蜂养殖场，因为《森林法》（第12.651/2012号法律）将其视为低影响活动——但养蜂人必须正式登记该项活动，而这一要求并非总能得到落实。</li><li>农药施用者必须在喷洒前<strong>提前48小时</strong>通知6公里范围内的养蜂场——据收集到的陈述，这项规定经常未得到遵守。</li>",
+    "s6-label": "06 · 局限性——不加掩饰",
+    "s6-title": "这些数据无法支持哪些结论",
+    "s6-list": "<li><strong>样本量小且为自我选择样本：</strong>联系的9人中有4人回复，并不能构成巴西的代表性样本——这只是愿意（且有勇气）作答者所构成的样本。</li><li><strong>地区由回复者决定，而非按抽样设计选定：</strong>米纳斯吉拉斯州、圣保罗州和巴拉那州出现在研究中，是因为这些地区有人回复，而不是因为它们被选为全国代表性地区。</li><li><strong>缺少精确地理定位：</strong>4位养殖户要求保密，这是他们参与研究的前提；因此无法记录坐标或养蜂场名称，限制了更精细的空间分析。</li>",
+    "s7-label": "07 · 回顾过往，结合今日所知",
+    "s7-title": "我会做哪些不同的事",
+    "s7-quote": "“如果是今天，我会通过更多论坛扩大数据收集范围，并寻找更多已发表的相关本科科研项目。我还会尝试直接联系养蜂人合作社——它们通常会设有交流知识和问题的小组，形式类似互助小组——并尽可能联系巴西五个大区的合作社：北部、东北部、中西部、东南部和南部，而不只局限于当时成功联系到的三个州。”",
+    "source-label": "主要来源",
+    "committee-label": "评审委员会",
+    "committee-sub": "评审委员会",
+    "role-advisor": "（指导教师）",
+    "committee-profile-btn": "↗ 学术档案 · ESCAVADOR",
+    "source-text": "<b>《蜜蜂群体综合征问题研究》</b>——毕业论文，55页，环境管理技术学士，FATEC Jundiaí“Deputado Ary Fossen”，2022年。指导教师：Claudio da Cunha 教授。",
+    "cta-dashboard": "↗ 查看交互式仪表板",
+    "cta-back": "← 返回作品集",
+    "cta-share": "📋 复制链接",
+    "cta-share-done": "✓ 链接已复制！",
+    "meta-readtime-label": "阅读时间",
+    "footer-note": "© 2026 Amauri Almeida · 基于2022年原始毕业论文的案例研究",
+    "fmtThousand": "千",
+    "fmtDecimalSep": ",",
+    "chartData": [
+      {"name": "养殖户 A\\n（米纳斯吉拉斯州南部）", "value": 8000},
+      {"name": "养殖户 B\\n（圣保罗大都会区）", "value": 300000},
+      {"name": "养殖户 C\\n（巴拉那州中部）", "value": 1800000},
+      {"name": "养殖户 D\\n（巴拉那州中部）", "value": 18000000}
+    ]
+  },
+  fr: {
+    "doc-title": "Étude de cas — Syndrome d’effondrement des colonies d’abeilles | Amauri Almeida",
+    "meta-desc-content": "Étude de cas approfondie du mémoire de fin d’études d’Amauri Almeida sur le syndrome d’effondrement des colonies d’abeilles : méthodologie de terrain, entretiens avec des apiculteurs, 338 colonies et ~20 millions d’abeilles perdues entre 2016-2022, et constat de la sous-déclaration par crainte de représailles.",
+    "og-title-content": "Étude de cas — Syndrome d’effondrement des colonies d’abeilles",
+    "og-desc-content": "Comment une enquête de terrain sur les pesticides a révélé un problème plus important que ce que les données permettent de mesurer.",
+    "og-locale-content": "fr_FR",
+    "html-lang": "fr",
+    "back-link": "← Retour au portfolio",
+    "header-tag": "AMAURI ALMEIDA · ÉTUDE DE CAS",
+    "hero-eyebrow": "Étude de cas · Mémoire de fin d’études",
+    "hero-title": "Syndrome d’effondrement des colonies d’abeilles",
+    "hero-sub": "Comment une enquête de terrain sur les pesticides a révélé un problème plus important que ce que les données officielles permettent de mesurer — et pourquoi les apiculteurs ont eu peur de répondre.",
+    "meta-course-lbl": "Formation :",
+    "meta-course-val": "Technologue en gestion environnementale",
+    "meta-advisor-lbl": "Directeur de mémoire :",
+    "meta-year-lbl": "Année :",
+    "meta-enade": "<b>3e place</b> ENADE",
+    "stat-lbl-1": "colonies perdues",
+    "stat-lbl-2": "abeilles perdues",
+    "stat-lbl-3": "apiculteurs ont répondu",
+    "stat-lbl-4": "États · 2016–2022",
+    "s1-label": "01 · Le problème",
+    "s1-title": "Pourquoi les abeilles sont-elles le bon indicateur ?",
+    "s1-body": "<p>Environ 80 % des plantes à fleurs dépendent de la pollinisation par les insectes, et 85 % de cette pollinisation est assurée par les abeilles — y compris celle d’environ 90 % des arbres fruitiers. Les abeilles constituent ainsi un <strong>bioindicateur</strong> : lorsqu’elles commencent à disparaître d’une région, c’est le signe que l’environnement est déjà déséquilibré, avant que les effets ne se manifestent chez d’autres espèces, y compris la nôtre.</p><p>En octobre 2006, un phénomène alors peu documenté — le <strong>syndrome d’effondrement des colonies (CCD)</strong> — a été observé en Californie : des colonies entières perdaient rapidement leurs abeilles ouvrières adultes, ne laissant dans les alvéoles que des larves sans nourriture. En trois ans, le phénomène avait déjà été signalé dans 38 des 50 États américains. Au Brésil, le même phénomène a commencé à être signalé dans la région Sud-Est.</p><p>La toile de fond est l’utilisation intensive de pesticides : le Brésil en applique environ <strong>300 000 tonnes par an</strong>, soit une augmentation de 700 % au cours des 40 dernières années. La question qui a guidé cette recherche était simple à formuler et difficile à résoudre : quelle part de ces produits tue les abeilles — et quelle part sommes-nous seulement capables de mesurer ?</p>",
+    "photo-slot-text-1": "PHOTO DE TERRAIN — emplacement réservé à une image originale du mémoire<br>(ex. : ruche de méliponiculture, prise par l’auteur, 2022)",
+    "s2-label": "02 · Méthodologie de terrain",
+    "s2-title": "Interroger ceux qui voient réellement mourir les abeilles",
+    "s2-body": "<p>La recherche a combiné une revue bibliographique (thèses, mémoires et articles recensés via Google Scholar) et une <strong>enquête qualitative de terrain</strong>, selon une méthode hypothético-déductive : formuler l’hypothèse selon laquelle les pesticides et les herbicides étaient la principale cause de mortalité des abeilles entre 2016 et 2022, puis la tester à partir de données réelles recueillies auprès d’éleveurs d’abeilles au Brésil.</p><p>Un guide d’entretien a été élaboré avec le directeur de mémoire, autour de questions précises : y a-t-il eu des pertes de colonies entre 2016 et 2022 ? Dans quelle région ? Combien d’individus environ ? Quelle en est la cause probable ? Tous les participants ont signé une déclaration autorisant l’utilisation des données à des fins universitaires.</p>",
+    "step-1": "Entretien avec le <b>Producteur A</b> (sud du Minas Gerais), via WhatsApp et par e-mail.",
+    "step-2": "Entretien avec le <b>Producteur B</b> (région métropolitaine de São Paulo), via Instagram et par e-mail.",
+    "step-3": "Entretien avec le <b>Producteur C</b> (région centrale du Paraná), via Instagram et par e-mail.",
+    "step-4": "Entretien avec le <b>Producteur D</b> (région centrale du Paraná), via Instagram et par e-mail.",
+    "pull-note-1": "Sur les 9 apiculteurs et méliponiculteurs contactés, seuls 4 ont répondu — et tous les 4 ont demandé à rester anonymes, par crainte de représailles de la part des agriculteurs voisins. Les réponses ont été compilées dans 4 feuilles de calcul Excel, une par producteur.",
+    "s3-label": "03 · Résultats par région",
+    "s3-title": "338 colonies, ~20 millions d’abeilles, 3 États",
+    "s3-intro": "Les chiffres varient de plusieurs ordres de grandeur d’un producteur à l’autre — de 3 colonies perdues par un petit apiculteur à 300 colonies perdues d’un coup par un grand producteur du Paraná. C’est pourquoi le graphique utilise une échelle logarithmique.",
+    "chart-caption": "Abeilles perdues par producteur interrogé (échelle logarithmique) · données brutes des 4 feuilles de calcul du mémoire",
+    "r1-name": "Producteur A",
+    "r1-tag": "Sud du MG · petite exploitation",
+    "r1-cause": "Pertes en 2016, 2020 et 2021. Cause : passage d’un camion de pulvérisation anti-moustiques visant <i>Aedes aegypti</i> (insecticide organophosphoré à usage urbain), rucher situé près d’un quartier résidentiel.",
+    "r2-name": "Producteur B",
+    "r2-tag": "Région métropolitaine de SP · exploitation moyenne",
+    "r2-cause": "Pertes concentrées en 2022. Cause : herbicide systémique non sélectif utilisé sur des terrains vagues voisins du rucher.",
+    "protocol-note": "<b>Note de protocole scientifique :</b> Les noms commerciaux des composés chimiques identifiés dans cette recherche ont été omis de cette publication à la demande des producteurs interrogés et par précaution juridique, et remplacés par des catégories techniques génériques. Les données complètes sont disponibles dans le mémoire original déposé à la FATEC Jundiaí (2022). À des fins universitaires, veuillez demander l’accès au moyen du formulaire de contact.",
+    "r3-name": "Producteur C",
+    "r3-tag": "Centre du PR · grande exploitation",
+    "r3-cause": "Pertes en 2021. Cause : pulvérisation d’un pesticide non identifié, rucher proche d’une monoculture — le producteur n’a pas souhaité nommer le composé.",
+    "r4-name": "Producteur D",
+    "r4-tag": "Centre du PR · grande exploitation",
+    "r4-cause": "Pertes en 2019, les plus importantes de l’étude. Cause : pulvérisation d’un pesticide non identifié, rucher proche d’une monoculture — même crainte de représailles que le Producteur C.",
+    "r-lbl-hives-1": "colonies",
+    "r-lbl-bees-1": "abeilles",
+    "r-lbl-hives-2": "colonies",
+    "r-lbl-bees-2": "abeilles",
+    "r-lbl-hives-3": "colonies",
+    "r-lbl-bees-3": "abeilles",
+    "r-lbl-hives-4": "colonies",
+    "r-lbl-bees-4": "abeilles",
+    "s4-label": "04 · Le constat inattendu",
+    "s4-title": "La donnée la plus importante ne figure pas dans les tableaux",
+    "s4-body": "<p>Le résultat le plus révélateur de cette recherche n’est aucun des chiffres ci-dessus — c’est <strong>la raison pour laquelle 5 des 9 apiculteurs contactés n’ont jamais répondu</strong>, et pourquoi les 4 qui ont répondu ont exigé une confidentialité totale.</p><p>L’explication qui ressort des entretiens est la suivante : la plupart des apiculteurs ne sont pas propriétaires des terres où ils installent leurs ruches. Si un apiculteur signale des pertes d’abeilles dues aux pesticides, il risque que le propriétaire des terres répande la rumeur qu’il « a fait un signalement environnemental » — ce qui peut ternir sa réputation auprès d’autres agriculteurs et lui fermer les portes de nouveaux terrains à l’avenir. L’incitation structurelle est au silence, même lorsque le préjudice est réel.</p>",
+    "s4-finding-label": "Un second silence, venu d’en haut",
+    "s4-finding-body": "Le même phénomène s’observe du côté des autorités : selon une enquête de Repórter Brasil (Rohden, 2022), l’ANVISA <strong>a cessé de publier de nouvelles données sur les résidus de pesticides dans les aliments depuis 2017</strong>. Autrement dit, tandis que les apiculteurs se taisent par crainte de représailles, l’organisme de réglementation a lui aussi cessé de produire les données qui permettraient de recouper ces informations à l’échelle nationale. Deux silences indépendants qui pointent dans la même direction : le problème réel est probablement plus important que ce que l’un ou l’autre camp est en mesure — ou souhaite — de mesurer.",
+    "s5-label": "05 · Conclusions",
+    "s5-title": "Les recommandations de l’étude",
+    "s5-body": "<p>Les pesticides et les herbicides ont été identifiés comme la principale cause de mortalité des abeilles pendant la période étudiée, ce qui confirme l’hypothèse de recherche. Deux mesures concrètes, déjà prévues par la loi mais pas toujours appliquées dans la pratique, constituent les recommandations directes de l’étude :</p>",
+    "s5-list": "<li>L’enregistrement légal des ruchers et des méliponaires est autorisé même dans les zones de protection permanente (APP), car ces activités sont considérées comme ayant un faible impact par le Code forestier (loi nº 12.651/2012) — mais il exige que l’apiculteur formalise son activité, ce qui n’est pas toujours le cas.</li><li>Les personnes qui appliquent des pesticides sont tenues de prévenir les ruchers situés dans un rayon de 6 km <strong>48 heures à l’avance</strong> avant la pulvérisation — une règle qui, selon les témoignages recueillis, n’est souvent pas respectée.</li>",
+    "s6-label": "06 · Limites — sans fard",
+    "s6-title": "Ce que ces données ne permettent pas d’affirmer",
+    "s6-list": "<li><strong>Échantillon réduit et autosélectionné :</strong> 4 répondants sur 9 personnes contactées ne constituent pas un échantillon représentatif du Brésil — il s’agit du groupe de ceux qui ont accepté (et ont eu le courage) de répondre.</li><li><strong>Régions déterminées par les répondants, et non par le plan d’échantillonnage :</strong> le Minas Gerais, São Paulo et le Paraná figurent dans l’étude parce que des personnes y ont répondu, et non parce que ces régions ont été choisies comme représentatives du pays.</li><li><strong>Absence de géolocalisation précise :</strong> la confidentialité demandée par les 4 producteurs — condition de leur participation — a empêché de consigner les coordonnées ou les noms des ruchers, ce qui limite toute analyse spatiale plus fine.</li>",
+    "s7-label": "07 · Avec le recul et ce que je sais aujourd’hui",
+    "s7-title": "Ce que je ferais différemment",
+    "s7-quote": "« Aujourd’hui, j’élargirais la collecte en utilisant davantage de forums et je rechercherais plus de travaux d’initiation à la recherche publiés sur le sujet. J’essaierais également de contacter directement des coopératives d’apiculteurs — qui disposent souvent de groupes d’échange de connaissances et de discussion sur les problèmes, selon un format proche d’un groupe de soutien — et je chercherais à joindre autant de ces coopératives que possible dans les cinq régions du Brésil : Nord, Nord-Est, Centre-Ouest, Sud-Est et Sud, et pas seulement dans les trois États que j’ai réussi à couvrir à l’époque. »",
+    "source-label": "Source primaire",
+    "committee-label": "Jury",
+    "committee-sub": "JURY D’ÉVALUATION",
+    "role-advisor": "(Directeur de mémoire)",
+    "committee-profile-btn": "↗ PROFIL UNIVERSITAIRE · ESCAVADOR",
+    "source-text": "<b>La problématique du syndrome d’effondrement des colonies d’abeilles</b> — Mémoire de fin d’études, 55 pages, Technologue en gestion environnementale, FATEC Jundiaí « Deputado Ary Fossen », 2022. Direction : Prof. Me. Claudio da Cunha.",
+    "cta-dashboard": "↗ Voir le tableau de bord interactif",
+    "cta-back": "← Retour au portfolio",
+    "cta-share": "📋 Copier le lien",
+    "cta-share-done": "✓ Lien copié !",
+    "meta-readtime-label": "de lecture",
+    "footer-note": "© 2026 Amauri Almeida · Étude de cas fondée sur un mémoire original de 2022",
+    "fmtThousand": "k",
+    "fmtDecimalSep": ",",
+    "chartData": [
+      {"name": "Producteur A\\n(Sud MG)", "value": 8000},
+      {"name": "Producteur B\\n(Métrop. SP)", "value": 300000},
+      {"name": "Producteur C\\n(Centre PR)", "value": 1800000},
+      {"name": "Producteur D\\n(Centre PR)", "value": 18000000}
+    ]
+  },
+  ar: {
+    "doc-title": "دراسة حالة — متلازمة انهيار مستعمرات نحل العسل | Amauri Almeida",
+    "meta-desc-content": "دراسة حالة معمّقة لبحث التخرّج الذي أعدّه Amauri Almeida حول متلازمة انهيار مستعمرات نحل العسل: منهجية العمل الميداني، ومقابلات مع نحّالي العسل، وفقدان 338 مستعمرة ونحو 20 مليون نحلة بين 2016-2022، والنتيجة المتعلقة بنقص الإبلاغ بسبب الخوف من الانتقام.",
+    "og-title-content": "دراسة حالة — متلازمة انهيار مستعمرات نحل العسل",
+    "og-desc-content": "كيف كشف بحث ميداني عن المبيدات الزراعية مشكلةً أكبر مما تستطيع البيانات رصده.",
+    "og-locale-content": "ar_SA",
+    "html-lang": "ar",
+    "back-link": "← العودة إلى ملف الأعمال",
+    "header-tag": "AMAURI ALMEIDA · دراسة حالة",
+    "hero-eyebrow": "دراسة حالة · مشروع التخرّج",
+    "hero-title": "متلازمة انهيار مستعمرات نحل العسل",
+    "hero-sub": "كيف كشف بحث ميداني عن المبيدات الزراعية مشكلةً أكبر مما تستطيع البيانات الرسمية رصده — ولماذا خشي نحّالو العسل من الإجابة.",
+    "meta-course-lbl": "التخصص:",
+    "meta-course-val": "تقني في الإدارة البيئية",
+    "meta-advisor-lbl": "المشرف:",
+    "meta-year-lbl": "السنة:",
+    "meta-enade": "المركز <b>الثالث</b> في ENADE",
+    "stat-lbl-1": "مستعمرة مفقودة",
+    "stat-lbl-2": "نحلة مفقودة",
+    "stat-lbl-3": "نحّالو العسل الذين أجابوا",
+    "stat-lbl-4": "ولايات · 2016–2022",
+    "s1-label": "01 · المشكلة",
+    "s1-title": "لماذا يُعدّ النحل السؤال المناسب الذي ينبغي طرحه؟",
+    "s1-body": "<p>تعتمد نحو 80% من النباتات المزهرة على تلقيح الحشرات، وتنجز النحلات 85% من هذا التلقيح — بما في ذلك تلقيح نحو 90% من أشجار الفاكهة. وهذا يجعل النحل <strong>مؤشراً حيوياً</strong>: فعندما يبدأ بالاختفاء من منطقة ما، فذلك يدل على أن شيئاً ما في البيئة قد اختلّ توازنه، حتى قبل ظهور الآثار على أنواع أخرى، بما فيها أنواعنا.</p><p>في أكتوبر 2006، سُجّلت في كاليفورنيا ظاهرة لم تكن موثقة جيداً من قبل، وهي <strong>متلازمة انهيار المستعمرات (CCD)</strong>: إذ تفقد مستعمرات كاملة عاملاتها البالغة بوتيرة متسارعة، ولا يبقى في العيون السداسية سوى يرقات بلا غذاء. وخلال ثلاث سنوات، أُبلغ عن هذه الظاهرة في 38 ولاية من أصل 50 ولاية أمريكية. وفي البرازيل، بدأ الإبلاغ عن النمط نفسه في المنطقة الجنوبية الشرقية.</p><p>وتتمثل الخلفية في الاستخدام المكثف للمبيدات الزراعية: إذ تستخدم البرازيل نحو <strong>300 ألف طن من المبيدات الزراعية سنوياً</strong>، بزيادة قدرها 700% خلال السنوات الأربعين الماضية. وكان السؤال الذي وجّه هذا البحث بسيطاً في صياغته وصعباً في الإجابة عنه: ما مقدار ما يقتل النحل من ذلك — وما مقدار ما لا نستطيع حتى قياسه؟</p>",
+    "photo-slot-text-1": "صورة ميدانية — مخصّصة لصورة أصلية من مشروع التخرّج<br>(مثال: صندوق لتربية النحل اللاسع، من تصوير الباحث، 2022)",
+    "s2-label": "02 · منهجية العمل الميداني",
+    "s2-title": "مقابلة من يشاهدون موت النحل فعلياً",
+    "s2-body": "<p>جمع البحث بين مراجعة الأدبيات (الأطروحات والرسائل والمقالات التي جرى البحث عنها عبر Google Acadêmico) و<strong>بحث ميداني نوعي</strong>، باستخدام المنهج الافتراضي الاستنباطي: صياغة فرضية مفادها أن المبيدات الزراعية ومبيدات الأعشاب كانت السبب الرئيسي لنفوق النحل بين عامي 2016 و2022، ثم اختبارها ببيانات واقعية من أشخاص يربّون النحل في البرازيل.</p><p>أُعدّ دليل للمقابلات بالتعاون مع المشرف، وتضمّن أسئلة محددة: هل فُقدت مستعمرات بين عامي 2016 و2022؟ وفي أي منطقة؟ وما العدد التقريبي للأفراد؟ وما السبب المحتمل؟ ووقّع جميع المشاركين إقراراً يجيز استخدام البيانات لأغراض أكاديمية.</p>",
+    "step-1": "مقابلة مع <b>المنتِج A</b> (جنوب ميناس جيرايس)، عبر WhatsApp والبريد الإلكتروني.",
+    "step-2": "مقابلة مع <b>المنتِج B</b> (المنطقة الحضرية الكبرى في ساو باولو)، عبر Instagram والبريد الإلكتروني.",
+    "step-3": "مقابلة مع <b>المنتِج C</b> (المنطقة الوسطى من بارانا)، عبر Instagram والبريد الإلكتروني.",
+    "step-4": "مقابلة مع <b>المنتِج D</b> (المنطقة الوسطى من بارانا)، عبر Instagram والبريد الإلكتروني.",
+    "pull-note-1": "من بين 9 نحّالي عسل ومربّي نحل لاسع جرى التواصل معهم، لم يردّ سوى 4 — وقد طلب الأربعة جميعاً عدم الكشف عن هوياتهم، خشية الانتقام من المزارعين المجاورين. وجُمعت الإجابات في 4 جداول بيانات Excel، جدول لكل منتِج.",
+    "s3-label": "03 · النتائج بحسب المنطقة",
+    "s3-title": "338 مستعمرة، نحو 20 مليون نحلة، 3 ولايات",
+    "s3-intro": "تختلف الأعداد بفوارق هائلة بين المنتجين — من 3 مستعمرات فقدها نحّال صغير الحجم إلى 300 مستعمرة دفعة واحدة لدى منتِج كبير في بارانا. ولهذا يستخدم الرسم البياني مقياساً لوغاريتمياً.",
+    "chart-caption": "عدد النحل المفقود بحسب المنتِج الذي أُجريت معه المقابلة (مقياس لوغاريتمي) · البيانات الأولية من جداول البيانات الأربع لمشروع التخرّج",
+    "r1-name": "المنتِج A",
+    "r1-tag": "جنوب ميناس جيرايس · صغير الحجم",
+    "r1-cause": "خسائر في 2016 و2020 و2021. السبب: شاحنة لمكافحة البعوض باستخدام الدخان ضد <i>Aedes aegypti</i> (مبيد حشري فوسفاتي عضوي للاستخدام الحضري)، وكان المنحل قريباً من حي سكني.",
+    "r2-name": "المنتِج B",
+    "r2-tag": "المنطقة الحضرية الكبرى في ساو باولو · متوسط الحجم",
+    "r2-cause": "تركزت الخسائر في 2022. السبب: مبيد أعشاب جهازي غير انتقائي، استُخدم في أراضٍ مهجورة مجاورة للمنحل.",
+    "protocol-note": "<b>ملاحظة بشأن البروتوكول العلمي:</b> حُذفت الأسماء التجارية للمركبات الكيميائية المحددة في هذا البحث من هذا المنشور، بناءً على طلب المنتجين المشاركين واحتياطاً لأسباب قانونية، واستُعيض عنها بفئات تقنية عامة. وتتوفر البيانات الكاملة في مشروع التخرّج الأصلي المودع لدى FATEC Jundiaí (2022). ولأغراض أكاديمية، يُرجى طلب الاطلاع عبر نموذج التواصل.",
+    "r3-name": "المنتِج C",
+    "r3-tag": "وسط بارانا · كبير الحجم",
+    "r3-cause": "خسارة في 2021. السبب: رش مبيد غير محدد، وكان المنحل قريباً من زراعة أحادية المحصول — ولم يرغب المنتِج في تسمية المركّب.",
+    "r4-name": "المنتِج D",
+    "r4-tag": "وسط بارانا · كبير الحجم",
+    "r4-cause": "خسارة في 2019، وهي الأكبر في الدراسة. السبب: رش مبيد غير محدد، وكان المنحل قريباً من زراعة أحادية المحصول — مع خشية من الانتقام مماثلة لما أبداه المنتِج C.",
+    "r-lbl-hives-1": "مستعمرة",
+    "r-lbl-bees-1": "نحلة",
+    "r-lbl-hives-2": "مستعمرة",
+    "r-lbl-bees-2": "نحلة",
+    "r-lbl-hives-3": "مستعمرة",
+    "r-lbl-bees-3": "نحلة",
+    "r-lbl-hives-4": "مستعمرة",
+    "r-lbl-bees-4": "نحلة",
+    "s4-label": "04 · النتيجة غير المتوقعة",
+    "s4-title": "أهم معلومة ليست في الجداول",
+    "s4-body": "<p>لم تكن النتيجة الأكثر كشفاً في هذا البحث أيّاً من الأرقام أعلاه، بل <strong>سبب عدم ردّ 5 من أصل 9 نحّالي عسل جرى التواصل معهم</strong>، وسبب إصرار الأربعة الذين أجابوا على السرية التامة.</p><p>والتفسير الذي ظهر من المقابلات هو أن معظم نحّالي العسل لا يملكون الأرض التي يضعون فيها خلاياهم. فإذا أبلغ نحّال عن نفوق النحل بسبب المبيدات الزراعية، فقد يخاطر بأن ينشر مالك الأرض أنه «قدّم بلاغاً بيئياً» — وهو ما قد يسيء إلى سمعته بين المزارعين الآخرين ويغلق أمامه فرص الحصول على أراضٍ جديدة مستقبلاً. والحافز البنيوي يدفع إلى الصمت، حتى حين تكون الخسارة حقيقية.</p>",
+    "s4-finding-label": "صمت ثانٍ مصدره الجهات العليا",
+    "s4-finding-body": "يظهر النمط نفسه على المستوى الرسمي: فبحسب مسح أجرته Repórter Brasil (Rohden, 2022)، <strong>توقفت ANVISA عن نشر بيانات جديدة بشأن بقايا المبيدات الزراعية في الأغذية منذ عام 2017</strong>. أي إنه بينما يلتزم نحّالو العسل الأفراد الصمت خوفاً من الانتقام، توقفت الجهة التنظيمية أيضاً عن إنتاج البيانات التي تتيح مطابقة هذه المعلومات على المستوى الوطني. صمتان مستقلان يشيران إلى الاتجاه نفسه — فالمشكلة الحقيقية على الأرجح أكبر مما يستطيع أي من الطرفين قياسه، أو يرغب في قياسه.",
+    "s5-label": "05 · الاستنتاجات",
+    "s5-title": "توصيات البحث",
+    "s5-body": "<p>حُددت المبيدات الزراعية ومبيدات الأعشاب بوصفها السبب الرئيسي لنفوق النحل خلال الفترة المدروسة، مما يؤكد فرضية البحث. ويبرز إجراءان عمليان، ينص عليهما القانون بالفعل لكنهما لا يُطبّقان دائماً في الواقع، كتوصيتين مباشرتين للدراسة:</p>",
+    "s5-list": "<li>يُسمح قانوناً بتسجيل المناحل ومناحل النحل اللاسع حتى في مناطق الحماية الدائمة (APP)، إذ يصنّفها قانون الغابات (القانون رقم 12.651/2012) أنشطةً منخفضة الأثر — لكن ذلك يتطلب من نحّال العسل إضفاء الصفة الرسمية على نشاطه، وهو ما لا يحدث دائماً.</li><li>يُلزم القائمون بتطبيق المبيدات الزراعية بإخطار المناحل الواقعة ضمن دائرة نصف قطرها 6 كم قبل <strong>48 ساعة</strong> من الرش — وهي قاعدة، بحسب الإفادات التي جُمعت، لا تُتبع كثيراً.</li>",
+    "s6-label": "06 · القيود — دون تجميل",
+    "s6-title": "ما الذي لا تتيح هذه البيانات الجزم به؟",
+    "s6-list": "<li><strong>عينة صغيرة اختار أفرادها المشاركة بأنفسهم:</strong> إن 4 مستجيبين من أصل 9 أشخاص جرى التواصل معهم لا يشكّلون عينة تمثيلية للبرازيل — بل هم مجموعة من وافقوا على الردّ (وامتلكوا الشجاعة لذلك).</li><li><strong>تحدد المناطق وفقاً لمن أجابوا، لا وفق تصميم للعينة:</strong> ظهرت ميناس جيرايس وساو باولو وبارانا في الدراسة لأن الردود وردت منها، لا لأنها اختيرت لتمثيل البلاد.</li><li><strong>لا توجد بيانات تحديد مواقع دقيقة:</strong> حالت السرية التي طلبها المنتجون الأربعة — بوصفها شرطاً لمشاركتهم — دون تسجيل الإحداثيات أو أسماء المناحل، مما يحدّ من إمكان إجراء أي تحليل مكاني أكثر دقة.</li>",
+    "s7-label": "07 · نظرة إلى الوراء بما أعرفه اليوم",
+    "s7-title": "ما الذي كنت سأفعله بشكل مختلف؟",
+    "s7-quote": "«اليوم، كنت سأوسّع نطاق جمع البيانات باستخدام مزيد من المنتديات، وأبحث عن مزيد من الأبحاث المنشورة في إطار مشاريع البحث العلمي التمهيدية حول هذا الموضوع. كما كنت سأحاول التواصل مباشرة مع تعاونيات نحّالي العسل — التي تنظم عادةً مجموعات لتبادل المعرفة ومناقشة المشكلات، بصيغة تشبه مجموعات الدعم — وسأسعى إلى الوصول إلى أكبر عدد ممكن من هذه التعاونيات في المناطق الخمس من البرازيل: الشمال، والشمال الشرقي، والوسط الغربي، والجنوب الشرقي، والجنوب، بدلاً من الولايات الثلاث التي تمكنت من الوصول إليها آنذاك فقط.»",
+    "source-label": "المصدر الأولي",
+    "committee-label": "لجنة التحكيم",
+    "committee-sub": "لجنة التقييم",
+    "role-advisor": "(المشرف)",
+    "committee-profile-btn": "↗ الملف الأكاديمي · ESCAVADOR",
+    "source-text": "<b>إشكالية متلازمة انهيار مستعمرات النحل</b> — مشروع تخرّج، 55 صفحة، تقني في الإدارة البيئية، FATEC Jundiaí \"Deputado Ary Fossen\"، 2022. الإشراف: الأستاذ Claudio da Cunha، الحاصل على درجة الماجستير.",
+    "cta-dashboard": "↗ عرض لوحة المعلومات التفاعلية",
+    "cta-back": "← العودة إلى ملف الأعمال",
+    "cta-share": "📋 نسخ الرابط",
+    "cta-share-done": "✓ تم نسخ الرابط!",
+    "meta-readtime-label": "للقراءة",
+    "footer-note": "© 2026 Amauri Almeida · دراسة حالة تستند إلى مشروع التخرّج الأصلي لعام 2022",
+    "fmtThousand": "ألف",
+    "fmtDecimalSep": ",",
+    "chartData": [
+      {"name": "المنتِج A\\n(جنوب ميناس جيرايس)", "value": 8000},
+      {"name": "المنتِج B\\n(المنطقة الحضرية الكبرى في ساو باولو)", "value": 300000},
+      {"name": "المنتِج C\\n(وسط بارانا)", "value": 1800000},
+      {"name": "المنتِج D\\n(وسط بارانا)", "value": 18000000}
+    ]
+  },
+  de: {
+    "doc-title": "Fallstudie — Colony Collapse Disorder bei Honigbienen | Amauri Almeida",
+    "meta-desc-content": "Ausführliche Fallstudie zu Amauri Almeidas Abschlussarbeit über das Colony Collapse Disorder bei Honigbienen: Feldmethodik, Interviews mit Imkern, 338 verlorene Bienenvölker und ~20 Millionen Bienen zwischen 2016 und 2022 sowie die Erkenntnis, dass aus Angst vor Vergeltungsmaßnahmen zu wenige Fälle gemeldet werden.",
+    "og-title-content": "Fallstudie — Colony Collapse Disorder bei Honigbienen",
+    "og-desc-content": "Wie eine Feldstudie zu Pestiziden ein größeres Problem aufdeckte, als die verfügbaren Daten erfassen können.",
+    "og-locale-content": "de_DE",
+    "html-lang": "de",
+    "back-link": "← Zurück zum Portfolio",
+    "header-tag": "AMAURI ALMEIDA · FALLSTUDIE",
+    "hero-eyebrow": "Fallstudie · Abschlussarbeit",
+    "hero-title": "Colony Collapse Disorder bei Honigbienen",
+    "hero-sub": "Wie eine Feldstudie zu Pestiziden ein größeres Problem aufdeckte, als die offiziellen Daten erfassen können — und warum die Imker Angst hatten, Auskunft zu geben.",
+    "meta-course-lbl": "Studiengang:",
+    "meta-course-val": "Technologie-Studiengang Umweltmanagement",
+    "meta-advisor-lbl": "Betreuer:",
+    "meta-year-lbl": "Jahr:",
+    "meta-enade": "<b>3. Platz</b> ENADE",
+    "stat-lbl-1": "verlorene Bienenvölker",
+    "stat-lbl-2": "verlorene Bienen",
+    "stat-lbl-3": "antwortende Imker",
+    "stat-lbl-4": "Bundesstaaten · 2016–2022",
+    "s1-label": "01 · Das Problem",
+    "s1-title": "Warum Bienen die richtige Frage aufwerfen",
+    "s1-body": "<p>Rund 80 % der Blütenpflanzen sind auf die Bestäubung durch Insekten angewiesen, und 85 % dieser Bestäubung erfolgt durch Bienen — darunter etwa 90 % der Bestäubung von Obstbäumen. Damit sind Bienen ein <strong>Bioindikator</strong>: Wenn sie in einer Region zu verschwinden beginnen, ist das ein Zeichen dafür, dass die Umwelt bereits aus dem Gleichgewicht geraten ist, bevor sich die Auswirkungen bei anderen Arten zeigen, auch bei unserer eigenen.</p><p>Im Oktober 2006 wurde in Kalifornien ein bis dahin wenig dokumentiertes Phänomen registriert — das <strong>Colony Collapse Disorder (CCD)</strong>: Ganze Bienenvölker verloren in beschleunigtem Tempo ihre erwachsenen Arbeiterbienen; in den Waben blieben nur unversorgte Larven zurück. Innerhalb von drei Jahren war das Phänomen bereits aus 38 der 50 US-Bundesstaaten gemeldet worden. In Brasilien wurde dasselbe Muster zunehmend aus der Region Südost gemeldet.</p><p>Der Hintergrund ist der intensive Einsatz von Pestiziden: Brasilien bringt jährlich rund <strong>300.000 Tonnen Pestizide aus</strong> — ein Anstieg um 700 % in den letzten 40 Jahren. Die Frage, die dieser Studie zugrunde lag, war einfach zu formulieren und schwer zu beantworten: Wie viele Bienen sterben dadurch — und wie viel davon können wir überhaupt messen?</p>",
+    "photo-slot-text-1": "FELDAUFNAHME — vorgesehen für ein Originalfoto aus der Abschlussarbeit<br>(z. B. Meliponikultur-Beute, eigene Aufnahme, 2022)",
+    "s2-label": "02 · Feldmethodik",
+    "s2-title": "Befragung derjenigen, die das Bienensterben tatsächlich beobachten",
+    "s2-body": "<p>Die Studie kombinierte eine Literaturrecherche (über Google Scholar ermittelte Abschlussarbeiten, Dissertationen und Fachartikel) mit einer <strong>qualitativen Feldstudie</strong> nach der hypothetisch-deduktiven Methode: Es wurde die Hypothese aufgestellt, dass Pestizide und Herbizide zwischen 2016 und 2022 die Hauptursache für das Bienensterben waren, und anhand realer Daten von Bienenhaltern in Brasilien geprüft.</p><p>Gemeinsam mit dem Betreuer wurde ein Interviewleitfaden mit konkreten Fragen entwickelt: Gab es zwischen 2016 und 2022 Verluste von Bienenvölkern? In welcher Region? Wie viele Tiere ungefähr? Was war die wahrscheinliche Ursache? Alle Befragten unterzeichneten eine Erklärung, mit der sie der wissenschaftlichen Nutzung der Daten zustimmten.</p>",
+    "step-1": "Interview mit <b>Imker A</b> (Süden von Minas Gerais) über WhatsApp und E-Mail.",
+    "step-2": "Interview mit <b>Imker B</b> (Metropolregion São Paulo) über Instagram und E-Mail.",
+    "step-3": "Interview mit <b>Imker C</b> (Zentralregion Paraná) über Instagram und E-Mail.",
+    "step-4": "Interview mit <b>Imker D</b> (Zentralregion Paraná) über Instagram und E-Mail.",
+    "pull-note-1": "Von den 9 kontaktierten Imkern und Meliponikultur-Betreibenden antworteten nur 4 — und alle 4 baten aus Angst vor Vergeltungsmaßnahmen durch benachbarte Landwirte um Anonymität. Die Antworten wurden in 4 Excel-Tabellen zusammengefasst, je eine pro Imker.",
+    "s3-label": "03 · Ergebnisse nach Region",
+    "s3-title": "338 Bienenvölker, ~20 Millionen Bienen, 3 Bundesstaaten",
+    "s3-intro": "Die Zahlen unterscheiden sich zwischen den Imkern um Größenordnungen — von 3 verlorenen Bienenvölkern bei einem kleinen Betrieb bis hin zu 300 Bienenvölkern, die ein großer Betrieb in Paraná auf einmal verlor. Deshalb verwendet das Diagramm eine logarithmische Skala.",
+    "chart-caption": "Verlorene Bienen je befragtem Imker (logarithmische Skala) · Rohdaten aus den 4 Tabellen der Abschlussarbeit",
+    "r1-name": "Imker A",
+    "r1-tag": "Süden von MG · kleiner Betrieb",
+    "r1-cause": "Verluste in den Jahren 2016, 2020 und 2021. Ursache: ein Sprühfahrzeug zur Bekämpfung von <i>Aedes aegypti</i> (Organophosphat-Insektizid für den städtischen Einsatz); der Bienenstand lag in der Nähe eines Wohnviertels.",
+    "r2-name": "Imker B",
+    "r2-tag": "Metropolregion SP · mittlerer Betrieb",
+    "r2-cause": "Verlust konzentriert auf das Jahr 2022. Ursache: nichtselektives systemisches Herbizid, eingesetzt auf unbebauten Nachbargrundstücken in der Nähe des Bienenstands.",
+    "protocol-note": "<b>Hinweis zum wissenschaftlichen Protokoll:</b> Die Handelsnamen der in dieser Studie identifizierten chemischen Verbindungen wurden auf Wunsch der befragten Imker und aus rechtlichen Vorsichtsgründen in dieser Veröffentlichung weggelassen und durch allgemeine technische Kategorien ersetzt. Die vollständigen Daten sind in der Originalarbeit verfügbar, die 2022 bei der FATEC Jundiaí eingereicht wurde. Für wissenschaftliche Zwecke können Sie über das Kontaktformular Zugang anfordern.",
+    "r3-name": "Imker C",
+    "r3-tag": "Zentralregion PR · großer Betrieb",
+    "r3-cause": "Verlust im Jahr 2021. Ursache: Ausbringung eines nicht identifizierten Pestizids; der Bienenstand lag in der Nähe einer Monokultur — der Imker wollte die Verbindung nicht benennen.",
+    "r4-name": "Imker D",
+    "r4-tag": "Zentralregion PR · großer Betrieb",
+    "r4-cause": "Verlust im Jahr 2019, der größte in der Studie. Ursache: Ausbringung eines nicht identifizierten Pestizids; der Bienenstand lag in der Nähe einer Monokultur — dieselbe Sorge vor Vergeltungsmaßnahmen wie bei Imker C.",
+    "r-lbl-hives-1": "Bienenvölker",
+    "r-lbl-bees-1": "Bienen",
+    "r-lbl-hives-2": "Bienenvölker",
+    "r-lbl-bees-2": "Bienen",
+    "r-lbl-hives-3": "Bienenvölker",
+    "r-lbl-bees-3": "Bienen",
+    "r-lbl-hives-4": "Bienenvölker",
+    "r-lbl-bees-4": "Bienen",
+    "s4-label": "04 · Die unerwartete Erkenntnis",
+    "s4-title": "Die wichtigste Erkenntnis steht nicht in den Tabellen",
+    "s4-body": "<p>Das aufschlussreichste Ergebnis dieser Studie war keine der oben genannten Zahlen — sondern die Frage, <strong>warum 5 der 9 kontaktierten Imker nie antworteten</strong> und warum die 4 Antwortenden vollständige Vertraulichkeit verlangten.</p><p>Die Erklärung, die sich aus den Interviews ergab: Die meisten Imker besitzen das Land nicht, auf dem sie ihre Bienenstöcke aufstellen. Meldet ein Imker den Verlust von Bienen durch Pestizide, riskiert er, dass der Landbesitzer weitererzählt, er habe „eine Umweltbeschwerde eingereicht“ — was seinem Ruf unter anderen Landwirten schaden und ihm künftig den Zugang zu neuen Grundstücken erschweren kann. Der strukturelle Anreiz besteht darin, zu schweigen, selbst wenn der Schaden real ist.</p>",
+    "s4-finding-label": "Ein zweites Schweigen — von offizieller Seite",
+    "s4-finding-body": "Dasselbe Muster zeigt sich auf offizieller Ebene: Laut einer Recherche von Repórter Brasil (Rohden, 2022) <strong>veröffentlichte ANVISA seit 2017 keine neuen Daten zu Pestizidrückständen in Lebensmitteln mehr</strong>. Während einzelne Imker aus Angst vor Vergeltungsmaßnahmen schweigen, stellt also auch die Regulierungsbehörde keine Daten mehr bereit, anhand derer sich diese Informationen landesweit abgleichen ließen. Zwei voneinander unabhängige Formen des Schweigens weisen in dieselbe Richtung — das tatsächliche Ausmaß des Problems ist wahrscheinlich größer, als beide Seiten erfassen können oder wollen.",
+    "s5-label": "05 · Schlussfolgerungen",
+    "s5-title": "Welche Empfehlungen sich aus der Studie ergeben",
+    "s5-body": "<p>Pestizide und Herbizide wurden als Hauptursache für das Bienensterben im Untersuchungszeitraum identifiziert, womit die Forschungshypothese bestätigt wurde. Zwei konkrete Maßnahmen, die bereits gesetzlich vorgesehen sind, in der Praxis jedoch nicht immer eingehalten werden, ergeben sich als unmittelbare Empfehlungen der Studie:</p>",
+    "s5-list": "<li>Die gesetzliche Registrierung von Bienenständen und Meliponikultur-Anlagen ist auch in dauerhaft geschützten Gebieten (APP) zulässig, da sie nach dem brasilianischen Waldgesetz (Gesetz Nr. 12.651/2012) als Tätigkeiten mit geringer Umweltbelastung gelten — dafür muss der Imker seine Tätigkeit jedoch formalisieren, was nicht immer geschieht.</li><li>Personen, die Pestizide ausbringen, sind verpflichtet, Bienenstände in einem Umkreis von 6 km <strong>48 Stunden vor</strong> der Ausbringung zu benachrichtigen — eine Vorschrift, die den erhobenen Aussagen zufolge häufig nicht eingehalten wird.</li>",
+    "s6-label": "06 · Einschränkungen — ungeschönt",
+    "s6-title": "Was sich aus diesen Daten nicht ableiten lässt",
+    "s6-list": "<li><strong>Kleine, selbstselektierte Stichprobe:</strong> 4 Antworten von 9 kontaktierten Personen sind keine repräsentative Stichprobe für Brasilien — sie bilden lediglich diejenigen ab, die bereit waren (und den Mut hatten), zu antworten.</li><li><strong>Die Regionen ergaben sich aus den Antworten, nicht aus einem Stichprobenplan:</strong> Minas Gerais, São Paulo und Paraná sind in der Studie vertreten, weil von dort Antworten eingingen, nicht weil sie als repräsentativ für das Land ausgewählt wurden.</li><li><strong>Keine genaue Geolokalisierung:</strong> Die von allen 4 Imkern verlangte Vertraulichkeit — eine Voraussetzung für ihre Teilnahme — verhinderte die Erfassung von Koordinaten oder Namen der Bienenstände und schränkt damit genauere räumliche Analysen ein.</li>",
+    "s7-label": "07 · Rückblick mit meinem heutigen Wissen",
+    "s7-title": "Was ich anders machen würde",
+    "s7-quote": "„Heute würde ich die Datenerhebung auf weitere Foren ausweiten und nach mehr veröffentlichten studentischen Forschungsarbeiten zu diesem Thema suchen. Außerdem würde ich versuchen, direkt mit Imkerkooperativen Kontakt aufzunehmen — sie haben häufig Gruppen zum Austausch von Wissen und zur Besprechung von Problemen, ähnlich einer Selbsthilfegruppe — und möglichst viele dieser Kooperativen in den fünf Regionen Brasiliens erreichen: Nord, Nordost, Mittelwest, Südost und Süd, nicht nur in den drei Bundesstaaten, die ich damals erreichen konnte.“",
+    "source-label": "Primärquelle",
+    "committee-label": "Prüfungskommission",
+    "committee-sub": "BEWERTUNGSKOMMISSION",
+    "role-advisor": "(Betreuer)",
+    "committee-profile-btn": "↗ AKADEMISCHES PROFIL · ESCAVADOR",
+    "source-text": "<b>Die Problematik des Colony Collapse Disorder bei Honigbienen</b> — Abschlussarbeit, 55 Seiten, Technologie-Studiengang Umweltmanagement, FATEC Jundiaí „Deputado Ary Fossen“, 2022. Betreuung: Prof. Me. Claudio da Cunha.",
+    "cta-dashboard": "↗ Interaktives Dashboard ansehen",
+    "cta-back": "← Zurück zum Portfolio",
+    "cta-share": "📋 Link kopieren",
+    "cta-share-done": "✓ Link kopiert!",
+    "meta-readtime-label": "Lesezeit",
+    "footer-note": "© 2026 Amauri Almeida · Fallstudie auf Grundlage der Original-Abschlussarbeit von 2022",
+    "fmtThousand": "Tsd.",
+    "fmtDecimalSep": ",",
+    "chartData": [
+      {"name": "Imker A\\n(Süden MG)", "value": 8000},
+      {"name": "Imker B\\n(Metropolregion SP)", "value": 300000},
+      {"name": "Imker C\\n(Zentralregion PR)", "value": 1800000},
+      {"name": "Imker D\\n(Zentralregion PR)", "value": 18000000}
+    ]
+  },
+  el: {
+    "doc-title": "Μελέτη περίπτωσης — Σύνδρομο Κατάρρευσης Αποικιών Μελισσών | Amauri Almeida",
+    "meta-desc-content": "Εκτενής μελέτη περίπτωσης της πτυχιακής εργασίας του Amauri Almeida σχετικά με το Σύνδρομο Κατάρρευσης Αποικιών Μελισσών: επιτόπια μεθοδολογία, συνεντεύξεις με μελισσοκόμους, 338 αποικίες και ~20 εκατομμύρια μέλισσες που χάθηκαν μεταξύ 2016-2022, καθώς και το εύρημα σχετικά με την υποαναφορά λόγω φόβου αντιποίνων.",
+    "og-title-content": "Μελέτη περίπτωσης — Σύνδρομο Κατάρρευσης Αποικιών Μελισσών",
+    "og-desc-content": "Πώς μια επιτόπια έρευνα για τα αγροχημικά αποκάλυψε ένα πρόβλημα μεγαλύτερο από αυτό που μπορούν να αποτυπώσουν τα δεδομένα.",
+    "og-locale-content": "el_GR",
+    "html-lang": "el",
+    "back-link": "← Επιστροφή στο χαρτοφυλάκιο",
+    "header-tag": "AMAURI ALMEIDA · ΜΕΛΕΤΗ ΠΕΡΙΠΤΩΣΗΣ",
+    "hero-eyebrow": "Μελέτη περίπτωσης · Πτυχιακή εργασία",
+    "hero-title": "Σύνδρομο Κατάρρευσης Αποικιών Μελισσών",
+    "hero-sub": "Πώς μια επιτόπια έρευνα για τα αγροχημικά αποκάλυψε ένα πρόβλημα μεγαλύτερο από αυτό που μπορούν να αποτυπώσουν τα επίσημα δεδομένα — και γιατί οι μελισσοκόμοι φοβήθηκαν να απαντήσουν.",
+    "meta-course-lbl": "Πρόγραμμα σπουδών:",
+    "meta-course-val": "Τεχνολόγος Περιβαλλοντικής Διαχείρισης",
+    "meta-advisor-lbl": "Επιβλέπων:",
+    "meta-year-lbl": "Έτος:",
+    "meta-enade": "<b>3η θέση</b> ENADE",
+    "stat-lbl-1": "χαμένες αποικίες",
+    "stat-lbl-2": "χαμένες μέλισσες",
+    "stat-lbl-3": "μελισσοκόμοι απάντησαν",
+    "stat-lbl-4": "πολιτείες · 2016–2022",
+    "s1-label": "01 · Το πρόβλημα",
+    "s1-title": "Γιατί οι μέλισσες είναι το σωστό ερώτημα",
+    "s1-body": "<p>Περίπου το 80% των ανθοφόρων φυτών εξαρτάται από την επικονίαση από έντομα, και το 85% αυτής της επικονίασης πραγματοποιείται από μέλισσες — συμπεριλαμβανομένου περίπου του 90% των οπωροφόρων δέντρων. Αυτό καθιστά τις μέλισσες <strong>βιοδείκτη</strong>: όταν αρχίζουν να εξαφανίζονται από μια περιοχή, αυτό σημαίνει ότι κάτι στο περιβάλλον έχει ήδη διαταραχθεί, προτού εμφανιστούν οι επιπτώσεις σε άλλα είδη, συμπεριλαμβανομένου του δικού μας.</p><p>Τον Οκτώβριο του 2006, ένα μέχρι τότε ελάχιστα τεκμηριωμένο φαινόμενο — το <strong>Σύνδρομο Κατάρρευσης Αποικιών (CCD)</strong> — καταγράφηκε στην Καλιφόρνια: ολόκληρες αποικίες έχαναν με ταχείς ρυθμούς τις ενήλικες εργάτριες μέλισσές τους, αφήνοντας στις κυψέλες μόνο προνύμφες χωρίς τροφή. Μέσα σε τρία χρόνια, το φαινόμενο είχε ήδη αναφερθεί σε 38 από τις 50 αμερικανικές πολιτείες. Στη Βραζιλία, το ίδιο πρότυπο άρχισε να αναφέρεται στη νοτιοανατολική περιοχή.</p><p>Το υπόβαθρο είναι η εντατική χρήση αγροχημικών: η Βραζιλία χρησιμοποιεί περίπου <strong>300 χιλιάδες τόνους αγροχημικών ετησίως</strong>, σημειώνοντας αύξηση 700% τα τελευταία 40 χρόνια. Το ερώτημα που καθοδήγησε αυτή την έρευνα ήταν απλό στη διατύπωση και δύσκολο να απαντηθεί: πόσες μέλισσες σκοτώνουν όλα αυτά — και πόσο από αυτό μπορούμε καν να μετρήσουμε;</p>",
+    "photo-slot-text-1": "ΦΩΤΟΓΡΑΦΙΑ ΠΕΔΙΟΥ — προβλέπεται για πρωτότυπη εικόνα από την πτυχιακή εργασία<br>(π.χ. κυψέλη μελισσοκομίας, προσωπική δημιουργία, 2022)",
+    "s2-label": "02 · Επιτόπια μεθοδολογία",
+    "s2-title": "Συνεντεύξεις με όσους βλέπουν πραγματικά τις μέλισσες να πεθαίνουν",
+    "s2-body": "<p>Η έρευνα συνδύασε βιβλιογραφική ανασκόπηση (διατριβές, διπλωματικές εργασίες και άρθρα που εντοπίστηκαν μέσω του Google Scholar) με <strong>ποιοτική επιτόπια έρευνα</strong>, ακολουθώντας την υποθετικο-παραγωγική μέθοδο: διατύπωση της υπόθεσης ότι τα αγροχημικά και τα ζιζανιοκτόνα ήταν η κύρια αιτία θνησιμότητας των μελισσών μεταξύ 2016 και 2022, και έλεγχός της με πραγματικά δεδομένα από ανθρώπους που εκτρέφουν μέλισσες στη Βραζιλία.</p><p>Το πρωτόκολλο συνέντευξης καταρτίστηκε σε συνεργασία με τον επιβλέποντα και περιλάμβανε συγκεκριμένες ερωτήσεις: υπήρξαν απώλειες αποικιών μεταξύ 2016 και 2022; Σε ποια περιοχή; Πόσα άτομα περίπου; Ποια ήταν η πιθανή αιτία; Όλοι οι ερωτηθέντες υπέγραψαν δήλωση με την οποία επέτρεπαν την ακαδημαϊκή χρήση των δεδομένων.</p>",
+    "step-1": "Συνέντευξη με τον <b>Παραγωγό A</b> (νότια περιοχή του Minas Gerais), μέσω WhatsApp και email.",
+    "step-2": "Συνέντευξη με τον <b>Παραγωγό B</b> (Μητροπολιτική Περιοχή του SP), μέσω Instagram και email.",
+    "step-3": "Συνέντευξη με τον <b>Παραγωγό C</b> (κεντρική περιοχή του Paraná), μέσω Instagram και email.",
+    "step-4": "Συνέντευξη με τον <b>Παραγωγό D</b> (κεντρική περιοχή του Paraná), μέσω Instagram και email.",
+    "pull-note-1": "Από τους 9 μελισσοκόμους και εκτροφείς αυτόχθονων μελισσών που προσεγγίστηκαν, απάντησαν μόνο 4 — και οι 4 ζήτησαν να διατηρηθεί η ανωνυμία τους, φοβούμενοι αντίποινα από γειτονικούς αγρότες. Οι απαντήσεις συγκεντρώθηκαν σε 4 υπολογιστικά φύλλα Excel, ένα ανά παραγωγό.",
+    "s3-label": "03 · Αποτελέσματα ανά περιοχή",
+    "s3-title": "338 αποικίες, ~20 εκατομμύρια μέλισσες, 3 πολιτείες",
+    "s3-intro": "Τα μεγέθη διαφέρουν κατά τάξεις μεγέθους μεταξύ των παραγωγών — από 3 αποικίες που έχασε ένας μικρής κλίμακας μελισσοκόμος έως 300 αποικίες που έχασε ταυτόχρονα ένας μεγάλης κλίμακας παραγωγός στο Paraná. Γι’ αυτό το γράφημα χρησιμοποιεί λογαριθμική κλίμακα.",
+    "chart-caption": "Μέλισσες που χάθηκαν ανά παραγωγό που συμμετείχε στη συνέντευξη (λογαριθμική κλίμακα) · πρωτογενή δεδομένα από τα 4 υπολογιστικά φύλλα της πτυχιακής εργασίας",
+    "r1-name": "Παραγωγός A",
+    "r1-tag": "Νότιο MG · μικρή κλίμακα",
+    "r1-cause": "Απώλειες το 2016, το 2020 και το 2021. Αιτία: όχημα νεφελοψεκασμού κατά του <i>Aedes aegypti</i> (οργανοφωσφορικό εντομοκτόνο αστικής χρήσης), μελισσοκομείο κοντά σε κατοικημένη περιοχή.",
+    "r2-name": "Παραγωγός B",
+    "r2-tag": "Μητροπολιτική περιοχή SP · μεσαία κλίμακα",
+    "r2-cause": "Η απώλεια συγκεντρώθηκε το 2022. Αιτία: μη εκλεκτικό διασυστηματικό ζιζανιοκτόνο, που χρησιμοποιήθηκε σε ακατοίκητα γειτονικά οικόπεδα κοντά στο μελισσοκομείο.",
+    "protocol-note": "<b>Σημείωση επιστημονικού πρωτοκόλλου:</b> Οι εμπορικές ονομασίες των χημικών ενώσεων που εντοπίστηκαν σε αυτή την έρευνα παραλείφθηκαν από την παρούσα δημοσίευση κατόπιν αιτήματος των ερωτηθέντων παραγωγών και για λόγους νομικής προφύλαξης, και αντικαταστάθηκαν από γενικές τεχνικές κατηγορίες. Τα πλήρη δεδομένα είναι διαθέσιμα στην πρωτότυπη πτυχιακή εργασία που έχει κατατεθεί στο FATEC Jundiaí (2022). Για ακαδημαϊκή χρήση, ζητήστε πρόσβαση μέσω της φόρμας επικοινωνίας.",
+    "r3-name": "Παραγωγός C",
+    "r3-tag": "Κεντρικό PR · μεγάλη κλίμακα",
+    "r3-cause": "Απώλεια το 2021. Αιτία: ψεκασμός με μη ταυτοποιημένο φυτοφάρμακο, μελισσοκομείο κοντά σε μονοκαλλιέργεια — ο παραγωγός δεν θέλησε να κατονομάσει την ουσία.",
+    "r4-name": "Παραγωγός D",
+    "r4-tag": "Κεντρικό PR · μεγάλη κλίμακα",
+    "r4-cause": "Απώλεια το 2019, η μεγαλύτερη της μελέτης. Αιτία: ψεκασμός με μη ταυτοποιημένο φυτοφάρμακο, μελισσοκομείο κοντά σε μονοκαλλιέργεια — ο ίδιος φόβος αντιποίνων με εκείνον του Παραγωγού C.",
+    "r-lbl-hives-1": "αποικίες",
+    "r-lbl-bees-1": "μέλισσες",
+    "r-lbl-hives-2": "αποικίες",
+    "r-lbl-bees-2": "μέλισσες",
+    "r-lbl-hives-3": "αποικίες",
+    "r-lbl-bees-3": "μέλισσες",
+    "r-lbl-hives-4": "αποικίες",
+    "r-lbl-bees-4": "μέλισσες",
+    "s4-label": "04 · Το απρόσμενο εύρημα",
+    "s4-title": "Το σημαντικότερο δεδομένο δεν βρίσκεται στους πίνακες",
+    "s4-body": "<p>Το πιο αποκαλυπτικό αποτέλεσμα αυτής της έρευνας δεν ήταν κανένας από τους παραπάνω αριθμούς — ήταν το <strong>γιατί 5 από τους 9 μελισσοκόμους που προσεγγίστηκαν δεν απάντησαν ποτέ</strong>, και γιατί οι 4 που απάντησαν απαίτησαν απόλυτη εχεμύθεια.</p><p>Η εξήγηση που προέκυψε από τις συνεντεύξεις: οι περισσότεροι μελισσοκόμοι δεν είναι ιδιοκτήτες της γης όπου εγκαθιστούν τις κυψέλες τους. Αν ένας μελισσοκόμος καταγγείλει απώλεια μελισσών λόγω αγροχημικών, κινδυνεύει να διαδώσει ο ιδιοκτήτης της γης ότι «έκανε περιβαλλοντική καταγγελία» — γεγονός που μπορεί να βλάψει τη φήμη του μεταξύ άλλων αγροτικών παραγωγών και να του κλείσει την πρόσβαση σε νέα οικόπεδα στο μέλλον. Το δομικό κίνητρο είναι η σιωπή, ακόμη κι όταν η ζημιά είναι πραγματική.</p>",
+    "s4-finding-label": "Μια δεύτερη σιωπή, από ψηλά",
+    "s4-finding-body": "Το ίδιο μοτίβο εμφανίζεται και σε επίσημο επίπεδο: σύμφωνα με έρευνα της Repórter Brasil (Rohden, 2022), η ANVISA <strong>σταμάτησε να δημοσιεύει νέα δεδομένα για τα υπολείμματα αγροχημικών στα τρόφιμα από το 2017</strong>. Με άλλα λόγια: ενώ μεμονωμένοι μελισσοκόμοι σιωπούν από φόβο αντιποίνων, ο ρυθμιστικός φορέας σταμάτησε επίσης να παράγει τα δεδομένα που θα επέτρεπαν τη διασταύρωση αυτών των πληροφοριών σε εθνική κλίμακα. Δύο ανεξάρτητες σιωπές, που δείχνουν προς την ίδια κατεύθυνση — το πραγματικό πρόβλημα είναι πιθανότατα μεγαλύτερο από όσο μπορεί ή θέλει να μετρήσει οποιαδήποτε από τις δύο πλευρές.",
+    "s5-label": "05 · Συμπεράσματα",
+    "s5-title": "Τι προτείνει η έρευνα",
+    "s5-body": "<p>Τα αγροχημικά και τα ζιζανιοκτόνα εντοπίστηκαν ως η κύρια αιτία θνησιμότητας των μελισσών κατά την εξεταζόμενη περίοδο, επιβεβαιώνοντας την ερευνητική υπόθεση. Δύο συγκεκριμένα μέτρα, τα οποία προβλέπονται ήδη από τον νόμο αλλά δεν εφαρμόζονται πάντα στην πράξη, προκύπτουν ως άμεσες συστάσεις της μελέτης:</p>",
+    "s5-list": "<li>Η νόμιμη καταχώριση μελισσοκομείων και μελισσοκομείων αυτόχθονων μελισσών επιτρέπεται ακόμη και σε Περιοχές Μόνιμης Προστασίας (APP), καθώς θεωρούνται δραστηριότητες χαμηλού αντίκτυπου βάσει του Δασικού Κώδικα (Νόμος αριθ. 12.651/2012) — απαιτείται, ωστόσο, από τον μελισσοκόμο να δηλώσει επίσημα τη δραστηριότητά του, κάτι που δεν συμβαίνει πάντα.</li><li>Οι χρήστες αγροχημικών υποχρεούνται να ειδοποιούν τα μελισσοκομεία σε ακτίνα 6 km <strong>48 ώρες πριν</strong> από τον ψεκασμό — κανόνας που, σύμφωνα με τις μαρτυρίες που συγκεντρώθηκαν, συχνά δεν τηρείται.</li>",
+    "s6-label": "06 · Περιορισμοί — χωρίς ωραιοποιήσεις",
+    "s6-title": "Τι δεν επιτρέπουν να ισχυριστούμε αυτά τα δεδομένα",
+    "s6-list": "<li><strong>Μικρό και αυτοεπιλεγμένο δείγμα:</strong> οι 4 απαντήσεις από τους 9 που προσεγγίστηκαν δεν αποτελούν αντιπροσωπευτικό δείγμα της Βραζιλίας — αποτυπώνουν όσους δέχτηκαν (και είχαν το θάρρος) να απαντήσουν.</li><li><strong>Οι περιοχές καθορίστηκαν από όσους απάντησαν και όχι από τον σχεδιασμό του δείγματος:</strong> τα Minas Gerais, São Paulo και Paraná περιλαμβάνονται στη μελέτη επειδή υπήρξαν απαντήσεις από εκεί, όχι επειδή επιλέχθηκαν ως αντιπροσωπευτικές της χώρας.</li><li><strong>Χωρίς ακριβή γεωεντοπισμό:</strong> η εμπιστευτικότητα που ζήτησαν οι 4 παραγωγοί — προϋπόθεση για τη συμμετοχή τους — δεν επέτρεψε την καταγραφή συντεταγμένων ή ονομασιών μελισσοκομείων, περιορίζοντας κάθε λεπτομερέστερη χωρική ανάλυση.</li>",
+    "s7-label": "07 · Κοιτάζοντας πίσω, με όσα γνωρίζω σήμερα",
+    "s7-title": "Τι θα έκανα διαφορετικά",
+    "s7-quote": "«Σήμερα θα διεύρυνα τη συλλογή δεδομένων χρησιμοποιώντας περισσότερα φόρουμ και θα αναζητούσα περισσότερες δημοσιευμένες εργασίες προπτυχιακής έρευνας πάνω στο θέμα. Θα προσπαθούσα επίσης να επικοινωνήσω απευθείας με συνεταιρισμούς μελισσοκόμων — οι οποίοι συνήθως διαθέτουν ομάδες ανταλλαγής γνώσεων και συζήτησης προβλημάτων, σε μορφή παρόμοια με ομάδα υποστήριξης — και θα προσπαθούσα να προσεγγίσω όσο το δυνατόν περισσότερους από αυτούς τους συνεταιρισμούς και στις πέντε περιφέρειες της Βραζιλίας: Βόρεια, Βορειοανατολική, Κεντροδυτική, Νοτιοανατολική και Νότια, όχι μόνο στις τρεις πολιτείες στις οποίες κατάφερα να φτάσω τότε.»",
+    "source-label": "Πρωτογενής πηγή",
+    "committee-label": "Εξεταστική επιτροπή",
+    "committee-sub": "ΕΞΕΤΑΣΤΙΚΗ ΕΠΙΤΡΟΠΗ",
+    "role-advisor": "(Επιβλέπων)",
+    "committee-profile-btn": "↗ ΑΚΑΔΗΜΑΪΚΟ ΠΡΟΦΙΛ · ESCAVADOR",
+    "source-text": "<b>Το πρόβλημα του Συνδρόμου Κατάρρευσης Αποικιών Μελισσών</b> — Πτυχιακή εργασία, 55 σελίδες, Τεχνολόγος Περιβαλλοντικής Διαχείρισης, FATEC Jundiaí \"Deputado Ary Fossen\", 2022. Επιβλέπων: Καθ. Me. Claudio da Cunha.",
+    "cta-dashboard": "↗ Προβολή διαδραστικού πίνακα",
+    "cta-back": "← Επιστροφή στο χαρτοφυλάκιο",
+    "cta-share": "📋 Αντιγραφή συνδέσμου",
+    "cta-share-done": "✓ Ο σύνδεσμος αντιγράφηκε!",
+    "meta-readtime-label": "ανάγνωσης",
+    "footer-note": "© 2026 Amauri Almeida · Μελέτη περίπτωσης βασισμένη σε πρωτότυπη πτυχιακή εργασία του 2022",
+    "fmtThousand": "χιλ.",
+    "fmtDecimalSep": ",",
+    "chartData": [
+      {"name": "Παραγωγός A\\n(Νότιο MG)", "value": 8000},
+      {"name": "Παραγωγός B\\n(Μητροπ. SP)", "value": 300000},
+      {"name": "Παραγωγός C\\n(Κεντρικό PR)", "value": 1800000},
+      {"name": "Παραγωγός D\\n(Κεντρικό PR)", "value": 18000000}
+    ]
+  },
+  af: {
+    "doc-title": "Gevallestudie — Kolonie-ineenstortingsindroom by Heuningbye | Amauri Almeida",
+    "meta-desc-content": "’n Diepgaande gevallestudie van Amauri Almeida se TCC oor kolonie-ineenstortingsindroom by heuningbye: veldmetodologie, onderhoude met byeboere, 338 kolonies en ~20 miljoen bye wat tussen 2016-2022 verlore gegaan het, en die bevinding oor onderrapportering weens vrees vir vergelding.",
+    "og-title-content": "Gevallestudie — Kolonie-ineenstortingsindroom by Heuningbye",
+    "og-desc-content": "Hoe ’n veldstudie oor plaagdoders ’n groter probleem aan die lig gebring het as wat die data kan vasvang.",
+    "og-locale-content": "af_ZA",
+    "html-lang": "af",
+    "back-link": "← Terug na die portefeulje",
+    "header-tag": "AMAURI ALMEIDA · GEVALLESTUDIE",
+    "hero-eyebrow": "Gevallestudie · Finalejaarprojek",
+    "hero-title": "Kolonie-ineenstortingsindroom by Heuningbye",
+    "hero-sub": "Hoe ’n veldstudie oor plaagdoders ’n groter probleem aan die lig gebring het as wat amptelike data kan vasvang — en waarom byeboere bang was om te antwoord.",
+    "meta-course-lbl": "Kursus:",
+    "meta-course-val": "Tegnoloog in Omgewingsbestuur",
+    "meta-advisor-lbl": "Studieleier:",
+    "meta-year-lbl": "Jaar:",
+    "meta-enade": "<b>3de plek</b> ENADE",
+    "stat-lbl-1": "verlore kolonies",
+    "stat-lbl-2": "verlore bye",
+    "stat-lbl-3": "byeboere het geantwoord",
+    "stat-lbl-4": "state · 2016–2022",
+    "s1-label": "01 · Die probleem",
+    "s1-title": "Waarom bye die regte vraag is om te vra",
+    "s1-body": "<p>Ongeveer 80% van blomplante is afhanklik van insekbestuiwing, en 85% van hierdie bestuiwing word deur bye gedoen — insluitend ongeveer 90% van vrugtebome. Dit maak bye ’n <strong>bio-aanwyser</strong>: wanneer hulle in ’n streek begin verdwyn, is dit ’n teken dat iets in die omgewing reeds buite balans is voordat die gevolge by ander spesies, insluitend ons eie, sigbaar word.</p><p>In Oktober 2006 is ’n verskynsel wat tot dusver min gedokumenteer is — die <strong>Kolonie-ineenstortingsindroom (CCD)</strong> — in Kalifornië aangeteken: hele kolonies het hul volwasse werkerbye vinnig verloor, met net larwes sonder voedsel in die heuningkoekselle wat oorgebly het. Binne drie jaar is die verskynsel reeds in 38 van die 50 Amerikaanse state aangemeld. In Brasilië is dieselfde patroon in die Suidoostelike streek begin rapporteer.</p><p>Die agtergrond is die intensiewe gebruik van plaagdoders: Brasilië gebruik ongeveer <strong>300 duisend ton plaagdoders per jaar</strong>, ’n toename van 700% oor die afgelope 40 jaar. Die vraag wat hierdie studie gerig het, was maklik om te formuleer en moeilik om te beantwoord: hoeveel hiervan maak bye dood — en hoeveel hiervan kan ons hoegenaamd meet?</p>",
+    "photo-slot-text-1": "VELDFOTO — gereserveer vir oorspronklike beeld uit die TCC<br>(bv.: meliponikultuurkas, eie werk, 2022)",
+    "s2-label": "02 · Veldmetodologie",
+    "s2-title": "Onderhoude met die mense wat werklik sien hoe bye sterf",
+    "s2-body": "<p>Die studie het ’n literatuuroorsig (proefskrifte, verhandelings en artikels wat via Google Scholar opgespoor is) gekombineer met <strong>kwalitatiewe veldnavorsing</strong>, met behulp van die hipoteties-deduktiewe metode: die hipotese dat plaagdoders en onkruiddoders die hoofoorsaak van byesterftes tussen 2016 en 2022 was, is geformuleer en met werklike data van mense wat bye in Brasilië aanhou, getoets.</p><p>’n Onderhoudskedule is saam met die studieleier ontwikkel, met objektiewe vrae: was daar kolonieverliese tussen 2016 en 2022? In watter streek? Hoeveel individue, ongeveer? Wat was die waarskynlike oorsaak? Al die ondervraagdes het ’n verklaring onderteken wat die akademiese gebruik van die data magtig.</p>",
+    "step-1": "Onderhoud met <b>Produsent A</b> (Suidelike Minas Gerais), via WhatsApp en e-pos.",
+    "step-2": "Onderhoud met <b>Produsent B</b> (Metropolitaanse Streek van SP), via Instagram en e-pos.",
+    "step-3": "Onderhoud met <b>Produsent C</b> (Sentraalstreek van Paraná), via Instagram en e-pos.",
+    "step-4": "Onderhoud met <b>Produsent D</b> (Sentraalstreek van Paraná), via Instagram en e-pos.",
+    "pull-note-1": "Van die 9 byeboere en meliponikulturiste wat gekontak is, het slegs 4 geantwoord — en al 4 het anonimiteit versoek uit vrees vir vergelding deur naburige boere. Die antwoorde is in 4 Excel-sigblaaie saamgestel, een per produsent.",
+    "s3-label": "03 · Resultate per streek",
+    "s3-title": "338 kolonies, ~20 miljoen bye, 3 state",
+    "s3-intro": "Die getalle wissel met ordes van grootte tussen produsente — van 3 kolonies wat deur ’n kleinskaalse byeboer verloor is tot 300 kolonies wat tegelyk deur ’n grootskaalse produsent in Paraná verloor is. Daarom gebruik die grafiek ’n logaritmiese skaal.",
+    "chart-caption": "Bye wat per ondervraagde produsent verlore gegaan het (logaritmiese skaal) · rou data uit die 4 TCC-sigblaaie",
+    "r1-name": "Produsent A",
+    "r1-tag": "Suidelike MG · kleinskaal",
+    "r1-cause": "Verliese in 2016, 2020 en 2021. Oorsaak: ’n berokingsvragmotor teen <i>Aedes aegypti</i> (’n organofosfaat-insekdoder vir stedelike gebruik), byekamp naby ’n woonbuurt.",
+    "r2-name": "Produsent B",
+    "r2-tag": "Metropolitaanse SP · mediumskaal",
+    "r2-cause": "Verlies hoofsaaklik in 2022. Oorsaak: ’n nie-selektiewe sistemiese onkruiddoder wat op onbeboude erwe naby die byekamp gebruik is.",
+    "protocol-note": "<b>Nota oor die Wetenskaplike Protokol:</b> Die handelsname van die chemiese verbindings wat in hierdie studie geïdentifiseer is, is op versoek van die ondervraagde produsente en uit regtelike versigtigheid in hierdie publikasie weggelaat en deur algemene tegniese kategorieë vervang. Die volledige data is beskikbaar in die oorspronklike TCC wat by FATEC Jundiaí (2022) ingedien is. Vir akademiese doeleindes kan toegang via die kontakvorm aangevra word.",
+    "r3-name": "Produsent C",
+    "r3-tag": "Sentraal-PR · grootskaal",
+    "r3-cause": "Verlies in 2021. Oorsaak: bespuiting met ’n onbekende plaagdoder; byekamp naby ’n monokultuur — die produsent wou nie die verbinding noem nie.",
+    "r4-name": "Produsent D",
+    "r4-tag": "Sentraal-PR · grootskaal",
+    "r4-cause": "Verlies in 2019, die grootste in die studie. Oorsaak: bespuiting met ’n onbekende plaagdoder; byekamp naby ’n monokultuur — dieselfde vrees vir vergelding as by Produsent C.",
+    "r-lbl-hives-1": "kolonies",
+    "r-lbl-bees-1": "bye",
+    "r-lbl-hives-2": "kolonies",
+    "r-lbl-bees-2": "bye",
+    "r-lbl-hives-3": "kolonies",
+    "r-lbl-bees-3": "bye",
+    "r-lbl-hives-4": "kolonies",
+    "r-lbl-bees-4": "bye",
+    "s4-label": "04 · Die onverwagte bevinding",
+    "s4-title": "Die belangrikste data staan nie in die tabelle nie",
+    "s4-body": "<p>Die mees onthullende resultaat van hierdie studie was nie enige van die getalle hierbo nie — dit was <strong>waarom 5 van die 9 byeboere wat gekontak is, nooit geantwoord het nie</strong>, en waarom die 4 wat wel geantwoord het, volkome geheimhouding vereis het.</p><p>Die verklaring wat uit die onderhoude na vore gekom het: die meeste byeboere besit nie die grond waarop hulle hul korwe plaas nie. As ’n byeboer die verlies van bye weens plaagdoders aanmeld, loop hy die risiko dat die grondeienaar rondvertel dat hy “’n omgewingsklag ingedien het” — wat sy reputasie onder ander landbouprodusente kan skaad en toekomstige toegang tot nuwe terreine kan bemoeilik. Die strukturele aansporing is om stil te bly, selfs wanneer die verlies werklik is.</p>",
+    "s4-finding-label": "’n Tweede stilte, van hoër op",
+    "s4-finding-body": "Dieselfde patroon kom aan die amptelike kant voor: volgens ’n ondersoek deur Repórter Brasil (Rohden, 2022) het ANVISA <strong>sedert 2017 opgehou om nuwe data oor plaagdoderreste in voedsel te publiseer</strong>. Met ander woorde: terwyl individuele byeboere stilbly uit vrees vir vergelding, het die regulerende owerheid ook opgehou om die data te genereer wat dit moontlik sou maak om hierdie inligting op nasionale skaal te vergelyk. Twee onafhanklike stiltes wat in dieselfde rigting wys — die werklike probleem is waarskynlik groter as wat enigeen van die twee partye kan, of wil, meet.",
+    "s5-label": "05 · Gevolgtrekkings",
+    "s5-title": "Wat die studie aanbeveel",
+    "s5-body": "<p>Plaagdoders en onkruiddoders is geïdentifiseer as die hoofoorsaak van byesterftes gedurende die bestudeerde tydperk, wat die navorsingshipotese bevestig. Twee konkrete maatreëls, wat reeds deur die wet voorsien word maar nie altyd in die praktyk nagekom word nie, kom as direkte aanbevelings uit die studie na vore:</p>",
+    "s5-list": "<li>Die wettige registrasie van byekampe en meliponikulture is selfs binne ’n Permanente Beskermingsgebied (APP) toegelaat, aangesien dit volgens die Boskode (Wet nr. 12.651/2012) as lae-impakaktiwiteite beskou word — maar dit vereis dat die byeboer die aktiwiteit formaliseer, wat nie altyd gebeur nie.</li><li>Toedieners van plaagdoders moet byekampe binne ’n radius van 6 km <strong>48 uur vooraf</strong> van bespuiting in kennis stel — ’n reël wat, volgens die verslae wat ingesamel is, dikwels nie nagekom word nie.</li>",
+    "s6-label": "06 · Beperkings — sonder versiering",
+    "s6-title": "Wat hierdie data ons nie toelaat om te beweer nie",
+    "s6-list": "<li><strong>Klein, selfgekose steekproef:</strong> 4 respondente uit 9 wat gekontak is, is nie ’n verteenwoordigende steekproef van Brasilië nie — dit is ’n deursnit van diegene wat bereid (en dapper genoeg) was om te antwoord.</li><li><strong>Streke is bepaal deur wie geantwoord het, nie deur ’n steekproefontwerp nie:</strong> Minas Gerais, São Paulo en Paraná verskyn in die studie omdat daar antwoorde uit dié streke ontvang is, nie omdat hulle as verteenwoordigend van die land gekies is nie.</li><li><strong>Geen presiese geoligging:</strong> die geheimhouding wat deur die 4 produsente versoek is — ’n voorwaarde vir hul deelname — het die registrasie van koördinate of name van byekampe verhinder, wat enige meer gedetailleerde ruimtelike ontleding beperk.</li>",
+    "s7-label": "07 · Terugskouend, met wat ek vandag weet",
+    "s7-title": "Wat ek anders sou doen",
+    "s7-quote": "“Vandag sou ek die data-insameling uitbrei deur meer forums te gebruik en meer gepubliseerde voorgraadse navorsingswerke oor die onderwerp te soek. Ek sou ook probeer om direk met byeboerkoöperasies in verbinding te tree — hulle het dikwels groepe vir die uitruil van kennis en die bespreking van probleme, in ’n formaat soortgelyk aan ’n ondersteuningsgroep — en probeer om soveel as moontlik van hierdie koöperasies in Brasilië se vyf streke te bereik: Noord, Noordoos, Sentraal-Wes, Suidoos en Suid, nie net die drie state wat ek destyds kon bereik nie.”",
+    "source-label": "Primêre bron",
+    "committee-label": "Beoordelingskomitee",
+    "committee-sub": "BEOORDELINGSPANEEL",
+    "role-advisor": "(Studieleier)",
+    "committee-profile-btn": "↗ AKADEMIESE PROFIEL · ESCAVADOR",
+    "source-text": "<b>Die Problematiek van die Kolonie-ineenstortingsindroom by Heuningbye</b> — Finalejaarprojek, 55 bladsye, Tegnoloog in Omgewingsbestuur, FATEC Jundiaí “Deputado Ary Fossen”, 2022. Studieleiding: Prof. Me. Claudio da Cunha.",
+    "cta-dashboard": "↗ Bekyk interaktiewe paneel",
+    "cta-back": "← Terug na die portefeulje",
+    "cta-share": "📋 Kopieer skakel",
+    "cta-share-done": "✓ Skakel gekopieer!",
+    "meta-readtime-label": "se leestyd",
+    "footer-note": "© 2026 Amauri Almeida · Gevallestudie gebaseer op oorspronklike TCC uit 2022",
+    "fmtThousand": "duisend",
+    "fmtDecimalSep": ",",
+    "chartData": [
+      {"name": "Produsent A\\n(Suidelike MG)", "value": 8000},
+      {"name": "Produsent B\\n(Metrop. SP)", "value": 300000},
+      {"name": "Produsent C\\n(Sentraal-PR)", "value": 1800000},
+      {"name": "Produsent D\\n(Sentraal-PR)", "value": 18000000}
+    ]
+  }
+};
+
+var csCurrentLang = 'pt';
+
+function csShareLink(){
+  var url = window.location.href;
+  var btn = document.getElementById('cta-share');
+  var t = CS_T[csCurrentLang] || CS_T.pt;
+  function showDone(){
+    if (!btn) return;
+    var original = t['cta-share'];
+    btn.textContent = t['cta-share-done'];
+    setTimeout(function(){ btn.textContent = original; }, 2000);
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(showDone).catch(function(){
+      window.prompt('Copie o link:', url);
+    });
+  } else {
+    window.prompt('Copie o link:', url);
+  }
+}
+
+function csSetLang(lang){
+  var t = CS_T[lang];
+  if (!t) return;
+  csCurrentLang = lang;
+
+  document.getElementById('html-root').setAttribute('lang', t['html-lang']);
+  document.getElementById('html-root').setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+  document.body.classList.toggle('rtl-mode', lang === 'ar');
+  document.getElementById('html-root').setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+  document.body.classList.toggle('rtl-mode', lang === 'ar');
+  document.getElementById('doc-title').textContent = t['doc-title'];
+  document.getElementById('meta-desc').setAttribute('content', t['meta-desc-content']);
+  document.getElementById('og-title').setAttribute('content', t['og-title-content']);
+  document.getElementById('og-desc').setAttribute('content', t['og-desc-content']);
+  document.getElementById('og-locale').setAttribute('content', t['og-locale-content']);
+
+  Object.keys(t).forEach(function(id){
+    if (id.indexOf('-content') > -1 || id === 'html-lang' || id === 'chartData' || id === 'fmtThousand' || id === 'fmtDecimalSep') return;
+    var el = document.getElementById(id);
+    if (el) el.innerHTML = t[id];
+  });
+
+  document.querySelectorAll('.lang-btn').forEach(function(b){
+    b.classList.toggle('active', b.dataset.lang === lang);
+  });
+
+  var backLink = document.getElementById('back-link');
+  if (backLink) backLink.href = 'index.html' + (lang !== 'pt' ? '?lang=' + lang : '');
+  try { localStorage.setItem('preferredLang', lang); } catch(e){}
+
+  csRenderChart();
+}
+
+function csRenderChart(){
+  var t = CS_T[csCurrentLang];
+  var data = t.chartData;
+  var thousand = t.fmtThousand;
+
+  function fmt(n){
+    if (n >= 1000000) return (n/1000000).toFixed(n % 1000000 === 0 ? 0 : 1).replace('.', t.fmtDecimalSep) + 'M';
+    if (n >= 1000) return Math.round(n/1000) + thousand;
+    return n;
+  }
+
+  var container = document.getElementById('bee-chart');
+  if (!container) return;
+  container.innerHTML = '';
+
+  if (!window.d3) {
+    container.innerHTML = '<p style="color:var(--stone);font-family:Space Mono,monospace;font-size:.7rem;">Chart unavailable offline.</p>';
+    return;
+  }
+
+  var width = Math.min(container.clientWidth || 760, 760);
+  var height = 260;
+  var margin = { top: 20, right: 20, bottom: 46, left: 20 };
+
+  var svg = d3.select('#bee-chart').append('svg')
+    .attr('width', width).attr('height', height)
+    .attr('viewBox', '0 0 ' + width + ' ' + height);
+
+  var innerW = width - margin.left - margin.right;
+  var innerH = height - margin.top - margin.bottom;
+
+  var x = d3.scaleBand().domain(data.map(function(d){return d.name;})).range([0, innerW]).padding(0.35);
+  var y = d3.scaleLog().domain([1000, 30000000]).range([innerH, 0]);
+
+  var g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+  g.selectAll('rect').data(data).enter().append('rect')
+    .attr('x', function(d){ return x(d.name); })
+    .attr('width', x.bandwidth())
+    .attr('y', function(d){ return y(d.value); })
+    .attr('height', function(d){ return innerH - y(d.value); })
+    .attr('fill', '#c9a84c')
+    .attr('opacity', 0)
+    .transition().duration(650).delay(function(_,i){return i*90;})
+    .attr('opacity', 0.88);
+
+  g.selectAll('.bar-value').data(data).enter().append('text')
+    .attr('class', 'bar-value')
+    .attr('x', function(d){ return x(d.name) + x.bandwidth()/2; })
+    .attr('y', function(d){ return y(d.value) - 8; })
+    .attr('text-anchor', 'middle')
+    .text(function(d){ return fmt(d.value); });
+
+  var xAxis = g.append('g').attr('class','axis').attr('transform','translate(0,'+innerH+')');
+  data.forEach(function(d){
+    var lines = d.name.split('\n');
+    var tx = x(d.name) + x.bandwidth()/2;
+    lines.forEach(function(line, li){
+      xAxis.append('text')
+        .attr('x', tx).attr('y', 16 + li*11)
+        .attr('text-anchor','middle')
+        .attr('class','bar-label')
+        .style('fill','var(--stone)')
+        .text(line);
+    });
+  });
+}
+
+(function(){
+  var params = new URLSearchParams(window.location.search);
+  var urlLang = params.get('lang');
+  var supported = ['pt','de','en','es','fr','it','zh','ar','el','af'];
+  var initialLang = 'pt';
+  if (urlLang && supported.indexOf(urlLang) > -1) {
+    initialLang = urlLang;
+  } else {
+    try {
+      var saved = localStorage.getItem('preferredLang');
+      if (saved && supported.indexOf(saved) > -1) initialLang = saved;
+    } catch(e){}
+  }
+
+  function init(){ csSetLang(initialLang); }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+  window.addEventListener('resize', function(){ csRenderChart(); });
+
+  function updateReadProgress(){
+    var bar = document.getElementById('read-progress-bar');
+    if (!bar) return;
+    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = docHeight > 0 ? Math.min(100, Math.max(0, (scrollTop / docHeight) * 100)) : 0;
+    bar.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', updateReadProgress, { passive: true });
+  window.addEventListener('resize', updateReadProgress);
+  updateReadProgress();
+})();
+</script>
+</body>
+</html>
