@@ -1,37 +1,75 @@
 {
- "updated": "2026-11-18T13:06:28.231695+00:00",
+ "updated": "2026-11-18T21:27:00.715085+00:00",
  "items": [
   {
-   "source": "GUARDIAN",
-   "title": "Cop31 live: rich world offering ‘crumbs’ to help poor countries adapt to climate breakdown, campaigners say",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/18/cop31-climate-crisis-talks-turkey-latest-news-updates",
-   "date": "2026-11-18T12:45:58+00:00",
-   "t": {
-    "pt": "Cop31 ao vivo: mundo rico oferecendo ‘migalhas’ para ajudar os países pobres a se adaptarem ao colapso climático, dizem os ativistas",
-    "es": "Cop31 en vivo: el mundo rico ofrece “migajas” para ayudar a los países pobres a adaptarse al colapso climático, dicen los activistas",
-    "it": "Cop31 in diretta: il mondo ricco offre “briciole” per aiutare i paesi poveri ad adattarsi al collasso climatico, dicono gli attivisti",
-    "zh": "第 31 届缔约方会议现场直播：活动人士称，富裕国家提供“面包屑”帮助贫穷国家适应气候崩溃",
-    "fr": "Cop31 en direct : le monde riche offre des « miettes » pour aider les pays pauvres à s’adapter au dérèglement climatique, selon les militants",
-    "ar": "يقول الناشطون إن العالم الغني يقدم \"الفتات\" لمساعدة البلدان الفقيرة على التكيف مع انهيار المناخ",
-    "de": "Cop31 live: Die reiche Welt bietet „Krümel“ an, um armen Ländern bei der Anpassung an den Klimawandel zu helfen, sagen Aktivisten",
-    "el": "Cop31 live: πλούσιος κόσμος προσφέρει «ψίχουλα» για να βοηθήσει τις φτωχές χώρες να προσαρμοστούν στην κλιματική κατάρρευση, λένε οι ακτιβιστές"
-   }
+   "source": "NYTIMES",
+   "title": "The Permitting Bill Is Splitting the Environmental Movement",
+   "url": "https://www.nytimes.com/2026/11/18/climate/permitting-bill-baaja-environmentalists-energy.html",
+   "date": "2026-11-18T20:45:33+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Torrential rain causes widespread flooding in South Florida",
+   "url": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-18T20:29:18+00:00",
+   "t": {}
   },
   {
    "source": "NYTIMES",
-   "title": "Big Oil Says Recycled Fracking Wastewater Is Safe. Texas Is About to Test It.",
-   "url": "https://www.nytimes.com/2026/11/18/climate/texas-wastewater-treatment-pecos.html",
-   "date": "2026-11-18T12:19:49+00:00",
-   "t": {
-    "pt": "Big Oil afirma que águas residuais de fraturamento hidráulico recicladas são seguras. Texas está prestes a testá-lo.",
-    "es": "Las grandes petroleras dicen que las aguas residuales recicladas del fracking son seguras. Texas está a punto de probarlo.",
-    "it": "Big Oil afferma che le acque reflue riciclate del fracking sono sicure. Il Texas sta per testarlo.",
-    "zh": "石油巨头称回收的水力压裂废水是安全的。德克萨斯州即将对其进行测试。",
-    "fr": "Les grandes sociétés pétrolières affirment que les eaux usées de fracturation recyclées sont sûres. Le Texas est sur le point de le tester.",
-    "ar": "تقول شركات النفط الكبرى إن مياه الصرف الصحي المعاد تدويرها آمنة. تكساس على وشك اختبارها.",
-    "de": "Big Oil sagt, recyceltes Fracking-Abwasser sei sicher. Texas ist dabei, es zu testen.",
-    "el": "Η Big Oil λέει ότι τα ανακυκλωμένα απόβλητα φρακινγκ είναι ασφαλή. Το Τέξας πρόκειται να το δοκιμάσει."
-   }
+   "title": "Nepal Came to COP31 in Dire Need. It’s a Test for the World.",
+   "url": "https://www.nytimes.com/2026/11/18/climate/nepal-disaster-aid-cop31.html",
+   "date": "2026-11-18T20:08:35+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "N.I.H. Will Move Final Group of Retired Research Chimps to Sanctuary",
+   "url": "https://www.nytimes.com/2026/11/18/science/nih-chimpanzees-sanctuary.html",
+   "date": "2026-11-18T19:09:37+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "‘Shocking’ Signs of Climate Change Add Urgency to COP31 Talks",
+   "url": "https://www.nytimes.com/2026/11/18/climate/cop31-climate-global-warming.html",
+   "date": "2026-11-18T17:42:27+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "World ‘held hostage by oil mafia’, says Panama minister at Cop 31",
+   "url": "https://www.theguardian.com/environment/2026/nov/18/world-held-hostage-by-oil-mafia-says-panama-minister-at-cop-31",
+   "date": "2026-11-18T17:07:06+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "UK government ‘breaking the law’ by not stopping decline of wild birds",
+   "url": "https://www.theguardian.com/environment/2026/nov/18/uk-government-angela-eagle-natural-england-wild-birds-decline-",
+   "date": "2026-11-18T16:56:18+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Cop31 as it happened: rich world offering ‘crumbs’ to help poor countries adapt to climate breakdown, campaigners say",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/18/cop31-climate-crisis-talks-turkey-latest-news-updates",
+   "date": "2026-11-18T15:34:06+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘Huge experiment in biogeography’: US offshore windfarms are creating artificial reefs",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/offshore-wind-farms-artificial-reef-experiment-fishing-industry",
+   "date": "2026-11-18T14:00:04+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "The seven Anthropic founders who are about to become multi-billionaires",
+   "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-18T13:55:14+00:00",
+   "t": {}
   },
   {
    "source": "BBC",
@@ -47,22 +85,6 @@
     "ar": "توصل التحقيق إلى أن إدارة ستورمونت فشلت في حماية الطيور البرية",
     "de": "Die Abteilung Stormont versäumt es, Wildvögel zu schützen, wie Untersuchungen ergeben",
     "el": "Το τμήμα Stormont δεν προστατεύει τα άγρια πτηνά, διαπιστώνει η έρευνα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘When it roars, we roar back’: the man who faces Bengal tigers armed only with a stick",
-   "url": "https://www.theguardian.com/environment/2026/nov/18/abdul-goni-gazi-tigers-bangladesh-sundarbans-aoe",
-   "date": "2026-11-18T12:00:59+00:00",
-   "t": {
-    "pt": "‘Quando ruge, nós rugimos de volta’: o homem que enfrenta tigres de Bengala armados apenas com um pedaço de pau",
-    "es": "“Cuando ruge, nosotros rugimos de vuelta”: el hombre que se enfrenta a los tigres de Bengala armado sólo con un palo",
-    "it": "‘Quando ruggisce, noi ruggiamo’: l’uomo che affronta le tigri del Bengala armato solo di un bastone",
-    "zh": "“当它咆哮时，我们也咆哮反击”：仅手持棍棒面对孟加拉虎的男子",
-    "fr": "\"Quand ça rugit, nous rugissons en retour\" : l'homme qui affronte les tigres du Bengale armé seulement d'un bâton",
-    "ar": "\"عندما تزأر، نعود للزئير\": الرجل الذي يواجه النمور البنغالية المسلح بالعصا فقط",
-    "de": "„Wenn es brüllt, brüllen wir zurück“: Der Mann, der sich nur mit einem Stock bewaffneten bengalischen Tigern stellt",
-    "el": "«Όταν βρυχάται, γυρνάμε πίσω»: ο άνθρωπος που αντιμετωπίζει τίγρεις της Βεγγάλης οπλισμένοι μόνο με ένα ραβδί"
    }
   },
   {
@@ -82,84 +104,11 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? |",
-   "url": "https://www.theguardian.com/commentisfree/2026/nov/18/nasa-voyager-1-pale-blue-dot",
-   "date": "2026-11-18T11:00:56+00:00",
-   "t": {
-    "pt": "Após 49 anos, a Voyager 1 da NASA está a um dia-luz de distância de nós. Podemos salvar este ‘ponto azul claro’? |",
-    "es": "Después de 49 años, la Voyager 1 de la NASA está a un día luz de nosotros. ¿Podemos salvar este “punto azul pálido”? |",
-    "it": "Dopo 49 anni, la Voyager 1 della Nasa è a un giorno luce da noi. Possiamo salvare questo “punto blu pallido”? |",
-    "zh": "49 年后，美国宇航局的航行者 1 号距离我们只有一光日了。我们能拯救这个“淡蓝点”吗？ |",
-    "fr": "Après 49 ans, Voyager 1 de la NASA n’est qu’à un jour-lumière de nous. Pouvons-nous sauver ce « point bleu pâle » ? |",
-    "ar": "بعد 49 عامًا، أصبحت فوييجر 1 التابعة لناسا على بعد يوم ضوئي واحد منا. هل يمكننا حفظ هذه \"النقطة الزرقاء الشاحبة\"؟ |",
-    "de": "Nach 49 Jahren ist die Voyager 1 der NASA einen Lichttag von uns entfernt. Können wir diesen „blassblauen Punkt“ retten? |",
-    "el": "Μετά από 49 χρόνια, το Voyager 1 της Nasa απέχει μία ημέρα φωτός από εμάς. Μπορούμε να σώσουμε αυτήν την «απαλή μπλε κουκκίδα»; |"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "I want to know if toxic lagoon fire caused my husband's rare deadly cancer",
-   "url": "https://www.bbc.co.uk/news/articles/cm62y2e4qd9yo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-18T10:48:49+00:00",
-   "t": {
-    "pt": "Quero saber se o incêndio tóxico na lagoa causou o raro câncer mortal do meu marido",
-    "es": "Quiero saber si el fuego tóxico de la laguna causó el raro cáncer mortal de mi esposo",
-    "it": "Voglio sapere se il fuoco tossico della laguna ha causato il raro cancro mortale di mio marito",
-    "zh": "我想知道有毒泻湖火灾是否导致我丈夫患上了罕见的致命癌症",
-    "fr": "Je veux savoir si les incendies toxiques d'un lagon ont causé le cancer rare et mortel de mon mari.",
-    "ar": "أريد أن أعرف ما إذا كانت حريق البحيرة السامة قد تسبب في إصابة زوجي بالسرطان المميت النادر",
-    "de": "Ich möchte wissen, ob giftige Lagunenbrände den seltenen tödlichen Krebs meines Mannes verursacht haben",
-    "el": "Θέλω να μάθω αν η τοξική πυρκαγιά στη λιμνοθάλασσα προκάλεσε τον σπάνιο θανατηφόρο καρκίνο του συζύγου μου"
-   }
-  },
-  {
    "source": "NPR",
-   "title": "Iran-backed militias tortured him, but Iraqi environmentalist refuses to quit",
+   "title": "They tried to torture him into leaving Iraq. He refused to abandon the nature he protects",
    "url": "https://www.npr.org/2026/11/18/nx-s1-6043167/iraq-environmentalist-marshes-iran-backed-militia-kidnapped",
    "date": "2026-11-18T10:00:00+00:00",
-   "t": {
-    "pt": "Milícias apoiadas pelo Irã o torturaram, mas ambientalista iraquiano se recusa a renunciar",
-    "es": "Las milicias respaldadas por Irán lo torturaron, pero el ambientalista iraquí se niega a renunciar",
-    "it": "Le milizie appoggiate dall'Iran lo hanno torturato, ma l'ambientalista iracheno si rifiuta di dimettersi",
-    "zh": "伊朗支持的民兵折磨他，但伊拉克环保人士拒绝退出",
-    "fr": "Des milices soutenues par l'Iran l'ont torturé, mais un écologiste irakien refuse d'abandonner",
-    "ar": "قامت الميليشيات المدعومة من إيران بتعذيبه، لكن الناشط البيئي العراقي يرفض الاستقالة",
-    "de": "Vom Iran unterstützte Milizen folterten ihn, doch der irakische Umweltschützer weigert sich, damit aufzuhören",
-    "el": "Οι πολιτοφυλακές που υποστηρίζονται από το Ιράν τον βασάνισαν, αλλά Ιρακινός περιβαλλοντολόγος αρνείται να παραιτηθεί"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘Phantom forests’ in Australia’s arid outback used to create carbon credits meant to offset emissions, report claims",
-   "url": "https://www.theguardian.com/environment/2026/nov/18/phantom-forests-in-australian-arid-outback-used-to-create-carbon-credits-meant-to-offset-emissions-report-claims",
-   "date": "2026-11-18T09:30:36+00:00",
-   "t": {
-    "pt": "‘Florestas fantasmas’ no interior árido da Austrália usadas para criar créditos de carbono destinados a compensar emissões, afirma o relatório",
-    "es": "Los 'bosques fantasmas' en el árido interior de Australia se utilizan para crear créditos de carbono destinados a compensar las emisiones, afirma un informe",
-    "it": "Le “foreste fantasma” nell’arido entroterra australiano vengono utilizzate per creare crediti di carbonio destinati a compensare le emissioni, afferma il rapporto",
-    "zh": "报告称，澳大利亚干旱内陆地区的“幻影森林”被用来创造碳信用额，以抵消排放量",
-    "fr": "Des « forêts fantômes » dans l’arrière-pays aride d’Australie utilisées pour créer des crédits de carbone destinés à compenser les émissions, selon un rapport",
-    "ar": "يدعي التقرير أن \"الغابات الوهمية\" في المناطق النائية القاحلة في أستراليا تُستخدم لإنشاء أرصدة الكربون التي تهدف إلى تعويض الانبعاثات",
-    "de": "Berichten zufolge wurden „Phantomwälder“ im trockenen Outback Australiens zur Schaffung von CO2-Gutschriften genutzt, um Emissionen auszugleichen",
-    "el": "«Δάση-φαντάσματα» στην άνυδρη περιοχή της Αυστραλίας που χρησιμοποιούνται για τη δημιουργία πιστώσεων άνθρακα με σκοπό την αντιστάθμιση των εκπομπών, αναφέρουν ισχυρισμοί"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Myanmar-linked arsenic pollution prompts clean water scramble in Thailand",
-   "url": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand?traffic_source=rss",
-   "date": "2026-11-18T09:10:21+00:00",
-   "t": {
-    "pt": "Poluição por arsênico ligada a Mianmar provoca disputa por água potável na Tailândia",
-    "es": "La contaminación por arsénico relacionada con Myanmar provoca una lucha por el agua potable en Tailandia",
-    "it": "L’inquinamento da arsenico legato al Myanmar provoca la corsa all’acqua pulita in Thailandia",
-    "zh": "缅甸砷污染引发泰国清洁水争夺战",
-    "fr": "La pollution à l'arsenic liée au Myanmar provoque une ruée vers l'eau potable en Thaïlande",
-    "ar": "يؤدي التلوث بالزرنيخ المرتبط بميانمار إلى تدافع المياه النظيفة في تايلاند",
-    "de": "Die mit Myanmar verbundene Arsenverschmutzung führt in Thailand zu Problemen mit sauberem Wasser",
-    "el": "Η ρύπανση από αρσενικό που συνδέεται με τη Μιανμάρ προκαλεί αναβρασμό καθαρού νερού στην Ταϊλάνδη"
-   }
+   "t": {}
   },
   {
    "source": "DW",
@@ -178,100 +127,32 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "People asked for views on blue brook pollution",
-   "url": "https://www.bbc.co.uk/news/articles/cqpv9mjm78m3o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-18T08:37:02+00:00",
-   "t": {
-    "pt": "Pessoas pediram opiniões sobre a poluição do riacho azul",
-    "es": "La gente pidió opiniones sobre la contaminación del arroyo azul",
-    "it": "Le persone hanno chiesto opinioni sull'inquinamento del Blue Brook",
-    "zh": "人们询问对蓝溪污染的看法",
-    "fr": "Les gens ont demandé leur avis sur la pollution du ruisseau Blue",
-    "ar": "سأل الناس عن وجهات نظرهم حول تلوث النهر الأزرق",
-    "de": "Die Leute fragten nach ihrer Meinung zur Verschmutzung durch blaue Bäche",
-    "el": "Οι άνθρωποι ζήτησαν απόψεις σχετικά με τη ρύπανση του μπλε ρυακιού"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Permitting Bill Would Charge Data Centers Billions for Power",
-   "url": "https://www.nytimes.com/2026/11/16/climate/permitting-bill-data-centers-electricity-rates.html",
-   "date": "2026-11-18T00:59:09+00:00",
-   "t": {
-    "pt": "Permitir projeto de lei cobraria bilhões de dados pelos data centers por energia",
-    "es": "El proyecto de ley de permisos cobraría a los centros de datos miles de millones por la energía",
-    "it": "Una legge di autorizzazione farebbe pagare ai data center miliardi per l'energia",
-    "zh": "允许法案将向数据中心收取数十亿美元的电费",
-    "fr": "Un projet de loi autorisant facturerait des milliards d’électricité aux centres de données",
-    "ar": "إن السماح بمشروع القانون سيكلف مراكز البيانات مليارات الدولارات مقابل الطاقة",
-    "de": "Ein Genehmigungsgesetz würde Rechenzentren Milliarden für die Stromversorgung in Rechnung stellen",
-    "el": "Ο λογαριασμός αδειοδότησης θα χρεώσει τα κέντρα δεδομένων δισεκατομμύρια για την ισχύ"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Judge Finds Trump’s Planned Seabed Mining Auction Violated Law",
-   "url": "https://www.nytimes.com/2026/11/17/climate/seabed-mining-lease-auction.html",
-   "date": "2026-11-17T21:55:37+00:00",
-   "t": {
-    "pt": "Juiz considera que o leilão de mineração do fundo do mar planejado por Trump violou a lei",
-    "es": "Juez considera que la subasta de minería de fondos marinos planificada por Trump violó la ley",
-    "it": "Il giudice ritiene che l’asta mineraria dei fondali marini pianificata da Trump abbia violato la legge",
-    "zh": "法官裁定特朗普计划的海底采矿拍卖违反法律",
-    "fr": "Le juge conclut que la vente aux enchères prévue par Trump pour l’exploitation minière des fonds marins viole la loi",
-    "ar": "القاضي يجد أن مزاد ترامب للتعدين في قاع البحر ينتهك القانون",
-    "de": "Richter stellt fest, dass Trumps geplante Meeresbodenbergbau-Auktion gegen das Gesetz verstößt",
-    "el": "Ο δικαστής έκρινε ότι η προγραμματισμένη δημοπρασία εξόρυξης του Τραμπ στον βυθό της θάλασσας παραβιάζεται"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "A.I.’s People-Pleasing Problem",
-   "url": "https://www.nytimes.com/2026/11/17/climate/climate-chatbots-people-pleasers.html",
-   "date": "2026-11-17T19:16:41+00:00",
-   "t": {
-    "pt": "O problema de agradar as pessoas da IA",
-    "es": "El problema de la IA para complacer a las personas",
-    "it": "Il problema del piacere delle persone dell’intelligenza artificiale",
-    "zh": "人工智能令人愉悦的问题",
-    "fr": "Le problème de l’IA qui plaît aux gens",
-    "ar": "مشكلة إرضاء الناس لدى الذكاء الاصطناعي",
-    "de": "Das menschenfreundliche Problem der KI",
-    "el": "Το Πρόβλημα που προκαλεί στους ανθρώπους της A.I"
-   }
+   "source": "NATURE",
+   "title": "Tropical land-use intensification reshapes biodiversity in expected and unexpected ways",
+   "url": "https://www.nature.com/articles/d41586-026-03602-1",
+   "date": "2026-11-18T00:00:00+00:00",
+   "t": {}
   },
   {
    "source": "NATURE",
-   "title": "The prospect of a ‘super’ El Niño demands better ocean monitoring",
-   "url": "https://www.nature.com/articles/d41586-026-03744-2",
-   "date": "2026-11-17T00:00:00+00:00",
-   "t": {
-    "pt": "A perspectiva de um “super” El Niño exige uma melhor monitorização dos oceanos",
-    "es": "La perspectiva de un \"súper\" El Niño exige una mejor vigilancia de los océanos",
-    "it": "La prospettiva di un “super” El Niño richiede un migliore monitoraggio degli oceani",
-    "zh": "“超级”厄尔尼诺现象的前景需要更好的海洋监测",
-    "fr": "La perspective d’un « super » El Niño exige une meilleure surveillance des océans",
-    "ar": "إن احتمال حدوث ظاهرة النينيو \"الفائقة\" يتطلب مراقبة أفضل للمحيطات",
-    "de": "Die Aussicht auf einen „Super“-El Niño erfordert eine bessere Meeresüberwachung",
-    "el": "Η προοπτική ενός «σούπερ» Ελ Νίνιο απαιτεί καλύτερη παρακολούθηση των ωκεανών"
-   }
+   "title": "Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems",
+   "url": "https://www.nature.com/articles/s41586-026-11427-1",
+   "date": "2026-11-18T00:00:00+00:00",
+   "t": {}
   },
   {
    "source": "NATURE",
-   "title": "How measuring the state of nature can reverse biodiversity loss",
-   "url": "https://www.nature.com/articles/d41586-026-03714-8",
-   "date": "2026-11-17T00:00:00+00:00",
-   "t": {
-    "pt": "Como medir o estado da natureza pode reverter a perda de biodiversidade",
-    "es": "Cómo medir el estado de la naturaleza puede revertir la pérdida de biodiversidad",
-    "it": "Come misurare lo stato della natura può invertire la perdita di biodiversità",
-    "zh": "测量自然状态如何扭转生物多样性丧失",
-    "fr": "Comment mesurer l’état de la nature peut inverser la perte de biodiversité",
-    "ar": "كيف يمكن لقياس حالة الطبيعة أن يعكس فقدان التنوع البيولوجي",
-    "de": "Wie die Messung des Zustands der Natur den Verlust der biologischen Vielfalt umkehren kann",
-    "el": "Πώς η μέτρηση της κατάστασης της φύσης μπορεί να αναστρέψει την απώλεια βιοποικιλότητας"
-   }
+   "title": "A new view of Amazonian leaf seasonality",
+   "url": "https://www.nature.com/articles/d41586-026-03490-5",
+   "date": "2026-11-18T00:00:00+00:00",
+   "t": {}
+  },
+  {
+   "source": "NATURE",
+   "title": "Widespread deciduousness reveals diverse Amazonian phenological strategies",
+   "url": "https://www.nature.com/articles/s41586-026-11284-y",
+   "date": "2026-11-18T00:00:00+00:00",
+   "t": {}
   },
   {
    "source": "DW",
@@ -303,38 +184,6 @@
     "ar": "هل يستطيع \"تحالف الراغبين\" خلق زخم للتخلص التدريجي من الوقود الأحفوري؟",
     "de": "Kann eine „Koalition der Willigen“ Impulse für einen Ausstieg aus fossilen Brennstoffen geben?",
     "el": "Μπορεί ένας «συνασπισμός των πρόθυμων» να δημιουργήσει ώθηση για σταδιακή κατάργηση των ορυκτών καυσίμων;"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "As El Niño builds, studies of extreme marine heatwaves must start now",
-   "url": "https://www.nature.com/articles/d41586-026-03715-7",
-   "date": "2026-11-16T00:00:00+00:00",
-   "t": {
-    "pt": "À medida que o El Niño aumenta, os estudos sobre ondas de calor marinhas extremas devem começar agora",
-    "es": "A medida que aumenta El Niño, los estudios sobre olas de calor marinas extremas deben comenzar ahora",
-    "it": "Mentre El Niño cresce, gli studi sulle ondate di caldo marine estreme devono iniziare ora",
-    "zh": "随着厄尔尼诺现象的形成，极端海洋热浪的研究必须立即开始",
-    "fr": "Alors qu’El Niño se développe, les études sur les vagues de chaleur marines extrêmes doivent commencer dès maintenant",
-    "ar": "ومع تزايد ظاهرة النينيو، يجب أن تبدأ دراسات موجات الحرارة البحرية الشديدة الآن",
-    "de": "Während El Niño zunimmt, müssen jetzt Studien zu extremen Hitzewellen im Meer beginnen",
-    "el": "Όπως χτίζει το Ελ Νίνιο, οι μελέτες για τους ακραίους καύσωνες της θάλασσας πρέπει να ξεκινήσουν τώρα"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Can AI actually help the climate? Nations want to harness the technology to cut emissions",
-   "url": "https://www.nature.com/articles/d41586-026-03763-z",
-   "date": "2026-11-16T00:00:00+00:00",
-   "t": {
-    "pt": "A IA pode realmente ajudar o clima? Nações querem aproveitar a tecnologia para reduzir emissões",
-    "es": "¿Puede la IA realmente ayudar al clima? Las naciones quieren aprovechar la tecnología para reducir las emisiones",
-    "it": "L’intelligenza artificiale può davvero aiutare il clima? Le nazioni vogliono sfruttare la tecnologia per ridurre le emissioni",
-    "zh": "人工智能真的能帮助气候吗？各国希望利用该技术来减少排放",
-    "fr": "L’IA peut-elle réellement aider le climat ? Les nations veulent exploiter la technologie pour réduire les émissions",
-    "ar": "هل يمكن للذكاء الاصطناعي أن يساعد المناخ بالفعل؟ تريد الدول تسخير التكنولوجيا لخفض الانبعاثات",
-    "de": "Kann KI tatsächlich dem Klima helfen? Nationen wollen die Technologie nutzen, um Emissionen zu reduzieren",
-    "el": "Μπορεί η τεχνητή νοημοσύνη να βοηθήσει πραγματικά το κλίμα; Τα έθνη θέλουν να αξιοποιήσουν την τεχνολογία για να μειώσουν τις εκπομπές"
    }
   },
   {
@@ -384,6 +233,13 @@
     "de": "Der schnellste Ozeandampfer der Welt wird versenkt und bricht einen weiteren Rekord: das größte künstliche Riff",
     "el": "Το ταχύτερο υπερωκεάνιο στον κόσμο βυθίστηκε για να σπάσει άλλο ένα ρεκόρ: τον μεγαλύτερο τεχνητό ύφαλο"
    }
+  },
+  {
+   "source": "NPR",
+   "title": "A massive ship is being sunk off Florida to make an artificial reef",
+   "url": "https://www.npr.org/2026/11/11/nx-s1-6035793/a-massive-ship-is-being-sunk-off-florida-to-make-an-artificial-reef",
+   "date": "2026-11-11T10:02:49+00:00",
+   "t": {}
   }
  ]
 }
