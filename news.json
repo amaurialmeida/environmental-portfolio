@@ -1,75 +1,229 @@
 {
- "updated": "2026-11-18T21:27:00.715085+00:00",
+ "updated": "2026-11-19T03:23:11.913611+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
+   "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-19T02:59:06+00:00",
+   "t": {
+    "pt": "Elon Musk diz que gastos recordes nas eleições intercalares dos EUA foram “muito tolos”",
+    "es": "Elon Musk dice que el gasto récord en las elecciones intermedias de Estados Unidos fue \"bastante tonto\"",
+    "it": "Elon Musk afferma che la spesa record per le elezioni di metà mandato degli Stati Uniti è stata \"piuttosto insensata\"",
+    "zh": "埃隆·马斯克表示美国中期选举创纪录的支出“非常愚蠢”",
+    "fr": "Elon Musk estime que les dépenses record pour les élections de mi-mandat aux États-Unis étaient « plutôt insensées »",
+    "ar": "يقول إيلون موسك إن الإنفاق القياسي على الانتخابات النصفية في الولايات المتحدة كان \"أحمق للغاية\"",
+    "de": "Elon Musk sagt, Rekordausgaben für US-Zwischenwahlen seien „ziemlich dumm“ gewesen",
+    "el": "Ο Έλον Μασκ λέει ότι οι δαπάνες ρεκόρ στις ενδιάμεσες εκλογές των ΗΠΑ ήταν «αρκετά ανόητες»"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Kenya’s milk shortage deepens as drought hits farmers and pushes up prices",
+   "url": "https://www.aljazeera.com/news/2026/11/19/kenyas-milk-shortage-deepens-as-drought-hits-farmers-and-pushes-up-prices?traffic_source=rss",
+   "date": "2026-11-19T00:40:01+00:00",
+   "t": {
+    "pt": "A escassez de leite no Quénia agrava-se à medida que a seca atinge os agricultores e aumenta os preços",
+    "es": "La escasez de leche en Kenia se profundiza a medida que la sequía golpea a los agricultores y eleva los precios",
+    "it": "La carenza di latte in Kenya si aggrava poiché la siccità colpisce gli agricoltori e fa salire i prezzi",
+    "zh": "由于干旱袭击农民并推高价格，肯尼亚的牛奶短缺加剧",
+    "fr": "La pénurie de lait au Kenya s’aggrave alors que la sécheresse frappe les agriculteurs et fait grimper les prix",
+    "ar": "يتفاقم نقص الحليب في كينيا بسبب الجفاف الذي يضرب المزارعين ويؤدي إلى ارتفاع الأسعار",
+    "de": "Kenias Milchknappheit verschärft sich, da die Dürre die Bauern heimsucht und die Preise in die Höhe treibt",
+    "el": "Η έλλειψη γάλακτος στην Κένυα βαθαίνει καθώς η ξηρασία πλήττει τους αγρότες και ανεβάζει τις τιμές"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "The seven Anthropic founders who are about to become multi-billionaires",
+   "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-18T23:42:07+00:00",
+   "t": {
+    "pt": "Os sete fundadores da Anthropic que estão prestes a se tornar multibilionários",
+    "es": "Los siete fundadores de Anthropic que están a punto de convertirse en multimillonarios",
+    "it": "I sette fondatori di Anthropic che stanno per diventare multimiliardari",
+    "zh": "即将成为亿万富翁的七位 Anthropic 创始人",
+    "fr": "Les sept fondateurs d'Anthropic en passe de devenir multimilliardaires",
+    "ar": "المؤسسون الأنثروبيون السبعة الذين هم على وشك أن يصبحوا مليارديرات",
+    "de": "Die sieben Gründer von Anthropic, die bald Multimilliardäre werden",
+    "el": "Οι επτά ιδρυτές της Anthropic που πρόκειται να γίνουν πολυδισεκατομμυριούχοι"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "Researchers are studying how large storms spread microplastics in the environment",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6036678-e1/researchers-are-studying-how-large-storms-spread-microplastics-in-the-environment",
+   "date": "2026-11-18T22:02:15+00:00",
+   "t": {
+    "pt": "Pesquisadores estão estudando como grandes tempestades espalham microplásticos no meio ambiente",
+    "es": "Los investigadores estudian cómo las grandes tormentas propagan los microplásticos en el medio ambiente",
+    "it": "I ricercatori stanno studiando come le grandi tempeste diffondono le microplastiche nell’ambiente",
+    "zh": "研究人员正在研究大型风暴如何在环境中传播微塑料",
+    "fr": "Des chercheurs étudient comment les grandes tempêtes propagent les microplastiques dans l’environnement",
+    "ar": "يدرس الباحثون كيفية انتشار العواصف الكبيرة للمواد البلاستيكية الدقيقة في البيئة",
+    "de": "Forscher untersuchen, wie große Stürme Mikroplastik in der Umwelt verbreiten",
+    "el": "Οι ερευνητές μελετούν πώς οι μεγάλες καταιγίδες εξαπλώνουν μικροπλαστικά στο περιβάλλον"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Floodwaters submerge cars and parking lots in Florida town",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_floodwaters-submerge-cars-in-florida-181126?traffic_source=rss",
+   "date": "2026-11-18T21:08:04+00:00",
+   "t": {
+    "pt": "Enchentes submergem carros e estacionamentos em cidade da Flórida",
+    "es": "Las inundaciones sumergen automóviles y estacionamientos en una ciudad de Florida",
+    "it": "Le acque alluvionali sommergono auto e parcheggi in una città della Florida",
+    "zh": "洪水淹没了佛罗里达州小镇的汽车和停车场",
+    "fr": "Les eaux de crue submergent les voitures et les parkings d’une ville de Floride",
+    "ar": "مياه الفيضانات تغمر السيارات ومواقف السيارات في مدينة فلوريدا",
+    "de": "Überschwemmungen überschwemmen Autos und Parkplätze in einer Stadt in Florida",
+    "el": "Οι πλημμύρες βυθίζουν αυτοκίνητα και χώρους στάθμευσης στην πόλη της Φλόριντα"
+   }
+  },
   {
    "source": "NYTIMES",
    "title": "The Permitting Bill Is Splitting the Environmental Movement",
    "url": "https://www.nytimes.com/2026/11/18/climate/permitting-bill-baaja-environmentalists-energy.html",
    "date": "2026-11-18T20:45:33+00:00",
-   "t": {}
+   "t": {
+    "pt": "O projeto de lei de licenciamento está dividindo o movimento ambientalista",
+    "es": "El proyecto de ley de permisos está dividiendo al movimiento ambientalista",
+    "it": "La legge sui permessi sta dividendo il movimento ambientalista",
+    "zh": "许可法案正在分裂环境运动",
+    "fr": "Le projet de loi d’autorisation divise le mouvement environnemental",
+    "ar": "مشروع قانون التصريح يقسم الحركة البيئية",
+    "de": "Das Genehmigungsgesetz spaltet die Umweltbewegung",
+    "el": "Το νομοσχέδιο για τις αδειοδοτήσεις διχάζει το Περιβαλλοντικό Κίνημα"
+   }
   },
   {
    "source": "BBC",
    "title": "Torrential rain causes widespread flooding in South Florida",
    "url": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-18T20:29:18+00:00",
-   "t": {}
+   "t": {
+    "pt": "Chuvas torrenciais causam inundações generalizadas no sul da Flórida",
+    "es": "Lluvias torrenciales provocan inundaciones generalizadas en el sur de Florida",
+    "it": "Le piogge torrenziali provocano diffuse inondazioni nel sud della Florida",
+    "zh": "暴雨导致南佛罗里达州大范围洪水泛滥",
+    "fr": "Des pluies torrentielles provoquent des inondations généralisées dans le sud de la Floride",
+    "ar": "تسببت الأمطار الغزيرة في حدوث فيضانات واسعة النطاق في جنوب فلوريدا",
+    "de": "Sintflutartige Regenfälle führen in Südflorida zu großflächigen Überschwemmungen",
+    "el": "Η καταρρακτώδης βροχή προκαλεί εκτεταμένες πλημμύρες στη Νότια Φλόριντα"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "Nepal Came to COP31 in Dire Need. It’s a Test for the World.",
    "url": "https://www.nytimes.com/2026/11/18/climate/nepal-disaster-aid-cop31.html",
    "date": "2026-11-18T20:08:35+00:00",
-   "t": {}
+   "t": {
+    "pt": "O Nepal chegou à COP31 em extrema necessidade. É um teste para o mundo.",
+    "es": "Nepal llegó a la COP31 en extrema necesidad. Es una prueba para el mundo.",
+    "it": "Il Nepal è arrivato alla COP31 in un disperato bisogno. È una prova per il mondo.",
+    "zh": "尼泊尔在迫切需要的情况下参加了 COP31。这是对世界的考验。",
+    "fr": "Le Népal est arrivé à la COP31 dans un besoin urgent. C'est un test pour le monde.",
+    "ar": "جاءت نيبال إلى COP31 وهي في أمس الحاجة إليها. إنه اختبار للعالم.",
+    "de": "Nepal kam in größter Not zur COP31. Es ist ein Test für die Welt.",
+    "el": "Το Νεπάλ έφτασε στο COP31 σε απόλυτη ανάγκη. Είναι μια δοκιμή για τον κόσμο."
+   }
   },
   {
    "source": "NYTIMES",
    "title": "N.I.H. Will Move Final Group of Retired Research Chimps to Sanctuary",
    "url": "https://www.nytimes.com/2026/11/18/science/nih-chimpanzees-sanctuary.html",
    "date": "2026-11-18T19:09:37+00:00",
-   "t": {}
+   "t": {
+    "pt": "NIH. Moverá o último grupo de chimpanzés pesquisadores aposentados para o santuário",
+    "es": "NIH. Trasladará al santuario el último grupo de chimpancés de investigación retirados",
+    "it": "NIH. Trasferirà l'ultimo gruppo di scimpanzé ricercatori in pensione al Santuario",
+    "zh": "NIH。将把最后一批退休的研究黑猩猩转移到庇护所",
+    "fr": "NIH. Déplacera le dernier groupe de chimpanzés de recherche à la retraite vers un sanctuaire",
+    "ar": "المعاهد الوطنية للصحة. سيتم نقل المجموعة النهائية من الشمبانزي البحثي المتقاعد إلى الملجأ",
+    "de": "NIH. Wird die letzte Gruppe pensionierter Forschungsschimpansen ins Schutzgebiet bringen",
+    "el": "NIH. Θα μεταφέρει την τελική ομάδα συνταξιούχων ερευνητών χιμπατζήδων στο Sanctuary"
+   }
   },
   {
    "source": "NYTIMES",
    "title": "‘Shocking’ Signs of Climate Change Add Urgency to COP31 Talks",
    "url": "https://www.nytimes.com/2026/11/18/climate/cop31-climate-global-warming.html",
    "date": "2026-11-18T17:42:27+00:00",
-   "t": {}
+   "t": {
+    "pt": "Sinais ‘chocantes’ de mudanças climáticas acrescentam urgência às negociações da COP31",
+    "es": "Señales “impactantes” de cambio climático añaden urgencia a las conversaciones de la COP31",
+    "it": "Segnali “scioccanti” del cambiamento climatico aggiungono urgenza ai colloqui sulla COP31",
+    "zh": "气候变化的“令人震惊”迹象增加了 COP31 会谈的紧迫性",
+    "fr": "Les signes « choquants » du changement climatique ajoutent de l’urgence aux négociations de la COP31",
+    "ar": "علامات تغير المناخ \"الصادمة\" تضيف إلحاحًا إلى محادثات COP31",
+    "de": "„Schockierende“ Anzeichen des Klimawandels erhöhen die Dringlichkeit der COP31-Gespräche",
+    "el": "Τα «σοκαριστικά» σημάδια της κλιματικής αλλαγής προσθέτουν επείγουσα ανάγκη στις συνομιλίες COP31"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "World ‘held hostage by oil mafia’, says Panama minister at Cop 31",
    "url": "https://www.theguardian.com/environment/2026/nov/18/world-held-hostage-by-oil-mafia-says-panama-minister-at-cop-31",
    "date": "2026-11-18T17:07:06+00:00",
-   "t": {}
+   "t": {
+    "pt": "Mundo ‘mantido refém da máfia do petróleo’, diz ministro do Panamá na Cop 31",
+    "es": "El mundo “rehén de la mafia petrolera”, dice ministro de Panamá en la Cop 31",
+    "it": "Il mondo “tenuto in ostaggio dalla mafia del petrolio”, afferma il ministro di Panama alla Cop 31",
+    "zh": "巴拿马部长在第 31 届缔约方大会上表示，世界“被石油黑手党劫持”",
+    "fr": "Le monde « pris en otage par la mafia du pétrole », déclare le ministre panaméen lors de la Cop 31",
+    "ar": "العالم \"محتجز لدى مافيا النفط\"، كما يقول وزير بنما في مؤتمر كوب 31",
+    "de": "Die Welt wird „von der Ölmafia als Geisel gehalten“, sagt der panamaische Minister bei der Cop 31",
+    "el": "Ο κόσμος «κρατείται όμηρος από τη πετρελαϊκή μαφία», λέει ο υπουργός του Παναμά στο Cop 31"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "UK government ‘breaking the law’ by not stopping decline of wild birds",
    "url": "https://www.theguardian.com/environment/2026/nov/18/uk-government-angela-eagle-natural-england-wild-birds-decline-",
    "date": "2026-11-18T16:56:18+00:00",
-   "t": {}
+   "t": {
+    "pt": "Governo do Reino Unido ‘infringindo a lei’ ao não impedir o declínio de aves selvagens",
+    "es": "El gobierno del Reino Unido 'viola la ley' al no detener la disminución de las aves silvestres",
+    "it": "Il governo britannico “viola la legge” non fermando il declino degli uccelli selvatici",
+    "zh": "英国政府不阻止野生鸟类数量下降“违法”",
+    "fr": "Le gouvernement britannique « enfreint la loi » en n’arrêtant pas le déclin des oiseaux sauvages",
+    "ar": "حكومة المملكة المتحدة \"تخرق القانون\" بعدم وقف تراجع أعداد الطيور البرية",
+    "de": "Die britische Regierung verstößt gegen das Gesetz, indem sie den Rückgang der Wildvögel nicht stoppt",
+    "el": "Η κυβέρνηση του Ηνωμένου Βασιλείου «παραβιάζει το νόμο» μη σταματά τη μείωση των άγριων πτηνών"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "Cop31 as it happened: rich world offering ‘crumbs’ to help poor countries adapt to climate breakdown, campaigners say",
    "url": "https://www.theguardian.com/environment/live/2026/nov/18/cop31-climate-crisis-talks-turkey-latest-news-updates",
    "date": "2026-11-18T15:34:06+00:00",
-   "t": {}
+   "t": {
+    "pt": "Cop31 como aconteceu: mundo rico oferecendo “migalhas” para ajudar os países pobres a se adaptarem ao colapso climático, dizem os ativistas",
+    "es": "Cop31 como sucedió: el mundo rico ofrece 'migajas' para ayudar a los países pobres a adaptarse al colapso climático, dicen los activistas",
+    "it": "Cop31 come è successo: il mondo ricco offre “briciole” per aiutare i paesi poveri ad adattarsi al collasso climatico, dicono gli attivisti",
+    "zh": "第三十一届缔约方会议的实际情况：活动人士称，富裕国家提供“面包屑”来帮助贫穷国家适应气候崩溃",
+    "fr": "La Cop31 telle qu'elle s'est déroulée : le monde riche offre des « miettes » pour aider les pays pauvres à s'adapter au dérèglement climatique, disent les militants",
+    "ar": "يقول الناشطون إن العالم الغني يقدم \"الفتات\" لمساعدة البلدان الفقيرة على التكيف مع انهيار المناخ",
+    "de": "Cop31, wie es geschah: Die reiche Welt bietet „Krümel“ an, um armen Ländern bei der Anpassung an den Klimawandel zu helfen, sagen Aktivisten",
+    "el": "Cop31 όπως έγινε: πλούσιος κόσμος προσφέρει «ψίχουλα» για να βοηθήσει τις φτωχές χώρες να προσαρμοστούν στην κλιματική κατάρρευση, λένε οι ακτιβιστές"
+   }
   },
   {
    "source": "GUARDIAN",
    "title": "‘Huge experiment in biogeography’: US offshore windfarms are creating artificial reefs",
    "url": "https://www.theguardian.com/us-news/2026/nov/18/offshore-wind-farms-artificial-reef-experiment-fishing-industry",
    "date": "2026-11-18T14:00:04+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "The seven Anthropic founders who are about to become multi-billionaires",
-   "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-18T13:55:14+00:00",
-   "t": {}
+   "t": {
+    "pt": "‘Grande experiência em biogeografia’: parques eólicos offshore dos EUA estão criando recifes artificiais",
+    "es": "“Gran experimento en biogeografía”: los parques eólicos marinos de EE. UU. están creando arrecifes artificiales",
+    "it": "“Grande esperimento di biogeografia”: i parchi eolici offshore degli Stati Uniti stanno creando barriere coralline artificiali",
+    "zh": "“生物地理学的巨大实验”：美国海上风电场正在建造人工鱼礁",
+    "fr": "« Énorme expérience de biogéographie » : des parcs éoliens offshore américains créent des récifs artificiels",
+    "ar": "\"تجربة ضخمة في الجغرافيا الحيوية\": تعمل مزارع الرياح البحرية في الولايات المتحدة على إنشاء شعاب مرجانية صناعية",
+    "de": "„Riesiges Experiment in der Biogeographie“: US-amerikanische Offshore-Windparks schaffen künstliche Riffe",
+    "el": "«Τεράστιο πείραμα στη βιογεωγραφία»: Τα υπεράκτια αιολικά πάρκα των ΗΠΑ δημιουργούν τεχνητούς υφάλους"
+   }
   },
   {
    "source": "BBC",
@@ -88,27 +242,20 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "William and Kate honour Earthshot Prize winners in Mumbai",
-   "url": "https://www.bbc.co.uk/news/videos/cmwy97rj83n1o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-18T11:18:04+00:00",
-   "t": {
-    "pt": "William e Kate homenageiam vencedores do Earthshot Prize em Mumbai",
-    "es": "William y Kate honran a los ganadores del Premio Earthshot en Mumbai",
-    "it": "William e Kate onorano i vincitori dell'Earthshot Prize a Mumbai",
-    "zh": "威廉和凯特在孟买向“地球挑战奖”获奖者颁奖",
-    "fr": "William et Kate honorent les lauréats du prix Earthshot à Mumbai",
-    "ar": "ويليام وكيت يكرمان الفائزين بجائزة إيرث شوت في مومباي",
-    "de": "William und Kate ehren die Gewinner des Earthshot-Preises in Mumbai",
-    "el": "Ο Γουίλιαμ και η Κέιτ τιμούν τους νικητές του Βραβείου Earthshot στη Βομβάη"
-   }
-  },
-  {
    "source": "NPR",
    "title": "They tried to torture him into leaving Iraq. He refused to abandon the nature he protects",
    "url": "https://www.npr.org/2026/11/18/nx-s1-6043167/iraq-environmentalist-marshes-iran-backed-militia-kidnapped",
    "date": "2026-11-18T10:00:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "Tentaram torturá-lo para que deixasse o Iraque. Ele se recusou a abandonar a natureza que protege",
+    "es": "Intentaron torturarlo para que abandonara Irak. Se negó a abandonar la naturaleza que protege.",
+    "it": "Hanno cercato di torturarlo affinché lasciasse l'Iraq. Si è rifiutato di abbandonare la natura che protegge",
+    "zh": "他们试图折磨他离开伊拉克。他拒绝放弃他所保护的自然",
+    "fr": "Ils ont essayé de le torturer pour qu'il quitte l'Irak. Il a refusé d'abandonner la nature qu'il protège",
+    "ar": "وحاولوا تعذيبه لحمله على مغادرة العراق. لقد رفض التخلي عن الطبيعة التي يحميها",
+    "de": "Sie versuchten, ihn durch Folter dazu zu bringen, den Irak zu verlassen. Er weigerte sich, die Natur, die er beschützte, aufzugeben",
+    "el": "Προσπάθησαν να τον βασανίσουν για να φύγει από το Ιράκ. Αρνήθηκε να εγκαταλείψει τη φύση που προστατεύει"
+   }
   },
   {
    "source": "DW",
@@ -131,28 +278,64 @@
    "title": "Tropical land-use intensification reshapes biodiversity in expected and unexpected ways",
    "url": "https://www.nature.com/articles/d41586-026-03602-1",
    "date": "2026-11-18T00:00:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "A intensificação do uso da terra tropical remodela a biodiversidade de maneiras esperadas e inesperadas",
+    "es": "La intensificación del uso de la tierra tropical remodela la biodiversidad de maneras esperadas e inesperadas",
+    "it": "L’intensificazione dell’uso del territorio tropicale rimodella la biodiversità in modi attesi e inaspettati",
+    "zh": "热带土地利用集约化以预期和意想不到的方式重塑生物多样性",
+    "fr": "L’intensification de l’utilisation des terres tropicales remodèle la biodiversité de manière attendue et inattendue",
+    "ar": "إن تكثيف استخدام الأراضي الاستوائية يعيد تشكيل التنوع البيولوجي بطرق متوقعة وغير متوقعة",
+    "de": "Die Intensivierung der tropischen Landnutzung verändert die Artenvielfalt auf erwartete und unerwartete Weise",
+    "el": "Η εντατικοποίηση της τροπικής χρήσης γης αναδιαμορφώνει τη βιοποικιλότητα με αναμενόμενους και απροσδόκητους τρόπους"
+   }
   },
   {
    "source": "NATURE",
    "title": "Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems",
    "url": "https://www.nature.com/articles/s41586-026-11427-1",
    "date": "2026-11-18T00:00:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "Heterointerfaces estendidas de banda para células solares de perovskita e tandems",
+    "es": "Heterointerfaces extendidas de borde de banda para tándems y células solares de perovskita",
+    "it": "Eterointerfacce estese a bordo banda per celle solari e tandem in perovskite",
+    "zh": "用于钙钛矿太阳能电池和串联的带边扩展异质界面",
+    "fr": "Hétérointerfaces à bande étendue pour les cellules solaires et les tandems à pérovskite",
+    "ar": "واجهات غير متجانسة ممتدة على حافة النطاق لخلايا البيروفسكايت الشمسية والترادفات",
+    "de": "Bandkantenerweiterte Heteroschnittstellen für Perowskit-Solarzellen und Tandems",
+    "el": "Εκτεταμένες ετεροδιεπαφές με άκρα ζώνης για ηλιακά κύτταρα και διαδοχικά στοιχεία Perovskite"
+   }
   },
   {
    "source": "NATURE",
    "title": "A new view of Amazonian leaf seasonality",
    "url": "https://www.nature.com/articles/d41586-026-03490-5",
    "date": "2026-11-18T00:00:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "Uma nova visão da sazonalidade foliar na Amazônia",
+    "es": "Una nueva visión de la estacionalidad de las hojas amazónicas",
+    "it": "Una nuova visione della stagionalità delle foglie amazzoniche",
+    "zh": "亚马逊树叶季节性的新观点",
+    "fr": "Une nouvelle vision de la saisonnalité des feuilles amazoniennes",
+    "ar": "وجهة نظر جديدة لموسمية أوراق الأمازون",
+    "de": "Eine neue Sicht auf die Blattsaisonalität des Amazonas",
+    "el": "Μια νέα άποψη της εποχικότητας των φύλλων του Αμαζονίου"
+   }
   },
   {
    "source": "NATURE",
    "title": "Widespread deciduousness reveals diverse Amazonian phenological strategies",
    "url": "https://www.nature.com/articles/s41586-026-11284-y",
    "date": "2026-11-18T00:00:00+00:00",
-   "t": {}
+   "t": {
+    "pt": "A deciduidade generalizada revela diversas estratégias fenológicas amazônicas",
+    "es": "La caducifolia generalizada revela diversas estrategias fenológicas amazónicas",
+    "it": "La deciduità diffusa rivela diverse strategie fenologiche amazzoniche",
+    "zh": "广泛的落叶揭示了亚马逊不同的物候策略",
+    "fr": "La présence généralisée de feuilles caduques révèle diverses stratégies phénologiques amazoniennes",
+    "ar": "يكشف الغطاء المتساقط على نطاق واسع عن استراتيجيات فينولوجية أمازونية متنوعة",
+    "de": "Die weitverbreitete Laubbewirtschaftung offenbart unterschiedliche phänologische Strategien im Amazonasgebiet",
+    "el": "Η ευρέως διαδεδομένη φυλλοβόλα αποκαλύπτει διάφορες φαινολογικές στρατηγικές του Αμαζονίου"
+   }
   },
   {
    "source": "DW",
@@ -201,45 +384,6 @@
     "de": "Könnte Geldmangel dazu führen, dass der TFFF-Regenwaldfonds sinkt, bevor er überhaupt aufgelegt wird?",
     "el": "Θα μπορούσε η έλλειψη χρημάτων να βυθίσει το ταμείο τροπικών δασών TFFF πριν καν ξεκινήσει;"
    }
-  },
-  {
-   "source": "NPR",
-   "title": "Colorado flood victims hope for speedier federal help",
-   "url": "https://www.npr.org/2026/11/12/nx-s1-6036811/colorado-flood-victims-hope-for-speedier-federal-help",
-   "date": "2026-11-12T23:51:38+00:00",
-   "t": {
-    "pt": "Vítimas das enchentes no Colorado esperam ajuda federal mais rápida",
-    "es": "Las víctimas de las inundaciones en Colorado esperan una ayuda federal más rápida",
-    "it": "Le vittime delle inondazioni del Colorado sperano in un aiuto federale più rapido",
-    "zh": "科罗拉多州洪水灾民希望联邦政府更快提供帮助",
-    "fr": "Les victimes des inondations au Colorado espèrent une aide fédérale plus rapide",
-    "ar": "يأمل ضحايا فيضانات كولورادو في الحصول على مساعدة فيدرالية أسرع",
-    "de": "Die Flutopfer in Colorado hoffen auf schnellere staatliche Hilfe",
-    "el": "Τα θύματα των πλημμυρών του Κολοράντο ελπίζουν σε ταχύτερη ομοσπονδιακή βοήθεια"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
-   "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
-   "date": "2026-11-12T03:10:32+00:00",
-   "t": {
-    "pt": "O transatlântico mais rápido do mundo é afundado e quebra outro recorde: o maior recife artificial",
-    "es": "El transatlántico más rápido del mundo se hunde para batir otro récord: el arrecife artificial más grande",
-    "it": "Il transatlantico più veloce del mondo viene affondato per battere un altro record: la più grande barriera corallina artificiale",
-    "zh": "世界最快远洋客轮沉没打破另一纪录：最大人工鱼礁",
-    "fr": "Le paquebot le plus rapide du monde est coulé et bat un autre record : le plus grand récif artificiel",
-    "ar": "غرقت أسرع سفينة محيطية في العالم لتحطيم رقم قياسي آخر: أكبر شعاب مرجانية صناعية",
-    "de": "Der schnellste Ozeandampfer der Welt wird versenkt und bricht einen weiteren Rekord: das größte künstliche Riff",
-    "el": "Το ταχύτερο υπερωκεάνιο στον κόσμο βυθίστηκε για να σπάσει άλλο ένα ρεκόρ: τον μεγαλύτερο τεχνητό ύφαλο"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "A massive ship is being sunk off Florida to make an artificial reef",
-   "url": "https://www.npr.org/2026/11/11/nx-s1-6035793/a-massive-ship-is-being-sunk-off-florida-to-make-an-artificial-reef",
-   "date": "2026-11-11T10:02:49+00:00",
-   "t": {}
   }
  ]
 }
