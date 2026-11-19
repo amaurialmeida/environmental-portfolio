@@ -1,116 +1,228 @@
 {
- "updated": "2026-11-19T12:59:20.092793+00:00",
+ "updated": "2026-11-19T21:29:30.012746+00:00",
  "items": [
   {
    "source": "NYTIMES",
-   "title": "How the War in Iran Will Remake the Global Energy Order",
-   "url": "https://www.nytimes.com/2026/11/19/business/cop31-energy-iea.html",
-   "date": "2026-11-19T12:51:17+00:00",
+   "title": "U.S. Auctions 31.5 Million Acres of Pacific Ocean to Deep Sea Mining Company",
+   "url": "https://www.nytimes.com/2026/11/19/climate/metals-company-seafloor-mining-auction.html",
+   "date": "2026-11-19T21:05:59+00:00",
    "t": {
-    "pt": "Como a guerra no Irão irá remodelar a ordem energética global",
-    "es": "Cómo la guerra en Irán reestructurará el orden energético global",
-    "it": "Come la guerra in Iran rimodellerà l’ordine energetico globale",
-    "zh": "伊朗战争将如何重塑全球能源秩序",
-    "fr": "Comment la guerre en Iran va remodeler l’ordre énergétique mondial",
-    "ar": "كيف ستعيد الحرب في إيران تشكيل نظام الطاقة العالمي؟",
-    "de": "Wie der Krieg im Iran die globale Energieordnung neu gestalten wird",
-    "el": "Πώς ο πόλεμος στο Ιράν θα επαναφέρει την παγκόσμια ενεργειακή τάξη"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘It’s a biohazard’: Native communities in US south-west try to recover after flooding intensified by El Niño",
-   "url": "https://www.theguardian.com/us-news/2026/nov/19/el-nino-flooding-native-communities",
-   "date": "2026-11-19T12:30:47+00:00",
-   "t": {
-    "pt": "‘É um risco biológico’: comunidades nativas no sudoeste dos EUA tentam se recuperar após enchentes intensificadas pelo El Niño",
-    "es": "“Es un riesgo biológico”: las comunidades nativas del suroeste de EE. UU. intentan recuperarse después de las inundaciones intensificadas por El Niño",
-    "it": "“È un rischio biologico”: le comunità native nel sud-ovest degli Stati Uniti cercano di riprendersi dopo le inondazioni intensificate da El Niño",
-    "zh": "“这是一场生物危害”：美国西南部的土著社区在厄尔尼诺现象加剧洪水后试图恢复",
-    "fr": "« C'est un risque biologique » : les communautés autochtones du sud-ouest des États-Unis tentent de se rétablir après les inondations intensifiées par El Niño",
-    "ar": "\"إنه خطر بيولوجي\": تحاول المجتمعات الأصلية في جنوب غرب الولايات المتحدة التعافي بعد الفيضانات التي اشتدت بسبب ظاهرة النينيو",
-    "de": "„Es ist eine biologische Gefahr“: Einheimische Gemeinden im Südwesten der USA versuchen, sich nach den durch El Niño verstärkten Überschwemmungen zu erholen",
-    "el": "«Είναι ένας βιολογικός κίνδυνος»: Οι ιθαγενείς κοινότητες στις νοτιοδυτικές ΗΠΑ προσπαθούν να ανακάμψουν μετά τις πλημμύρες που εντάθηκαν από το Ελ Νίνιο"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Cop31 live: Fossil fuels dumped from latest draft deal at climate summit",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/19/cop31-climate-turkey-live-news-updates-",
-   "date": "2026-11-19T12:30:37+00:00",
-   "t": {
-    "pt": "Cop31 ao vivo: Combustíveis fósseis descartados do último rascunho do acordo na cúpula do clima",
-    "es": "Cop31 en vivo: Los combustibles fósiles descartados del último borrador del acuerdo en la cumbre sobre el clima",
-    "it": "Cop31 in diretta: combustibili fossili abbandonati dall'ultima bozza di accordo al vertice sul clima",
-    "zh": "第 31 届缔约方会议直播：气候峰会最新协议草案中倾销化石燃料",
-    "fr": "Cop31 en direct : les combustibles fossiles exclus du dernier projet d'accord au sommet sur le climat",
-    "ar": "Cop31 مباشر: تم التخلص من الوقود الأحفوري من أحدث مسودة صفقة في قمة المناخ",
-    "de": "Cop31 live: Fossile Brennstoffe aus dem neuesten Vertragsentwurf beim Klimagipfel gestrichen",
-    "el": "Cop31 live: Τα ορυκτά καύσιμα απορρίφθηκαν από το τελευταίο προσχέδιο συμφωνίας στη σύνοδο κορυφής για το κλίμα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Race to replant five South African baobabs after export blocked",
-   "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
-   "date": "2026-11-19T11:03:24+00:00",
-   "t": {
-    "pt": "Corrida para replantar cinco baobás sul-africanos após exportação bloqueada",
-    "es": "Carrera para replantar cinco baobabs sudafricanos después de que se bloqueara su exportación",
-    "it": "Corsa per ripiantare cinque baobab sudafricani dopo il blocco delle esportazioni",
-    "zh": "出口受阻后竞相重新种植五株南非猴面包树",
-    "fr": "Course pour replanter cinq baobabs sud-africains après le blocage des exportations",
-    "ar": "سباق لإعادة زراعة خمسة أشجار باوباب جنوب أفريقية بعد حظر التصدير",
-    "de": "Wettlauf um die Wiederanpflanzung von fünf südafrikanischen Affenbrotbäumen nach Exportblockade",
-    "el": "Αγώνας για την αναφύτευση πέντε Νοτιοαφρικανικών μπαομπάμπ μετά από αποκλεισμό των εξαγωγών"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "U.S. Army Plans to Blow Up Old Ammo, Creating Toxic Cloud Over Iowa",
-   "url": "https://www.nytimes.com/2026/11/19/climate/iowa-ammunition-explosion-lead-dust.html",
-   "date": "2026-11-19T10:03:25+00:00",
-   "t": {
-    "pt": "Exército dos EUA planeja explodir munições antigas, criando nuvem tóxica sobre Iowa",
-    "es": "El ejército de EE. UU. planea hacer estallar munición vieja, creando una nube tóxica sobre Iowa",
-    "it": "L'esercito americano progetta di far esplodere vecchie munizioni, creando una nube tossica sull'Iowa",
-    "zh": "美国陆军计划炸毁旧弹药，在爱荷华州上空制造有毒云",
-    "fr": "L'armée américaine envisage de faire exploser de vieilles munitions, créant un nuage toxique au-dessus de l'Iowa",
-    "ar": "يخطط الجيش الأمريكي لتفجير ذخيرة قديمة، مما يؤدي إلى خلق سحابة سامة فوق ولاية أيوا",
-    "de": "Die US-Armee plant, alte Munition in die Luft zu jagen und eine giftige Wolke über Iowa zu erzeugen",
-    "el": "Ο στρατός των ΗΠΑ σχεδιάζει να ανατινάξει παλιά πυρομαχικά, δημιουργώντας τοξικό σύννεφο πάνω από την Αϊόβα"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Inside COP31: Part Trade Show, Part Climate Therapy Session",
-   "url": "https://www.nytimes.com/2026/11/19/climate/cop31-turkey-event-scene.html",
-   "date": "2026-11-19T10:02:50+00:00",
-   "t": {
-    "pt": "Por dentro da COP31: Parte Feira, Parte Sessão de Terapia Climática",
-    "es": "Dentro de la COP31: en parte feria comercial, en parte sesión de terapia climática",
-    "it": "All'interno della COP31: in parte fiera, in parte sessione di terapia climatica",
-    "zh": "COP31 内部：部分贸易展，部分气候治疗会议",
-    "fr": "À l’intérieur de la COP31 : en partie salon professionnel, en partie séance de thérapie climatique",
-    "ar": "داخل مؤتمر الأطراف 31: جزء من المعرض التجاري، وجزء من جلسة العلاج المناخي",
-    "de": "Inside COP31: Teils Messe, teils Klimatherapie-Sitzung",
-    "el": "Μέσα στο COP31: Part Trade Show, Part Climate Therapy Session"
+    "pt": "EUA leiloam 31,5 milhões de acres do Oceano Pacífico para Deep Sea Mining Company",
+    "es": "Estados Unidos subasta 31,5 millones de acres de océano Pacífico a una empresa minera de aguas profundas",
+    "it": "Gli Stati Uniti mettono all'asta 31,5 milioni di acri di Oceano Pacifico alla Deep Sea Mining Company",
+    "zh": "美国向深海矿业公司拍卖 3150 万英亩太平洋",
+    "fr": "Les États-Unis mettent aux enchères 31,5 millions d’acres d’océan Pacifique à une société minière en haute mer",
+    "ar": "الولايات المتحدة تبيع 31.5 مليون فدان من المحيط الهادئ لشركة Deep Sea Mining",
+    "de": "USA versteigert 31,5 Millionen Acres Pazifischer Ozean an Deep Sea Mining Company",
+    "el": "Οι ΗΠΑ δημοπρατούν 31,5 εκατομμύρια στρέμματα Ειρηνικού Ωκεανού σε εταιρεία εξόρυξης βαθέων υδάτων"
    }
   },
   {
    "source": "BBC",
-   "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
-   "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-19T09:21:54+00:00",
+   "title": "BBC Inside Science",
+   "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_west_africa?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-19T21:00:00+00:00",
    "t": {
-    "pt": "Sobreviventes do deslizamento de terra mortal em Uganda buscam justiça na ONU",
-    "es": "Los supervivientes del mortal deslizamiento de tierra en Uganda buscan justicia en la ONU",
-    "it": "I sopravvissuti alla frana mortale avvenuta in Uganda chiedono giustizia alle Nazioni Unite",
-    "zh": "乌干达致命山体滑坡的幸存者向联合国寻求正义",
-    "fr": "Les survivants du glissement de terrain meurtrier en Ouganda demandent justice à l'ONU",
-    "ar": "الناجون من الانهيار الأرضي المميت في أوغندا يطالبون بالعدالة في الأمم المتحدة",
-    "de": "Überlebende des tödlichen Erdrutschs in Uganda fordern Gerechtigkeit bei den Vereinten Nationen",
-    "el": "Οι επιζώντες της φονικής κατολίσθησης της Ουγκάντα αναζητούν δικαιοσύνη στον ΟΗΕ"
+    "pt": "BBC por dentro da ciência",
+    "es": "BBC dentro de la ciencia",
+    "it": "BBC Dentro la scienza",
+    "zh": "BBC 科学内幕",
+    "fr": "BBC à l'intérieur de la science",
+    "ar": "بي بي سي داخل العلوم",
+    "de": "BBC Inside Science",
+    "el": "BBC Inside Science"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Judge Finds Trump’s Planned Seabed Mining Auction Violated Law",
+   "url": "https://www.nytimes.com/2026/11/17/climate/seabed-mining-lease-auction.html",
+   "date": "2026-11-19T20:31:15+00:00",
+   "t": {
+    "pt": "Juiz considera que o leilão de mineração do fundo do mar planejado por Trump violou a lei",
+    "es": "Juez considera que la subasta de minería de fondos marinos planificada por Trump violó la ley",
+    "it": "Il giudice ritiene che l’asta mineraria dei fondali marini pianificata da Trump abbia violato la legge",
+    "zh": "法官裁定特朗普计划的海底采矿拍卖违反法律",
+    "fr": "Le juge conclut que la vente aux enchères prévue par Trump pour l’exploitation minière des fonds marins viole la loi",
+    "ar": "القاضي يجد أن مزاد ترامب للتعدين في قاع البحر ينتهك القانون",
+    "de": "Richter stellt fest, dass Trumps geplante Meeresbodenbergbau-Auktion gegen das Gesetz verstößt",
+    "el": "Ο δικαστής έκρινε ότι η προγραμματισμένη δημοπρασία εξόρυξης του Τραμπ στον βυθό της θάλασσας παραβιάζεται"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Oil firm fined for breaking environmental rules hundreds of times",
+   "url": "https://www.bbc.co.uk/news/articles/cmwy5de1177yo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-19T19:58:27+00:00",
+   "t": {
+    "pt": "Empresa petrolífera multada centenas de vezes por quebrar regras ambientais",
+    "es": "Empresa petrolera multada por infringir normas medioambientales cientos de veces",
+    "it": "Azienda petrolifera multata centinaia di volte per aver infranto le norme ambientali",
+    "zh": "石油公司因违反环保规定数百次被罚款",
+    "fr": "Une société pétrolière condamnée à des amendes pour avoir enfreint les règles environnementales des centaines de fois",
+    "ar": "تغريم شركة النفط لخرقها القواعد البيئية مئات المرات",
+    "de": "Ölkonzern wegen hundertfacher Verstöße gegen Umweltvorschriften mit Geldstrafe belegt",
+    "el": "Επιβλήθηκε πρόστιμο σε εταιρεία πετρελαίου επειδή παραβίασε τους περιβαλλοντικούς κανόνες εκατοντάδες φορές"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Army Warns Iowa of Toxic Cloud as It Prepares to Blow Up Old Ammo",
+   "url": "https://www.nytimes.com/2026/11/19/climate/iowa-ammunition-explosion-lead-dust.html",
+   "date": "2026-11-19T19:43:30+00:00",
+   "t": {
+    "pt": "Exército alerta Iowa sobre nuvem tóxica enquanto se prepara para explodir munição antiga",
+    "es": "El ejército advierte a Iowa sobre una nube tóxica mientras se prepara para hacer estallar munición vieja",
+    "it": "L'esercito avverte l'Iowa della nube tossica mentre si prepara a far esplodere vecchie munizioni",
+    "zh": "陆军警告爱荷华州有毒云，准备炸毁旧弹药",
+    "fr": "L'armée met en garde l'Iowa contre un nuage toxique alors qu'elle se prépare à faire exploser de vieilles munitions",
+    "ar": "الجيش يحذر ولاية أيوا من السحابة السامة بينما يستعد لتفجير الذخيرة القديمة",
+    "de": "Armee warnt Iowa vor giftiger Wolke, während sie sich darauf vorbereitet, alte Munition in die Luft zu jagen",
+    "el": "Ο στρατός προειδοποιεί την Αϊόβα για τοξικό σύννεφο καθώς ετοιμάζεται να ανατινάξει παλιά πυρομαχικά"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "Uganda minister at COP31: 'We need a just transition'",
+   "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-19T19:31:00+00:00",
+   "t": {
+    "pt": "Ministro do Uganda na COP31: 'Precisamos de uma transição justa'",
+    "es": "Ministro de Uganda en la COP31: \"Necesitamos una transición justa\"",
+    "it": "Il ministro dell'Uganda alla COP31: 'Abbiamo bisogno di una transizione giusta'",
+    "zh": "乌干达部长在 COP31 上：“我们需要公正的过渡”",
+    "fr": "Ministre ougandais à la COP31 : « Nous avons besoin d’une transition juste »",
+    "ar": "وزير أوغندي في COP31: \"نحن بحاجة إلى انتقال عادل\"",
+    "de": "Uganda-Minister auf COP31: „Wir brauchen einen gerechten Übergang“",
+    "el": "Υπουργός της Ουγκάντα στο COP31: «Χρειαζόμαστε μια δίκαιη μετάβαση»"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Cop31 told it risks being ‘ghost’ summit as all mentions of fossil fuels removed from draft text",
+   "url": "https://www.theguardian.com/environment/2026/nov/19/cop31-risks-becoming-ghost-summit-after-all-mentions-of-fossil-fuels-removed-from-draft-text",
+   "date": "2026-11-19T17:58:21+00:00",
+   "t": {
+    "pt": "A Cop31 disse que corre o risco de ser uma cimeira “fantasma”, já que todas as menções aos combustíveis fósseis foram removidas do projecto de texto",
+    "es": "La Cop31 dijo que corre el riesgo de ser una cumbre “fantasma” ya que todas las menciones a los combustibles fósiles se eliminan del borrador del texto.",
+    "it": "La Cop31 ha affermato che rischia di essere un vertice “fantasma” poiché tutte le menzioni dei combustibili fossili sono state rimosse dalla bozza del testo",
+    "zh": "第三十一届缔约方会议表示，由于所有提及化石燃料的内容都从草案文本中删除，因此该峰会有可能成为“幽灵”峰会",
+    "fr": "La Cop31 a déclaré qu'elle risquait d'être un sommet « fantôme » puisque toutes les mentions des combustibles fossiles ont été supprimées du projet de texte",
+    "ar": "أخبر مؤتمر Cop31 أنها تخاطر بأن تصبح قمة \"شبح\" حيث تمت إزالة جميع الإشارات إلى الوقود الأحفوري من مسودة النص",
+    "de": "Cop31 sagte, es bestehe die Gefahr, dass es sich um einen „Geistergipfel“ handele, da alle Erwähnungen fossiler Brennstoffe aus dem Textentwurf gestrichen würden",
+    "el": "Το Cop31 είπε ότι κινδυνεύει να γίνει σύνοδος κορυφής «φάντασμα», καθώς όλες οι αναφορές για ορυκτά καύσιμα αφαιρέθηκαν από το προσχέδιο"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "The Permitting Bill Is Splitting the Environmental Movement",
+   "url": "https://www.nytimes.com/2026/11/18/climate/permitting-bill-baaja-environmentalists-energy.html",
+   "date": "2026-11-19T17:49:59+00:00",
+   "t": {
+    "pt": "O projeto de lei de licenciamento está dividindo o movimento ambientalista",
+    "es": "El proyecto de ley de permisos está dividiendo al movimiento ambientalista",
+    "it": "La legge sui permessi sta dividendo il movimento ambientalista",
+    "zh": "许可法案正在分裂环境运动",
+    "fr": "Le projet de loi d’autorisation divise le mouvement environnemental",
+    "ar": "مشروع قانون التصريح يقسم الحركة البيئية",
+    "de": "Das Genehmigungsgesetz spaltet die Umweltbewegung",
+    "el": "Το νομοσχέδιο για τις αδειοδοτήσεις διχάζει το Περιβαλλοντικό Κίνημα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "US army plan to detonate bomb-making chemicals has Iowa residents bracing for lead dust cloud",
+   "url": "https://www.theguardian.com/us-news/2026/nov/19/iowa-lead-bomb-dust",
+   "date": "2026-11-19T17:18:08+00:00",
+   "t": {
+    "pt": "O plano do exército dos EUA para detonar produtos químicos para fabricação de bombas faz com que os residentes de Iowa se preparem para uma nuvem de poeira de chumbo",
+    "es": "El plan del ejército estadounidense para detonar sustancias químicas para fabricar bombas tiene a los residentes de Iowa preparándose para una nube de polvo de plomo",
+    "it": "Il piano dell'esercito americano di far esplodere sostanze chimiche per fabbricare bombe sta costringendo i residenti dell'Iowa a prepararsi alla nube di polvere di piombo",
+    "zh": "美国陆军计划引爆制造炸弹的化学品，爱荷华州居民为铅尘云做好准备",
+    "fr": "Le projet de l'armée américaine de faire exploser des produits chimiques destinés à fabriquer des bombes incite les habitants de l'Iowa à se préparer à un nuage de poussière de plomb.",
+    "ar": "خطة الجيش الأمريكي لتفجير المواد الكيميائية المستخدمة في صنع القنابل جعلت سكان ولاية أيوا يستعدون لسحابة غبار الرصاص",
+    "de": "Der Plan der US-Armee, Chemikalien zur Bombenherstellung zur Explosion zu bringen, bereitet den Einwohnern von Iowa Angst vor einer Bleistaubwolke",
+    "el": "Το σχέδιο του αμερικανικού στρατού να πυροδοτήσει χημικά που παράγουν βόμβες έχει τους κατοίκους της Αϊόβα να προετοιμάζονται για σύννεφο μολύβδου σκόνης"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Rare rhino's first steps captured on video at zoo",
+   "url": "https://www.bbc.co.uk/news/articles/cmly7dvjqg8xo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-19T16:28:41+00:00",
+   "t": {
+    "pt": "Primeiros passos de rinocerontes raros capturados em vídeo no zoológico",
+    "es": "Los primeros pasos de un raro rinoceronte captados en vídeo en un zoológico",
+    "it": "I primi passi di un raro rinoceronte catturati in un video allo zoo",
+    "zh": "动物园视频捕捉到稀有犀牛的第一步",
+    "fr": "Les premiers pas d'un rhinocéros rare capturés en vidéo au zoo",
+    "ar": "تم تصوير الخطوات الأولى لوحيد القرن النادر بالفيديو في حديقة الحيوان",
+    "de": "Die ersten Schritte eines seltenen Nashorns im Zoo auf Video festgehalten",
+    "el": "Τα πρώτα βήματα ενός σπάνιου ρινόκερου καταγράφηκαν σε βίντεο στο ζωολογικό κήπο"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Cop31 as it happened: Fossil fuels dumped from latest draft deal at climate summit",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/19/cop31-climate-turkey-live-news-updates-",
+   "date": "2026-11-19T16:09:06+00:00",
+   "t": {
+    "pt": "Cop31 como aconteceu: combustíveis fósseis descartados do último rascunho do acordo na cúpula do clima",
+    "es": "Cop31 como sucedió: Los combustibles fósiles descartados del último borrador del acuerdo en la cumbre sobre el clima",
+    "it": "Cop31 come è successo: combustibili fossili abbandonati dall'ultima bozza di accordo al vertice sul clima",
+    "zh": "第三十一届缔约方大会的实际情况：气候峰会最新协议草案中倾销化石燃料",
+    "fr": "La Cop31 telle qu'elle s'est produite : les combustibles fossiles exclus du dernier projet d'accord au sommet sur le climat",
+    "ar": "Cop31 كما حدث: تم التخلص من الوقود الأحفوري من أحدث مسودة اتفاق في قمة المناخ",
+    "de": "Cop31, wie es geschah: Fossile Brennstoffe wurden beim Klimagipfel aus dem neuesten Vertragsentwurf gestrichen",
+    "el": "Cop31 όπως έγινε: Τα ορυκτά καύσιμα απορρίφθηκαν από το τελευταίο προσχέδιο συμφωνίας στη σύνοδο κορυφής για το κλίμα"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "No mention of fossil fuels in latest COP31 draft deal",
+   "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-19T16:03:00+00:00",
+   "t": {
+    "pt": "Nenhuma menção aos combustíveis fósseis no último rascunho do acordo COP31",
+    "es": "No se mencionan los combustibles fósiles en el último borrador del acuerdo COP31",
+    "it": "Nessuna menzione dei combustibili fossili nell’ultima bozza di accordo COP31",
+    "zh": "最新的 COP31 协议草案中没有提及化石燃料",
+    "fr": "Aucune mention des combustibles fossiles dans le dernier projet d'accord de la COP31",
+    "ar": "لم يتم ذكر الوقود الأحفوري في مسودة اتفاق COP31 الأخيرة",
+    "de": "Keine Erwähnung fossiler Brennstoffe im jüngsten COP31-Abkommensentwurf",
+    "el": "Καμία αναφορά στα ορυκτά καύσιμα στο τελευταίο προσχέδιο συμφωνίας COP31"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Trump takes 500 actions to weaken cancer protections, new report says",
+   "url": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
+   "date": "2026-11-19T14:15:15+00:00",
+   "t": {
+    "pt": "Trump toma 500 ações para enfraquecer a proteção contra o câncer, diz novo relatório",
+    "es": "Trump toma 500 acciones para debilitar las protecciones contra el cáncer, según un nuevo informe",
+    "it": "Trump intraprende 500 azioni per indebolire le protezioni contro il cancro, afferma un nuovo rapporto",
+    "zh": "新报告称特朗普采取 500 项行动削弱癌症保护",
+    "fr": "Trump prend 500 mesures pour affaiblir la protection contre le cancer, selon un nouveau rapport",
+    "ar": "يقول تقرير جديد إن ترامب يتخذ 500 إجراء لإضعاف الحماية من السرطان",
+    "de": "Trump ergreift 500 Maßnahmen, um den Schutz vor Krebs zu schwächen, heißt es in einem neuen Bericht",
+    "el": "Ο Τραμπ λαμβάνει 500 μέτρα για να αποδυναμώσει την προστασία από τον καρκίνο, αναφέρει νέα έκθεση"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Wading bird called Phil tracked in epic migration to Siberia and back",
+   "url": "https://www.bbc.co.uk/news/articles/c6qj5dl29zqro?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-19T13:35:29+00:00",
+   "t": {
+    "pt": "Pássaro pernalta chamado Phil rastreado em migração épica para a Sibéria e vice-versa",
+    "es": "Se rastrea a un pájaro zancudo llamado Phil en una migración épica a Siberia y de regreso",
+    "it": "L'uccello trampoliere chiamato Phil è stato seguito durante l'epica migrazione verso la Siberia e ritorno",
+    "zh": "一种名叫菲尔的涉水鸟在西伯利亚和返回的史诗般的迁徙中被追踪",
+    "fr": "Un échassier appelé Phil suivi lors d'une migration épique vers la Sibérie et retour",
+    "ar": "طائر خواض يُدعى فيل يتعقب هجرة ملحمية إلى سيبيريا والعودة",
+    "de": "Watvogel namens Phil wurde auf seiner epischen Wanderung nach Sibirien und zurück verfolgt",
+    "el": "Το πουλί που ονομαζόταν Phil παρακολουθεί την επική μετανάστευση στη Σιβηρία και πίσω"
    }
   },
   {
@@ -130,83 +242,19 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "IPCC report delay will threaten global effort to tackle climate crisis, says top scientist",
-   "url": "https://www.theguardian.com/science/2026/nov/19/ipcc-report-delay-climate-crisis-scientist",
-   "date": "2026-11-19T07:16:45+00:00",
+   "source": "NATURE",
+   "title": "More tropical cyclones hit peak fury at the worst possible time",
+   "url": "https://www.nature.com/articles/d41586-026-03748-y",
+   "date": "2026-11-19T00:00:00+00:00",
    "t": {
-    "pt": "Atraso no relatório do IPCC ameaçará esforço global para enfrentar a crise climática, diz cientista renomado",
-    "es": "El retraso del informe del IPCC amenazará el esfuerzo global para abordar la crisis climática, dice un destacado científico",
-    "it": "Il ritardo nel rapporto dell’IPCC metterà a repentaglio gli sforzi globali per affrontare la crisi climatica, afferma uno scienziato di primo piano",
-    "zh": "顶级科学家表示，IPCC报告的延迟将威胁全球应对气候危机的努力",
-    "fr": "Le retard du rapport du GIEC menacera les efforts mondiaux de lutte contre la crise climatique, selon un scientifique de renom",
-    "ar": "يقول أحد كبار العلماء إن تأخير تقرير الهيئة الحكومية الدولية المعنية بتغير المناخ سيهدد الجهود العالمية لمعالجة أزمة المناخ",
-    "de": "Eine Verzögerung des IPCC-Berichts wird die weltweiten Bemühungen zur Bewältigung der Klimakrise gefährden, sagt Spitzenwissenschaftler",
-    "el": "Η καθυστέρηση της έκθεσης της IPCC θα απειλήσει την παγκόσμια προσπάθεια για την αντιμετώπιση της κλιματικής κρίσης, λέει κορυφαίος επιστήμονας"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Developer accused of 'environmental vandalism'",
-   "url": "https://www.bbc.co.uk/news/articles/cmeq4nx95qpdo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-19T06:09:25+00:00",
-   "t": {
-    "pt": "Desenvolvedor acusado de ‘vandalismo ambiental’",
-    "es": "Desarrollador acusado de \"vandalismo ambiental\"",
-    "it": "Costruttore accusato di \"vandalismo ambientale\"",
-    "zh": "开发商被指控“破坏环境”",
-    "fr": "Un promoteur accusé de « vandalisme environnemental »",
-    "ar": "المطور متهم بـ \"التخريب البيئي\"",
-    "de": "Entwickler wird wegen „Umweltvandalismus“ angeklagt",
-    "el": "Προγραμματιστής κατηγορείται για «περιβαλλοντικό βανδαλισμό»"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Have High Gas Prices Made You Change How You Drive? Tell Us About It.",
-   "url": "https://www.nytimes.com/2026/11/19/business/energy-environment/gas-prices-iran-war-driving-callout.html",
-   "date": "2026-11-19T05:00:13+00:00",
-   "t": {
-    "pt": "Os altos preços da gasolina fizeram você mudar a forma como dirige? Conte-nos sobre isso.",
-    "es": "¿Los altos precios de la gasolina le han hecho cambiar su forma de conducir? Cuéntanos sobre ello.",
-    "it": "I prezzi elevati del carburante ti hanno fatto cambiare il modo in cui guidi? Raccontacelo.",
-    "zh": "高油价是否让您改变了驾驶方式？告诉我们吧。",
-    "fr": "Les prix élevés de l’essence vous ont-ils incité à modifier votre façon de conduire ? Parlez-nous-en.",
-    "ar": "هل أدى ارتفاع أسعار الوقود إلى تغيير طريقة قيادتك؟ أخبرنا عنها.",
-    "de": "Haben die hohen Benzinpreise Sie dazu gebracht, Ihr Fahrverhalten zu ändern? Erzählen Sie uns davon.",
-    "el": "Οι υψηλές τιμές του φυσικού αερίου σας έκαναν να αλλάξετε τον τρόπο οδήγησης; Πείτε μας για αυτό."
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-   "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-19T02:59:06+00:00",
-   "t": {
-    "pt": "Elon Musk diz que o gasto recorde de US$ 446 milhões nas provas intermediárias dos EUA foi “muito tolo”",
-    "es": "Elon Musk dice que el gasto récord de 446 millones de dólares en las elecciones intermedias en Estados Unidos fue \"bastante tonto\"",
-    "it": "Elon Musk afferma che la spesa record di 446 milioni di dollari per le elezioni di metà mandato degli Stati Uniti è stata \"piuttosto sciocca\"",
-    "zh": "埃隆·马斯克表示，美国中期选举创纪录的 4.46 亿美元支出“非常愚蠢”",
-    "fr": "Elon Musk déclare que les dépenses record de 446 millions de dollars pour les élections de mi-mandat aux États-Unis étaient « plutôt insensées »",
-    "ar": "يقول إيلون ماسك إن الإنفاق القياسي البالغ 446 مليون دولار على الانتخابات النصفية في الولايات المتحدة كان \"أحمق للغاية\"",
-    "de": "Elon Musk sagt, die Rekordausgaben von 446 Millionen US-Dollar für US-Zwischenwahlen seien „ziemlich dumm“ gewesen",
-    "el": "Ο Έλον Μασκ λέει ότι η δαπάνη ρεκόρ 446 εκατομμυρίων δολαρίων στις ενδιάμεσες εκλογές των ΗΠΑ ήταν «αρκετά ανόητη»"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "The seven Anthropic founders who are about to become multi-billionaires",
-   "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-18T23:42:07+00:00",
-   "t": {
-    "pt": "Os sete fundadores da Anthropic que estão prestes a se tornar multibilionários",
-    "es": "Los siete fundadores de Anthropic que están a punto de convertirse en multimillonarios",
-    "it": "I sette fondatori di Anthropic che stanno per diventare multimiliardari",
-    "zh": "即将成为亿万富翁的七位 Anthropic 创始人",
-    "fr": "Les sept fondateurs d'Anthropic en passe de devenir multimilliardaires",
-    "ar": "المؤسسون الأنثروبيون السبعة الذين هم على وشك أن يصبحوا مليارديرات",
-    "de": "Die sieben Gründer von Anthropic, die bald Multimilliardäre werden",
-    "el": "Οι επτά ιδρυτές της Anthropic που πρόκειται να γίνουν πολυδισεκατομμυριούχοι"
+    "pt": "Mais ciclones tropicais atingiram o pico de fúria no pior momento possível",
+    "es": "Más ciclones tropicales alcanzan su punto máximo de furia en el peor momento posible",
+    "it": "Altri cicloni tropicali raggiungono il picco di furia nel momento peggiore possibile",
+    "zh": "更多热带气旋在最糟糕的时间达到了最猛烈的程度",
+    "fr": "De nouveaux cyclones tropicaux atteignent leur paroxysme au pire moment possible",
+    "ar": "المزيد من الأعاصير المدارية تصل إلى ذروة الغضب في أسوأ وقت ممكن",
+    "de": "Weitere tropische Wirbelstürme erreichen zum ungünstigsten Zeitpunkt ihren Höhepunkt",
+    "el": "Περισσότεροι τροπικοί κυκλώνες έπληξαν την οργή στη χειρότερη δυνατή στιγμή"
    }
   },
   {
@@ -303,54 +351,6 @@
     "ar": "وجهة نظر جديدة لموسمية أوراق الأمازون",
     "de": "Eine neue Sicht auf die Blattsaisonalität des Amazonas",
     "el": "Μια νέα άποψη της εποχικότητας των φύλλων του Αμαζονίου"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Widespread deciduousness reveals diverse Amazonian phenological strategies",
-   "url": "https://www.nature.com/articles/s41586-026-11284-y",
-   "date": "2026-11-18T00:00:00+00:00",
-   "t": {
-    "pt": "A deciduidade generalizada revela diversas estratégias fenológicas amazônicas",
-    "es": "La caducifolia generalizada revela diversas estrategias fenológicas amazónicas",
-    "it": "La deciduità diffusa rivela diverse strategie fenologiche amazzoniche",
-    "zh": "广泛的落叶揭示了亚马逊不同的物候策略",
-    "fr": "La présence généralisée de feuilles caduques révèle diverses stratégies phénologiques amazoniennes",
-    "ar": "يكشف الغطاء المتساقط على نطاق واسع عن استراتيجيات فينولوجية أمازونية متنوعة",
-    "de": "Die weitverbreitete Laubbewirtschaftung offenbart unterschiedliche phänologische Strategien im Amazonasgebiet",
-    "el": "Η ευρέως διαδεδομένη φυλλοβόλα αποκαλύπτει διάφορες φαινολογικές στρατηγικές του Αμαζονίου"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "COP31 draft deal calls for 'immediate' shift away from fossil fuels",
-   "url": "https://www.dw.com/en/cop31-draft-deal-calls-for-immediate-shift-away-from-fossil-fuels/a-79960705?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-16T14:05:00+00:00",
-   "t": {
-    "pt": "Rascunho do acordo da COP31 pede mudança “imediata” dos combustíveis fósseis",
-    "es": "El borrador del acuerdo de la COP31 pide un abandono \"inmediato\" de los combustibles fósiles",
-    "it": "La bozza di accordo della COP31 prevede l’abbandono “immediato” dei combustibili fossili",
-    "zh": "COP31 协议草案呼吁“立即”放弃化石燃料",
-    "fr": "Le projet d’accord de la COP31 appelle à un abandon « immédiat » des combustibles fossiles",
-    "ar": "تدعو مسودة اتفاق COP31 إلى التحول \"الفوري\" بعيدًا عن الوقود الأحفوري",
-    "de": "COP31-Vertragsentwurf fordert „sofortige“ Abkehr von fossilen Brennstoffen",
-    "el": "Το σχέδιο συμφωνίας COP31 απαιτεί «άμεση» μετατόπιση από τα ορυκτά καύσιμα"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Can a 'coalition of the willing' create momentum for a fossil fuel phaseout?",
-   "url": "https://www.dw.com/en/can-a-coalition-of-the-willing-create-momentum-for-a-fossil-fuel-phaseout/a-79926748?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-16T08:23:00+00:00",
-   "t": {
-    "pt": "Poderá uma “coligação de interessados” criar impulso para a eliminação progressiva dos combustíveis fósseis?",
-    "es": "¿Puede una 'coalición de dispuestos' generar impulso para una eliminación gradual de los combustibles fósiles?",
-    "it": "Può una “coalizione dei volenterosi” creare slancio per l’eliminazione graduale dei combustibili fossili?",
-    "zh": "“自愿联盟”能否为逐步淘汰化石燃料创造动力？",
-    "fr": "Une « coalition de volontaires » peut-elle créer une dynamique en faveur d’une élimination progressive des combustibles fossiles ?",
-    "ar": "هل يستطيع \"تحالف الراغبين\" خلق زخم للتخلص التدريجي من الوقود الأحفوري؟",
-    "de": "Kann eine „Koalition der Willigen“ Impulse für einen Ausstieg aus fossilen Brennstoffen geben?",
-    "el": "Μπορεί ένας «συνασπισμός των πρόθυμων» να δημιουργήσει ώθηση για σταδιακή κατάργηση των ορυκτών καυσίμων;"
    }
   },
   {
