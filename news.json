@@ -1,6 +1,86 @@
 {
- "updated": "2026-11-19T21:29:30.012746+00:00",
+ "updated": "2026-11-20T03:10:05.242899+00:00",
  "items": [
+  {
+   "source": "NYTIMES",
+   "title": "Amid Outcry, Army Delays its Plan to Blow Up Toxic Ammunition in Iowa",
+   "url": "https://www.nytimes.com/2026/11/19/climate/iowa-ammunition-explosion-lead-dust.html",
+   "date": "2026-11-20T03:04:22+00:00",
+   "t": {
+    "pt": "Em meio a protestos, o Exército adia seu plano para explodir munições tóxicas em Iowa",
+    "es": "En medio de protestas, el ejército retrasa su plan para hacer estallar municiones tóxicas en Iowa",
+    "it": "In mezzo alle proteste, l’esercito ritarda il suo piano per far esplodere munizioni tossiche in Iowa",
+    "zh": "在强烈抗议下，陆军推迟了在爱荷华州炸毁有毒弹药的计划",
+    "fr": "Au milieu du tollé, l’armée retarde son projet de faire exploser des munitions toxiques dans l’Iowa",
+    "ar": "وسط الاحتجاج، يؤجل الجيش خطته لتفجير ذخيرة سامة في ولاية أيوا",
+    "de": "Unter Aufschrei verschiebt die Armee ihren Plan, giftige Munition in Iowa in die Luft zu jagen",
+    "el": "Εν μέσω κατακραυγής, ο στρατός καθυστερεί το σχέδιό του να ανατινάξει τοξικά πυρομαχικά στην Αϊόβα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "US army postpones plan to detonate bomb-making chemical amid outcry",
+   "url": "https://www.theguardian.com/us-news/2026/nov/19/iowa-lead-bomb-dust",
+   "date": "2026-11-20T02:30:10+00:00",
+   "t": {
+    "pt": "Exército dos EUA adia plano para detonar produto químico para fabricação de bombas em meio a protestos",
+    "es": "El ejército estadounidense pospone el plan para detonar una sustancia química para fabricar bombas en medio de protestas",
+    "it": "L'esercito americano rinvia il piano di far esplodere sostanze chimiche per fabbricare bombe tra le proteste",
+    "zh": "在强烈抗议下，美国陆军推迟了引爆炸弹化学物质的计划",
+    "fr": "L'armée américaine reporte son projet de faire exploser une bombe chimique, malgré le tollé",
+    "ar": "الجيش الأمريكي يؤجل خطة لتفجير مادة كيميائية لصنع القنابل وسط احتجاجات",
+    "de": "Die US-Armee verschiebt unter Protest den Plan, eine Chemikalie zur Bombenherstellung zu zünden",
+    "el": "Ο αμερικανικός στρατός αναβάλλει το σχέδιο για την έκρηξη χημικού που παράγει βόμβες εν μέσω κατακραυγής"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Meta rethinks 2030 climate goals as AI data centres drive emissions up",
+   "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up?traffic_source=rss",
+   "date": "2026-11-20T01:29:28+00:00",
+   "t": {
+    "pt": "Meta repensa as metas climáticas para 2030 à medida que os data centers de IA aumentam as emissões",
+    "es": "Meta replantea los objetivos climáticos para 2030 a medida que los centros de datos de IA aumentan las emisiones",
+    "it": "Meta ripensa gli obiettivi climatici del 2030 mentre i data center basati sull’intelligenza artificiale aumentano le emissioni",
+    "zh": "随着人工智能数据中心排放量增加，Meta 重新思考 2030 年气候目标",
+    "fr": "Meta repense les objectifs climatiques pour 2030 alors que les centres de données IA augmentent les émissions",
+    "ar": "تعيد Meta التفكير في أهداف المناخ لعام 2030 حيث تعمل مراكز بيانات الذكاء الاصطناعي على زيادة الانبعاثات",
+    "de": "Meta überdenkt die Klimaziele für 2030, da KI-Rechenzentren die Emissionen in die Höhe treiben",
+    "el": "Η Meta επανεξετάζει τους κλιματικούς στόχους του 2030 καθώς τα κέντρα δεδομένων τεχνητής νοημοσύνης αυξάνουν τις εκπομπές"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "More climate money for Africa? Europe says use what's already pledged",
+   "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-20T00:54:50+00:00",
+   "t": {
+    "pt": "Mais dinheiro climático para África? Europa diz usar o que já foi prometido",
+    "es": "¿Más dinero climático para África? Europa dice utilizar lo que ya se ha prometido",
+    "it": "Più soldi per il clima per l’Africa? L'Europa dice di utilizzare ciò che è già stato promesso",
+    "zh": "为非洲提供更多气候资金？欧洲表示使用已经承诺的资金",
+    "fr": "Plus d’argent climatique pour l’Afrique ? L'Europe dit d'utiliser ce qui a déjà été promis",
+    "ar": "المزيد من أموال المناخ لأفريقيا؟ أوروبا تقول استخدم ما تعهدت به بالفعل",
+    "de": "Mehr Klimageld für Afrika? Europa sagt, nutzen Sie, was bereits zugesagt wurde",
+    "el": "Περισσότερα χρήματα για το κλίμα για την Αφρική; Η Ευρώπη λέει να χρησιμοποιήσει αυτό που έχει ήδη δεσμευτεί"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Unexpected Fallout From the Iran War",
+   "url": "https://www.nytimes.com/2026/11/19/climate/iea-energy-transition-electric-cars.html",
+   "date": "2026-11-19T21:40:38+00:00",
+   "t": {
+    "pt": "Consequências inesperadas da Guerra do Irão",
+    "es": "Efectos inesperados de la guerra con Irán",
+    "it": "Le conseguenze inaspettate della guerra in Iran",
+    "zh": "伊朗战争的意外后果",
+    "fr": "Les conséquences inattendues de la guerre en Iran",
+    "ar": "تداعيات غير متوقعة من حرب إيران",
+    "de": "Unerwartete Folgen des Iran-Krieges",
+    "el": "Απροσδόκητο αποτέλεσμα από τον πόλεμο του Ιράν"
+   }
+  },
   {
    "source": "NYTIMES",
    "title": "U.S. Auctions 31.5 Million Acres of Pacific Ocean to Deep Sea Mining Company",
@@ -20,7 +100,7 @@
   {
    "source": "BBC",
    "title": "BBC Inside Science",
-   "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_west_africa?at_medium=RSS&at_campaign=rss",
+   "url": "https://www.bbc.co.uk/sounds/play/w3ct978m?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-19T21:00:00+00:00",
    "t": {
     "pt": "BBC por dentro da ciência",
@@ -66,22 +146,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "Army Warns Iowa of Toxic Cloud as It Prepares to Blow Up Old Ammo",
-   "url": "https://www.nytimes.com/2026/11/19/climate/iowa-ammunition-explosion-lead-dust.html",
-   "date": "2026-11-19T19:43:30+00:00",
-   "t": {
-    "pt": "Exército alerta Iowa sobre nuvem tóxica enquanto se prepara para explodir munição antiga",
-    "es": "El ejército advierte a Iowa sobre una nube tóxica mientras se prepara para hacer estallar munición vieja",
-    "it": "L'esercito avverte l'Iowa della nube tossica mentre si prepara a far esplodere vecchie munizioni",
-    "zh": "陆军警告爱荷华州有毒云，准备炸毁旧弹药",
-    "fr": "L'armée met en garde l'Iowa contre un nuage toxique alors qu'elle se prépare à faire exploser de vieilles munitions",
-    "ar": "الجيش يحذر ولاية أيوا من السحابة السامة بينما يستعد لتفجير الذخيرة القديمة",
-    "de": "Armee warnt Iowa vor giftiger Wolke, während sie sich darauf vorbereitet, alte Munition in die Luft zu jagen",
-    "el": "Ο στρατός προειδοποιεί την Αϊόβα για τοξικό σύννεφο καθώς ετοιμάζεται να ανατινάξει παλιά πυρομαχικά"
-   }
-  },
-  {
    "source": "DW",
    "title": "Uganda minister at COP31: 'We need a just transition'",
    "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
@@ -111,38 +175,6 @@
     "ar": "أخبر مؤتمر Cop31 أنها تخاطر بأن تصبح قمة \"شبح\" حيث تمت إزالة جميع الإشارات إلى الوقود الأحفوري من مسودة النص",
     "de": "Cop31 sagte, es bestehe die Gefahr, dass es sich um einen „Geistergipfel“ handele, da alle Erwähnungen fossiler Brennstoffe aus dem Textentwurf gestrichen würden",
     "el": "Το Cop31 είπε ότι κινδυνεύει να γίνει σύνοδος κορυφής «φάντασμα», καθώς όλες οι αναφορές για ορυκτά καύσιμα αφαιρέθηκαν από το προσχέδιο"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "The Permitting Bill Is Splitting the Environmental Movement",
-   "url": "https://www.nytimes.com/2026/11/18/climate/permitting-bill-baaja-environmentalists-energy.html",
-   "date": "2026-11-19T17:49:59+00:00",
-   "t": {
-    "pt": "O projeto de lei de licenciamento está dividindo o movimento ambientalista",
-    "es": "El proyecto de ley de permisos está dividiendo al movimiento ambientalista",
-    "it": "La legge sui permessi sta dividendo il movimento ambientalista",
-    "zh": "许可法案正在分裂环境运动",
-    "fr": "Le projet de loi d’autorisation divise le mouvement environnemental",
-    "ar": "مشروع قانون التصريح يقسم الحركة البيئية",
-    "de": "Das Genehmigungsgesetz spaltet die Umweltbewegung",
-    "el": "Το νομοσχέδιο για τις αδειοδοτήσεις διχάζει το Περιβαλλοντικό Κίνημα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "US army plan to detonate bomb-making chemicals has Iowa residents bracing for lead dust cloud",
-   "url": "https://www.theguardian.com/us-news/2026/nov/19/iowa-lead-bomb-dust",
-   "date": "2026-11-19T17:18:08+00:00",
-   "t": {
-    "pt": "O plano do exército dos EUA para detonar produtos químicos para fabricação de bombas faz com que os residentes de Iowa se preparem para uma nuvem de poeira de chumbo",
-    "es": "El plan del ejército estadounidense para detonar sustancias químicas para fabricar bombas tiene a los residentes de Iowa preparándose para una nube de polvo de plomo",
-    "it": "Il piano dell'esercito americano di far esplodere sostanze chimiche per fabbricare bombe sta costringendo i residenti dell'Iowa a prepararsi alla nube di polvere di piombo",
-    "zh": "美国陆军计划引爆制造炸弹的化学品，爱荷华州居民为铅尘云做好准备",
-    "fr": "Le projet de l'armée américaine de faire exploser des produits chimiques destinés à fabriquer des bombes incite les habitants de l'Iowa à se préparer à un nuage de poussière de plomb.",
-    "ar": "خطة الجيش الأمريكي لتفجير المواد الكيميائية المستخدمة في صنع القنابل جعلت سكان ولاية أيوا يستعدون لسحابة غبار الرصاص",
-    "de": "Der Plan der US-Armee, Chemikalien zur Bombenherstellung zur Explosion zu bringen, bereitet den Einwohnern von Iowa Angst vor einer Bleistaubwolke",
-    "el": "Το σχέδιο του αμερικανικού στρατού να πυροδοτήσει χημικά που παράγουν βόμβες έχει τους κατοίκους της Αϊόβα να προετοιμάζονται για σύννεφο μολύβδου σκόνης"
    }
   },
   {
@@ -207,38 +239,6 @@
     "ar": "يقول تقرير جديد إن ترامب يتخذ 500 إجراء لإضعاف الحماية من السرطان",
     "de": "Trump ergreift 500 Maßnahmen, um den Schutz vor Krebs zu schwächen, heißt es in einem neuen Bericht",
     "el": "Ο Τραμπ λαμβάνει 500 μέτρα για να αποδυναμώσει την προστασία από τον καρκίνο, αναφέρει νέα έκθεση"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Wading bird called Phil tracked in epic migration to Siberia and back",
-   "url": "https://www.bbc.co.uk/news/articles/c6qj5dl29zqro?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-19T13:35:29+00:00",
-   "t": {
-    "pt": "Pássaro pernalta chamado Phil rastreado em migração épica para a Sibéria e vice-versa",
-    "es": "Se rastrea a un pájaro zancudo llamado Phil en una migración épica a Siberia y de regreso",
-    "it": "L'uccello trampoliere chiamato Phil è stato seguito durante l'epica migrazione verso la Siberia e ritorno",
-    "zh": "一种名叫菲尔的涉水鸟在西伯利亚和返回的史诗般的迁徙中被追踪",
-    "fr": "Un échassier appelé Phil suivi lors d'une migration épique vers la Sibérie et retour",
-    "ar": "طائر خواض يُدعى فيل يتعقب هجرة ملحمية إلى سيبيريا والعودة",
-    "de": "Watvogel namens Phil wurde auf seiner epischen Wanderung nach Sibirien und zurück verfolgt",
-    "el": "Το πουλί που ονομαζόταν Phil παρακολουθεί την επική μετανάστευση στη Σιβηρία και πίσω"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "India: Nearly 50,000 evacuated as Cyclone Akvan nears the coast",
-   "url": "https://www.dw.com/en/india-nearly-50-000-evacuated-as-cyclone-akvan-nears-the-coast/live-79987334?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-19T08:58:00+00:00",
-   "t": {
-    "pt": "Índia: Quase 50.000 pessoas evacuadas quando o ciclone Akvan se aproxima da costa",
-    "es": "India: Casi 50.000 personas evacuadas mientras el ciclón Akvan se acerca a la costa",
-    "it": "India: quasi 50.000 persone evacuate mentre il ciclone Akvan si avvicina alla costa",
-    "zh": "印度：飓风“阿克万”逼近海岸，近 5 万人撤离",
-    "fr": "Inde : près de 50 000 personnes évacuées alors que le cyclone Akvan s'approche de la côte",
-    "ar": "الهند: إجلاء ما يقرب من 50 ألف شخص مع اقتراب إعصار أكفان من الساحل",
-    "de": "Indien: Fast 50.000 Menschen evakuiert, als sich Zyklon Akvan der Küste nähert",
-    "el": "Ινδία: Σχεδόν 50.000 εκκενώθηκαν καθώς ο κυκλώνας Akvan πλησιάζει τις ακτές"
    }
   },
   {
@@ -354,6 +354,22 @@
    }
   },
   {
+   "source": "DW",
+   "title": "COP31 draft deal calls for 'immediate' shift away from fossil fuels",
+   "url": "https://www.dw.com/en/cop31-draft-deal-calls-for-immediate-shift-away-from-fossil-fuels/a-79960705?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-16T14:05:00+00:00",
+   "t": {
+    "pt": "Rascunho do acordo da COP31 pede mudança “imediata” dos combustíveis fósseis",
+    "es": "El borrador del acuerdo de la COP31 pide un abandono \"inmediato\" de los combustibles fósiles",
+    "it": "La bozza di accordo della COP31 prevede l’abbandono “immediato” dei combustibili fossili",
+    "zh": "COP31 协议草案呼吁“立即”放弃化石燃料",
+    "fr": "Le projet d’accord de la COP31 appelle à un abandon « immédiat » des combustibles fossiles",
+    "ar": "تدعو مسودة اتفاق COP31 إلى التحول \"الفوري\" بعيدًا عن الوقود الأحفوري",
+    "de": "COP31-Vertragsentwurf fordert „sofortige“ Abkehr von fossilen Brennstoffen",
+    "el": "Το σχέδιο συμφωνίας COP31 απαιτεί «άμεση» μετατόπιση από τα ορυκτά καύσιμα"
+   }
+  },
+  {
    "source": "NPR",
    "title": "Colorado flood victims hope for speedier federal help",
    "url": "https://www.npr.org/2026/11/12/nx-s1-6036811/colorado-flood-victims-hope-for-speedier-federal-help",
@@ -367,22 +383,6 @@
     "ar": "يأمل ضحايا فيضانات كولورادو في الحصول على مساعدة فيدرالية أسرع",
     "de": "Die Flutopfer in Colorado hoffen auf schnellere staatliche Hilfe",
     "el": "Τα θύματα των πλημμυρών του Κολοράντο ελπίζουν για ταχύτερη ομοσπονδιακή βοήθεια"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
-   "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
-   "date": "2026-11-12T03:10:32+00:00",
-   "t": {
-    "pt": "O transatlântico mais rápido do mundo é afundado para quebrar outro recorde: o maior recife artificial",
-    "es": "Se hunde el transatlántico más rápido del mundo para batir otro récord: el arrecife artificial más grande",
-    "it": "Il transatlantico più veloce del mondo viene affondato per battere un altro record: la più grande barriera corallina artificiale",
-    "zh": "世界最快远洋客轮沉没打破另一纪录：最大人工鱼礁",
-    "fr": "Le paquebot le plus rapide du monde est coulé et bat un autre record : le plus grand récif artificiel",
-    "ar": "غرقت أسرع سفينة محيطية في العالم لتحطيم رقم قياسي آخر: أكبر شعاب مرجانية صناعية",
-    "de": "Der schnellste Ozeandampfer der Welt wird versenkt und bricht einen weiteren Rekord: das größte künstliche Riff",
-    "el": "Το ταχύτερο υπερωκεάνιο στον κόσμο βυθίστηκε για να σπάσει άλλο ένα ρεκόρ: τον μεγαλύτερο τεχνητό ύφαλο"
    }
   }
  ]
