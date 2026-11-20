@@ -145,7 +145,7 @@ npx serve .
 | Platform | URL | Status |
 |---|---|---|
 | GitHub Pages | `amaurialmeida.github.io/environmental-portfolio` | [![Pages](https://img.shields.io/badge/GitHub%20Pages-active-a8c5c0?style=flat-square)](https://amaurialmeida.github.io/environmental-portfolio) |
-| Cloudflare Workers & Pages | `portfolio-ambiental.amauri-almeidasjr.workers.dev` | [![Workers](https://img.shields.io/badge/Cloudflare-active-F6821F?style=flat-square&logo=cloudflare&logoColor=white)](https://portfolio-ambiental.amauri-almeidasjr.workers.dev/) |
+| Cloudflare Workers & Pages | `portfolio-ambiental.amauri-almeidasjr.workers.dev` | [![Workers](https://environmental-portfolio-build.amauri-almeidasjr.workers.dev/) |
 
 ---
 
