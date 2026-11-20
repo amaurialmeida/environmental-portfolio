@@ -1,11 +1,187 @@
 {
- "updated": "2026-11-20T03:10:05.242899+00:00",
+ "updated": "2026-11-20T11:31:53.775771+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "Cop31 live: ‘We didn’t come here to beg’, African ministers say as climate talks enter final day",
+   "url": "https://www.theguardian.com/world/live/2026/nov/20/cop31-climate-crisis-talks-turkey-latest-news-updates",
+   "date": "2026-11-20T11:01:25+00:00",
+   "t": {
+    "pt": "Cop31 ao vivo: ‘Não viemos aqui para mendigar’, dizem os ministros africanos enquanto as negociações climáticas entram no último dia",
+    "es": "Cop31 en vivo: “No vinimos aquí a mendigar”, dicen los ministros africanos mientras las conversaciones sobre el clima entran en el último día",
+    "it": "Cop31 in diretta: “Non siamo venuti qui per chiedere l’elemosina”, dicono i ministri africani mentre i colloqui sul clima entrano nell’ultimo giorno",
+    "zh": "第 31 届缔约方会议直播：气候谈判进入最后一天，非洲部长表示“我们不是来这里乞讨的”",
+    "fr": "Cop31 en direct : « Nous ne sommes pas venus ici pour mendier », déclarent les ministres africains alors que les négociations sur le climat entrent dans leur dernier jour",
+    "ar": "Cop31 Live: \"لم نأت إلى هنا للتسول\"، هكذا يقول الوزراء الأفارقة مع دخول محادثات المناخ يومها الأخير",
+    "de": "Cop31 live: „Wir sind nicht hierher gekommen, um zu betteln“, sagen afrikanische Minister zu Beginn der Klimaverhandlungen",
+    "el": "Cop31 live: «Δεν ήρθαμε εδώ για να ζητιανέψουμε», λένε Αφρικανοί υπουργοί καθώς οι συνομιλίες για το κλίμα μπαίνουν στην τελευταία μέρα"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "What are heat pumps and how much do they cost?",
+   "url": "https://www.bbc.co.uk/news/articles/c8xgdv9e007o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-20T10:24:52+00:00",
+   "t": {
+    "pt": "O que são bombas de calor e quanto custam?",
+    "es": "¿Qué son las bombas de calor y cuánto cuestan?",
+    "it": "Cosa sono le pompe di calore e quanto costano?",
+    "zh": "什么是热泵以及它们的成本是多少？",
+    "fr": "Que sont les pompes à chaleur et combien coûtent-elles ?",
+    "ar": "ما هي المضخات الحرارية وكم تكلفتها؟",
+    "de": "Was sind Wärmepumpen und wie viel kosten sie?",
+    "el": "Τι είναι οι αντλίες θερμότητας και πόσο κοστίζουν;"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Turkey’s Van Cats Contend With Rising Temperatures",
+   "url": "https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
+   "date": "2026-11-20T10:02:10+00:00",
+   "t": {
+    "pt": "Os Van Cats da Turquia enfrentam o aumento das temperaturas",
+    "es": "Los Van Cats de Turquía se enfrentan al aumento de las temperaturas",
+    "it": "I Van Cats della Turchia lottano con l’aumento delle temperature",
+    "zh": "土耳其的货车猫与气温上升作斗争",
+    "fr": "Les chats de camionnette de Turquie font face à la hausse des températures",
+    "ar": "قطط الفان التركية تواجه ارتفاع درجات الحرارة",
+    "de": "Die Van Cats der Türkei kämpfen mit steigenden Temperaturen",
+    "el": "Οι γάτες Van της Τουρκίας αντιμετωπίζουν άνοδο της θερμοκρασίας"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "COP31: UN Climate summit enters final phase with no deal in sight",
+   "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-20T09:52:00+00:00",
+   "t": {
+    "pt": "COP31: Cimeira do Clima da ONU entra na fase final sem acordo à vista",
+    "es": "COP31: La cumbre sobre el clima de la ONU entra en su fase final sin un acuerdo a la vista",
+    "it": "COP31: il vertice delle Nazioni Unite sul clima entra nella fase finale senza alcun accordo in vista",
+    "zh": "COP31：联合国气候峰会进入最后阶段，目前尚未达成任何协议",
+    "fr": "COP31 : le sommet de l’ONU sur le climat entre dans sa phase finale sans aucun accord en vue",
+    "ar": "COP31: قمة الأمم المتحدة للمناخ تدخل مرحلتها النهائية دون التوصل إلى اتفاق في الأفق",
+    "de": "COP31: UN-Klimagipfel geht in die Endphase, ohne dass eine Einigung in Sicht ist",
+    "el": "COP31: Η σύνοδος κορυφής του ΟΗΕ για το κλίμα εισέρχεται στην τελική φάση χωρίς καμία συμφωνία"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "Have we missed our chance to stop climate change?",
+   "url": "https://www.dw.com/en/have-we-missed-our-chance-to-stop-climate-change/a-79986199?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-20T09:08:00+00:00",
+   "t": {
+    "pt": "Perdemos a oportunidade de travar as alterações climáticas?",
+    "es": "¿Hemos perdido nuestra oportunidad de detener el cambio climático?",
+    "it": "Abbiamo perso l’occasione di fermare il cambiamento climatico?",
+    "zh": "我们是否错过了阻止气候变化的机会？",
+    "fr": "Avons-nous raté notre chance de stopper le changement climatique ?",
+    "ar": "هل أضعنا فرصتنا لوقف تغير المناخ؟",
+    "de": "Haben wir unsere Chance verpasst, den Klimawandel zu stoppen?",
+    "el": "Χάσαμε την ευκαιρία να σταματήσουμε την κλιματική αλλαγή;"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "California’s coastal communities on alert as biggest waves in years hit state",
+   "url": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
+   "date": "2026-11-20T09:03:20+00:00",
+   "t": {
+    "pt": "Comunidades costeiras da Califórnia em alerta quando as maiores ondas em anos atingem o estado",
+    "es": "Las comunidades costeras de California en alerta mientras las olas más grandes en años azotan el estado",
+    "it": "Le comunità costiere della California sono in allerta mentre le onde più grandi degli ultimi anni colpiscono lo stato",
+    "zh": "多年来最大的海浪袭击加州，沿海社区处于戒备状态",
+    "fr": "Les communautés côtières de Californie en alerte alors que les plus grandes vagues depuis des années frappent l’État",
+    "ar": "المجتمعات الساحلية في كاليفورنيا في حالة تأهب مع وصول أكبر الأمواج منذ سنوات إلى الولاية",
+    "de": "Kaliforniens Küstengemeinden sind in Alarmbereitschaft, da die größten Wellen seit Jahren den Staat heimsuchen",
+    "el": "Οι παράκτιες κοινότητες της Καλιφόρνια σε επιφυλακή καθώς τα μεγαλύτερα κύματα των τελευταίων ετών έπληξαν την πολιτεία"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Week in wildlife: Christmas crabs, a shy possum and baboons taking liberties",
+   "url": "https://www.theguardian.com/environment/gallery/2026/nov/20/week-in-wildlife-christmas-crabs-a-shy-possum-and-baboons-taking-liberties",
+   "date": "2026-11-20T08:00:25+00:00",
+   "t": {
+    "pt": "Semana na vida selvagem: caranguejos de Natal, um gambá tímido e babuínos tomando liberdades",
+    "es": "Semana en vida salvaje: cangrejos navideños, una zarigüeya tímida y babuinos tomándose libertades",
+    "it": "Settimana nella fauna selvatica: granchi di Natale, un timido opossum e babbuini che si prendono delle libertà",
+    "zh": "野生动物周：圣诞蟹、害羞的负鼠和调皮的狒狒",
+    "fr": "Semaine de la vie sauvage : crabes de Noël, opossum timide et babouins prenant des libertés",
+    "ar": "أسبوع في الحياة البرية: سرطانات عيد الميلاد وأبوسوم خجول وقردة البابون تتحرر",
+    "de": "Woche in der Tierwelt: Weihnachtskrabben, ein schüchternes Opossum und Paviane, die sich Freiheiten nehmen",
+    "el": "Εβδομάδα στην άγρια ζωή: Χριστουγεννιάτικα καβούρια, ένα ντροπαλό possum και μπαμπουίνοι που παίρνουν ελευθερίες"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Wildlife conservation cash targets ex-colliery sites",
+   "url": "https://www.bbc.co.uk/news/articles/cmx2785nzpw2o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-20T06:21:50+00:00",
+   "t": {
+    "pt": "Dinheiro para conservação da vida selvagem visa locais de ex-minas de carvão",
+    "es": "El dinero para la conservación de la vida silvestre se dirige a ex-minas de carbón",
+    "it": "I fondi per la conservazione della fauna selvatica prendono di mira i siti delle ex miniere di carbone",
+    "zh": "野生动物保护资金瞄准前煤矿遗址",
+    "fr": "L'argent pour la conservation de la faune cible les anciens sites de mine",
+    "ar": "تستهدف أموال الحفاظ على الحياة البرية مواقع منجم الفحم السابقة",
+    "de": "Wildtierschutzgelder zielen auf ehemalige Zechenstandorte ab",
+    "el": "Τα μετρητά για τη διατήρηση της άγριας ζωής στοχεύουν σε πρώην τοποθεσίες ανθρακωρυχείων"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Mysterious Mercury is about to get a visitor - after spacecraft's eight-year epic voyage",
+   "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-20T05:59:56+00:00",
+   "t": {
+    "pt": "O misterioso Mercúrio está prestes a receber uma visita – após a viagem épica de oito anos da espaçonave",
+    "es": "El misterioso Mercurio está a punto de recibir una visita, después del viaje épico de ocho años de la nave espacial",
+    "it": "Il misterioso Mercurio sta per ricevere una visita, dopo il viaggio epico di otto anni della navicella spaziale",
+    "zh": "经过八年的史诗般的航行后，神秘的水星即将迎来一位访客",
+    "fr": "La mystérieuse Mercure est sur le point de recevoir un visiteur – après le voyage épique de huit ans du vaisseau spatial",
+    "ar": "كوكب عطارد الغامض على وشك أن يستقبل زائرًا - بعد رحلة ملحمية للمركبة الفضائية استمرت ثماني سنوات",
+    "de": "Der geheimnisvolle Merkur bekommt bald Besuch – nach der achtjährigen epischen Reise der Raumsonde",
+    "el": "Ο μυστηριώδης Ερμής πρόκειται να βρει επισκέπτη - μετά το οκτάχρονο επικό ταξίδι του διαστημόπλοιου"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "More climate money for Africa? Europe says use what's already pledged",
+   "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-20T05:03:43+00:00",
+   "t": {
+    "pt": "Mais dinheiro climático para África? Europa diz usar o que já foi prometido",
+    "es": "¿Más dinero climático para África? Europa dice utilizar lo que ya se ha prometido",
+    "it": "Più soldi per il clima per l’Africa? L'Europa dice di utilizzare ciò che è già stato promesso",
+    "zh": "为非洲提供更多气候资金？欧洲表示使用已经承诺的资金",
+    "fr": "Plus d’argent climatique pour l’Afrique ? L'Europe dit d'utiliser ce qui a déjà été promis",
+    "ar": "المزيد من أموال المناخ لأفريقيا؟ أوروبا تقول استخدم ما تعهدت به بالفعل",
+    "de": "Mehr Klimageld für Afrika? Europa sagt, nutzen Sie, was bereits zugesagt wurde",
+    "el": "Περισσότερα χρήματα για το κλίμα για την Αφρική; Η Ευρώπη λέει να χρησιμοποιήσει αυτό που έχει ήδη δεσμευτεί"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Senate Passes Major Permitting Bill to Speed Up Energy Projects",
+   "url": "https://www.nytimes.com/2026/11/19/climate/senate-passes-baaja-permitting-bill-energy.html",
+   "date": "2026-11-20T04:25:50+00:00",
+   "t": {
+    "pt": "Senado aprova importante projeto de lei de licenciamento para acelerar projetos de energia",
+    "es": "El Senado aprueba importante proyecto de ley de permisos para acelerar proyectos de energía",
+    "it": "Il Senato approva un importante disegno di legge sulle autorizzazioni per accelerare i progetti energetici",
+    "zh": "参议院通过加快能源项目的主要许可法案",
+    "fr": "Le Sénat adopte un important projet de loi autorisant à accélérer les projets énergétiques",
+    "ar": "مجلس الشيوخ يمرر مشروع قانون رئيسي لتسريع مشاريع الطاقة",
+    "de": "Senat verabschiedet wichtiges Genehmigungsgesetz zur Beschleunigung von Energieprojekten",
+    "el": "Η Γερουσία εγκρίνει το σημαντικό νομοσχέδιο αδειοδότησης για την επιτάχυνση των ενεργειακών έργων"
+   }
+  },
   {
    "source": "NYTIMES",
    "title": "Amid Outcry, Army Delays its Plan to Blow Up Toxic Ammunition in Iowa",
    "url": "https://www.nytimes.com/2026/11/19/climate/iowa-ammunition-explosion-lead-dust.html",
-   "date": "2026-11-20T03:04:22+00:00",
+   "date": "2026-11-20T04:08:12+00:00",
    "t": {
     "pt": "Em meio a protestos, o Exército adia seu plano para explodir munições tóxicas em Iowa",
     "es": "En medio de protestas, el ejército retrasa su plan para hacer estallar municiones tóxicas en Iowa",
@@ -19,50 +195,18 @@
   },
   {
    "source": "GUARDIAN",
-   "title": "US army postpones plan to detonate bomb-making chemical amid outcry",
-   "url": "https://www.theguardian.com/us-news/2026/nov/19/iowa-lead-bomb-dust",
-   "date": "2026-11-20T02:30:10+00:00",
+   "title": "‘The Pacific is not for sale’: outcry after US holds first deep sea mining lease sale near American Samoa",
+   "url": "https://www.theguardian.com/environment/2026/nov/20/us-deep-sea-mining-lease-auction-american-samoa",
+   "date": "2026-11-20T03:14:07+00:00",
    "t": {
-    "pt": "Exército dos EUA adia plano para detonar produto químico para fabricação de bombas em meio a protestos",
-    "es": "El ejército estadounidense pospone el plan para detonar una sustancia química para fabricar bombas en medio de protestas",
-    "it": "L'esercito americano rinvia il piano di far esplodere sostanze chimiche per fabbricare bombe tra le proteste",
-    "zh": "在强烈抗议下，美国陆军推迟了引爆炸弹化学物质的计划",
-    "fr": "L'armée américaine reporte son projet de faire exploser une bombe chimique, malgré le tollé",
-    "ar": "الجيش الأمريكي يؤجل خطة لتفجير مادة كيميائية لصنع القنابل وسط احتجاجات",
-    "de": "Die US-Armee verschiebt unter Protest den Plan, eine Chemikalie zur Bombenherstellung zu zünden",
-    "el": "Ο αμερικανικός στρατός αναβάλλει το σχέδιο για την έκρηξη χημικού που παράγει βόμβες εν μέσω κατακραυγής"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Meta rethinks 2030 climate goals as AI data centres drive emissions up",
-   "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up?traffic_source=rss",
-   "date": "2026-11-20T01:29:28+00:00",
-   "t": {
-    "pt": "Meta repensa as metas climáticas para 2030 à medida que os data centers de IA aumentam as emissões",
-    "es": "Meta replantea los objetivos climáticos para 2030 a medida que los centros de datos de IA aumentan las emisiones",
-    "it": "Meta ripensa gli obiettivi climatici del 2030 mentre i data center basati sull’intelligenza artificiale aumentano le emissioni",
-    "zh": "随着人工智能数据中心排放量增加，Meta 重新思考 2030 年气候目标",
-    "fr": "Meta repense les objectifs climatiques pour 2030 alors que les centres de données IA augmentent les émissions",
-    "ar": "تعيد Meta التفكير في أهداف المناخ لعام 2030 حيث تعمل مراكز بيانات الذكاء الاصطناعي على زيادة الانبعاثات",
-    "de": "Meta überdenkt die Klimaziele für 2030, da KI-Rechenzentren die Emissionen in die Höhe treiben",
-    "el": "Η Meta επανεξετάζει τους κλιματικούς στόχους του 2030 καθώς τα κέντρα δεδομένων τεχνητής νοημοσύνης αυξάνουν τις εκπομπές"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "More climate money for Africa? Europe says use what's already pledged",
-   "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-20T00:54:50+00:00",
-   "t": {
-    "pt": "Mais dinheiro climático para África? Europa diz usar o que já foi prometido",
-    "es": "¿Más dinero climático para África? Europa dice utilizar lo que ya se ha prometido",
-    "it": "Più soldi per il clima per l’Africa? L'Europa dice di utilizzare ciò che è già stato promesso",
-    "zh": "为非洲提供更多气候资金？欧洲表示使用已经承诺的资金",
-    "fr": "Plus d’argent climatique pour l’Afrique ? L'Europe dit d'utiliser ce qui a déjà été promis",
-    "ar": "المزيد من أموال المناخ لأفريقيا؟ أوروبا تقول استخدم ما تعهدت به بالفعل",
-    "de": "Mehr Klimageld für Afrika? Europa sagt, nutzen Sie, was bereits zugesagt wurde",
-    "el": "Περισσότερα χρήματα για το κλίμα για την Αφρική; Η Ευρώπη λέει να χρησιμοποιήσει αυτό που έχει ήδη δεσμευτεί"
+    "pt": "‘O Pacífico não está à venda’: protestos após os EUA realizarem a primeira venda de arrendamento de mineração em alto mar perto da Samoa Americana",
+    "es": "“El Pacífico no está en venta”: clamor después de que Estados Unidos celebrara la primera venta de arrendamiento de minería en aguas profundas cerca de Samoa Americana",
+    "it": "“Il Pacifico non è in vendita”: proteste dopo che gli Stati Uniti hanno organizzato la prima vendita di locazione mineraria in acque profonde vicino alle Samoa americane",
+    "zh": "“太平洋是非卖品”：美国在美属萨摩亚附近举行首次深海采矿租赁出售后引发强烈抗议",
+    "fr": "« Le Pacifique n’est pas à vendre » : tollé après la première vente de concessions minières en eaux profondes près des Samoa américaines",
+    "ar": "\"المحيط الهادئ ليس للبيع\": احتجاج بعد أن عقدت الولايات المتحدة أول عقد إيجار للتعدين في أعماق البحار بالقرب من ساموا الأمريكية",
+    "de": "„Der Pazifik steht nicht zum Verkauf“: Aufschrei, nachdem die USA in der Nähe von Amerikanisch-Samoa den ersten Pachtverkauf für einen Tiefseebergbau abgehalten haben",
+    "el": "«Ο Ειρηνικός δεν είναι προς πώληση»: κατακραυγή μετά την πρώτη πώληση εκμίσθωσης εξόρυξης βαθέων υδάτων στις ΗΠΑ κοντά στην Αμερικανική Σαμόα"
    }
   },
   {
@@ -82,70 +226,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "U.S. Auctions 31.5 Million Acres of Pacific Ocean to Deep Sea Mining Company",
-   "url": "https://www.nytimes.com/2026/11/19/climate/metals-company-seafloor-mining-auction.html",
-   "date": "2026-11-19T21:05:59+00:00",
-   "t": {
-    "pt": "EUA leiloam 31,5 milhões de acres do Oceano Pacífico para Deep Sea Mining Company",
-    "es": "Estados Unidos subasta 31,5 millones de acres de océano Pacífico a una empresa minera de aguas profundas",
-    "it": "Gli Stati Uniti mettono all'asta 31,5 milioni di acri di Oceano Pacifico alla Deep Sea Mining Company",
-    "zh": "美国向深海矿业公司拍卖 3150 万英亩太平洋",
-    "fr": "Les États-Unis mettent aux enchères 31,5 millions d’acres d’océan Pacifique à une société minière en haute mer",
-    "ar": "الولايات المتحدة تبيع 31.5 مليون فدان من المحيط الهادئ لشركة Deep Sea Mining",
-    "de": "USA versteigert 31,5 Millionen Acres Pazifischer Ozean an Deep Sea Mining Company",
-    "el": "Οι ΗΠΑ δημοπρατούν 31,5 εκατομμύρια στρέμματα Ειρηνικού Ωκεανού σε εταιρεία εξόρυξης βαθέων υδάτων"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "BBC Inside Science",
-   "url": "https://www.bbc.co.uk/sounds/play/w3ct978m?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-19T21:00:00+00:00",
-   "t": {
-    "pt": "BBC por dentro da ciência",
-    "es": "BBC dentro de la ciencia",
-    "it": "BBC Dentro la scienza",
-    "zh": "BBC 科学内幕",
-    "fr": "BBC à l'intérieur de la science",
-    "ar": "بي بي سي داخل العلوم",
-    "de": "BBC Inside Science",
-    "el": "BBC Inside Science"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Judge Finds Trump’s Planned Seabed Mining Auction Violated Law",
-   "url": "https://www.nytimes.com/2026/11/17/climate/seabed-mining-lease-auction.html",
-   "date": "2026-11-19T20:31:15+00:00",
-   "t": {
-    "pt": "Juiz considera que o leilão de mineração do fundo do mar planejado por Trump violou a lei",
-    "es": "Juez considera que la subasta de minería de fondos marinos planificada por Trump violó la ley",
-    "it": "Il giudice ritiene che l’asta mineraria dei fondali marini pianificata da Trump abbia violato la legge",
-    "zh": "法官裁定特朗普计划的海底采矿拍卖违反法律",
-    "fr": "Le juge conclut que la vente aux enchères prévue par Trump pour l’exploitation minière des fonds marins viole la loi",
-    "ar": "القاضي يجد أن مزاد ترامب للتعدين في قاع البحر ينتهك القانون",
-    "de": "Richter stellt fest, dass Trumps geplante Meeresbodenbergbau-Auktion gegen das Gesetz verstößt",
-    "el": "Ο δικαστής έκρινε ότι η προγραμματισμένη δημοπρασία εξόρυξης του Τραμπ στον βυθό της θάλασσας παραβιάζεται"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Oil firm fined for breaking environmental rules hundreds of times",
-   "url": "https://www.bbc.co.uk/news/articles/cmwy5de1177yo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-19T19:58:27+00:00",
-   "t": {
-    "pt": "Empresa petrolífera multada centenas de vezes por quebrar regras ambientais",
-    "es": "Empresa petrolera multada por infringir normas medioambientales cientos de veces",
-    "it": "Azienda petrolifera multata centinaia di volte per aver infranto le norme ambientali",
-    "zh": "石油公司因违反环保规定数百次被罚款",
-    "fr": "Une société pétrolière condamnée à des amendes pour avoir enfreint les règles environnementales des centaines de fois",
-    "ar": "تغريم شركة النفط لخرقها القواعد البيئية مئات المرات",
-    "de": "Ölkonzern wegen hundertfacher Verstöße gegen Umweltvorschriften mit Geldstrafe belegt",
-    "el": "Επιβλήθηκε πρόστιμο σε εταιρεία πετρελαίου επειδή παραβίασε τους περιβαλλοντικούς κανόνες εκατοντάδες φορές"
-   }
-  },
-  {
    "source": "DW",
    "title": "Uganda minister at COP31: 'We need a just transition'",
    "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
@@ -162,54 +242,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Cop31 told it risks being ‘ghost’ summit as all mentions of fossil fuels removed from draft text",
-   "url": "https://www.theguardian.com/environment/2026/nov/19/cop31-risks-becoming-ghost-summit-after-all-mentions-of-fossil-fuels-removed-from-draft-text",
-   "date": "2026-11-19T17:58:21+00:00",
-   "t": {
-    "pt": "A Cop31 disse que corre o risco de ser uma cimeira “fantasma”, já que todas as menções aos combustíveis fósseis foram removidas do projecto de texto",
-    "es": "La Cop31 dijo que corre el riesgo de ser una cumbre “fantasma” ya que todas las menciones a los combustibles fósiles se eliminan del borrador del texto.",
-    "it": "La Cop31 ha affermato che rischia di essere un vertice “fantasma” poiché tutte le menzioni dei combustibili fossili sono state rimosse dalla bozza del testo",
-    "zh": "第三十一届缔约方会议表示，由于所有提及化石燃料的内容都从草案文本中删除，因此该峰会有可能成为“幽灵”峰会",
-    "fr": "La Cop31 a déclaré qu'elle risquait d'être un sommet « fantôme » puisque toutes les mentions des combustibles fossiles ont été supprimées du projet de texte",
-    "ar": "أخبر مؤتمر Cop31 أنها تخاطر بأن تصبح قمة \"شبح\" حيث تمت إزالة جميع الإشارات إلى الوقود الأحفوري من مسودة النص",
-    "de": "Cop31 sagte, es bestehe die Gefahr, dass es sich um einen „Geistergipfel“ handele, da alle Erwähnungen fossiler Brennstoffe aus dem Textentwurf gestrichen würden",
-    "el": "Το Cop31 είπε ότι κινδυνεύει να γίνει σύνοδος κορυφής «φάντασμα», καθώς όλες οι αναφορές για ορυκτά καύσιμα αφαιρέθηκαν από το προσχέδιο"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Rare rhino's first steps captured on video at zoo",
-   "url": "https://www.bbc.co.uk/news/articles/cmly7dvjqg8xo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-19T16:28:41+00:00",
-   "t": {
-    "pt": "Primeiros passos de rinocerontes raros capturados em vídeo no zoológico",
-    "es": "Los primeros pasos de un raro rinoceronte captados en vídeo en un zoológico",
-    "it": "I primi passi di un raro rinoceronte catturati in un video allo zoo",
-    "zh": "动物园视频捕捉到稀有犀牛的第一步",
-    "fr": "Les premiers pas d'un rhinocéros rare capturés en vidéo au zoo",
-    "ar": "تم تصوير الخطوات الأولى لوحيد القرن النادر بالفيديو في حديقة الحيوان",
-    "de": "Die ersten Schritte eines seltenen Nashorns im Zoo auf Video festgehalten",
-    "el": "Τα πρώτα βήματα ενός σπάνιου ρινόκερου καταγράφηκαν σε βίντεο στο ζωολογικό κήπο"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Cop31 as it happened: Fossil fuels dumped from latest draft deal at climate summit",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/19/cop31-climate-turkey-live-news-updates-",
-   "date": "2026-11-19T16:09:06+00:00",
-   "t": {
-    "pt": "Cop31 como aconteceu: combustíveis fósseis descartados do último rascunho do acordo na cúpula do clima",
-    "es": "Cop31 como sucedió: Los combustibles fósiles descartados del último borrador del acuerdo en la cumbre sobre el clima",
-    "it": "Cop31 come è successo: combustibili fossili abbandonati dall'ultima bozza di accordo al vertice sul clima",
-    "zh": "第三十一届缔约方大会的实际情况：气候峰会最新协议草案中倾销化石燃料",
-    "fr": "La Cop31 telle qu'elle s'est produite : les combustibles fossiles exclus du dernier projet d'accord au sommet sur le climat",
-    "ar": "Cop31 كما حدث: تم التخلص من الوقود الأحفوري من أحدث مسودة اتفاق في قمة المناخ",
-    "de": "Cop31, wie es geschah: Fossile Brennstoffe wurden beim Klimagipfel aus dem neuesten Vertragsentwurf gestrichen",
-    "el": "Cop31 όπως έγινε: Τα ορυκτά καύσιμα απορρίφθηκαν από το τελευταίο προσχέδιο συμφωνίας στη σύνοδο κορυφής για το κλίμα"
-   }
-  },
-  {
    "source": "DW",
    "title": "No mention of fossil fuels in latest COP31 draft deal",
    "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
@@ -223,22 +255,6 @@
     "ar": "لم يتم ذكر الوقود الأحفوري في مسودة اتفاق COP31 الأخيرة",
     "de": "Keine Erwähnung fossiler Brennstoffe im jüngsten COP31-Abkommensentwurf",
     "el": "Καμία αναφορά στα ορυκτά καύσιμα στο τελευταίο προσχέδιο συμφωνίας COP31"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Trump takes 500 actions to weaken cancer protections, new report says",
-   "url": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
-   "date": "2026-11-19T14:15:15+00:00",
-   "t": {
-    "pt": "Trump toma 500 ações para enfraquecer a proteção contra o câncer, diz novo relatório",
-    "es": "Trump toma 500 acciones para debilitar las protecciones contra el cáncer, según un nuevo informe",
-    "it": "Trump intraprende 500 azioni per indebolire le protezioni contro il cancro, afferma un nuovo rapporto",
-    "zh": "新报告称特朗普采取 500 项行动削弱癌症保护",
-    "fr": "Trump prend 500 mesures pour affaiblir la protection contre le cancer, selon un nouveau rapport",
-    "ar": "يقول تقرير جديد إن ترامب يتخذ 500 إجراء لإضعاف الحماية من السرطان",
-    "de": "Trump ergreift 500 Maßnahmen, um den Schutz vor Krebs zu schwächen, heißt es in einem neuen Bericht",
-    "el": "Ο Τραμπ λαμβάνει 500 μέτρα για να αποδυναμώσει την προστασία από τον καρκίνο, αναφέρει νέα έκθεση"
    }
   },
   {
@@ -290,22 +306,6 @@
    }
   },
   {
-   "source": "DW",
-   "title": "How a green economy could help reverse climate change",
-   "url": "https://www.dw.com/en/how-a-green-economy-could-help-reverse-climate-change/a-79874576?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-18T09:02:00+00:00",
-   "t": {
-    "pt": "Como uma economia verde poderia ajudar a reverter as mudanças climáticas",
-    "es": "Cómo una economía verde podría ayudar a revertir el cambio climático",
-    "it": "Come un’economia verde potrebbe contribuire a invertire il cambiamento climatico",
-    "zh": "绿色经济如何帮助扭转气候变化",
-    "fr": "Comment une économie verte pourrait contribuer à inverser le changement climatique",
-    "ar": "كيف يمكن للاقتصاد الأخضر أن يساعد في عكس اتجاه تغير المناخ",
-    "de": "Wie eine grüne Wirtschaft dazu beitragen könnte, den Klimawandel umzukehren",
-    "el": "Πώς μια πράσινη οικονομία θα μπορούσε να βοηθήσει στην αναστροφή της κλιματικής αλλαγής"
-   }
-  },
-  {
    "source": "NATURE",
    "title": "Tropical land-use intensification reshapes biodiversity in expected and unexpected ways",
    "url": "https://www.nature.com/articles/d41586-026-03602-1",
@@ -354,22 +354,6 @@
    }
   },
   {
-   "source": "DW",
-   "title": "COP31 draft deal calls for 'immediate' shift away from fossil fuels",
-   "url": "https://www.dw.com/en/cop31-draft-deal-calls-for-immediate-shift-away-from-fossil-fuels/a-79960705?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-16T14:05:00+00:00",
-   "t": {
-    "pt": "Rascunho do acordo da COP31 pede mudança “imediata” dos combustíveis fósseis",
-    "es": "El borrador del acuerdo de la COP31 pide un abandono \"inmediato\" de los combustibles fósiles",
-    "it": "La bozza di accordo della COP31 prevede l’abbandono “immediato” dei combustibili fossili",
-    "zh": "COP31 协议草案呼吁“立即”放弃化石燃料",
-    "fr": "Le projet d’accord de la COP31 appelle à un abandon « immédiat » des combustibles fossiles",
-    "ar": "تدعو مسودة اتفاق COP31 إلى التحول \"الفوري\" بعيدًا عن الوقود الأحفوري",
-    "de": "COP31-Vertragsentwurf fordert „sofortige“ Abkehr von fossilen Brennstoffen",
-    "el": "Το σχέδιο συμφωνίας COP31 απαιτεί «άμεση» μετατόπιση από τα ορυκτά καύσιμα"
-   }
-  },
-  {
    "source": "NPR",
    "title": "Colorado flood victims hope for speedier federal help",
    "url": "https://www.npr.org/2026/11/12/nx-s1-6036811/colorado-flood-victims-hope-for-speedier-federal-help",
@@ -383,6 +367,22 @@
     "ar": "يأمل ضحايا فيضانات كولورادو في الحصول على مساعدة فيدرالية أسرع",
     "de": "Die Flutopfer in Colorado hoffen auf schnellere staatliche Hilfe",
     "el": "Τα θύματα των πλημμυρών του Κολοράντο ελπίζουν για ταχύτερη ομοσπονδιακή βοήθεια"
+   }
+  },
+  {
+   "source": "NPR",
+   "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+   "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
+   "date": "2026-11-12T03:10:32+00:00",
+   "t": {
+    "pt": "O transatlântico mais rápido do mundo é afundado para quebrar outro recorde: o maior recife artificial",
+    "es": "Se hunde el transatlántico más rápido del mundo para batir otro récord: el arrecife artificial más grande",
+    "it": "Il transatlantico più veloce del mondo viene affondato per battere un altro record: la più grande barriera corallina artificiale",
+    "zh": "世界最快远洋客轮沉没打破另一纪录：最大人工鱼礁",
+    "fr": "Le paquebot le plus rapide du monde est coulé et bat un autre record : le plus grand récif artificiel",
+    "ar": "غرقت أسرع سفينة محيطية في العالم لتحطيم رقم قياسي آخر: أكبر شعاب مرجانية صناعية",
+    "de": "Der schnellste Ozeandampfer der Welt wird versenkt und bricht einen weiteren Rekord: das größte künstliche Riff",
+    "el": "Το ταχύτερο υπερωκεάνιο στον κόσμο βυθίστηκε για να σπάσει άλλο ένα ρεκόρ: τον μεγαλύτερο τεχνητό ύφαλο"
    }
   }
  ]
