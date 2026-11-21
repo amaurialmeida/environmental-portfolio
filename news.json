@@ -1,11 +1,39 @@
 {
- "updated": "2026-11-21T01:30:54.117162+00:00",
+ "updated": "2026-11-21T09:46:42.947904+00:00",
  "items": [
   {
+   "source": "GUARDIAN",
+   "title": "Cop31 live: world urged to avoid one of ‘most disappointing Cops ever’ as talks stretch past deadline",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/21/cop31-climate-deal-latest-news-updates",
+   "date": "2026-11-21T09:39:17+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+   "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-21T07:31:05+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Trump Administration Says Army Can Blow Up Lead-Laced Explosives",
+   "url": "https://www.nytimes.com/2026/11/20/climate/iowa-lead-plume-ammunition-explosion.html",
+   "date": "2026-11-21T02:52:50+00:00",
+   "t": {}
+  },
+  {
    "source": "AL JAZEERA",
-   "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
-   "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
-   "date": "2026-11-20T23:06:41+00:00",
+   "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+   "date": "2026-11-21T02:49:16+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "COP31 deal stalls as nations struggle to agree on climate plan",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
+   "date": "2026-11-21T01:44:09+00:00",
    "t": {}
   },
   {
@@ -113,27 +141,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "US army postpones plan to detonate bomb-making chemical amid outcry",
-   "url": "https://www.theguardian.com/us-news/2026/nov/19/iowa-lead-bomb-dust",
-   "date": "2026-11-20T15:39:48+00:00",
-   "t": {}
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Inside COP31: Part Trade Show, Part Climate Therapy Session",
-   "url": "https://www.nytimes.com/2026/11/19/climate/cop31-turkey-event-scene.html",
-   "date": "2026-11-20T15:20:14+00:00",
-   "t": {}
-  },
-  {
-   "source": "DW",
-   "title": "Africa at COP31: Will climate cash finally flow?",
-   "url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-20T14:18:00+00:00",
-   "t": {}
-  },
-  {
    "source": "BBC",
    "title": "What are heat pumps and how much do they cost?",
    "url": "https://www.bbc.co.uk/news/articles/c8xgdv9e007o?at_medium=RSS&at_campaign=rss",
@@ -150,6 +157,13 @@
    }
   },
   {
+   "source": "DW",
+   "title": "Have we missed our chance to stop climate change?",
+   "url": "https://www.dw.com/en/have-we-missed-our-chance-to-stop-climate-change/a-79986199?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-20T09:08:00+00:00",
+   "t": {}
+  },
+  {
    "source": "BBC",
    "title": "Wildlife conservation cash targets ex-colliery sites",
    "url": "https://www.bbc.co.uk/news/articles/cmx2785nzpw2o?at_medium=RSS&at_campaign=rss",
@@ -163,22 +177,6 @@
     "ar": "تستهدف أموال الحفاظ على الحياة البرية مواقع منجم الفحم السابقة",
     "de": "Wildtierschutzgelder zielen auf ehemalige Zechenstandorte ab",
     "el": "Τα μετρητά για τη διατήρηση της άγριας ζωής στοχεύουν σε πρώην τοποθεσίες ανθρακωρυχείων"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Mysterious Mercury is about to get a visitor - after spacecraft's eight-year epic voyage",
-   "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-20T05:59:56+00:00",
-   "t": {
-    "pt": "O misterioso Mercúrio está prestes a receber uma visita – após a viagem épica de oito anos da espaçonave",
-    "es": "El misterioso Mercurio está a punto de recibir una visita, después del viaje épico de ocho años de la nave espacial",
-    "it": "Il misterioso Mercurio sta per ricevere una visita, dopo il viaggio epico di otto anni della navicella spaziale",
-    "zh": "经过八年的史诗般的航行后，神秘的水星即将迎来一位访客",
-    "fr": "La mystérieuse Mercure est sur le point de recevoir un visiteur – après le voyage épique de huit ans du vaisseau spatial",
-    "ar": "كوكب عطارد الغامض على وشك أن يستقبل زائرًا - بعد رحلة ملحمية للمركبة الفضائية استمرت ثماني سنوات",
-    "de": "Der geheimnisvolle Merkur bekommt bald Besuch – nach der achtjährigen epischen Reise der Raumsonde",
-    "el": "Ο μυστηριώδης Ερμής πρόκειται να βρει επισκέπτη - μετά το οκτάχρονο επικό ταξίδι του διαστημόπλοιου"
    }
   },
   {
@@ -241,22 +239,6 @@
     "ar": "وحاولوا تعذيبه لحمله على مغادرة العراق. لقد رفض التخلي عن الطبيعة التي يحميها",
     "de": "Sie versuchten, ihn durch Folter dazu zu bringen, den Irak zu verlassen. Er weigerte sich, die Natur, die er beschützte, aufzugeben",
     "el": "Προσπάθησαν να τον βασανίσουν για να φύγει από το Ιράκ. Αρνήθηκε να εγκαταλείψει τη φύση που προστατεύει"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Tropical land-use intensification reshapes biodiversity in expected and unexpected ways",
-   "url": "https://www.nature.com/articles/d41586-026-03602-1",
-   "date": "2026-11-18T00:00:00+00:00",
-   "t": {
-    "pt": "A intensificação do uso da terra tropical remodela a biodiversidade de maneiras esperadas e inesperadas",
-    "es": "La intensificación del uso de la tierra tropical remodela la biodiversidad de maneras esperadas e inesperadas",
-    "it": "L’intensificazione dell’uso del territorio tropicale rimodella la biodiversità in modi attesi e inaspettati",
-    "zh": "热带土地利用集约化以预期和意想不到的方式重塑生物多样性",
-    "fr": "L’intensification de l’utilisation des terres tropicales remodèle la biodiversité de manière attendue et inattendue",
-    "ar": "إن تكثيف استخدام الأراضي الاستوائية يعيد تشكيل التنوع البيولوجي بطرق متوقعة وغير متوقعة",
-    "de": "Die Intensivierung der tropischen Landnutzung verändert die Artenvielfalt auf erwartete und unerwartete Weise",
-    "el": "Η εντατικοποίηση της τροπικής χρήσης γης αναδιαμορφώνει τη βιοποικιλότητα με αναμενόμενους και απροσδόκητους τρόπους"
    }
   }
  ]
