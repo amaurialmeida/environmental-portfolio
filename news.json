@@ -1,18 +1,83 @@
 {
- "updated": "2026-11-21T09:46:42.947904+00:00",
+ "updated": "2026-11-21T17:30:03.124822+00:00",
  "items": [
   {
    "source": "GUARDIAN",
    "title": "Cop31 live: world urged to avoid one of ‘most disappointing Cops ever’ as talks stretch past deadline",
    "url": "https://www.theguardian.com/environment/live/2026/nov/21/cop31-climate-deal-latest-news-updates",
-   "date": "2026-11-21T09:39:17+00:00",
+   "date": "2026-11-21T17:11:21+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Hormuz swim highlights environmental cost of war",
+   "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-21T16:12:31+00:00",
    "t": {}
   },
   {
    "source": "BBC",
    "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
    "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-21T07:31:05+00:00",
+   "date": "2026-11-21T14:54:24+00:00",
+   "t": {}
+  },
+  {
+   "source": "NPR",
+   "title": "Senate permitting bill speeds up renewables, divides greens over oil and gas",
+   "url": "https://www.npr.org/2026/11/21/nx-s1-6046482/senate-permitting-bill-speeds-up-renewables-divides-greens-over-oil-and-gas",
+   "date": "2026-11-21T12:40:17+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Turkey’s Van Cats Contend With Rising Temperatures",
+   "url": "https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
+   "date": "2026-11-21T12:31:35+00:00",
+   "t": {
+    "pt": "Os Van Cats da Turquia enfrentam o aumento das temperaturas",
+    "es": "Los Van Cats de Turquía se enfrentan al aumento de las temperaturas",
+    "it": "I Van Cats della Turchia lottano con l’aumento delle temperature",
+    "zh": "土耳其的货车猫与气温上升作斗争",
+    "fr": "Les chats de camionnette de Turquie font face à la hausse des températures",
+    "ar": "قطط الفان التركية تواجه ارتفاع درجات الحرارة",
+    "de": "Die Van Cats der Türkei kämpfen mit steigenden Temperaturen",
+    "el": "Οι γάτες Van της Τουρκίας αντιμετωπίζουν άνοδο της θερμοκρασίας"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Florida residents turn to kayaks and rafts as floods swamp streets",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
+   "date": "2026-11-21T12:22:24+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "How red squirrels made island their home",
+   "url": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-21T12:18:55+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘Legally, they don’t exist’: the hybrid crabs puzzling biologists and fishers",
+   "url": "https://www.theguardian.com/environment/2026/nov/21/alaska-bering-sea-heatwave-snow-tanner-hybrid-crabs-fishing-quotas",
+   "date": "2026-11-21T11:00:57+00:00",
+   "t": {}
+  },
+  {
+   "source": "DW",
+   "title": "COP31: UN Climate summit runs into overtime as deal remains elusive",
+   "url": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-overtime-as-deal-remains-elusive/live-79999516?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-21T10:52:00+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "China commits to low-carbon electrification and help for others to improve",
+   "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
+   "date": "2026-11-21T09:47:57+00:00",
    "t": {}
   },
   {
@@ -20,20 +85,6 @@
    "title": "Trump Administration Says Army Can Blow Up Lead-Laced Explosives",
    "url": "https://www.nytimes.com/2026/11/20/climate/iowa-lead-plume-ammunition-explosion.html",
    "date": "2026-11-21T02:52:50+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
-   "date": "2026-11-21T02:49:16+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "COP31 deal stalls as nations struggle to agree on climate plan",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
-   "date": "2026-11-21T01:44:09+00:00",
    "t": {}
   },
   {
@@ -65,40 +116,10 @@
    "t": {}
   },
   {
-   "source": "DW",
-   "title": "COP31: UN Climate summit enters final phase with no deal in sight",
-   "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-20T20:31:00+00:00",
-   "t": {
-    "pt": "COP31: Cimeira do Clima da ONU entra na fase final sem acordo à vista",
-    "es": "COP31: La cumbre sobre el clima de la ONU entra en su fase final sin un acuerdo a la vista",
-    "it": "COP31: il vertice delle Nazioni Unite sul clima entra nella fase finale senza alcun accordo in vista",
-    "zh": "COP31：联合国气候峰会进入最后阶段，目前尚未达成任何协议",
-    "fr": "COP31 : le sommet de l’ONU sur le climat entre dans sa phase finale sans aucun accord en vue",
-    "ar": "COP31: قمة الأمم المتحدة للمناخ تدخل مرحلتها النهائية دون التوصل إلى اتفاق في الأفق",
-    "de": "COP31: UN-Klimagipfel geht in die Endphase, ohne dass eine Einigung in Sicht ist",
-    "el": "COP31: Η σύνοδος κορυφής του ΟΗΕ για το κλίμα εισέρχεται στην τελική φάση χωρίς καμία συμφωνία"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "Cop31 talks go into overtime as debate rages over lack of fossil fuels in draft deal",
    "url": "https://www.theguardian.com/environment/2026/nov/20/cop31-talks-overtime-fossil-fuels-vanish-from-draft-deal",
    "date": "2026-11-20T20:04:46+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "What to know about the US permitting bill, from datacenters to Trump’s arch",
-   "url": "https://www.theguardian.com/us-news/2026/nov/20/what-to-know-permitting-bill-energy-passed",
-   "date": "2026-11-20T18:26:08+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Factious climate talks enter overtime without new draft deal in sight – as it happened",
-   "url": "https://www.theguardian.com/world/live/2026/nov/20/cop31-climate-crisis-talks-turkey-latest-news-updates",
-   "date": "2026-11-20T18:11:16+00:00",
    "t": {}
   },
   {
@@ -125,59 +146,11 @@
    "t": {}
   },
   {
-   "source": "NYTIMES",
-   "title": "Turkey’s Van Cats Contend With Rising Temperatures",
-   "url": "https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
-   "date": "2026-11-20T17:13:20+00:00",
-   "t": {
-    "pt": "Os Van Cats da Turquia enfrentam o aumento das temperaturas",
-    "es": "Los Van Cats de Turquía se enfrentan al aumento de las temperaturas",
-    "it": "I Van Cats della Turchia lottano con l’aumento delle temperature",
-    "zh": "土耳其的货车猫与气温上升作斗争",
-    "fr": "Les chats de camionnette de Turquie font face à la hausse des températures",
-    "ar": "قطط الفان التركية تواجه ارتفاع درجات الحرارة",
-    "de": "Die Van Cats der Türkei kämpfen mit steigenden Temperaturen",
-    "el": "Οι γάτες Van της Τουρκίας αντιμετωπίζουν άνοδο της θερμοκρασίας"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "What are heat pumps and how much do they cost?",
-   "url": "https://www.bbc.co.uk/news/articles/c8xgdv9e007o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-20T10:24:52+00:00",
-   "t": {
-    "pt": "O que são bombas de calor e quanto custam?",
-    "es": "¿Qué son las bombas de calor y cuánto cuestan?",
-    "it": "Cosa sono le pompe di calore e quanto costano?",
-    "zh": "什么是热泵以及它们的成本是多少？",
-    "fr": "Que sont les pompes à chaleur et combien coûtent-elles ?",
-    "ar": "ما هي المضخات الحرارية وكم تكلفتها؟",
-    "de": "Was sind Wärmepumpen und wie viel kosten sie?",
-    "el": "Τι είναι οι αντλίες θερμότητας και πόσο κοστίζουν;"
-   }
-  },
-  {
    "source": "DW",
    "title": "Have we missed our chance to stop climate change?",
    "url": "https://www.dw.com/en/have-we-missed-our-chance-to-stop-climate-change/a-79986199?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-20T09:08:00+00:00",
    "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "Wildlife conservation cash targets ex-colliery sites",
-   "url": "https://www.bbc.co.uk/news/articles/cmx2785nzpw2o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-20T06:21:50+00:00",
-   "t": {
-    "pt": "Dinheiro para conservação da vida selvagem visa locais de ex-minas de carvão",
-    "es": "El dinero para la conservación de la vida silvestre se dirige a ex-minas de carbón",
-    "it": "I fondi per la conservazione della fauna selvatica prendono di mira i siti delle ex miniere di carbone",
-    "zh": "野生动物保护资金瞄准前煤矿遗址",
-    "fr": "L'argent pour la conservation de la faune cible les anciens sites de mine",
-    "ar": "تستهدف أموال الحفاظ على الحياة البرية مواقع منجم الفحم السابقة",
-    "de": "Wildtierschutzgelder zielen auf ehemalige Zechenstandorte ab",
-    "el": "Τα μετρητά για τη διατήρηση της άγριας ζωής στοχεύουν σε πρώην τοποθεσίες ανθρακωρυχείων"
-   }
   },
   {
    "source": "NATURE",
