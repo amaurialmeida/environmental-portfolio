@@ -1,11 +1,62 @@
 {
- "updated": "2026-11-20T20:11:43.420916+00:00",
+ "updated": "2026-11-21T01:30:54.117162+00:00",
  "items": [
   {
+   "source": "AL JAZEERA",
+   "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
+   "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+   "date": "2026-11-20T23:06:41+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Birds killed in blaze at one of the largest foie gras farms in the US",
+   "url": "https://www.bbc.co.uk/news/articles/cq4gn0dg9194o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-20T22:57:26+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "What Are King Tides, and Why Is Everyone Talking About Them?",
+   "url": "https://www.nytimes.com/2026/11/20/weather/what-is-a-king-tide.html",
+   "date": "2026-11-20T22:52:14+00:00",
+   "t": {}
+  },
+  {
+   "source": "NPR",
+   "title": "Trump's impact on an Ohio steel plant",
+   "url": "https://www.npr.org/2026/11/20/nx-s1-5860971/trumps-impact-on-ohio-steel-plant",
+   "date": "2026-11-20T21:38:11+00:00",
+   "t": {}
+  },
+  {
+   "source": "DW",
+   "title": "At COP31, conflict over climate science slows action on global warming",
+   "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-20T20:34:00+00:00",
+   "t": {}
+  },
+  {
+   "source": "DW",
+   "title": "COP31: UN Climate summit enters final phase with no deal in sight",
+   "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-20T20:31:00+00:00",
+   "t": {
+    "pt": "COP31: Cimeira do Clima da ONU entra na fase final sem acordo à vista",
+    "es": "COP31: La cumbre sobre el clima de la ONU entra en su fase final sin un acuerdo a la vista",
+    "it": "COP31: il vertice delle Nazioni Unite sul clima entra nella fase finale senza alcun accordo in vista",
+    "zh": "COP31：联合国气候峰会进入最后阶段，目前尚未达成任何协议",
+    "fr": "COP31 : le sommet de l’ONU sur le climat entre dans sa phase finale sans aucun accord en vue",
+    "ar": "COP31: قمة الأمم المتحدة للمناخ تدخل مرحلتها النهائية دون التوصل إلى اتفاق في الأفق",
+    "de": "COP31: UN-Klimagipfel geht in die Endphase, ohne dass eine Einigung in Sicht ist",
+    "el": "COP31: Η σύνοδος κορυφής του ΟΗΕ για το κλίμα εισέρχεται στην τελική φάση χωρίς καμία συμφωνία"
+   }
+  },
+  {
    "source": "GUARDIAN",
-   "title": "Cop31 talks go into overtime as fossil fuels vanish from draft deal",
+   "title": "Cop31 talks go into overtime as debate rages over lack of fossil fuels in draft deal",
    "url": "https://www.theguardian.com/environment/2026/nov/20/cop31-talks-overtime-fossil-fuels-vanish-from-draft-deal",
-   "date": "2026-11-20T18:56:22+00:00",
+   "date": "2026-11-20T20:04:46+00:00",
    "t": {}
   },
   {
@@ -20,13 +71,6 @@
    "title": "Factious climate talks enter overtime without new draft deal in sight – as it happened",
    "url": "https://www.theguardian.com/world/live/2026/nov/20/cop31-climate-crisis-talks-turkey-latest-news-updates",
    "date": "2026-11-20T18:11:16+00:00",
-   "t": {}
-  },
-  {
-   "source": "DW",
-   "title": "At COP31, conflict over climate science slows action on global warming",
-   "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-20T17:46:00+00:00",
    "t": {}
   },
   {
@@ -69,13 +113,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "What Are King Tides, and Why Is Everyone Talking About Them?",
-   "url": "https://www.nytimes.com/2026/11/20/weather/what-is-a-king-tide.html",
-   "date": "2026-11-20T17:10:28+00:00",
-   "t": {}
-  },
-  {
    "source": "GUARDIAN",
    "title": "US army postpones plan to detonate bomb-making chemical amid outcry",
    "url": "https://www.theguardian.com/us-news/2026/nov/19/iowa-lead-bomb-dust",
@@ -87,13 +124,6 @@
    "title": "Inside COP31: Part Trade Show, Part Climate Therapy Session",
    "url": "https://www.nytimes.com/2026/11/19/climate/cop31-turkey-event-scene.html",
    "date": "2026-11-20T15:20:14+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Blood Gold: The Munduruku’s fight for survival in the Brazilian Amazon",
-   "url": "https://www.aljazeera.com/video/fault-lines/2026/11/20/blood-gold-the-mundurukus-fight-for-survival-in-the-brazilian-amazon?traffic_source=rss",
-   "date": "2026-11-20T15:00:00+00:00",
    "t": {}
   },
   {
@@ -117,22 +147,6 @@
     "ar": "ما هي المضخات الحرارية وكم تكلفتها؟",
     "de": "Was sind Wärmepumpen und wie viel kosten sie?",
     "el": "Τι είναι οι αντλίες θερμότητας και πόσο κοστίζουν;"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "COP31: UN Climate summit enters final phase with no deal in sight",
-   "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-20T09:52:00+00:00",
-   "t": {
-    "pt": "COP31: Cimeira do Clima da ONU entra na fase final sem acordo à vista",
-    "es": "COP31: La cumbre sobre el clima de la ONU entra en su fase final sin un acuerdo a la vista",
-    "it": "COP31: il vertice delle Nazioni Unite sul clima entra nella fase finale senza alcun accordo in vista",
-    "zh": "COP31：联合国气候峰会进入最后阶段，目前尚未达成任何协议",
-    "fr": "COP31 : le sommet de l’ONU sur le climat entre dans sa phase finale sans aucun accord en vue",
-    "ar": "COP31: قمة الأمم المتحدة للمناخ تدخل مرحلتها النهائية دون التوصل إلى اتفاق في الأفق",
-    "de": "COP31: UN-Klimagipfel geht in die Endphase, ohne dass eine Einigung in Sicht ist",
-    "el": "COP31: Η σύνοδος κορυφής του ΟΗΕ για το κλίμα εισέρχεται στην τελική φάση χωρίς καμία συμφωνία"
    }
   },
   {
@@ -168,20 +182,11 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "More climate money for Africa? Europe says use what's already pledged",
-   "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-20T05:03:43+00:00",
-   "t": {
-    "pt": "Mais dinheiro climático para África? Europa diz usar o que já foi prometido",
-    "es": "¿Más dinero climático para África? Europa dice utilizar lo que ya se ha prometido",
-    "it": "Più soldi per il clima per l’Africa? L'Europa dice di utilizzare ciò che è già stato promesso",
-    "zh": "为非洲提供更多气候资金？欧洲表示使用已经承诺的资金",
-    "fr": "Plus d’argent climatique pour l’Afrique ? L'Europe dit d'utiliser ce qui a déjà été promis",
-    "ar": "المزيد من أموال المناخ لأفريقيا؟ أوروبا تقول استخدم ما تعهدت به بالفعل",
-    "de": "Mehr Klimageld für Afrika? Europa sagt, nutzen Sie, was bereits zugesagt wurde",
-    "el": "Περισσότερα χρήματα για το κλίμα για την Αφρική; Η Ευρώπη λέει να χρησιμοποιήσει αυτό που έχει ήδη δεσμευτεί"
-   }
+   "source": "NATURE",
+   "title": "Net zero emissions won’t reverse climate change — some nations look to ‘net negative’",
+   "url": "https://www.nature.com/articles/d41586-026-03789-3",
+   "date": "2026-11-20T00:00:00+00:00",
+   "t": {}
   },
   {
    "source": "NATURE",
@@ -252,38 +257,6 @@
     "ar": "إن تكثيف استخدام الأراضي الاستوائية يعيد تشكيل التنوع البيولوجي بطرق متوقعة وغير متوقعة",
     "de": "Die Intensivierung der tropischen Landnutzung verändert die Artenvielfalt auf erwartete und unerwartete Weise",
     "el": "Η εντατικοποίηση της τροπικής χρήσης γης αναδιαμορφώνει τη βιοποικιλότητα με αναμενόμενους και απροσδόκητους τρόπους"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Band-Edge-Extended Heterointerfaces for Perovskite Solar Cells and Tandems",
-   "url": "https://www.nature.com/articles/s41586-026-11427-1",
-   "date": "2026-11-18T00:00:00+00:00",
-   "t": {
-    "pt": "Heterointerfaces estendidas de banda para células solares de perovskita e tandems",
-    "es": "Heterointerfaces extendidas de borde de banda para tándems y células solares de perovskita",
-    "it": "Eterointerfacce estese a bordo banda per celle solari e tandem in perovskite",
-    "zh": "用于钙钛矿太阳能电池和串联的带边扩展异质界面",
-    "fr": "Hétérointerfaces à bande étendue pour les cellules solaires et les tandems à pérovskite",
-    "ar": "واجهات غير متجانسة ممتدة على حافة النطاق لخلايا البيروفسكايت الشمسية والترادفات",
-    "de": "Bandkantenerweiterte Heteroschnittstellen für Perowskit-Solarzellen und Tandems",
-    "el": "Εκτεταμένες ετεροδιεπαφές με άκρα ζώνης για ηλιακά κύτταρα και διαδοχικά στοιχεία Perovskite"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Colorado flood victims hope for speedier federal help",
-   "url": "https://www.npr.org/2026/11/12/nx-s1-6036811/colorado-flood-victims-hope-for-speedier-federal-help",
-   "date": "2026-11-12T23:51:38+00:00",
-   "t": {
-    "pt": "Vítimas das enchentes no Colorado esperam ajuda federal mais rápida",
-    "es": "Las víctimas de las inundaciones en Colorado esperan una ayuda federal más rápida",
-    "it": "Le vittime delle inondazioni del Colorado sperano in un aiuto federale più rapido",
-    "zh": "科罗拉多州洪水灾民希望联邦政府更快提供帮助",
-    "fr": "Les victimes des inondations au Colorado espèrent une aide fédérale plus rapide",
-    "ar": "يأمل ضحايا فيضانات كولورادو في الحصول على مساعدة فيدرالية أسرع",
-    "de": "Die Flutopfer in Colorado hoffen auf schnellere staatliche Hilfe",
-    "el": "Τα θύματα των πλημμυρών του Κολοράντο ελπίζουν για ταχύτερη ομοσπονδιακή βοήθεια"
    }
   }
  ]
