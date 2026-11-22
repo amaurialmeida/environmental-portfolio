@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-21T23:11:52.997241+00:00",
+ "updated": "2026-11-22T03:07:58.706212+00:00",
  "items": [
+  {
+   "source": "DW",
+   "title": "COP31: UN Climate summit runs into second day of overtime",
+   "url": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-second-day-of-overtime/live-79999516?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-22T01:12:00+00:00",
+   "t": {
+    "pt": "COP31: Cúpula do Clima da ONU entra no segundo dia de prorrogação",
+    "es": "COP31: La cumbre sobre el clima de la ONU llega al segundo día de tiempo extra",
+    "it": "COP31: il vertice delle Nazioni Unite sul clima entra nel secondo giorno di straordinari",
+    "zh": "COP31：联合国气候峰会进入加时赛第二天",
+    "fr": "COP31 : le sommet de l'ONU sur le climat entame sa deuxième journée de prolongation",
+    "ar": "COP31: تستمر قمة الأمم المتحدة للمناخ في اليوم الثاني من العمل الإضافي",
+    "de": "COP31: UN-Klimagipfel geht in die zweite Verlängerung",
+    "el": "COP31: Η σύνοδος κορυφής του ΟΗΕ για το κλίμα ξεκινά τη δεύτερη ημέρα υπερωριών"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "‘No time for a culture war’: Victoria’s electricity supply is at risk. Can it avoid power shortages and bill shocks?",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/22/victoria-election-2026-what-are-parties-promising-energy-policy",
+   "date": "2026-11-22T01:00:13+00:00",
+   "t": {
+    "pt": "‘Não há tempo para uma guerra cultural’: o fornecimento de eletricidade de Victoria está em risco. Ele pode evitar faltas de energia e choques nas contas?",
+    "es": "“No hay tiempo para una guerra cultural”: el suministro eléctrico de Victoria está en riesgo. ¿Puede evitar cortes de energía y facturas exorbitantes?",
+    "it": "“Non c’è tempo per una guerra culturale”: la fornitura elettrica del Victoria è a rischio. Può evitare carenze energetiche e bollette esorbitanti?",
+    "zh": "“没有时间进行文化战争”：维多利亚州的电力供应面临风险。它能避免电力短缺和电费冲击吗？",
+    "fr": "« Pas le temps pour une guerre culturelle » : l’approvisionnement en électricité de Victoria est menacé. Peut-il éviter les coupures d’électricité et les factures gonflées ?",
+    "ar": "\"لا وقت للحرب الثقافية\": إمدادات الكهرباء في فيكتوريا معرضة للخطر. هل يمكنها تجنب نقص الطاقة وصدمات الفاتورة؟",
+    "de": "„Keine Zeit für einen Kulturkrieg“: Victorias Stromversorgung ist gefährdet. Können Stromengpässe und Rechnungsschocks vermieden werden?",
+    "el": "«Δεν υπάρχει χρόνος για πολιτισμικό πόλεμο»: Η παροχή ηλεκτρικού ρεύματος της Βικτώριας κινδυνεύει. Μπορεί να αποφύγει ελλείψεις ηλεκτρικού ρεύματος και κραδασμούς λογαριασμών;"
+   }
+  },
   {
    "source": "NYTIMES",
    "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
@@ -162,22 +194,6 @@
    }
   },
   {
-   "source": "DW",
-   "title": "COP31: UN Climate summit runs into overtime as deal remains elusive",
-   "url": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-overtime-as-deal-remains-elusive/live-79999516?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-21T10:52:00+00:00",
-   "t": {
-    "pt": "COP31: Cúpula do Clima da ONU chega à prorrogação, pois o acordo permanece indefinido",
-    "es": "COP31: La cumbre sobre el clima de la ONU se prolonga mientras el acuerdo sigue siendo difícil de alcanzar",
-    "it": "COP31: il vertice delle Nazioni Unite sul clima va ai supplementari perché l’accordo resta irraggiungibile",
-    "zh": "COP31：联合国气候峰会因协议仍难以达成而陷入加班",
-    "fr": "COP31 : le sommet de l'ONU sur le climat touche à sa fin alors que l'accord reste insaisissable",
-    "ar": "COP31: قمة الأمم المتحدة للمناخ تستمر في العمل الإضافي حيث لا يزال الاتفاق بعيد المنال",
-    "de": "COP31: Der UN-Klimagipfel läuft in die Verlängerung, da eine Einigung immer noch nicht möglich ist",
-    "el": "COP31: Η σύνοδος κορυφής των Ηνωμένων Εθνών για το κλίμα βρίσκεται σε υπερωρία καθώς η συμφωνία παραμένει άπιαστη"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "China commits to low-carbon electrification and help for others to improve",
    "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
@@ -239,22 +255,6 @@
     "ar": "COP31: لا اتفاق بشأن علوم المناخ وانتشار المعلومات المضللة",
     "de": "COP31: Keine Einigung zur Klimawissenschaft, Verbreitung von Desinformation",
     "el": "COP31: Καμία συμφωνία για την επιστήμη του κλίματος, διάδοση παραπληροφόρησης"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Cop31 talks go into overtime as debate rages over lack of fossil fuels in draft deal",
-   "url": "https://www.theguardian.com/environment/2026/nov/20/cop31-talks-overtime-fossil-fuels-vanish-from-draft-deal",
-   "date": "2026-11-20T20:04:46+00:00",
-   "t": {
-    "pt": "As negociações da Cop31 vão para a prorrogação enquanto o debate se intensifica sobre a falta de combustíveis fósseis no projeto de acordo",
-    "es": "Las conversaciones de la Cop31 se prolongan mientras se debate sobre la falta de combustibles fósiles en el borrador del acuerdo",
-    "it": "I colloqui sulla Cop31 vanno oltre mentre infuria il dibattito sulla mancanza di combustibili fossili nella bozza di accordo",
-    "zh": "由于协议草案中缺乏化石燃料的争论激烈，Cop31谈判进入加时赛",
-    "fr": "Les négociations de la Cop31 se prolongent alors que le débat fait rage sur le manque de combustibles fossiles dans le projet d'accord",
-    "ar": "تستمر محادثات Cop31 في الوقت الإضافي مع احتدام الجدل حول نقص الوقود الأحفوري في مسودة الاتفاق",
-    "de": "Die COP31-Gespräche gehen in die Verlängerung, da die Debatte über den Mangel an fossilen Brennstoffen im Vertragsentwurf tobt",
-    "el": "Οι συνομιλίες Cop31 περνούν σε υπερωρίες καθώς μαίνεται η συζήτηση για την έλλειψη ορυκτών καυσίμων στο προσχέδιο της συμφωνίας"
    }
   },
   {
