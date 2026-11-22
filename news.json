@@ -1,21 +1,54 @@
 {
- "updated": "2026-11-22T03:07:58.706212+00:00",
+ "updated": "2026-11-22T11:17:00.247452+00:00",
  "items": [
   {
+   "source": "GUARDIAN",
+   "title": "Cop31 live: final session under way at divided climate summit as chance of deal hangs in the balance",
+   "url": "https://www.theguardian.com/environment/live/2026/nov/22/cop31-climate-crisis-talks-turkey-latest-news-updates",
+   "date": "2026-11-22T11:00:23+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
+   "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-22T10:44:12+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Canada’s Boreal Forest Is Reshaped by Logging and Climate Change",
+   "url": "https://www.nytimes.com/2026/11/22/world/canada/canada-boreal-forest-degradation-deforestation-logging.html",
+   "date": "2026-11-22T10:00:16+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
+   "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-22T06:54:06+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Record-breaking sightings of rare moth in Essex",
+   "url": "https://www.bbc.co.uk/news/articles/c6jrey28gvqxo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-22T06:38:26+00:00",
+   "t": {}
+  },
+  {
    "source": "DW",
-   "title": "COP31: UN Climate summit runs into second day of overtime",
-   "url": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-second-day-of-overtime/live-79999516?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-22T01:12:00+00:00",
-   "t": {
-    "pt": "COP31: Cúpula do Clima da ONU entra no segundo dia de prorrogação",
-    "es": "COP31: La cumbre sobre el clima de la ONU llega al segundo día de tiempo extra",
-    "it": "COP31: il vertice delle Nazioni Unite sul clima entra nel secondo giorno di straordinari",
-    "zh": "COP31：联合国气候峰会进入加时赛第二天",
-    "fr": "COP31 : le sommet de l'ONU sur le climat entame sa deuxième journée de prolongation",
-    "ar": "COP31: تستمر قمة الأمم المتحدة للمناخ في اليوم الثاني من العمل الإضافي",
-    "de": "COP31: UN-Klimagipfel geht in die zweite Verlängerung",
-    "el": "COP31: Η σύνοδος κορυφής του ΟΗΕ για το κλίμα ξεκινά τη δεύτερη ημέρα υπερωριών"
-   }
+   "title": "COP31: Fossil fuels still missing from draft deal at UN climate summit",
+   "url": "https://www.dw.com/en/cop31-fossil-fuels-still-missing-from-draft-deal-at-un-climate-summit/live-79999516?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-22T05:50:00+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "COP31 climate talks on the brink as new draft deal faces scrutiny",
+   "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
+   "date": "2026-11-22T04:51:35+00:00",
+   "t": {}
   },
   {
    "source": "GUARDIAN",
@@ -98,38 +131,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-   "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-21T22:19:43+00:00",
-   "t": {
-    "pt": "Luta pelos combustíveis fósseis deixa as negociações climáticas da COP31 num impasse",
-    "es": "La lucha por los combustibles fósiles deja las conversaciones sobre el clima de la COP31 en un punto muerto",
-    "it": "La lotta sui combustibili fossili lascia i negoziati sul clima della COP31 in una situazione di stallo",
-    "zh": "化石燃料之争使COP31气候谈判陷入僵局",
-    "fr": "La lutte pour les combustibles fossiles laisse les négociations sur le climat à la COP31 dans l’impasse",
-    "ar": "الصراع على الوقود الأحفوري يترك محادثات المناخ COP31 في طريق مسدود",
-    "de": "Der Streit um fossile Brennstoffe führt dazu, dass die COP31-Klimaverhandlungen ins Stocken geraten",
-    "el": "Ο αγώνας για τα ορυκτά καύσιμα αφήνει τις συνομιλίες για το κλίμα της COP31 σε αδιέξοδο"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Hormuz swim highlights environmental cost of war",
-   "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-21T16:12:31+00:00",
-   "t": {
-    "pt": "Nado em Ormuz destaca o custo ambiental da guerra",
-    "es": "La natación en Ormuz pone de relieve el coste medioambiental de la guerra",
-    "it": "La nuotata Hormuz evidenzia il costo ambientale della guerra",
-    "zh": "霍尔木兹游泳突显战争的环境代价",
-    "fr": "La baignade à Ormuz met en lumière le coût environnemental de la guerre",
-    "ar": "السباحة في هرمز تسلط الضوء على التكلفة البيئية للحرب",
-    "de": "Schwimmen in Hormuz verdeutlicht die Umweltkosten des Krieges",
-    "el": "Η κολύμβηση στο Ορμούζ υπογραμμίζει το περιβαλλοντικό κόστος του πολέμου"
-   }
-  },
-  {
    "source": "NPR",
    "title": "Senate permitting bill speeds up renewables, divides greens over oil and gas",
    "url": "https://www.npr.org/2026/11/21/nx-s1-6046482/senate-permitting-bill-speeds-up-renewables-divides-greens-over-oil-and-gas",
@@ -162,22 +163,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "How red squirrels made island their home",
-   "url": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-21T12:18:55+00:00",
-   "t": {
-    "pt": "Como os esquilos vermelhos fizeram da ilha seu lar",
-    "es": "Cómo las ardillas rojas hicieron de la isla su hogar",
-    "it": "Come gli scoiattoli rossi hanno fatto dell'isola la loro casa",
-    "zh": "红松鼠如何以岛屿为家",
-    "fr": "Comment les écureuils roux ont élu domicile sur l'île",
-    "ar": "كيف جعلت السناجب الحمراء الجزيرة موطنها؟",
-    "de": "Wie Eichhörnchen die Insel zu ihrem Zuhause machten",
-    "el": "Πώς οι κόκκινοι σκίουροι έκαναν το νησί σπίτι τους"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "‘Legally, they don’t exist’: the hybrid crabs puzzling biologists and fishers",
    "url": "https://www.theguardian.com/environment/2026/nov/21/alaska-bering-sea-heatwave-snow-tanner-hybrid-crabs-fishing-quotas",
@@ -191,38 +176,6 @@
     "ar": "\"من الناحية القانونية، لا وجود لها\": السرطانات الهجينة تحير علماء الأحياء والصيادين",
     "de": "„Rechtlich gesehen gibt es sie nicht“: Die Hybridkrabben geben Biologen und Fischern Rätsel auf",
     "el": "«Νομικά, δεν υπάρχουν»: τα υβριδικά καβούρια μπερδεύουν βιολόγους και ψαράδες"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "China commits to low-carbon electrification and help for others to improve",
-   "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
-   "date": "2026-11-21T09:47:57+00:00",
-   "t": {
-    "pt": "China compromete-se com a eletrificação de baixo carbono e ajuda outros a melhorar",
-    "es": "China se compromete con la electrificación baja en carbono y ayuda a otros a mejorar",
-    "it": "La Cina si impegna a favore di un’elettrificazione a basse emissioni di carbonio e ad aiutare gli altri a migliorare",
-    "zh": "中国致力于低碳电气化并帮助其他国家改善",
-    "fr": "La Chine s'engage en faveur d'une électrification à faible émission de carbone et aide les autres à s'améliorer",
-    "ar": "وتلتزم الصين بالكهرباء المنخفضة الكربون ومساعدة الآخرين على التحسن",
-    "de": "China verpflichtet sich zu einer kohlenstoffarmen Elektrifizierung und hilft anderen dabei, sich zu verbessern",
-    "el": "Η Κίνα δεσμεύεται να ηλεκτροδοτήσει με χαμηλές εκπομπές άνθρακα και να βοηθήσει άλλους να βελτιωθούν"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Trump Administration Says Army Can Blow Up Lead-Laced Explosives",
-   "url": "https://www.nytimes.com/2026/11/20/climate/iowa-lead-plume-ammunition-explosion.html",
-   "date": "2026-11-21T02:52:50+00:00",
-   "t": {
-    "pt": "Administração Trump afirma que Exército pode explodir explosivos com chumbo",
-    "es": "La administración Trump dice que el ejército puede hacer estallar explosivos con plomo",
-    "it": "L’amministrazione Trump afferma che l’esercito può far esplodere esplosivi al piombo",
-    "zh": "特朗普政府称军队可以引爆含铅炸药",
-    "fr": "L’administration Trump affirme que l’armée peut faire exploser des explosifs au plomb",
-    "ar": "إدارة ترامب تقول إن الجيش قادر على تفجير المتفجرات التي تحتوي على الرصاص",
-    "de": "Die Trump-Administration sagt, die Armee könne bleihaltige Sprengstoffe in die Luft jagen",
-    "el": "Η κυβέρνηση Τραμπ λέει ότι ο στρατός μπορεί να ανατινάξει εκρηκτικά με μόλυβδο"
    }
   },
   {
@@ -367,22 +320,6 @@
     "ar": "وحاولوا تعذيبه لحمله على مغادرة العراق. لقد رفض التخلي عن الطبيعة التي يحميها",
     "de": "Sie versuchten, ihn durch Folter dazu zu bringen, den Irak zu verlassen. Er weigerte sich, die Natur, die er beschützte, aufzugeben",
     "el": "Προσπάθησαν να τον βασανίσουν για να φύγει από το Ιράκ. Αρνήθηκε να εγκαταλείψει τη φύση που προστατεύει"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "Tropical land-use intensification reshapes biodiversity in expected and unexpected ways",
-   "url": "https://www.nature.com/articles/d41586-026-03602-1",
-   "date": "2026-11-18T00:00:00+00:00",
-   "t": {
-    "pt": "A intensificação do uso da terra tropical remodela a biodiversidade de maneiras esperadas e inesperadas",
-    "es": "La intensificación del uso de la tierra tropical remodela la biodiversidad de maneras esperadas e inesperadas",
-    "it": "L’intensificazione dell’uso del territorio tropicale rimodella la biodiversità in modi attesi e inaspettati",
-    "zh": "热带土地利用集约化以预期和意想不到的方式重塑生物多样性",
-    "fr": "L’intensification de l’utilisation des terres tropicales remodèle la biodiversité de manière attendue et inattendue",
-    "ar": "إن تكثيف استخدام الأراضي الاستوائية يعيد تشكيل التنوع البيولوجي بطرق متوقعة وغير متوقعة",
-    "de": "Die Intensivierung der tropischen Landnutzung verändert die Artenvielfalt auf erwartete und unerwartete Weise",
-    "el": "Η εντατικοποίηση της τροπικής χρήσης γης αναδιαμορφώνει τη βιοποικιλότητα με αναμενόμενους και απροσδόκητους τρόπους"
    }
   }
  ]
