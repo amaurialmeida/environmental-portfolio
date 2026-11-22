@@ -1,54 +1,245 @@
 {
- "updated": "2026-11-22T11:17:00.247452+00:00",
+ "updated": "2026-11-22T18:32:46.856594+00:00",
  "items": [
   {
+   "source": "BBC",
+   "title": "What's next after no deal at COP31 climate summit?",
+   "url": "https://www.bbc.co.uk/news/videos/cx987g7q019go?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-22T18:28:48+00:00",
+   "t": {
+    "pt": "O que vem a seguir depois de não haver acordo na cimeira climática COP31?",
+    "es": "¿Qué sigue después de que no se llegue a un acuerdo en la cumbre climática COP31?",
+    "it": "Cosa accadrà dopo il mancato accordo al vertice sul clima COP31?",
+    "zh": "COP31气候峰会未达成协议后下一步将何去何从？",
+    "fr": "Quelle est la prochaine étape après l’absence d’accord lors de la COP31 ?",
+    "ar": "ماذا بعد عدم التوصل إلى اتفاق في قمة المناخ COP31؟",
+    "de": "Wie geht es weiter, nachdem es beim Klimagipfel COP31 kein Abkommen gibt?",
+    "el": "Τι ακολουθεί μετά τη μη συμφωνία στη σύνοδο κορυφής για το κλίμα COP31;"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
+   "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
+   "date": "2026-11-22T18:20:38+00:00",
+   "t": {
+    "pt": "Negociações COP31 fracassam na Turquia em conflito por causa de combustíveis fósseis",
+    "es": "Las conversaciones de la COP31 colapsan en Turquía en un enfrentamiento sobre los combustibles fósiles",
+    "it": "La COP31 parla di un collasso in Turchia a causa dello scontro sui combustibili fossili",
+    "zh": "COP31 谈判因化石燃料冲突在土耳其破裂",
+    "fr": "Les négociations de la COP31 échouent en Turquie suite à un affrontement sur les combustibles fossiles",
+    "ar": "انهيار محادثات COP31 في تركيا بسبب صراع حول الوقود الأحفوري",
+    "de": "COP31-Gespräche scheitern in der Türkei wegen Streit um fossile Brennstoffe",
+    "el": "Οι συνομιλίες COP31 καταρρέουν στην Τουρκία σε μια σύγκρουση για τα ορυκτά καύσιμα"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "COP31 climate talks fail to reach major deal amid deep divisions",
+   "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-22T18:17:59+00:00",
+   "t": {
+    "pt": "As negociações climáticas da COP31 não conseguem chegar a um grande acordo em meio a divisões profundas",
+    "es": "Las conversaciones sobre el clima de la COP31 no logran llegar a un acuerdo importante en medio de profundas divisiones",
+    "it": "I colloqui sul clima della COP31 non riescono a raggiungere un accordo importante a causa di profonde divisioni",
+    "zh": "COP31气候谈判因分歧严重未能达成重大协议",
+    "fr": "Les négociations sur le climat de la COP31 ne parviennent pas à un accord majeur en raison de profondes divisions",
+    "ar": "فشلت محادثات المناخ COP31 في التوصل إلى اتفاق كبير وسط انقسامات عميقة",
+    "de": "Bei den COP31-Klimagesprächen gelingt es trotz tiefer Spaltungen nicht, eine große Einigung zu erzielen",
+    "el": "Οι συνομιλίες για το κλίμα COP31 αποτυγχάνουν να καταλήξουν σε σημαντική συμφωνία εν μέσω βαθιών διχασμών"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "UN climate talks collapse without a deal",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss",
+   "date": "2026-11-22T18:04:25+00:00",
+   "t": {
+    "pt": "Negociações climáticas da ONU fracassam sem acordo",
+    "es": "Las conversaciones de la ONU sobre el clima fracasan sin un acuerdo",
+    "it": "I colloqui sul clima delle Nazioni Unite falliscono senza un accordo",
+    "zh": "联合国气候谈判未达成协议就破裂",
+    "fr": "Les négociations de l'ONU sur le climat échouent sans accord",
+    "ar": "محادثات الأمم المتحدة بشأن المناخ تنهار دون التوصل إلى اتفاق",
+    "de": "Die UN-Klimaverhandlungen scheitern ohne ein Abkommen",
+    "el": "Οι συνομιλίες του ΟΗΕ για το κλίμα καταρρέουν χωρίς συμφωνία"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Court Filing Shows How Iowa Explosives Crisis Grew",
+   "url": "https://www.nytimes.com/2026/11/22/climate/iowa-lead-crisis-court-filing-detonation-delay-army.html",
+   "date": "2026-11-22T18:01:53+00:00",
+   "t": {
+    "pt": "Processo judicial mostra como cresceu a crise dos explosivos em Iowa",
+    "es": "Documentos judiciales muestran cómo creció la crisis de los explosivos en Iowa",
+    "it": "Gli atti del tribunale mostrano come è cresciuta la crisi degli esplosivi in Iowa",
+    "zh": "法庭文件显示爱荷华州爆炸物危机如何发展",
+    "fr": "Un dossier judiciaire montre comment la crise des explosifs dans l'Iowa s'est aggravée",
+    "ar": "يُظهر ملف المحكمة كيف نمت أزمة المتفجرات في ولاية أيوا",
+    "de": "Gerichtsakten zeigen, wie die Sprengstoffkrise in Iowa zunahm",
+    "el": "Η κατάθεση στο δικαστήριο δείχνει πώς αναπτύχθηκε η κρίση των εκρηκτικών της Αϊόβα"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "What to Know About the Planned Explosion in Iowa",
+   "url": "https://www.nytimes.com/2026/11/21/climate/what-to-know-about-the-planned-explosion-in-iowa.html",
+   "date": "2026-11-22T17:44:37+00:00",
+   "t": {
+    "pt": "O que saber sobre a explosão planejada em Iowa",
+    "es": "Lo que hay que saber sobre la explosión planificada en Iowa",
+    "it": "Cosa sapere sull'esplosione pianificata in Iowa",
+    "zh": "关于爱荷华州计划爆炸的了解",
+    "fr": "Ce qu'il faut savoir sur l'explosion prévue dans l'Iowa",
+    "ar": "ماذا تعرف عن الانفجار المخطط له في ولاية أيوا",
+    "de": "Was Sie über die geplante Explosion in Iowa wissen sollten",
+    "el": "Τι πρέπει να γνωρίζετε για την προγραμματισμένη έκρηξη στην Αϊόβα"
+   }
+  },
+  {
    "source": "GUARDIAN",
-   "title": "Cop31 live: final session under way at divided climate summit as chance of deal hangs in the balance",
+   "title": "Cop31 as it happened: EU and others reject deal as longest climate summit comes to fractious end",
    "url": "https://www.theguardian.com/environment/live/2026/nov/22/cop31-climate-crisis-talks-turkey-latest-news-updates",
-   "date": "2026-11-22T11:00:23+00:00",
-   "t": {}
+   "date": "2026-11-22T16:45:37+00:00",
+   "t": {
+    "pt": "Cop31 como aconteceu: UE e outros rejeitam acordo enquanto a mais longa cimeira climática chega a um fim turbulento",
+    "es": "Cop31 como sucedió: la UE y otros rechazan el acuerdo mientras la cumbre climática más larga llega a un final conflictivo",
+    "it": "Cop31 come è successo: l’UE e altri respingono l’accordo mentre il vertice sul clima più lungo giunge a una conclusione difficile",
+    "zh": "第三十一届缔约方会议的实际情况：欧盟和其他国家拒绝达成协议，因为最长的气候峰会即将结束",
+    "fr": "La Cop31 telle qu'elle s'est produite : l'UE et d'autres rejettent l'accord alors que le plus long sommet sur le climat touche à sa fin.",
+    "ar": "Cop31 كما حدث: الاتحاد الأوروبي وآخرون يرفضون الاتفاق مع وصول أطول قمة للمناخ إلى نهاية صعبة",
+    "de": "Cop31, wie es geschah: EU und andere lehnen Abkommen ab, da der längste Klimagipfel ein unruhiges Ende findet",
+    "el": "Cop31 όπως συνέβη: ΕΕ και άλλοι απορρίπτουν τη συμφωνία καθώς η μακρύτερη σύνοδος κορυφής για το κλίμα φτάνει στο κλασματικό τέλος"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
+   "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
+   "date": "2026-11-22T16:33:26+00:00",
+   "t": {
+    "pt": "‘Decepcionante’: Delegados reagem após negociações climáticas da COP31 terminarem sem acordo",
+    "es": "“Decepcionante”: los delegados reaccionan después de que las conversaciones sobre el clima de la COP31 finalicen sin acuerdo",
+    "it": "“Deludente”: i delegati reagiscono dopo la conclusione senza accordo dei colloqui sul clima della COP31",
+    "zh": "“令人失望”：COP31气候谈判结束但未达成协议后代表们的反应",
+    "fr": "« Décevant » : les délégués réagissent après la fin des négociations sur le climat de la COP31 sans accord",
+    "ar": "\"مخيب للآمال\": رد فعل المندوبين بعد انتهاء محادثات المناخ COP31 دون اتفاق",
+    "de": "„Enttäuschend“: Die Reaktion der Delegierten nach dem Ende der COP31-Klimaverhandlungen ohne Abkommen",
+    "el": "«Απογοητευτικό»: Οι αντιπρόσωποι αντιδρούν μετά το τέλος των συνομιλιών για το κλίμα της COP31 χωρίς συμφωνία"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "EU officials reject Cop31 deal as it 'doesn't speak to reality of the climate crisis' – video",
+   "url": "https://www.theguardian.com/environment/video/2026/nov/22/eu-officials-reject-cop31-deal-as-it-doesnt-speak-to-reality-of-the-climate-crisis-video",
+   "date": "2026-11-22T16:08:20+00:00",
+   "t": {
+    "pt": "Autoridades da UE rejeitam o acordo da Cop31 porque “não corresponde à realidade da crise climática” – vídeo",
+    "es": "Los funcionarios de la UE rechazan el acuerdo de la Cop31 porque \"no refleja la realidad de la crisis climática\" – vídeo",
+    "it": "I funzionari dell'UE respingono l'accordo Cop31 in quanto \"non parla della realtà della crisi climatica\" - video",
+    "zh": "欧盟官员拒绝第 31 届缔约方会议协议，因为它“没有谈到气候危机的现实”——视频",
+    "fr": "Les responsables de l’UE rejettent l’accord de la Cop31 car il « ne reflète pas la réalité de la crise climatique » – vidéo",
+    "ar": "مسؤولو الاتحاد الأوروبي يرفضون صفقة Cop31 لأنها \"لا تتحدث عن واقع أزمة المناخ\" - فيديو",
+    "de": "EU-Beamte lehnen den Cop31-Deal ab, da er „nicht die Realität der Klimakrise widerspiegelt“ – Video",
+    "el": "Οι αξιωματούχοι της ΕΕ απορρίπτουν τη συμφωνία Cop31 καθώς «δεν ανταποκρίνεται στην πραγματικότητα της κλιματικής κρίσης» - βίντεο"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
+   "url": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html",
+   "date": "2026-11-22T13:56:30+00:00",
+   "t": {
+    "pt": "O Exército rejeitou uma opção mais limpa para destruir explosivos com chumbo em Iowa",
+    "es": "El ejército rechazó una opción más limpia para destruir explosivos con plomo en Iowa",
+    "it": "L'esercito ha rifiutato un'opzione più pulita per distruggere gli esplosivi al piombo in Iowa",
+    "zh": "陆军拒绝了在爱荷华州销毁含铅炸药的更清洁方案",
+    "fr": "L’armée a rejeté une option plus propre pour détruire les explosifs au plomb dans l’Iowa",
+    "ar": "رفض الجيش خيارًا أنظف لتدمير المتفجرات التي تحتوي على الرصاص في ولاية أيوا",
+    "de": "Die Armee lehnte eine sauberere Option zur Zerstörung bleihaltiger Sprengstoffe in Iowa ab",
+    "el": "Ο στρατός απέρριψε μια πιο καθαρή επιλογή για την καταστροφή εκρηκτικών με μόλυβδο στην Αϊόβα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
+   "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
+   "date": "2026-11-22T13:36:01+00:00",
+   "t": {
+    "pt": "Britânico nada pelo estreito de Ormuz para destacar o custo ambiental da guerra",
+    "es": "Británico nada a lo largo del estrecho de Ormuz para resaltar el coste medioambiental de la guerra",
+    "it": "Il britannico nuota lungo lo stretto di Hormuz per evidenziare il costo ambientale della guerra",
+    "zh": "英国人游过霍尔木兹海峡以强调战争的环境成本",
+    "fr": "Un Britannique nage le long du détroit d’Ormuz pour souligner le coût environnemental de la guerre",
+    "ar": "بريطاني يسبح على طول مضيق هرمز لتسليط الضوء على التكلفة البيئية للحرب",
+    "de": "Brite schwimmt die Meerenge von Hormus entlang, um auf die Umweltkosten des Krieges aufmerksam zu machen",
+    "el": "Ο Βρετανός κολυμπά κατά μήκος του στενού του Ορμούζ για να τονίσει το περιβαλλοντικό κόστος του πολέμου"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
+   "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-22T13:18:00+00:00",
+   "t": {
+    "pt": "As negociações climáticas da COP31 terminam sem consenso sobre como financiar países vulneráveis ou afastar o mundo do uso de carvão, petróleo e gás",
+    "es": "Las conversaciones sobre el clima de la COP31 terminan sin consenso sobre cómo financiar a los países vulnerables o alejar al mundo del uso del carbón, el petróleo y el gas.",
+    "it": "I colloqui sul clima della COP31 si concludono senza un consenso su come finanziare i paesi vulnerabili o allontanare il mondo dall’uso di carbone, petrolio e gas",
+    "zh": "COP31气候谈判结束，但未能就如何资助脆弱国家或让世界摆脱煤炭、石油和天然气的使用达成共识",
+    "fr": "Les négociations sur le climat de la COP31 se terminent sans consensus sur la manière de financer les pays vulnérables ou d'éloigner le monde de l'utilisation du charbon, du pétrole et du gaz.",
+    "ar": "تنتهي محادثات المناخ COP31 دون إجماع حول كيفية تمويل البلدان الضعيفة أو إبعاد العالم عن استخدام الفحم والنفط والغاز",
+    "de": "Die COP31-Klimaverhandlungen enden ohne einen Konsens darüber, wie gefährdete Länder finanziert oder die Welt von der Nutzung von Kohle, Öl und Gas abgehalten werden können",
+    "el": "Οι συνομιλίες για το κλίμα COP31 τελειώνουν χωρίς συναίνεση σχετικά με τον τρόπο χρηματοδότησης ευάλωτων χωρών ή απομάκρυνσης του κόσμου από τη χρήση άνθρακα, πετρελαίου και φυσικού αερίου"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "COP31: Climate deal 'not adopted,' summit president says",
+   "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-summit-president-says/live-79999516?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-22T12:39:00+00:00",
+   "t": {
+    "pt": "COP31: Acordo climático ‘não adotado’, diz presidente da cúpula",
+    "es": "COP31: El acuerdo climático 'no adoptado', dice el presidente de la cumbre",
+    "it": "COP31: l’accordo sul clima “non è stato adottato”, afferma il presidente del vertice",
+    "zh": "COP31：峰会主席称气候协议“未获通过”",
+    "fr": "COP31 : l'accord sur le climat \"n'est pas adopté\", déclare le président du sommet",
+    "ar": "COP31: رئيس القمة يقول إن اتفاق المناخ \"لم يتم اعتماده\"",
+    "de": "COP31: Klimaabkommen „nicht angenommen“, sagt Gipfelpräsident",
+    "el": "COP31: Η συμφωνία για το κλίμα «δεν εγκρίθηκε», λέει ο πρόεδρος της συνόδου κορυφής"
+   }
   },
   {
    "source": "BBC",
    "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
    "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-22T10:44:12+00:00",
-   "t": {}
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Canada’s Boreal Forest Is Reshaped by Logging and Climate Change",
-   "url": "https://www.nytimes.com/2026/11/22/world/canada/canada-boreal-forest-degradation-deforestation-logging.html",
-   "date": "2026-11-22T10:00:16+00:00",
-   "t": {}
+   "t": {
+    "pt": "O misterioso Mercúrio recebe uma visita - após a viagem épica de oito anos da espaçonave",
+    "es": "El misterioso Mercurio recibe una visita, después del viaje épico de ocho años de la nave espacial",
+    "it": "Il misterioso Mercurio riceve una visita, dopo il viaggio epico di otto anni della navicella spaziale",
+    "zh": "经过八年的史诗般的航行后，神秘的水星迎来了一位访客",
+    "fr": "La mystérieuse Mercure reçoit un visiteur – après le voyage épique de huit ans du vaisseau spatial",
+    "ar": "ميركوري الغامض يستقبل زائرًا - بعد رحلة ملحمية للمركبة الفضائية استمرت ثماني سنوات",
+    "de": "Der geheimnisvolle Merkur bekommt Besuch – nach achtjähriger epischer Reise der Raumsonde",
+    "el": "Ο μυστηριώδης Ερμής δέχεται έναν επισκέπτη - μετά το οκτάχρονο επικό ταξίδι του διαστημικού σκάφους"
+   }
   },
   {
    "source": "BBC",
    "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
    "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-22T06:54:06+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "Record-breaking sightings of rare moth in Essex",
-   "url": "https://www.bbc.co.uk/news/articles/c6jrey28gvqxo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-22T06:38:26+00:00",
-   "t": {}
-  },
-  {
-   "source": "DW",
-   "title": "COP31: Fossil fuels still missing from draft deal at UN climate summit",
-   "url": "https://www.dw.com/en/cop31-fossil-fuels-still-missing-from-draft-deal-at-un-climate-summit/live-79999516?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-22T05:50:00+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "COP31 climate talks on the brink as new draft deal faces scrutiny",
-   "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
-   "date": "2026-11-22T04:51:35+00:00",
-   "t": {}
+   "t": {
+    "pt": "Novo projeto de acordo visa evitar o colapso das negociações na cúpula climática COP31",
+    "es": "El nuevo borrador del acuerdo tiene como objetivo evitar el colapso de las conversaciones en la cumbre climática COP31",
+    "it": "La nuova bozza di accordo mira a evitare il fallimento dei colloqui al vertice sul clima COP31",
+    "zh": "新协议草案旨在避免 COP31 气候峰会谈判破裂",
+    "fr": "Un nouveau projet d'accord vise à éviter l'échec des négociations lors de la COP31",
+    "ar": "تهدف مسودة الاتفاق الجديدة إلى تجنب انهيار المحادثات في قمة المناخ COP31",
+    "de": "Der neue Vertragsentwurf soll ein Scheitern der Gespräche auf dem Klimagipfel COP31 verhindern",
+    "el": "Το νέο προσχέδιο συμφωνίας στοχεύει να αποτρέψει την κατάρρευση των συνομιλιών στη σύνοδο κορυφής COP31 για το κλίμα"
+   }
   },
   {
    "source": "GUARDIAN",
@@ -67,70 +258,6 @@
    }
   },
   {
-   "source": "NYTIMES",
-   "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
-   "url": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html",
-   "date": "2026-11-21T22:57:09+00:00",
-   "t": {
-    "pt": "O Exército rejeitou uma opção mais limpa para destruir explosivos com chumbo em Iowa",
-    "es": "El ejército rechazó una opción más limpia para destruir explosivos con plomo en Iowa",
-    "it": "L'esercito ha rifiutato un'opzione più pulita per distruggere gli esplosivi al piombo in Iowa",
-    "zh": "陆军拒绝了在爱荷华州销毁含铅炸药的更清洁方案",
-    "fr": "L’armée a rejeté une option plus propre pour détruire les explosifs au plomb dans l’Iowa",
-    "ar": "رفض الجيش خيارًا أنظف لتدمير المتفجرات التي تحتوي على الرصاص في ولاية أيوا",
-    "de": "Die Armee lehnte eine sauberere Option zur Zerstörung bleihaltiger Sprengstoffe in Iowa ab",
-    "el": "Ο στρατός απέρριψε μια πιο καθαρή επιλογή για την καταστροφή εκρηκτικών με μόλυβδο στην Αϊόβα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Will COP31 end with a new global climate deal?",
-   "url": "https://www.bbc.co.uk/news/videos/cqn0dwrewrwxo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-21T22:44:52+00:00",
-   "t": {
-    "pt": "A COP31 terminará com um novo acordo climático global?",
-    "es": "¿Terminará la COP31 con un nuevo acuerdo climático global?",
-    "it": "La COP31 si concluderà con un nuovo accordo globale sul clima?",
-    "zh": "COP31 会以新的全球气候协议结束吗？",
-    "fr": "La COP31 se terminera-t-elle par un nouvel accord mondial sur le climat ?",
-    "ar": "هل سينتهي مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31) باتفاق عالمي جديد بشأن المناخ؟",
-    "de": "Wird COP31 mit einem neuen globalen Klimaabkommen enden?",
-    "el": "Θα τελειώσει η COP31 με μια νέα παγκόσμια συμφωνία για το κλίμα;"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "What to Know About the Planned Explosion in Iowa",
-   "url": "https://www.nytimes.com/2026/11/21/climate/what-to-know-about-the-planned-explosion-in-iowa.html",
-   "date": "2026-11-21T22:41:17+00:00",
-   "t": {
-    "pt": "O que saber sobre a explosão planejada em Iowa",
-    "es": "Lo que hay que saber sobre la explosión planificada en Iowa",
-    "it": "Cosa sapere sull'esplosione pianificata in Iowa",
-    "zh": "关于爱荷华州计划爆炸的了解",
-    "fr": "Ce qu'il faut savoir sur l'explosion prévue dans l'Iowa",
-    "ar": "ماذا تعرف عن الانفجار المخطط له في ولاية أيوا",
-    "de": "Was Sie über die geplante Explosion in Iowa wissen sollten",
-    "el": "Τι πρέπει να γνωρίζετε για την προγραμματισμένη έκρηξη στην Αϊόβα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Diplomats race to compromise on fossil fuels as Cop31 teeters on brink of failure – as it happened",
-   "url": "https://www.theguardian.com/environment/live/2026/nov/21/cop31-climate-deal-latest-news-updates",
-   "date": "2026-11-21T22:25:25+00:00",
-   "t": {
-    "pt": "Diplomatas correm para chegar a um acordo sobre os combustíveis fósseis enquanto a Cop31 oscila à beira do fracasso – como aconteceu",
-    "es": "Los diplomáticos se apresuran a llegar a un acuerdo sobre los combustibles fósiles mientras la Cop31 está al borde del fracaso, como sucedió",
-    "it": "I diplomatici corrono verso un compromesso sui combustibili fossili mentre la Cop31 vacilla sull’orlo del fallimento, come è successo",
-    "zh": "第 31 届缔约方大会在失败的边缘摇摇欲坠，外交官们竞相在化石燃料问题上达成妥协——正如事实所发生的那样",
-    "fr": "Les diplomates se précipitent pour trouver des compromis sur les combustibles fossiles alors que la Cop31 est au bord de l’échec – comme cela s’est produit",
-    "ar": "يتسابق الدبلوماسيون للتوصل إلى تسوية بشأن الوقود الأحفوري بينما يتأرجح مؤتمر Cop31 على حافة الفشل - كما حدث بالفعل",
-    "de": "Diplomaten wetteifern um Kompromisse bei fossilen Brennstoffen, während Cop31 am Rande des Scheiterns steht – wie es passiert ist",
-    "el": "Οι διπλωμάτες αγωνίζονται για συμβιβασμούς για τα ορυκτά καύσιμα καθώς το Cop31 βρίσκεται στο χείλος της αποτυχίας – όπως συνέβη"
-   }
-  },
-  {
    "source": "NPR",
    "title": "Senate permitting bill speeds up renewables, divides greens over oil and gas",
    "url": "https://www.npr.org/2026/11/21/nx-s1-6046482/senate-permitting-bill-speeds-up-renewables-divides-greens-over-oil-and-gas",
@@ -144,38 +271,6 @@
     "ar": "قانون مجلس الشيوخ الذي يسمح بمشروع القانون يسرع مصادر الطاقة المتجددة ويقسم الخضر حول النفط والغاز",
     "de": "Der Senat genehmigt einen Gesetzesentwurf, der erneuerbare Energien vorantreibt, und spaltet die Grünen über Öl und Gas",
     "el": "Το νομοσχέδιο για τις αδειοδοτήσεις της Γερουσίας επιταχύνει τις ανανεώσιμες πηγές ενέργειας, διχάζει τους πράσινους για το πετρέλαιο και το φυσικό αέριο"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "Turkey’s Van Cats Contend With Rising Temperatures",
-   "url": "https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
-   "date": "2026-11-21T12:31:35+00:00",
-   "t": {
-    "pt": "Os Van Cats da Turquia enfrentam o aumento das temperaturas",
-    "es": "Los Van Cats de Turquía se enfrentan al aumento de las temperaturas",
-    "it": "I Van Cats della Turchia lottano con l’aumento delle temperature",
-    "zh": "土耳其的货车猫与气温上升作斗争",
-    "fr": "Les chats de camionnette de Turquie font face à la hausse des températures",
-    "ar": "قطط الفان التركية تواجه ارتفاع درجات الحرارة",
-    "de": "Die Van Cats der Türkei kämpfen mit steigenden Temperaturen",
-    "el": "Οι γάτες Van της Τουρκίας αντιμετωπίζουν άνοδο της θερμοκρασίας"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘Legally, they don’t exist’: the hybrid crabs puzzling biologists and fishers",
-   "url": "https://www.theguardian.com/environment/2026/nov/21/alaska-bering-sea-heatwave-snow-tanner-hybrid-crabs-fishing-quotas",
-   "date": "2026-11-21T11:00:57+00:00",
-   "t": {
-    "pt": "‘Legalmente, eles não existem’: os caranguejos híbridos intrigam biólogos e pescadores",
-    "es": "“Legalmente no existen”: los cangrejos híbridos desconciertan a biólogos y pescadores",
-    "it": "“Legalmente non esistono”: i granchi ibridi lasciano perplessi biologi e pescatori",
-    "zh": "“从法律上讲，它们不存在”：杂交蟹让生物学家和渔民感到困惑",
-    "fr": "« Légalement, ils n’existent pas » : les crabes hybrides intriguent les biologistes et les pêcheurs",
-    "ar": "\"من الناحية القانونية، لا وجود لها\": السرطانات الهجينة تحير علماء الأحياء والصيادين",
-    "de": "„Rechtlich gesehen gibt es sie nicht“: Die Hybridkrabben geben Biologen und Fischern Rätsel auf",
-    "el": "«Νομικά, δεν υπάρχουν»: τα υβριδικά καβούρια μπερδεύουν βιολόγους και ψαράδες"
    }
   },
   {
@@ -243,22 +338,6 @@
    }
   },
   {
-   "source": "DW",
-   "title": "Uganda minister at COP31: 'We need a just transition'",
-   "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-19T19:31:00+00:00",
-   "t": {
-    "pt": "Ministro do Uganda na COP31: 'Precisamos de uma transição justa'",
-    "es": "Ministro de Uganda en la COP31: \"Necesitamos una transición justa\"",
-    "it": "Il ministro dell'Uganda alla COP31: 'Abbiamo bisogno di una transizione giusta'",
-    "zh": "乌干达部长在 COP31 上：“我们需要公正的过渡”",
-    "fr": "Ministre ougandais à la COP31 : « Nous avons besoin d’une transition juste »",
-    "ar": "وزير أوغندي في COP31: \"نحن بحاجة إلى انتقال عادل\"",
-    "de": "Uganda-Minister auf COP31: „Wir brauchen einen gerechten Übergang“",
-    "el": "Υπουργός της Ουγκάντα στο COP31: «Χρειαζόμαστε μια δίκαιη μετάβαση»"
-   }
-  },
-  {
    "source": "NATURE",
    "title": "More tropical cyclones hit peak fury at the worst possible time",
    "url": "https://www.nature.com/articles/d41586-026-03748-y",
@@ -304,22 +383,6 @@
     "ar": "يدرس الباحثون كيفية انتشار العواصف الكبيرة للمواد البلاستيكية الدقيقة في البيئة",
     "de": "Forscher untersuchen, wie große Stürme Mikroplastik in der Umwelt verbreiten",
     "el": "Οι ερευνητές μελετούν πώς οι μεγάλες καταιγίδες εξαπλώνουν μικροπλαστικά στο περιβάλλον"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "They tried to torture him into leaving Iraq. He refused to abandon the nature he protects",
-   "url": "https://www.npr.org/2026/11/18/nx-s1-6043167/iraq-environmentalist-marshes-iran-backed-militia-kidnapped",
-   "date": "2026-11-18T10:00:00+00:00",
-   "t": {
-    "pt": "Tentaram torturá-lo para que deixasse o Iraque. Ele se recusou a abandonar a natureza que protege",
-    "es": "Intentaron torturarlo para que abandonara Irak. Se negó a abandonar la naturaleza que protege.",
-    "it": "Hanno cercato di torturarlo affinché lasciasse l'Iraq. Si è rifiutato di abbandonare la natura che protegge",
-    "zh": "他们试图折磨他离开伊拉克。他拒绝放弃他所保护的自然",
-    "fr": "Ils ont essayé de le torturer pour qu'il quitte l'Irak. Il a refusé d'abandonner la nature qu'il protège",
-    "ar": "وحاولوا تعذيبه لحمله على مغادرة العراق. لقد رفض التخلي عن الطبيعة التي يحميها",
-    "de": "Sie versuchten, ihn durch Folter dazu zu bringen, den Irak zu verlassen. Er weigerte sich, die Natur, die er beschützte, aufzugeben",
-    "el": "Προσπάθησαν να τον βασανίσουν για να φύγει από το Ιράκ. Αρνήθηκε να εγκαταλείψει τη φύση που προστατεύει"
    }
   }
  ]
