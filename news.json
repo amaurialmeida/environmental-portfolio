@@ -1,6 +1,50 @@
 {
- "updated": "2026-11-23T00:17:13.876355+00:00",
+ "updated": "2026-11-23T07:46:18.629072+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Five takeaways from the failed climate talks COP31",
+   "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-23T06:33:50+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Alcaraz storms past world number one Zverev to win maiden ATP Finals title",
+   "url": "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis?traffic_source=rss",
+   "date": "2026-11-23T06:15:40+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+   "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-23T05:15:06+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+   "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+   "date": "2026-11-23T04:00:45+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
+   "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
+   "date": "2026-11-23T02:01:42+00:00",
+   "t": {
+    "pt": "Negociações COP31 fracassam na Turquia em conflito por causa de combustíveis fósseis",
+    "es": "Las conversaciones de la COP31 colapsan en Turquía en un enfrentamiento sobre los combustibles fósiles",
+    "it": "La COP31 parla di un collasso in Turchia a causa dello scontro sui combustibili fossili",
+    "zh": "COP31 谈判因化石燃料冲突在土耳其破裂",
+    "fr": "Les négociations de la COP31 échouent en Turquie suite à un affrontement sur les combustibles fossiles",
+    "ar": "انهيار محادثات COP31 في تركيا بسبب صراع حول الوقود الأحفوري",
+    "de": "COP31-Gespräche scheitern in der Türkei wegen Streit um fossile Brennstoffe",
+    "el": "Οι συνομιλίες COP31 καταρρέουν στην Τουρκία σε μια σύγκρουση για τα ορυκτά καύσιμα"
+   }
+  },
   {
    "source": "NPR",
    "title": "What it's like at a climate conference as talks collapse",
@@ -34,22 +78,6 @@
    }
   },
   {
-   "source": "AL JAZEERA",
-   "title": "Why has the COP31 climate summit failed to reach agreement?",
-   "url": "https://www.aljazeera.com/video/inside-story/2026/11/22/why-has-the-cop31-climate-summit-failed-to-reach-agreement?traffic_source=rss",
-   "date": "2026-11-22T20:00:00+00:00",
-   "t": {
-    "pt": "Porque é que a cimeira climática COP31 não conseguiu chegar a acordo?",
-    "es": "¿Por qué la cumbre climática COP31 no logró llegar a un acuerdo?",
-    "it": "Perché il vertice sul clima COP31 non è riuscito a raggiungere un accordo?",
-    "zh": "COP31气候峰会为何未能达成协议？",
-    "fr": "Pourquoi le sommet climatique COP31 n’a-t-il pas réussi à parvenir à un accord ?",
-    "ar": "لماذا فشلت قمة المناخ COP31 في التوصل إلى اتفاق؟",
-    "de": "Warum konnte auf dem Klimagipfel COP31 keine Einigung erzielt werden?",
-    "el": "Γιατί η σύνοδος κορυφής για το κλίμα COP31 απέτυχε να καταλήξει σε συμφωνία;"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
    "url": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html",
@@ -79,54 +107,6 @@
     "ar": "ماذا بعد عدم التوصل إلى اتفاق في قمة المناخ COP31؟",
     "de": "Wie geht es weiter, nachdem es beim Klimagipfel COP31 kein Abkommen gibt?",
     "el": "Τι ακολουθεί μετά τη μη συμφωνία στη σύνοδο κορυφής για το κλίμα COP31;"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
-   "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
-   "date": "2026-11-22T18:20:39+00:00",
-   "t": {
-    "pt": "Negociações COP31 fracassam na Turquia em conflito por causa de combustíveis fósseis",
-    "es": "Las conversaciones de la COP31 colapsan en Turquía en un enfrentamiento sobre los combustibles fósiles",
-    "it": "La COP31 parla di un collasso in Turchia a causa dello scontro sui combustibili fossili",
-    "zh": "COP31 谈判因化石燃料冲突在土耳其破裂",
-    "fr": "Les négociations de la COP31 échouent en Turquie suite à un affrontement sur les combustibles fossiles",
-    "ar": "انهيار محادثات COP31 في تركيا بسبب صراع حول الوقود الأحفوري",
-    "de": "COP31-Gespräche scheitern in der Türkei wegen Streit um fossile Brennstoffe",
-    "el": "Οι συνομιλίες COP31 καταρρέουν στην Τουρκία σε μια σύγκρουση για τα ορυκτά καύσιμα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-   "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-22T18:17:59+00:00",
-   "t": {
-    "pt": "COP31 não consegue chegar a um grande acordo climático, pois as negociações expõem profundas divisões",
-    "es": "La COP31 no logra alcanzar un acuerdo climático importante mientras las conversaciones exponen profundas divisiones",
-    "it": "La COP31 non riesce a raggiungere un importante accordo sul clima poiché i colloqui mettono in luce profonde divisioni",
-    "zh": "COP31未能达成重大气候协议，谈判暴露了深刻分歧",
-    "fr": "La COP31 ne parvient pas à parvenir à un accord majeur sur le climat alors que les négociations révèlent de profondes divisions",
-    "ar": "فشل مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31) في التوصل إلى اتفاق مناخي كبير حيث كشفت المحادثات عن انقسامات عميقة",
-    "de": "Bei der COP31 gelingt es nicht, ein großes Klimaabkommen zu erzielen, da die Gespräche tiefe Spaltungen offenbaren",
-    "el": "Η COP31 αποτυγχάνει να καταλήξει σε μια σημαντική συμφωνία για το κλίμα καθώς οι συνομιλίες αποκαλύπτουν βαθιές διχάσεις"
-   }
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "UN climate talks collapse without a deal",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss",
-   "date": "2026-11-22T18:04:25+00:00",
-   "t": {
-    "pt": "Negociações climáticas da ONU fracassam sem acordo",
-    "es": "Las conversaciones de la ONU sobre el clima fracasan sin un acuerdo",
-    "it": "I colloqui sul clima delle Nazioni Unite falliscono senza un accordo",
-    "zh": "联合国气候谈判未达成协议就破裂",
-    "fr": "Les négociations de l'ONU sur le climat échouent sans accord",
-    "ar": "محادثات الأمم المتحدة بشأن المناخ تنهار دون التوصل إلى اتفاق",
-    "de": "Die UN-Klimaverhandlungen scheitern ohne ein Abkommen",
-    "el": "Οι συνομιλίες του ΟΗΕ για το κλίμα καταρρέουν χωρίς συμφωνία"
    }
   },
   {
@@ -194,22 +174,6 @@
    }
   },
   {
-   "source": "GUARDIAN",
-   "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
-   "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war",
-   "date": "2026-11-22T13:36:01+00:00",
-   "t": {
-    "pt": "Britânico nada pelo estreito de Ormuz para destacar o custo ambiental da guerra",
-    "es": "Británico nada a lo largo del estrecho de Ormuz para resaltar el coste medioambiental de la guerra",
-    "it": "Il britannico nuota lungo lo stretto di Hormuz per evidenziare il costo ambientale della guerra",
-    "zh": "英国人游过霍尔木兹海峡以强调战争的环境成本",
-    "fr": "Un Britannique nage le long du détroit d’Ormuz pour souligner le coût environnemental de la guerre",
-    "ar": "بريطاني يسبح على طول مضيق هرمز لتسليط الضوء على التكلفة البيئية للحرب",
-    "de": "Brite schwimmt die Meerenge von Hormus entlang, um auf die Umweltkosten des Krieges aufmerksam zu machen",
-    "el": "Ο Βρετανός κολυμπά κατά μήκος του στενού του Ορμούζ για να τονίσει το περιβαλλοντικό κόστος του πολέμου"
-   }
-  },
-  {
    "source": "DW",
    "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
    "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf",
@@ -255,22 +219,6 @@
     "ar": "ميركوري الغامض يستقبل زائرًا - بعد رحلة ملحمية للمركبة الفضائية استمرت ثماني سنوات",
     "de": "Der geheimnisvolle Merkur bekommt Besuch – nach achtjähriger epischer Reise der Raumsonde",
     "el": "Ο μυστηριώδης Ερμής δέχεται έναν επισκέπτη - μετά το οκτάχρονο επικό ταξίδι του διαστημικού σκάφους"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
-   "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-22T06:54:06+00:00",
-   "t": {
-    "pt": "Novo projeto de acordo visa evitar o colapso das negociações na cúpula climática COP31",
-    "es": "El nuevo borrador del acuerdo tiene como objetivo evitar el colapso de las conversaciones en la cumbre climática COP31",
-    "it": "La nuova bozza di accordo mira a evitare il fallimento dei colloqui al vertice sul clima COP31",
-    "zh": "新协议草案旨在避免 COP31 气候峰会谈判破裂",
-    "fr": "Un nouveau projet d'accord vise à éviter l'échec des négociations lors de la COP31",
-    "ar": "تهدف مسودة الاتفاق الجديدة إلى تجنب انهيار المحادثات في قمة المناخ COP31",
-    "de": "Der neue Vertragsentwurf soll ein Scheitern der Gespräche auf dem Klimagipfel COP31 verhindern",
-    "el": "Το νέο προσχέδιο συμφωνίας στοχεύει να αποτρέψει την κατάρρευση των συνομιλιών στη σύνοδο κορυφής COP31 για το κλίμα"
    }
   },
   {
@@ -384,6 +332,13 @@
     "de": "Tägliches Briefing: <i>Homo erectus</i> hatte das Zeug zum Gedeihen im Regenwald",
     "el": "Καθημερινή ενημέρωση: Ο <i>Homo erectus</i> είχε ότι χρειάζεται για να ευδοκιμήσει στο τροπικό δάσος"
    }
+  },
+  {
+   "source": "NPR",
+   "title": "Researchers are studying how large storms spread microplastics in the environment",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6036678-e1/researchers-are-studying-how-large-storms-spread-microplastics-in-the-environment",
+   "date": "2026-11-18T22:02:15+00:00",
+   "t": {}
   }
  ]
 }
