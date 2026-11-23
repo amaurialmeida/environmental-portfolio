@@ -1,6 +1,70 @@
 {
- "updated": "2026-11-22T18:32:46.856594+00:00",
+ "updated": "2026-11-23T00:17:13.876355+00:00",
  "items": [
+  {
+   "source": "NPR",
+   "title": "What it's like at a climate conference as talks collapse",
+   "url": "https://www.npr.org/2026/11/22/nx-s1-6050248/what-its-like-at-a-climate-conference-as-talks-collapse",
+   "date": "2026-11-22T22:40:23+00:00",
+   "t": {
+    "pt": "Como é uma conferência sobre o clima quando as negociações fracassam",
+    "es": "Cómo es una conferencia sobre el clima cuando las conversaciones colapsan",
+    "it": "Com'è partecipare a una conferenza sul clima mentre i colloqui falliscono",
+    "zh": "气候会议谈判破裂时的感觉",
+    "fr": "À quoi ressemble une conférence sur le climat alors que les négociations échouent",
+    "ar": "كيف يبدو الأمر في مؤتمر المناخ مع انهيار المحادثات",
+    "de": "Wie es auf einer Klimakonferenz ist, wenn die Gespräche scheitern",
+    "el": "Πώς είναι σε μια διάσκεψη για το κλίμα καθώς οι συνομιλίες καταρρέουν"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "The good news out of Cop31? That most of the world’s governments said no to an agreement stripped of meaning | Bill Hare",
+   "url": "https://www.theguardian.com/environment/commentisfree/2026/nov/23/cop31-climate-summit-no-agreement",
+   "date": "2026-11-22T22:30:48+00:00",
+   "t": {
+    "pt": "As boas notícias do Cop31? Que a maioria dos governos do mundo disse não a um acordo desprovido de significado | Bill Lebre",
+    "es": "¿Las buenas noticias de Cop31? Que la mayoría de los gobiernos del mundo dijeron no a un acuerdo despojado de sentido | liebre",
+    "it": "La buona notizia dalla Cop31? Che la maggior parte dei governi del mondo ha detto no a un accordo privo di significato | Bill Hare",
+    "zh": "第 31 届缔约方大会的好消息是什么？世界上大多数政府都对一项失去意义的协议表示不同意比尔·黑尔",
+    "fr": "La bonne nouvelle de la Cop31 ? Que la plupart des gouvernements du monde ont dit non à un accord dénué de sens | Bill Lièvre",
+    "ar": "الأخبار الجيدة من Cop31؟ أن أغلب حكومات العالم قالت لا لاتفاق مجرد من المعنى | بيل هير",
+    "de": "Die guten Nachrichten aus Cop31? Dass die meisten Regierungen der Welt Nein zu einem bedeutungslosen Abkommen gesagt haben | Bill Hare",
+    "el": "Τα καλά νέα από το Cop31; Ότι οι περισσότερες από τις κυβερνήσεις του κόσμου είπαν όχι σε μια συμφωνία χωρίς νόημα | Bill Hare"
+   }
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Why has the COP31 climate summit failed to reach agreement?",
+   "url": "https://www.aljazeera.com/video/inside-story/2026/11/22/why-has-the-cop31-climate-summit-failed-to-reach-agreement?traffic_source=rss",
+   "date": "2026-11-22T20:00:00+00:00",
+   "t": {
+    "pt": "Porque é que a cimeira climática COP31 não conseguiu chegar a acordo?",
+    "es": "¿Por qué la cumbre climática COP31 no logró llegar a un acuerdo?",
+    "it": "Perché il vertice sul clima COP31 non è riuscito a raggiungere un accordo?",
+    "zh": "COP31气候峰会为何未能达成协议？",
+    "fr": "Pourquoi le sommet climatique COP31 n’a-t-il pas réussi à parvenir à un accord ?",
+    "ar": "لماذا فشلت قمة المناخ COP31 في التوصل إلى اتفاق؟",
+    "de": "Warum konnte auf dem Klimagipfel COP31 keine Einigung erzielt werden?",
+    "el": "Γιατί η σύνοδος κορυφής για το κλίμα COP31 απέτυχε να καταλήξει σε συμφωνία;"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
+   "url": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html",
+   "date": "2026-11-22T19:28:16+00:00",
+   "t": {
+    "pt": "O Exército rejeitou uma opção mais limpa para destruir explosivos com chumbo em Iowa",
+    "es": "El ejército rechazó una opción más limpia para destruir explosivos con plomo en Iowa",
+    "it": "L'esercito ha rifiutato un'opzione più pulita per distruggere gli esplosivi al piombo in Iowa",
+    "zh": "陆军拒绝了在爱荷华州销毁含铅炸药的更清洁方案",
+    "fr": "L’armée a rejeté une option plus propre pour détruire les explosifs au plomb dans l’Iowa",
+    "ar": "رفض الجيش خيارًا أنظف لتدمير المتفجرات التي تحتوي على الرصاص في ولاية أيوا",
+    "de": "Die Armee lehnte eine sauberere Option zur Zerstörung bleihaltiger Sprengstoffe in Iowa ab",
+    "el": "Ο στρατός απέρριψε μια πιο καθαρή επιλογή για την καταστροφή εκρηκτικών με μόλυβδο στην Αϊόβα"
+   }
+  },
   {
    "source": "BBC",
    "title": "What's next after no deal at COP31 climate summit?",
@@ -21,7 +85,7 @@
    "source": "NYTIMES",
    "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
    "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
-   "date": "2026-11-22T18:20:38+00:00",
+   "date": "2026-11-22T18:20:39+00:00",
    "t": {
     "pt": "Negociações COP31 fracassam na Turquia em conflito por causa de combustíveis fósseis",
     "es": "Las conversaciones de la COP31 colapsan en Turquía en un enfrentamiento sobre los combustibles fósiles",
@@ -35,18 +99,18 @@
   },
   {
    "source": "BBC",
-   "title": "COP31 climate talks fail to reach major deal amid deep divisions",
+   "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
    "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
    "date": "2026-11-22T18:17:59+00:00",
    "t": {
-    "pt": "As negociações climáticas da COP31 não conseguem chegar a um grande acordo em meio a divisões profundas",
-    "es": "Las conversaciones sobre el clima de la COP31 no logran llegar a un acuerdo importante en medio de profundas divisiones",
-    "it": "I colloqui sul clima della COP31 non riescono a raggiungere un accordo importante a causa di profonde divisioni",
-    "zh": "COP31气候谈判因分歧严重未能达成重大协议",
-    "fr": "Les négociations sur le climat de la COP31 ne parviennent pas à un accord majeur en raison de profondes divisions",
-    "ar": "فشلت محادثات المناخ COP31 في التوصل إلى اتفاق كبير وسط انقسامات عميقة",
-    "de": "Bei den COP31-Klimagesprächen gelingt es trotz tiefer Spaltungen nicht, eine große Einigung zu erzielen",
-    "el": "Οι συνομιλίες για το κλίμα COP31 αποτυγχάνουν να καταλήξουν σε σημαντική συμφωνία εν μέσω βαθιών διχασμών"
+    "pt": "COP31 não consegue chegar a um grande acordo climático, pois as negociações expõem profundas divisões",
+    "es": "La COP31 no logra alcanzar un acuerdo climático importante mientras las conversaciones exponen profundas divisiones",
+    "it": "La COP31 non riesce a raggiungere un importante accordo sul clima poiché i colloqui mettono in luce profonde divisioni",
+    "zh": "COP31未能达成重大气候协议，谈判暴露了深刻分歧",
+    "fr": "La COP31 ne parvient pas à parvenir à un accord majeur sur le climat alors que les négociations révèlent de profondes divisions",
+    "ar": "فشل مؤتمر الأمم المتحدة المعني بتغير المناخ (COP31) في التوصل إلى اتفاق مناخي كبير حيث كشفت المحادثات عن انقسامات عميقة",
+    "de": "Bei der COP31 gelingt es nicht, ein großes Klimaabkommen zu erzielen, da die Gespräche tiefe Spaltungen offenbaren",
+    "el": "Η COP31 αποτυγχάνει να καταλήξει σε μια σημαντική συμφωνία για το κλίμα καθώς οι συνομιλίες αποκαλύπτουν βαθιές διχάσεις"
    }
   },
   {
@@ -85,7 +149,7 @@
    "source": "NYTIMES",
    "title": "What to Know About the Planned Explosion in Iowa",
    "url": "https://www.nytimes.com/2026/11/21/climate/what-to-know-about-the-planned-explosion-in-iowa.html",
-   "date": "2026-11-22T17:44:37+00:00",
+   "date": "2026-11-22T17:44:38+00:00",
    "t": {
     "pt": "O que saber sobre a explosão planejada em Iowa",
     "es": "Lo que hay que saber sobre la explosión planificada en Iowa",
@@ -114,22 +178,6 @@
    }
   },
   {
-   "source": "AL JAZEERA",
-   "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
-   "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
-   "date": "2026-11-22T16:33:26+00:00",
-   "t": {
-    "pt": "‘Decepcionante’: Delegados reagem após negociações climáticas da COP31 terminarem sem acordo",
-    "es": "“Decepcionante”: los delegados reaccionan después de que las conversaciones sobre el clima de la COP31 finalicen sin acuerdo",
-    "it": "“Deludente”: i delegati reagiscono dopo la conclusione senza accordo dei colloqui sul clima della COP31",
-    "zh": "“令人失望”：COP31气候谈判结束但未达成协议后代表们的反应",
-    "fr": "« Décevant » : les délégués réagissent après la fin des négociations sur le climat de la COP31 sans accord",
-    "ar": "\"مخيب للآمال\": رد فعل المندوبين بعد انتهاء محادثات المناخ COP31 دون اتفاق",
-    "de": "„Enttäuschend“: Die Reaktion der Delegierten nach dem Ende der COP31-Klimaverhandlungen ohne Abkommen",
-    "el": "«Απογοητευτικό»: Οι αντιπρόσωποι αντιδρούν μετά το τέλος των συνομιλιών για το κλίμα της COP31 χωρίς συμφωνία"
-   }
-  },
-  {
    "source": "GUARDIAN",
    "title": "EU officials reject Cop31 deal as it 'doesn't speak to reality of the climate crisis' – video",
    "url": "https://www.theguardian.com/environment/video/2026/nov/22/eu-officials-reject-cop31-deal-as-it-doesnt-speak-to-reality-of-the-climate-crisis-video",
@@ -143,22 +191,6 @@
     "ar": "مسؤولو الاتحاد الأوروبي يرفضون صفقة Cop31 لأنها \"لا تتحدث عن واقع أزمة المناخ\" - فيديو",
     "de": "EU-Beamte lehnen den Cop31-Deal ab, da er „nicht die Realität der Klimakrise widerspiegelt“ – Video",
     "el": "Οι αξιωματούχοι της ΕΕ απορρίπτουν τη συμφωνία Cop31 καθώς «δεν ανταποκρίνεται στην πραγματικότητα της κλιματικής κρίσης» - βίντεο"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
-   "url": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html",
-   "date": "2026-11-22T13:56:30+00:00",
-   "t": {
-    "pt": "O Exército rejeitou uma opção mais limpa para destruir explosivos com chumbo em Iowa",
-    "es": "El ejército rechazó una opción más limpia para destruir explosivos con plomo en Iowa",
-    "it": "L'esercito ha rifiutato un'opzione più pulita per distruggere gli esplosivi al piombo in Iowa",
-    "zh": "陆军拒绝了在爱荷华州销毁含铅炸药的更清洁方案",
-    "fr": "L’armée a rejeté une option plus propre pour détruire les explosifs au plomb dans l’Iowa",
-    "ar": "رفض الجيش خيارًا أنظف لتدمير المتفجرات التي تحتوي على الرصاص في ولاية أيوا",
-    "de": "Die Armee lehnte eine sauberere Option zur Zerstörung bleihaltiger Sprengstoffe in Iowa ab",
-    "el": "Ο στρατός απέρριψε μια πιο καθαρή επιλογή για την καταστροφή εκρηκτικών με μόλυβδο στην Αϊόβα"
    }
   },
   {
@@ -239,22 +271,6 @@
     "ar": "تهدف مسودة الاتفاق الجديدة إلى تجنب انهيار المحادثات في قمة المناخ COP31",
     "de": "Der neue Vertragsentwurf soll ein Scheitern der Gespräche auf dem Klimagipfel COP31 verhindern",
     "el": "Το νέο προσχέδιο συμφωνίας στοχεύει να αποτρέψει την κατάρρευση των συνομιλιών στη σύνοδο κορυφής COP31 για το κλίμα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘No time for a culture war’: Victoria’s electricity supply is at risk. Can it avoid power shortages and bill shocks?",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/22/victoria-election-2026-what-are-parties-promising-energy-policy",
-   "date": "2026-11-22T01:00:13+00:00",
-   "t": {
-    "pt": "‘Não há tempo para uma guerra cultural’: o fornecimento de eletricidade de Victoria está em risco. Ele pode evitar faltas de energia e choques nas contas?",
-    "es": "“No hay tiempo para una guerra cultural”: el suministro eléctrico de Victoria está en riesgo. ¿Puede evitar cortes de energía y facturas exorbitantes?",
-    "it": "“Non c’è tempo per una guerra culturale”: la fornitura elettrica del Victoria è a rischio. Può evitare carenze energetiche e bollette esorbitanti?",
-    "zh": "“没有时间进行文化战争”：维多利亚州的电力供应面临风险。它能避免电力短缺和电费冲击吗？",
-    "fr": "« Pas le temps pour une guerre culturelle » : l’approvisionnement en électricité de Victoria est menacé. Peut-il éviter les coupures d’électricité et les factures gonflées ?",
-    "ar": "\"لا وقت للحرب الثقافية\": إمدادات الكهرباء في فيكتوريا معرضة للخطر. هل يمكنها تجنب نقص الطاقة وصدمات الفاتورة؟",
-    "de": "„Keine Zeit für einen Kulturkrieg“: Victorias Stromversorgung ist gefährdet. Können Stromengpässe und Rechnungsschocks vermieden werden?",
-    "el": "«Δεν υπάρχει χρόνος για πολιτισμικό πόλεμο»: Η παροχή ηλεκτρικού ρεύματος της Βικτώριας κινδυνεύει. Μπορεί να αποφύγει ελλείψεις ηλεκτρικού ρεύματος και κραδασμούς λογαριασμών;"
    }
   },
   {
@@ -367,22 +383,6 @@
     "ar": "ملخص يومي: كان لدى <i>الإنسان المنتصب</i> ما يلزم للازدهار في الغابات المطيرة",
     "de": "Tägliches Briefing: <i>Homo erectus</i> hatte das Zeug zum Gedeihen im Regenwald",
     "el": "Καθημερινή ενημέρωση: Ο <i>Homo erectus</i> είχε ότι χρειάζεται για να ευδοκιμήσει στο τροπικό δάσος"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Researchers are studying how large storms spread microplastics in the environment",
-   "url": "https://www.npr.org/2026/11/18/nx-s1-6036678-e1/researchers-are-studying-how-large-storms-spread-microplastics-in-the-environment",
-   "date": "2026-11-18T22:02:15+00:00",
-   "t": {
-    "pt": "Pesquisadores estão estudando como grandes tempestades espalham microplásticos no meio ambiente",
-    "es": "Los investigadores estudian cómo las grandes tormentas propagan los microplásticos en el medio ambiente",
-    "it": "I ricercatori stanno studiando come le grandi tempeste diffondono le microplastiche nell’ambiente",
-    "zh": "研究人员正在研究大型风暴如何在环境中传播微塑料",
-    "fr": "Des chercheurs étudient comment les grandes tempêtes propagent les microplastiques dans l’environnement",
-    "ar": "يدرس الباحثون كيفية انتشار العواصف الكبيرة للمواد البلاستيكية الدقيقة في البيئة",
-    "de": "Forscher untersuchen, wie große Stürme Mikroplastik in der Umwelt verbreiten",
-    "el": "Οι ερευνητές μελετούν πώς οι μεγάλες καταιγίδες εξαπλώνουν μικροπλαστικά στο περιβάλλον"
    }
   }
  ]
