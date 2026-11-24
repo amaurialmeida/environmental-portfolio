@@ -1,34 +1,95 @@
 {
- "updated": "2026-11-24T04:46:20.534712+00:00",
+ "updated": "2026-11-24T15:52:50.140589+00:00",
  "items": [
   {
    "source": "NYTIMES",
-   "title": "Court Clears the Way for Iowa Ammunition Detonation; Trump Addresses the Crisis",
+   "title": "Army Will Detonate Ammunition Cache in Iowa on Wednesday",
    "url": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html",
-   "date": "2026-11-24T04:25:21+00:00",
+   "date": "2026-11-24T15:08:47+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Outcry grows over UK plan to exempt most brownfield sites from nature protection rules",
+   "url": "https://www.theguardian.com/politics/2026/nov/24/outcry-uk-plans-to-exempt-brownfield-sites-nature-protection-rules",
+   "date": "2026-11-24T14:00:47+00:00",
    "t": {}
   },
   {
    "source": "NYTIMES",
-   "title": "What to Know About the Planned Explosion in Iowa",
+   "title": "California King Tides Threaten ‘Extreme’ Coastal Flooding",
+   "url": "https://www.nytimes.com/2026/11/24/weather/california-storm-king-tides-sf-la.html",
+   "date": "2026-11-24T13:36:41+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "What to Know About the Planned Explosion in Middletown, Iowa",
    "url": "https://www.nytimes.com/2026/11/21/climate/what-to-know-about-the-planned-explosion-in-iowa.html",
-   "date": "2026-11-24T03:07:31+00:00",
-   "t": {
-    "pt": "O que saber sobre a explosão planejada em Iowa",
-    "es": "Lo que hay que saber sobre la explosión planificada en Iowa",
-    "it": "Cosa sapere sull'esplosione pianificata in Iowa",
-    "zh": "关于爱荷华州计划爆炸的了解",
-    "fr": "Ce qu'il faut savoir sur l'explosion prévue dans l'Iowa",
-    "ar": "ماذا تعرف عن الانفجار المخطط له في ولاية أيوا",
-    "de": "Was Sie über die geplante Explosion in Iowa wissen sollten",
-    "el": "Τι πρέπει να γνωρίζετε για την προγραμματισμένη έκρηξη στην Αϊόβα"
-   }
+   "date": "2026-11-24T13:24:43+00:00",
+   "t": {}
   },
   {
    "source": "GUARDIAN",
-   "title": "Robert Macfarlane says trust in Cop to deliver change on climate is ‘misplaced’",
-   "url": "https://www.theguardian.com/environment/2026/nov/24/robert-macfarlane-trust-cop-climate-summit-deliver-change-misplaced",
-   "date": "2026-11-24T00:01:00+00:00",
+   "title": "Summer heat deaths in 2026 reached record high of 5,258 in England",
+   "url": "https://www.theguardian.com/environment/2026/nov/24/summer-heat-deaths-record-high-england",
+   "date": "2026-11-24T12:39:50+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Badger cull ruled out by Welsh government after speculation",
+   "url": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-24T12:01:32+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Their loss changed Appalachian forests for ever. Now the American chestnut is back",
+   "url": "https://www.theguardian.com/environment/2026/nov/24/american-chestnut-tree-restored-science-persistence-aoe",
+   "date": "2026-11-24T12:00:44+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
+   "url": "https://www.bbc.co.uk/weather/articles/c5742nplemnno?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-24T11:40:46+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Delia Smith joins opponents of £1.2bn data centre",
+   "url": "https://www.bbc.co.uk/news/articles/c678200xklgzo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-24T11:04:36+00:00",
+   "t": {}
+  },
+  {
+   "source": "NPR",
+   "title": "Meet Colombia's fuzzy 'water guardians'",
+   "url": "https://www.npr.org/2026/11/24/nx-s1-6038806/colombia-water-plants-frailejons",
+   "date": "2026-11-24T10:00:00+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "'Urgent action' needed to protect lake",
+   "url": "https://www.bbc.co.uk/news/articles/cr78271e5j91o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-24T09:10:43+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Campaigners urge Albanese government to reject ‘climate bomb’ coalmine expansion after Cop31",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/24/campaigners-urge-albanese-government-to-reject-climate-bomb-coalmine-expansion-after-cop31",
+   "date": "2026-11-24T07:42:57+00:00",
+   "t": {}
+  },
+  {
+   "source": "NATURE",
+   "title": "Himalayan disasters demand biodiversity conservation across borders",
+   "url": "https://www.nature.com/articles/d41586-026-03825-2",
+   "date": "2026-11-24T00:00:00+00:00",
    "t": {}
   },
   {
@@ -37,118 +98,6 @@
    "url": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html",
    "date": "2026-11-23T20:52:48+00:00",
    "t": {}
-  },
-  {
-   "source": "NYTIMES",
-   "title": "COP31 Talks Collapse in Turkey in a Clash Over Fossil Fuels",
-   "url": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
-   "date": "2026-11-23T19:27:13+00:00",
-   "t": {
-    "pt": "Negociações COP31 fracassam na Turquia em conflito por causa de combustíveis fósseis",
-    "es": "Las conversaciones de la COP31 colapsan en Turquía en un enfrentamiento sobre los combustibles fósiles",
-    "it": "La COP31 parla di un collasso in Turchia a causa dello scontro sui combustibili fossili",
-    "zh": "COP31 谈判因化石燃料冲突在土耳其破裂",
-    "fr": "Les négociations de la COP31 échouent en Turquie suite à un affrontement sur les combustibles fossiles",
-    "ar": "انهيار محادثات COP31 في تركيا بسبب صراع حول الوقود الأحفوري",
-    "de": "COP31-Gespräche scheitern in der Türkei wegen Streit um fossile Brennstoffe",
-    "el": "Οι συνομιλίες COP31 καταρρέουν στην Τουρκία σε μια σύγκρουση για τα ορυκτά καύσιμα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Ben Jennings on the failure of Cop31 – cartoon",
-   "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/23/ben-jennings-failure-cop31-cartoon",
-   "date": "2026-11-23T18:32:07+00:00",
-   "t": {
-    "pt": "Ben Jennings sobre o fracasso de Cop31 – desenho animado",
-    "es": "Ben Jennings sobre el fracaso de Cop31 – caricatura",
-    "it": "Ben Jennings sul fallimento di Cop31 – vignetta",
-    "zh": "本·詹宁斯 (Ben Jennings) 谈《Cop31》的失败 – 漫画",
-    "fr": "Ben Jennings sur l'échec de la Cop31 – dessin animé",
-    "ar": "بن جينينغز يتحدث عن فشل Cop31 – كارتون",
-    "de": "Ben Jennings über das Scheitern von Cop31 – Cartoon",
-    "el": "Ο Μπεν Τζένινγκς για την αποτυχία του Cop31 – καρτούν"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "The Guardian view on Cop31: a just transition needs more than fine words | Editorial",
-   "url": "https://www.theguardian.com/commentisfree/2026/nov/23/the-guardian-view-on-cop31-a-just-transition-needs-more-than-fine-words",
-   "date": "2026-11-23T18:29:05+00:00",
-   "t": {
-    "pt": "A opinião do Guardian sobre a Cop31: uma transição justa precisa de mais do que palavras bonitas | Redação",
-    "es": "Opinión de The Guardian sobre la Cop31: una transición justa necesita más que buenas palabras | Redacción",
-    "it": "Il punto di vista del Guardian sulla Cop31: una transizione giusta ha bisogno di qualcosa di più delle belle parole | Editoriale",
-    "zh": "《卫报》对第 31 届缔约方大会的看法：公正的过渡需要的不仅仅是华丽的言辞 |社论",
-    "fr": "Le point de vue du Guardian sur la Cop31 : une transition juste nécessite plus que de belles paroles | Éditorial",
-    "ar": "وجهة نظر الغارديان بشأن Cop31: الانتقال العادل يحتاج إلى أكثر من مجرد كلمات جميلة | افتتاحية",
-    "de": "Die Sicht des Guardian zu Cop31: Ein gerechter Übergang braucht mehr als nur schöne Worte | Leitartikel",
-    "el": "Η άποψη του Guardian για το Cop31: μια δίκαιη μετάβαση χρειάζεται περισσότερα από ωραία λόγια | Συντακτική"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "‘Scapegoating’: green groups condemn plan to axe Environment Agency and Natural England",
-   "url": "https://www.theguardian.com/politics/2026/nov/23/natural-england-could-be-abolished-quango-cull-louise-haigh",
-   "date": "2026-11-23T17:47:58+00:00",
-   "t": {
-    "pt": "‘Bode expiatório’: grupos verdes condenam plano de cortar a Agência Ambiental e a Natural England",
-    "es": "'Chivo expiatorio': los grupos ecologistas condenan el plan para eliminar la Agencia de Medio Ambiente y Natural England",
-    "it": "“Capro espiatorio”: i gruppi verdi condannano il piano di tagliare l’Agenzia per l’ambiente e Natural England",
-    "zh": "“替罪羊”：绿色组织谴责削减环境署和自然英格兰的计划",
-    "fr": "« Bouc émissaire » : les groupes verts condamnent le projet de supprimer l’Environment Agency et Natural England",
-    "ar": "\"كبش الفداء\": المجموعات الخضراء تدين خطة إلغاء وكالة البيئة وهيئة إنجلترا الطبيعية",
-    "de": "„Sündenbock“: Grüne Gruppen verurteilen Plan, Environment Agency und Natural England zu streichen",
-    "el": "«Αποδιοπομπαίος τράγος»: οι πράσινες ομάδες καταδικάζουν το σχέδιο για την καταστροφή της Υπηρεσίας Περιβάλλοντος και της Φυσικής Αγγλίας"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "What failure of COP31 reveals about a divided world",
-   "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-23T17:24:25+00:00",
-   "t": {
-    "pt": "O que o fracasso da COP31 revela sobre um mundo dividido",
-    "es": "Lo que revela el fracaso de la COP31 sobre un mundo dividido",
-    "it": "Cosa rivela il fallimento della COP31 riguardo a un mondo diviso",
-    "zh": "COP31 的失败揭示了一个分裂的世界",
-    "fr": "Ce que l’échec de la COP31 révèle d’un monde divisé",
-    "ar": "ما الذي يكشفه فشل COP31 عن عالم منقسم؟",
-    "de": "Was das Scheitern der COP31 über eine geteilte Welt verrät",
-    "el": "Τι αποκαλύπτει η αποτυχία του COP31 για έναν διχασμένο κόσμο"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-   "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-23T17:07:25+00:00",
-   "t": {
-    "pt": "Ataques israelenses transformaram Gaza em um “deserto tóxico”, diz Oxfam",
-    "es": "Los ataques israelíes han convertido a Gaza en un \"páramo tóxico\", afirma Oxfam",
-    "it": "Gli attacchi israeliani hanno trasformato Gaza in una “terra desolata tossica”, afferma Oxfam",
-    "zh": "乐施会称以色列的袭击已将加沙变成“有毒荒地”",
-    "fr": "Les attaques israéliennes ont transformé Gaza en un « désert toxique », selon Oxfam",
-    "ar": "وتقول منظمة أوكسفام إن الهجمات الإسرائيلية حولت غزة إلى \"أرض قاحلة سامة\".",
-    "de": "Laut Oxfam haben israelische Angriffe Gaza in eine „giftige Einöde“ verwandelt",
-    "el": "Οι ισραηλινές επιθέσεις έχουν μετατρέψει τη Γάζα σε «τοξική ερημιά», λέει η Oxfam"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Village's concern over sewage discharge in dry river",
-   "url": "https://www.bbc.co.uk/news/articles/c60rkq78g05vo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-23T15:48:07+00:00",
-   "t": {
-    "pt": "Preocupação da vila com lançamento de esgoto em rio seco",
-    "es": "Preocupación de la aldea por la descarga de aguas residuales en un río seco",
-    "it": "Preoccupazione del villaggio per lo scarico delle acque reflue nel fiume in secca",
-    "zh": "村里对干河污水排放的担忧",
-    "fr": "Inquiétude du village concernant le rejet des eaux usées dans une rivière asséchée",
-    "ar": "قلق القرية من تصريف مياه الصرف الصحي في النهر الجاف",
-    "de": "Das Dorf ist besorgt über die Abwassereinleitung in einen ausgetrockneten Fluss",
-    "el": "Ανησυχία του χωριού για την απόρριψη λυμάτων σε ξηρό ποτάμι"
-   }
   },
   {
    "source": "DW",
@@ -180,22 +129,6 @@
     "ar": "يؤدي الجمود في مؤتمر الأطراف إلى دعوات لإعادة ضبط دبلوماسية المناخ",
     "de": "Der Stillstand bei der COP löst Forderungen nach einem Neustart der Klimadiplomatie aus",
     "el": "Το αδιέξοδο της COP προκαλεί εκκλήσεις για επαναφορά της διπλωματίας για το κλίμα"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Five takeaways from the failed climate talks COP31",
-   "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-23T06:33:50+00:00",
-   "t": {
-    "pt": "Cinco conclusões das fracassadas negociações climáticas COP31",
-    "es": "Cinco conclusiones de las fallidas conversaciones sobre el clima COP31",
-    "it": "Cinque punti salienti del fallimento dei negoziati sul clima COP31",
-    "zh": "COP31 气候谈判失败的五个要点",
-    "fr": "Cinq points à retenir de l’échec des négociations sur le climat COP31",
-    "ar": "خمس نصائح من محادثات المناخ الفاشلة COP31",
-    "de": "Fünf Erkenntnisse aus den gescheiterten Klimaverhandlungen COP31",
-    "el": "Πέντε συμπεράσματα από τις αποτυχημένες συνομιλίες για το κλίμα COP31"
    }
   },
   {
@@ -316,20 +249,6 @@
     "de": "COP31: Keine Einigung zur Klimawissenschaft, Verbreitung von Desinformation",
     "el": "COP31: Καμία συμφωνία για την επιστήμη του κλίματος, διάδοση παραπληροφόρησης"
    }
-  },
-  {
-   "source": "NATURE",
-   "title": "Net zero emissions won’t reverse climate change — some nations look to ‘net negative’",
-   "url": "https://www.nature.com/articles/d41586-026-03789-3",
-   "date": "2026-11-20T00:00:00+00:00",
-   "t": {}
-  },
-  {
-   "source": "NPR",
-   "title": "Researchers are studying how large storms spread microplastics in the environment",
-   "url": "https://www.npr.org/2026/11/18/nx-s1-6036678-e1/researchers-are-studying-how-large-storms-spread-microplastics-in-the-environment",
-   "date": "2026-11-18T22:02:15+00:00",
-   "t": {}
   }
  ]
 }
