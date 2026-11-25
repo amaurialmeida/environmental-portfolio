@@ -1,53 +1,88 @@
 {
- "updated": "2026-11-24T15:52:50.140589+00:00",
+ "updated": "2026-11-25T00:43:06.699092+00:00",
  "items": [
-  {
-   "source": "NYTIMES",
-   "title": "Army Will Detonate Ammunition Cache in Iowa on Wednesday",
-   "url": "https://www.nytimes.com/2026/11/23/climate/iowa-army-ammunition-explosion.html",
-   "date": "2026-11-24T15:08:47+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Outcry grows over UK plan to exempt most brownfield sites from nature protection rules",
-   "url": "https://www.theguardian.com/politics/2026/nov/24/outcry-uk-plans-to-exempt-brownfield-sites-nature-protection-rules",
-   "date": "2026-11-24T14:00:47+00:00",
-   "t": {}
-  },
   {
    "source": "NYTIMES",
    "title": "California King Tides Threaten ‘Extreme’ Coastal Flooding",
    "url": "https://www.nytimes.com/2026/11/24/weather/california-storm-king-tides-sf-la.html",
-   "date": "2026-11-24T13:36:41+00:00",
+   "date": "2026-11-25T00:17:58+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Coastal areas in England at risk of erosion to receive £11m in new funding",
+   "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+   "date": "2026-11-25T00:01:01+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
+   "url": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
+   "date": "2026-11-24T23:20:24+00:00",
+   "t": {}
+  },
+  {
+   "source": "NPR",
+   "title": "Oil slicks in the Strait of Hormuz are harming the environment",
+   "url": "https://www.npr.org/2026/11/24/nx-s1-6051361-e1/oil-slicks-in-the-strait-of-hormuz-are-harming-the-environment",
+   "date": "2026-11-24T22:52:50+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Climate scientists urge US lawmakers to vote no on sweeping permitting bill",
+   "url": "https://www.theguardian.com/us-news/2026/nov/24/climate-scientists-lawmakers-baaja",
+   "date": "2026-11-24T22:09:57+00:00",
    "t": {}
   },
   {
    "source": "NYTIMES",
    "title": "What to Know About the Planned Explosion in Middletown, Iowa",
    "url": "https://www.nytimes.com/2026/11/21/climate/what-to-know-about-the-planned-explosion-in-iowa.html",
-   "date": "2026-11-24T13:24:43+00:00",
+   "date": "2026-11-24T22:08:38+00:00",
    "t": {}
   },
   {
    "source": "GUARDIAN",
-   "title": "Summer heat deaths in 2026 reached record high of 5,258 in England",
-   "url": "https://www.theguardian.com/environment/2026/nov/24/summer-heat-deaths-record-high-england",
-   "date": "2026-11-24T12:39:50+00:00",
+   "title": "Iowa braces for controlled bomb blast: ‘We had only five days of warning’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/24/iowa-illinois-missouri-hazardous-bomb-explosion-blast-prep-thanksgiving",
+   "date": "2026-11-24T21:49:07+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Army’s Iowa Ammunition Plant Explosion on Schedule for Wednesday Morning",
+   "url": "https://www.nytimes.com/2026/11/24/climate/iowa-army-ammunition-plant-explostion.html",
+   "date": "2026-11-24T21:13:20+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Brazil doctor uses surfboard and sledgehammer in flood rescue",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/brazil-doctor-uses-surfboard-and-sledgehammer-in-flood-rescue?traffic_source=rss",
+   "date": "2026-11-24T20:58:41+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Iowa’s Toxic Explosion",
+   "url": "https://www.nytimes.com/2026/11/24/climate/iowas-toxic-explosion.html",
+   "date": "2026-11-24T20:11:35+00:00",
    "t": {}
   },
   {
    "source": "BBC",
    "title": "Badger cull ruled out by Welsh government after speculation",
    "url": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-24T12:01:32+00:00",
+   "date": "2026-11-24T16:47:05+00:00",
    "t": {}
   },
   {
-   "source": "GUARDIAN",
-   "title": "Their loss changed Appalachian forests for ever. Now the American chestnut is back",
-   "url": "https://www.theguardian.com/environment/2026/nov/24/american-chestnut-tree-restored-science-persistence-aoe",
-   "date": "2026-11-24T12:00:44+00:00",
+   "source": "BBC",
+   "title": "Record 5,200 heat-linked deaths estimated in England this year",
+   "url": "https://www.bbc.co.uk/news/articles/cq2e83egrez3o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-24T16:22:16+00:00",
    "t": {}
   },
   {
@@ -72,20 +107,6 @@
    "t": {}
   },
   {
-   "source": "BBC",
-   "title": "'Urgent action' needed to protect lake",
-   "url": "https://www.bbc.co.uk/news/articles/cr78271e5j91o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-24T09:10:43+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Campaigners urge Albanese government to reject ‘climate bomb’ coalmine expansion after Cop31",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/24/campaigners-urge-albanese-government-to-reject-climate-bomb-coalmine-expansion-after-cop31",
-   "date": "2026-11-24T07:42:57+00:00",
-   "t": {}
-  },
-  {
    "source": "NATURE",
    "title": "Himalayan disasters demand biodiversity conservation across borders",
    "url": "https://www.nature.com/articles/d41586-026-03825-2",
@@ -93,10 +114,10 @@
    "t": {}
   },
   {
-   "source": "NYTIMES",
-   "title": "The Army Rejected a Cleaner Option to Destroy Lead-Laced Explosives in Iowa",
-   "url": "https://www.nytimes.com/2026/11/21/climate/army-lead-azide-blast.html",
-   "date": "2026-11-23T20:52:48+00:00",
+   "source": "NATURE",
+   "title": "William D. Nordhaus obituary: economist whose tools transformed climate policy",
+   "url": "https://www.nature.com/articles/d41586-026-03847-w",
+   "date": "2026-11-24T00:00:00+00:00",
    "t": {}
   },
   {
@@ -133,7 +154,7 @@
   },
   {
    "source": "NATURE",
-   "title": "COP31 went down in flames over fossil fuels — it sends an important message",
+   "title": "COP31 went up in flames over fossil fuels — it sends an important message",
    "url": "https://www.nature.com/articles/d41586-026-03827-0",
    "date": "2026-11-23T00:00:00+00:00",
    "t": {}
@@ -152,22 +173,6 @@
     "ar": "ابنِ من أجل مناخ المستقبل – أو هدر تريليونات الدولارات",
     "de": "Bauen Sie für das Klima der Zukunft – oder verschwenden Sie Billionen Dollar",
     "el": "Κατασκευάστε για το μελλοντικό κλίμα — ή σπαταλήστε τρισεκατομμύρια δολάρια"
-   }
-  },
-  {
-   "source": "NATURE",
-   "title": "How to make climate anxiety your superpower",
-   "url": "https://www.nature.com/articles/d41586-026-03818-1",
-   "date": "2026-11-23T00:00:00+00:00",
-   "t": {
-    "pt": "Como fazer da ansiedade climática seu superpoder",
-    "es": "Cómo hacer de la ansiedad climática tu superpoder",
-    "it": "Come rendere l’ansia climatica il tuo superpotere",
-    "zh": "如何让气候焦虑成为你的超能力",
-    "fr": "Comment faire de l’anxiété climatique votre super pouvoir",
-    "ar": "كيفية جعل القلق المناخي قوتك العظمى",
-    "de": "So machen Sie Klimaangst zu Ihrer Supermacht",
-    "el": "Πώς να κάνετε το κλιματικό άγχος υπερδύναμή σας"
    }
   },
   {
@@ -216,38 +221,6 @@
     "ar": "قانون مجلس الشيوخ الذي يسمح بمشروع القانون يسرع مصادر الطاقة المتجددة ويقسم الخضر حول النفط والغاز",
     "de": "Der Senat genehmigt einen Gesetzesentwurf, der erneuerbare Energien vorantreibt, und spaltet die Grünen über Öl und Gas",
     "el": "Το νομοσχέδιο για τις αδειοδοτήσεις της Γερουσίας επιταχύνει τις ανανεώσιμες πηγές ενέργειας, διχάζει τους πράσινους για το πετρέλαιο και το φυσικό αέριο"
-   }
-  },
-  {
-   "source": "NPR",
-   "title": "Trump's impact on an Ohio steel plant",
-   "url": "https://www.npr.org/2026/11/20/nx-s1-5860971/trumps-impact-on-ohio-steel-plant",
-   "date": "2026-11-20T21:38:11+00:00",
-   "t": {
-    "pt": "O impacto de Trump em uma usina siderúrgica em Ohio",
-    "es": "El impacto de Trump en una planta siderúrgica de Ohio",
-    "it": "L'impatto di Trump su un'acciaieria dell'Ohio",
-    "zh": "特朗普对俄亥俄州钢铁厂的影响",
-    "fr": "L'impact de Trump sur une aciérie de l'Ohio",
-    "ar": "تأثير ترامب على مصنع للصلب في ولاية أوهايو",
-    "de": "Trumps Einfluss auf ein Stahlwerk in Ohio",
-    "el": "Ο αντίκτυπος του Τραμπ σε εργοστάσιο χάλυβα του Οχάιο"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "COP31: No agreement on climate science, disinformation spreading",
-   "url": "https://www.dw.com/en/cop31-no-agreement-on-climate-science-disinformation-spreading/a-80004894?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-20T20:34:00+00:00",
-   "t": {
-    "pt": "COP31: Não há acordo sobre ciência climática, disseminação de desinformação",
-    "es": "COP31: No hay acuerdo sobre ciencia climática, se propaga desinformación",
-    "it": "COP31: Nessun accordo sulla scienza del clima, diffusione della disinformazione",
-    "zh": "COP31：气候科学、虚假信息传播未达成一致",
-    "fr": "COP31 : Pas d’accord sur la science du climat, la désinformation se propage",
-    "ar": "COP31: لا اتفاق بشأن علوم المناخ وانتشار المعلومات المضللة",
-    "de": "COP31: Keine Einigung zur Klimawissenschaft, Verbreitung von Desinformation",
-    "el": "COP31: Καμία συμφωνία για την επιστήμη του κλίματος, διάδοση παραπληροφόρησης"
    }
   }
  ]
