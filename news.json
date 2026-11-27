@@ -1,82 +1,117 @@
 {
- "updated": "2026-11-27T15:02:41.046543+00:00",
+ "updated": "2026-11-27T23:27:10.639511+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
+   "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-27T22:29:46+00:00",
+   "t": {
+    "ar": "لا يزال مئات الآلاف بدون كهرباء بعد يوم من تعرض الولايات المتحدة لعواصف عيد الشكر",
+    "el": "Εκατοντάδες χιλιάδες εξακολουθούν να μένουν χωρίς ρεύμα μια μέρα μετά τις καταιγίδες των Ευχαριστιών στις ΗΠΑ"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+   "url": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-27T20:34:45+00:00",
+   "t": {
+    "ar": "ناقلة مقلوبة تحمل 7000 طن من الديزل سيتم سحبها بعيدًا عن إيبيزا",
+    "el": "Αναποδογυρισμένο δεξαμενόπλοιο που μετέφερε 7.000 τόνους ντίζελ θα ρυμουλκηθεί μακριά από την Ίμπιζα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "The US army just detonated a poison bomb over Iowa | Steven Donziger",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/27/army-lead-poison-bomb-iowa",
+   "date": "2026-11-27T19:30:18+00:00",
+   "t": {
+    "ar": "قام الجيش الأمريكي للتو بتفجير قنبلة سامة فوق ولاية أيوا | ستيفن دونزيجر",
+    "el": "Ο αμερικανικός στρατός μόλις πυροδότησε μια δηλητηριώδη βόμβα πάνω από την Αϊόβα | Στίβεν Ντόνζιγκερ"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "New satellite data shows how fast some African cities are sinking",
+   "url": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-27T19:03:18+00:00",
+   "t": {
+    "ar": "تظهر بيانات الأقمار الصناعية الجديدة مدى سرعة غرق بعض المدن الأفريقية",
+    "el": "Νέα δορυφορικά δεδομένα δείχνουν πόσο γρήγορα βυθίζονται ορισμένες αφρικανικές πόλεις"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Labour row over Rosebank deepens as dozens of MPs warn PM not to block oilfield",
+   "url": "https://www.theguardian.com/politics/2026/nov/27/rosebank-supporting-mps-warn-pm-blocking-the-oilfield-would-mean-lights-out-for-labour-in-scotland",
+   "date": "2026-11-27T17:39:10+00:00",
+   "t": {
+    "ar": "تفاقم الخلاف العمالي بشأن روزبانك حيث حذر عشرات النواب رئيس الوزراء من إغلاق حقل النفط",
+    "el": "Η εργατική διαμάχη για τη Rosebank βαθαίνει καθώς δεκάδες βουλευτές προειδοποιούν τον πρωθυπουργό να μην μπλοκάρει το πετρελαϊκό πεδίο"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
+   "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+   "date": "2026-11-27T17:21:18+00:00",
+   "t": {
+    "ar": "طلبت شركة جوجل وقف بناء مركز البيانات في بلجيكا بسبب عدم وجود تصريح التخطيط",
+    "el": "Η Google είπε να σταματήσει την κατασκευή κέντρου δεδομένων στο Βέλγιο λόγω έλλειψης πολεοδομικής άδειας"
+   }
+  },
+  {
+   "source": "BBC",
+   "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
+   "url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-27T16:46:47+00:00",
+   "t": {
+    "ar": "تسببت عواصف عيد الشكر الشديدة في غمر الطرق وتساقط الأشجار",
+    "el": "Σφοδρές καταιγίδες την ημέρα των Ευχαριστιών αφήνουν δρόμους πλημμυρισμένους και δέντρα πεσμένα"
+   }
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "British Gas owner seeks urgent government talks over future of storage facility",
+   "url": "https://www.theguardian.com/business/2026/nov/27/british-gas-owner-seeks-urgent-government-talks-gas-storage-faciity-future",
+   "date": "2026-11-27T15:56:31+00:00",
+   "t": {
+    "ar": "يسعى مالك شركة الغاز البريطانية إلى إجراء محادثات حكومية عاجلة بشأن مستقبل منشأة التخزين",
+    "de": "Der britische Gaseigentümer strebt dringend Gespräche mit der Regierung über die Zukunft der Speicheranlage an",
+    "el": "Ο ιδιοκτήτης της British Gas ζητά επείγουσες κυβερνητικές συνομιλίες για το μέλλον της εγκατάστασης αποθήκευσης"
+   }
+  },
+  {
+   "source": "NYTIMES",
+   "title": "Climate Talks Imploded, but the ‘Age of Electricity’ Rolls On, Energy Chief Says",
+   "url": "https://www.nytimes.com/2026/11/27/business/fatih-birol-iea-cop31-electrification.html",
+   "date": "2026-11-27T15:18:58+00:00",
+   "t": {
+    "ar": "محادثات المناخ انهارت، لكن \"عصر الكهرباء\" مستمر، كما يقول رئيس الطاقة",
+    "el": "Οι συνομιλίες για το κλίμα κατέρρευσαν, αλλά η «εποχή της ηλεκτρικής ενέργειας» προχωρά, λέει ο επικεφαλής ενέργειας"
+   }
+  },
   {
    "source": "DW",
    "title": "Arsenic in the water: Thailand presses Myanmar over mining pollution",
    "url": "https://www.dw.com/en/arsenic-in-the-water-thailand-presses-myanmar-over-mining-pollution/a-80074295?maca=en-rss-en-all-1573-rdf",
    "date": "2026-11-27T14:56:00+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
-   "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-27T14:49:59+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Jess Wilson’s plan for Melbourne sewage plants risks water and wetlands without bringing debt down, experts say",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/28/jess-wilson-melbourne-sewage-plants-privatisation-risks-water-and-wetlands",
-   "date": "2026-11-27T14:00:14+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "Rare turtles found inside baggage at Amsterdam airport",
-   "url": "https://www.bbc.co.uk/news/articles/cm5y1380q3vgo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-27T13:38:07+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "UK’s taste for cow’s milk sours as sales hit record low",
-   "url": "https://www.theguardian.com/food/2026/nov/27/britain-cows-milk-sales-record-low-oat-almond",
-   "date": "2026-11-27T13:32:07+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
-   "url": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
-   "date": "2026-11-27T10:50:48+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "‘I cannot go to work’: Iranians contend with pollution as well as US war",
-   "url": "https://www.aljazeera.com/economy/2026/11/27/i-cannot-go-to-work-iranians-contend-with-pollution-as-well-as-us-war?traffic_source=rss",
-   "date": "2026-11-27T10:15:44+00:00",
-   "t": {}
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Labour’s split over Rosebank oilfield exposed by letter from nearly 100 MPs",
-   "url": "https://www.theguardian.com/politics/2026/nov/26/labour-split-over-rosebank-oilfield-exposed-by-letter-from-nearly-100-mps",
-   "date": "2026-11-27T08:39:59+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "Floating nature islands installed in parks as Glasgow Games legacy",
-   "url": "https://www.bbc.co.uk/news/articles/cwe9kxdm1k4lo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-27T06:19:13+00:00",
-   "t": {}
-  },
-  {
-   "source": "BBC",
-   "title": "Council to set London's highest littering fines",
-   "url": "https://www.bbc.co.uk/news/articles/ckj0590g84nno?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-27T06:11:37+00:00",
-   "t": {}
+   "t": {
+    "ar": "الزرنيخ في الماء: تايلاند تضغط على ميانمار بسبب تلوث التعدين",
+    "de": "Arsen im Wasser: Thailand übt Druck auf Myanmar wegen Bergbauverschmutzung aus",
+    "el": "Αρσενικό στο νερό: Η Ταϊλάνδη πιέζει τη Μιανμάρ για τη ρύπανση των ορυχείων"
+   }
   },
   {
    "source": "NPR",
    "title": "A sweeping permitting reform bill is headed to the House. Critics want to stop it",
    "url": "https://www.npr.org/2026/11/26/nx-s1-6046134/a-sweeping-permitting-reform-bill-is-headed-to-the-house-critics-want-to-stop-it",
    "date": "2026-11-26T22:57:32+00:00",
-   "t": {}
+   "t": {
+    "de": "Dem Repräsentantenhaus wird ein umfassender Gesetzentwurf zur Genehmigung einer Reform vorgelegt. Kritiker wollen es stoppen",
+    "el": "Στη Βουλή κατατίθεται νομοσχέδιο μεταρρυθμίσεων σαρωτικών αδειών. Οι κριτικοί θέλουν να το σταματήσουν"
+   }
   },
   {
    "source": "NYTIMES",
@@ -156,22 +191,6 @@
     "ar": "يواجه إنسان الغاب مستقبلاً قاتماً بعد حرائق الغابات المدمرة في إندونيسيا",
     "de": "Nach den verheerenden Waldbränden in Indonesien steht den Orang-Utans eine düstere Zukunft bevor",
     "el": "Οι ουρακοτάγκοι αντιμετωπίζουν ζοφερό μέλλον μετά τις καταστροφικές πυρκαγιές της Ινδονησίας"
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "After Extraordinary Iowa Explosion, Officials and Scientists Assess Fallout Risks",
-   "url": "https://www.nytimes.com/2026/11/25/us/iowa-army-ammunition-blast.html",
-   "date": "2026-11-25T23:09:50+00:00",
-   "t": {
-    "pt": "Após a explosão extraordinária em Iowa, autoridades e cientistas avaliam os riscos de precipitação radioativa",
-    "es": "Después de una extraordinaria explosión en Iowa, funcionarios y científicos evalúan los riesgos de lluvia radiactiva",
-    "it": "Dopo la straordinaria esplosione in Iowa, funzionari e scienziati valutano i rischi di ricadute",
-    "zh": "爱荷华州发生非同寻常的爆炸后，官员和科学家评估了放射性尘埃风险",
-    "fr": "Après une explosion extraordinaire dans l'Iowa, les responsables et les scientifiques évaluent les risques de retombées",
-    "ar": "بعد الانفجار الاستثنائي في ولاية أيوا، يقوم المسؤولون والعلماء بتقييم مخاطر التداعيات",
-    "de": "Nach der außergewöhnlichen Explosion in Iowa bewerten Beamte und Wissenschaftler das Fallout-Risiko",
-    "el": "Μετά την έκτακτη έκρηξη στην Αϊόβα, αξιωματούχοι και επιστήμονες αξιολογούν τους κινδύνους Fallout"
    }
   },
   {
@@ -284,6 +303,16 @@
     "ar": "وزير أوغندي في COP31: \"نحن بحاجة إلى انتقال عادل\"",
     "de": "Uganda-Minister auf COP31: „Wir brauchen einen gerechten Übergang“",
     "el": "Υπουργός της Ουγκάντα στο COP31: «Χρειαζόμαστε μια δίκαιη μετάβαση»"
+   }
+  },
+  {
+   "source": "DW",
+   "title": "COP deadlock prompts calls for a reset of climate diplomacy",
+   "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-23T13:03:00+00:00",
+   "t": {
+    "de": "Der Stillstand bei der COP löst Forderungen nach einem Neustart der Klimadiplomatie aus",
+    "el": "Το αδιέξοδο της COP προκαλεί εκκλήσεις για επαναφορά της διπλωματίας για το κλίμα"
    }
   }
  ]
