@@ -1,11 +1,39 @@
 {
- "updated": "2026-11-27T23:27:10.639511+00:00",
+ "updated": "2026-11-28T07:44:04.816662+00:00",
  "items": [
+  {
+   "source": "BBC",
+   "title": "Viaduct gardens vision on show as group gets access",
+   "url": "https://www.bbc.co.uk/news/articles/cw4gnd2gkmzko?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-28T07:22:22+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "Stunted sprouts: heatwaves and drought take toll on festive vegetable",
+   "url": "https://www.theguardian.com/business/2026/nov/28/sprouts-smaller-than-usual-heatwaves-drought-festive-vegetable",
+   "date": "2026-11-28T06:00:34+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
+   "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
+   "date": "2026-11-28T04:57:32+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
+   "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+   "date": "2026-11-28T03:00:00+00:00",
+   "t": {}
+  },
   {
    "source": "BBC",
    "title": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
    "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-27T22:29:46+00:00",
+   "date": "2026-11-28T01:55:33+00:00",
    "t": {
     "ar": "لا يزال مئات الآلاف بدون كهرباء بعد يوم من تعرض الولايات المتحدة لعواصف عيد الشكر",
     "el": "Εκατοντάδες χιλιάδες εξακολουθούν να μένουν χωρίς ρεύμα μια μέρα μετά τις καταιγίδες των Ευχαριστιών στις ΗΠΑ"
@@ -59,27 +87,6 @@
    "t": {
     "ar": "طلبت شركة جوجل وقف بناء مركز البيانات في بلجيكا بسبب عدم وجود تصريح التخطيط",
     "el": "Η Google είπε να σταματήσει την κατασκευή κέντρου δεδομένων στο Βέλγιο λόγω έλλειψης πολεοδομικής άδειας"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
-   "url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-27T16:46:47+00:00",
-   "t": {
-    "ar": "تسببت عواصف عيد الشكر الشديدة في غمر الطرق وتساقط الأشجار",
-    "el": "Σφοδρές καταιγίδες την ημέρα των Ευχαριστιών αφήνουν δρόμους πλημμυρισμένους και δέντρα πεσμένα"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "British Gas owner seeks urgent government talks over future of storage facility",
-   "url": "https://www.theguardian.com/business/2026/nov/27/british-gas-owner-seeks-urgent-government-talks-gas-storage-faciity-future",
-   "date": "2026-11-27T15:56:31+00:00",
-   "t": {
-    "ar": "يسعى مالك شركة الغاز البريطانية إلى إجراء محادثات حكومية عاجلة بشأن مستقبل منشأة التخزين",
-    "de": "Der britische Gaseigentümer strebt dringend Gespräche mit der Regierung über die Zukunft der Speicheranlage an",
-    "el": "Ο ιδιοκτήτης της British Gas ζητά επείγουσες κυβερνητικές συνομιλίες για το μέλλον της εγκατάστασης αποθήκευσης"
    }
   },
   {
@@ -287,32 +294,6 @@
     "ar": "تمشي هذه الغزلان مسافة 300 ميل في السنة. السباق مستمر لإنقاذ هجرتهم",
     "de": "Diese Hirsche laufen 300 Meilen pro Jahr. Der Wettlauf um die Rettung ihrer Migration ist eröffnet",
     "el": "Αυτά τα ελάφια περπατούν 300 μίλια το χρόνο. Ο αγώνας είναι σε εξέλιξη για να σωθεί η μετανάστευση τους"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Uganda minister at COP31: 'We need a just transition'",
-   "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-23T13:18:00+00:00",
-   "t": {
-    "pt": "Ministro do Uganda na COP31: 'Precisamos de uma transição justa'",
-    "es": "Ministro de Uganda en la COP31: \"Necesitamos una transición justa\"",
-    "it": "Il ministro dell'Uganda alla COP31: 'Abbiamo bisogno di una transizione giusta'",
-    "zh": "乌干达部长在 COP31 上：“我们需要公正的过渡”",
-    "fr": "Ministre ougandais à la COP31 : « Nous avons besoin d’une transition juste »",
-    "ar": "وزير أوغندي في COP31: \"نحن بحاجة إلى انتقال عادل\"",
-    "de": "Uganda-Minister auf COP31: „Wir brauchen einen gerechten Übergang“",
-    "el": "Υπουργός της Ουγκάντα στο COP31: «Χρειαζόμαστε μια δίκαιη μετάβαση»"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "COP deadlock prompts calls for a reset of climate diplomacy",
-   "url": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-23T13:03:00+00:00",
-   "t": {
-    "de": "Der Stillstand bei der COP löst Forderungen nach einem Neustart der Klimadiplomatie aus",
-    "el": "Το αδιέξοδο της COP προκαλεί εκκλήσεις για επαναφορά της διπλωματίας για το κλίμα"
    }
   }
  ]
