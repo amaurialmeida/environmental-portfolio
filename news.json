@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-28T07:44:04.816662+00:00",
+ "updated": "2026-11-28T16:52:50.607065+00:00",
  "items": [
+  {
+   "source": "GUARDIAN",
+   "title": "Trump crackdown shatters US hopes for Guatemalans displaced by climate crisis",
+   "url": "https://www.theguardian.com/world/2026/nov/28/guatemala-climate-crisis-trump-deportation-crackdown",
+   "date": "2026-11-28T16:00:44+00:00",
+   "t": {}
+  },
+  {
+   "source": "NYTIMES",
+   "title": "California Cities Are Adding Extra Insurance Against El Niño",
+   "url": "https://www.nytimes.com/2026/11/28/climate/el-nino-floods-california-insurance.html",
+   "date": "2026-11-28T15:50:40+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "US environmental agency says no rise in contamination after Iowa detonation",
+   "url": "https://www.aljazeera.com/news/2026/11/28/us-environmental-agency-says-no-rise-in-contamination-after-iowa-detonation?traffic_source=rss",
+   "date": "2026-11-28T15:22:35+00:00",
+   "t": {}
+  },
+  {
+   "source": "DW",
+   "title": "AI-generated lawsuits flood German courts",
+   "url": "https://www.dw.com/en/ai-generated-lawsuits-flood-german-courts/a-80076247?maca=en-rss-en-all-1573-rdf",
+   "date": "2026-11-28T14:13:00+00:00",
+   "t": {}
+  },
+  {
+   "source": "GUARDIAN",
+   "title": "The picture-perfect California beach where visitors keep dying",
+   "url": "https://www.theguardian.com/us-news/2026/nov/28/california-panther-beach-danger",
+   "date": "2026-11-28T12:00:40+00:00",
+   "t": {}
+  },
+  {
+   "source": "AL JAZEERA",
+   "title": "The perfect storm behind Congo’s deadliest Ebola outbreak",
+   "url": "https://www.aljazeera.com/features/longform/2026/11/28/the-perfect-storm-behind-congos-deadliest-ebola-outbreak?traffic_source=rss",
+   "date": "2026-11-28T11:27:34+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "First hippo born at safari park in more than 40 years",
+   "url": "https://www.bbc.co.uk/news/videos/cm0qjlv9lelzo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-28T07:57:30+00:00",
+   "t": {}
+  },
+  {
+   "source": "BBC",
+   "title": "Tribute to farmer who 'saved rare cattle breed'",
+   "url": "https://www.bbc.co.uk/news/articles/cv0l36eeky32o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-11-28T07:44:51+00:00",
+   "t": {}
+  },
   {
    "source": "BBC",
    "title": "Viaduct gardens vision on show as group gets access",
@@ -16,20 +72,6 @@
    "t": {}
   },
   {
-   "source": "AL JAZEERA",
-   "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
-   "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
-   "date": "2026-11-28T04:57:32+00:00",
-   "t": {}
-  },
-  {
-   "source": "AL JAZEERA",
-   "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
-   "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
-   "date": "2026-11-28T03:00:00+00:00",
-   "t": {}
-  },
-  {
    "source": "BBC",
    "title": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
    "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
@@ -37,16 +79,6 @@
    "t": {
     "ar": "لا يزال مئات الآلاف بدون كهرباء بعد يوم من تعرض الولايات المتحدة لعواصف عيد الشكر",
     "el": "Εκατοντάδες χιλιάδες εξακολουθούν να μένουν χωρίς ρεύμα μια μέρα μετά τις καταιγίδες των Ευχαριστιών στις ΗΠΑ"
-   }
-  },
-  {
-   "source": "BBC",
-   "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
-   "url": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-27T20:34:45+00:00",
-   "t": {
-    "ar": "ناقلة مقلوبة تحمل 7000 طن من الديزل سيتم سحبها بعيدًا عن إيبيزا",
-    "el": "Αναποδογυρισμένο δεξαμενόπλοιο που μετέφερε 7.000 τόνους ντίζελ θα ρυμουλκηθεί μακριά από την Ίμπιζα"
    }
   },
   {
@@ -60,36 +92,6 @@
    }
   },
   {
-   "source": "BBC",
-   "title": "New satellite data shows how fast some African cities are sinking",
-   "url": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-11-27T19:03:18+00:00",
-   "t": {
-    "ar": "تظهر بيانات الأقمار الصناعية الجديدة مدى سرعة غرق بعض المدن الأفريقية",
-    "el": "Νέα δορυφορικά δεδομένα δείχνουν πόσο γρήγορα βυθίζονται ορισμένες αφρικανικές πόλεις"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Labour row over Rosebank deepens as dozens of MPs warn PM not to block oilfield",
-   "url": "https://www.theguardian.com/politics/2026/nov/27/rosebank-supporting-mps-warn-pm-blocking-the-oilfield-would-mean-lights-out-for-labour-in-scotland",
-   "date": "2026-11-27T17:39:10+00:00",
-   "t": {
-    "ar": "تفاقم الخلاف العمالي بشأن روزبانك حيث حذر عشرات النواب رئيس الوزراء من إغلاق حقل النفط",
-    "el": "Η εργατική διαμάχη για τη Rosebank βαθαίνει καθώς δεκάδες βουλευτές προειδοποιούν τον πρωθυπουργό να μην μπλοκάρει το πετρελαϊκό πεδίο"
-   }
-  },
-  {
-   "source": "GUARDIAN",
-   "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
-   "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
-   "date": "2026-11-27T17:21:18+00:00",
-   "t": {
-    "ar": "طلبت شركة جوجل وقف بناء مركز البيانات في بلجيكا بسبب عدم وجود تصريح التخطيط",
-    "el": "Η Google είπε να σταματήσει την κατασκευή κέντρου δεδομένων στο Βέλγιο λόγω έλλειψης πολεοδομικής άδειας"
-   }
-  },
-  {
    "source": "NYTIMES",
    "title": "Climate Talks Imploded, but the ‘Age of Electricity’ Rolls On, Energy Chief Says",
    "url": "https://www.nytimes.com/2026/11/27/business/fatih-birol-iea-cop31-electrification.html",
@@ -97,17 +99,6 @@
    "t": {
     "ar": "محادثات المناخ انهارت، لكن \"عصر الكهرباء\" مستمر، كما يقول رئيس الطاقة",
     "el": "Οι συνομιλίες για το κλίμα κατέρρευσαν, αλλά η «εποχή της ηλεκτρικής ενέργειας» προχωρά, λέει ο επικεφαλής ενέργειας"
-   }
-  },
-  {
-   "source": "DW",
-   "title": "Arsenic in the water: Thailand presses Myanmar over mining pollution",
-   "url": "https://www.dw.com/en/arsenic-in-the-water-thailand-presses-myanmar-over-mining-pollution/a-80074295?maca=en-rss-en-all-1573-rdf",
-   "date": "2026-11-27T14:56:00+00:00",
-   "t": {
-    "ar": "الزرنيخ في الماء: تايلاند تضغط على ميانمار بسبب تلوث التعدين",
-    "de": "Arsen im Wasser: Thailand übt Druck auf Myanmar wegen Bergbauverschmutzung aus",
-    "el": "Αρσενικό στο νερό: Η Ταϊλάνδη πιέζει τη Μιανμάρ για τη ρύπανση των ορυχείων"
    }
   },
   {
@@ -150,22 +141,6 @@
     "ar": "انفجار قادم إلى ولاية ايوا. ولا يستطيع السكان فعل شيء حيال ذلك.",
     "de": "In Iowa kommt es zu einer Explosion. Und die Bewohner können nichts dagegen tun.",
     "el": "Μια έκρηξη έρχεται στην Αϊόβα. Και οι κάτοικοι δεν μπορούν να κάνουν τίποτα γι 'αυτό."
-   }
-  },
-  {
-   "source": "NYTIMES",
-   "title": "How Birds With GPS and Audio Sensors Track Hidden Fishing Boats",
-   "url": "https://www.nytimes.com/2026/11/26/climate/seabirds-tracking-hidden-fishing-boats.html",
-   "date": "2026-11-26T10:04:05+00:00",
-   "t": {
-    "pt": "Como pássaros com GPS e sensores de áudio rastreiam barcos de pesca escondidos",
-    "es": "Cómo las aves con GPS y sensores de audio rastrean barcos de pesca ocultos",
-    "it": "Come gli uccelli con sensori GPS e audio tracciano le barche da pesca nascoste",
-    "zh": "带有 GPS 和音频传感器的鸟类如何追踪隐藏的渔船",
-    "fr": "Comment les oiseaux équipés de capteurs GPS et audio suivent les bateaux de pêche cachés",
-    "ar": "كيف تقوم الطيور باستخدام نظام تحديد المواقع وأجهزة الاستشعار الصوتية بتتبع قوارب الصيد المخفية",
-    "de": "Wie Vögel mit GPS und Audiosensoren versteckte Fischerboote verfolgen",
-    "el": "Πώς τα πουλιά με αισθητήρες GPS και ήχου παρακολουθούν κρυμμένα αλιευτικά σκάφη"
    }
   },
   {
